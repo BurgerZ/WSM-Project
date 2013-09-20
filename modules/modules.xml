@@ -8,8 +8,21 @@
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.advancedrebootmenu_v10_9125DE.apk</download> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.advancedrebootmenu_v10_9125de.apk</download> 
 		<md5sum>9125de2f647497ffa7d4c37c6a24ddc3</md5sum> 
+		<changelog html="true"></changelog> 
+	</version>
+  </module>
+  <module package="pro.burgerz.wsm.mods.t9" created="1379482141282" updated="1379482141282">
+	<name>T9 Module</name> 
+	<summary>Adds Reboot, Soft Reboot, Reboot to Recovery to power menu</summary> 
+	<description html="true">&lt;p&gt;Adds international contacts search to dialer.&lt;/p&gt;</description> 
+	<author>BurgerZ</author> 
+	<version>
+		<name>1.0</name> 
+		<code>10</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.t9_v10_e36571.apk</download> 
+		<md5sum>e365719b60e8e86d580dba055fe8b0a1</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
   </module>
