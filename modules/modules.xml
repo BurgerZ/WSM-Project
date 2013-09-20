@@ -78,4 +78,17 @@
 		<changelog html="true"></changelog> 
 	</version>
   </module>
+  <module package="pro.burgerz.wsm.mods.yellowpagesmodule" created="1379482206606" updated="1379482206606">
+	<name>YellowPage</name> 
+	<summary>Disables updates for yellow pages</summary> 
+	<description html="true">&lt;p&gt;Disables updates for yellow pages&lt;/p&gt;</description> 
+	<author>BurgerZ</author> 
+	<version>
+		<name>1.0</name> 
+		<code>10</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.yellowpagesmodule_v10_9d5d17.apk</download> 
+		<md5sum>9d5d17269a548a6b3de5a7cadea97ff1</md5sum> 
+		<changelog html="true"></changelog> 
+	</version>
+  </module>
 </repository>
