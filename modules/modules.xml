@@ -130,4 +130,17 @@
 		<changelog html="true"></changelog> 
 	</version>
   </module>
+  <module package="pro.burgerz.wsm.mods.alarmtimefix" created="1379569624658" updated="1379569624658">
+	<name>AlarmTime fix</name> 
+	<summary>Fix for 5 minutes time shift for third-party alarms</summary> 
+	<description html="true">&lt;p&gt;Fix for 5 minutes time shift for third-party alarms&lt;/p&gt;</description> 
+	<author>BurgerZ</author> 
+	<version>
+		<name>1.0</name> 
+		<code>10</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.alarmtimefix_v10_e2a18b.apk</download> 
+		<md5sum>e2a18b11ba2f551d41a1418aa220b21c</md5sum> 
+		<changelog html="true"></changelog> 
+	</version>
+  </module>
 </repository>
