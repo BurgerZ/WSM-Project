@@ -91,4 +91,17 @@
 		<changelog html="true"></changelog> 
 	</version>
   </module>
+  <module package="pro.burgerz.wsm.mods.themeauthorization" created="1379482164093" updated="1379482164093">
+	<name>Themes authorization</name> 
+	<summary>Themes authorization system bypass</summary> 
+	<description html="true">&lt;p&gt;Themes authorization system bypass (just import your theme without authorization request)&lt;/p&gt;</description> 
+	<author>BurgerZ</author> 
+	<version>
+		<name>1.0</name> 
+		<code>10</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.themeauthorization_v10_0cb810.apk</download> 
+		<md5sum>0cb81090e06e8bca045eb81e7e761dbf</md5sum> 
+		<changelog html="true"></changelog> 
+	</version>
+  </module>
 </repository>
