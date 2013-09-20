@@ -143,4 +143,18 @@
 		<changelog html="true"></changelog> 
 	</version>
   </module>
+  <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1379674445">
+	<name>WSM tools</name> 
+	<summary>This is the installer and manager for the WSM framework, which is a requirement for all modules</summary> 
+	<description html="true">&lt;p&gt;This is the installer for the Xposed framework, which is a requirement for all modules.&lt;/p&gt;&lt;p&gt;This framework is based on rovo89\'s Xposed framework. As an original project it is a framework for modules that can change the behavior of the system and apps without touching any APKs&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note that this only works with root access on Android 4.0.3 or later.&lt;/b&gt;&lt;/p&gt;</description> 
+	<author>BurgerZ</author> 
+	<version>
+		<name>1.2.4</name> 
+		<code>124</code>
+		<branch>beta</branch>
+		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v124_9c999.apk</download> 
+		<md5sum>9c9994cd9676a8a00c8c51e4ba6f310d</md5sum> 
+		<changelog html="true"></changelog> 
+	</version>
+  </module>
 </repository>
