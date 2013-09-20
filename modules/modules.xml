@@ -1,6 +1,6 @@
 <repository>
   <name>Main repository</name>
-  <module package="pro.burgerz.wsm.mods.advancedrebootmenu" created="1379425302474" updated="1379425302474">
+  <module package="pro.burgerz.wsm.mods.advancedrebootmenu" created="1379425302" updated="1379425302">
 	<name>Reboot Options</name> 
 	<summary>Adds Reboot, Soft Reboot, Reboot to Recovery to power menu</summary> 
 	<description html="true">&lt;p&gt;Adds Reboot, Soft Reboot, Reboot to Recovery to power menu.&lt;/p&gt;&lt;li&gt;Common reboot&lt;/li&gt;&lt;li&gt;Hot reboot&lt;/li&gt;&lt;li&gt;Reboot to Recovery&lt;/li&gt;&lt;li&gt;Reboot to Bootloader&lt;/li&gt;</description> 
@@ -13,7 +13,7 @@
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.t9" created="1379482141282" updated="1379482141282">
+  <module package="pro.burgerz.wsm.mods.t9" created="1379482141" updated="1379482141">
 	<name>T9 Module</name> 
 	<summary>Adds international contacts search to dialer.</summary> 
 	<description html="true">&lt;p&gt;Adds international contacts search to dialer.&lt;/p&gt;</description> 
@@ -26,7 +26,7 @@
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.mmsfestival" created="1379501573829" updated="1379501573829">
+  <module package="pro.burgerz.wsm.mods.mmsfestival" created="1379501573" updated="1379501573">
 	<name>MMS Festival</name> 
 	<summary>MMS festival url replacement to miui.su (Russian)</summary> 
 	<description html="true">&lt;p&gt;MMS festival url replacement to miui.su (Russian).&lt;/p&gt;</description> 
@@ -39,7 +39,7 @@
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.holidaysmodule" created="1379482092092" updated="1379482092092">
+  <module package="pro.burgerz.wsm.mods.holidaysmodule" created="1379482092" updated="1379482092">
 	<name>Holidays</name> 
 	<summary>Russian, Ukrainian holidays for calendar and alarm</summary> 
 	<description html="true">&lt;p&gt;Russian, Ukrainian holidays for calendar and alarm&lt;/p&gt;</description> 
@@ -52,7 +52,7 @@
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.extrabatteryinfo" created="1379598458071" updated="1379598458071">
+  <module package="pro.burgerz.wsm.mods.extrabatteryinfo" created="1379598458" updated="1379598458">
 	<name>Extra Battery info</name> 
 	<summary>Adds extra battery info to battery settings</summary> 
 	<description html="true">&lt;p&gt;Adds extra battery info to battery settings&lt;/p&gt;</description> 
@@ -65,7 +65,7 @@
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.unitsmodule" created="1379482188677" updated="1379482188677">
+  <module package="pro.burgerz.wsm.mods.unitsmodule" created="1379482188" updated="1379482188">
 	<name>Units</name> 
 	<summary>Measure units for different languages (Mb, Gb etc.)</summary> 
 	<description html="true">&lt;p&gt;Measure units for different languages (Mb, Gb etc.)&lt;/p&gt;</description> 
@@ -78,7 +78,7 @@
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.yellowpagesmodule" created="1379482206606" updated="1379482206606">
+  <module package="pro.burgerz.wsm.mods.yellowpagesmodule" created="1379482206" updated="1379482206">
 	<name>YellowPage</name> 
 	<summary>Disables updates for yellow pages</summary> 
 	<description html="true">&lt;p&gt;Disables updates for yellow pages&lt;/p&gt;</description> 
@@ -91,7 +91,7 @@
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.themeauthorization" created="1379482164093" updated="1379482164093">
+  <module package="pro.burgerz.wsm.mods.themeauthorization" created="1379482164" updated="1379482164">
 	<name>Themes authorization</name> 
 	<summary>Themes authorization system bypass</summary> 
 	<description html="true">&lt;p&gt;Themes authorization system bypass (just import your theme without authorization request)&lt;/p&gt;</description> 
@@ -104,7 +104,7 @@
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.mmsautoorientation" created="1379498143484" updated="1379498143484">
+  <module package="pro.burgerz.wsm.mods.mmsautoorientation" created="1379498143" updated="1379498143">
 	<name>MMS orientation fix</name> 
 	<summary>MMS application orientation fix</summary> 
 	<description html="true">&lt;p&gt;MMS application orientation fix&lt;/p&gt;</description> 
@@ -117,7 +117,7 @@
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.browserautofit" created="1379482046998" updated="1379482046998">
+  <module package="pro.burgerz.wsm.mods.browserautofit" created="1379482046" updated="1379482046">
 	<name>Browser Autofit</name> 
 	<summary>Adds autofit pages option to general browser settings</summary> 
 	<description html="true">&lt;p&gt;Adds autofit pages option to general browser settings&lt;/p&gt;</description> 
@@ -130,7 +130,7 @@
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.alarmtimefix" created="1379569624658" updated="1379569624658">
+  <module package="pro.burgerz.wsm.mods.alarmtimefix" created="1379569624" updated="1379569624">
 	<name>AlarmTime fix</name> 
 	<summary>Fix for 5 minutes time shift for third-party alarms</summary> 
 	<description html="true">&lt;p&gt;Fix for 5 minutes time shift for third-party alarms&lt;/p&gt;</description> 
