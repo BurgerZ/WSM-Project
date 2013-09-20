@@ -3,7 +3,7 @@
   <module package="pro.burgerz.wsm.mods.advancedrebootmenu" created="1371235899" updated="1374777848">
   <name>Reboot Options</name> 
   <summary>Adds Reboot, Soft Reboot, Reboot to Recovery to power menu</summary> 
-  <description html="true"><p>Adds Reboot, Soft Reboot, Reboot to Recovery to power menu.</p> <li>Common reboot</li> <li>Hot reboot</li> <li>Reboot to Recovery</li> <li>Reboot to Bootloader</li></description> 
+  <description html="true"><p>Adds Reboot, Soft Reboot, Reboot to Recovery to power menu.<br /> <li>Common reboot</li> <li>Hot reboot</li> <li>Reboot to Recovery</li> <li>Reboot to Bootloader</li></p></description> 
   <author>BurgerZ</author> 
  <version>
   <name>1.0</name> 
