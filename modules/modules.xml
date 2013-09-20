@@ -65,4 +65,17 @@
 		<changelog html="true"></changelog> 
 	</version>
   </module>
+  <module package="pro.burgerz.wsm.mods.unitsmodule" created="1379482188677" updated="1379482188677">
+	<name>Units</name> 
+	<summary>Measure units for different languages (Mb, Gb etc.)</summary> 
+	<description html="true">&lt;p&gt;Measure units for different languages (Mb, Gb etc.)&lt;/p&gt;</description> 
+	<author>BurgerZ</author> 
+	<version>
+		<name>1.0</name> 
+		<code>3</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.unitsmodule_v3_bd3ec2.apk</download> 
+		<md5sum>bd3ec2d1b461ca9a8455791414596883</md5sum> 
+		<changelog html="true"></changelog> 
+	</version>
+  </module>
 </repository>
