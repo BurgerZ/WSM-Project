@@ -117,4 +117,17 @@
 		<changelog html="true"></changelog> 
 	</version>
   </module>
+  <module package="pro.burgerz.wsm.mods.browserautofit" created="1379482046998" updated="1379482046998">
+	<name>Browser Autofit</name> 
+	<summary>Adds autofit pages option to general browser settings</summary> 
+	<description html="true">&lt;p&gt;Adds autofit pages option to general browser settings&lt;/p&gt;</description> 
+	<author>BurgerZ</author> 
+	<version>
+		<name>1.0</name> 
+		<code>10</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.browserautofit_v10_3e6923.apk</download> 
+		<md5sum>3e6923d0f07e8f9fc87354bb40fdcb37</md5sum> 
+		<changelog html="true"></changelog> 
+	</version>
+  </module>
 </repository>
