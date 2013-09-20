@@ -104,4 +104,17 @@
 		<changelog html="true"></changelog> 
 	</version>
   </module>
+  <module package="pro.burgerz.wsm.mods.mmsautoorientation" created="1379498143484" updated="1379498143484">
+	<name>MMS orientation fix</name> 
+	<summary>MMS application orientation fix</summary> 
+	<description html="true">&lt;p&gt;MMS application orientation fix&lt;/p&gt;</description> 
+	<author>BurgerZ</author> 
+	<version>
+		<name>1.0</name> 
+		<code>10</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.mmsautoorientation_v10_f3ad18.apk</download> 
+		<md5sum>f3ad18843256b515dd86dbdbe4cce1e1</md5sum> 
+		<changelog html="true"></changelog> 
+	</version>
+  </module>
 </repository>
