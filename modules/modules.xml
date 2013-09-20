@@ -15,7 +15,7 @@
   </module>
   <module package="pro.burgerz.wsm.mods.t9" created="1379482141282" updated="1379482141282">
 	<name>T9 Module</name> 
-	<summary>Adds Reboot, Soft Reboot, Reboot to Recovery to power menu</summary> 
+	<summary>Adds international contacts search to dialer.</summary> 
 	<description html="true">&lt;p&gt;Adds international contacts search to dialer.&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
 	<version>
@@ -23,6 +23,19 @@
 		<code>10</code> 
 		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.t9_v10_e36571.apk</download> 
 		<md5sum>e365719b60e8e86d580dba055fe8b0a1</md5sum> 
+		<changelog html="true"></changelog> 
+	</version>
+  </module>
+  <module package="pro.burgerz.wsm.mods.mmsfestival" created="1379501573829" updated="1379501573829">
+	<name>MMS Festival</name> 
+	<summary>MMS festival url replacement to miui.su (Russian)</summary> 
+	<description html="true">&lt;p&gt;MMS festival url replacement to miui.su (Russian).&lt;/p&gt;</description> 
+	<author>BurgerZ</author> 
+	<version>
+		<name>1.0</name> 
+		<code>10</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.mmsfestival_v10_aecaff.apk</download> 
+		<md5sum>aecaff79f5a9bdb700aa8f6fa429b5ed</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
   </module>
