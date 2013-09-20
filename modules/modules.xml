@@ -52,4 +52,17 @@
 		<changelog html="true"></changelog> 
 	</version>
   </module>
+  <module package="pro.burgerz.wsm.mods.extrabatteryinfo" created="1379598458071" updated="1379598458071">
+	<name>Extra Battery info</name> 
+	<summary>Adds extra battery info to battery settings</summary> 
+	<description html="true">&lt;p&gt;Adds extra battery info to battery settings&lt;/p&gt;</description> 
+	<author>BurgerZ</author> 
+	<version>
+		<name>1.0</name> 
+		<code>10</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.extrabatteryinfo_v10_431cc1.apk</download> 
+		<md5sum>431cc133de9ec5bf59d8cf4614970fc0</md5sum> 
+		<changelog html="true"></changelog> 
+	</version>
+  </module>
 </repository>
