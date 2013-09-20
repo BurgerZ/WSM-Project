@@ -39,4 +39,17 @@
 		<changelog html="true"></changelog> 
 	</version>
   </module>
+  <module package="pro.burgerz.wsm.mods.holidaysmodule" created="1379482092092" updated="1379482092092">
+	<name>Holidays</name> 
+	<summary>Russian, Ukrainian holidays for calendar and alarm</summary> 
+	<description html="true">&lt;p&gt;Russian, Ukrainian holidays for calendar and alarm&lt;/p&gt;</description> 
+	<author>BurgerZ</author> 
+	<version>
+		<name>1.0</name> 
+		<code>10</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.holidaysmodule_v10_4ae2bc.apk</download> 
+		<md5sum>4ae2bc0779f9b9a5633366a4425a8162</md5sum> 
+		<changelog html="true"></changelog> 
+	</version>
+  </module>
 </repository>
