@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Browser Autofit</string>
+    <string name="module_desc">Мобильный вид в браузере</string>
+    <string name="module_desc_full">Добавляет пункт "Мобильный вид" в основные настройки браузера. Данная функция позволяет подстраивать текст на веб-страницах под ширину экрана в зависимости от размера шрифта.</string>
+</resources>

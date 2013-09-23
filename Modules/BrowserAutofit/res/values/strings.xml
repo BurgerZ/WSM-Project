@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Browser Autofit</string>
+    <string name="module_desc">Browser pages autofit</string>
+    <string name="module_desc_full">Adds "Mobile View" to the General browser settings. This feature allows you to adjust the text on Web pages to fit the width of the screen depending on the page font size.</string>
+</resources>
