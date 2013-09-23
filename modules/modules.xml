@@ -150,20 +150,20 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<description html="true">&lt;p&gt;This is the installer for the Xposed framework, which is a requirement for all modules.&lt;/p&gt;&lt;p&gt;This framework is based on rovo89\'s Xposed framework. Like an original project it is a framework for modules that can change the behavior of the system and apps without touching any APKs&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note that this only works with root access on Android 4.0.3 or later.&lt;/b&gt;&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
 	<version>
-		<name>1.2.4</name> 
-		<code>124</code>
-		<branch>beta</branch>
-		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v124_9c999.apk</download> 
-		<md5sum>9c9994cd9676a8a00c8c51e4ba6f310d</md5sum> 
-		<changelog html="true"></changelog> 
-	</version>
-	<version>
 		<name>1.2.5</name> 
 		<code>125</code>
 		<branch>beta</branch>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v125_605da6.apk</download> 
 		<md5sum>605da64b278829a7f38ddebdb573b364</md5sum> 
 		<changelog html="true">&lt;p&gt;Added redirect users to installer activity if no framework installed&lt;/p&gt;</changelog> 
+	</version>
+	<version>
+		<name>1.2.4</name> 
+		<code>124</code>
+		<branch>beta</branch>
+		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v124_9c999.apk</download> 
+		<md5sum>9c9994cd9676a8a00c8c51e4ba6f310d</md5sum> 
+		<changelog html="true"></changelog> 
 	</version>
   </module>
 </repository>
