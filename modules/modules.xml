@@ -1,6 +1,6 @@
 <repository>
   <name>Main repository</name>
-  <module package="pro.burgerz.wsm.mods.advancedrebootmenu" created="1379425302" updated="1379425302">
+  <module package="pro.burgerz.wsm.mods.advancedrebootmenu" created="1379425302" updated="1379913804">
 	<name>Reboot Options</name> 
 	<summary>Adds Reboot, Soft Reboot, Reboot to Recovery to power menu</summary> 
 	<description html="true">&lt;p&gt;Adds Reboot, Soft Reboot, Reboot to Recovery to power menu.&lt;/p&gt;&lt;li&gt;Common reboot&lt;/li&gt;&lt;li&gt;Hot reboot&lt;/li&gt;&lt;li&gt;Reboot to Recovery&lt;/li&gt;&lt;li&gt;Reboot to Bootloader&lt;/li&gt;</description> 
@@ -8,47 +8,48 @@
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.advancedrebootmenu_v10_9125de.apk</download> 
-		<md5sum>9125de2f647497ffa7d4c37c6a24ddc3</md5sum> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.advancedrebootmenu_v10_48d86d.apk</download> 
+		<md5sum>48d86d88599d108c5aab369a370fd0af</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.t9" created="1379482141" updated="1379482141">
+  <module package="pro.burgerz.wsm.mods.t9" created="1379482141" updated="1379912647">
 	<name>T9 Module</name> 
 	<summary>Adds international contacts search to dialer.</summary> 
-	<description html="true">&lt;p&gt;Adds international contacts search to dialer.&lt;/p&gt;</description> 
+	<description html="true">&lt;p&gt;Adds international contacts (and service numbers) search to dialer. After activating rebuild T9 index in Contacts application settings&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.t9_v10_e36571.apk</download> 
-		<md5sum>e365719b60e8e86d580dba055fe8b0a1</md5sum> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.t9_v10_790a02.apk</download> 
+		<md5sum>790a028d4564bf38ea61e22a097960bd</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.mmsfestival" created="1379501573" updated="1379501573">
+  <module package="pro.burgerz.wsm.mods.mmsfestival" created="1379501573" updated="1379914703">
 	<name>MMS Festival</name> 
-	<summary>MMS festival url replacement to miui.su (Russian)</summary> 
-	<description html="true">&lt;p&gt;MMS festival url replacement to miui.su (Russian).&lt;/p&gt;</description> 
+	<summary>Russian SMS festival</summary> 
+	<description html="true">&lt;p&gt;Replaces the Chinese online database of SMS-congratulations to Russian server miui.su.&lt;br /&gt;
+If the tab "Pre-written" is missing, it must be enabled in MMS application settings, you can update content by pressing "Menu" - "Update"&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.mmsfestival_v10_aecaff.apk</download> 
-		<md5sum>aecaff79f5a9bdb700aa8f6fa429b5ed</md5sum> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.mmsfestival_v10_dd1f70.apk</download> 
+		<md5sum>dd1f704eb2a7f9966dba85fb70cb2d9a</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.holidaysmodule" created="1379482092" updated="1379482092">
+  <module package="pro.burgerz.wsm.mods.holidaysmodule" created="1379482092" updated="1379915406">
 	<name>Holidays</name> 
 	<summary>Russian, Ukrainian holidays for calendar and alarm</summary> 
-	<description html="true">&lt;p&gt;Russian, Ukrainian holidays for calendar and alarm&lt;/p&gt;</description> 
+	<description html="true">&lt;p&gt;Adds the ability to select the settings of holidays in calendar.&lt;/p&gt;&lt;br&gt;Available holidays:&lt;/br&gt;&lt;br /&gt;&lt;li&gt;Original (Chinese)&lt;/li&gt;&lt;li&gt;Russian (romz.bz)&lt;/li&gt;&lt;li&gt;Ukrainian (romz.bz)&lt;/li&gt;</description> 
 	<author>BurgerZ</author> 
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.holidaysmodule_v10_4ae2bc.apk</download> 
-		<md5sum>4ae2bc0779f9b9a5633366a4425a8162</md5sum> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.holidaysmodule_v10_687b26.apk</download> 
+		<md5sum>687b2666220c1952ad3628d95d5921de</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
   </module>
@@ -65,88 +66,88 @@
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.unitsmodule" created="1379482188" updated="1379482188">
+  <module package="pro.burgerz.wsm.mods.unitsmodule" created="1379482188" updated="1379915176">
 	<name>Units</name> 
 	<summary>Measure units for different languages (Mb, Gb etc.)</summary> 
-	<description html="true">&lt;p&gt;Measure units for different languages (Mb, Gb etc.)&lt;/p&gt;</description> 
+	<description html="true">&lt;p&gt;Allows you to change the measure units depending on the system language.&lt;/p&gt;&lt;li&gt;Status bar: network speed (K/s, m/s)&lt;/li&gt;&lt;li&gt;Task manager: freed, available memory (MB, GB)&lt;/li&gt;</description> 
 	<author>BurgerZ</author> 
 	<version>
 		<name>1.0</name> 
 		<code>3</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.unitsmodule_v3_bd3ec2.apk</download> 
-		<md5sum>bd3ec2d1b461ca9a8455791414596883</md5sum> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.unitsmodule_v3_9b89b8.apk</download> 
+		<md5sum>9b89b8c853acff31fd4995f3a12d832e</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.yellowpagesmodule" created="1379482206" updated="1379482206">
+  <module package="pro.burgerz.wsm.mods.yellowpagesmodule" created="1379482206" updated="1379914927">
 	<name>YellowPage</name> 
-	<summary>Disables updates for yellow pages</summary> 
-	<description html="true">&lt;p&gt;Disables updates for yellow pages&lt;/p&gt;</description> 
+	<summary>Local YellowPage database</summary> 
+	<description html="true">&lt;p&gt;Blocks updates of the Yellow Pages database from Chinese server and adds the ability to "Mark" unknown contacts.&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.yellowpagesmodule_v10_9d5d17.apk</download> 
-		<md5sum>9d5d17269a548a6b3de5a7cadea97ff1</md5sum> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.yellowpagesmodule_v10_adc285.apk</download> 
+		<md5sum>adc285a3d8865a3b2031c8564498fa49</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.themeauthorization" created="1379482164" updated="1379482164">
-	<name>Themes authorization</name> 
+  <module package="pro.burgerz.wsm.mods.themeauthorization" created="1379482164" updated="1379913163">
+	<name>Themes Authorization</name> 
 	<summary>Themes authorization system bypass</summary> 
-	<description html="true">&lt;p&gt;Themes authorization system bypass (just import your theme without authorization request)&lt;/p&gt;</description> 
+	<description html="true">&lt;p&gt;Allows you to use any MIUI theme, including paid, downloaded from third-party resources, without authorization checks, even with a disabled internet.&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.themeauthorization_v10_0cb810.apk</download> 
-		<md5sum>0cb81090e06e8bca045eb81e7e761dbf</md5sum> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.themeauthorization_v10_91951e.apk</download> 
+		<md5sum>91951e75e6e6d359ac5866a51e65b68c</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.mmsautoorientation" created="1379498143" updated="1379498143">
-	<name>MMS orientation fix</name> 
-	<summary>MMS application orientation fix</summary> 
-	<description html="true">&lt;p&gt;MMS application orientation fix&lt;/p&gt;</description> 
+  <module package="pro.burgerz.wsm.mods.mmsautoorientation" created="1379498143" updated="1379913387">
+	<name>MMS Rotation</name> 
+	<summary>Landscape orientation in SMS/MMS application</summary> 
+	<description html="true">&lt;p&gt;Adds the ability to view and write SMS/MMS messages in landscape mode. To make it work go to the device screen settings and activate "Auto-rotate screen" option.&lt;/p&gt;&lt;br&gt;On some devices may not be displayed correctly.&lt;/br&gt;</description> 
 	<author>BurgerZ</author> 
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.mmsautoorientation_v10_f3ad18.apk</download> 
-		<md5sum>f3ad18843256b515dd86dbdbe4cce1e1</md5sum> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.mmsautoorientation_v10_e9ed8c.apk</download> 
+		<md5sum>e9ed8c5ed6c9d65ced0b1452195f7ac2</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.browserautofit" created="1379482046" updated="1379482046">
+  <module package="pro.burgerz.wsm.mods.browserautofit" created="1379482046" updated="1379915597">
 	<name>Browser Autofit</name> 
-	<summary>Adds autofit pages option to general browser settings</summary> 
-	<description html="true">&lt;p&gt;Adds autofit pages option to general browser settings&lt;/p&gt;</description> 
+	<summary>Browser pages autofit</summary> 
+	<description html="true">&lt;p&gt;Adds "Mobile View" to the General browser settings. This feature allows you to adjust the text on Web pages to fit the width of the screen depending on the page font size.&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.browserautofit_v10_3e6923.apk</download> 
-		<md5sum>3e6923d0f07e8f9fc87354bb40fdcb37</md5sum> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.browserautofit_v10_7ac0f9.apk</download> 
+		<md5sum>7ac0f9327c15026f0d481ec056b24b18</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.alarmtimefix" created="1379569624" updated="1379569624">
+  <module package="pro.burgerz.wsm.mods.alarmtimefix" created="1379569624" updated="1379915947">
 	<name>AlarmTime fix</name> 
-	<summary>Fix for 5 minutes time shift for third-party alarms</summary> 
-	<description html="true">&lt;p&gt;Fix for 5 minutes time shift for third-party alarms&lt;/p&gt;</description> 
+	<summary>Fix for third-party alarms</summary> 
+	<description html="true">&lt;p&gt;Fixes rounding response time to 5 minutes for third-party alarm clocks.&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.alarmtimefix_v10_e2a18b.apk</download> 
-		<md5sum>e2a18b11ba2f551d41a1418aa220b21c</md5sum> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.alarmtimefix_v10_934188.apk</download> 
+		<md5sum>9341881cb4eb6cebac2ce293bdf9d3c1</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
   </module>
   <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1379674445">
 	<name>WSM tools</name> 
 	<summary>This is the installer and manager for the WSM framework, which is a requirement for all modules</summary> 
-	<description html="true">&lt;p&gt;This is the installer for the Xposed framework, which is a requirement for all modules.&lt;/p&gt;&lt;p&gt;This framework is based on rovo89\'s Xposed framework. As an original project it is a framework for modules that can change the behavior of the system and apps without touching any APKs&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note that this only works with root access on Android 4.0.3 or later.&lt;/b&gt;&lt;/p&gt;</description> 
+	<description html="true">&lt;p&gt;This is the installer for the Xposed framework, which is a requirement for all modules.&lt;/p&gt;&lt;p&gt;This framework is based on rovo89\'s Xposed framework. Like an original project it is a framework for modules that can change the behavior of the system and apps without touching any APKs&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note that this only works with root access on Android 4.0.3 or later.&lt;/b&gt;&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
 	<version>
 		<name>1.2.4</name> 
