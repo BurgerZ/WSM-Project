@@ -53,18 +53,25 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.extrabatteryinfo" created="1379598458" updated="1379598458">
+  <module package="pro.burgerz.wsm.mods.extrabatteryinfo" created="1379598458" updated="1380006864">
 	<name>Extra Battery info</name> 
 	<summary>Adds extra battery info to battery settings</summary> 
 	<description html="true">&lt;p&gt;Adds extra battery info to battery settings&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
-	<version>
-		<name>1.0</name> 
-		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.extrabatteryinfo_v10_431cc1.apk</download> 
-		<md5sum>431cc133de9ec5bf59d8cf4614970fc0</md5sum> 
-		<changelog html="true"></changelog> 
-	</version>
+    <version>
+        <name>1.1</name> 
+        <code>11</code> 
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.extrabatteryinfo_v11_dc9096.apk</download> 
+        <md5sum>dc90962eebc35458e79742c17bbef469</md5sum> 
+        <changelog html="true"></changelog> 
+    </version>
+    <version>
+        <name>1.0</name> 
+        <code>10</code> 
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.extrabatteryinfo_v10_431cc1.apk</download> 
+        <md5sum>431cc133de9ec5bf59d8cf4614970fc0</md5sum> 
+        <changelog html="true"></changelog> 
+    </version>
   </module>
   <module package="pro.burgerz.wsm.mods.unitsmodule" created="1379482188" updated="1379915176">
 	<name>Units</name> 
@@ -79,11 +86,18 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.yellowpagesmodule" created="1379482206" updated="1379914927">
+  <module package="pro.burgerz.wsm.mods.yellowpagesmodule" created="1379482206" updated="1380007129">
 	<name>YellowPage</name> 
 	<summary>Local YellowPage database</summary> 
 	<description html="true">&lt;p&gt;Blocks updates of the Yellow Pages database from Chinese server and adds the ability to "Mark" unknown contacts.&lt;/p&gt;</description> 
-	<author>BurgerZ</author> 
+	<author>BurgerZ</author>
+    <version>
+        <name>1.1</name>
+        <code>11</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.yellowpagesmodule_v11_654fec.apk</download>
+        <md5sum>654fecd8b629dfbdeb1040790a2fb33e</md5sum>
+        <changelog html="false"/>
+    </version>
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
@@ -146,9 +160,9 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
   </module>
   <module package="pro.burgerz.wsm.mods.keyboardfix" created="1379952471" updated="1379952471">
     <name>KeyboardFix</name> 
-	<summary>Fixes FC in Xperia TM keyboard</summary> 
-	<description html="true">&lt;p&gt;Fixes FC in Xperia TM keyboard.&lt;/p&gt;</description> 
-	<author>BurgerZ</author> 
+    <summary>Fixes FC in Xperia TM keyboard</summary> 
+    <description html="true">&lt;p&gt;Fixes FC in Xperia TM keyboard.&lt;/p&gt;</description> 
+    <author>BurgerZ</author> 
     <version>
         <name>1.0</name>
         <code>10</code>
