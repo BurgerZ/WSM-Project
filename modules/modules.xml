@@ -171,6 +171,19 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
         <changelog html="true"></changelog>
     </version>
   </module>
+  <module package="pro.burgerz.wsm.mods.playstorefix" created="1380020360" updated="1380020360">
+    <name>Play Store Fixes</name> 
+    <summary>Fake the density for Google Play Store</summary> 
+    <description html="true">&lt;p&gt;Fake the density that is submitted to Google in order to make Play Store show all apps.&lt;/p&gt;</description> 
+    <author>BurgerZ</author> 
+    <version>
+        <name>1.0</name>
+        <code>10</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.playstorefix_v10_2abcd3.apk</download> 
+        <md5sum>2abcd33da416b9b27540490485552dd9</md5sum>
+        <changelog html="true"></changelog>
+    </version>
+  </module>  
   <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1379949958">
 	<name>WSM tools</name> 
 	<summary>This is the installer and manager for the WSM framework, which is a requirement for all modules</summary> 
