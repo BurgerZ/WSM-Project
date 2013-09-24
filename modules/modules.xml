@@ -184,6 +184,19 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
         <changelog html="true"></changelog>
     </version>
   </module>  
+  <module package="pro.burgerz.wsm.mods.carrierlabel" created="1380038005" updated="1380038005">
+    <name>Carrier Label</name> 
+    <summary>Allows to edit your carrier label</summary> 
+    <description html="true">&lt;p&gt;Allows to edit your carrier label. Available in Settings - Status Bar - Carrier label.&lt;/p&gt;</description> 
+    <author>BurgerZ</author> 
+    <version>
+        <name>1.0</name>
+        <code>10</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.carrierlabel_v10_f3023f.apk</download> 
+        <md5sum>f3023f1a7107ef004dd8b712ad8b98e8</md5sum>
+        <changelog html="true"></changelog>
+    </version>
+  </module>    
   <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1379949958">
 	<name>WSM tools</name> 
 	<summary>This is the installer and manager for the WSM framework, which is a requirement for all modules</summary> 
