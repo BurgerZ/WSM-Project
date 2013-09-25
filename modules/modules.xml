@@ -73,11 +73,18 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
         <changelog html="true"></changelog> 
     </version>
   </module>
-  <module package="pro.burgerz.wsm.mods.unitsmodule" created="1379482188" updated="1379915176">
+  <module package="pro.burgerz.wsm.mods.unitsmodule" created="1379482188" updated="1380102711">
 	<name>Units</name> 
 	<summary>Measure units for different languages (Mb, Gb etc.)</summary> 
 	<description html="true">&lt;p&gt;Allows you to change the measure units depending on the system language.&lt;/p&gt;&lt;li&gt;Status bar: network speed (K/s, m/s)&lt;/li&gt;&lt;li&gt;Task manager: freed, available memory (MB, GB)&lt;/li&gt;</description> 
 	<author>BurgerZ</author> 
+	<version>
+		<name>1.1</name> 
+		<code>11</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.unitsmodule_v11_0ce349.apk</download> 
+		<md5sum>0ce3491be55c8f907d326a412478800b</md5sum> 
+		<changelog html="true">&lt;p&gt;Fixed zero memory values for Memory Clear widget.&lt;/p&gt;</changelog> 
+	</version>
 	<version>
 		<name>1.0</name> 
 		<code>3</code> 
