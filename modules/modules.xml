@@ -2,8 +2,8 @@
   <name>Main repository</name>
   <module package="pro.burgerz.wsm.mods.advancedrebootmenu" created="1379425302" updated="1380117776">
 	<name>Reboot Options</name> 
-	<summary>Adds Reboot, Soft Reboot, Reboot to Recovery to power menu</summary> 
-	<description html="true">&lt;p&gt;Adds Reboot options to power menu.&lt;/p&gt;&lt;li&gt;Common reboot&lt;/li&gt;&lt;li&gt;Hot reboot&lt;/li&gt;&lt;li&gt;Reboot to Recovery&lt;/li&gt;&lt;li&gt;Reboot to Bootloader&lt;/li&gt;&lt;li&gt;Switch system (Mi-phones)&lt;/li&gt;</description> 
+	<summary>Adds reboot options to power menu</summary> 
+	<description html="true">&lt;p&gt;Adds reboot options to power menu.&lt;/p&gt;&lt;li&gt;Common reboot&lt;/li&gt;&lt;li&gt;Hot reboot&lt;/li&gt;&lt;li&gt;Reboot to Recovery&lt;/li&gt;&lt;li&gt;Reboot to Bootloader&lt;/li&gt;&lt;li&gt;Switch system (Mi-phones)&lt;/li&gt;</description> 
 	<author>BurgerZ</author> 
 	<version>
 		<name>1.1</name> 
