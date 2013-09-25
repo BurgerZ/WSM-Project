@@ -197,6 +197,19 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
         <changelog html="true"></changelog>
     </version>
   </module>    
+  <module package="pro.burgerz.wsm.mods.emailautoorientation" created="1380096365" updated="1380096365">
+    <name>Email Rotation</name> 
+    <summary>Landscape orientation in Email application</summary> 
+    <description html="true">&lt;p&gt;Adds the ability to view Email application in landscape mode. To make it work go to the device screen settings and activate "Auto-rotate screen" option. On some devices may not be displayed correctly.&lt;/p&gt;</description> 
+    <author>BurgerZ</author> 
+    <version>
+        <name>1.0</name>
+        <code>10</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.emailautoorientation_v10_4fd253.apk</download> 
+        <md5sum>4fd253476f0b5850b8ca8443a45af99c</md5sum>
+        <changelog html="true"></changelog>
+    </version>
+  </module>     
   <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1379949958">
 	<name>WSM tools</name> 
 	<summary>This is the installer and manager for the WSM framework, which is a requirement for all modules</summary> 
