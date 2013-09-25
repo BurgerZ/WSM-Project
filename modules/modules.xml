@@ -1,10 +1,17 @@
 <repository>
   <name>Main repository</name>
-  <module package="pro.burgerz.wsm.mods.advancedrebootmenu" created="1379425302" updated="1379913804">
+  <module package="pro.burgerz.wsm.mods.advancedrebootmenu" created="1379425302" updated="1380117776">
 	<name>Reboot Options</name> 
 	<summary>Adds Reboot, Soft Reboot, Reboot to Recovery to power menu</summary> 
-	<description html="true">&lt;p&gt;Adds Reboot, Soft Reboot, Reboot to Recovery to power menu.&lt;/p&gt;&lt;li&gt;Common reboot&lt;/li&gt;&lt;li&gt;Hot reboot&lt;/li&gt;&lt;li&gt;Reboot to Recovery&lt;/li&gt;&lt;li&gt;Reboot to Bootloader&lt;/li&gt;</description> 
+	<description html="true">&lt;p&gt;Adds Reboot options to power menu.&lt;/p&gt;&lt;li&gt;Common reboot&lt;/li&gt;&lt;li&gt;Hot reboot&lt;/li&gt;&lt;li&gt;Reboot to Recovery&lt;/li&gt;&lt;li&gt;Reboot to Bootloader&lt;/li&gt;&lt;li&gt;Switch system (Mi-phones)&lt;/li&gt;</description> 
 	<author>BurgerZ</author> 
+	<version>
+		<name>1.1</name> 
+		<code>11</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.advancedrebootmenu_v11_09a19b.apk</download> 
+		<md5sum>09a19bd58077f6de129519e0bca6350c</md5sum> 
+		<changelog html="true">&lt;p&gt;Added option to switch system.&lt;/p&gt;</changelog> 
+	</version>
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
