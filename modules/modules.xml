@@ -226,14 +226,27 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
   </module>   
   <module package="pro.burgerz.wsm.mods.volumekeysskiptrack" created="1380127958" updated="1380127958">
     <name>Volume Skip Track</name> 
-    <summary>Allows skip tracks in Music player by volume keys</summary> 
-    <description html="true">&lt;p&gt;Allows skip tracks in Music player by volume keys (while phone screen is off).&lt;/p&gt;</description> 
+    <summary>Allows to skip tracks in Music player by volume keys</summary> 
+    <description html="true">&lt;p&gt;Allows to skip tracks in Music player by volume keys (while phone screen is off).&lt;/p&gt;</description> 
     <author>BurgerZ</author> 
     <version>
         <name>1.0</name>
         <code>10</code>
         <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.volumekeysskiptrack_v10_f66f28.apk</download> 
         <md5sum>f66f28352d43cb486ce3c643f4d392ed</md5sum>
+        <changelog html="true"></changelog>
+    </version>
+  </module>   
+  <module package="pro.burgerz.wsm.mods.searchplaystore" created="1380208405" updated="1380208405">
+    <name>Search in Google Play</name> 
+    <summary>Adds an option to choose marketplace to use with search</summary> 
+    <description html="true">&lt;p&gt;You can choose in module settings what marketplace should be used for searching in QuickSearchBox (Google PlayStore or Xiaomi Market).&lt;br /&gt;Go to the module settings to select marketplace.&lt;br /&gt;No need to reboot after changing settings.&lt;/p&gt;</description> 
+    <author>BurgerZ</author> 
+    <version>
+        <name>1.0</name>
+        <code>10</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.searchplaystore_v10_ddeed2.apk</download> 
+        <md5sum>ddeed2416b8e337d2cd076e4c69973d6</md5sum>
         <changelog html="true"></changelog>
     </version>
   </module>   
