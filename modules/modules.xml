@@ -47,11 +47,18 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.holidaysmodule" created="1379482092" updated="1379915406">
+  <module package="pro.burgerz.wsm.mods.holidaysmodule" created="1379482092" updated="1380278367">
 	<name>Holidays</name> 
 	<summary>Russian, Ukrainian holidays for calendar and alarm</summary> 
-	<description html="true">&lt;p&gt;Adds the ability to select the settings of holidays in calendar.&lt;/p&gt;&lt;br&gt;Available holidays:&lt;/br&gt;&lt;br /&gt;&lt;li&gt;Original (Chinese)&lt;/li&gt;&lt;li&gt;Russian (romz.bz)&lt;/li&gt;&lt;li&gt;Ukrainian (romz.bz)&lt;/li&gt;</description> 
+	<description html="true">&lt;p&gt;Adds the ability to select the settings of holidays in calendar.&lt;/p&gt;&lt;br&gt;In module settings available servers are: romz.bz and miui.su.&lt;/br&gt;&lt;br&gt;Available holidays:&lt;/br&gt;&lt;br /&gt;&lt;li&gt;Original (Chinese)&lt;/li&gt;&lt;li&gt;Russian&lt;/li&gt;&lt;li&gt;Ukrainian&lt;/li&gt;</description> 
 	<author>BurgerZ</author> 
+	<version>
+		<name>1.1</name> 
+		<code>11</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.holidaysmodule_v11_8fab20.apk</download> 
+		<md5sum>8fab2071b61fade2c84310552656024f</md5sum> 
+		<changelog html="true"></changelog> 
+	</version>	
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
