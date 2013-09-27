@@ -57,7 +57,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<code>11</code> 
 		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.holidaysmodule_v11_8fab20.apk</download> 
 		<md5sum>8fab2071b61fade2c84310552656024f</md5sum> 
-		<changelog html="true"></changelog> 
+		<changelog html="true">&lt;p&gt;Added module settings&lt;/p&gt;</changelog> 
 	</version>	
 	<version>
 		<name>1.0</name> 
