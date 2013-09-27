@@ -55,8 +55,8 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>1.2</name> 
 		<code>12</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.holidaysmodule_v12_8db600.apk</download> 
-		<md5sum>8db60042ca8603c366a041e9c320f1f6</md5sum> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.holidaysmodule_v12_629dca.apk</download> 
+		<md5sum>629dca881d4ac8f8ef52983cf1361132</md5sum> 
 		<changelog html="true">&lt;li&gt;Added original MIUI.COM server to module settings&lt;/li&gt;</changelog> 
 	</version>	
 	<version>
