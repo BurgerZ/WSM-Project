@@ -50,7 +50,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
   <module package="pro.burgerz.wsm.mods.holidaysmodule" created="1379482092" updated="1380292513">
 	<name>Holidays</name> 
 	<summary>Russian, Ukrainian holidays for calendar and alarm</summary> 
-	<description html="true">&lt;p&gt;Adds the ability to select the settings of holidays in calendar.&lt;/p&gt;&lt;br&gt;In module settings available servers are: romz.bz and miui.su.&lt;/br&gt;&lt;br&gt;Available holidays:&lt;/br&gt;&lt;br /&gt;&lt;li&gt;Original (Chinese)&lt;/li&gt;&lt;li&gt;Russian&lt;/li&gt;&lt;li&gt;Ukrainian&lt;/li&gt;</description> 
+	<description html="true">&lt;p&gt;Adds the ability to select the settings of holidays in calendar.&lt;/p&gt;&lt;br&gt;In module settings available servers are: miui.com, romz.bz and miui.su.&lt;/br&gt;&lt;br&gt;Available holidays:&lt;/br&gt;&lt;br /&gt;&lt;li&gt;Original (Chinese)&lt;/li&gt;&lt;li&gt;Russian&lt;/li&gt;&lt;li&gt;Ukrainian&lt;/li&gt;</description> 
 	<author>BurgerZ</author> 
 	<version>
 		<name>1.2</name> 
