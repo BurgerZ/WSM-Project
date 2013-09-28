@@ -199,11 +199,18 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
         <changelog html="true"></changelog>
     </version>
   </module>
-  <module package="pro.burgerz.wsm.mods.playstorefix" created="1380020360" updated="1380020360">
+  <module package="pro.burgerz.wsm.mods.playstorefix" created="1380020360" updated="1380353759">
     <name>Play Store Fixes</name> 
     <summary>Fake the density for Google Play Store</summary> 
     <description html="true">&lt;p&gt;Fake the density that is submitted to Google in order to make Play Store show all apps.&lt;/p&gt;</description> 
     <author>BurgerZ</author> 
+    <version>
+        <name>1.1</name>
+        <code>11</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.playstorefix_v11_318d27.apk</download> 
+        <md5sum>318d2704d1a249e54e9c130a151c0d40</md5sum>
+        <changelog html="true">&lt;li&gt;Small cosmetic fixes&lt;/li&gt;</changelog>
+    </version>
     <version>
         <name>1.0</name>
         <code>10</code>
@@ -212,11 +219,18 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
         <changelog html="true"></changelog>
     </version>
   </module>  
-  <module package="pro.burgerz.wsm.mods.carrierlabel" created="1380038005" updated="1380038005">
+  <module package="pro.burgerz.wsm.mods.carrierlabel" created="1380038005" updated="1380352261">
     <name>Carrier Label</name> 
     <summary>Allows to edit your carrier label</summary> 
-    <description html="true">&lt;p&gt;Allows to edit your carrier label. Available in Settings - Status Bar - Carrier label.&lt;/p&gt;</description> 
-    <author>BurgerZ</author> 
+    <description html="true">&lt;p&gt;Allows to edit your carrier label. Available in Settings - Status Bar - Carrier label.&lt;/p&gt;&lt;br&gt;May NOT work on some devices!&lt;/br&gt;</description> 
+    <author>BurgerZ</author>
+    <version>
+        <name>1.1</name>
+        <code>11</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.carrierlabel_v11_a24795.apk</download> 
+        <md5sum>a2479518ecd98c0607e96ace290412ae</md5sum>
+        <changelog html="true">&lt;li&gt;Added warning: may NOT work on some devices!&lt;/li&gt;</changelog>
+    </version>
     <version>
         <name>1.0</name>
         <code>10</code>
@@ -225,11 +239,18 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
         <changelog html="true"></changelog>
     </version>
   </module>    
-  <module package="pro.burgerz.wsm.mods.emailautoorientation" created="1380096365" updated="1380096365">
+  <module package="pro.burgerz.wsm.mods.emailautoorientation" created="1380096365" updated="1380351959">
     <name>Email Rotation</name> 
     <summary>Landscape orientation in Email application</summary> 
     <description html="true">&lt;p&gt;Adds the ability to view Email application in landscape mode. To make it work go to the device screen settings and activate "Auto-rotate screen" option. On some devices may not be displayed correctly.&lt;/p&gt;</description> 
     <author>BurgerZ</author> 
+    <version>
+        <name>1.1</name>
+        <code>11</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.emailautoorientation_v11_2f2a67.apk</download> 
+        <md5sum>2f2a677a8c58fe69e2ad661a67b6e443</md5sum>
+        <changelog html="true">&lt;li&gt;Module icon changed&lt;/li&gt;</changelog>
+    </version>
     <version>
         <name>1.0</name>
         <code>10</code>
@@ -251,11 +272,18 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
         <changelog html="true"></changelog>
     </version>
   </module>   
-  <module package="pro.burgerz.wsm.mods.searchplaystore" created="1380208405" updated="1380208405">
+  <module package="pro.burgerz.wsm.mods.searchplaystore" created="1380208405" updated="1380353693">
     <name>Search in Google Play</name> 
     <summary>Adds an option to choose marketplace to use with search</summary> 
     <description html="true">&lt;p&gt;You can choose in module settings what marketplace should be used for searching in QuickSearchBox (Google PlayStore or Xiaomi Market).&lt;br /&gt;Go to the module settings to select marketplace.&lt;br /&gt;No need to reboot after changing settings.&lt;/p&gt;</description> 
     <author>BurgerZ</author> 
+    <version>
+        <name>1.1</name>
+        <code>11</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.searchplaystore_v11_c16a15.apk</download> 
+        <md5sum>c16a15cf40a9e02d097c8decaaefecc1</md5sum>
+        <changelog html="true">&lt;li&gt;Small cosmetic fixes&lt;/li&gt;</changelog>
+    </version>
     <version>
         <name>1.0</name>
         <code>10</code>
@@ -264,11 +292,18 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
         <changelog html="true"></changelog>
     </version>
   </module>   
-  <module package="pro.burgerz.wsm.mods.currenttracklaunch" created="1380293845" updated="1380293845">
+  <module package="pro.burgerz.wsm.mods.currenttracklaunch" created="1380293845" updated="1380353354">
     <name>Current Track Launch</name> 
     <summary>Launch the playback screen in the player</summary> 
     <description html="true">&lt;p&gt;Allows you to launch playback screen of the current track in Music player when you click on a pop-up widget (opens by slide on the icon on home screen). By default, the main screen opens, like with a simple click on the player icon.&lt;/p&gt;</description> 
     <author>BurgerZ</author> 
+    <version>
+        <name>1.1</name>
+        <code>11</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.currenttracklaunch_v11_fd623f.apk</download> 
+        <md5sum>fd623fcd2ffe52b222fb74a4739e3592</md5sum>
+        <changelog html="true">&lt;li&gt;Changed class search method&lt;/li&gt;</changelog>
+    </version>
     <version>
         <name>1.0</name>
         <code>10</code>
@@ -276,7 +311,20 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
         <md5sum>3fa4b227f2dc5f470ed641f1cdb52d6e</md5sum>
         <changelog html="true"></changelog>
     </version>
-  </module>     
+  </module>   
+  <module package="pro.burgerz.wsm.mods.hideiconstext" created="1380354320" updated="1380354320">
+    <name>Hide Icons Text</name> 
+    <summary>Hides launcher icon labels</summary> 
+    <description html="true">&lt;p&gt;Allows you to to hide launcher icon and folder labels.&lt;/p&gt;</description> 
+    <author>BurgerZ</author> 
+    <version>
+        <name>1.0</name>
+        <code>10</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.hideiconstext_v10_6bfebd.apk</download> 
+        <md5sum>6bfebd4f47b0983f5bd8593a8f08a69c</md5sum>
+        <changelog html="true"></changelog>
+    </version>
+  </module>   
   <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1380271011">
 	<name>WSM tools</name> 
 	<summary>This is the installer and manager for the WSM framework, which is a requirement for all modules</summary> 
