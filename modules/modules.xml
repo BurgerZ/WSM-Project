@@ -292,11 +292,18 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
         <changelog html="true"></changelog>
     </version>
   </module>   
-  <module package="pro.burgerz.wsm.mods.currenttracklaunch" created="1380293845" updated="1380353354">
+  <module package="pro.burgerz.wsm.mods.currenttracklaunch" created="1380293845" updated="1380364963">
     <name>Current Track Launch</name> 
     <summary>Launch the playback screen in the player</summary> 
     <description html="true">&lt;p&gt;Allows you to launch playback screen of the current track in Music player when you click on a pop-up widget (opens by slide on the icon on home screen). By default, the main screen opens, like with a simple click on the player icon.&lt;/p&gt;</description> 
     <author>BurgerZ</author> 
+    <version>
+        <name>1.2</name>
+        <code>12</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.currenttracklaunch_v12_823b6a.apk</download> 
+        <md5sum>823b6a0b3af365312f73385bf632636b</md5sum>
+        <changelog html="true">&lt;li&gt;Added Russian translation&lt;/li&gt;</changelog>
+    </version>
     <version>
         <name>1.1</name>
         <code>11</code>
