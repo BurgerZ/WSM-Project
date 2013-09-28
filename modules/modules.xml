@@ -335,7 +335,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<code>128</code>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v128_c271dd.apk</download> 
 		<md5sum>c271dd8e2c5c7bbe0d02d617992c9004</md5sum> 
-		<changelog html="true">&lt;li&gt;Fixed version chech and display issue (when updates available)&lt;/li&gt;&lt;li&gt;Small cosmetic fixes&lt;/li&gt;</changelog> 
+		<changelog html="true">&lt;li&gt;Fixed version check and display issue (when updates available)&lt;/li&gt;&lt;li&gt;Small cosmetic fixes&lt;/li&gt;</changelog> 
 	</version>
 	<version>
 		<name>1.2.7</name> 
