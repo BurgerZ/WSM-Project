@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WSM tools</string>
+    <string name="act_title_settings">Settings</string>
+    <string name="act_title_about">About</string>
+    <string name="act_title_installer">Manage</string>
+    <string name="fragment_modules">Modules</string>
+    <string name="fragment_online">Online</string>
+    <string name="versions_wsm_tools">WSM tools version</string>
+    <string name="author">Author</string>
+    <string name="check_for_updates">Check for updates</string>
+    <string name="copyright">Based on idea from rovo89\'s Xposed\nCoded by BurgerZ MD | Graphics by DriffeX\nCopyright © 2013, All Rights Reserved</string>
+    <string name="pref_manage_title">Manage WSM</string>
+    <string name="pref_manage_summary">Install, Update, Delete</string>
+    <string name="pref_show_hidden_modules_title">Show hidden modules</string>
+    <string name="pref_show_hidden_modules_summary">Show hidden modules in list</string>
+    <string name="pref_show_module_info_title">Show module info</string>
+    <string name="pref_show_module_info_summary">Show module info by clicking on it\'s icon</string>
+    <string name="pref_system_toasts_title">System toasts</string>
+    <string name="pref_system_toasts_summary">Show WSM system toast messages</string>
+    <!--string name="pref_auto_hide_info_title">Auto hide info</string>
+    <string name="pref_auto_hide_info_summary">Auto hide module info toasts in 5 seconds</string-->
+    <string name="pref_about_title">About</string>
+    <string name="none">---</string>
+    <string name="bottom_bar_btn_settings">Settings</string>
+    <string name="bottom_bar_btn_reboot">Reboot</string>
+    <string name="bottom_bar_btn_refresh">Update</string>
+    <string name="module_opt_hide_title">Hide module</string>
+    <string name="module_opt_hide_summary">To show hidden modules turn on "Show hidden modules" option</string>
+    <string name="dialog_are_you_sure">Are you sure?</string>
+    <string name="dialog_phone_will_be_rebooted">Phone will be rebooted</string>
+    <string name="dialog_progress_updating">Updating...</string>
+    <string name="menu_select_all">Select All</string>
+    <string name="menu_unselect_all">Clear selection</string>
+
+    <!-- InstallerActivity -->
+    <string name="installer_install">Install/Update</string>
+    <string name="installer_uninstall">Uninstall (restore app_process)</string>
+    <string name="installer_delete">Delete (complete removal)</string>
+    <string name="installer_reboot">Reboot</string>
+    <!--string name="installer_soft_reboot">Soft Reboot</string-->
+    <string name="installer_versions">VERSIONS:</string>
+    <string name="installer_installed_version">INSTALLED VERSION</string>
+    <string name="installer_bundled_version">BUNDLED VERSION</string>
+    <string name="installer_app_process">app_process</string>
+    <string name="installer_wsm_framework">WSMBridge.jar</string>
+    <string name="installer_phone_not_compatible">WSM is not (yet) compatible with Android SDK version %1$d or your processor architecture (%2$s).</string>
+    <string name="installer_not_tested_but_compatible">WSM has not been tested with Android SDK version %d, but it seems to be compatible. You can try installing it if you feel adventurous.</string>
+
+    <!-- RepoLoader -->
+    <string name="repo_download_failed_http">Downloading %1$s failed: %2$d (%3$s)</string>
+    <string name="repo_download_failed">Downloading %1$s failed: %2$s</string>
+    <string name="repo_load_failed">Cannot load repository from %1$s:\n%2$s</string>
+
+    <!-- Download tab -->
+    <string name="changes">Changes:</string>
+    <string name="branch_display">(%s branch)</string>
+    <string name="download_author">by %s</string>
+    <string name="download_unknown_author">unknown author</string>
+    <string name="download_status_version">Version: %1$s</string>
+    <string name="download_status_update_available">" \u2192 %1$s"</string>
+    <string name="download_timestamps">Added on %1$s \u00b7 Updated on %2$s</string>
+    <string name="download_sorting_title">Sorting order</string>
+    <string name="download_sorting_status">Sort by status</string>
+    <string name="download_sorting_updated">Sort by last update</string>
+    <string name="download_sorting_created">Sort by creation date</string>
+    <string name="download_section_framework">Framework</string>
+    <string name="download_section_update_available">Update available</string>
+    <string name="download_section_installed">Installed</string>
+    <string name="download_section_not_installed">Not installed</string>
+    <string name="download_section_24h">Last 24 hours</string>
+    <string name="download_section_7d">Last 7 days</string>
+    <string name="download_section_30d">Last 30 days</string>
+    <string name="download_section_older">More than 30 days ago</string>
+
+    <!-- DownloadUtils -->
+    <string name="download_md5sum_incorrect">MD5 sum is incorrect (downloaded: %1$s, expected: %2$s)</string>
+    <string name="download_could_not_read_file">Could not read downloaded file: %s</string>
+    <string name="download_no_valid_apk">Downloaded file is not a valid APK (or incompatible)</string>
+    <string name="download_incorrect_package_name">Package name is incorrect (downloaded: %1$s, expected: %2$s)</string>
+
+    <!--  DownloadView -->
+    <string name="download_view_download">Download</string>
+    <string name="download_view_install">Install</string>
+    <string name="download_view_cancel">Cancel</string>
+    <string name="download_view_no_url">No download URL available</string>
+    <string name="download_view_running">Download is running (%1$,d of %2$,d kB)</string>
+    <string name="download_view_waiting">Download is waiting</string>
+    <string name="download_view_successful">Download successful</string>
+    <string name="download_view_failed">Download failed (error %d)</string>
+
+    <string name="module_installed">WSM module installed</string>
+    <string name="module_empty_description">(no description provided)</string>
+    <string name="module_no_ui">This module does not provide a user interface</string>
+    <string name="no_wsm_modules_found">No WSM modules were found!</string>
+    <string name="wsm_module_list_updated">WSM module list was updated\nChanges will become active on reboot</string>
+    <string name="warning_wsm_min_version">This module needs WSM %s so it could not be activated.</string>
+    <string name="no_min_version_specified">This module does not specify the WSM version it needs.</string>
+    <string name="warning_min_version_too_low">This module was created for WSM version %1$s, but due to incompatible changes in version %2$s, it has been disabled.</string>
+    <string name="btnDeleteModule">Delete module</string>
+
+    <!--  ModuleSettingsActivity -->
+    <string name="module_settings">Module settings</string>
+    <string name="module_description">Module description</string>
+    <string name="module_info_version">Version</string>
+    <string name="modules_count">Modules: %1$d | Hidden: %2$d | Active: %3$d</string>
+</resources>

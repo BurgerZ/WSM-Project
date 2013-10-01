@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WSM tools</string>
+    <string name="act_title_settings">Настройки</string>
+    <string name="act_title_about">О программе</string>
+    <string name="act_title_installer">Управление</string>
+    <string name="fragment_modules">Модули</string>
+    <string name="fragment_online">Онлайн</string>
+    <string name="versions_wsm_tools">Версия WSM tools</string>
+    <string name="author">Автор проекта</string>
+    <string name="check_for_updates">Проверять обновления</string>
+    <string name="pref_manage_title">Управление WSM</string>
+    <string name="pref_manage_summary">Установка, Обновление, Удаление</string>
+    <string name="pref_show_hidden_modules_title">Показывать скрытые</string>
+    <string name="pref_show_hidden_modules_summary">Отображение скрытых модулей</string>
+    <string name="pref_show_module_info_title">Информация о модуле</string>
+    <string name="pref_show_module_info_summary">Отображение информации о модуле при нажатии на иконку</string>
+    <string name="pref_system_toasts_title">Уведомления WSM</string>
+    <string name="pref_system_toasts_summary">Показывать всплывающие уведомления WSM (например, при активации модулей)</string>
+    <!--string name="pref_auto_hide_info_title">Скрывать подсказки</string>
+    <string name="pref_auto_hide_info_summary">Прятать всплывающие подсказки с информацией о модуле автоматически через 5 секунд</string-->
+    <string name="pref_about_title">О программе</string>
+    <string name="bottom_bar_btn_settings">Настройки</string>
+    <string name="bottom_bar_btn_reboot">Перезагрузка</string>
+    <string name="bottom_bar_btn_refresh">Обновить</string>
+    <string name="module_opt_hide_title">Скрыть модуль</string>
+    <string name="module_opt_hide_summary">Для отображения скрытых модулей включите \"Показывать скрытые\" в настройках</string>
+    <string name="dialog_are_you_sure">Вы уверены?</string>
+    <string name="dialog_phone_will_be_rebooted">Телефон будет перезагружен</string>
+    <string name="dialog_progress_updating">Обновление...</string>
+    <string name="menu_select_all">Включить все</string>
+    <string name="menu_unselect_all">Выключить все</string>
+    <!-- InstallerActivity -->
+    <string name="installer_install">Установить/Обновить</string>
+    <string name="installer_uninstall">Удалить (восстановить app_process)</string>
+    <string name="installer_delete">Удалить (полное удаление)</string>
+    <string name="installer_reboot">Перезагрузка</string>
+    <!--string name="installer_soft_reboot">Мягкая перезагрузка</string-->
+    <string name="installer_versions">ВЕРСИИ:</string>
+    <string name="installer_installed_version">УСТАНОВЛЕННАЯ ВЕРСИЯ</string>
+    <string name="installer_bundled_version">ДОСТУПНАЯ ВЕРСИЯ</string>
+    <string name="installer_app_process">app_process</string>
+    <string name="installer_wsm_framework">WSMBridge.jar</string>
+    <string name="installer_phone_not_compatible">WSM (пока) не совместим с версией Android SDK %1$d или архитектурой процессора (%2$s)</string>
+    <string name="installer_not_tested_but_compatible">WSM не был протестирован с Android SDK версии %d, но может быть совместим. Вы можете попробовать его установить, если вы хотите приключений</string>
+    <!-- RepoLoader -->
+    <string name="repo_download_failed_http">Ошибка загрузки %1$s: %2$d (%3$s)</string>
+    <string name="repo_download_failed">Ошибка загрузки %1$s: %2$s</string>
+    <string name="repo_load_failed">Невозможно загрузить репозиторий %1$s:\n%2$s</string>
+
+    <!-- Download tab -->
+    <string name="changes">Список изменений:</string>
+    <string name="branch_display">(%s ветка)</string>
+    <string name="download_author">Автор: %s</string>
+    <string name="download_unknown_author">Неизвестный автор</string>
+    <string name="download_status_version">Версия: %1$s</string>
+    <string name="download_status_update_available">" \u2192 %1$s"</string>
+    <string name="download_timestamps">Добавлен %1$s \u00b7 Обновлен %2$s</string>
+    <string name="download_sorting_title">Порядок сортировки</string>
+    <string name="download_sorting_status">По статусу</string>
+    <string name="download_sorting_updated">По дате обновления</string>
+    <string name="download_sorting_created">По дате создания</string>
+    <string name="download_section_framework">Фреймворк</string>
+    <string name="download_section_update_available">Есть обновление</string>
+    <string name="download_section_installed">Установлено</string>
+    <string name="download_section_not_installed">Не установлено</string>
+    <string name="download_section_24h">Последние 24 часа</string>
+    <string name="download_section_7d">Последние 7 дней</string>
+    <string name="download_section_30d">Последние 30 дней</string>
+    <string name="download_section_older">Более 30 назад</string>
+
+    <!-- DownloadUtils -->
+    <string name="download_md5sum_incorrect">Некорректная MD5 сумма (загружено: %1$s, ожидалось: %2$s)</string>
+    <string name="download_could_not_read_file">Невозможно прочитать: %s</string>
+    <string name="download_no_valid_apk">Загруженный файл не является APK (или не совместим</string>
+    <string name="download_incorrect_package_name">Некорректное имя пакета (загружено: %1$s, ожидалось: %2$s)</string>
+
+    <!--  DownloadView
+  -->
+    <string name="download_view_download">Загрузить</string>
+    <string name="download_view_install">Установить</string>
+    <string name="download_view_cancel">Отмена</string>
+    <string name="download_view_no_url">Нет URL для загрузки</string>
+    <string name="download_view_running">Загрузка (%1$,d из %2$,d kб)</string>
+    <string name="download_view_waiting">Ожидание загрузки</string>
+    <string name="download_view_successful">Загрузка окончена</string>
+    <string name="download_view_failed">Ошибка загрузки (ошибка %d)</string>
+
+    <string name="module_installed">Добавлен модуль WSM</string>
+    <string name="module_empty_description">(нет описания)</string>
+    <string name="module_no_ui">Этот модуль не имеет настроек</string>
+    <string name="no_wsm_modules_found">Нет модулей WSM!</string>
+    <string name="wsm_module_list_updated">Список модулей WSM обновлен\nИзменения будут доступны после перезагрузки</string>
+    <string name="warning_wsm_min_version">Этот модуль требует новую версию WSM (%s) и поэтому не может быть активирован.</string>
+    <string name="no_min_version_specified">Этот модуль не содержит информации о минимальной версии WSM</string>
+    <string name="warning_min_version_too_low">Этот модуль создан для WSM версии %1$s, но из-за несовместимости с версией %2$s, был отключен.</string>
+    <string name="btnDeleteModule">Удалить модуль</string>
+
+    <!--  ModuleSettingsActivity -->
+    <string name="module_settings">Настройки модуля</string>
+    <string name="module_description">Описание модуля</string>
+    <string name="module_info_version">Версия</string>
+    <string name="modules_count">Модулей: %1$d | Скрыто: %2$d | Активно: %3$d</string>
+</resources>
