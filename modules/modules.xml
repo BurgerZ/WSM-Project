@@ -339,6 +339,19 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
         <changelog html="true"></changelog>
     </version>
   </module>   
+  <module package="pro.burgerz.wsm.mods.autoorientation" created="1380885229" updated="1380885229">
+    <name>Auto Orientation</name> 
+    <summary>Landscape orientation in selected application</summary> 
+    <description html="true">&lt;p&gt;Adds the ability to view applications in landscape mode. To make it work go to the device screen settings and activate "Auto-rotate screen" option.&lt;br /&gt;On some devices may not be displayed correctly.&lt;br /&gt;No need to reboot after changing settings.&lt;/p&gt;</description> 
+    <author>BurgerZ</author> 
+    <version>
+        <name>1.1</name>
+        <code>11</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.autoorientation_v11_8ccc6e.apk</download> 
+        <md5sum>8ccc6e92974add381247df4d534ba792</md5sum>
+        <changelog html="true"></changelog>
+    </version>
+  </module>  
   <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1380356315">
 	<name>WSM tools</name> 
 	<summary>This is the installer and manager for the WSM framework, which is a requirement for all modules</summary> 
