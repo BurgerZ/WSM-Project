@@ -173,11 +173,18 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.alarmtimefix" created="1379569624" updated="1379915947">
+  <module package="pro.burgerz.wsm.mods.alarmtimefix" created="1379569624" updated="1380874428">
 	<name>AlarmTime fix</name> 
 	<summary>Fix for third-party alarms</summary> 
 	<description html="true">&lt;p&gt;Fixes rounding response time to 5 minutes for third-party alarm clocks.&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
+	<version>
+		<name>1.2</name> 
+		<code>12</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.alarmtimefix_v12_42e000.apk</download> 
+		<md5sum>42e000cc84ee5c4de7fd4d141cb89f49</md5sum> 
+		<changelog html="true">&lt;li&gt;Added white list settings. Now you can select applications for alarm white list&lt;/li&gt;&lt;li&gt;Small cosmetic fixes&lt;/li&gt;</changelog> 
+	</version>
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
