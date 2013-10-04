@@ -352,6 +352,19 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
         <changelog html="true"></changelog>
     </version>
   </module>  
+  <module package="pro.burgerz.wsm.mods.volumecontrol" created="1380885963" updated="1380885963">
+    <name>Volume Control Mute</name> 
+    <summary>Disables ugly BEEP sound while adjusting volume</summary> 
+    <description html="true">&lt;p&gt;This module disables (mutes) the beeper while adjusting volume at home screen (floating volume panel).&lt;/p&gt;</description> 
+    <author>BurgerZ</author> 
+    <version>
+        <name>1.0</name>
+        <code>10</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.volumecontrol_v10_cb2a72.apk</download> 
+        <md5sum>cb2a724d6ada1bdf9e1edd17e5ae16ae</md5sum>
+        <changelog html="true"></changelog>
+    </version>
+  </module>  
   <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1380356315">
 	<name>WSM tools</name> 
 	<summary>This is the installer and manager for the WSM framework, which is a requirement for all modules</summary> 
