@@ -134,19 +134,6 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.themeauthorization" created="1379482164" updated="1379913163">
-	<name>Themes Authorization</name> 
-	<summary>Themes authorization system bypass</summary> 
-	<description html="true">&lt;p&gt;Allows you to use any MIUI theme, including paid, downloaded from third-party resources, without authorization checks, even with a disabled internet.&lt;/p&gt;</description> 
-	<author>BurgerZ</author> 
-	<version>
-		<name>1.0</name> 
-		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.themeauthorization_v10_91951e.apk</download> 
-		<md5sum>91951e75e6e6d359ac5866a51e65b68c</md5sum> 
-		<changelog html="true"></changelog> 
-	</version>
-  </module>
   <module package="pro.burgerz.wsm.mods.mmsautoorientation" created="1379498143" updated="1379913387">
 	<name>MMS Rotation</name> 
 	<summary>Landscape orientation in SMS/MMS application</summary> 
