@@ -1,15 +1,15 @@
 <repository>
   <name>Main repository</name>
-  <module package="pro.burgerz.wsm.mods.wsm_advancedrebootmenu" created="1381218737" updated="1381218737">
+  <module package="pro.burgerz.wsm.mods.advancedrebootmenu" created="1381218737" updated="1381218737">
 	<name>Reboot Options</name> 
 	<summary>Adds reboot options to power menu</summary> 
 	<description html="true">&lt;p&gt;Adds reboot options to power menu.&lt;/p&gt;&lt;li&gt;Common reboot&lt;/li&gt;&lt;li&gt;Hot reboot&lt;/li&gt;&lt;li&gt;Reboot to Recovery&lt;/li&gt;&lt;li&gt;Reboot to Bootloader&lt;/li&gt;&lt;li&gt;Switch system (Mi-phones)&lt;/li&gt;</description> 
 	<author>BurgerZ</author> 
 	<version>
-		<name>2.0</name> 
-		<code>20</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.wsm_advancedrebootmenu_v20_890b7b.apk</download> 
-		<md5sum>890b7beddd71fb43f22ebf4d3cd288fd</md5sum> 
+		<name>2.1</name> 
+		<code>21</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.advancedrebootmenu_v21_065a30.apk</download> 
+		<md5sum>065a309e808e7f8dfee5d271f8da4420</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
   </module>
