@@ -8,14 +8,14 @@
 	<version>
 		<name>1.1</name> 
 		<code>11</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.advancedrebootmenu_v11_09a19b.apk</download> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.advancedrebootmenu_v11_09a19b.apk</download> 
 		<md5sum>09a19bd58077f6de129519e0bca6350c</md5sum> 
 		<changelog html="true">&lt;p&gt;Added option to switch system.&lt;/p&gt;</changelog> 
 	</version>
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.advancedrebootmenu_v10_48d86d.apk</download> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.advancedrebootmenu_v10_48d86d.apk</download> 
 		<md5sum>48d86d88599d108c5aab369a370fd0af</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
@@ -28,7 +28,7 @@
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.t9_v10_790a02.apk</download> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.t9_v10_790a02.apk</download> 
 		<md5sum>790a028d4564bf38ea61e22a097960bd</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
@@ -42,7 +42,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.mmsfestival_v10_dd1f70.apk</download> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.mmsfestival_v10_dd1f70.apk</download> 
 		<md5sum>dd1f704eb2a7f9966dba85fb70cb2d9a</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
@@ -55,21 +55,21 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>1.2</name> 
 		<code>12</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.holidaysmodule_v12_629dca.apk</download> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.holidaysmodule_v12_629dca.apk</download> 
 		<md5sum>629dca881d4ac8f8ef52983cf1361132</md5sum> 
 		<changelog html="true">&lt;li&gt;Added original MIUI.COM server to module settings&lt;/li&gt;</changelog> 
 	</version>	
 	<version>
 		<name>1.1</name> 
 		<code>11</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.holidaysmodule_v11_8fab20.apk</download> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.holidaysmodule_v11_8fab20.apk</download> 
 		<md5sum>8fab2071b61fade2c84310552656024f</md5sum> 
 		<changelog html="true">&lt;li&gt;Added module settings&lt;/li&gt;</changelog> 
 	</version>	
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.holidaysmodule_v10_687b26.apk</download> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.holidaysmodule_v10_687b26.apk</download> 
 		<md5sum>687b2666220c1952ad3628d95d5921de</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
@@ -82,14 +82,14 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
     <version>
         <name>1.1</name> 
         <code>11</code> 
-        <download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.extrabatteryinfo_v11_dc9096.apk</download> 
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.extrabatteryinfo_v11_dc9096.apk</download> 
         <md5sum>dc90962eebc35458e79742c17bbef469</md5sum> 
         <changelog html="true"></changelog> 
     </version>
     <version>
         <name>1.0</name> 
         <code>10</code> 
-        <download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.extrabatteryinfo_v10_431cc1.apk</download> 
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.extrabatteryinfo_v10_431cc1.apk</download> 
         <md5sum>431cc133de9ec5bf59d8cf4614970fc0</md5sum> 
         <changelog html="true"></changelog> 
     </version>
@@ -102,14 +102,14 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>1.1</name> 
 		<code>11</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.unitsmodule_v11_0ce349.apk</download> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.unitsmodule_v11_0ce349.apk</download> 
 		<md5sum>0ce3491be55c8f907d326a412478800b</md5sum> 
 		<changelog html="true">&lt;p&gt;Fixed zero memory values for Memory Clear widget.&lt;/p&gt;</changelog> 
 	</version>
 	<version>
 		<name>1.0</name> 
 		<code>3</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.unitsmodule_v3_9b89b8.apk</download> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.unitsmodule_v3_9b89b8.apk</download> 
 		<md5sum>9b89b8c853acff31fd4995f3a12d832e</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
@@ -122,14 +122,14 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
     <version>
         <name>1.1</name>
         <code>11</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.yellowpagesmodule_v11_654fec.apk</download>
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.yellowpagesmodule_v11_654fec.apk</download>
         <md5sum>654fecd8b629dfbdeb1040790a2fb33e</md5sum>
         <changelog html="false"/>
     </version>
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.yellowpagesmodule_v10_adc285.apk</download> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.yellowpagesmodule_v10_adc285.apk</download> 
 		<md5sum>adc285a3d8865a3b2031c8564498fa49</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
@@ -142,7 +142,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.themeauthorization_v10_91951e.apk</download> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.themeauthorization_v10_91951e.apk</download> 
 		<md5sum>91951e75e6e6d359ac5866a51e65b68c</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
@@ -155,7 +155,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.mmsautoorientation_v10_e9ed8c.apk</download> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.mmsautoorientation_v10_e9ed8c.apk</download> 
 		<md5sum>e9ed8c5ed6c9d65ced0b1452195f7ac2</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
@@ -168,7 +168,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.browserautofit_v10_7ac0f9.apk</download> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.browserautofit_v10_7ac0f9.apk</download> 
 		<md5sum>7ac0f9327c15026f0d481ec056b24b18</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
@@ -181,14 +181,14 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>1.2</name> 
 		<code>12</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.alarmtimefix_v12_42e000.apk</download> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.alarmtimefix_v12_42e000.apk</download> 
 		<md5sum>42e000cc84ee5c4de7fd4d141cb89f49</md5sum> 
 		<changelog html="true">&lt;li&gt;Added white list settings. Now you can select applications for alarm white list&lt;/li&gt;&lt;li&gt;Small cosmetic fixes&lt;/li&gt;</changelog> 
 	</version>
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.alarmtimefix_v10_934188.apk</download> 
+		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.alarmtimefix_v10_934188.apk</download> 
 		<md5sum>9341881cb4eb6cebac2ce293bdf9d3c1</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
@@ -201,7 +201,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
     <version>
         <name>1.0</name>
         <code>10</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.keyboardfix_v10_685c75.apk</download> 
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.keyboardfix_v10_685c75.apk</download> 
         <md5sum>685c759a7be7243a8fd5b7aaf538d6a6</md5sum>
         <changelog html="true"></changelog>
     </version>
@@ -214,14 +214,14 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
     <version>
         <name>1.1</name>
         <code>11</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.playstorefix_v11_318d27.apk</download> 
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.playstorefix_v11_318d27.apk</download> 
         <md5sum>318d2704d1a249e54e9c130a151c0d40</md5sum>
         <changelog html="true">&lt;li&gt;Small cosmetic fixes&lt;/li&gt;</changelog>
     </version>
     <version>
         <name>1.0</name>
         <code>10</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.playstorefix_v10_2abcd3.apk</download> 
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.playstorefix_v10_2abcd3.apk</download> 
         <md5sum>2abcd33da416b9b27540490485552dd9</md5sum>
         <changelog html="true"></changelog>
     </version>
@@ -234,14 +234,14 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
     <version>
         <name>1.1</name>
         <code>11</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.carrierlabel_v11_a24795.apk</download> 
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.carrierlabel_v11_a24795.apk</download> 
         <md5sum>a2479518ecd98c0607e96ace290412ae</md5sum>
         <changelog html="true">&lt;li&gt;Added warning: may NOT work on some devices!&lt;/li&gt;</changelog>
     </version>
     <version>
         <name>1.0</name>
         <code>10</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.carrierlabel_v10_f3023f.apk</download> 
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.carrierlabel_v10_f3023f.apk</download> 
         <md5sum>f3023f1a7107ef004dd8b712ad8b98e8</md5sum>
         <changelog html="true"></changelog>
     </version>
@@ -254,14 +254,14 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
     <version>
         <name>1.1</name>
         <code>11</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.emailautoorientation_v11_2f2a67.apk</download> 
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.emailautoorientation_v11_2f2a67.apk</download> 
         <md5sum>2f2a677a8c58fe69e2ad661a67b6e443</md5sum>
         <changelog html="true">&lt;li&gt;Module icon changed&lt;/li&gt;</changelog>
     </version>
     <version>
         <name>1.0</name>
         <code>10</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.emailautoorientation_v10_4fd253.apk</download> 
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.emailautoorientation_v10_4fd253.apk</download> 
         <md5sum>4fd253476f0b5850b8ca8443a45af99c</md5sum>
         <changelog html="true"></changelog>
     </version>
@@ -274,7 +274,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
     <version>
         <name>1.0</name>
         <code>10</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.volumekeysskiptrack_v10_f66f28.apk</download> 
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.volumekeysskiptrack_v10_f66f28.apk</download> 
         <md5sum>f66f28352d43cb486ce3c643f4d392ed</md5sum>
         <changelog html="true"></changelog>
     </version>
@@ -287,14 +287,14 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
     <version>
         <name>1.1</name>
         <code>11</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.searchplaystore_v11_c16a15.apk</download> 
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.searchplaystore_v11_c16a15.apk</download> 
         <md5sum>c16a15cf40a9e02d097c8decaaefecc1</md5sum>
         <changelog html="true">&lt;li&gt;Small cosmetic fixes&lt;/li&gt;</changelog>
     </version>
     <version>
         <name>1.0</name>
         <code>10</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.searchplaystore_v10_ddeed2.apk</download> 
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.searchplaystore_v10_ddeed2.apk</download> 
         <md5sum>ddeed2416b8e337d2cd076e4c69973d6</md5sum>
         <changelog html="true"></changelog>
     </version>
@@ -307,21 +307,21 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
     <version>
         <name>1.2</name>
         <code>12</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.currenttracklaunch_v12_823b6a.apk</download> 
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.currenttracklaunch_v12_823b6a.apk</download> 
         <md5sum>823b6a0b3af365312f73385bf632636b</md5sum>
         <changelog html="true">&lt;li&gt;Added Russian translation&lt;/li&gt;</changelog>
     </version>
     <version>
         <name>1.1</name>
         <code>11</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.currenttracklaunch_v11_fd623f.apk</download> 
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.currenttracklaunch_v11_fd623f.apk</download> 
         <md5sum>fd623fcd2ffe52b222fb74a4739e3592</md5sum>
         <changelog html="true">&lt;li&gt;Changed class search method&lt;/li&gt;</changelog>
     </version>
     <version>
         <name>1.0</name>
         <code>10</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.currenttracklaunch_v10_3fa4b2.apk</download> 
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.currenttracklaunch_v10_3fa4b2.apk</download> 
         <md5sum>3fa4b227f2dc5f470ed641f1cdb52d6e</md5sum>
         <changelog html="true"></changelog>
     </version>
@@ -334,7 +334,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
     <version>
         <name>1.0</name>
         <code>10</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.hideiconstext_v10_6bfebd.apk</download> 
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.hideiconstext_v10_6bfebd.apk</download> 
         <md5sum>6bfebd4f47b0983f5bd8593a8f08a69c</md5sum>
         <changelog html="true"></changelog>
     </version>
@@ -347,7 +347,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
     <version>
         <name>1.1</name>
         <code>11</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.autoorientation_v11_8ccc6e.apk</download> 
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.autoorientation_v11_8ccc6e.apk</download> 
         <md5sum>8ccc6e92974add381247df4d534ba792</md5sum>
         <changelog html="true"></changelog>
     </version>
@@ -360,7 +360,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
     <version>
         <name>1.0</name>
         <code>10</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/v1/pro.burgerz.wsm.mods.volumecontrol_v10_cb2a72.apk</download> 
+        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.volumecontrol_v10_cb2a72.apk</download> 
         <md5sum>cb2a724d6ada1bdf9e1edd17e5ae16ae</md5sum>
         <changelog html="true"></changelog>
     </version>
