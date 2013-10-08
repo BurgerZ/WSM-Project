@@ -1,412 +1,94 @@
 <repository>
   <name>Main repository</name>
-  <module package="pro.burgerz.wsm.mods.advancedrebootmenu" created="1379425302" updated="1380117776">
+  <module package="pro.burgerz.wsm.mods.wsm_advancedrebootmenu" created="1381218737" updated="1381218737">
 	<name>Reboot Options</name> 
 	<summary>Adds reboot options to power menu</summary> 
 	<description html="true">&lt;p&gt;Adds reboot options to power menu.&lt;/p&gt;&lt;li&gt;Common reboot&lt;/li&gt;&lt;li&gt;Hot reboot&lt;/li&gt;&lt;li&gt;Reboot to Recovery&lt;/li&gt;&lt;li&gt;Reboot to Bootloader&lt;/li&gt;&lt;li&gt;Switch system (Mi-phones)&lt;/li&gt;</description> 
 	<author>BurgerZ</author> 
 	<version>
-		<name>1.1</name> 
-		<code>11</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.advancedrebootmenu_v11_09a19b.apk</download> 
-		<md5sum>09a19bd58077f6de129519e0bca6350c</md5sum> 
-		<changelog html="true">&lt;p&gt;Added option to switch system.&lt;/p&gt;</changelog> 
-	</version>
-	<version>
-		<name>1.0</name> 
-		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.advancedrebootmenu_v10_48d86d.apk</download> 
-		<md5sum>48d86d88599d108c5aab369a370fd0af</md5sum> 
+		<name>2.0</name> 
+		<code>20</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.wsm_advancedrebootmenu_v20_890b7b.apk</download> 
+		<md5sum>890b7beddd71fb43f22ebf4d3cd288fd</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.t9" created="1379482141" updated="1379912647">
+  <module package="pro.burgerz.wsm.mods.wsm_t9" created="1381218665" updated="1381218665">
 	<name>T9 Module</name> 
 	<summary>Adds international contacts search to dialer.</summary> 
 	<description html="true">&lt;p&gt;Adds international contacts (and service numbers) search to dialer. After activating rebuild T9 index in Contacts application settings&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
 	<version>
-		<name>1.0</name> 
-		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.t9_v10_790a02.apk</download> 
-		<md5sum>790a028d4564bf38ea61e22a097960bd</md5sum> 
+		<name>2.0</name> 
+		<code>20</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.wsm_t9_v20_a6014c.apk</download> 
+		<md5sum>a6014cac69775baa50c2c276feb46485</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.mmsfestival" created="1379501573" updated="1379914703">
-	<name>MMS Festival</name> 
-	<summary>Russian SMS festival</summary> 
-	<description html="true">&lt;p&gt;Replaces the Chinese online database of SMS-congratulations to Russian server miui.su.&lt;br /&gt;
-If the tab "Pre-written" is missing, it must be enabled in MMS application settings, you can update content by pressing "Menu" - "Update"&lt;/p&gt;</description> 
-	<author>BurgerZ</author> 
-	<version>
-		<name>1.0</name> 
-		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.mmsfestival_v10_dd1f70.apk</download> 
-		<md5sum>dd1f704eb2a7f9966dba85fb70cb2d9a</md5sum> 
-		<changelog html="true"></changelog> 
-	</version>
-  </module>
-  <module package="pro.burgerz.wsm.mods.holidaysmodule" created="1379482092" updated="1380292513">
-	<name>Holidays</name> 
-	<summary>Russian, Ukrainian holidays for calendar and alarm</summary> 
-	<description html="true">&lt;p&gt;Adds the ability to select the settings of holidays in calendar.&lt;/p&gt;&lt;br&gt;In module settings available servers are: miui.com, romz.bz and miui.su.&lt;/br&gt;&lt;br&gt;Available holidays:&lt;/br&gt;&lt;br /&gt;&lt;li&gt;Original (Chinese)&lt;/li&gt;&lt;li&gt;Russian&lt;/li&gt;&lt;li&gt;Ukrainian&lt;/li&gt;</description> 
-	<author>BurgerZ</author> 
-	<version>
-		<name>1.2</name> 
-		<code>12</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.holidaysmodule_v12_629dca.apk</download> 
-		<md5sum>629dca881d4ac8f8ef52983cf1361132</md5sum> 
-		<changelog html="true">&lt;li&gt;Added original MIUI.COM server to module settings&lt;/li&gt;</changelog> 
-	</version>	
-	<version>
-		<name>1.1</name> 
-		<code>11</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.holidaysmodule_v11_8fab20.apk</download> 
-		<md5sum>8fab2071b61fade2c84310552656024f</md5sum> 
-		<changelog html="true">&lt;li&gt;Added module settings&lt;/li&gt;</changelog> 
-	</version>	
-	<version>
-		<name>1.0</name> 
-		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.holidaysmodule_v10_687b26.apk</download> 
-		<md5sum>687b2666220c1952ad3628d95d5921de</md5sum> 
-		<changelog html="true"></changelog> 
-	</version>
-  </module>
-  <module package="pro.burgerz.wsm.mods.extrabatteryinfo" created="1379598458" updated="1380006864">
-	<name>Extra Battery info</name> 
-	<summary>Adds extra battery info to battery settings</summary> 
-	<description html="true">&lt;p&gt;Adds extra battery info to battery settings&lt;/p&gt;</description> 
-	<author>BurgerZ</author> 
-    <version>
-        <name>1.1</name> 
-        <code>11</code> 
-        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.extrabatteryinfo_v11_dc9096.apk</download> 
-        <md5sum>dc90962eebc35458e79742c17bbef469</md5sum> 
-        <changelog html="true"></changelog> 
-    </version>
-    <version>
-        <name>1.0</name> 
-        <code>10</code> 
-        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.extrabatteryinfo_v10_431cc1.apk</download> 
-        <md5sum>431cc133de9ec5bf59d8cf4614970fc0</md5sum> 
-        <changelog html="true"></changelog> 
-    </version>
-  </module>
-  <module package="pro.burgerz.wsm.mods.unitsmodule" created="1379482188" updated="1380102711">
-	<name>Units</name> 
-	<summary>Measure units for different languages (Mb, Gb etc.)</summary> 
-	<description html="true">&lt;p&gt;Allows you to change the measure units depending on the system language.&lt;/p&gt;&lt;li&gt;Status bar: network speed (K/s, m/s)&lt;/li&gt;&lt;li&gt;Task manager: freed, available memory (MB, GB)&lt;/li&gt;</description> 
-	<author>BurgerZ</author> 
-	<version>
-		<name>1.1</name> 
-		<code>11</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.unitsmodule_v11_0ce349.apk</download> 
-		<md5sum>0ce3491be55c8f907d326a412478800b</md5sum> 
-		<changelog html="true">&lt;p&gt;Fixed zero memory values for Memory Clear widget.&lt;/p&gt;</changelog> 
-	</version>
-	<version>
-		<name>1.0</name> 
-		<code>3</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.unitsmodule_v3_9b89b8.apk</download> 
-		<md5sum>9b89b8c853acff31fd4995f3a12d832e</md5sum> 
-		<changelog html="true"></changelog> 
-	</version>
-  </module>
-  <module package="pro.burgerz.wsm.mods.yellowpagesmodule" created="1379482206" updated="1380007129">
-	<name>YellowPage</name> 
-	<summary>Local YellowPage database</summary> 
-	<description html="true">&lt;p&gt;Blocks updates of the Yellow Pages database from Chinese server and adds the ability to "Mark" unknown contacts.&lt;/p&gt;</description> 
-	<author>BurgerZ</author>
-    <version>
-        <name>1.1</name>
-        <code>11</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.yellowpagesmodule_v11_654fec.apk</download>
-        <md5sum>654fecd8b629dfbdeb1040790a2fb33e</md5sum>
-        <changelog html="false"/>
-    </version>
-	<version>
-		<name>1.0</name> 
-		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.yellowpagesmodule_v10_adc285.apk</download> 
-		<md5sum>adc285a3d8865a3b2031c8564498fa49</md5sum> 
-		<changelog html="true"></changelog> 
-	</version>
-  </module>
-  <module package="pro.burgerz.wsm.mods.themeauthorization" created="1379482164" updated="1379913163">
-	<name>Themes Authorization</name> 
-	<summary>Themes authorization system bypass</summary> 
-	<description html="true">&lt;p&gt;Allows you to use any MIUI theme, including paid, downloaded from third-party resources, without authorization checks, even with a disabled internet.&lt;/p&gt;</description> 
-	<author>BurgerZ</author> 
-	<version>
-		<name>1.0</name> 
-		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.themeauthorization_v10_91951e.apk</download> 
-		<md5sum>91951e75e6e6d359ac5866a51e65b68c</md5sum> 
-		<changelog html="true"></changelog> 
-	</version>
-  </module>
-  <module package="pro.burgerz.wsm.mods.mmsautoorientation" created="1379498143" updated="1379913387">
-	<name>MMS Rotation</name> 
-	<summary>Landscape orientation in SMS/MMS application</summary> 
-	<description html="true">&lt;p&gt;Adds the ability to view and write SMS/MMS messages in landscape mode. To make it work go to the device screen settings and activate "Auto-rotate screen" option.&lt;/p&gt;&lt;br&gt;On some devices may not be displayed correctly.&lt;/br&gt;</description> 
-	<author>BurgerZ</author> 
-	<version>
-		<name>1.0</name> 
-		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.mmsautoorientation_v10_e9ed8c.apk</download> 
-		<md5sum>e9ed8c5ed6c9d65ced0b1452195f7ac2</md5sum> 
-		<changelog html="true"></changelog> 
-	</version>
-  </module>
-  <module package="pro.burgerz.wsm.mods.browserautofit" created="1379482046" updated="1379915597">
+  <module package="pro.burgerz.wsm.mods.wsm_browserautofit" created="1381218579" updated="1381218579">
 	<name>Browser Autofit</name> 
 	<summary>Browser pages autofit</summary> 
 	<description html="true">&lt;p&gt;Adds "Mobile View" to the General browser settings. This feature allows you to adjust the text on Web pages to fit the width of the screen depending on the page font size.&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
 	<version>
-		<name>1.0</name> 
-		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.browserautofit_v10_7ac0f9.apk</download> 
-		<md5sum>7ac0f9327c15026f0d481ec056b24b18</md5sum> 
+		<name>2.0</name> 
+		<code>20</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.wsm_browserautofit_v20_20332d.apk</download> 
+		<md5sum>20332d48864150f6e89d327a22e547b2</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.alarmtimefix" created="1379569624" updated="1380874428">
+  <module package="pro.burgerz.wsm.mods.wsm_alarmtimefix" created="1381218422" updated="1381218422">
 	<name>AlarmTime fix</name> 
 	<summary>Fix for third-party alarms</summary> 
 	<description html="true">&lt;p&gt;Fixes rounding response time to 5 minutes for third-party alarm clocks.&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
 	<version>
-		<name>1.2</name> 
-		<code>12</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.alarmtimefix_v12_42e000.apk</download> 
-		<md5sum>42e000cc84ee5c4de7fd4d141cb89f49</md5sum> 
-		<changelog html="true">&lt;li&gt;Added white list settings. Now you can select applications for alarm white list&lt;/li&gt;&lt;li&gt;Small cosmetic fixes&lt;/li&gt;</changelog> 
-	</version>
-	<version>
-		<name>1.0</name> 
-		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.alarmtimefix_v10_934188.apk</download> 
-		<md5sum>9341881cb4eb6cebac2ce293bdf9d3c1</md5sum> 
+		<name>2.0</name> 
+		<code>20</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.wsm_alarmtimefix_v20_925054.apk</download> 
+		<md5sum>9250544ce028a2a1f07c74b0d7296a54</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.keyboardfix" created="1379952471" updated="1379952471">
-    <name>KeyboardFix</name> 
-    <summary>Fixes FC in Xperia TM keyboard</summary> 
-    <description html="true">&lt;p&gt;Fixes FC in Xperia TM keyboard.&lt;/p&gt;</description> 
-    <author>BurgerZ</author> 
-    <version>
-        <name>1.0</name>
-        <code>10</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.keyboardfix_v10_685c75.apk</download> 
-        <md5sum>685c759a7be7243a8fd5b7aaf538d6a6</md5sum>
-        <changelog html="true"></changelog>
-    </version>
-  </module>
-  <module package="pro.burgerz.wsm.mods.playstorefix" created="1380020360" updated="1380353759">
+  <module package="pro.burgerz.wsm.mods.wsm_playstorefix" created="1381218495" updated="1381218495">
     <name>Play Store Fixes</name> 
     <summary>Fake the density for Google Play Store</summary> 
     <description html="true">&lt;p&gt;Fake the density that is submitted to Google in order to make Play Store show all apps.&lt;/p&gt;</description> 
-    <author>BurgerZ</author> 
+    <author>rovo89</author> 
     <version>
-        <name>1.1</name>
-        <code>11</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.playstorefix_v11_318d27.apk</download> 
-        <md5sum>318d2704d1a249e54e9c130a151c0d40</md5sum>
-        <changelog html="true">&lt;li&gt;Small cosmetic fixes&lt;/li&gt;</changelog>
-    </version>
-    <version>
-        <name>1.0</name>
-        <code>10</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.playstorefix_v10_2abcd3.apk</download> 
-        <md5sum>2abcd33da416b9b27540490485552dd9</md5sum>
-        <changelog html="true"></changelog>
-    </version>
-  </module>  
-  <module package="pro.burgerz.wsm.mods.carrierlabel" created="1380038005" updated="1380352261">
-    <name>Carrier Label</name> 
-    <summary>Allows to edit your carrier label</summary> 
-    <description html="true">&lt;p&gt;Allows to edit your carrier label. Available in Settings - Status Bar - Carrier label.&lt;/p&gt;&lt;br&gt;May NOT work on some devices!&lt;/br&gt;</description> 
-    <author>BurgerZ</author>
-    <version>
-        <name>1.1</name>
-        <code>11</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.carrierlabel_v11_a24795.apk</download> 
-        <md5sum>a2479518ecd98c0607e96ace290412ae</md5sum>
-        <changelog html="true">&lt;li&gt;Added warning: may NOT work on some devices!&lt;/li&gt;</changelog>
-    </version>
-    <version>
-        <name>1.0</name>
-        <code>10</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.carrierlabel_v10_f3023f.apk</download> 
-        <md5sum>f3023f1a7107ef004dd8b712ad8b98e8</md5sum>
-        <changelog html="true"></changelog>
-    </version>
-  </module>    
-  <module package="pro.burgerz.wsm.mods.emailautoorientation" created="1380096365" updated="1380351959">
-    <name>Email Rotation</name> 
-    <summary>Landscape orientation in Email application</summary> 
-    <description html="true">&lt;p&gt;Adds the ability to view Email application in landscape mode. To make it work go to the device screen settings and activate "Auto-rotate screen" option. On some devices may not be displayed correctly.&lt;/p&gt;</description> 
-    <author>BurgerZ</author> 
-    <version>
-        <name>1.1</name>
-        <code>11</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.emailautoorientation_v11_2f2a67.apk</download> 
-        <md5sum>2f2a677a8c58fe69e2ad661a67b6e443</md5sum>
-        <changelog html="true">&lt;li&gt;Module icon changed&lt;/li&gt;</changelog>
-    </version>
-    <version>
-        <name>1.0</name>
-        <code>10</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.emailautoorientation_v10_4fd253.apk</download> 
-        <md5sum>4fd253476f0b5850b8ca8443a45af99c</md5sum>
+        <name>2.0</name>
+        <code>20</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.wsm_playstorefix_v20_618800.apk</download> 
+        <md5sum>618800e077403722a0a1bc7e4c94da43</md5sum>
         <changelog html="true"></changelog>
     </version>
   </module>   
-  <module package="pro.burgerz.wsm.mods.volumekeysskiptrack" created="1380127958" updated="1380127958">
-    <name>Volume Skip Track</name> 
-    <summary>Allows to skip tracks in Music player by volume keys</summary> 
-    <description html="true">&lt;p&gt;Allows to skip tracks in Music player by volume keys (while phone screen is off).&lt;/p&gt;</description> 
-    <author>BurgerZ</author> 
-    <version>
-        <name>1.0</name>
-        <code>10</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.volumekeysskiptrack_v10_f66f28.apk</download> 
-        <md5sum>f66f28352d43cb486ce3c643f4d392ed</md5sum>
-        <changelog html="true"></changelog>
-    </version>
-  </module>   
-  <module package="pro.burgerz.wsm.mods.searchplaystore" created="1380208405" updated="1380353693">
-    <name>Search in Google Play</name> 
-    <summary>Adds an option to choose marketplace to use with search</summary> 
-    <description html="true">&lt;p&gt;You can choose in module settings what marketplace should be used for searching in QuickSearchBox (Google PlayStore or Xiaomi Market).&lt;br /&gt;Go to the module settings to select marketplace.&lt;br /&gt;No need to reboot after changing settings.&lt;/p&gt;</description> 
-    <author>BurgerZ</author> 
-    <version>
-        <name>1.1</name>
-        <code>11</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.searchplaystore_v11_c16a15.apk</download> 
-        <md5sum>c16a15cf40a9e02d097c8decaaefecc1</md5sum>
-        <changelog html="true">&lt;li&gt;Small cosmetic fixes&lt;/li&gt;</changelog>
-    </version>
-    <version>
-        <name>1.0</name>
-        <code>10</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.searchplaystore_v10_ddeed2.apk</download> 
-        <md5sum>ddeed2416b8e337d2cd076e4c69973d6</md5sum>
-        <changelog html="true"></changelog>
-    </version>
-  </module>   
-  <module package="pro.burgerz.wsm.mods.currenttracklaunch" created="1380293845" updated="1380364963">
-    <name>Current Track Launch</name> 
-    <summary>Launch the playback screen in the player</summary> 
-    <description html="true">&lt;p&gt;Allows you to launch playback screen of the current track in Music player when you click on a pop-up widget (opens by slide on the icon on home screen). By default, the main screen opens, like with a simple click on the player icon.&lt;/p&gt;</description> 
-    <author>BurgerZ</author> 
-    <version>
-        <name>1.2</name>
-        <code>12</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.currenttracklaunch_v12_823b6a.apk</download> 
-        <md5sum>823b6a0b3af365312f73385bf632636b</md5sum>
-        <changelog html="true">&lt;li&gt;Added Russian translation&lt;/li&gt;</changelog>
-    </version>
-    <version>
-        <name>1.1</name>
-        <code>11</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.currenttracklaunch_v11_fd623f.apk</download> 
-        <md5sum>fd623fcd2ffe52b222fb74a4739e3592</md5sum>
-        <changelog html="true">&lt;li&gt;Changed class search method&lt;/li&gt;</changelog>
-    </version>
-    <version>
-        <name>1.0</name>
-        <code>10</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.currenttracklaunch_v10_3fa4b2.apk</download> 
-        <md5sum>3fa4b227f2dc5f470ed641f1cdb52d6e</md5sum>
-        <changelog html="true"></changelog>
-    </version>
-  </module>   
-  <module package="pro.burgerz.wsm.mods.hideiconstext" created="1380354320" updated="1380354320">
-    <name>Hide Icons Text</name> 
-    <summary>Hides launcher icon labels</summary> 
-    <description html="true">&lt;p&gt;Allows you to to hide launcher icon and folder labels.&lt;/p&gt;</description> 
-    <author>BurgerZ</author> 
-    <version>
-        <name>1.0</name>
-        <code>10</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.hideiconstext_v10_6bfebd.apk</download> 
-        <md5sum>6bfebd4f47b0983f5bd8593a8f08a69c</md5sum>
-        <changelog html="true"></changelog>
-    </version>
-  </module>   
-  <module package="pro.burgerz.wsm.mods.autoorientation" created="1380885229" updated="1380885229">
+  <module package="pro.burgerz.wsm.mods.wsm_autoorientation" created="1381218519" updated="1381218519">
     <name>Auto Orientation</name> 
     <summary>Landscape orientation in selected application</summary> 
     <description html="true">&lt;p&gt;Adds the ability to view applications in landscape mode. To make it work go to the device screen settings and activate "Auto-rotate screen" option.&lt;br /&gt;On some devices may not be displayed correctly.&lt;br /&gt;No need to reboot after changing settings.&lt;/p&gt;</description> 
     <author>BurgerZ</author> 
     <version>
-        <name>1.1</name>
-        <code>11</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.autoorientation_v11_8ccc6e.apk</download> 
-        <md5sum>8ccc6e92974add381247df4d534ba792</md5sum>
+        <name>2.0</name>
+        <code>20</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.wsm_autoorientation_v20_a1e241.apk</download> 
+        <md5sum>a1e241371d13dcc7de5fefb90e2fbbed</md5sum>
         <changelog html="true"></changelog>
     </version>
-  </module>  
-  <module package="pro.burgerz.wsm.mods.volumecontrol" created="1380885963" updated="1380885963">
-    <name>Volume Control Mute</name> 
-    <summary>Disables ugly BEEP sound while adjusting volume</summary> 
-    <description html="true">&lt;p&gt;This module disables (mutes) the beeper while adjusting volume at home screen (floating volume panel).&lt;/p&gt;</description> 
-    <author>BurgerZ</author> 
-    <version>
-        <name>1.0</name>
-        <code>10</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/pro.burgerz.wsm.mods.volumecontrol_v10_cb2a72.apk</download> 
-        <md5sum>cb2a724d6ada1bdf9e1edd17e5ae16ae</md5sum>
-        <changelog html="true"></changelog>
-    </version>
-  </module>  
-  <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1380356315">
+  </module>   
+  <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1381219620">
 	<name>WSM tools</name> 
-	<summary>This is the installer and manager for the WSM framework, which is a requirement for all modules</summary> 
+	<summary>This is the installer and manager for the Xposed framework, which is a requirement for all modules</summary> 
 	<description html="true">&lt;p&gt;This is the installer for the Xposed framework, which is a requirement for all modules.&lt;/p&gt;&lt;p&gt;This framework is based on rovo89\'s Xposed framework. Like an original project it is a framework for modules that can change the behavior of the system and apps without touching any APKs&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note that this only works with root access on Android 4.0.3 or later.&lt;/b&gt;&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
 	<version>
-		<name>1.2.8</name> 
-		<code>128</code>
-		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v128_753c7a.apk</download> 
-		<md5sum>753c7af513bf80602aa1ed9f8a9472fe</md5sum> 
-		<changelog html="true">&lt;li&gt;Fixed version check and display issue (when updates available)&lt;/li&gt;&lt;li&gt;Small cosmetic fixes&lt;/li&gt;</changelog> 
-	</version>
-	<version>
-		<name>1.2.7</name> 
-		<code>127</code>
-		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v127_020f69.apk</download> 
-		<md5sum>020f6964fa253bef935f8bb067dd3064</md5sum> 
-		<changelog html="true">&lt;li&gt;Reworked online modules TAB&lt;/li&gt;&lt;li&gt;Small fixes in code and translation&lt;/li&gt;</changelog> 
-	</version>
-	<version>
-		<name>1.2.6</name> 
-		<code>126</code>
-		<branch>beta</branch>
-		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v126_01a590.apk</download> 
-		<md5sum>01a5900dcd1211156fe43063f163c5fb</md5sum> 
-		<changelog html="true">&lt;li&gt;Reworked about screen&lt;/li&gt;&lt;li&gt;Framework management link moved to settings&lt;/li&gt;&lt;li&gt;Fixed module list update issues&lt;/li&gt;</changelog> 
-	</version>
-	<version>
-		<name>1.2.5</name> 
-		<code>125</code>
-		<branch>beta</branch>
-		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v125_605da6.apk</download> 
-		<md5sum>605da64b278829a7f38ddebdb573b364</md5sum> 
-		<changelog html="true">&lt;p&gt;Added redirect users to installer activity if no framework installed&lt;/p&gt;</changelog> 
-	</version>
-	<version>
-		<name>1.2.4</name> 
-		<code>124</code>
-		<branch>beta</branch>
-		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v124_9c999.apk</download> 
-		<md5sum>9c9994cd9676a8a00c8c51e4ba6f310d</md5sum> 
-		<changelog html="true"></changelog> 
+		<name>2.0.0</name> 
+		<code>200</code>
+		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v200_441fa7.apk</download> 
+		<md5sum>441fa71ae4a217d47fe804a2ef066cc7</md5sum> 
+		<changelog html="true">&lt;li&gt;Since v2.0.0 WSM can handle MIUI resources&lt;/li&gt;</changelog> 
 	</version>
   </module>
 </repository>

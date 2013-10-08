@@ -197,7 +197,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
     <name>Play Store Fixes</name> 
     <summary>Fake the density for Google Play Store</summary> 
     <description html="true">&lt;p&gt;Fake the density that is submitted to Google in order to make Play Store show all apps.&lt;/p&gt;</description> 
-    <author>BurgerZ</author> 
+    <author>rovo89</author> 
     <version>
         <name>1.1</name>
         <code>11</code>
