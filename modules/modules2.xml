@@ -230,8 +230,8 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>2.0.0</name> 
 		<code>200</code>
-		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v200_765af1.apk</download> 
-		<md5sum>765af12e678a0f97ab6edb65c8dbb7e2</md5sum> 
+		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v200_f2947f.apk</download> 
+		<md5sum>f2947f092568061824a0eb59b2aae6a4</md5sum> 
 		<changelog html="true">&lt;li&gt;Since v2.0.0 WSM can handle MIUI resources&lt;/li&gt;</changelog> 
 	</version>
   </module>
