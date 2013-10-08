@@ -77,8 +77,99 @@
         <md5sum>a1e241371d13dcc7de5fefb90e2fbbed</md5sum>
         <changelog html="true"></changelog>
     </version>
+  </module>  
+  <module package="pro.burgerz.wsm.mods.carrierlabel" created="1381229881" updated="1381229881">
+    <name>Carrier Label</name> 
+    <summary>Allows to edit your carrier label</summary> 
+    <description html="true">&lt;p&gt;Allows to edit your carrier label. Available in Settings - Status Bar - Carrier label.&lt;/p&gt;&lt;br&gt;May NOT work on some devices!&lt;/br&gt;</description> 
+    <author>BurgerZ</author>
+    <version>
+        <name>2.0</name>
+        <code>20</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.carrierlabel_v20_131624.apk</download> 
+        <md5sum>1316245222f8bfff6eab451d554f8665</md5sum>
+        <changelog html="true"></changelog>
+    </version>
+  </module>  
+  <module package="pro.burgerz.wsm.mods.currenttracklaunch" created="1381232719" updated="1381232719">
+    <name>Current Track Launch</name> 
+    <summary>Launch the playback screen in the player</summary> 
+    <description html="true">&lt;p&gt;Allows you to launch playback screen of the current track in Music player when you click on a pop-up widget (opens by slide on the icon on home screen). By default, the main screen opens, like with a simple click on the player icon.&lt;/p&gt;</description> 
+    <author>BurgerZ</author> 
+    <version>
+        <name>2.0</name>
+        <code>20</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.currenttracklaunch_v20_84b690.apk</download> 
+        <md5sum>84b69089e43068a2e9c6d9d4fe3db9cb</md5sum>
+        <changelog html="true"></changelog>
+    </version>
+  </module>    
+  <module package="pro.burgerz.wsm.mods.searchplaystore" created="1381232612" updated="1381232612">
+    <name>Search in Google Play</name> 
+    <summary>Adds an option to choose marketplace to use with search</summary> 
+    <description html="true">&lt;p&gt;You can choose in module settings what marketplace should be used for searching in QuickSearchBox (Google PlayStore or Xiaomi Market).&lt;br /&gt;Go to the module settings to select marketplace.&lt;br /&gt;No need to reboot after changing settings.&lt;/p&gt;</description> 
+    <author>BurgerZ</author> 
+    <version>
+        <name>2.0</name>
+        <code>20</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.searchplaystore_v20_4dcf74.apk</download> 
+        <md5sum>4dcf747ae69c0726c4c065f4ed9d9af1</md5sum>
+        <changelog html="true"></changelog>
+    </version>
   </module>   
-  <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1381219620">
+  <module package="pro.burgerz.wsm.mods.unitsmodule" created="1381232958" updated="1381232958">
+	<name>Units</name> 
+	<summary>Measure units for different languages (Mb, Gb etc.)</summary> 
+	<description html="true">&lt;p&gt;Allows you to change the measure units depending on the system language.&lt;/p&gt;&lt;li&gt;Status bar: network speed (K/s, m/s)&lt;/li&gt;&lt;li&gt;Task manager: freed, available memory (MB, GB)&lt;/li&gt;</description> 
+	<author>BurgerZ</author> 
+	<version>
+		<name>2.0</name> 
+		<code>20</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.unitsmodule_v20_e5ca2a.apk</download> 
+		<md5sum>e5ca2a695c3d11960767600a154c9d1b</md5sum> 
+		<changelog html="true"></changelog> 
+	</version>
+  </module>
+  <module package="pro.burgerz.wsm.mods.volumecontrol" created="1381232381" updated="1381232381">
+    <name>Volume Control Mute</name> 
+    <summary>Disables ugly BEEP sound while adjusting volume</summary> 
+    <description html="true">&lt;p&gt;This module disables (mutes) the beeper while adjusting volume at home screen (floating volume panel).&lt;/p&gt;</description> 
+    <author>BurgerZ</author> 
+    <version>
+        <name>2.0</name>
+        <code>20</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.volumecontrol_v20_d93682.apk</download> 
+        <md5sum>d936829481b004dae9f56ae2b1138233</md5sum>
+        <changelog html="true"></changelog>
+    </version>
+  </module> 
+  <module package="pro.burgerz.wsm.mods.yellowpagesmodule" created="1381230004" updated="1381230004">
+	<name>YellowPage</name> 
+	<summary>Local YellowPage database</summary> 
+	<description html="true">&lt;p&gt;Blocks updates of the Yellow Pages database from Chinese server and adds the ability to "Mark" unknown contacts.&lt;/p&gt;</description> 
+	<author>BurgerZ</author>
+    <version>
+        <name>2.0</name>
+        <code>20</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.yellowpagesmodule_v20_470a4c.apk</download>
+        <md5sum>470a4c3ee0f4d487098d582cb015bdda</md5sum>
+        <changelog html="false"/>
+    </version>
+  </module>  
+  <module package="pro.burgerz.wsm.mods.volumekeysskiptrack" created="1381232914" updated="1381232914">
+    <name>Volume Skip Track</name> 
+    <summary>Allows to skip tracks in Music player by volume keys</summary> 
+    <description html="true">&lt;p&gt;Allows to skip tracks in Music player by volume keys (while phone screen is off).&lt;/p&gt;</description> 
+    <author>BurgerZ</author> 
+    <version>
+        <name>2.0</name>
+        <code>20</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.volumekeysskiptrack_v20_cfee71.apk</download> 
+        <md5sum>cfee71168553bd54b19a77d216c68fb9</md5sum>
+        <changelog html="true"></changelog>
+    </version>
+  </module>  
+  <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1381230092">
 	<name>WSM tools</name> 
 	<summary>This is the installer and manager for the Xposed framework, which is a requirement for all modules</summary> 
 	<description html="true">&lt;p&gt;This is the installer for the Xposed framework, which is a requirement for all modules.&lt;/p&gt;&lt;p&gt;This framework is based on rovo89\'s Xposed framework. Like an original project it is a framework for modules that can change the behavior of the system and apps without touching any APKs&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note that this only works with root access on Android 4.0.3 or later.&lt;/b&gt;&lt;/p&gt;</description> 
@@ -86,8 +177,8 @@
 	<version>
 		<name>2.0.0</name> 
 		<code>200</code>
-		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v200_441fa7.apk</download> 
-		<md5sum>441fa71ae4a217d47fe804a2ef066cc7</md5sum> 
+		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v200_765af1.apk</download> 
+		<md5sum>765af12e678a0f97ab6edb65c8dbb7e2</md5sum> 
 		<changelog html="true">&lt;li&gt;Since v2.0.0 WSM can handle MIUI resources&lt;/li&gt;</changelog> 
 	</version>
   </module>
