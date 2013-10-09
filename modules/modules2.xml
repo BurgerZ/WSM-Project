@@ -222,11 +222,18 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.centerclock" created="1381307437" updated="1381307437">
+  <module package="pro.burgerz.wsm.mods.centerclock" created="1381307437" updated="1381309656">
 	<name>Center Clock</name> 
 	<summary>Allows to change statusbar clock layout</summary> 
 	<description html="true">&lt;p&gt;Allows to change statusbar clock layout. Available modes are CENTER, LEFT, RIGHT (system default) and HIDE.&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
+	<version>
+		<name>1.1</name> 
+		<code>11</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.centerclock_v11_9fe250.apk</download> 
+		<md5sum>9fe250c316740082790218049e32ac16</md5sum> 
+		<changelog html="true">&lt;li&gt;Fixed layouts&lt;/li&gt;</changelog> 
+	</version>
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
