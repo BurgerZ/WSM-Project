@@ -242,6 +242,19 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<changelog html="true"></changelog> 
 	</version>
   </module>
+  <module package="pro.burgerz.wsm.mods.holidaysmodule" created="1381313997" updated="1381313997">
+	<name>Holidays</name> 
+	<summary>Russian, Ukrainian holidays for calendar and alarm</summary> 
+	<description html="true">&lt;p&gt;Adds the ability to select the settings of holidays in calendar.&lt;/p&gt;&lt;br&gt;In module settings available servers are: miui.com, romz.bz and miui.su.&lt;/br&gt;&lt;br&gt;Available holidays:&lt;/br&gt;&lt;br /&gt;&lt;li&gt;Original (Chinese)&lt;/li&gt;&lt;li&gt;Russian&lt;/li&gt;&lt;li&gt;Ukrainian&lt;/li&gt;</description> 
+	<author>BurgerZ</author> 
+	<version>
+		<name>1.2</name> 
+		<code>12</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.holidaysmodule_v12_58ddf0.apk</download> 
+		<md5sum>58ddf0502038c039a2dc696c24352d39</md5sum> 
+		<changelog html="true"></changelog> 
+	</version>	
+  </module>
   <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1381308450">
 	<name>WSM tools</name> 
 	<summary>This is the installer and manager for the Xposed framework, which is a requirement for all modules</summary> 
