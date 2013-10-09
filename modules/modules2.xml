@@ -175,9 +175,9 @@
 	<description html="true">&lt;p&gt;Adds extra battery info to battery settings&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
     <version>
-        <name>2.0</name> 
-        <code>20</code> 
-        <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.extrabatteryinfo_v20_4e4b39.apk</download> 
+        <name>1.1</name> 
+        <code>11</code> 
+        <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.extrabatteryinfo_v11_4e4b39</download> 
         <md5sum>4e4b394cf1ea454ac7d54118366a1a47</md5sum> 
         <changelog html="true"></changelog> 
     </version>
