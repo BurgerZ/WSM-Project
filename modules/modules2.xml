@@ -215,6 +215,13 @@
 If the tab "Pre-written" is missing, it must be enabled in MMS application settings, you can update content by pressing "Menu" - "Update"&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
 	<version>
+		<name>2.1</name> 
+		<code>21</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mmsfestival_v21_1c0afc.apk</download> 
+		<md5sum>1c0afcc161c4f09537bfec618d57b08c</md5sum> 
+		<changelog html="true">&lt;li&gt;Added update server settings (romz.bz, miui.su, miui.com)&lt;/li&gt;</changelog> 
+	</version>
+	<version>
 		<name>2.0</name> 
 		<code>20</code> 
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mmsfestival_v20_afe41a.apk</download> 
