@@ -269,11 +269,18 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<changelog html="true"></changelog> 
 	</version>	
   </module>
-  <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1381308450">
+  <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1381496603">
 	<name>WSM tools</name> 
 	<summary>This is the installer and manager for the Xposed framework, which is a requirement for all modules</summary> 
 	<description html="true">&lt;p&gt;This is the installer for the Xposed framework, which is a requirement for all modules.&lt;/p&gt;&lt;p&gt;This framework is based on rovo89\'s Xposed framework. Like an original project it is a framework for modules that can change the behavior of the system and apps without touching any APKs&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note that this only works with root access on Android 4.0.3 or later.&lt;/b&gt;&lt;/p&gt;</description> 
 	<author>BurgerZ</author>
+    <version>
+		<name>2.0.2</name> 
+		<code>202</code>
+		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v202_2c4bdf.apk</download> 
+		<md5sum>2c4bdf65c1e6630b9a86f25fa445d756</md5sum> 
+		<changelog html="true">&lt;li&gt;Added Xposed repository (available in settings). Both repositories will be shown in the same list, WSM modules will have \"MI\" image at the bottom right corner.&lt;/li&gt;&lt;li&gt;Alert dialog will popup when WSM tools update available.&lt;/li&gt;&lt;li&gt;Added Feedback to settings.&lt;/li&gt;&lt;li&gt;Reworked About screen.&lt;/li&gt;&lt;li&gt;Reworked Manage screen.&lt;/li&gt;&lt;li&gt;Small fixes.&lt;/li&gt;</changelog> 
+	</version>	
 	<version>
 		<name>2.0.1</name> 
 		<code>201</code>
