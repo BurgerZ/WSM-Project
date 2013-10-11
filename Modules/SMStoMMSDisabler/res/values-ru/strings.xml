@@ -1,0 +1,5 @@
+<resources>
+    <string name="module_name">Allow Long SMS</string>
+    <string name="module_desc">Отключает преобразование SMS в MMS</string>
+    <string name="module_desc_full">Отключает преобразование SMS в MMS для длинных SMS сообщений (обычно 9 SMS преобразуются в MMS)</string>
+</resources>

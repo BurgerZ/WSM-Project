@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Play Store Fixes</string>
+    <string name="module_desc">Ложная плотность пикселей для Play Store</string>
+    <string name="module_desc_full">Отсылает указанную вами плотность пикселей в Play Store, чтобы маркет показывал все приложения.</string>
+    <string name="pref_density_summary">Плотность пикселей для отправки в Google: %s</string>
+    <string name="fdensity">Поддельная плотность пикселей</string>
+    <string name="no_res_desc">Удаляет функцию, которая проверяет, будут ли доступны элементы Play Store</string>
+    <string name="no_res_title">Без ограничений</string>
+    <string name="debug_desc">Показывает дополнительное меню настроек в Play Store</string>
+    <string name="debug_title">Меню отладки</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Search in Google Play</string>
+    <string name="module_desc">Возможность выбрать маркет для поиска (QuickSearchBox)</string>
+    <string name="module_desc_full">Возможность выбрать маркет для использования в виджете рабочего стола \"Поиск\" (Google PlayStore или Xiaomi Market).\nДля выбора перейдите в настройки модуля.\nПосле изменения настроек поиска перезагружаться не нужно.</string>
+    <string name="use_google_market">Использовать Google Play</string>
+    <string name="xiaomi">Xiaomi Market</string>
+    <string name="google">Google Play</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Auto Orientation</string>
+    <string name="module_desc">Альбомный режим в выбранных приложениях</string>
+    <string name="module_desc_full">Добавляет возможность отображать выбранные приложения в альбомном режиме. Для работы необходимо в настройках экрана включить функцию "Автоповорот экрана". На некоторых устройствах возможно некорректное отображение графических элементов.</string>
+    <string name="rotation_enabled_list">Выбор приложений</string>
+    <string name="rotation_enabled_list_summary">Нажмите для выбора приложений из списка установленных</string>
+    <string name="rotation_enabled_packages">Выбранные приложения</string>
+    <string name="apply">Применить</string>
+</resources>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="module_name">Browser Autofit</string>
-    <string name="module_desc">Prispôsobenie webstránky</string>
-    <string name="module_desc_full">Pridá možnosť prispôsobenia webstránky do nastavení internetového Prehliadača. Toto nastavenie Vám umožní prispôsobiť obsah webstránky šírke displeja telefónu. Toto nastavenie už je implementované v ROM od MIUI CZECH/SLOVAK a preto sa tento modul neodporúča inštalovať!</string>
-</resources>

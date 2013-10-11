@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">YellowPage</string>
+    <string name="module_desc">Local YellowPage database</string>
+    <string name="module_desc_full">Blocks updates of the Yellow Pages database from Chinese server and adds the ability to "Mark" unknown contacts.</string>
+</resources>

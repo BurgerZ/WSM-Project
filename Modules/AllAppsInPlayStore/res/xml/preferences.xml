@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:defaultValue="240"
+        android:dialogTitle="@string/fdensity"
+        android:key="density"
+        android:summary="@string/pref_density_summary"
+        android:title="@string/fdensity" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="no_restrictions"
+        android:summary="@string/no_res_desc"
+        android:title="@string/no_res_title" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="debug"
+        android:summary="@string/debug_desc"
+        android:title="@string/debug_title" />
+
+</PreferenceScreen>

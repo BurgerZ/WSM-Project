@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pro.burgerz.wsm.mods.smstommsdisabler"
+    android:versionCode="10"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/module_name" >
+        <meta-data android:name="wsmmodule" android:value="true"/>
+        <meta-data android:name="wsmminversion" android:value="130.*" />
+        <meta-data android:name="wsmdescription" android:value="@string/module_desc" />
+        <meta-data android:name="wsmdescriptionfull" android:value="@string/module_desc_full" />
+    </application>
+
+</manifest>

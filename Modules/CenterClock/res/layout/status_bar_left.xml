@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.PhoneStatusBarView android:id="@+id/status_bar" android:background="@+drawable/status_bar_background" android:focusable="true" android:fitsSystemWindows="true" android:descendantFocusability="afterDescendants"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.TorchServiceView android:layout_gravity="top|left|center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="#ff000000" />
+    <com.android.systemui.statusbar.phone.BatteryIndicator android:layout_gravity="top" android:id="@+id/battery_indicator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@+drawable/battery_indicator" android:scaleType="fitXY" />
+    <com.android.systemui.statusbar.phone.BatteryIndicatorCharging android:layout_gravity="top|right|center" android:id="@+id/battery_indicator_charging" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@+drawable/battery_indicator_charging" />
+    <ImageView android:id="@+id/notification_lights_out" android:paddingLeft="6.0dip" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="@+dimen/status_bar_icon_size" android:layout_height="fill_parent" android:src="@+drawable/ic_sysbar_lights_out_dot_small" android:scaleType="center" />
+    <LinearLayout android:orientation="horizontal" android:id="@+id/icons" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.systemui.statusbar.policy.Clock android:textAppearance="@+style/TextAppearance.StatusBar.Clock" android:gravity="center" android:id="@+id/clock" android:paddingTop="1.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+		<LinearLayout android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textAppearance="@+style/TextAppearance.StatusBar.Carrier" android:gravity="left|center" android:id="@+id/carrier" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+            <LinearLayout android:id="@+id/notification_icon_area" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <com.android.systemui.statusbar.StatusBarIconView android:id="@+id/moreIcon" android:visibility="gone" android:layout_width="@+dimen/status_bar_icon_size" android:layout_height="fill_parent" android:src="@+drawable/stat_notify_more" />
+                <com.android.systemui.statusbar.phone.IconMerger android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/notificationIcons" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            </LinearLayout>
+        </LinearLayout>
+        
+        <LinearLayout android:gravity="right" android:paddingLeft="6.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.android.systemui.statusbar.NetworkSpeedView android:textAppearance="@+style/TextAppearance.StatusBar.Clock" android:gravity="right|center" android:id="@+id/network_speed_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="4.0dip" android:singleLine="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/statusIcons" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/signal_battery_cluster" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <include android:id="@+id/signal_cluster" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@+layout/signal_cluster_view" />
+            <com.android.systemui.statusbar.phone.BatteryStatusIconView android:id="@+id/battery" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ticker" android:paddingLeft="6.0dip" android:animationCache="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageSwitcher android:id="@+id/tickerIcon" android:layout_width="@+dimen/status_bar_icon_size" android:layout_height="@+dimen/status_bar_icon_size" android:layout_marginRight="4.0dip">
+            <com.android.systemui.statusbar.AnimatedImageView android:layout_width="@+dimen/status_bar_icon_size" android:layout_height="@+dimen/status_bar_icon_size" android:scaleType="centerInside" />
+            <com.android.systemui.statusbar.AnimatedImageView android:layout_width="@+dimen/status_bar_icon_size" android:layout_height="@+dimen/status_bar_icon_size" android:scaleType="centerInside" />
+        </ImageSwitcher>
+        <com.android.systemui.statusbar.phone.TickerView android:id="@+id/tickerText" android:paddingTop="2.0dip" android:paddingRight="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="@+style/TextAppearance.StatusBar.PhoneTicker" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textAppearance="@+style/TextAppearance.StatusBar.PhoneTicker" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        </com.android.systemui.statusbar.phone.TickerView>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@+id/returnToDriveModeScreen" android:background="@+drawable/status_bar_orange_bar_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@+id/driveModeIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:src="@+drawable/status_bar_drive_mode_icon" />
+        <TextView android:textAppearance="@+style/TextAppearance.StatusBar.PhoneTicker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@+string/drive_mode_tip" android:singleLine="true" android:layout_weight="1.0" />
+        <com.android.systemui.statusbar.policy.Clock android:textAppearance="@+style/TextAppearance.StatusBar.PhoneTicker" android:gravity="left|center" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@+id/returnToRecorderScreen" android:background="@+drawable/status_bar_red_bar_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@+id/recorderIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@+drawable/status_bar_recorder_icon" />
+        <TextView android:textAppearance="@+style/TextAppearance.StatusBar.PhoneTicker" android:id="@+id/recorderTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:singleLine="true" android:layout_weight="1.0" />
+        <Chronometer android:textAppearance="@+style/TextAppearance.StatusBar.PhoneTicker" android:id="@+id/recorderTimer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="46.0dip" android:singleLine="true" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <include android:id="@+id/recorder_signal_cluster" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@+layout/signal_cluster_view" />
+            <com.android.systemui.statusbar.phone.BatteryStatusIconView android:id="@+id/recorder_battery" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@+id/returnToIncallScreen" android:background="@+drawable/status_bar_green_bar_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@+id/callStateIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@+drawable/status_bar_ic_return_to_incall_screen_normal" />
+        <TextView android:textAppearance="@+style/TextAppearance.StatusBar.PhoneTicker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@+string/return_to_incall_screen" android:singleLine="true" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/callIcons" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <Chronometer android:textAppearance="@+style/TextAppearance.StatusBar.PhoneTicker" android:id="@+id/callTimer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:singleLine="true" />
+    </LinearLayout>
+</com.android.systemui.statusbar.phone.PhoneStatusBarView>

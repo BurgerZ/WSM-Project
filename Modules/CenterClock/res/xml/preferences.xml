@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- ListPreference
+        android:key="clock_layout"
+        android:title="@string/clock_position" 
+        android:dialogTitle="@string/clock_position" 
+        android:entries="@array/clock_position_entries" 
+        android:entryValues="@array/clock_position_values"/-->
+    <Preference 
+        android:key="clock_layout" 
+        android:title="@string/clock_position"/>
+
+</PreferenceScreen>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="holidays_server_names">
+        <item>MIUI.com</item> 
+        <item>Romz.bz</item> 
+        <item>Miui.su</item>
+        <item>Miui.cz (SK)</item> 
+        <item>Miui.cz (CZ)</item>
+    </string-array>
+    <string-array name="holidays_server_values" translatable="false">
+        <item>server_original</item> 
+        <item>server_romz</item> 
+        <item>server_miuisu</item>
+        <item>server_cz_slovak</item> 
+        <item>server_cz_czech</item>
+    </string-array>
+</resources>

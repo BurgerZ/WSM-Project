@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="holidays">Праздники</string>
+    <string name="holiday_select">Выбор праздников</string>
+    <string name="holiday_select_desc">Выбор праздников, которые будут отображаться в календаре</string>
+    <string name="holiday_original">Оригинальные</string>
+    <string name="holiday_russian">Русские</string>
+    <string name="holiday_ukrainian">Украинские</string>
+    <string name="holiday_slovak">Словацкие</string>
+    <string name="holiday_czech">Чешские</string>
+    <string name="module_name">Holidays</string>
+    <string name="module_desc">Выбор праздников в календаре</string>
+    <string name="module_desc_full">Добавляет возможность выбирать праздники в основных настройках календаря.\n\n
+Доступные праздники:\n
+-Оригинальные (китайские)\n
+-Русские (romz.bz)\n
+-Украинские (romz.bz)</string>
+    <string name="holidays_update_server">Сервер обновления</string>
+</resources>

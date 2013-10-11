@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="holidays">Holidays</string>
+    <string name="holiday_select">Select holidays</string>
+    <string name="holiday_select_desc">Select holidays locale, that will be showed in calendar</string>
+    <string name="holiday_original">Original</string>
+    <string name="holiday_russian">Russian</string>
+    <string name="holiday_ukrainian">Ukrainian</string>
+    <string name="holiday_slovak">Slovak</string>
+    <string name="holiday_czech">Czech</string>
+    <string name="module_name">Holidays</string>
+    <string name="module_desc">Russian, Ukrainian holidays for calendar and alarm</string>
+    <string name="module_desc_full">Adds the ability to select the settings of holidays in calendar.\n\n
+Available holidays:\n
+-Original (Chinese)\n
+-Russian (romz.bz)\n
+-Ukrainian (romz.bz)</string>
+    <string name="holidays_update_server">Update server</string> 
+</resources>

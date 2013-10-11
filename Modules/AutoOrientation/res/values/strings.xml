@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Auto Orientation</string>
+    <string name="module_desc">Landscape orientation in selected application</string>
+    <string name="module_desc_full">Adds the ability to view applications in landscape mode. To make it work go to the device screen settings and activate "Auto-rotate screen" option. 
+On some devices may not be displayed correctly.</string>
+    <string name="rotation_enabled_list">Select applications</string>
+    <string name="rotation_enabled_list_summary">Tap to select rotation enabled applications</string>
+    <string name="rotation_enabled_packages">Rotation enabled packages</string>
+    <string name="apply">Apply</string>
+</resources>

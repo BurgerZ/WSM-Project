@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Carrier Label</string>
+    <string name="module_desc">Редактирование имени оператора</string>
+    <string name="module_desc_full">Позволяет редактировать отображаемое в статусной строке имя сотового оператора.\nДоступно в "Настроки" - "Панель состояния" - "Имя оператора".\nРаботает не на всех устройствах!</string>
+    <string name="info">Введите текст, нажмите \"Сохранить\" и переключите режим полета для применения.</string> 
+    <string name="pref_carrier_title">Имя оператора</string> 
+    <string name="hint_carrier_edit">Введите имя оператора</string>
+    <string name="no_sim_service">Пожалуйста, вставьте SIM-карту и убедитесь, что ваш телефон не находится в режиме полета.</string> 
+    <string name="save">Сохранить</string> 
+    <string name="airplane_on">Включить режим полета</string> 
+    <string name="airplane_off">Выключить режим полета</string> 
+</resources>

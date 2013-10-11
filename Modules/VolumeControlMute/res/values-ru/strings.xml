@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Volume Control Mute</string>
+    <string name="module_desc">Отключает звуковое подтверждение регулировки громкости</string>
+    <string name="module_desc_full">Модуль отключает раздражающий звук, который появляется при регулировке громкости на рабочем столе (при появлении круглой панели регулировки громкости).</string>
+</resources>

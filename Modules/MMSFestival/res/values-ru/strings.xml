@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">MMS Festival</string>
+    <string name="module_desc">Русские SMS-поздравления</string>
+    <string name="module_desc_full">Заменяет китайскую онлайн базу SMS-поздравлений на русскую с сервера miui.su.\n
+Если вкладка "Поздравления" отсутствует, ее необходимо включить в дополнительных настройках сообщений, а также обновить базу, выбрав во вкладке "Поздравления" кнопку "Меню"-"Обновить".</string>
+    <string name="update_server">Сервер обновления</string>
+</resources>

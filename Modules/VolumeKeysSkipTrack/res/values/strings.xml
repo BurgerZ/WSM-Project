@@ -1,0 +1,5 @@
+<resources>
+    <string name="module_name">Volume Skip Track</string>
+    <string name="module_desc">Allows skip tracks in Music player by volume keys</string>
+    <string name="module_desc_full">Allows skip tracks in Music player by volume keys (while phone screen is off)</string>
+</resources>

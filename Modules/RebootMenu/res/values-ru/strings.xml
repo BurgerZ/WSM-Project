@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Reboot Options</string>
+	<string name="module_desc">Расширенное меню перезагрузки</string>
+	<string name="module_desc_full">Добавляет дополнительное меню с вариантами перезагрузки. Запускается при удержании кнопки питания и выборе пункта "Перезагрузка".\n\n
+Доступные варианты перезагрузки:\n
+-Нормальная\n
+-Быстрая\n
+-Режим Recovery\n
+-Режим Bootloader\n
+-Загрузка в другую систему (для Mi телефонов)</string>
+	<string name="reboot">Перезагрузка</string> 
+    <string name="reboot_options">Варианты перезагрузки</string> 
+	<string name="reboot_normal">Обычная</string>
+	<string name="reboot_recovery">Режим Recovery</string>
+	<string name="reboot_hot">Быстрая</string>
+	<string name="reboot_bootloader">Режим Bootloader</string>
+	<string name="reboot_system_1">Загрузка в систему 1</string> 
+    <string name="reboot_system_2">Загрузка в систему 2</string> 
+    <string name="cancel">Отмена</string>
+</resources>

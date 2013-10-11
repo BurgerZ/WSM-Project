@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Center Clock</string>
+    <string name="module_desc">Изменение позици часов в статусбаре</string>
+    <string name="module_desc_full">Позволяет изменять позицию часов в статусной строке.\nДоступные варианты - в центре, слева, справа (по умолчанию), а также скрыть.</string>
+    <string name="clock_hide">Скрыть</string> 
+    <string name="clock_right">Справа (по умолчанию)</string> 
+    <string name="clock_left">Слева</string> 
+    <string name="clock_center">В центре</string> 
+    <string name="clock_center_signal_left">В центре (сигнал слева)</string> 
+    <string name="clock_center_iphone">В центре (Iphone)</string>
+    <string name="clock_position">Позиция часов</string> 
+    <string name="apply">Применить</string>
+</resources>

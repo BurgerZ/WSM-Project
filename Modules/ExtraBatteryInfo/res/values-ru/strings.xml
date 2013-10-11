@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Extra Battery info</string>
+    <string name="module_desc">Дополнительная информация о батарее.</string>
+    <string name="module_desc_full">Добавляет пункт \"Информация о батарее\" в Настройки - Батарея.\nОтображаемые данные:\n1. Состояние батареи\n2. Тип питания (USB, сеть или батарея)\n3. Уровень заряда\n4. Напряжение\n5. Температуру батареи\n6.Технологию изготовления батареи\n7. Время, прошедшее после загрузки</string>
+</resources>

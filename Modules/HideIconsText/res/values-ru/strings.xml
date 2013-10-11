@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Hide Icons Text</string>
+    <string name="module_desc">Вожможность убрать подписи иконок</string>
+    <string name="module_desc_full">Позволяет скрыть подписи иконок и папок рабочего стола.</string>
+</resources>

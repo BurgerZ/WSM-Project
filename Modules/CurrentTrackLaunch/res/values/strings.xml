@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Current Track Launch</string>
+    <string name="module_desc">Launch the playback screen in the player</string>
+    <string name="module_desc_full">Allows you to launch playback screen of the current track in Music player when you click on a pop-up widget (opens by slide on the icon on home screen). By default, the main screen opens, like with a simple click on the player icon.</string>
+</resources>

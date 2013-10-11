@@ -1,2 +1,4 @@
-pro.burgerz.wsm
-pro.burgerz.wsm.callbacks
+android.app
+android.content.res
+de.robv.android.xposed
+de.robv.android.xposed.callbacks

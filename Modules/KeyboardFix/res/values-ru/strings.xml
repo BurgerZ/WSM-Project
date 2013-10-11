@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">KeyboardFix</string>
+    <string name="module_desc">Исправляет FC в Xperia TM клавиатуре</string>
+    <string name="module_desc_full">Исправляет FC в Xperia TM клавиатуре</string>
+</resources>

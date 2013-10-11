@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Center Clock</string>
+    <string name="module_desc">Allows to change statusbar clock layout</string>
+    <string name="module_desc_full">Allows to change statusbar clock layout. Available modes are CENTER, LEFT, RIGHT (system default) and HIDE.</string>
+    <string name="clock_hide">Hide</string> 
+    <string name="clock_right">Right (default)</string> 
+    <string name="clock_left">Left</string> 
+    <string name="clock_center">Center</string> 
+    <string name="clock_center_signal_left">Center (signal left)</string> 
+    <string name="clock_center_iphone">Center (Iphone)</string>
+    <string name="clock_position">Clock position</string> 
+    <string name="apply">Apply</string>
+    <!--  string name="day_of_week_long_thursday">ЧЫЦИК</string-->
+</resources>

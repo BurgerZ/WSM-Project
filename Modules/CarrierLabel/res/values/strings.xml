@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Carrier Label</string>
+    <string name="module_desc">Allows to edit your carrier label</string>
+    <string name="module_desc_full">Allows to edit your carrier label. Available in Settings - Status Bar - Carrier label.\nMay NOT work on some devices!</string>
+    <string name="info">Please write your mobile operator name here and switch airplane mode after saving</string> 
+    <string name="pref_carrier_title">Carrier label</string> 
+    <string name="hint_carrier_edit">Enter carrier label</string>
+    <string name="no_sim_service">Please insert your SIM card, and make sure your phone is not in airplane mode</string> 
+    <string name="save">Save</string> 
+    <string name="airplane_on">Airplane Mode On</string> 
+    <string name="airplane_off">Airplane Mode Off</string> 
+</resources>

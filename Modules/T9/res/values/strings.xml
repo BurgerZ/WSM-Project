@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">T9 Module</string>
+    <string name="module_desc">Adds international contacts search to dialer</string>
+    <string name="module_desc_full">Adds international contacts (and service numbers) search to dialer. 
+After activating rebuild T9 index in Contacts application settings.</string>
+</resources>

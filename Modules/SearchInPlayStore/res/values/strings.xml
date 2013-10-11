@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Search in Google Play</string>
+    <string name="module_desc">Adds an option to choose marketplace to use with search</string>
+    <string name="module_desc_full">You can choose in module settings what marketplace should be used for searching in QuickSearchBox (Google PlayStore or Xiaomi Market).\nGo to the module settings to select marketplace.\nNo need to reboot after changing settings.</string>
+    <string name="use_google_market">Use Google Play</string>
+    <string name="xiaomi">Xiaomi Market</string>
+    <string name="google">Google Play</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Volume Control Mute</string>
+    <string name="module_desc">Disables ugly BEEP sound while adjusting volume</string>
+    <string name="module_desc_full">This module disables (mutes) the beeper while adjusting volume at home screen (floating volume panel).</string>
+</resources>

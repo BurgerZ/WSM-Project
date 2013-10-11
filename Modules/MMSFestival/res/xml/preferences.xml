@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:key="update_server"
+        android:title="@string/update_server" 
+        android:dialogTitle="@string/update_server" 
+        android:entries="@array/server_names" 
+        android:entryValues="@array/server_values" android:defaultValue="server_original"/>
+
+</PreferenceScreen>

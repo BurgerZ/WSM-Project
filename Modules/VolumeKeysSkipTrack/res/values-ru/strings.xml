@@ -1,0 +1,5 @@
+<resources>
+    <string name="module_name">Volume Skip Track</string>
+    <string name="module_desc">Позволяет переключать музыкальные треки клавишами громкости</string>
+    <string name="module_desc_full">Позволяет переключать музыкальные треки клавишами громкости (при выключенном экране телефона)</string>
+</resources>

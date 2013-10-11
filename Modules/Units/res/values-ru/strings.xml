@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gb">Гб</string>
+    <string name="kbs">К/с</string>
+    <string name="mb">Мб</string>
+    <string name="mbs">М/с</string>
+    <string name="module_name">Units</string>
+    <string name="module_desc">Исправление единиц измерения</string>
+    <string name="module_desc_full">Позволяет изменять единицы измерения в зависимости от выбранного языка в настройках телефона.\n
+- В строке состояния: скорость интернета (K/с, М/с)\n
+- В окне очистки оперативной памяти (Мб, Гб)</string>
+    <string name="share_prepare">Подготовка\u2026</string>
+</resources>

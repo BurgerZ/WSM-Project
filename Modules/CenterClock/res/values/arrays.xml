@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clock_position_entries">
+        <item name="hide">@string/clock_hide</item>
+        <item name="right">@string/clock_right</item>
+        <item name="center">@string/clock_center</item>
+        <item name="center_signal_left">@string/clock_center_signal_left</item>
+        <item name="left">@string/clock_left</item>
+    </string-array>
+    <string-array name="clock_position_values">
+        <item name="hide">clock_hide</item>
+        <item name="right">clock_right</item>
+        <item name="center">clock_center</item>
+        <item name="center_signal_left">clock_center_signal_left</item>
+        <item name="left">clock_left</item>
+    </string-array>
+</resources>

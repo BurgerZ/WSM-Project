@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">T9 Module</string>
+    <string name="module_desc">Поиск контактов в телефоне</string>
+    <string name="module_desc_full">Исправляет поиск в режиме Т9 для русских и сервисных контактов в номеронабирателе.
+После включения модуля необходимо войти в настройки телефона и обновить индекс т9.</string>
+</resources>

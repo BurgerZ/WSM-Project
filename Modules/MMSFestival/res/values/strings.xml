@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">MMS Festival</string>
+    <string name="module_desc">Russian SMS festival</string>
+    <string name="module_desc_full">Replaces the Chinese online database of SMS-congratulations to Russian server miui.su.\n
+If the tab "Pre-written" is missing, it must be enabled in MMS application settings, you can update content by pressing "Menu" - "Update"</string>
+    <string name="update_server">Update server</string> 
+</resources>

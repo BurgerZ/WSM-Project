@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Extra Battery info</string>
+    <string name="module_desc">Extra Battery information in Settings</string>
+    <string name="module_desc_full">Adds extra battery info to battery settings</string>
+</resources>

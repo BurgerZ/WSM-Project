@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:key="holidays_update_server"
+        android:title="@string/holidays_update_server" 
+        android:dialogTitle="@string/holidays_update_server" 
+        android:entries="@array/holidays_server_names" 
+        android:entryValues="@array/holidays_server_values" android:defaultValue="server_original"/>
+
+</PreferenceScreen>

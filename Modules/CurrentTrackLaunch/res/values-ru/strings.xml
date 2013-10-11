@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Current Track Launch</string>
+    <string name="module_desc">Запуск экрана воспроизведения в плеере</string>
+    <string name="module_desc_full">Позволяет сразу запускать экран текущего трека в плеере при нажатии на всплывающий виджет, который открывается слайдом по иконке на рабочем столе. По умолчанию открывается главный экран плеера, как и при простом нажатии на иконку плеера.</string>
+</resources>

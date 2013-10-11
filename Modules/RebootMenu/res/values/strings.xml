@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Reboot Options</string>
+	<string name="module_desc">Advanced Reboot menu.</string>
+	<string name="module_desc_full">Adds an additional menu with options to reboot. Press power button and select "Reboot", as usual.\n\n
+Available reboot options:\n
+-Normal\n
+-Fast\n
+-Recovery Mode\n
+-Bootloader Mode\n
+-Switch system (for Mi devices with two systems)</string>
+	<string name="reboot">Reboot</string> 
+    <string name="reboot_options">Reboot Options</string> 
+    <string name="reboot_normal">Normal</string> 
+    <string name="reboot_recovery">Recovery</string>  
+    <string name="reboot_hot">Hot Reboot</string> 
+    <string name="reboot_bootloader">Bootloader</string> 
+    <string name="reboot_system_1">Reboot to System 1</string> 
+    <string name="reboot_system_2">Reboot to System 2</string> 
+    <string name="cancel">Cancel</string> 
+</resources>

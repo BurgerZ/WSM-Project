@@ -1,0 +1,5 @@
+<resources>
+    <string name="module_name">Allow Long SMS</string>
+    <string name="module_desc">Disables SMS to MMS conversion</string>
+    <string name="module_desc_full">Disables SMS to MMS conversion for long SMS (usually 9 SMS)</string>
+</resources>

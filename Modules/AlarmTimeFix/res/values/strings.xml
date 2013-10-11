@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Alarm Time fix</string>
+    <string name="module_desc">Fix for third-party alarms</string>
+    <string name="module_desc_full">Fixes rounding response time to 5 minutes for third-party alarm clocks.</string>
+    <string name="alarm_white_list">Select applications</string>
+    <string name="alarm_white_list_summary">Tap to select white list applications</string>
+    <string name="alarm_white_list_packages">White list</string>
+    <string name="apply">Apply</string>
+</resources>

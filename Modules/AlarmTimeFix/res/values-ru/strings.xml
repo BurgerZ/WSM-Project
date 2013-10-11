@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Alarm Time fix</string>
+    <string name="module_desc">Исправление работы сторонних будильников</string>
+    <string name="module_desc_full">Исправляет округление времени срабатывания до 5 минут для сторонних будильников.</string>
+    <string name="alarm_white_list">Выбор приложений</string>
+    <string name="alarm_white_list_summary">Нажмите для выбора приложений белого списка</string>
+    <string name="alarm_white_list_packages">Белый список</string>
+    <string name="apply">Применить</string>
+</resources>

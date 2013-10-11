@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Hide Icons Text</string>
+    <string name="module_desc">Hides launcher icon labels</string>
+    <string name="module_desc_full">Allows you to to hide launcher icon and folder labels.</string>
+</resources>
