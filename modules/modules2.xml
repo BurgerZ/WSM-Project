@@ -1,5 +1,5 @@
 <repository>
-  <name>Main repository</name>
+  <name>WSM repository</name>
   <module package="pro.burgerz.wsm.mods.advancedrebootmenu" created="1381218737" updated="1381218737">
 	<name>Reboot Options</name> 
 	<summary>Adds reboot options to power menu</summary> 
