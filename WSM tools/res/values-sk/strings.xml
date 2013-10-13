@@ -87,5 +87,5 @@
     <string name="module_settings">Nastavenie modulu</string>
     <string name="module_description">Popis modulu</string>
     <string name="module_info_version">Verzia</string>
-    <string name="modules_count">Moduly: %1$d | Skryté: %2$d | Aktívne: %3$d</string>
+    <string name="modules_count">Moduly: %1$d | Aktívne: %2$d</string>
 </resources>
