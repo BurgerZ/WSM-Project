@@ -9,7 +9,8 @@
     <string name="versions_wsm_tools">Verzia WSM tools</string>
     <string name="author">Autor</string>
     <string name="check_for_updates">Skontrolovať aktualizácie</string>
-    <string name="copyright">Založene na rovo89 Xposed\nKompilované BurgerZ MD | Grafika DriffeX\nCopyright © 2013, Všetky práva vyhradené</string>
+    <string name="copyright">Kompilované BurgerZ MD | Grafika DriffeX\nCopyright © 2013, Všetky práva vyhradené</string>
+    <string name="copyright_xposed">Založene na rovo89 Xposed</string>
     <string name="pref_manage_title">Spravovať WSM</string>
     <string name="pref_manage_summary">Inčtalovať, Aktualizovať, Vymazať</string>
     <string name="pref_show_hidden_modules_title">Zobraziť skryté moduly</string>
@@ -38,7 +39,7 @@
     <string name="installer_installed_version">NAINŠTALOVANÁ VERZIA</string>
     <string name="installer_bundled_version">ZBALENÁ VERZIA</string>
     <string name="installer_app_process">app_process</string>
-    <string name="installer_wsm_framework">WSMBridge.jar</string>
+    <string name="installer_wsm_framework">XposedBridge.jar</string>
     <string name="installer_phone_not_compatible">WSM nie je (momentálne) kompatibilné s verziou Android SDK %1$d alebo Vašou architektúrou CPU (%2$s).</string>
     <string name="installer_not_tested_but_compatible">WSM nebolo testované s verziou Android SDK %d ale vyzerá, že bude fungovať. Ak sa na to cítite môžete ho skúsiť nainštalovať.</string>
     <string name="repo_download_failed_http">Sťahovanie %1$s zlyhalo: %2$d (%3$s)</string>
