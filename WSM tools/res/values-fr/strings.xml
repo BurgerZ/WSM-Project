@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Outils WSM</string>
+    <string name="apply">Appliquer</string>
     <string name="act_title_settings">Paramètres</string>
     <string name="act_title_about">À propos</string>
     <string name="act_title_installer">Gérer</string>
@@ -9,9 +10,12 @@
     <string name="versions_wsm_tools">"Version d'outils WSM"</string>
     <string name="author">Auteur</string>
     <string name="check_for_updates">Vérifier les mises à jours</string>
-    <string name="copyright">Basé sur une idée de rovo89\'s Xposed\nCodé par BurgerZ MD | Graphismes par parriffeX\nCopyright © 2013, Tous droits réservés"</string>
+    <string name="copyright">Codé par BurgerZ MD | Graphismes par parriffeX\nCopyright © 2013, Tous droits réservés"</string>
+    <string name="copyright_xposed">Basé sur une idée de rovo89\'s Xposed</string>
     <string name="pref_manage_title">Gérer WSM</string>
     <string name="pref_manage_summary">Installer, Mettre à jour, Supprimer</string>
+    <string name="pref_repositories_alert">Certains modules Xposed peuvent ne pas fonctionner ou empêcher votre téléphone de démarrer !\nUtilisez-les à vos propres risques!</string>
+    <string name="pref_repositories_title">Sélectionner les dépots</string>
     <string name="pref_show_hidden_modules_title">Afficher les modules cachés</string>
     <string name="pref_show_hidden_modules_summary">Afficher les modules cachés dans la liste</string>
     <string name="pref_show_module_info_title">Afficher les infos du module</string>
@@ -19,43 +23,48 @@
     <string name="pref_system_toasts_title">Popups système</string>
     <string name="pref_system_toasts_summary">Afficher les popups de WSM</string>
     <string name="pref_about_title">À Propos</string>
-    <string name="none">---</string>
+    
     <string name="bottom_bar_btn_settings">Paramètres</string>
     <string name="bottom_bar_btn_reboot">Redémarrer</string>
     <string name="bottom_bar_btn_refresh">Mettre à jour</string>
     <string name="module_opt_hide_title">Cacher le module</string>
-    <string name="module_opt_hide_summary">"Pour afficher les modules cachés activez l'option \"Afficher les modules cachés\""</string>
+    <string name="module_opt_hide_summary">Pour afficher les modules cachés activez l\'option \"Afficher les modules cachés\"</string>
     <string name="dialog_are_you_sure">Êtes-vous sûr ?</string>
+    <string name="dialog_phone_will_be_rebooted">L\'appareil sera redémarré</string>
     <string name="dialog_progress_updating">Mise à jour</string>
     <string name="menu_select_all">Tout sélectionner</string>
     <string name="menu_unselect_all">Effacer la sélection</string>
+    
+    <!-- InstallerActivity -->
     <string name="installer_install">Installation/Mise à jour</string>
-    <string name="installer_uninstall">Désinstaller (restaurer app_process)</string>
-    <string name="installer_delete">Supprimer (suppression complète)</string>
+    <string name="installer_uninstall">Désinstaller</string>
     <string name="installer_reboot">Redémarrage</string>
-    <string name="installer_soft_reboot">Redémarrage rapide</string>
     <string name="installer_versions">VERSIONS :</string>
     <string name="installer_installed_version">VERSION INSTALLÉ</string>
     <string name="installer_bundled_version">VERSION EMBARQUÉE</string>
-    <string name="installer_app_process">app_process</string>
-    <string name="installer_wsm_framework">WSMBridge.jar</string>
+    
+    
     <string name="installer_phone_not_compatible">"WSM n'est pas (pour le moment) compatible avec le SDK Android version %1$d ou avec l'architecture de votre processeur (%2$s)."</string>
     <string name="installer_not_tested_but_compatible">"WSM n'a pas été testé avec le SDK Android version %d, mais il semble compatible. Vous pouvez essayer de l'installer si vous vous sentez aventureux."</string>
+    
+    <!-- RepoLoader -->
     <string name="repo_download_failed_http">Téléchargement de %1$s à échoué : %2$d (%3$s)</string>
     <string name="repo_download_failed">Téléchargement de %1$s à échoué : %2$s</string>
     <string name="repo_load_failed">Impossible de charger le dépôt à partir %1$s :\n%2$s</string>
-    <string name="changes">Modification :</string>
+    
+    <!-- Download tab -->
+    <string name="changes">Modifications :</string>
     <string name="branch_display">(branche %s)</string>
     <string name="download_author">par %s</string>
     <string name="download_unknown_author">auteur inconnu</string>
-    <string name="download_status_installed">Installé (version %s)</string>
-    <string name="download_status_update_available">Mise à jour disponible (version %1$s → %2$s)</string>
+    <string name="download_status_version">Version : %1$s</string>
+    <string name="download_status_update_available">" \u2192 %1$s"</string>
     <string name="download_timestamps">Ajouté le %1$s · Mise à jour le %2$s</string>
     <string name="download_sorting_title">Ordre de classement</string>
     <string name="download_sorting_status">Trier par statut</string>
     <string name="download_sorting_updated">Trier par date de mise à jour</string>
     <string name="download_sorting_created">Trier par date de création</string>
-	<string name="download_section_framework">Framework</string>
+    <string name="download_section_framework">Framework</string>
     <string name="download_section_update_available">Mise à jour disponible</string>
     <string name="download_section_installed">Installé</string>
     <string name="download_section_not_installed">Non installé</string>
@@ -63,10 +72,14 @@
     <string name="download_section_7d">Derniers 7 jours</string>
     <string name="download_section_30d">Derniers 30 jours</string>
     <string name="download_section_older">Il ya plus de 30 jours</string>
+    
+    <!-- DownloadUtils -->
     <string name="download_md5sum_incorrect">Le checksum MD5 est incorrect (téléchargé : %1$s, attendu : %2$s)</string>
     <string name="download_could_not_read_file">Impossible de lire le fichier téléchargé : %s</string>
     <string name="download_no_valid_apk">"Le fichier téléchargé n'est pas un APK valide (ou est incompatible)"</string>
     <string name="download_incorrect_package_name">Nom du package incorrect (téléchargé : %1$s, attendu : %2$s)</string>
+    
+    <!--  DownloadView -->
     <string name="download_view_download">Télécharger</string>
     <string name="download_view_install">Installer</string>
     <string name="download_view_cancel">Annuler</string>
@@ -75,18 +88,20 @@
     <string name="download_view_waiting">Téléchargement en attente</string>
     <string name="download_view_successful">Téléchargement effectué avec succès</string>
     <string name="download_view_failed">Téléchargement échoué (erreur %d)</string>
+    
     <string name="module_installed">Module WSM installé</string>
     <string name="module_empty_description">(aucune description fournie)</string>
     <string name="module_no_ui">"Ce module ne fournit pas d'interface utilisateur"</string>
     <string name="no_wsm_modules_found">Aucun module WSM trouvé !</string>
-    <string name="wsm_module_list_updated">"La liste de modules WSM à été mise à jour
-Les changements seront actifs au redémarrage"</string>
+    <string name="wsm_module_list_updated">La liste de modules WSM à été mise à jour\nLes changements seront actifs au redémarrage</string>
     <string name="warning_wsm_min_version">"Ce module requiert WSM version %s, il n'a donc pas pu être activé."</string>
     <string name="no_min_version_specified">Ce module ne précise pas la version de WSM dont il a besoin.</string>
     <string name="warning_min_version_too_low">Ce module a été créé pour WSM version %1$s, mais à cause de changements incompatibles dans la versions %2$s, il a été désactivé.</string>
     <string name="btnDeleteModule">Supprimer le module</string>
+    
+    <!--  ModuleSettingsActivity -->
     <string name="module_settings">Paramètres du module</string>
     <string name="module_description">Description du module</string>
     <string name="module_info_version">Version</string>
-    <string name="modules_count">Module(s) : %1$d | Caché(s) : %2$d | Actif(s): %3$d</string>
+    <string name="modules_count">Module(s) : %1$d | Actif(s): %2$d</string>
 </resources>
