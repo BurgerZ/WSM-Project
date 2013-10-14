@@ -229,11 +229,18 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.centerclock" created="1381307437" updated="1381406206">
+  <module package="pro.burgerz.wsm.mods.centerclock" created="1381307437" updated="1381744303">
 	<name>Center Clock</name> 
 	<summary>Allows to change statusbar clock layout</summary> 
-	<description html="true">&lt;p&gt;Allows to change statusbar clock layout. Available modes are CENTER, LEFT, RIGHT (system default) and HIDE.&lt;/p&gt;</description> 
+	<description html="true">&lt;p&gt;Allows to change statusbar clock layout. All available mods you can find in module settings.&lt;br /&gt;NOTE: May not work on unofficial and 2-SIM devices!&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
+	<version>
+		<name>1.3</name> 
+		<code>13</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.centerclock_v13_986bd1.apk</download> 
+		<md5sum>986bd12a70e561b638010041650c18e5</md5sum> 
+		<changelog html="true">&lt;li&gt;Added iOS7 layout with percentage battery&lt;/li&gt;&lt;li&gt;Small fixes&lt;/li&gt;</changelog> 
+	</version>
 	<version>
 		<name>1.2</name> 
 		<code>12</code> 
