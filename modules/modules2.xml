@@ -283,6 +283,19 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<changelog html="true"></changelog> 
 	</version>	
   </module>
+  <module package="pro.burgerz.wsm.mods.networklocationfix" created="1381753545" updated="1381753545">
+	<name>NetworkLocation fix</name> 
+	<summary>NetworkLocation update time fix</summary> 
+	<description html="true">&lt;p&gt;Changes wakelock minimum update interval from 20 seconds to much more value.&lt;br /&gt;This mod reduces battery drain.&lt;/p&gt;</description> 
+	<author>BurgerZ</author> 
+	<version>
+		<name>1.0</name> 
+		<code>10</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.networklocationfix_v10_7e8759.apk</download> 
+		<md5sum>7e8759cd203d54b9c828b93c1405cfc0</md5sum> 
+		<changelog html="true"></changelog> 
+	</version>	
+  </module>
   <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1381496603">
 	<name>WSM tools</name> 
 	<summary>This is the installer and manager for the Xposed framework, which is a requirement for all modules</summary> 
