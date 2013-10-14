@@ -237,7 +237,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>1.3</name> 
 		<code>13</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.centerclock_v13_986bd1.apk</download> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.centerclock_v13_986bd1.apk.need_to_be_fixed</download> 
 		<md5sum>986bd12a70e561b638010041650c18e5</md5sum> 
 		<changelog html="true">&lt;li&gt;Added iOS7 layout with percentage battery&lt;/li&gt;&lt;li&gt;Small fixes&lt;/li&gt;</changelog> 
 	</version>
