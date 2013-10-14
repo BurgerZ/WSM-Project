@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="none">---</string>
+    <string name="installer_app_process">app_process</string>
+    <string name="installer_wsm_framework">XposedBridge.jar</string>
+</resources>

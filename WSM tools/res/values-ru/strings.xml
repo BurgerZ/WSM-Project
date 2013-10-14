@@ -10,8 +10,11 @@
     <string name="fragment_online">Онлайн</string>
     <string name="versions_wsm_tools">Версия WSM tools</string>
     <string name="author">Автор проекта</string>
+    <string name="graphics">Графика</string>
     <string name="check_for_updates">Проверять обновления</string>
     <string name="copyright_xposed">Основан на Xposed</string>
+    <string name="pref_feedback_title">Обратная связь</string>
+    <string name="pref_feedback_summary">Отчет об ошибках, запрос модуля и т.д.</string>
     <string name="pref_manage_title">Управление WSM</string>
     <string name="pref_manage_summary">Установка, Обновление, Удаление</string>
     <string name="pref_repositories_alert">Некоторые модули Xposed могут не работать или стать причиной того, что ваш телефон не сможет загрузиться!\nИспользуйте их на ваш страх и риск!</string>
@@ -31,17 +34,16 @@
     <string name="dialog_are_you_sure">Вы уверены?</string>
     <string name="dialog_phone_will_be_rebooted">Телефон будет перезагружен</string>
     <string name="dialog_progress_updating">Обновление...</string>
+    <string name="dialog_update_available">Доступна новая версия WSM tools.\nУстановлена: %1$s\nДоступна: %2$s\nПосле установки новой версии перейдите в Настройки - Управление WSM и проверьте, не требуется ли обновление системных файлов.</string>
     <string name="menu_select_all">Включить все</string>
     <string name="menu_unselect_all">Выключить все</string>
     <!-- InstallerActivity -->
-    <string name="installer_install">Установить/Обновить</string>
+    <string name="installer_install">Установить</string>
     <string name="installer_uninstall">Удалить</string>
     <string name="installer_reboot">Перезагрузка</string>
     <string name="installer_versions">ВЕРСИИ:</string>
     <string name="installer_installed_version">УСТАНОВЛЕННАЯ ВЕРСИЯ</string>
     <string name="installer_bundled_version">ДОСТУПНАЯ ВЕРСИЯ</string>
-    <string name="installer_app_process">app_process</string>
-    <string name="installer_wsm_framework">XposedBridge.jar</string>
     <string name="installer_phone_not_compatible">WSM (пока) не совместим с версией Android SDK %1$d или архитектурой процессора (%2$s)</string>
     <string name="installer_not_tested_but_compatible">WSM не был протестирован с Android SDK версии %d, но может быть совместим. Вы можете попробовать его установить, если вы хотите приключений</string>
     <!-- RepoLoader -->
@@ -76,7 +78,8 @@
     <string name="download_no_valid_apk">Загруженный файл не является APK (или не совместим</string>
     <string name="download_incorrect_package_name">Некорректное имя пакета (загружено: %1$s, ожидалось: %2$s)</string>
 
-    <!--  DownloadView  -->
+    <!--  DownloadView
+  -->
     <string name="download_view_download">Загрузить</string>
     <string name="download_view_install">Установить</string>
     <string name="download_view_cancel">Отмена</string>
