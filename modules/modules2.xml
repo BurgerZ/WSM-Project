@@ -229,11 +229,18 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.centerclock" created="1381307437" updated="1381744303">
+  <module package="pro.burgerz.wsm.mods.centerclock" created="1381307437" updated="1381751241">
 	<name>Center Clock</name> 
 	<summary>Allows to change statusbar clock layout</summary> 
 	<description html="true">&lt;p&gt;Allows to change statusbar clock layout. All available mods you can find in module settings.&lt;br /&gt;NOTE: May not work on unofficial and 2-SIM devices!&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
+        <version>
+        <name>1.4</name>
+        <code>14</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.centerclock_v14_c607b1.apk</download> 
+        <md5sum>c607b1141482d16a8c4d11dfe9339798</md5sum>
+        <changelog html="false">&lt;li&gt;Fix MiuiSystemUI FC on all layouts&lt;/li&gt;</changelog>
+    </version>
 	<version>
 		<name>1.3</name> 
 		<code>13</code> 
