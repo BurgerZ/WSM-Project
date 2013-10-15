@@ -296,6 +296,19 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<changelog html="true"></changelog> 
 	</version>	
   </module>
+  <module package="pro.burgerz.wsm.mods.updaterreplacement" created="1381830478" updated="1381830478">
+	<name>Updater Replacement</name> 
+	<summary>Choose the app to start from "About phone" screen</summary> 
+	<description html="true">&lt;p&gt;Choose the application to start from "About phone" screen by clicking on "System updates" button.&lt;/p&gt;</description> 
+	<author>BurgerZ</author> 
+	<version>
+		<name>1.0</name> 
+		<code>10</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.updaterreplacement_v10_8abffb.apk</download> 
+		<md5sum>8abffb1e55ad47e2531567a5b4550df3</md5sum> 
+		<changelog html="true"></changelog> 
+	</version>	
+  </module>
   <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1381496603">
 	<name>WSM tools</name> 
 	<summary>This is the installer and manager for the Xposed framework, which is a requirement for all modules</summary> 
@@ -306,7 +319,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<code>202</code>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v202_2c4bdf.apk</download> 
 		<md5sum>2c4bdf65c1e6630b9a86f25fa445d756</md5sum> 
-		<changelog html="true">&lt;li&gt;Added Xposed repository (available in settings). Both repositories will be shown in the same list, WSM modules will have \"MI\" image at the bottom right corner.&lt;/li&gt;&lt;li&gt;Alert dialog will popup when WSM tools update available.&lt;/li&gt;&lt;li&gt;Added Feedback to settings.&lt;/li&gt;&lt;li&gt;Reworked About screen.&lt;/li&gt;&lt;li&gt;Reworked Manage screen.&lt;/li&gt;&lt;li&gt;Small fixes.&lt;/li&gt;</changelog> 
+		<changelog html="true">&lt;li&gt;Added Xposed repository (available in settings). Both repositories will be shown in the same list, WSM modules will have "MI" image at the bottom right corner.&lt;/li&gt;&lt;li&gt;Alert dialog will popup when WSM tools update available.&lt;/li&gt;&lt;li&gt;Added Feedback to settings.&lt;/li&gt;&lt;li&gt;Reworked About screen.&lt;/li&gt;&lt;li&gt;Reworked Manage screen.&lt;/li&gt;&lt;li&gt;Small fixes.&lt;/li&gt;</changelog> 
 	</version>	
 	<version>
 		<name>2.0.1</name> 
