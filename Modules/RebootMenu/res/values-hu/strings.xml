@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Újraindítás menü</string>
+	<string name="module_desc">Bővített újraindítás menü.</string>
+	<string name="module_desc_full">Bővített menüpont a készülék újraindításakor. Nyomja meg a kikapcsológombot és válassza az "Újraindítás"-t, a szokásos újraindításhoz.\n\n
+Elérhető újraindítási lehetőségek:\n
+-Normál\n
+-Gyors\n
+-Recovery\n
+-Fastboot\n
+-Rendszer váltása (a két rendszerpartíciós Xiaomi készülékeknél)</string>
+	<string name="reboot">Reboot</string> 
+    <string name="reboot_options">Készülék újraindítása</string> 
+    <string name="reboot_normal">Normál</string> 
+    <string name="reboot_recovery">Recovery</string>  
+    <string name="reboot_hot">Gyors</string> 
+    <string name="reboot_bootloader">Fastboot</string> 
+    <string name="reboot_system_1">Újraindítás a System 1-en</string> 
+    <string name="reboot_system_2">Újraindítás a System 2-n</string> 
+    <string name="cancel">Mégsem</string> 
+</resources>

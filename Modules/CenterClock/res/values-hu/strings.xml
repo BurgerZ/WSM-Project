@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Center Clock</string>
+    <string name="module_desc">Állapotsor ikonok elhelyezkedésének megváltoztatádsa</string>
+    <string name="module_desc_full">Állapotsoron lévő óra elhelyezkedésének megváltoztatására szolgál. Választható opciók: KÖZÉPRE, BALRA, JOBBRA (rendszer alapért.) és REJTETT.</string>
+    <string name="clock_hide">Rejtett</string> 
+    <string name="clock_right">Jobbra (alapért.)</string> 
+    <string name="clock_left">Balra</string> 
+    <string name="clock_center">Középre</string> 
+    <string name="clock_center_signal_left">Középre (ikonok balra)</string> 
+    <string name="clock_center_iphone">Középre (Iphone)</string>
+    <string name="clock_position">Óra elhelyezkedése</string> 
+    <string name="apply">Alkalmaz</string>
+    <!--  string name="day_of_week_long_thursday">ЧЫЦИК</string-->
+</resources>

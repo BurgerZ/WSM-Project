@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Billentyűzet javítás</string>
+    <string name="module_desc">Xperia TM billentyűzetben a kényszerbezárás javítása</string>
+    <string name="module_desc_full">Xperia TM billentyűzetben a kényszerbezárás javítása</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Keresés a Google Play-en</string>
+    <string name="module_desc">Keresés kiválasztásának lehetősége</string>
+    <string name="module_desc_full">Kiválasztható,hogy a QuickSearchBox mely piactéren keressen alkalmazásokat (Google Play vagy Xiaomi Market).\nBeállításhoz lépjen be a modulbeállítások és válassza ki a keresési helyet.\nNem szükséges újraindítás a változtatás érvénybe lépéséhez.</string>
+    <string name="use_google_market">Google Play használata</string>
+    <string name="xiaomi">Xiaomi Market</string>
+    <string name="google">Google Play</string>
+</resources>

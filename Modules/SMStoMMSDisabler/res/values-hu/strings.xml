@@ -1,0 +1,5 @@
+<resources>
+    <string name="module_name">Hosszú SMS engedélyezés</string>
+    <string name="module_desc">SMS -> MMS-re való átalakítás tiltása</string>
+    <string name="module_desc_full">Letiltja az SMS MMS -re átalakítását hosszú szöveges üzenetnél. (általában 9 SMS)</string>
+</resources>

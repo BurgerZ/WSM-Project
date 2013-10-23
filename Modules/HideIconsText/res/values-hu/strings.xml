@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Ikon címke elrejtése</string>
+    <string name="module_desc">Ikon alatti címke elrejtése</string>
+    <string name="module_desc_full">Az ikonok és mappák alatti szöveg elrejtésének lehetősége.</string>
+</resources>

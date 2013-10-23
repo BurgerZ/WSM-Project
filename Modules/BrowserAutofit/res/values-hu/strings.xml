@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Böngészőlapok tördelése</string>
+    <string name="module_desc">Böngészőoldalak automatikus tördelése</string>
+    <string name="module_desc_full">"Mobil nézet" bekapcsolásának lehetősége a Böngésző->Beállítások->->Általános menüpontban. Ez a funkció a képernyő szélességétől függően automatikusan tördeli a weblapok szövegét.</string>
+</resources>

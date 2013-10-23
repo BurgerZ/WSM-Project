@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Play Store javítások</string>
+    <string name="module_desc">Fake the density for Google Play Store</string>
+    <string name="module_desc_full">Fake the density that is submitted to Google in order to make Play Store show all apps.</string>
+    <string name="pref_density_summary">Density to be sent to Google: %s</string>
+    <string name="fdensity">Fake density</string>
+    <string name="no_res_desc">Nukes a function that checks whether Play Store items are available</string>
+    <string name="no_res_title">No restrictions patch</string>
+    <string name="debug_desc">Shows an additional menu item to access Play Store\'s debug settings</string>
+    <string name="debug_title">Hibakeresés menüpont engedélyezése</string>
+</resources>
