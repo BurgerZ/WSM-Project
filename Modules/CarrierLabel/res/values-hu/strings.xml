@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Szolgáltatónév</string>
+    <string name="module_desc">Szolgáltatónév szerkesztésének lehetősége</string>
+    <string name="module_desc_full">Szolgáltatónév szerkesztésének lehetősége. Elérhető a Beállítások - Állapotsor - Szolgáltatónév menüpontban.\nNéhány eszközön nem működik!</string>
+    <string name="info">Please write your mobile operator name here and switch airplane mode after saving</string> 
+    <string name="pref_carrier_title">Szolgáltatónév</string> 
+    <string name="hint_carrier_edit">Írja be a Szolgáltató nevét</string>
+    <string name="no_sim_service">Please insert your SIM card, and make sure your phone is not in airplane mode</string> 
+    <string name="save">Mentés</string> 
+    <string name="airplane_on">Repülőgép üz.bekapcsolása</string> 
+    <string name="airplane_off">Repülőgép üz.kikapcsolása</string> 
+</resources>

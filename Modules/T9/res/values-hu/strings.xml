@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">T9 Modul</string>
+    <string name="module_desc">Tárcsázónál T9 névjegykeresési funkció</string>
+    <string name="module_desc_full">Nemzetközi névjegyek (és szolgáltatószámok) keresése a tárcsázónál. 
+Aktiválás után a T9 index újraépítése szükséges a Névjegyek beállításánál.</string>
+</resources>

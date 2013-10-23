@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WSM eszközök</string>
+    <string name="apply">Alkalmaz</string>
+    <string name="act_title_settings">Beállítások</string>
+    <string name="act_title_about">Névjegy</string>
+    <string name="act_title_installer">Telepítő</string>
+    <string name="fragment_modules">Modulok</string>
+    <string name="versions_wsm_tools">WSM verzió</string>
+    <string name="author">Szerző</string>
+    <string name="graphics">Grafika</string>
+    <string name="check_for_updates">Frissítések ellenőrzése</string>
+    <string name="copyright">"BurgerZ MD (http://burgerz.pro)
+Copyright © 2013, All Rights Reserved"</string>
+    <string name="copyright_xposed">Xposed alapján</string>
+    <string name="pref_feedback_title">Visszajelzés</string>
+    <string name="pref_feedback_summary">Hibanapló modulkérés, stb. kérése</string>
+    <string name="pref_manage_title">WSM kezelés</string>
+    <string name="pref_manage_summary">Telepítés, Frissítés, Törlés</string>
+    <string name="pref_repositories_alert">"Néhány Xposed modul lehetséges,hogy nem működik vagy újrainduláskor bootloop-ot kap!
+Használata az Ön felelőssége!"</string>
+    <string name="pref_repositories_title">Modultároló kiválasztás</string>
+    <string name="pref_show_hidden_modules_title">Rejtett modulok mutatása</string>
+    <string name="pref_show_hidden_modules_summary">Rejtett modulok megjelenítése a listában</string>
+    <string name="pref_show_module_info_title">Modul info megjelenítése</string>
+    <string name="pref_show_module_info_summary">"Modul info kijelzése az ikonra kattintva"</string>
+    <string name="pref_system_toasts_title">Rendszer értesítések</string>
+    <string name="pref_system_toasts_summary">WSM rendszerüzenetek kijelzése</string>
+    <string name="pref_about_title">Névjegy</string>
+    <string name="none">---</string>
+    <string name="bottom_bar_btn_settings">Beállítások</string>
+    <string name="bottom_bar_btn_reboot">Újraindítás</string>
+    <string name="bottom_bar_btn_refresh">Frissítés</string>
+    <string name="module_opt_hide_title">Modul elrejtése</string>
+    <string name="module_opt_hide_summary">A rejtett modulok megjelenítéséhez kapcsolja be a rejtett modulok mutatása opciót</string>
+    <string name="dialog_are_you_sure">Biztos benne?</string>
+    <string name="dialog_phone_will_be_rebooted">A készülék újraindul</string>
+    <string name="dialog_progress_updating">Frissítés...</string>
+    <string name="dialog_update_available">"A WSM új verziója elérhető.
+Telepítve: %1$s
+Elérhető: %2$s
+Az új verzió tlepeítése után lépjen bea Beállítások - WSM kezelés és ellenőrizze,hogy bináris frissítés szükséges-e."</string>
+    <string name="menu_select_all">Mind kiválasztása</string>
+    <string name="menu_unselect_all">Kiválasztás törlése</string>
+    <string name="installer_install">Telepítés</string>
+    <string name="installer_uninstall">Eltávolítás</string>
+    <string name="installer_reboot">Újraindítás</string>
+    <string name="installer_versions">VERZIÓK:</string>
+    <string name="installer_installed_version">TELEPÍTETT VERZIÓ</string>
+    <string name="installer_bundled_version">ELÉRHETŐ VERZIÓ</string>
+    <string name="installer_app_process">app_process</string>
+    <string name="installer_wsm_framework">XposedBridge.jar</string>
+    <string name="installer_phone_not_compatible">WSM nem kompatibilis (még) az  Android SDK %1$d verziójával vagy a processzor architektúrájával (%2$s).</string>
+    <string name="installer_not_tested_but_compatible">WSM nincs tesztelve az Android SDK %d verzójával ,de lehetséges,hogy kompatibilis. Ha kalandra vágyik,próbálja ki:-)</string>
+    <string name="installer_rom_update" />
+    <string name="repo_download_failed_http">Letöltés %1$s nem sikerült: %2$d (%3$s)</string>
+    <string name="repo_download_failed">Letöltés %1$s nem sikerült: %2$s</string>
+    <string name="repo_load_failed">"Nem tölthető be %1$s tárolóból:
+%2$s"</string>
+    <string name="changes">Változások:</string>
+    <string name="branch_display">(%s branch)</string>
+    <string name="download_author">by %s</string>
+    <string name="download_unknown_author">ismeretlen szerző</string>
+    <string name="download_status_version">Verzió: %1$s</string>
+    <string name="download_timestamps">Hozzáadva %1$s · Frissítve %2$s</string>
+    <string name="download_sorting_title">Rendezés</string>
+    <string name="download_sorting_status">Állapot szerint</string>
+    <string name="download_sorting_updated">Utolsó frissítés szerint</string>
+    <string name="download_sorting_created">Készítés dátuma szerint</string>
+    <string name="download_section_update_available">Frissítés elérhető</string>
+    <string name="download_section_installed">Telepítve</string>
+    <string name="download_section_not_installed">Nincs telepítve</string>
+    <string name="download_section_24h">Utolsó 24 óra</string>
+    <string name="download_section_7d">Utolsó 7 nap</string>
+    <string name="download_section_30d">Utolsó 30 nap</string>
+    <string name="download_section_older">Több,mint 30 nappal ezelőtt</string>
+    <string name="download_md5sum_incorrect">MD5 sum hibás (letöltve: %1$s, várt: %2$s)</string>
+    <string name="download_could_not_read_file">Nem olvasható a letöltött fájl: %s</string>
+    <string name="download_no_valid_apk">A letöltött fájl nem érvényes APK fájl(vagy nem kompatibilis)</string>
+    <string name="download_incorrect_package_name">A csomagnév hibás (letöltve: %1$s, várt: %2$s)</string>
+    <string name="download_view_download">Letöltés</string>
+    <string name="download_view_install">Telepítés</string>
+    <string name="download_view_cancel">Mégsem</string>
+    <string name="download_view_no_url">Nincs letölthető URL</string>
+    <string name="download_view_running">Letöltés folyamatban (%2$,d/%1$,d kB)</string>
+    <string name="download_view_waiting">Várakozás a letöltésre</string>
+    <string name="download_view_successful">A letöltés befejeződött</string>
+    <string name="download_view_failed">A letöltés nem sikerült (%d hiba)</string>
+    <string name="module_installed">WSM modul telepítve</string>
+    <string name="module_empty_description">(nem elérhető leírás)</string>
+    <string name="module_no_ui">Ehhez a modulhoz nincs felhasználói felület</string>
+    <string name="no_wsm_modules_found">Nincs elérhető WSM modul!</string>
+    <string name="wsm_module_list_updated">"WSM modul listája frissítve
+A változtások a az újraindítást követően lépnek érvénybe"</string>
+    <string name="warning_wsm_min_version">Ehhez a modulhoz szükséges a WSM %s ,ezért az aktiválás nem sikerült.</string>
+    <string name="no_min_version_specified">Ehhez a modulhoz nem szükséges a WSM speciális verziója.</string>
+    <string name="warning_min_version_too_low">Ez a modul a %1$s WSM verziójával készült , mivel nem kompatibilis a %2$s verziójával, le lett tiltva.</string>
+    <string name="btnDeleteModule">Modul törlése</string>
+    <string name="module_settings">Module beállítások</string>
+    <string name="module_description">Modul leírás</string>
+    <string name="module_info_version">Verzió</string>
+    <string name="modules_count">Modulok: %1$d | Akítv: %2$d</string>
+</resources>

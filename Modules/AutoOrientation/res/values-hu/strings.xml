@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Automatikus tájolás</string>
+    <string name="module_desc">Fekvő tájolás alkalmazása a kiválasztott alkalmazásoknál</string>
+    <string name="module_desc_full">Az alkalmazások fekvő nézetben való megtekintésének lehetősége.A működéshez aktiválja a megjelenítés - "Képernyő automatikus forgatása" menüpontot. 
+Néhány eszközön nem műödik megfelelően.</string>
+    <string name="rotation_enabled_list">Alkalmazások választása</string>
+    <string name="rotation_enabled_list_summary">Válassza ki az alkalmazás tájolásának engedélyezéséhezTap to select rotation enabled applications</string>
+    <string name="rotation_enabled_packages">Elforgatás engedélyezve</string>
+    <string name="apply">Alkalmaz</string>
+</resources>
