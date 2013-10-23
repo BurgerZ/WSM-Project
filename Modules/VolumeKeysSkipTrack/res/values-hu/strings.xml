@@ -1,0 +1,5 @@
+<resources>
+    <string name="module_name">Zene átugrása hangerõgombbal</string>
+    <string name="module_desc">A zene alkalmazásban a hangerõgomokkal zene átugárásának engedélyezése</string>
+    <string name="module_desc_full">A következõ zeneszámra ugrás a Zene alkalmazásban a hangerõgombok segítségével (amíg képernyõ ki van kapcsolva)</string>
+</resources>

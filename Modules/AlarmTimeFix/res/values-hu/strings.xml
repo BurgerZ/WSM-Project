@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Alarm Time fix</string>
+    <string name="module_desc">Javítás külő riasztásokhoz</string>
+    <string name="module_desc_full">Külső ébresztőóra alkalmazások válaszidejének 5.perce kerekítése.</string>
+    <string name="alarm_white_list">Alkalmazások választása</string>
+    <string name="alarm_white_list_summary">Érintse meg a a fehérlistás alkalmazások kiválasztásához</string>
+    <string name="alarm_white_list_packages">Fehérlista</string>
+    <string name="apply">Alkalmaz</string>
+</resources>
