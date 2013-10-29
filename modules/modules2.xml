@@ -332,7 +332,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<code>204</code>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v204_a16d7e.apk</download> 
 		<md5sum>a16d7e8085e201d8ad48e929e86f4e48</md5sum> 
-		<changelog html="true">&lt;li&gt;Added Chinese (zh-rTW) translation&lt;/li&gt;</changelog> 
+		<changelog html="true">&lt;li&gt;Added Chinese (zh-rTW) translation&lt;/li&gt;&lt;li&gt;Fixed translations to avoid WSM tools FC on some languages (with old translation versions)&lt;/li&gt;</changelog> 
 	</version>	
     <version>
 		<name>2.0.3</name> 
