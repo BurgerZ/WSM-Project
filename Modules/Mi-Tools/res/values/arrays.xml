@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="am_pm_entries">
+        <item>@string/am_pm_hide</item>
+        <item>@string/am_pm_small</item>
+        <item>@string/am_pm_large</item>
+    </string-array>
+    <string-array name="am_pm_values">
+        <item>am_pm_hide</item>
+        <item>am_pm_small</item>
+        <item>am_pm_large</item>
+    </string-array>
+    <string-array name="typeface_style_entries">
+        <item>@string/typeface_style_italic</item>
+        <item>@string/typeface_style_normal</item>
+        <item>@string/typeface_style_bold</item>
+    </string-array>
+    <string-array name="typeface_style_values">
+        <item>typeface_style_italic</item>
+        <item>typeface_style_normal</item>
+        <item>typeface_style_bold</item>
+    </string-array>
+    <string-array name="typeface_family_entries">
+        <item>@string/typeface_family_regular</item>
+        <item>@string/typeface_family_light</item>
+        <item>@string/typeface_family_condensed</item>
+        <item>@string/typeface_family_thin</item>
+    </string-array>
+    <string-array name="typeface_family_values">
+        <item>typeface_family_regular</item>
+        <item>typeface_family_light</item>
+        <item>typeface_family_condensed</item>
+        <item>typeface_family_thin</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>@string/clock_right</item>
+        <item>@string/clock_center</item>
+        <item>@string/clock_left</item>
+    </string-array>
+    <string-array name="clock_position_values">
+        <item>clock_right</item>
+        <item>clock_center</item>
+        <item>clock_left</item>
+    </string-array>
+    <string-array name="text_size_entries">
+        <item>@string/text_small</item>
+        <item>@string/text_medium</item>
+        <item>@string/text_large</item>
+    </string-array>
+    <string-array name="text_size_values">
+        <item>text_small</item>
+        <item>text_medium</item>
+        <item>text_large</item>
+    </string-array>
+    <string-array name="holidays_server_entries">
+        <item>MIUI.com</item> 
+        <item>Romz.bz</item> 
+        <item>Miui.su</item>
+        <item>Miui.cz (SK)</item> 
+        <item>Miui.cz (CZ)</item>
+    </string-array>
+    <string-array name="holidays_server_values" translatable="false">
+        <item>holidays_server_original</item> 
+        <item>holidays_server_romz</item> 
+        <item>holidays_server_miuisu</item>
+        <item>holidays_server_cz_slovak</item> 
+        <item>holidays_server_cz_czech</item>
+    </string-array>
+    <string-array name="holidays_selector_country_entries">
+        <item>@string/holidays_selector_country_original</item> 
+        <item>@string/holidays_selector_country_russia</item> 
+        <item>@string/holidays_selector_country_ukraine</item> 
+        <item>@string/holidays_selector_country_slovakia</item>
+        <item>@string/holidays_selector_country_czech</item> 
+    </string-array>
+    <string-array name="holidays_selector_country_values" translatable="false">
+        <item>holidays_selector_country_original</item> 
+        <item>holidays_selector_country_russia</item> 
+        <item>holidays_selector_country_ukraine</item> 
+        <item>holidays_selector_country_slovakia</item>
+        <item>holidays_selector_country_czech</item> 
+    </string-array>
+    <string-array name="festival_server_entries">
+        <item>MIUI.com</item> 
+        <item>Romz.bz</item> 
+        <item>Miui.su</item>
+    </string-array>
+    <string-array name="festival_server_values" translatable="false">
+        <item>festival_server_original</item> 
+        <item>festival_server_romz</item> 
+        <item>festival_server_miuisu</item>
+    </string-array>
+    <string-array name="quicksearchbox_marketplace_entries">
+        <item>Xiaomi Market</item> 
+        <item>Google Play</item> 
+    </string-array>
+    <string-array name="quicksearchbox_marketplace_values" translatable="false">
+        <item>quicksearchbox_marketplace_xiaomi</item> 
+        <item>quicksearchbox_marketplace_google</item> 
+    </string-array>
+    <string-array name="mms_unicode_stripping_entries" translatable="false">
+        <item>@string/mms_unicode_stripping_leave_intact</item>
+        <item>@string/mms_unicode_stripping_non_encodable</item>
+        <item>@string/mms_unicode_stripping_all</item>
+    </string-array>
+    <string-array name="mms_unicode_stripping_values" translatable="false">
+        <item>mms_unicode_leave_intact</item>
+        <item>mms_unicode_non_encodable</item>
+        <item>mms_unicode_all</item>
+    </string-array>
+    <string-array name="navigation_bar_height_entries">
+        <item>48 dip</item>
+        <item>40 dip</item>
+        <item>32 dip</item>
+        <item>24 dip</item>
+    </string-array>
+    <string-array name="navigation_bar_height_values" translatable="false">
+        <item>48</item>
+        <item>40</item>
+        <item>32</item>
+        <item>24</item>
+    </string-array>
+    <string-array name="carrier_logo_entries">
+        <item>Beeline</item>
+        <item>Beeline</item>
+        <item>Clever</item>
+        <item>Kievstar</item>
+        <item>MegaFon</item>
+        <item>MegaFon</item>
+        <item>MIUI</item>
+        <item>MIUI</item>
+        <item>Mi-Tools</item>
+        <item>MTS</item>
+        <item>MTS</item>
+        <item>MTS</item>
+        <item>Snapdragon</item>
+        <item>Snapdragon</item>
+        <item>Tele2</item>
+        <item>Unity</item>
+        <item>Velcom</item>
+        <item>Velcom</item>
+        <item>WSM</item>
+    </string-array>
+    <string-array name="carrier_logo_values" translatable="false">
+        <item>carrier_color_white_beeline</item>
+        <item>carrier_color_beeline</item>
+        <item>carrier_white_clever</item>
+        <item>carrier_white_kievstar</item>
+        <item>carrier_white_megafon</item>
+        <item>carrier_color_megafon</item>
+        <item>carrier_white_mi</item>
+        <item>carrier_color_mi</item> 
+        <item>carrier_white_mitools</item>       
+        <item>carrier_white_mts</item>
+        <item>carrier_white_mts2</item>
+        <item>carrier_color_mts</item>
+        <item>carrier_white_snapdragon</item>
+        <item>carrier_color_snapdragon</item>        
+        <item>carrier_white_tele2</item>
+        <item>carrier_white_unity</item>
+        <item>carrier_white_velcom</item>
+        <item>carrier_color_velcom</item>
+        <item>carrier_white_wsm</item> 
+    </string-array>   
+    <string-array name="carrier_logo_drawables" translatable="false">
+        <item>@drawable/carrier_color_white_beeline</item>
+        <item>@drawable/carrier_color_beeline</item>
+        <item>@drawable/carrier_white_clever</item>
+        <item>@drawable/carrier_white_kievstar</item>
+        <item>@drawable/carrier_white_megafon</item>
+        <item>@drawable/carrier_color_megafon</item>
+        <item>@drawable/carrier_white_mi</item>
+        <item>@drawable/carrier_color_mi</item>
+        <item>@drawable/carrier_white_mitools</item>
+        <item>@drawable/carrier_white_mts</item>
+        <item>@drawable/carrier_white_mts2</item>
+        <item>@drawable/carrier_color_mts</item>
+        <item>@drawable/carrier_white_snapdragon</item>
+        <item>@drawable/carrier_color_snapdragon</item>        
+        <item>@drawable/carrier_white_tele2</item>
+        <item>@drawable/carrier_white_unity</item>
+        <item>@drawable/carrier_white_velcom</item>
+        <item>@drawable/carrier_color_velcom</item>
+        <item>@drawable/carrier_white_wsm</item>
+    </string-array>     
+</resources>

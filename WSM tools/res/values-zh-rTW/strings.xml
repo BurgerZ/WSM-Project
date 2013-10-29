@@ -10,7 +10,7 @@
     <string name="versions_wsm_tools">WSM tools 版本</string>
     <string name="author">開發者</string>
     <string name="graphics">圖片製作</string>
-    <string name="check_for_updates">檢測升級/string>
+    <string name="check_for_updates">檢測升級</string>
     <string name="copyright">BurgerZ MD (http://burgerz.pro)\nCopyright © 2013, 版權所有</string>
     <string name="copyright_xposed">基於 Xposed 框架開發</string>
     <string name="pref_feedback_title">意見反映</string>
@@ -63,7 +63,7 @@
     <string name="download_status_update_available">" \u2192 %1$s"</string>
     <string name="download_timestamps">新增於 %1$s \u00b7 更新於 %2$s</string>
     <string name="download_sorting_title">排序方式</string>
-    <string name="download_sorting_status">以狀態排序/string>
+    <string name="download_sorting_status">以狀態排序</string>
     <string name="download_sorting_updated">以最後升級時間排序</string>
     <string name="download_sorting_created">以建立時間排序</string>
     <string name="download_section_framework">框架</string>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="module_name">Mi-Tools</string>
+    <string name="module_desc">Все в одном для MIUI v5</string>
+    <string name="module_desc_full">Все в одном для MIUI v5.\n
+        ВНИМАНИЕ:\n
+        Вы должны выключить следующие модули (если они установлены и активированы):\n
+        \u2022 Browser Autofit\n
+        \u2022 Carrier Label\n
+        \u2022 Center Clock\n
+        \u2022 Current Track Launch\n
+        \u2022 Hide Icons Text\n
+        \u2022 Holidays\n
+        \u2022 MMS Festival\n
+        \u2022 Reboot Options\n
+        \u2022 Search in Google Play\n
+        \u2022 T9 Module\n
+        \u2022 Units\n
+        \u2022 Volume Control Mute\n
+        \u2022 Volume Skip Track\n
+        \u2022 YellowPage</string> 
+	<string name="mitools_copyright">Любые модификации модуля запрещены.\n
+        BurgerZ MD, Copyright © 2013, Все права защищены</string>    
+    <!-- About -->
+    <string name="about_module">О модуле</string>
+    <!--  -->
+    <string name="menu_save">Сохранить</string>
+    <string name="menu_restore">Восстановить</string>
+    <string name="menu_delete">Удалить</string>
+    <string name="rebooting">Перезагрузка &#133;</string>
+    <!-- from arrays -->
+    <string name="am_pm_hide">Скрыть</string>
+    <string name="am_pm_small">Маленький</string>
+    <string name="am_pm_large">Большой</string>
+    <string name="typeface_style_italic">Курсив</string>
+    <string name="typeface_style_normal">Нормальный</string>
+    <string name="typeface_style_bold">Жирный</string>
+    <string name="typeface_family_regular">Обычный</string>
+    <string name="typeface_family_light">Light</string>
+    <string name="typeface_family_condensed">Condensed</string>
+    <string name="typeface_family_thin">Thin</string>
+    <string name="clock_right">Справа (по умолчанию)</string>
+    <string name="clock_center">В центре (iOS 7)</string>
+    <string name="clock_left">Слева</string>
+    <string name="text_small">Маленький</string>
+    <string name="text_medium">Средний</string>
+    <string name="text_large">Большой</string>
+    <!-- MIUI warning -->
+    <string name="miwarning_title">Неподдерживаемая ОС</string>
+    <string name="miwarning_message">Эта ОС не поддерживается. Некоторые настройки могут не работать.\nВы согласны продолжить?</string>
+    <string name="miwarning_continue">Продолжить</string>
+    <string name="miwarning_close">Закрыть</string>
+    <!-- Module Notification -->
+    <string name="notif_soft_reboot">Быстрая перезагрузка</string>
+    <string name="notif_reboot">Перезагрузка</string>
+    <string name="notif_reboot_required">Перезагрузитесь для применения изменений</string>
+    <string name="notif_reboot_required_title">Запрос перезагрузки</string>
+    <string name="notif_reboot_required_message">Для применения перезагрузитесь</string>
+    <!-- Backup & Restore -->
+    <string name="backup_name">Имя копии</string>
+    <string name="backup_save">Сохранить</string>
+    <string name="backup_save_successful">Копия успешно сохранена!</string>
+    <string name="backup_save_error">Ошибка сохранения!</string>
+    <string name="backup_no_backups">Нет резервных копий</string>
+    <string name="backup_restore">Восстановить</string>
+    <string name="backup_delete">Удалить</string>
+    <string name="backup_defaults">По умолчанию</string>
+    <string name="backup_defaults_restored">Настройки по умолчанию восстановлены</string>
+    <string name="backup_restoring">Восстановление</string>
+    <string name="backup_restored">Копия успешно восстановлена!</string>
+	<!-- ColorPicker -->
+	<string name="press_color_to_apply">Нажмите на цвет для применения</string>
+	<string name="dialog_color_picker">Выбор цвета</string> 
+	<!-- Status Bar prefs -->
+	<!-- Statusbar -->
+	<string name="statusbar">Панель состояния</string>
+	<string name="statusbar_title">Панель состояния</string>
+	<string name="statusbar_summary">Настройки панели состояния (часы, иконки)</string>
+	<string name="statusbar_set_background_color">Использовать цвет для фона</string>
+	<string name="statusbar_set_background_color_summary">Позволяет выбрать цвет для фона панели состояния</string>
+	<string name="statusbar_background_color">Цвет фона</string>
+	<string name="statusbar_background_color_summary">Цвет и прозрачность фона панели состояния</string>
+	<string name="statusbar_text_family">Семейство шрифтов</string>
+    <string name="statusbar_text_family_summary">Выбор семейства шрифтов панели:\n%s</string>
+    <string name="statusbar_text_style">Стиль шрифтов</string>
+    <string name="statusbar_text_style_summary">Выбор стиля шрифта панели:\n%s</string>
+    <string name="font_size_summary">Выбор размера шрифта текстовых элементов панели</string>
+    <string name="font_size">Размер шрифта</string>
+    <string name="network_speed_exp_statusbar_summary">Показывать скорость сети в расширенной панели состояния</string>
+    <string name="network_speed_exp_statusbar">Скорость сети</string>
+	<!-- Clock -->
+	<string name="clock">Часы</string>
+	<string name="clock_hide">Скрыть часы</string>
+    <string name="clock_hide_summary">Не показывать часы в панели состояния</string>
+    <string name="clock_color_title">Цвет часов</string>
+    <string name="clock_color_summary">Выбор цвета часов</string>
+    <string name="clock_position">Позиция часов</string>
+    <string name="clock_position_summary">Выбор позиции часов:\n%s</string>
+    <string name="am_pm_style">Стиль AM/PM</string>
+    <string name="am_pm_style_summary">Выбор стиля отображения am/pm:\n%s</string>
+    <string name="show_clock_date_summary">Показывать дату рядом с часами</string>
+    <string name="show_clock_date">Показывать дату</string>
+    <!-- Battery -->
+    <string name="battery">Батарея</string>
+    <string name="hide_battery_icon_summary">Настройки видимости иконки батареи</string>
+    <string name="hide_battery_icon">Скрыть иконку батареи</string>
+    <string name="show_battery_text_summary">Показывать заряд батареи в процентах рядом с иконкой</string>
+    <string name="show_battery_text">Заряд в процентах</string>
+    <string name="battery_text_color">Цвет текста заряда</string>
+    <string name="battery_text_color_summary">Выбор цвета текста заряда батареи</string>
+    <!-- Carrier -->
+    <string name="carrier_settings">Имя (логотип) оператора</string>
+    <string name="hide_carrier_label">Скрыть имя оператора</string>
+    <string name="hide_carrier_label_summary">Настройки видимости имени оператора</string>
+    <string name="custom_carrier_label">Задать свое имя</string>
+    <string name="default_carrier_label">Оставьте пустым для использования имени по умолчанию</string>
+    <string name="carrier_label_color">Цвет текста</string>
+    <string name="carrier_label_color_summary">Выбор цвета текста имени оператора</string>
+    <string name="custom_carrier_logo">Логотип оператора</string>
+    <string name="custom_carrier_logo_summary">Использовать логотип оператора</string>
+    <string name="select_carrier_logo">Выбор логотипа</string>
+    <string name="select_carrier_logo_summary">%s</string>
+    <!-- Notifications -->
+    <string name="notifications">Уведомления</string>
+    <string name="hide_ongoing_ime_switcher_summary">Скрывает иконку выбора способа ввода в панели состояния при наборе текста</string>
+    <string name="hide_ongoing_ime_switcher">Скрыть иконку IME</string>
+    <!-- Framework prefs -->
+    <string name="framework">Система</string>
+    <string name="framework_summary">Настройки системы</string>
+    <!-- Common -->
+    <string name="common">Общие</string>
+    <string name="international_t9_summary">Исправляет поиск в режиме Т9 для русских и сервисных контактов в номеронабирателе</string>
+    <string name="international_t9">Исправить поиск T9</string>
+    <string name="local_yellowpage_database_summary">Отключает обновление базы Желтых страниц с китайского сервера и добавляет возможность установить метку на неизвестный контакт</string>
+    <string name="local_yellowpage_database">Локальные Желтые страницы</string>
+    <string name="localized_measure_units_summary">\u2022 Панель состояния: скорость сети (K/с, М/с)\n\u2022 Окно очистки памяти: Мб, Гб\n\u2022 Трафик: б, Кб, Мб, Гб</string>
+    <string name="localized_measure_units">Локализация ед. измерения</string>
+    <string name="units_gb">Гб</string>
+    <string name="units_b">б</string>
+    <string name="units_kb">Кб</string>
+    <string name="units_kbs">К/с</string>
+    <string name="units_mb">Мб</string>
+    <string name="units_mbs">М/с</string>
+    <string name="units_s">с</string>
+    <!-- Power -->
+    <string name="power">Питание</string>
+    <string name="advanced_reboot_menu_summary">Добавляет дополнительные пункты в меню перезагрузки</string>
+    <string name="advanced_reboot_menu">Меню перезагрузки</string>
+    <string name="power_reboot">Перезагрузка</string> 
+    <string name="power_reboot_options">Варианты перезагрузки</string> 
+    <string name="power_reboot_normal">Обычная</string> 
+    <string name="power_reboot_recovery">Режим Recovery</string> 
+    <string name="power_reboot_hot">Быстрая</string> 
+    <string name="power_reboot_bootloader">Режим Bootloader</string> 
+    <string name="power_reboot_system_1">Загрузка в систему 1</string> 
+    <string name="power_reboot_system_2">Загрузка в систему 2</string> 
+    <string name="power_cancel">Отмена</string> 
+    <!-- Device -->
+    <string name="device">Устройство</string>
+    <string name="show_navigation_bar_summary">Показывать меню навигации (в стиле Nexus)</string>
+    <string name="show_navigation_bar">Показывать меню навигации</string>
+    <string name="navigation_bar_height_summary">Высота: %s</string>
+    <string name="navigation_bar_height">Высота меню навигации</string>
+    <string name="all_rotations_summary">Включает все углы поворота, включая 360°</string>
+    <string name="all_rotations">Все углы поворота</string>
+    <string name="lockscreen_rotations_summary">Возможность вращать экран блокировки (на MIUI v5 выглядит криво)</string>
+    <string name="lockscreen_rotations">Поворот экрана блокировки</string>
+    <string name="custom_build_prop">Свойства устройства</string>
+    <string name="custom_build_prop_summary">Установка своих параметров build.prop</string>
+    <string name="enable_custom_build_prop_summary">Значения будут применены после перезагрузки\nФизический файл build.prop не будет затронут</string>
+    <string name="enable_custom_build_prop">Указать свои значения</string>
+    <string name="custom_build_prop_board_value">Указать значение board</string>
+    <string name="custom_build_prop_board">Плата</string>
+    <string name="custom_build_prop_brand_value">Указать значение brand</string>
+    <string name="custom_build_prop_brand">Бренд</string>
+    <string name="custom_build_prop_device_value">Указать значение device</string>
+    <string name="custom_build_prop_device">Устройство</string>
+    <string name="custom_build_prop_model_value">Указать значение model</string>
+    <string name="custom_build_prop_model">Модель</string>
+    <string name="custom_build_prop_name_value">Указать значение name</string>
+    <string name="custom_build_prop_name">Имя</string>
+    <!-- Buttons -->
+    <string name="buttons">Клавиши</string>
+    <string name="double_click_menu_app_summary">Установка действия на двойное нажатие клавиши МЕНЮ</string>
+    <string name="double_click_menu_app">Двойное нажатие на МЕНЮ</string>
+    <!-- Advanced -->
+    <string name="advanced">Дополнительно</string>
+    <string name="extra_battery_info_summary">Добавляет пункт с дополнительной информацией в настройки батареи</string>
+    <string name="extra_battery_info">Доп. инф. о батарее</string>
+    <!-- Sound prefs -->
+    <string name="sound">Звук</string>
+    <string name="sound_summary">Настройки звука и всего, что его касается</string>
+    <string name="disable_volume_control_sound">Отключить BEEP сигнал</string>
+    <string name="disable_volume_control_sound_summary">Модуль отключает раздражающий звук, который появляется при регулировке громкости клавишами регулировки</string>
+    <string name="long_press_track_skip">Переключение треков громкостью</string>
+    <string name="long_press_track_skip_summary">Позволяет переключать музыкальные треки клавишами громкости (долгим нажатием, при выключенном экране)</string>
+    <string name="swap_long_press_skip_keys">Поменять клавиши</string>
+    <string name="swap_long_press_skip_keys_summary">Меняет местами клавиши переключения</string>
+    <string name="headset_notification_icon">Скрыть иконку гарнитуры</string>
+    <string name="headset_notification_icon_summary">Скрыть иконку гарнитуры при подключении наушников к телефону</string>
+    <!-- Launcher prefs-->
+    <string name="launcher">Рабочий стол</string>
+    <string name="launcher_summary">Настройки рабочего стола</string>
+    <string name="hide_icons_label">Скрыть подписи иконок</string>
+    <string name="hide_icons_label_summary">Позволяет скрыть подписи иконок рабочего стола</string>
+    <string name="hide_folders_label">Скрыть подписи папок</string>
+    <string name="hide_folders_label_summary">Позволяет скрыть подписи папок рабочего стола</string>
+    <!-- Applications prefs-->
+    <string name="applications">Приложения</string>
+    <string name="applications_summary">Настройки приложений MIUI</string>
+    <!-- MMS -->
+    <string name="app_mms">Сообщения</string>
+    <string name="disable_sms_to_mms_conversion">Длинные СМС</string>
+    <string name="disable_sms_to_mms_conversion_summary">Отключает преобразование 9 СМС в ММС</string>
+    <string name="mms_unicode_stripping">Изменять unicode</string>
+    <string name="mms_unicode_stripping_summary">Конвертирует unicode символы в обычные.\nРежим:%s\nПока работает не на всех прошивках!</string>
+    <string name="mms_unicode_stripping_leave_intact">Не изменять символы</string>
+    <string name="mms_unicode_stripping_non_encodable">Изменять некодируемые символы</string>
+    <string name="mms_unicode_stripping_all">Изменять все unicode символы</string>
+    <string name="festival_update_server">Поздравления (сервер обновления)</string> 
+    <string name="festival_update_server_summary">%s</string>
+    <!-- Calendar -->
+    <string name="app_calendar">Календарь</string>
+    <string name="holidays_update_server">Праздники (сервер обновления)</string> 
+    <string name="holidays_update_server_summary">%s</string>
+    <string name="holidays_selector_country">Праздники (страна)</string>
+    <string name="holidays_selector_country_summary">%s</string>
+    <string name="holidays_selector_country_original">Оригинальные (Китай)</string> 
+    <string name="holidays_selector_country_russia">Россия</string> 
+    <string name="holidays_selector_country_ukraine">Украина</string> 
+    <string name="holidays_selector_country_slovakia">Словакия</string>
+    <string name="holidays_selector_country_czech">Чешская Республика</string> 
+    <!-- QuickSearchBox -->
+    <string name="app_quicksearchbox">Виджет поиска</string>
+    <string name="quicksearchbox_marketplace">Выбор маркета</string>
+    <string name="quicksearchbox_marketplace_summary">Маркет для поиска:\n%s</string>
+    <!-- Browser -->
+    <string name="app_browser">Браузер</string>
+    <string name="browser_autofit_pages">Мобильный вид</string>
+    <string name="browser_autofit_pages_summary">Добавляет пункт \"Мобильный вид\" в основные настройки браузера</string>
+    <!-- Music -->
+    <string name="app_music">Музыка</string>
+    <string name="launch_playback_screen">Запуск экрана воспроизведения</string>
+    <string name="launch_playback_screen_summary">Позволяет запускать экран текущего трека в плеере при нажатии на всплывающий виджет (слайд по иконке Музыка на рабочем столе). По умолчанию открывается главный экран плеера</string>
+</resources>

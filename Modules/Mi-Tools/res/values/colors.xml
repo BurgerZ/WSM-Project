@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_light_gray">#ffcccac0</color>
+    <color name="color_trans_gray">#00cccac0</color>
+    <color name="color_ultra_gray">#fffcfcfc</color>
+    <color name="color_white">#ffffffff</color>
+    <color name="color_black">#ff000000</color>
+    <color name="color_dark_gray">#ff333333</color>
+    <color name="color_text_gray">#ff777777</color>
+    <color name="color_gray">#ffcccccc</color>
+    <color name="color_orange">#ffe9901a</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="color_yellow">#ffe76d30</color>
+	<color name="separator_color">#32000000</color> 
+  	<color name="black_transp_40_percent">#66000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="notification_title_background">#ffff0000</color>
+</resources>
