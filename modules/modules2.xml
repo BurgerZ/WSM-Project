@@ -1,5 +1,18 @@
 <repository>
   <name>WSM repository</name>
+  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1383028048">
+	<name>Mi-Tools</name> 
+	<summary>MIUI v5 all in one module</summary> 
+	<description html="true">&lt;p&gt;MIUI v5 all in one module. It handles framework, statusbar, launcher, sound, MIUI applications modifications.&lt;/p&gt;</description> 
+	<author>BurgerZ</author> 
+	<version>
+		<name>1.0</name> 
+		<code>10</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v10_3bbbe4.apk</download> 
+		<md5sum>3bbbe45808d0e71531100f36ddba5341</md5sum> 
+		<changelog html="true"></changelog> 
+	</version>
+  </module>
   <module package="pro.burgerz.wsm.mods.advancedrebootmenu" created="1381218737" updated="1381218737">
 	<name>Reboot Options</name> 
 	<summary>Adds reboot options to power menu</summary> 
