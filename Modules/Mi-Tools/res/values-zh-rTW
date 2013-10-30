@@ -41,7 +41,7 @@
     <string name="typeface_family_condensed">較緊 (Condensed)</string>
     <string name="typeface_family_thin">較細 (Thin)</string>
     <string name="clock_right">居右 (預設)</string>
-    <string name="clock_center">居中 (iOS 7 风格)</string>
+    <string name="clock_center">居中 (iOS 7 風格)</string>
     <string name="clock_left">居左</string>
     <string name="text_small">小</string>
     <string name="text_medium">中</string>
