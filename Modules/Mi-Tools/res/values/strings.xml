@@ -110,7 +110,7 @@
     <string name="battery_text_color">Battery text color</string>
     <string name="battery_text_color_summary">Set battery text color</string>
     <!-- Carrier -->
-    <string name="carrier_settings">Carrier Label/Logo</string>
+    <string name="carrier_settings">Carrier</string>
     <string name="hide_carrier_label">Hide carrier label</string>
     <string name="hide_carrier_label_summary">Carrier label visibility settings</string>
     <string name="custom_carrier_label">Custom carrier label</string>
@@ -121,6 +121,7 @@
     <string name="custom_carrier_logo_summary">Use image logo for carrier</string>
     <string name="select_carrier_logo">Select logo</string>
     <string name="select_carrier_logo_summary">%s</string>
+    <string name="hide_roaming_icon">Hide roaming icon</string>
     <!-- Notifications -->
     <string name="notifications">Notifications</string>
     <string name="hide_ongoing_ime_switcher_summary">While typing, show the ongoing notification from which you can choose the input method (keyboard)</string>
@@ -153,6 +154,7 @@
     <string name="power_reboot_recovery">Recovery</string> 
     <string name="power_reboot_hot">Hot Reboot</string> 
     <string name="power_reboot_bootloader">Bootloader</string> 
+    <string name="power_reboot_switch_system">Switch system (Mi phones)</string> 
     <string name="power_reboot_system_1">Reboot to System 1</string> 
     <string name="power_reboot_system_2">Reboot to System 2</string> 
     <string name="power_cancel">Cancel</string> 

@@ -124,7 +124,7 @@
         <item>Beeline</item>
         <item>Beeline</item>
         <item>Clever</item>
-        <item>Kievstar</item>
+        <item>Kyivstar</item>
         <item>MegaFon</item>
         <item>MegaFon</item>
         <item>MIUI</item>
@@ -133,6 +133,10 @@
         <item>MTS</item>
         <item>MTS</item>
         <item>MTS</item>
+        <item>MTS</item>
+        <item>Rostelecom</item>
+        <item>Rostelecom</item>
+        <item>Skylink</item>
         <item>Snapdragon</item>
         <item>Snapdragon</item>
         <item>Tele2</item>
@@ -153,7 +157,11 @@
         <item>carrier_white_mitools</item>       
         <item>carrier_white_mts</item>
         <item>carrier_white_mts2</item>
+        <item>carrier_white_mts3</item>
         <item>carrier_color_mts</item>
+        <item>carrier_white_rostelecom</item>
+        <item>carrier_color_rostelecom</item>
+        <item>carrier_white_skylink</item>
         <item>carrier_white_snapdragon</item>
         <item>carrier_color_snapdragon</item>        
         <item>carrier_white_tele2</item>
@@ -174,7 +182,11 @@
         <item>@drawable/carrier_white_mitools</item>
         <item>@drawable/carrier_white_mts</item>
         <item>@drawable/carrier_white_mts2</item>
+        <item>@drawable/carrier_white_mts3</item>
         <item>@drawable/carrier_color_mts</item>
+        <item>@drawable/carrier_white_rostelecom</item>
+        <item>@drawable/carrier_color_rostelecom</item>
+        <item>@drawable/carrier_white_skylink</item>
         <item>@drawable/carrier_white_snapdragon</item>
         <item>@drawable/carrier_color_snapdragon</item>        
         <item>@drawable/carrier_white_tele2</item>
@@ -182,5 +194,24 @@
         <item>@drawable/carrier_white_velcom</item>
         <item>@drawable/carrier_color_velcom</item>
         <item>@drawable/carrier_white_wsm</item>
-    </string-array>     
+    </string-array> 
+    <string-array name="advanced_reboot_menu_items_defvalues">
+        <item>reboot_normal</item>
+        <item>reboot_hot</item>
+        <item>reboot_recovery</item>
+    </string-array>
+    <string-array name="advanced_reboot_menu_items_values">
+        <item>reboot_normal</item>
+        <item>reboot_hot</item>
+        <item>reboot_recovery</item>
+        <item>reboot_bootloader</item>
+        <item>reboot_switch_system</item>
+    </string-array>
+    <string-array name="advanced_reboot_menu_items_entries">
+        <item>@string/power_reboot_normal</item>
+        <item>@string/power_reboot_hot</item>
+        <item>@string/power_reboot_recovery</item>
+        <item>@string/power_reboot_bootloader</item>
+        <item>@string/power_reboot_switch_system</item>
+    </string-array>    
 </resources>

@@ -110,7 +110,7 @@
     <string name="battery_text_color">Цвет текста заряда</string>
     <string name="battery_text_color_summary">Выбор цвета текста заряда батареи</string>
     <!-- Carrier -->
-    <string name="carrier_settings">Имя (логотип) оператора</string>
+    <string name="carrier_settings">Оператор связи</string>
     <string name="hide_carrier_label">Скрыть имя оператора</string>
     <string name="hide_carrier_label_summary">Настройки видимости имени оператора</string>
     <string name="custom_carrier_label">Задать свое имя</string>
@@ -121,6 +121,7 @@
     <string name="custom_carrier_logo_summary">Использовать логотип оператора</string>
     <string name="select_carrier_logo">Выбор логотипа</string>
     <string name="select_carrier_logo_summary">%s</string>
+    <string name="hide_roaming_icon">Скрыть иконку роуминга</string>
     <!-- Notifications -->
     <string name="notifications">Уведомления</string>
     <string name="hide_ongoing_ime_switcher_summary">Скрывает иконку выбора способа ввода в панели состояния при наборе текста</string>
@@ -153,6 +154,7 @@
     <string name="power_reboot_recovery">Режим Recovery</string> 
     <string name="power_reboot_hot">Быстрая</string> 
     <string name="power_reboot_bootloader">Режим Bootloader</string> 
+    <string name="power_reboot_switch_system">Переключение систем (Mi)</string>
     <string name="power_reboot_system_1">Загрузка в систему 1</string> 
     <string name="power_reboot_system_2">Загрузка в систему 2</string> 
     <string name="power_cancel">Отмена</string> 
