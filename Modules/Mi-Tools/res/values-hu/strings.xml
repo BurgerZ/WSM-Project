@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="module_name">MiTools</string>
+    <string name="module_desc">MIUI V5 All In One csomag</string>
+    <string name="module_desc_full">MIUI V5 All In One csomag.\n
+        FIGYELMEZTETÉS:\n
+        Tiltsa le az alábbi modulokat (ha telepítve vannak):\n
+        \u2022 Böngészőlapok tördelése\n
+        \u2022 Szolgáltatónév\n
+        \u2022 Center Clock\n
+        \u2022 Zeneszám indítása\n
+        \u2022 Ikonszöveg elrejtés\n
+        \u2022 Ünnepnapok\n
+        \u2022 MMS Festival\n
+        \u2022 Újraindítás menü\n
+        \u2022 Keresés a Google Play-en\n
+        \u2022 T9 Modul\n
+        \u2022 Mértékegységek\n
+        \u2022 Hangerőszabályzó hangnémítás\n
+        \u2022 Zene átugrása hangerőgombbal\n
+        \u2022 Szaknévsor</string>
+	<string name="mitools_copyright">A modulok NEM módosíthatóak!\n
+        BurgerZ MD, Copyright © 2013, All rights reserved</string>         
+    <!-- About -->
+    <string name="about_module">A modulról</string>
+    <!--  -->
+    <string name="menu_save">Mentés</string>
+    <string name="menu_restore">Visszaállítás</string>
+    <string name="menu_delete">Törlés</string>
+    <string name="rebooting">Újraindítás &#133;</string>
+    <!-- from arrays -->
+    <string name="am_pm_hide">Elrejtés</string>
+    <string name="am_pm_small">Kicsi</string>
+    <string name="am_pm_large">Nagy</string>
+    <string name="typeface_style_italic">Dőltbetűs</string>
+    <string name="typeface_style_normal">Normál</string>
+    <string name="typeface_style_bold">Vastagbetűs</string>
+    <string name="typeface_family_regular">Szokásos</string>
+    <string name="typeface_family_light">Vékony</string>
+    <string name="typeface_family_condensed">Sűrű</string>
+    <string name="typeface_family_thin">Vékony</string>
+    <string name="clock_right">Jobbra (alapért.)</string>
+    <string name="clock_center">Középre (iOS 7)</string>
+    <string name="clock_left">Balra</string>
+    <string name="text_small">Kicsi</string>
+    <string name="text_medium">Közepes</string>
+    <string name="text_large">Nagy</string>
+    <!-- MIUI warning -->
+    <string name="miwarning_title">Nem támogatot Operációs rendszer</string>
+    <string name="miwarning_message">Ez az operációs rendszer hivatalosan nem támogatott. Néhány beállítás nem fog megfelelően működni.\nDo you agree to continue?</string>
+    <string name="miwarning_continue">Folytatás</string>
+    <string name="miwarning_close">Bezárás</string>
+    <!-- Module Notification -->
+    <string name="notif_soft_reboot">Gyors újraindítás</string>
+    <string name="notif_reboot">Újraindítás</string>
+    <string name="notif_reboot_required">A változások érvénybe lépéséhez indítsa újra a rendszert.</string>
+    <string name="notif_reboot_required_title">Újraindítás szükséges</string>
+    <string name="notif_reboot_required_message">A változások érvénybelépéséhez újraindítás szükséges</string>
+    <!-- Backup & Restore -->
+    <string name="backup_name">Mentés neve</string>
+    <string name="backup_save">Mentés</string>
+    <string name="backup_save_successful">Elmentve!</string>
+    <string name="backup_save_error">Mentés hiba!</string>
+    <string name="backup_no_backups">Nincs mentés</string>
+    <string name="backup_restore">Visszaállítás</string>
+    <string name="backup_delete">Törlés</string>
+    <string name="backup_defaults">Alapértelmezett</string>
+    <string name="backup_defaults_restored">Alapértelmezett visszaállítva</string>
+    <string name="backup_restoring">Mentés visszaállítása</string>
+    <string name="backup_restored">A mentés visszaállítása sikerült</string>
+    <!-- ColorPicker -->
+    <string name="press_color_to_apply">Kattintson a színre az alkalmazásához</string>
+    <string name="dialog_color_picker">Színválasztó</string> 
+    <!-- Status Bar prefs -->
+    <!-- Statusbar -->
+    <string name="statusbar">Állapotsor</string>
+    <string name="statusbar_title">Állapotsor</string>
+    <string name="statusbar_summary">Állapotsor módosítások</string>
+    <string name="statusbar_set_background_color">Háttérszín használata</string>
+    <string name="statusbar_set_background_color_summary">Az állapotsor háttérszinének kiválasztása</string>
+    <string name="statusbar_background_color">Háttér színe</string>
+    <string name="statusbar_background_color_summary">Állapotsor háttérszíne</string>
+    <string name="statusbar_text_family">Betűtípus</string>
+    <string name="statusbar_text_family_summary">Az állapotsor betűtípusának beállítása:\n%s</string>
+    <string name="statusbar_text_style">Betűtípus</string>
+    <string name="statusbar_text_style_summary">Az állapotsor betűtípusának beállítása:\n%s</string>
+    <string name="font_size_summary">Az állapotsor szövegmérete</string>
+    <string name="font_size">Betűméret</string>
+    <string name="network_speed_exp_statusbar_summary">A hálózat sebességének kijelzése az állapotsoron</string>
+    <string name="network_speed_exp_statusbar">Hálózat sebessége</string>
+    <!-- Clock -->
+    <string name="clock">Óra</string>
+    <string name="clock_hide">Óra elrejtése</string>
+    <string name="clock_hide_summary">Ne mutassa az órát az állapotsoron</string>
+    <string name="clock_color_title">Óra színe</string>
+    <string name="clock_color_summary">Óra színének beállítása</string>
+    <string name="clock_position">Óra elhelyezkedése</string>
+    <string name="clock_position_summary">Válassza ki az óra elhelyezkedését:\n%s</string>
+    <string name="am_pm_style">AM/PM kinézete</string>
+    <string name="am_pm_style_summary">Válassza ki az am/pm kinézetét:\n%s</string>
+    <string name="show_clock_date_summary">Dátum kijelzése az állapotsoron</string>
+    <string name="show_clock_date">Dátum kijelzése az állpotsoron</string>
+    <!-- Battery -->
+    <string name="battery">Akkumulátor</string>
+    <string name="hide_battery_icon_summary">Akkumulátorikon beállítások</string>
+    <string name="hide_battery_icon">Akkumulátorikon elrejtése</string>
+    <string name="show_battery_text_summary">Akkumulátorszöveg kijelzése százalékjellel</string>
+    <string name="show_battery_text">Akkumulátor szöveg kijelzés</string>
+    <string name="battery_text_color">Akkumulátor szöveg színe</string>
+    <string name="battery_text_color_summary">Akkumulátor szöveg színének beállítása</string>
+    <!-- Carrier -->
+    <string name="carrier_settings">Szolgáltatónév/Logo</string>
+    <string name="hide_carrier_label">Szolgáltatónév elrejtése</string>
+    <string name="hide_carrier_label_summary">Szolgáltatónév beállítások</string>
+    <string name="custom_carrier_label">Saját szolgáltatónév</string>
+    <string name="default_carrier_label">Üresen hagyva az alapértelmezett szolgáltatónév fog megjelenni</string>
+    <string name="carrier_label_color">Szolgáltatónév színe</string>
+    <string name="carrier_label_color_summary">A szolgáltatónév színének beállítása</string>
+    <string name="custom_carrier_logo">Szolgáltató logo</string>
+    <string name="custom_carrier_logo_summary">Logo használata a szolgáltatónév helyett</string>
+    <string name="select_carrier_logo">Logo kiválasztása</string>
+    <string name="select_carrier_logo_summary">%s</string>
+    <!-- Notifications -->
+    <string name="notifications">Értesítések</string>
+    <string name="hide_ongoing_ime_switcher_summary">Gépelés közben a beviteli módszer választó értesítésének kijelzése (billentyűzet)</string>
+    <string name="hide_ongoing_ime_switcher">Beviteli mód választó elrejtése</string>
+    <!-- Framework prefs -->
+    <string name="framework">Framework</string>
+    <string name="framework_summary">A keretrendszerhez kapcsolódó beállítások</string>
+    <!-- Common -->
+    <string name="common">Közösségi</string>
+    <string name="international_t9_summary">T9 kereés engedélyezése a névjegyzékben</string>
+    <string name="international_t9">T9 hozzáadása</string>
+    <string name="local_yellowpage_database_summary">A kínai szaknévsor adatbázis frissítésének tiltása és az ismeretlen névjegyek "Megjelöl" opciójának hozzáadása.</string>
+    <string name="local_yellowpage_database">Helyi szaknévsor adatbázis</string>
+    <string name="localized_measure_units_summary">\u2022 Állapotsor: hálózati seb.(K/s, m/s)\n\u2022 Feladatkezelő: elérhető memória(MB,GB)\n\u2022 Adatforgalom: B, KB, MB, GB</string>
+    <string name="localized_measure_units">Helyi mértékegységek</string>
+    <string name="units_gb">Gb</string>
+    <string name="units_b">b</string>
+    <string name="units_kb">Kb</string>
+    <string name="units_kbs">K/s</string>
+    <string name="units_mb">Mb</string>
+    <string name="units_mbs">M/s</string>
+    <string name="units_s">s</string>
+    <!-- Power -->
+    <string name="power">Kikapcsolás</string>
+    <string name="advanced_reboot_menu_summary">Bővített menüpont a készülék újraindításakor.</string>
+    <string name="advanced_reboot_menu">Bővített újraindítás menü</string>
+    <string name="power_reboot">Újraindítás</string> 
+    <string name="power_reboot_options">Újraindítás menü</string> 
+    <string name="power_reboot_normal">Normál</string> 
+    <string name="power_reboot_recovery">Recovery</string> 
+    <string name="power_reboot_hot">Gyors</string> 
+    <string name="power_reboot_bootloader">Fastboot</string> 
+    <string name="power_reboot_system_1">Újraindítás a System 1-en</string> 
+    <string name="power_reboot_system_2">Újraindítás a System 2-n</string> 
+    <string name="power_cancel">Mégsem</string> 
+    <!-- Device -->
+    <string name="device">Eszköz</string>
+    <string name="show_navigation_bar_summary">Navigációs sáv kijelzése (alul,mint a Nexuson)</string>
+    <string name="show_navigation_bar">Navigációs sáv megjelenítése</string>
+    <string name="navigation_bar_height_summary">Magasság: %s</string>
+    <string name="navigation_bar_height">Navigációs sáv magassága</string>
+    <string name="all_rotations_summary">Minden elforgatási szög engedélyezése, beleértve a fejjel lefelét is</string>
+    <string name="all_rotations">Minden elforgatási szög</string>
+    <string name="lockscreen_rotations_summary">Képernyőzár fekvő módban való elforgatásának engedélyezése</string>
+    <string name="lockscreen_rotations">Képernyőzár elforgatás</string>
+    <string name="custom_build_prop">Eszköz tulajdonságok</string>
+    <string name="custom_build_prop_summary">Egyéni build.prop értékek beállítása</string>
+    <string name="enable_custom_build_prop_summary">Az értékek újraindítás után lépnek érvénybe\nFizikalag a build.prop nem változik</string>
+    <string name="enable_custom_build_prop">Egyéni értékek használata</string>
+    <string name="custom_build_prop_board_value">Board beállítása</string>
+    <string name="custom_build_prop_board">Board</string>
+    <string name="custom_build_prop_brand_value">Gyártó nevének beállítása</string>
+    <string name="custom_build_prop_brand">Gyártó</string>
+    <string name="custom_build_prop_device_value">Eszköznév beállítása</string>
+    <string name="custom_build_prop_device">Eszköz</string>
+    <string name="custom_build_prop_model_value">Modellnév beállítása</string>
+    <string name="custom_build_prop_model">Modell</string>
+    <string name="custom_build_prop_name_value">Név beállítása</string>
+    <string name="custom_build_prop_name">Név</string>
+    <!-- Buttons -->
+    <string name="buttons">Gombok</string>
+    <string name="double_click_menu_app_summary">A MENU gomb dupla kattintási műveletének beállítása</string>
+    <string name="double_click_menu_app">A MENU gomb művelete</string>
+    <!-- Advanced -->
+    <string name="advanced">További</string>
+    <string name="extra_battery_info_summary">Extra akkumulátor információ elérése a Beállításokban</string>
+    <string name="extra_battery_info">Extra akkumulátor info</string>
+    <!-- Sound prefs -->
+    <string name="sound">Hang</string>
+    <string name="sound_summary">Hanghoz kapcsolódó beállítások</string>
+    <string name="disable_volume_control_sound">BEEP hang letiltása</string>
+    <string name="disable_volume_control_sound_summary">Ez a modul letiltja a hangerőszabályzáskor kiadó értesítési hangot.</string>
+    <string name="long_press_track_skip">Zene átugrása hangerőgombbal</string>
+    <string name="long_press_track_skip_summary">Az előző/következő zeneszám átugrása a hangerőgombok hosszú megnyomásakor (kikapcsolt képernyő esetén)</string>
+    <string name="swap_long_press_skip_keys">Hangerőgombok felcserélése</string>
+    <string name="swap_long_press_skip_keys_summary">Hangerőgombok felcserélése (következő->előző és előző->következő)</string>
+    <string name="headset_notification_icon">Fülhallgató ikon elrejtése</string>
+    <string name="headset_notification_icon_summary">A fülhallgató ikon elrejtése csatlakoztatáskor</string>
+    <!-- Launcher prefs-->
+    <string name="launcher">Launcher</string>
+    <string name="launcher_summary">Launcherhez kapcsolódó beállítások</string>
+    <string name="hide_icons_label">Ikon szöveg elrejtése</string>
+    <string name="hide_icons_label_summary">Az ikonok alatti szövegcímke elrejtésének engedélyezése</string>
+    <string name="hide_folders_label">Mappa szöveg elrejtése</string>
+    <string name="hide_folders_label_summary">A mappa alatti szövegcímke elrejtésének engedélyezése</string>
+    <!-- Applications prefs-->
+    <string name="applications">Alkalmazások</string>
+    <string name="applications_summary">MIUI alkalmazás beállítások</string>
+    <!-- MMS -->
+    <string name="app_mms">Üzenetek</string>
+    <string name="disable_sms_to_mms_conversion">Hosszú SMS-ek engedélyezése</string>
+    <string name="disable_sms_to_mms_conversion_summary">9 SMS - MMS-sé alakításának tiltása</string>
+    <string name="mms_unicode_stripping">Unicode eltávolítás</string>
+    <string name="mms_unicode_stripping_summary">Unicode karakterek normál karakterré alakítása.\nMód:%s\nNéhány eszközön (még) nem működik!</string>
+    <string name="mms_unicode_stripping_leave_intact">A normál karakterek meghagyása</string>
+    <string name="mms_unicode_stripping_non_encodable">Nem átalakítható karakterek eltávolítása</string>
+    <string name="mms_unicode_stripping_all">Unicode karakterek eltávolítása</string>
+    <string name="festival_update_server">Festival update server</string> 
+    <string name="festival_update_server_summary">%s</string>
+    <!-- Calendar -->
+    <string name="app_calendar">Naptár</string>
+    <string name="holidays_update_server">Ünnepnap frissítő szerver</string> 
+    <string name="holidays_update_server_summary">%s</string>
+    <string name="holidays_selector_country">Ország ünnepnapjai</string>
+    <string name="holidays_selector_country_summary">%s</string>
+    <string name="holidays_selector_country_original">Eredeti (kínai)</string> 
+    <string name="holidays_selector_country_russia">Orosz</string> 
+    <string name="holidays_selector_country_ukraine">Ukrán</string> 
+    <string name="holidays_selector_country_slovakia">Szlovák</string>
+    <string name="holidays_selector_country_czech">Cseh</string> 
+    <!-- QuickSearchBox -->
+    <string name="app_quicksearchbox">QuickSearchBox</string>
+    <string name="quicksearchbox_marketplace">Keresés a piactéren</string>
+    <string name="quicksearchbox_marketplace_summary">Piactér a kereséshez:\n%s</string>
+    <!-- Browser -->
+    <string name="app_browser">Böngésző</string>
+    <string name="browser_autofit_pages">Lapok tördelése</string>
+    <string name="browser_autofit_pages_summary">"Mobil nézet" bekapcsolásának lehetősége a Böngésző->Beállítások->->Általános menüpontban.</string>
+    <!-- Music -->
+    <string name="app_music">Zene</string>
+    <string name="launch_playback_screen">Lejátszási képernyő indítása</string>
+    <string name="launch_playback_screen_summary">A zenelejátszó felugró widgetként indítsa el az alkalmazást. Alapértelmezettként a főképernyő nyílik meg</string>
+</resources>
