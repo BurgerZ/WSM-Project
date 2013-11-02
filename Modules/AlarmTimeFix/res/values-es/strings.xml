@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Corrección de Tiempo de Alarma</string>
+    <string name="module_desc">Corrección para Alarmas de terceros.</string>
+    <string name="module_desc_full">Corrección de redondeo de tiempo de respuesta a 5 minutes para Alarmas de terceros.</string>
+    <string name="alarm_white_list">Seleccionar aplicaciones</string>
+    <string name="alarm_white_list_summary">Pulsa para seleccionar aplicaciones para la Lista Blanca</string>
+    <string name="alarm_white_list_packages">Lista Blanca</string>
+    <string name="apply">Aplicar</string>
+</resources>
