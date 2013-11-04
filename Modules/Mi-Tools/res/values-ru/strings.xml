@@ -29,6 +29,9 @@
     <string name="menu_restore">Восстановить</string>
     <string name="menu_delete">Удалить</string>
     <string name="rebooting">Перезагрузка &#133;</string>
+    <!-- AppPickerPreference -->
+    <string name="preference_app_picker_search">Поиск</string>
+    <string name="preference_app_picker_none">(нет)</string>
     <!-- from arrays -->
     <string name="am_pm_hide">Скрыть</string>
     <string name="am_pm_small">Маленький</string>
@@ -41,7 +44,8 @@
     <string name="typeface_family_condensed">Condensed</string>
     <string name="typeface_family_thin">Thin</string>
     <string name="clock_right">Справа (по умолчанию)</string>
-    <string name="clock_center">В центре (iOS 7)</string>
+    <string name="clock_center">В центре</string>
+    <string name="clock_center_ios7">В центре (iOS 7)</string>
     <string name="clock_left">Слева</string>
     <string name="text_small">Маленький</string>
     <string name="text_medium">Средний</string>
@@ -184,8 +188,23 @@
     <string name="custom_build_prop_name">Имя</string>
     <!-- Buttons -->
     <string name="buttons">Клавиши</string>
-    <string name="double_click_menu_app_summary">Установка действия на двойное нажатие клавиши МЕНЮ</string>
-    <string name="double_click_menu_app">Двойное нажатие на МЕНЮ</string>
+    <string name="key_menu">Меню</string>
+    <string name="key_volume">Громкость</string>
+    <string name="double_click_menu_app_summary">Выбор приложения для запуска по нажатию на клавишу МЕНЮ</string>
+    <string name="double_click_menu_app">Выбор приложения</string>
+    <string name="long_press_menu_action_summary">%s</string>
+    <string name="long_press_menu_action">Долгое нажатие на МЕНЮ</string>
+    <string name="double_tap_menu_action_summary">%s</string>
+    <string name="double_tap_menu_action">Двойное нажатие на МЕНЮ</string> 
+    <string name="menu_action_default">По умолчанию</string>
+    <string name="menu_action_previous_app">Запуск предыдущего приложения</string>
+    <string name="menu_action_sleep">Заблокировать экран</string>
+    <string name="menu_action_custom_app">Запуск своего приложения</string>
+    <string name="menu_action_torch">Фонарик</string>   
+    <string name="vol_key_cursor">Управление курсором</string>
+    <string name="vol_key_cursor_summary">Использовать клавиши регулировки громкостью для управления курсором в текстовых полях</string>
+    <string name="vol_key_cursor_reverse">Поменять клавиши</string>
+    <string name="vol_key_cursor_reverse_summary">Меняет местами клавиши управления курсором</string>
     <!-- Advanced -->
     <string name="advanced">Дополнительно</string>
     <string name="extra_battery_info_summary">Добавляет пункт с дополнительной информацией в настройки батареи</string>

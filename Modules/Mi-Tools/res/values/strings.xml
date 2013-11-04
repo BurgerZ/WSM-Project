@@ -29,6 +29,9 @@
     <string name="menu_restore">Restore</string>
     <string name="menu_delete">Delete</string>
     <string name="rebooting">Rebooting Now &#133;</string>
+    <!-- AppPickerPreference -->
+    <string name="preference_app_picker_search">Search</string>
+    <string name="preference_app_picker_none">(None)</string>
     <!-- from arrays -->
     <string name="am_pm_hide">Hide</string>
     <string name="am_pm_small">Small</string>
@@ -41,7 +44,8 @@
     <string name="typeface_family_condensed">Condensed</string>
     <string name="typeface_family_thin">Thin</string>
     <string name="clock_right">Right (default)</string>
-    <string name="clock_center">Center (iOS 7)</string>
+    <string name="clock_center">Center</string>
+    <string name="clock_center_ios7">Center (iOS 7)</string>
     <string name="clock_left">Left</string>
     <string name="text_small">Small</string>
     <string name="text_medium">Medium</string>
@@ -184,8 +188,23 @@
     <string name="custom_build_prop_name">Name</string>
     <!-- Buttons -->
     <string name="buttons">Buttons</string>
-    <string name="double_click_menu_app_summary">Set an action for MENU button double click</string>
-    <string name="double_click_menu_app">Double MENU button click action</string>
+    <string name="key_menu">Menu</string>
+    <string name="key_volume">Volume</string>
+    <string name="double_click_menu_app_summary">Select application to launch by MENU button double click</string>
+    <string name="double_click_menu_app">Double MENU button click</string>
+    <string name="long_press_menu_action_summary">%s</string>
+    <string name="long_press_menu_action">Long press MENU button action</string>
+    <string name="double_tap_menu_action_summary">%s</string>
+    <string name="double_tap_menu_action">Double tap MENU button action</string>
+    <string name="menu_action_default">Default</string>
+    <string name="menu_action_previous_app">Launch previous app</string>
+    <string name="menu_action_sleep">Lock screen</string>
+    <string name="menu_action_custom_app">Launch custom app</string>
+    <string name="menu_action_torch">Torch</string>
+    <string name="vol_key_cursor">Volume keys cursor</string>
+    <string name="vol_key_cursor_summary">Use volume keys as cursor control keys in text fields</string>
+    <string name="vol_key_cursor_reverse">Reverse keys</string>
+    <string name="vol_key_cursor_reverse_summary">Reverse volume keys</string>
     <!-- Advanced -->
     <string name="advanced">Advanced</string>
     <string name="extra_battery_info_summary">Add extra battery info to battery settings view</string>
