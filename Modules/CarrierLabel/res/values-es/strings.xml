@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Nombre de Operadora</string>
+    <string name="module_desc">Te permite cambiar el nombre de tu Operadora.</string>
+    <string name="module_desc_full">Permite editar el nombre de tu operadora. Disponible en Ajustes - Barra de estado - Nombre de Operadora.\nQuizás no funcione en algunos dispositivos!</string>
+    <string name="info">Por favor escriba el nombre de su Operadora aqui y cambie a Modo Avión antes de guardar.</string>
+    <string name="pref_carrier_title">Nombre de Operadora</string>
+    <string name="hint_carrier_edit">Introduzca el nombre de Operaodora</string>
+    <string name="no_sim_service">Por favor inserte una tarjeta SIM, y asegurese de que su teléfono no esta en Modo Avión</string>
+    <string name="save">Guardar</string>
+    <string name="airplane_on">Activar Modo Avión</string>
+    <string name="airplane_off">Desactivar Modo Avión</string>
+</resources>
+
