@@ -1,10 +1,17 @@
 <repository>
   <name>WSM repository</name>
-  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1383028048">
+  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1383563439">
 	<name>Mi-Tools</name> 
 	<summary>MIUI v5 all in one module</summary> 
 	<description html="true">&lt;p&gt;MIUI v5 all in one module. It handles framework, statusbar, launcher, sound, MIUI applications modifications.&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
+	<version>
+		<name>1.1</name> 
+		<code>11</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v11_257bdc.apk</download> 
+		<md5sum>257bdcce37e4a6f579fad930540b1955</md5sum> 
+		<changelog html="true">&lt;li&gt;Added simple center clock option (with wi-fi and signal right)&lt;/li&gt;&lt;li&gt;Added MENU button double tap and long press events&lt;/li&gt;&lt;li&gt;Added more carrier logos&lt;/li&gt;&lt;li&gt;Added VOL keys text cursor control&lt;/li&gt;&lt;li&gt;Small fixes&lt;/li&gt;&lt;li&gt;Added Hungarian translation (thanks to vagyula1)&lt;/li&gt;&lt;li&gt;Added Spain translation (thanks to rauldlnx10)&lt;/li&gt;&lt;li&gt;Added Chinese (Traditional) translation (thanks to RadarNyan)&lt;/li&gt;&lt;li&gt;Added Chinese (Taiwan) translation (thanks to Eric850130)&lt;/li&gt;</changelog> 
+	</version>
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
