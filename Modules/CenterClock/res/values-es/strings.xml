@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Centrar Reloj</string>
+    <string name="module_desc">Permite cambiar el diseño del reloj en la barra de estado.</string>
+    <string name="module_desc_full">Permite cambiar el diseño del reloj en la barra de estado. Los modos disponibles son CENTRADO, IZQUIERDA, DERECHA (predeterminado) y OCULTO.</string>
+    <string name="clock_hide">Oculto</string>
+    <string name="clock_right">A la Derecha (predeterminado)</string>
+    <string name="clock_left">A la Izquierda</string>
+    <string name="clock_center">Centrado</string>
+    <string name="clock_center_signal_left">Centrado (señal a la izquierda)</string>
+    <string name="clock_center_iphone">Centrado (Estilo Iphone)</string>
+    <string name="clock_position">Posición del Reloj</string>
+    <string name="apply">Aplicar</string>
+    <!-- string name="day_of_week_long_thursday">ЧЫЦИК</string-->
+</resources>
