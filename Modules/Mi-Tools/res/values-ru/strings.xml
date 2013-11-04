@@ -24,11 +24,6 @@
         BurgerZ MD, Copyright © 2013, Все права защищены</string>    
     <!-- About -->
     <string name="about_module">О модуле</string>
-    <!--  -->
-    <string name="menu_save">Сохранить</string>
-    <string name="menu_restore">Восстановить</string>
-    <string name="menu_delete">Удалить</string>
-    <string name="rebooting">Перезагрузка &#133;</string>
     <!-- AppPickerPreference -->
     <string name="preference_app_picker_search">Поиск</string>
     <string name="preference_app_picker_none">(нет)</string>
@@ -130,6 +125,8 @@
     <string name="notifications">Уведомления</string>
     <string name="hide_ongoing_ime_switcher_summary">Скрывает иконку выбора способа ввода в панели состояния при наборе текста</string>
     <string name="hide_ongoing_ime_switcher">Скрыть иконку IME</string>
+    <string name="headset_notification_icon">Скрыть иконку гарнитуры</string>
+    <string name="headset_notification_icon_summary">Скрыть иконку гарнитуры при подключении наушников к телефону</string>
     <!-- Framework prefs -->
     <string name="framework">Система</string>
     <string name="framework_summary">Настройки системы</string>
@@ -205,21 +202,18 @@
     <string name="vol_key_cursor_summary">Использовать клавиши регулировки громкостью для управления курсором в текстовых полях</string>
     <string name="vol_key_cursor_reverse">Поменять клавиши</string>
     <string name="vol_key_cursor_reverse_summary">Меняет местами клавиши управления курсором</string>
+    <string name="long_press_track_skip">Переключение треков</string>
+    <string name="long_press_track_skip_summary">Позволяет переключать музыкальные треки клавишами громкости (долгим нажатием, при выключенном экране)</string>
+    <string name="swap_long_press_skip_keys">Поменять клавиши</string>
+    <string name="swap_long_press_skip_keys_summary">Меняет местами клавиши переключения треков</string>
+    <!-- Sound prefs -->
+    <string name="sound">Звук</string>
+    <string name="disable_volume_control_sound">Отключить BEEP сигнал</string>
+    <string name="disable_volume_control_sound_summary">Модуль отключает раздражающий звук, который появляется при регулировке громкости клавишами регулировки</string>
     <!-- Advanced -->
     <string name="advanced">Дополнительно</string>
     <string name="extra_battery_info_summary">Добавляет пункт с дополнительной информацией в настройки батареи</string>
     <string name="extra_battery_info">Доп. инф. о батарее</string>
-    <!-- Sound prefs -->
-    <string name="sound">Звук</string>
-    <string name="sound_summary">Настройки звука и всего, что его касается</string>
-    <string name="disable_volume_control_sound">Отключить BEEP сигнал</string>
-    <string name="disable_volume_control_sound_summary">Модуль отключает раздражающий звук, который появляется при регулировке громкости клавишами регулировки</string>
-    <string name="long_press_track_skip">Переключение треков громкостью</string>
-    <string name="long_press_track_skip_summary">Позволяет переключать музыкальные треки клавишами громкости (долгим нажатием, при выключенном экране)</string>
-    <string name="swap_long_press_skip_keys">Поменять клавиши</string>
-    <string name="swap_long_press_skip_keys_summary">Меняет местами клавиши переключения</string>
-    <string name="headset_notification_icon">Скрыть иконку гарнитуры</string>
-    <string name="headset_notification_icon_summary">Скрыть иконку гарнитуры при подключении наушников к телефону</string>
     <!-- Launcher prefs-->
     <string name="launcher">Рабочий стол</string>
     <string name="launcher_summary">Настройки рабочего стола</string>

@@ -24,11 +24,6 @@
         BurgerZ MD, Copyright © 2013, All rights reserved</string>         
     <!-- About -->
     <string name="about_module">About module</string>
-    <!--  -->
-    <string name="menu_save">Save</string>
-    <string name="menu_restore">Restore</string>
-    <string name="menu_delete">Delete</string>
-    <string name="rebooting">Rebooting Now &#133;</string>
     <!-- AppPickerPreference -->
     <string name="preference_app_picker_search">Search</string>
     <string name="preference_app_picker_none">(None)</string>
@@ -130,6 +125,8 @@
     <string name="notifications">Notifications</string>
     <string name="hide_ongoing_ime_switcher_summary">While typing, show the ongoing notification from which you can choose the input method (keyboard)</string>
     <string name="hide_ongoing_ime_switcher">Hide input method switcher</string>
+    <string name="headset_notification_icon">Hide headset notification icon</string>
+    <string name="headset_notification_icon_summary">Headset notification icon visibility while plug in headset</string>
     <!-- Framework prefs -->
     <string name="framework">Framework</string>
     <string name="framework_summary">Framework related settings</string>
@@ -201,25 +198,22 @@
     <string name="menu_action_sleep">Lock screen</string>
     <string name="menu_action_custom_app">Launch custom app</string>
     <string name="menu_action_torch">Torch</string>
-    <string name="vol_key_cursor">Volume keys cursor</string>
+    <string name="vol_key_cursor">Volume keys cursor control</string>
     <string name="vol_key_cursor_summary">Use volume keys as cursor control keys in text fields</string>
     <string name="vol_key_cursor_reverse">Reverse keys</string>
-    <string name="vol_key_cursor_reverse_summary">Reverse volume keys</string>
+    <string name="vol_key_cursor_reverse_summary">Reverse cursor control keys</string>
+    <string name="long_press_track_skip">Volume keys skip tracks</string>
+    <string name="long_press_track_skip_summary">Skip to the next/previous track with a long press on the volume keys (only when the screen is off)</string>
+    <string name="swap_long_press_skip_keys">Reverse keys</string>
+    <string name="swap_long_press_skip_keys_summary">Reverse skip track keys</string>
+    <!-- Sound -->
+    <string name="sound">Sound</string>
+    <string name="disable_volume_control_sound">Disable BEEP sound</string>
+    <string name="disable_volume_control_sound_summary">Disables ugly BEEP sound while adjusting volume by vol. keys</string>
     <!-- Advanced -->
     <string name="advanced">Advanced</string>
     <string name="extra_battery_info_summary">Add extra battery info to battery settings view</string>
     <string name="extra_battery_info">Extra battery info</string>
-    <!-- Sound prefs -->
-    <string name="sound">Sound</string>
-    <string name="sound_summary">Sound related settings</string>
-    <string name="disable_volume_control_sound">Disable BEEP sound</string>
-    <string name="disable_volume_control_sound_summary">Disables ugly BEEP sound while adjusting volume by vol. keys</string>
-    <string name="long_press_track_skip">Skip tracks with volume keys</string>
-    <string name="long_press_track_skip_summary">Skip to the next/previous track with a long press on the volume keys (only when the screen is off)</string>
-    <string name="swap_long_press_skip_keys">Swap volume keys</string>
-    <string name="swap_long_press_skip_keys_summary">Swap volume keys (next->previous and previous->next)</string>
-    <string name="headset_notification_icon">Hide headset notification icon</string>
-    <string name="headset_notification_icon_summary">Headset notification icon visibility while plug in headset</string>
     <!-- Launcher prefs-->
     <string name="launcher">Launcher</string>
     <string name="launcher_summary">Launcher related settings</string>
