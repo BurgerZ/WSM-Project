@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="module_name">Mi-Tools</string>
+    <string name="module_desc">Módulo todo en uno para MIUI</string>
+    <string name="module_desc_full">Módulo todo en uno para MIUI.\n
+        IMPORTANTE:\n
+        Debes deshabilitar los siguientes módulos (si están instalados):\n
+        \u2022 Auto-ajustar Navegador\n
+        \u2022 Nombre de Operadora\n
+        \u2022 Centrar Reloj\n
+        \u2022 Current Track Launch\n
+        \u2022 Ocultar Texto en Iconos\n
+        \u2022 Holidays\n
+        \u2022 MMS Festival\n
+        \u2022 Opciones de Reinicio\n
+        \u2022 Search in Google Play\n
+        \u2022 T9 Module\n
+        \u2022 Units\n
+        \u2022 Volume Control Mute\n
+        \u2022 Volume Skip Track\n
+        \u2022 YellowPage</string>
+        <string name="mitools_copyright">Prohibida la modificación de los módulos.\n
+        BurgerZ MD, Copyright © 2013, Todos los derechos reservados.</string>
+    <!-- About -->
+    <string name="about_module">Acerca del módulo</string>
+    <!-- -->
+    <string name="menu_save">Guardar</string>
+    <string name="menu_restore">Restaurar</string>
+    <string name="menu_delete">Eliminar</string>
+    <string name="rebooting">Reiniciando ahora &#133;</string>
+    <!-- AppPickerPreference -->
+    <string name="preference_app_picker_search">Búsqueda</string>
+    <string name="preference_app_picker_none">(Nada)</string>
+    <!-- from arrays -->
+    <string name="am_pm_hide">Oculto</string>
+    <string name="am_pm_small">Pequeño</string>
+    <string name="am_pm_large">Grande</string>
+    <string name="typeface_style_italic">Italic</string>
+    <string name="typeface_style_normal">Normal</string>
+    <string name="typeface_style_bold">Negrita</string>
+    <string name="typeface_family_regular">Regular</string>
+    <string name="typeface_family_light">Light</string>
+    <string name="typeface_family_condensed">Condensada</string>
+    <string name="typeface_family_thin">Mini</string>
+    <string name="clock_right">A la Derecha (predeterminado)</string>
+    <string name="clock_center">Centrado</string>
+    <string name="clock_center_ios7">Centrado (Estilo Iphone)</string>
+    <string name="clock_left">A la Izquierda</string>
+    <string name="text_small">Pequeña</string>
+    <string name="text_medium">Mediana</string>
+    <string name="text_large">Grande</string>
+    <!-- MIUI warning -->
+    <string name="miwarning_title">OS no soportado</string>
+    <string name="miwarning_message">This OS is not officially supported. Some options may not work.\nDo you agree to continue?</string>
+    <string name="miwarning_continue">Continuar</string>
+    <string name="miwarning_close">Cerrar</string>
+    <!-- Module Notification -->
+    <string name="notif_soft_reboot">Reinicio por Software</string>
+    <string name="notif_reboot">Reiniciar</string>
+    <string name="notif_reboot_required">Por favor reinicie para que los cambios tengan efecto.</string>
+    <string name="notif_reboot_required_title">Petición de Reinicio</string>
+    <string name="notif_reboot_required_message">Reinicio requerido para aplicar cámbios</string>
+    <!-- Backup & Restore -->
+    <string name="backup_name">Backup Name</string>
+    <string name="backup_save">Save</string>
+    <string name="backup_save_successful">Save successful!</string>
+    <string name="backup_save_error">Save error!</string>
+    <string name="backup_no_backups">No backups</string>
+    <string name="backup_restore">Restore</string>
+    <string name="backup_delete">Delete</string>
+    <string name="backup_defaults">Defaults</string>
+    <string name="backup_defaults_restored">Defaults restored</string>
+    <string name="backup_restoring">Restoring Backup</string>
+    <string name="backup_restored">Backup restored</string>
+        <!-- ColorPicker -->
+        <string name="press_color_to_apply">Press on Color to apply</string>
+        <string name="dialog_color_picker">Color Picker</string>
+        <!-- Status Bar prefs -->
+        <!-- Statusbar -->
+        <string name="statusbar">Status Bar</string>
+        <string name="statusbar_title">Status Bar</string>
+        <string name="statusbar_summary">Status Bar modifications</string>
+        <string name="statusbar_set_background_color">Use background color</string>
+        <string name="statusbar_set_background_color_summary">Allows to choose color of the statusbar</string>
+        <string name="statusbar_background_color">Background color</string>
+        <string name="statusbar_background_color_summary">Color of the statusbar</string>
+        <string name="statusbar_text_family">Typeface family</string>
+    <string name="statusbar_text_family_summary">Set the type family of the statusbar font:\n%s</string>
+    <string name="statusbar_text_style">Typeface style</string>
+    <string name="statusbar_text_style_summary">Set the style of the statusbar font:\n%s</string>
+    <string name="font_size_summary">Set the statusbar text elements size</string>
+    <string name="font_size">Font size</string>
+    <string name="network_speed_exp_statusbar_summary">Show network speed at expanded status bar view</string>
+    <string name="network_speed_exp_statusbar">Network speed</string>
+        <!-- Clock -->
+        <string name="clock">Clock</string>
+        <string name="clock_hide">Hide clock</string>
+    <string name="clock_hide_summary">Do not show clock in statusbar</string>
+    <string name="clock_color_title">Clock color</string>
+    <string name="clock_color_summary">Set status bar clock color</string>
+    <string name="clock_position">Clock position</string>
+    <string name="clock_position_summary">Choose clock position:\n%s</string>
+    <string name="am_pm_style">AM PM Style</string>
+    <string name="am_pm_style_summary">Choose clock am pm style:\n%s</string>
+    <string name="show_clock_date_summary">Show the date with the status bar clock</string>
+    <string name="show_clock_date">Show status bar date</string>
+    <!-- Battery -->
+    <string name="battery">Battery</string>
+    <string name="hide_battery_icon_summary">Battery icon visibility settings</string>
+    <string name="hide_battery_icon">Hide battery icon</string>
+    <string name="show_battery_text_summary">Show battery percentage text</string>
+    <string name="show_battery_text">Show battery text</string>
+    <string name="battery_text_color">Battery text color</string>
+    <string name="battery_text_color_summary">Set battery text color</string>
+    <!-- Carrier -->
+    <string name="carrier_settings">Carrier</string>
+    <string name="hide_carrier_label">Hide carrier label</string>
+    <string name="hide_carrier_label_summary">Carrier label visibility settings</string>
+    <string name="custom_carrier_label">Custom carrier label</string>
+    <string name="default_carrier_label">Leave empty for default carrier label</string>
+    <string name="carrier_label_color">Carrier label color</string>
+    <string name="carrier_label_color_summary">Set carrier label color</string>
+    <string name="custom_carrier_logo">Carrier logo</string>
+    <string name="custom_carrier_logo_summary">Use image logo for carrier</string>
+    <string name="select_carrier_logo">Select logo</string>
+    <string name="select_carrier_logo_summary">%s</string>
+    <string name="hide_roaming_icon">Hide roaming icon</string>
+    <!-- Notifications -->
+    <string name="notifications">Notifications</string>
+    <string name="hide_ongoing_ime_switcher_summary">While typing, show the ongoing notification from which you can choose the input method (keyboard)</string>
+    <string name="hide_ongoing_ime_switcher">Hide input method switcher</string>
+    <!-- Framework prefs -->
+    <string name="framework">Framework</string>
+    <string name="framework_summary">Framework related settings</string>
+    <!-- Common -->
+    <string name="common">Common</string>
+    <string name="international_t9_summary">Enable international T9 search in Contacts</string>
+    <string name="international_t9">Add T9</string>
+    <string name="local_yellowpage_database_summary">Blocks updates of the Yellow Pages database from Chinese server and adds the ability to "Mark" unknown contacts.</string>
+    <string name="local_yellowpage_database">Local YellowPage database</string>
+    <string name="localized_measure_units_summary">\u2022 Status bar: network speed (K/s, m/s)\n\u2022 Task manager: freed, available memory (MB, GB)\n\u2022 Data usage (Traffic): B, KB, MB, GB</string>
+    <string name="localized_measure_units">Localized measure units</string>
+    <string name="units_gb">Gb</string>
+    <string name="units_b">b</string>
+    <string name="units_kb">Kb</string>
+    <string name="units_kbs">K/s</string>
+    <string name="units_mb">Mb</string>
+    <string name="units_mbs">M/s</string>
+    <string name="units_s">s</string>
+    <!-- Power -->
+    <string name="power">Power</string>
+    <string name="advanced_reboot_menu_summary">Adds more options to reboot menu</string>
+    <string name="advanced_reboot_menu">Advanced reboot menu</string>
+    <string name="power_reboot">Reboot</string>
+    <string name="power_reboot_options">Reboot Options</string>
+    <string name="power_reboot_normal">Normal</string>
+    <string name="power_reboot_recovery">Recovery</string>
+    <string name="power_reboot_hot">Hot Reboot</string>
+    <string name="power_reboot_bootloader">Bootloader</string>
+    <string name="power_reboot_switch_system">Switch system (Mi phones)</string>
+    <string name="power_reboot_system_1">Reboot to System 1</string>
+    <string name="power_reboot_system_2">Reboot to System 2</string>
+    <string name="power_cancel">Cancel</string>
+    <!-- Device -->
+    <string name="device">Device</string>
+    <string name="show_navigation_bar_summary">Show navigation bar (Nexus like)</string>
+    <string name="show_navigation_bar">Show navigation bar</string>
+    <string name="navigation_bar_height_summary">Height: %s</string>
+    <string name="navigation_bar_height">Navigation bar height</string>
+    <string name="all_rotations_summary">Enable all rotation angles, including upside-down</string>
+    <string name="all_rotations">Enable all rotation angles</string>
+    <string name="lockscreen_rotations_summary">Allow lockscreen to rotate to landscape</string>
+    <string name="lockscreen_rotations">Enable lockscreen rotation</string>
+    <string name="custom_build_prop">Device properties</string>
+    <string name="custom_build_prop_summary">Set custom build.prop values</string>
+    <string name="enable_custom_build_prop_summary">Values are applied after boot\nPhysical build.prop is not altered</string>
+    <string name="enable_custom_build_prop">Use custom property values</string>
+    <string name="custom_build_prop_board_value">Set a custom board value</string>
+    <string name="custom_build_prop_board">Board</string>
+    <string name="custom_build_prop_brand_value">Set a custom brand value</string>
+    <string name="custom_build_prop_brand">Brand</string>
+    <string name="custom_build_prop_device_value">Set a custom device value</string>
+    <string name="custom_build_prop_device">Device</string>
+    <string name="custom_build_prop_model_value">Set a custom model value</string>
+    <string name="custom_build_prop_model">Model</string>
+    <string name="custom_build_prop_name_value">Set a custom name value</string>
+    <string name="custom_build_prop_name">Name</string>
+    <!-- Buttons -->
+    <string name="buttons">Buttons</string>
+    <string name="key_menu">Menu</string>
+    <string name="key_volume">Volume</string>
+    <string name="double_click_menu_app_summary">Select application to launch by MENU button double click</string>
+    <string name="double_click_menu_app">Double MENU button click</string>
+    <string name="long_press_menu_action_summary">%s</string>
+    <string name="long_press_menu_action">Long press MENU button action</string>
+    <string name="double_tap_menu_action_summary">%s</string>
+    <string name="double_tap_menu_action">Double tap MENU button action</string>
+    <string name="menu_action_default">Default</string>
+    <string name="menu_action_previous_app">Launch previous app</string>
+    <string name="menu_action_sleep">Lock screen</string>
+    <string name="menu_action_custom_app">Launch custom app</string>
+    <string name="menu_action_torch">Torch</string>
+    <string name="vol_key_cursor">Volume keys cursor</string>
+    <string name="vol_key_cursor_summary">Use volume keys as cursor control keys in text fields</string>
+    <string name="vol_key_cursor_reverse">Reverse keys</string>
+    <string name="vol_key_cursor_reverse_summary">Reverse volume keys</string>
+    <!-- Advanced -->
+    <string name="advanced">Advanced</string>
+    <string name="extra_battery_info_summary">Add extra battery info to battery settings view</string>
+    <string name="extra_battery_info">Extra battery info</string>
+    <!-- Sound prefs -->
+    <string name="sound">Sound</string>
+    <string name="sound_summary">Sound related settings</string>
+    <string name="disable_volume_control_sound">Disable BEEP sound</string>
+    <string name="disable_volume_control_sound_summary">Disables ugly BEEP sound while adjusting volume by vol. keys</string>
+    <string name="long_press_track_skip">Skip tracks with volume keys</string>
+    <string name="long_press_track_skip_summary">Skip to the next/previous track with a long press on the volume keys (only when the screen is off)</string>
+    <string name="swap_long_press_skip_keys">Swap volume keys</string>
+    <string name="swap_long_press_skip_keys_summary">Swap volume keys (next->previous and previous->next)</string>
+    <string name="headset_notification_icon">Hide headset notification icon</string>
+    <string name="headset_notification_icon_summary">Headset notification icon visibility while plug in headset</string>
+    <!-- Launcher prefs-->
+    <string name="launcher">Launcher</string>
+    <string name="launcher_summary">Launcher related settings</string>
+    <string name="hide_icons_label">Hide icons label</string>
+    <string name="hide_icons_label_summary">Allows you to to hide launcher icons labels</string>
+    <string name="hide_folders_label">Hide folders label</string>
+    <string name="hide_folders_label_summary">Allows you to to hide launcher folders labels</string>
+    <!-- Applications prefs-->
+    <string name="applications">Applications</string>
+    <string name="applications_summary">MIUI applications settings</string>
+    <!-- MMS -->
+    <string name="app_mms">Messaging</string>
+    <string name="disable_sms_to_mms_conversion">Allow Long SMS</string>
+    <string name="disable_sms_to_mms_conversion_summary">Disables 9 SMS\'s to MMS conversion</string>
+    <string name="mms_unicode_stripping">Strip unicode</string>
+    <string name="mms_unicode_stripping_summary">Converts unicode characters to normal.\nMode:%s\nDoes not work on some devices (yet)!</string>
+    <string name="mms_unicode_stripping_leave_intact">Leave characters intact</string>
+    <string name="mms_unicode_stripping_non_encodable">Strip non-encodable characters</string>
+    <string name="mms_unicode_stripping_all">Strip all unicode characters</string>
+    <string name="festival_update_server">Festival update server</string>
+    <string name="festival_update_server_summary">%s</string>
+    <!-- Calendar -->
+    <string name="app_calendar">Calendar</string>
+    <string name="holidays_update_server">Holidays update server</string>
+    <string name="holidays_update_server_summary">%s</string>
+    <string name="holidays_selector_country">Holidays country</string>
+    <string name="holidays_selector_country_summary">%s</string>
+    <string name="holidays_selector_country_original">Original (chinese)</string>
+    <string name="holidays_selector_country_russia">Russia</string>
+    <string name="holidays_selector_country_ukraine">Ukraine</string>
+    <string name="holidays_selector_country_slovakia">Slovakia</string>
+    <string name="holidays_selector_country_czech">Czech Republic</string>
+    <!-- QuickSearchBox -->
+    <string name="app_quicksearchbox">QuickSearchBox</string>
+    <string name="quicksearchbox_marketplace">Search MarketPlace</string>
+    <string name="quicksearchbox_marketplace_summary">Marketplace to search:\n%s</string>
+    <!-- Browser -->
+    <string name="app_browser">Browser</string>
+    <string name="browser_autofit_pages">Pages autofit</string>
+    <string name="browser_autofit_pages_summary">Adds \"Mobile View\" to the General browser settings</string>
+    <!-- Music -->
+    <string name="app_music">Music</string>
+    <string name="launch_playback_screen">Launch playback screen</string>
+    <string name="launch_playback_screen_summary">Launch playback screen in Music player on pop-up widget click. By default, the main screen opens</string>
+</resources>
