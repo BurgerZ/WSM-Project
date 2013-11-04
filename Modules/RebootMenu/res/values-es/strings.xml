@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Opciones de Reinicio Extra</string>
+        <string name="module_desc">Menú Avanzado de Reinicio.</string>
+        <string name="module_desc_full">Añade un menú adicional con opciones de reinicio. Pulsa el botón Encendido y seleccione "Reiniciar", como siempre.\n\n
+Opciones Disponibles:\n
+-Normal\n
+-Rápido\n
+-Modo Recovery\n
+-Modo Bootloader\n
+-Cambio de Sistema (para dispositivos Mi con dos sistemas)</string>
+        <string name="reboot">Reiniciar</string>
+    <string name="reboot_options">Opciones de Reinicio</string>
+    <string name="reboot_normal">Normal</string>
+    <string name="reboot_recovery">Modo Recovery</string>
+    <string name="reboot_hot">Reinicio Rápido</string>
+    <string name="reboot_bootloader">Modo Bootloader</string>
+    <string name="reboot_system_1">Reiniciar en System 1</string>
+    <string name="reboot_system_2">Reiniciar en System 2</string>
+    <string name="cancel">Cancelar</string>
+</resources>
