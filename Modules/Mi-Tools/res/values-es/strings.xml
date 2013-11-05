@@ -2,60 +2,65 @@
 <resources>
 
     <string name="module_name">Mi-Tools</string>
-    <string name="module_desc">MIUI all in one module</string>
-    <string name="module_desc_full">MIUI all in one module.\n
-        WARNING:\n
-        You must disable the following modules (if any installed):\n
-        \u2022 Browser Autofit\n
-        \u2022 Carrier Label\n
-        \u2022 Center Clock\n
+    <string name="module_desc">Módulo todo en uno para MIUI</string>
+    <string name="module_desc_full">Módulo todo en uno para MIUI.\n
+        IMPORTANTE:\n
+        Debes deshabilitar los siguientes módulos (si están instalados):\n
+        \u2022 Auto-ajustar Navegador\n
+        \u2022 Nombre de Operadora\n
+        \u2022 Centrar Reloj\n
         \u2022 Current Track Launch\n
-        \u2022 Hide Icons Text\n
+        \u2022 Ocultar Texto en Iconos\n
         \u2022 Holidays\n
         \u2022 MMS Festival\n
-        \u2022 Reboot Options\n
+        \u2022 Opciones de Reinicio\n
         \u2022 Search in Google Play\n
         \u2022 T9 Module\n
         \u2022 Units\n
         \u2022 Volume Control Mute\n
         \u2022 Volume Skip Track\n
         \u2022 YellowPage</string>
-	<string name="mitools_copyright">Any module modifications prohibited.\n
-        BurgerZ MD, Copyright © 2013, All rights reserved</string>         
+        <string name="mitools_copyright">Prohibida la modificación de los módulos.\n
+        BurgerZ MD, Copyright © 2013, Todos los derechos reservados.</string>
     <!-- About -->
-    <string name="about_module">About module</string>
+    <string name="about_module">Acerca del módulo</string>
+    <!-- -->
+    <string name="menu_save">Guardar</string>
+    <string name="menu_restore">Restaurar</string>
+    <string name="menu_delete">Eliminar</string>
+    <string name="rebooting">Reiniciando ahora &#133;</string>
     <!-- AppPickerPreference -->
-    <string name="preference_app_picker_search">Search</string>
-    <string name="preference_app_picker_none">(None)</string>
+    <string name="preference_app_picker_search">Búsqueda</string>
+    <string name="preference_app_picker_none">(Nada)</string>
     <!-- from arrays -->
-    <string name="am_pm_hide">Hide</string>
-    <string name="am_pm_small">Small</string>
-    <string name="am_pm_large">Large</string>
+    <string name="am_pm_hide">Oculto</string>
+    <string name="am_pm_small">Pequeño</string>
+    <string name="am_pm_large">Grande</string>
     <string name="typeface_style_italic">Italic</string>
     <string name="typeface_style_normal">Normal</string>
-    <string name="typeface_style_bold">Bold</string>
+    <string name="typeface_style_bold">Negrita</string>
     <string name="typeface_family_regular">Regular</string>
     <string name="typeface_family_light">Light</string>
-    <string name="typeface_family_condensed">Condensed</string>
-    <string name="typeface_family_thin">Thin</string>
-    <string name="clock_right">Right (default)</string>
-    <string name="clock_center">Center</string>
-    <string name="clock_center_ios7">Center (iOS 7)</string>
-    <string name="clock_left">Left</string>
-    <string name="text_small">Small</string>
-    <string name="text_medium">Medium</string>
-    <string name="text_large">Large</string>
+    <string name="typeface_family_condensed">Condensada</string>
+    <string name="typeface_family_thin">Mini</string>
+    <string name="clock_right">A la Derecha (predeterminado)</string>
+    <string name="clock_center">Centrado</string>
+    <string name="clock_center_ios7">Centrado (Estilo Iphone)</string>
+    <string name="clock_left">A la Izquierda</string>
+    <string name="text_small">Pequeña</string>
+    <string name="text_medium">Mediana</string>
+    <string name="text_large">Grande</string>
     <!-- MIUI warning -->
-    <string name="miwarning_title">Unsupported OS</string>
+    <string name="miwarning_title">OS no soportado</string>
     <string name="miwarning_message">This OS is not officially supported. Some options may not work.\nDo you agree to continue?</string>
-    <string name="miwarning_continue">Continue</string>
-    <string name="miwarning_close">Close</string>
+    <string name="miwarning_continue">Continuar</string>
+    <string name="miwarning_close">Cerrar</string>
     <!-- Module Notification -->
-    <string name="notif_soft_reboot">Soft reboot</string>
-    <string name="notif_reboot">Reboot</string>
-    <string name="notif_reboot_required">Please reboot to apply changes.</string>
-    <string name="notif_reboot_required_title">Reboot requested</string>
-    <string name="notif_reboot_required_message">Reboot required to apply changes</string>
+    <string name="notif_soft_reboot">Reinicio por Software</string>
+    <string name="notif_reboot">Reiniciar</string>
+    <string name="notif_reboot_required">Por favor reinicie para que los cambios tengan efecto.</string>
+    <string name="notif_reboot_required_title">Petición de Reinicio</string>
+    <string name="notif_reboot_required_message">Reinicio requerido para aplicar cámbios</string>
     <!-- Backup & Restore -->
     <string name="backup_name">Backup Name</string>
     <string name="backup_save">Save</string>
@@ -68,19 +73,19 @@
     <string name="backup_defaults_restored">Defaults restored</string>
     <string name="backup_restoring">Restoring Backup</string>
     <string name="backup_restored">Backup restored</string>
-	<!-- ColorPicker -->
-	<string name="press_color_to_apply">Press on Color to apply</string>
-	<string name="dialog_color_picker">Color Picker</string> 
-	<!-- Status Bar prefs -->
-	<!-- Statusbar -->
-	<string name="statusbar">Status Bar</string>
-	<string name="statusbar_title">Status Bar</string>
-	<string name="statusbar_summary">Status Bar modifications</string>
-	<string name="statusbar_set_background_color">Use background color</string>
-	<string name="statusbar_set_background_color_summary">Allows to choose color of the statusbar</string>
-	<string name="statusbar_background_color">Background color</string>
-	<string name="statusbar_background_color_summary">Color of the statusbar</string>
-	<string name="statusbar_text_family">Typeface family</string>
+        <!-- ColorPicker -->
+        <string name="press_color_to_apply">Press on Color to apply</string>
+        <string name="dialog_color_picker">Color Picker</string>
+        <!-- Status Bar prefs -->
+        <!-- Statusbar -->
+        <string name="statusbar">Status Bar</string>
+        <string name="statusbar_title">Status Bar</string>
+        <string name="statusbar_summary">Status Bar modifications</string>
+        <string name="statusbar_set_background_color">Use background color</string>
+        <string name="statusbar_set_background_color_summary">Allows to choose color of the statusbar</string>
+        <string name="statusbar_background_color">Background color</string>
+        <string name="statusbar_background_color_summary">Color of the statusbar</string>
+        <string name="statusbar_text_family">Typeface family</string>
     <string name="statusbar_text_family_summary">Set the type family of the statusbar font:\n%s</string>
     <string name="statusbar_text_style">Typeface style</string>
     <string name="statusbar_text_style_summary">Set the style of the statusbar font:\n%s</string>
@@ -88,9 +93,9 @@
     <string name="font_size">Font size</string>
     <string name="network_speed_exp_statusbar_summary">Show network speed at expanded status bar view</string>
     <string name="network_speed_exp_statusbar">Network speed</string>
-	<!-- Clock -->
-	<string name="clock">Clock</string>
-	<string name="clock_hide">Hide clock</string>
+        <!-- Clock -->
+        <string name="clock">Clock</string>
+        <string name="clock_hide">Hide clock</string>
     <string name="clock_hide_summary">Do not show clock in statusbar</string>
     <string name="clock_color_title">Clock color</string>
     <string name="clock_color_summary">Set status bar clock color</string>
@@ -125,8 +130,6 @@
     <string name="notifications">Notifications</string>
     <string name="hide_ongoing_ime_switcher_summary">While typing, show the ongoing notification from which you can choose the input method (keyboard)</string>
     <string name="hide_ongoing_ime_switcher">Hide input method switcher</string>
-    <string name="headset_notification_icon">Hide headset notification icon</string>
-    <string name="headset_notification_icon_summary">Headset notification icon visibility while plug in headset</string>
     <!-- Framework prefs -->
     <string name="framework">Framework</string>
     <string name="framework_summary">Framework related settings</string>
@@ -149,16 +152,16 @@
     <string name="power">Power</string>
     <string name="advanced_reboot_menu_summary">Adds more options to reboot menu</string>
     <string name="advanced_reboot_menu">Advanced reboot menu</string>
-    <string name="power_reboot">Reboot</string> 
-    <string name="power_reboot_options">Reboot Options</string> 
-    <string name="power_reboot_normal">Normal</string> 
-    <string name="power_reboot_recovery">Recovery</string> 
-    <string name="power_reboot_hot">Hot Reboot</string> 
-    <string name="power_reboot_bootloader">Bootloader</string> 
-    <string name="power_reboot_switch_system">Switch system (Mi phones)</string> 
-    <string name="power_reboot_system_1">Reboot to System 1</string> 
-    <string name="power_reboot_system_2">Reboot to System 2</string> 
-    <string name="power_cancel">Cancel</string> 
+    <string name="power_reboot">Reboot</string>
+    <string name="power_reboot_options">Reboot Options</string>
+    <string name="power_reboot_normal">Normal</string>
+    <string name="power_reboot_recovery">Recovery</string>
+    <string name="power_reboot_hot">Hot Reboot</string>
+    <string name="power_reboot_bootloader">Bootloader</string>
+    <string name="power_reboot_switch_system">Switch system (Mi phones)</string>
+    <string name="power_reboot_system_1">Reboot to System 1</string>
+    <string name="power_reboot_system_2">Reboot to System 2</string>
+    <string name="power_cancel">Cancel</string>
     <!-- Device -->
     <string name="device">Device</string>
     <string name="show_navigation_bar_summary">Show navigation bar (Nexus like)</string>
@@ -198,22 +201,25 @@
     <string name="menu_action_sleep">Lock screen</string>
     <string name="menu_action_custom_app">Launch custom app</string>
     <string name="menu_action_torch">Torch</string>
-    <string name="vol_key_cursor">Volume keys cursor control</string>
+    <string name="vol_key_cursor">Volume keys cursor</string>
     <string name="vol_key_cursor_summary">Use volume keys as cursor control keys in text fields</string>
     <string name="vol_key_cursor_reverse">Reverse keys</string>
-    <string name="vol_key_cursor_reverse_summary">Reverse cursor control keys</string>
-    <string name="long_press_track_skip">Volume keys skip tracks</string>
-    <string name="long_press_track_skip_summary">Skip to the next/previous track with a long press on the volume keys (only when the screen is off)</string>
-    <string name="swap_long_press_skip_keys">Reverse keys</string>
-    <string name="swap_long_press_skip_keys_summary">Reverse skip track keys</string>
-    <!-- Sound -->
-    <string name="sound">Sound</string>
-    <string name="disable_volume_control_sound">Disable BEEP sound</string>
-    <string name="disable_volume_control_sound_summary">Disables ugly BEEP sound while adjusting volume by vol. keys</string>
+    <string name="vol_key_cursor_reverse_summary">Reverse volume keys</string>
     <!-- Advanced -->
     <string name="advanced">Advanced</string>
     <string name="extra_battery_info_summary">Add extra battery info to battery settings view</string>
     <string name="extra_battery_info">Extra battery info</string>
+    <!-- Sound prefs -->
+    <string name="sound">Sound</string>
+    <string name="sound_summary">Sound related settings</string>
+    <string name="disable_volume_control_sound">Disable BEEP sound</string>
+    <string name="disable_volume_control_sound_summary">Disables ugly BEEP sound while adjusting volume by vol. keys</string>
+    <string name="long_press_track_skip">Skip tracks with volume keys</string>
+    <string name="long_press_track_skip_summary">Skip to the next/previous track with a long press on the volume keys (only when the screen is off)</string>
+    <string name="swap_long_press_skip_keys">Swap volume keys</string>
+    <string name="swap_long_press_skip_keys_summary">Swap volume keys (next->previous and previous->next)</string>
+    <string name="headset_notification_icon">Hide headset notification icon</string>
+    <string name="headset_notification_icon_summary">Headset notification icon visibility while plug in headset</string>
     <!-- Launcher prefs-->
     <string name="launcher">Launcher</string>
     <string name="launcher_summary">Launcher related settings</string>
@@ -233,19 +239,19 @@
     <string name="mms_unicode_stripping_leave_intact">Leave characters intact</string>
     <string name="mms_unicode_stripping_non_encodable">Strip non-encodable characters</string>
     <string name="mms_unicode_stripping_all">Strip all unicode characters</string>
-    <string name="festival_update_server">Festival update server</string> 
+    <string name="festival_update_server">Festival update server</string>
     <string name="festival_update_server_summary">%s</string>
     <!-- Calendar -->
     <string name="app_calendar">Calendar</string>
-    <string name="holidays_update_server">Holidays update server</string> 
+    <string name="holidays_update_server">Holidays update server</string>
     <string name="holidays_update_server_summary">%s</string>
     <string name="holidays_selector_country">Holidays country</string>
     <string name="holidays_selector_country_summary">%s</string>
-    <string name="holidays_selector_country_original">Original (chinese)</string> 
-    <string name="holidays_selector_country_russia">Russia</string> 
-    <string name="holidays_selector_country_ukraine">Ukraine</string> 
+    <string name="holidays_selector_country_original">Original (chinese)</string>
+    <string name="holidays_selector_country_russia">Russia</string>
+    <string name="holidays_selector_country_ukraine">Ukraine</string>
     <string name="holidays_selector_country_slovakia">Slovakia</string>
-    <string name="holidays_selector_country_czech">Czech Republic</string> 
+    <string name="holidays_selector_country_czech">Czech Republic</string>
     <!-- QuickSearchBox -->
     <string name="app_quicksearchbox">QuickSearchBox</string>
     <string name="quicksearchbox_marketplace">Search MarketPlace</string>

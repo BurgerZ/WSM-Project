@@ -24,11 +24,9 @@
         BurgerZ MD, Copyright © 2013, Все права защищены</string>    
     <!-- About -->
     <string name="about_module">О модуле</string>
-    <!--  -->
-    <string name="menu_save">Сохранить</string>
-    <string name="menu_restore">Восстановить</string>
-    <string name="menu_delete">Удалить</string>
-    <string name="rebooting">Перезагрузка &#133;</string>
+    <!-- AppPickerPreference -->
+    <string name="preference_app_picker_search">Поиск</string>
+    <string name="preference_app_picker_none">(нет)</string>
     <!-- from arrays -->
     <string name="am_pm_hide">Скрыть</string>
     <string name="am_pm_small">Маленький</string>
@@ -41,7 +39,8 @@
     <string name="typeface_family_condensed">Condensed</string>
     <string name="typeface_family_thin">Thin</string>
     <string name="clock_right">Справа (по умолчанию)</string>
-    <string name="clock_center">В центре (iOS 7)</string>
+    <string name="clock_center">В центре</string>
+    <string name="clock_center_ios7">В центре (iOS 7)</string>
     <string name="clock_left">Слева</string>
     <string name="text_small">Маленький</string>
     <string name="text_medium">Средний</string>
@@ -110,7 +109,7 @@
     <string name="battery_text_color">Цвет текста заряда</string>
     <string name="battery_text_color_summary">Выбор цвета текста заряда батареи</string>
     <!-- Carrier -->
-    <string name="carrier_settings">Имя (логотип) оператора</string>
+    <string name="carrier_settings">Оператор связи</string>
     <string name="hide_carrier_label">Скрыть имя оператора</string>
     <string name="hide_carrier_label_summary">Настройки видимости имени оператора</string>
     <string name="custom_carrier_label">Задать свое имя</string>
@@ -121,10 +120,13 @@
     <string name="custom_carrier_logo_summary">Использовать логотип оператора</string>
     <string name="select_carrier_logo">Выбор логотипа</string>
     <string name="select_carrier_logo_summary">%s</string>
+    <string name="hide_roaming_icon">Скрыть иконку роуминга</string>
     <!-- Notifications -->
     <string name="notifications">Уведомления</string>
     <string name="hide_ongoing_ime_switcher_summary">Скрывает иконку выбора способа ввода в панели состояния при наборе текста</string>
     <string name="hide_ongoing_ime_switcher">Скрыть иконку IME</string>
+    <string name="headset_notification_icon">Скрыть иконку гарнитуры</string>
+    <string name="headset_notification_icon_summary">Скрыть иконку гарнитуры при подключении наушников к телефону</string>
     <!-- Framework prefs -->
     <string name="framework">Система</string>
     <string name="framework_summary">Настройки системы</string>
@@ -153,6 +155,7 @@
     <string name="power_reboot_recovery">Режим Recovery</string> 
     <string name="power_reboot_hot">Быстрая</string> 
     <string name="power_reboot_bootloader">Режим Bootloader</string> 
+    <string name="power_reboot_switch_system">Переключение систем (Mi)</string>
     <string name="power_reboot_system_1">Загрузка в систему 1</string> 
     <string name="power_reboot_system_2">Загрузка в систему 2</string> 
     <string name="power_cancel">Отмена</string> 
@@ -182,23 +185,35 @@
     <string name="custom_build_prop_name">Имя</string>
     <!-- Buttons -->
     <string name="buttons">Клавиши</string>
-    <string name="double_click_menu_app_summary">Установка действия на двойное нажатие клавиши МЕНЮ</string>
-    <string name="double_click_menu_app">Двойное нажатие на МЕНЮ</string>
+    <string name="key_menu">Меню</string>
+    <string name="key_volume">Громкость</string>
+    <string name="double_click_menu_app_summary">Выбор приложения для запуска по нажатию на клавишу МЕНЮ</string>
+    <string name="double_click_menu_app">Выбор приложения</string>
+    <string name="long_press_menu_action_summary">%s</string>
+    <string name="long_press_menu_action">Долгое нажатие на МЕНЮ</string>
+    <string name="double_tap_menu_action_summary">%s</string>
+    <string name="double_tap_menu_action">Двойное нажатие на МЕНЮ</string> 
+    <string name="menu_action_default">По умолчанию</string>
+    <string name="menu_action_previous_app">Запуск предыдущего приложения</string>
+    <string name="menu_action_sleep">Заблокировать экран</string>
+    <string name="menu_action_custom_app">Запуск своего приложения</string>
+    <string name="menu_action_torch">Фонарик</string>   
+    <string name="vol_key_cursor">Управление курсором</string>
+    <string name="vol_key_cursor_summary">Использовать клавиши регулировки громкостью для управления курсором в текстовых полях</string>
+    <string name="vol_key_cursor_reverse">Поменять клавиши</string>
+    <string name="vol_key_cursor_reverse_summary">Меняет местами клавиши управления курсором</string>
+    <string name="long_press_track_skip">Переключение треков</string>
+    <string name="long_press_track_skip_summary">Позволяет переключать музыкальные треки клавишами громкости (долгим нажатием, при выключенном экране)</string>
+    <string name="swap_long_press_skip_keys">Поменять клавиши</string>
+    <string name="swap_long_press_skip_keys_summary">Меняет местами клавиши переключения треков</string>
+    <!-- Sound prefs -->
+    <string name="sound">Звук</string>
+    <string name="disable_volume_control_sound">Отключить BEEP сигнал</string>
+    <string name="disable_volume_control_sound_summary">Модуль отключает раздражающий звук, который появляется при регулировке громкости клавишами регулировки</string>
     <!-- Advanced -->
     <string name="advanced">Дополнительно</string>
     <string name="extra_battery_info_summary">Добавляет пункт с дополнительной информацией в настройки батареи</string>
     <string name="extra_battery_info">Доп. инф. о батарее</string>
-    <!-- Sound prefs -->
-    <string name="sound">Звук</string>
-    <string name="sound_summary">Настройки звука и всего, что его касается</string>
-    <string name="disable_volume_control_sound">Отключить BEEP сигнал</string>
-    <string name="disable_volume_control_sound_summary">Модуль отключает раздражающий звук, который появляется при регулировке громкости клавишами регулировки</string>
-    <string name="long_press_track_skip">Переключение треков громкостью</string>
-    <string name="long_press_track_skip_summary">Позволяет переключать музыкальные треки клавишами громкости (долгим нажатием, при выключенном экране)</string>
-    <string name="swap_long_press_skip_keys">Поменять клавиши</string>
-    <string name="swap_long_press_skip_keys_summary">Меняет местами клавиши переключения</string>
-    <string name="headset_notification_icon">Скрыть иконку гарнитуры</string>
-    <string name="headset_notification_icon_summary">Скрыть иконку гарнитуры при подключении наушников к телефону</string>
     <!-- Launcher prefs-->
     <string name="launcher">Рабочий стол</string>
     <string name="launcher_summary">Настройки рабочего стола</string>

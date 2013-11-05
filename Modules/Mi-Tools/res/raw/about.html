@@ -1,8 +1,18 @@
-﻿<html>
+<html>
 	<head>
+		<script src="jquery.js"></script> 
+    	<script src="photo-resize.js"></script>
+    	<script type="text/javascript" charset="utf-8">
+    		$(document).ready(function() {
+        		$("img").photoResize({
+         	   		bottomSpacing: 15
+        		});
+    		});
+    	</script>
 		<title></title>
 	</head>
 	<body>
+		<img src="logo.png">
 		<h2 style="text-align: center;">
 			<strong>MIUI v5 all in one module</strong></h2>
 		<div>
@@ -10,7 +20,7 @@
 		<div>
 			<strong>Graphics:</strong> DriffeX</div>
 		<div>
-			<strong>Version:</strong> 1.0</div>
+			<strong>Version:</strong> 1.1</div>
 		<div>
 			&nbsp;</div>
 		<div>

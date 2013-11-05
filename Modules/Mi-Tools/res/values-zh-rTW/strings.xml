@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="module_name">Mi-Tools</string>
+    <string name="module_desc">MIUI 多功能模組</string>
+    <string name="module_desc_full">MIUI 多功能模組\n
+        警告：\n
+        如果您安装了以下模組，您必須先行停用它們:\n
+        \u2022 Browser Autofit(瀏覽器自適應)\n
+        \u2022 Carrier Label(電信業者標籤)\n
+        \u2022 Center Clock(時鐘置中)\n
+        \u2022 Current Track Launch(當前曲目啟動)\n
+        \u2022 Hide Icons Text(隱藏圖示文字)\n
+        \u2022 Holidays(假日)\n
+        \u2022 MMS Festival(MMS 節慶)\n
+        \u2022 Reboot Options(重啟選項)\n
+        \u2022 Search in Google Play(在 Google Play 商店搜尋)\n
+        \u2022 T9 Module(T9 模組)\n
+        \u2022 Units(單位)\n
+        \u2022 Volume Control Mute(音量控制靜音)\n
+        \u2022 Volume Skip Track(音量鍵跳過曲目)\n
+        \u2022 YellowPage(黃頁)</string>
+	<string name="mitools_copyright">禁止對任何模組進行修改\n
+        BurgerZ MD, Copyright © 2013, 版權所有</string>         
+    <!-- About -->
+    <string name="about_module">關於模組</string>
+
+    <!-- from arrays -->
+    <string name="am_pm_hide">隱藏</string>
+    <string name="am_pm_small">小寫</string>
+    <string name="am_pm_large">大寫</string>
+    <string name="typeface_style_italic">斜體</string>
+    <string name="typeface_style_normal">普通</string>
+    <string name="typeface_style_bold">粗體</string>
+    <string name="typeface_family_regular">通常 (Regular)</string>
+    <string name="typeface_family_light">較輕 (Light)</string>
+    <string name="typeface_family_condensed">較緊 (Condensed)</string>
+    <string name="typeface_family_thin">較細 (Thin)</string>
+    <string name="clock_right">居右 (預設)</string>
+    <string name="clock_center">居中 (iOS 7 風格)</string>
+    <string name="clock_left">居左</string>
+    <string name="text_small">小</string>
+    <string name="text_medium">中</string>
+    <string name="text_large">大</string>
+    <!-- MIUI warning -->
+    <string name="miwarning_title">不支援的系統</string>
+    <string name="miwarning_message">該系統不被官方支援，某些選項將不會正常運行。\n您確定要繼續嗎？</string>
+    <string name="miwarning_continue">繼續</string>
+    <string name="miwarning_close">關閉</string>
+    <!-- Module Notification -->
+    <string name="notif_soft_reboot">軟重啟</string>
+    <string name="notif_reboot">重新啟動</string>
+    <string name="notif_reboot_required">請重新啟動裝置讓更改後的選項生效</string>
+    <string name="notif_reboot_required_title">要求重新啟動</string>
+    <string name="notif_reboot_required_message">需要重新啟動裝置套用更改過的選項</string>
+    <!-- Backup & Restore -->
+    <string name="backup_name">備份名稱</string>
+    <string name="backup_save">儲存</string>
+    <string name="backup_save_successful">成功儲存！</string>
+    <string name="backup_save_error">儲存發生錯誤！</string>
+    <string name="backup_no_backups">没有備份檔案</string>
+    <string name="backup_restore">還原</string>
+    <string name="backup_delete">刪除</string>
+    <string name="backup_defaults">預設</string>
+    <string name="backup_defaults_restored">已還原預設值</string>
+    <string name="backup_restoring">正在還原備份資料</string>
+    <string name="backup_restored">已還原備份資料</string>
+	<!-- ColorPicker -->
+	<string name="press_color_to_apply">輕觸顏色以套用</string>
+	<string name="dialog_color_picker">顏色選擇</string> 
+	<!-- Status Bar prefs -->
+	<!-- Statusbar -->
+	<string name="statusbar">狀態列</string>
+	<string name="statusbar_title">狀態列</string>
+	<string name="statusbar_summary">狀態列校正</string>
+	<string name="statusbar_set_background_color">修改背景顏色</string>
+	<string name="statusbar_set_background_color_summary">允許修改狀態列背景顏色</string>
+	<string name="statusbar_background_color">背景顏色</string>
+	<string name="statusbar_background_color_summary">狀態列背景顏色</string>
+	<string name="statusbar_text_family">字體樣式</string>
+    <string name="statusbar_text_family_summary">已選擇狀態列字體樣式: %s</string>
+    <string name="statusbar_text_style">字體風格</string>
+    <string name="statusbar_text_style_summary">已選擇狀態列字體樣式: %s</string>
+    <string name="font_size_summary">設定狀態列字體大小</string>
+    <string name="font_size">字體大小</string>
+    <string name="network_speed_exp_statusbar_summary">在展開狀態列中顯示當前網路速度</string>
+    <string name="network_speed_exp_statusbar">當前網路速度</string>
+	<!-- Clock -->
+	<string name="clock">時鐘</string>
+	<string name="clock_hide">隱藏時鐘</string>
+    <string name="clock_hide_summary">不在狀態列中顯示時鐘</string>
+    <string name="clock_color_title">時鐘顏色</string>
+    <string name="clock_color_summary">設定狀態列時鐘顏色</string>
+    <string name="clock_position">時鐘位置</string>
+    <string name="clock_position_summary">已選擇時鐘位置: \n%s</string>
+    <string name="am_pm_style">AM PM 風格</string>
+    <string name="am_pm_style_summary">已選擇 AM PM 風格: %s</string>
+    <string name="show_clock_date_summary">在狀態列時鐘旁顯示當前日期</string>
+    <string name="show_clock_date">顯示狀態列當前日期</string>
+    <!-- Battery -->
+    <string name="battery">電池</string>
+    <string name="hide_battery_icon_summary">是否顯示電池圖示</string>
+    <string name="hide_battery_icon">隱藏電池圖示</string>
+    <string name="show_battery_text_summary">顯示電池電量百分比</string>
+    <string name="show_battery_text">電池圖示旁顯示文字</string>
+    <string name="battery_text_color">電池字體顏色</string>
+    <string name="battery_text_color_summary">設定電池字體顏色</string>
+    <!-- Carrier -->
+    <string name="carrier_settings">電信業者標籤/標示</string>
+    <string name="hide_carrier_label">隱藏電信業者標籤</string>
+    <string name="hide_carrier_label_summary">是否顯示電信也者標籤</string>
+    <string name="custom_carrier_label">自訂電信業者標籤</string>
+    <string name="default_carrier_label">留空使用預設電信業者標籤</string>
+    <string name="carrier_label_color">電信業者標籤顏色</string>
+    <string name="carrier_label_color_summary">設定電信業標籤顏色</string>
+    <string name="custom_carrier_logo">電信業者標誌</string>
+    <string name="custom_carrier_logo_summary">使用圖片 LOGO 替代電信業者標誌</string>
+    <string name="select_carrier_logo">選擇標誌</string>
+    <string name="select_carrier_logo_summary">%s</string>
+    <string name="hide_roaming_icon">隱藏漫遊圖示</string>
+    <!-- Notifications -->
+    <string name="notifications">通知</string>
+    <string name="hide_ongoing_ime_switcher_summary">是否在輸入時顯示"切換輸入法"通知</string>
+    <string name="hide_ongoing_ime_switcher">隱藏輸入法切換通知</string>
+    <string name="headset_notification_icon">隱藏圖示</string>
+    <string name="headset_notification_icon_summary">當裝置插入耳機時隱藏耳機圖示</string>
+    <!-- Framework prefs -->
+    <string name="framework">系統框架</string>
+    <string name="framework_summary">系統框架相關設定</string>
+    <!-- Common -->
+    <string name="common">通用選項</string>
+    <string name="international_t9_summary">啟用通訊錄國際化 T9 搜尋</string>
+    <string name="international_t9">新增 T9</string>
+    <string name="local_yellowpage_database_summary">遮蔽來自中國伺服器的黃頁更新並增加標記未知聯絡人的功能</string>
+    <string name="local_yellowpage_database">內建黃頁資料庫</string>
+    <string name="localized_measure_units_summary">\u2022 狀態列: 網速 (K/s, m/s)\n\u2022 任務管理器: 已清理、可用 RAM (MB, GB)\n\u2022 行動網路資料流量: B, KB, MB, GB</string>
+    <string name="localized_measure_units">本地化數量單位</string>
+    <string name="units_gb">Gb</string>
+    <string name="units_b">b</string>
+    <string name="units_kb">Kb</string>
+    <string name="units_kbs">K/s</string>
+    <string name="units_mb">Mb</string>
+    <string name="units_mbs">M/s</string>
+    <string name="units_s">s</string>
+    <!-- Power -->
+    <string name="power">電源鍵選項</string>
+    <string name="advanced_reboot_menu_summary">在“重新啟動”選單新增更多選項</string>
+    <string name="advanced_reboot_menu">進階重啟選單</string>
+    <string name="power_reboot">重新啟動</string> 
+    <string name="power_reboot_options">重啟選單</string> 
+    <string name="power_reboot_normal">重新啟動</string> 
+    <string name="power_reboot_recovery">重啟進入 Recovery</string> 
+    <string name="power_reboot_hot">熱重啟</string> 
+    <string name="power_reboot_bootloader">重啟進入 Bootloader</string> 
+    <string name="power_reboot_switch_system">切換系統 (小米手機裝置)</string> 
+    <string name="power_reboot_system_1">重啟到 系統 1</string> 
+    <string name="power_reboot_system_2">重啟到 系統 2</string> 
+    <string name="power_cancel">取消</string> 
+    <!-- Device -->
+    <string name="device">裝置選項</string>
+    <string name="show_navigation_bar_summary">顯示海苔條 (Nexus 風格)</string>
+    <string name="show_navigation_bar">顯示海苔條</string>
+    <string name="navigation_bar_height_summary">高度: %s</string>
+    <string name="navigation_bar_height">海苔條高度</string>
+    <string name="all_rotations_summary">允許所有旋轉角度, 包括倒立</string>
+    <string name="all_rotations">啟用所有旋轉角度</string>
+    <string name="lockscreen_rotations_summary">允許鎖定螢幕旋轉到橫向螢幕模式</string>
+    <string name="lockscreen_rotations">啟用鎖定螢幕選轉</string>
+    <string name="custom_build_prop">裝置資訊</string>
+    <string name="custom_build_prop_summary">設定自訂 build.prop (裝置資訊)參數</string>
+    <string name="enable_custom_build_prop_summary">以下參數將在重啟後被修改\nbuild.prop 檔案不會被修改</string>
+    <string name="enable_custom_build_prop">使用自訂屬性數值</string>
+    <string name="custom_build_prop_board_value">ro.product.board</string>
+    <string name="custom_build_prop_board">Board</string>
+    <string name="custom_build_prop_brand_value">ro.product.brand</string>
+    <string name="custom_build_prop_brand">Brand</string>
+    <string name="custom_build_prop_device_value">ro.product.device</string>
+    <string name="custom_build_prop_device">Device</string>
+    <string name="custom_build_prop_model_value">ro.product.model</string>
+    <string name="custom_build_prop_model">Model</string>
+    <string name="custom_build_prop_name_value">ro.product.name</string>
+    <string name="custom_build_prop_name">Name</string>
+    <!-- Buttons -->
+    <string name="buttons">按鍵選項</string>
+    <string name="key_menu">選單鍵</string>
+    <string name="key_volume">音量鍵</string>
+    <string name="double_click_menu_app_summary">設定雙擊 MENU 鍵觸發操作</string>
+    <string name="double_click_menu_app">雙擊 MENU 鍵操作</string>
+    <string name="long_press_menu_action_summary">%s</string>
+    <string name="long_press_menu_action">長按 選單鍵 操作</string>
+    <string name="double_tap_menu_action_summary">%s</string>
+    <string name="double_tap_menu_action">雙擊 選單鍵 操作</string>
+    <string name="menu_action_default">預設</string>
+    <string name="menu_action_previous_app">啟動上個應用程式</string>
+    <string name="menu_action_sleep">鎖定螢幕</string>
+    <string name="menu_action_custom_app">啟動自訂應用程式</string>
+    <string name="menu_action_torch">手電筒</string>
+    <string name="vol_key_cursor">音量鍵游標控制</string>
+    <string name="vol_key_cursor_summary">使用音量鍵控制文字移動游標</string>
+    <string name="vol_key_cursor_reverse">返回鍵</string>
+    <string name="vol_key_cursor_reverse_summary">返回鍵游標控制</string>
+    <string name="long_press_track_skip">使用音量鍵跳過曲目</string>
+    <string name="long_press_track_skip_summary">當螢幕關閉時，長按音量鍵跳過曲目</string>
+    <string name="swap_long_press_skip_keys">交換音量鍵</string>
+    <string name="swap_long_press_skip_keys_summary">交換 音量+ 和 音量-</string>
+    <!-- Sound -->
+    <string name="sound">音效設定</string>
+    <string name="disable_volume_control_sound">停用 Beep 音效聲</string>
+    <string name="disable_volume_control_sound_summary">停用調整音效時所發出的 Beep 音效聲</string>
+    <!-- Advanced -->
+    <string name="advanced">進階選項</string>
+    <string name="extra_battery_info_summary">在電池設定中新增電池資訊</string>
+    <string name="extra_battery_info">額外電池資訊</string>
+    <!-- Launcher prefs-->
+    <string name="launcher">桌面 (啟動器)選項</string>
+    <string name="launcher_summary">桌面相關設定</string>
+    <string name="hide_icons_label">隱藏圖示標籤</string>
+    <string name="hide_icons_label_summary">隱藏桌面圖示下文字標籤</string>
+    <string name="hide_folders_label">資料夾標籤</string>
+    <string name="hide_folders_label_summary">隱藏桌面資料夾下文字標籤</string>
+    <!-- Applications prefs-->
+    <string name="applications">系統應用程式</string>
+    <string name="applications_summary">MIUI 系統應用程式設定</string>
+    <!-- MMS -->
+    <string name="app_mms">訊息</string>
+    <string name="disable_sms_to_mms_conversion">允許長訊息</string>
+    <string name="disable_sms_to_mms_conversion_summary">停用自動轉換訊息為多媒體訊息</string>
+    <string name="mms_unicode_stripping">規格化 unicode</string>
+    <string name="mms_unicode_stripping_summary">將 unicode 字符轉換為普通字符\n模式: %s\n在部分裝置上（尚）不能正常運行！</string>
+    <string name="mms_unicode_stripping_leave_intact">保持原樣</string>
+    <string name="mms_unicode_stripping_non_encodable">去除無法編譯字符</string>
+    <string name="mms_unicode_stripping_all">去除所有 unicode 字符</string>
+    <string name="festival_update_server">節日更新伺服器</string> 
+    <string name="festival_update_server_summary">%s</string>
+    <!-- Calendar -->
+    <string name="app_calendar">日曆</string>
+    <string name="holidays_update_server">假期更新伺服器</string> 
+    <string name="holidays_update_server_summary">%s</string>
+    <string name="holidays_selector_country">假期國家</string>
+    <string name="holidays_selector_country_summary">%s</string>
+    <string name="holidays_selector_country_original">預設 (中國假期)</string> 
+    <string name="holidays_selector_country_russia">Russia</string> 
+    <string name="holidays_selector_country_ukraine">Ukraine</string> 
+    <string name="holidays_selector_country_slovakia">Slovakia</string>
+    <string name="holidays_selector_country_czech">Czech Republic</string> 
+    <!-- QuickSearchBox -->
+    <string name="app_quicksearchbox">快速搜尋欄</string>
+    <string name="quicksearchbox_marketplace">搜尋市場</string>
+    <string name="quicksearchbox_marketplace_summary">搜尋以下市場:\n%s</string>
+    <!-- Browser -->
+    <string name="app_browser">瀏覽器</string>
+    <string name="browser_autofit_pages">自適應頁面</string>
+    <string name="browser_autofit_pages_summary">向瀏覽器設定新增 \"Mobile View\" 選項</string>
+    <!-- Music -->
+    <string name="app_music">音樂</string>
+    <string name="launch_playback_screen">啟動到播放界面</string>
+    <string name="launch_playback_screen_summary">輕觸音樂彈出掛件時啟動到播放頁面。預設情況下會開啟音樂播放器主畫面</string>
+</resources>

@@ -35,11 +35,13 @@
     <string-array name="clock_position_entries">
         <item>@string/clock_right</item>
         <item>@string/clock_center</item>
+        <item>@string/clock_center_ios7</item>
         <item>@string/clock_left</item>
     </string-array>
     <string-array name="clock_position_values">
         <item>clock_right</item>
         <item>clock_center</item>
+        <item>clock_center_ios7</item>
         <item>clock_left</item>
     </string-array>
     <string-array name="text_size_entries">
@@ -124,15 +126,21 @@
         <item>Beeline</item>
         <item>Beeline</item>
         <item>Clever</item>
-        <item>Kievstar</item>
+        <item>Kyivstar</item>
         <item>MegaFon</item>
         <item>MegaFon</item>
         <item>MIUI</item>
         <item>MIUI</item>
         <item>Mi-Tools</item>
+        <item>Motiv</item>
+        <item>Motiv</item>
         <item>MTS</item>
         <item>MTS</item>
         <item>MTS</item>
+        <item>MTS</item>
+        <item>Rostelecom</item>
+        <item>Rostelecom</item>
+        <item>Skylink</item>
         <item>Snapdragon</item>
         <item>Snapdragon</item>
         <item>Tele2</item>
@@ -150,10 +158,16 @@
         <item>carrier_color_megafon</item>
         <item>carrier_white_mi</item>
         <item>carrier_color_mi</item> 
-        <item>carrier_white_mitools</item>       
+        <item>carrier_white_mitools</item>  
+        <item>carrier_white_motiv</item>
+        <item>carrier_color_motiv</item>     
         <item>carrier_white_mts</item>
         <item>carrier_white_mts2</item>
+        <item>carrier_white_mts3</item>
         <item>carrier_color_mts</item>
+        <item>carrier_white_rostelecom</item>
+        <item>carrier_color_rostelecom</item>
+        <item>carrier_white_skylink</item>
         <item>carrier_white_snapdragon</item>
         <item>carrier_color_snapdragon</item>        
         <item>carrier_white_tele2</item>
@@ -172,9 +186,15 @@
         <item>@drawable/carrier_white_mi</item>
         <item>@drawable/carrier_color_mi</item>
         <item>@drawable/carrier_white_mitools</item>
+        <item>@drawable/carrier_white_motiv</item>
+        <item>@drawable/carrier_color_motiv</item> 
         <item>@drawable/carrier_white_mts</item>
         <item>@drawable/carrier_white_mts2</item>
+        <item>@drawable/carrier_white_mts3</item>
         <item>@drawable/carrier_color_mts</item>
+        <item>@drawable/carrier_white_rostelecom</item>
+        <item>@drawable/carrier_color_rostelecom</item>
+        <item>@drawable/carrier_white_skylink</item>
         <item>@drawable/carrier_white_snapdragon</item>
         <item>@drawable/carrier_color_snapdragon</item>        
         <item>@drawable/carrier_white_tele2</item>
@@ -182,5 +202,52 @@
         <item>@drawable/carrier_white_velcom</item>
         <item>@drawable/carrier_color_velcom</item>
         <item>@drawable/carrier_white_wsm</item>
-    </string-array>     
+    </string-array> 
+    <string-array name="advanced_reboot_menu_items_defvalues">
+        <item>reboot_normal</item>
+        <item>reboot_hot</item>
+        <item>reboot_recovery</item>
+    </string-array>
+    <string-array name="advanced_reboot_menu_items_values">
+        <item>reboot_normal</item>
+        <item>reboot_hot</item>
+        <item>reboot_recovery</item>
+        <item>reboot_bootloader</item>
+        <item>reboot_switch_system</item>
+    </string-array>
+    <string-array name="advanced_reboot_menu_items_entries">
+        <item>@string/power_reboot_normal</item>
+        <item>@string/power_reboot_hot</item>
+        <item>@string/power_reboot_recovery</item>
+        <item>@string/power_reboot_bootloader</item>
+        <item>@string/power_reboot_switch_system</item>
+    </string-array>
+    <string-array name="double_tap_menu_action_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="double_tap_menu_action_entries">
+        <item>@string/menu_action_default</item>
+        <item>@string/menu_action_previous_app</item>
+        <item>@string/menu_action_sleep</item>
+        <item>@string/menu_action_custom_app</item>
+        <item>@string/menu_action_torch</item>
+    </string-array>
+        <string-array name="long_press_menu_action_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="long_press_menu_action_entries">
+        <item>@string/menu_action_default</item>
+        <item>@string/menu_action_previous_app</item>
+        <item>@string/menu_action_sleep</item>
+        <item>@string/menu_action_custom_app</item>
+        <item>@string/menu_action_torch</item>
+    </string-array>
 </resources>

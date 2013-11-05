@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Auto Rotación</string>
+    <string name="module_desc">Orientación horizontal en la aplicación seleccionada</string>
+    <string name="module_desc_full">Añade la habilidad de ver aplicacines en modo horizontal.Para que funcione ir a los ajustes de la pantalla del dispositivo y active la opción de Auto-rotación. Puede que en algunos dispositivos no se muestre correctamente.</string>
+    <string name="rotation_enabled_list">Seleccionar aplicaciones</string>
+    <string name="rotation_enabled_list_summary">Toque para seleccionar las aplicaciones habilitadas para rotación</string>
+    <string name="rotation_enabled_packages">Rotation enabled packages</string>
+    <string name="apply">Aplicar</string>
+</resources>
