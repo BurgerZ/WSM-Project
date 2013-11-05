@@ -52,7 +52,7 @@
     <string name="text_large">Grande</string>
     <!-- MIUI warning -->
     <string name="miwarning_title">OS no soportado</string>
-    <string name="miwarning_message">This OS is not officially supported. Some options may not work.\nDo you agree to continue?</string>
+    <string name="miwarning_message">Este sistema operativo no esta oficialmente soportado. Algunas opciones quizás no funcionen.\nDesea continuar?</string>
     <string name="miwarning_continue">Continuar</string>
     <string name="miwarning_close">Cerrar</string>
     <!-- Module Notification -->
@@ -62,61 +62,61 @@
     <string name="notif_reboot_required_title">Petición de Reinicio</string>
     <string name="notif_reboot_required_message">Reinicio requerido para aplicar cámbios</string>
     <!-- Backup & Restore -->
-    <string name="backup_name">Backup Name</string>
-    <string name="backup_save">Save</string>
-    <string name="backup_save_successful">Save successful!</string>
-    <string name="backup_save_error">Save error!</string>
-    <string name="backup_no_backups">No backups</string>
-    <string name="backup_restore">Restore</string>
-    <string name="backup_delete">Delete</string>
-    <string name="backup_defaults">Defaults</string>
-    <string name="backup_defaults_restored">Defaults restored</string>
-    <string name="backup_restoring">Restoring Backup</string>
-    <string name="backup_restored">Backup restored</string>
+    <string name="backup_name">Nombre del Backup</string>
+    <string name="backup_save">Guardar</string>
+    <string name="backup_save_successful">Guardado correctamente!</string>
+    <string name="backup_save_error">Error al guardar!</string>
+    <string name="backup_no_backups">No hay copias</string>
+    <string name="backup_restore">Restaurar</string>
+    <string name="backup_delete">Eliminar</string>
+    <string name="backup_defaults">Predeterminados</string>
+    <string name="backup_defaults_restored">Restaurados predeterminados</string>
+    <string name="backup_restoring">Restaurando Backup</string>
+    <string name="backup_restored">Backup restaurado</string>
         <!-- ColorPicker -->
-        <string name="press_color_to_apply">Press on Color to apply</string>
-        <string name="dialog_color_picker">Color Picker</string>
+        <string name="press_color_to_apply">Presione un color para aplicar</string>
+        <string name="dialog_color_picker">Selector de colores</string>
         <!-- Status Bar prefs -->
         <!-- Statusbar -->
-        <string name="statusbar">Status Bar</string>
-        <string name="statusbar_title">Status Bar</string>
-        <string name="statusbar_summary">Status Bar modifications</string>
-        <string name="statusbar_set_background_color">Use background color</string>
-        <string name="statusbar_set_background_color_summary">Allows to choose color of the statusbar</string>
-        <string name="statusbar_background_color">Background color</string>
-        <string name="statusbar_background_color_summary">Color of the statusbar</string>
+        <string name="statusbar">Barra de estado</string>
+        <string name="statusbar_title">Barra de estado</string>
+        <string name="statusbar_summary">Modificaciones de la barra de estado.</string>
+        <string name="statusbar_set_background_color">Usar color de fondo</string>
+        <string name="statusbar_set_background_color_summary">Permite elegir un color para la Barra de estado</string>
+        <string name="statusbar_background_color">Color de fondo</string>
+        <string name="statusbar_background_color_summary">Color de la barra de estado</string>
         <string name="statusbar_text_family">Typeface family</string>
     <string name="statusbar_text_family_summary">Set the type family of the statusbar font:\n%s</string>
     <string name="statusbar_text_style">Typeface style</string>
     <string name="statusbar_text_style_summary">Set the style of the statusbar font:\n%s</string>
-    <string name="font_size_summary">Set the statusbar text elements size</string>
-    <string name="font_size">Font size</string>
-    <string name="network_speed_exp_statusbar_summary">Show network speed at expanded status bar view</string>
-    <string name="network_speed_exp_statusbar">Network speed</string>
+    <string name="font_size_summary">Ajusta el tamaño de los elementos de texto en la barra de estado</string>
+    <string name="font_size">Tamaño de Fuente</string>
+    <string name="network_speed_exp_statusbar_summary">Muestra la Velodicad de Red en la barra de estado expandida</string>
+    <string name="network_speed_exp_statusbar">Velocidad de Red</string>
         <!-- Clock -->
-        <string name="clock">Clock</string>
-        <string name="clock_hide">Hide clock</string>
-    <string name="clock_hide_summary">Do not show clock in statusbar</string>
-    <string name="clock_color_title">Clock color</string>
-    <string name="clock_color_summary">Set status bar clock color</string>
-    <string name="clock_position">Clock position</string>
-    <string name="clock_position_summary">Choose clock position:\n%s</string>
-    <string name="am_pm_style">AM PM Style</string>
-    <string name="am_pm_style_summary">Choose clock am pm style:\n%s</string>
-    <string name="show_clock_date_summary">Show the date with the status bar clock</string>
-    <string name="show_clock_date">Show status bar date</string>
+        <string name="clock">Reloj</string>
+        <string name="clock_hide">Ocultar Reloj</string>
+    <string name="clock_hide_summary">No muestra el reloj en la barra de estado</string>
+    <string name="clock_color_title">Color del Reloj</string>
+    <string name="clock_color_summary">Ajusta un color al reloj de la barra de estado</string>
+    <string name="clock_position">Posición del Reloj</string>
+    <string name="clock_position_summary">Elige una posición para el Reloj:\n%s</string>
+    <string name="am_pm_style">Estilo AM PM</string>
+    <string name="am_pm_style_summary">Elige el Estilo de Reloj am pm:\n%s</string>
+    <string name="show_clock_date_summary">Muestra la fecha con el reloj de la barra de estado</string>
+    <string name="show_clock_date">Mostrar fecha en la barra de estado</string>
     <!-- Battery -->
-    <string name="battery">Battery</string>
-    <string name="hide_battery_icon_summary">Battery icon visibility settings</string>
-    <string name="hide_battery_icon">Hide battery icon</string>
-    <string name="show_battery_text_summary">Show battery percentage text</string>
-    <string name="show_battery_text">Show battery text</string>
-    <string name="battery_text_color">Battery text color</string>
-    <string name="battery_text_color_summary">Set battery text color</string>
+    <string name="battery">Batería</string>
+    <string name="hide_battery_icon_summary">Ajustes de visibilidad del icono de la batería</string>
+    <string name="hide_battery_icon">Ocultar icono de batería</string>
+    <string name="show_battery_text_summary">Mostrar porcentaje de batería en formato texto</string>
+    <string name="show_battery_text">Mostrar batería en formato texto</string>
+    <string name="battery_text_color">Color del texto de la batería</string>
+    <string name="battery_text_color_summary">Ajusta el color del texto de la batería</string>
     <!-- Carrier -->
-    <string name="carrier_settings">Carrier</string>
-    <string name="hide_carrier_label">Hide carrier label</string>
-    <string name="hide_carrier_label_summary">Carrier label visibility settings</string>
+    <string name="carrier_settings">Nombre de Operadora</string>
+    <string name="hide_carrier_label">Ocultar Nombre de Operadora</string>
+    <string name="hide_carrier_label_summary">Ajustes de visibilidad del Nombre de la Operadora</string>
     <string name="custom_carrier_label">Custom carrier label</string>
     <string name="default_carrier_label">Leave empty for default carrier label</string>
     <string name="carrier_label_color">Carrier label color</string>
@@ -127,7 +127,7 @@
     <string name="select_carrier_logo_summary">%s</string>
     <string name="hide_roaming_icon">Hide roaming icon</string>
     <!-- Notifications -->
-    <string name="notifications">Notifications</string>
+    <string name="notifications">Notificaciones</string>
     <string name="hide_ongoing_ime_switcher_summary">While typing, show the ongoing notification from which you can choose the input method (keyboard)</string>
     <string name="hide_ongoing_ime_switcher">Hide input method switcher</string>
     <!-- Framework prefs -->
@@ -242,26 +242,26 @@
     <string name="festival_update_server">Festival update server</string>
     <string name="festival_update_server_summary">%s</string>
     <!-- Calendar -->
-    <string name="app_calendar">Calendar</string>
+    <string name="app_calendar">Calendario</string>
     <string name="holidays_update_server">Holidays update server</string>
     <string name="holidays_update_server_summary">%s</string>
     <string name="holidays_selector_country">Holidays country</string>
     <string name="holidays_selector_country_summary">%s</string>
-    <string name="holidays_selector_country_original">Original (chinese)</string>
-    <string name="holidays_selector_country_russia">Russia</string>
-    <string name="holidays_selector_country_ukraine">Ukraine</string>
+    <string name="holidays_selector_country_original">Original (Chino)</string>
+    <string name="holidays_selector_country_russia">Rusia</string>
+    <string name="holidays_selector_country_ukraine">Ucrania</string>
     <string name="holidays_selector_country_slovakia">Slovakia</string>
-    <string name="holidays_selector_country_czech">Czech Republic</string>
+    <string name="holidays_selector_country_czech">República Checa</string>
     <!-- QuickSearchBox -->
     <string name="app_quicksearchbox">QuickSearchBox</string>
     <string name="quicksearchbox_marketplace">Search MarketPlace</string>
     <string name="quicksearchbox_marketplace_summary">Marketplace to search:\n%s</string>
     <!-- Browser -->
     <string name="app_browser">Browser</string>
-    <string name="browser_autofit_pages">Pages autofit</string>
-    <string name="browser_autofit_pages_summary">Adds \"Mobile View\" to the General browser settings</string>
+    <string name="browser_autofit_pages">Autoajuste de Páginas</string>
+    <string name="browser_autofit_pages_summary">Añade \"Vista Móvil\" a la Pestaña General de los Ajustes del Navegador.</string>
     <!-- Music -->
-    <string name="app_music">Music</string>
+    <string name="app_music">Música</string>
     <string name="launch_playback_screen">Launch playback screen</string>
     <string name="launch_playback_screen_summary">Launch playback screen in Music player on pop-up widget click. By default, the main screen opens</string>
 </resources>
