@@ -2,9 +2,9 @@
 <resources>
 
     <string name="module_name">Mi-Tools</string>
-    <string name="module_desc">MIUI 多合一模块</string>
-    <string name="module_desc_full">MIUI 多合一模块\n
-        警告：\n
+    <string name="module_desc">MIUI 集成模块</string>
+    <string name="module_desc_full">MIUI 集成模块\n
+        警告:\n
         如果你安装了以下模块，你必须禁用它们:\n
         \u2022 Browser Autofit\n
         \u2022 Carrier Label\n
@@ -20,15 +20,13 @@
         \u2022 Volume Control Mute\n
         \u2022 Volume Skip Track\n
         \u2022 YellowPage</string>
-	<string name="mitools_copyright">禁止对任何模块的修改\n
+	<string name="mitools_copyright">Any module modifications prohibited.\n
         BurgerZ MD, Copyright © 2013, All rights reserved</string>         
     <!-- About -->
     <string name="about_module">关于模块</string>
-    <!--  -->
-    <string name="menu_save">保存</string>
-    <string name="menu_restore">恢复</string>
-    <string name="menu_delete">删除</string>
-    <string name="rebooting">正在重启 &#133;</string>
+    <!-- AppPickerPreference -->
+    <string name="preference_app_picker_search">搜索应用</string>
+    <string name="preference_app_picker_none">(未选择应用)</string>
     <!-- from arrays -->
     <string name="am_pm_hide">隐藏</string>
     <string name="am_pm_small">小号</string>
@@ -38,10 +36,11 @@
     <string name="typeface_style_bold">粗体</string>
     <string name="typeface_family_regular">通常 (Regular)</string>
     <string name="typeface_family_light">较轻 (Light)</string>
-    <string name="typeface_family_condensed">紧缩 (Condensed)</string>
+    <string name="typeface_family_condensed">紧凑 (Condensed)</string>
     <string name="typeface_family_thin">较细 (Thin)</string>
     <string name="clock_right">居右 (默认)</string>
-    <string name="clock_center">居中 (iOS 7 风格)</string>
+    <string name="clock_center">居中</string>
+    <string name="clock_center_ios7">居中 (iOS 7 风格)</string>
     <string name="clock_left">居左</string>
     <string name="text_small">小号</string>
     <string name="text_medium">中号</string>
@@ -55,20 +54,20 @@
     <string name="notif_soft_reboot">软重启</string>
     <string name="notif_reboot">重启</string>
     <string name="notif_reboot_required">请重启使更改生效</string>
-    <string name="notif_reboot_required_title">要求重启</string>
+    <string name="notif_reboot_required_title">需要重启</string>
     <string name="notif_reboot_required_message">需要重启以应用更改</string>
     <!-- Backup & Restore -->
     <string name="backup_name">备份名称</string>
-    <string name="backup_save">保存</string>
-    <string name="backup_save_successful">成功保存！</string>
+    <string name="backup_save">保存设置</string>
+    <string name="backup_save_successful">保存成功！</string>
     <string name="backup_save_error">保存出错！</string>
-    <string name="backup_no_backups">没有备份</string>
-    <string name="backup_restore">还原</string>
+    <string name="backup_no_backups">找不到备份</string>
+    <string name="backup_restore">还原设置</string>
     <string name="backup_delete">删除</string>
-    <string name="backup_defaults">默认</string>
-    <string name="backup_defaults_restored">已还原默认设置</string>
+    <string name="backup_defaults">恢复默认</string>
+    <string name="backup_defaults_restored">已恢复默认设置</string>
     <string name="backup_restoring">正在还原备份</string>
-    <string name="backup_restored">已还原备份</string>
+    <string name="backup_restored">已还原备份设置</string>
 	<!-- ColorPicker -->
 	<string name="press_color_to_apply">轻点颜色以应用</string>
 	<string name="dialog_color_picker">取色器</string> 
@@ -90,8 +89,8 @@
     <string name="network_speed_exp_statusbar_summary">在展开状态栏中显示当前网速</string>
     <string name="network_speed_exp_statusbar">当前网速</string>
 	<!-- Clock -->
-	<string name="clock">时钟</string>
-	<string name="clock_hide">隐藏时钟</string>
+    <string name="clock">时钟</string>
+    <string name="clock_hide">隐藏时钟</string>
     <string name="clock_hide_summary">不在状态栏中显示时钟</string>
     <string name="clock_color_title">时钟颜色</string>
     <string name="clock_color_summary">设定状态栏时钟颜色</string>
@@ -117,14 +116,17 @@
     <string name="default_carrier_label">留空使用默认运营商标签</string>
     <string name="carrier_label_color">运营商标签颜色</string>
     <string name="carrier_label_color_summary">设定运营商标签颜色</string>
-    <string name="custom_carrier_logo">运营商标志</string>
-    <string name="custom_carrier_logo_summary">使用图片LOGO替代运营商标签</string>
+    <string name="custom_carrier_logo">运营商标识</string>
+    <string name="custom_carrier_logo_summary">使用图片标识替代运营商标签</string>
     <string name="select_carrier_logo">选择标识</string>
     <string name="select_carrier_logo_summary">%s</string>
+    <string name="hide_roaming_icon">隐藏漫游图标</string>
     <!-- Notifications -->
     <string name="notifications">通知</string>
     <string name="hide_ongoing_ime_switcher_summary">是否在输入时显示切换输入法通知</string>
     <string name="hide_ongoing_ime_switcher">隐藏输入法切换器</string>
+    <string name="headset_notification_icon">隐藏耳机通知图标</string>
+    <string name="headset_notification_icon_summary">当插入耳机时是否显示耳机图标</string>
     <!-- Framework prefs -->
     <string name="framework">系统框架</string>
     <string name="framework_summary">系统框架相关设定</string>
@@ -149,12 +151,13 @@
     <string name="advanced_reboot_menu">高级重启菜单</string>
     <string name="power_reboot">重启</string> 
     <string name="power_reboot_options">重启菜单</string> 
-    <string name="power_reboot_normal">重新启动</string> 
-    <string name="power_reboot_recovery">重启到 Recovery</string> 
-    <string name="power_reboot_hot">热重启</string> 
-    <string name="power_reboot_bootloader">重启到 Bootloader</string> 
-    <string name="power_reboot_system_1">重启到 系统 1</string> 
-    <string name="power_reboot_system_2">重启到 系统 2</string> 
+    <string name="power_reboot_normal">普通重启</string> 
+    <string name="power_reboot_recovery">重启进入恢复模式 (Recovery)</string> 
+    <string name="power_reboot_hot">快速重启 (Hot Reboot)</string> 
+    <string name="power_reboot_bootloader">重启进入刷机模式 (Fastboot)</string> 
+    <string name="power_reboot_switch_system">切换系统 (小米手机专用)</string> 
+    <string name="power_reboot_system_1">重启进入系统一</string> 
+    <string name="power_reboot_system_2">重启进入系统二</string> 
     <string name="power_cancel">取消</string> 
     <!-- Device -->
     <string name="device">设备</string>
@@ -181,28 +184,40 @@
     <string name="custom_build_prop_name_value">ro.product.name</string>
     <string name="custom_build_prop_name">Name</string>
     <!-- Buttons -->
-    <string name="buttons">按钮</string>
-    <string name="double_click_menu_app_summary">设定双击 MENU 键触发的动作</string>
-    <string name="double_click_menu_app">双击 MENU 键行为</string>
+    <string name="buttons">物理按键</string>
+    <string name="key_menu">菜单键 (MENU)</string>
+    <string name="key_volume">音量键</string>
+    <string name="double_click_menu_app_summary">选择双击菜单键时启动的应用</string>
+    <string name="double_click_menu_app">双击菜单键</string>
+    <string name="long_press_menu_action_summary">%s</string>
+    <string name="long_press_menu_action">长按菜单键</string>
+    <string name="double_tap_menu_action_summary">%s</string>
+    <string name="double_tap_menu_action">双击菜单键行为</string>
+    <string name="menu_action_default">默认</string>
+    <string name="menu_action_previous_app">启动上一个应用</string>
+    <string name="menu_action_sleep">锁定屏幕</string>
+    <string name="menu_action_custom_app">启动指定应用</string>
+    <string name="menu_action_torch">开启手电筒</string>
+    <string name="vol_key_cursor">音量键控制光标</string>
+    <string name="vol_key_cursor_summary">输入时使用音量键控制光标</string>
+    <string name="vol_key_cursor_reverse">交换按键</string>
+    <string name="vol_key_cursor_reverse_summary">交换控制光标时的音量键</string>
+    <string name="long_press_track_skip">音量键跳轨</string>
+    <string name="long_press_track_skip_summary">当屏幕关闭时，长按音量键跳轨</string>
+    <string name="swap_long_press_skip_keys">交换按键</string>
+    <string name="swap_long_press_skip_keys_summary">交换跳轨时的音量键</string>
+    <!-- Sound -->
+    <string name="sound">声音</string>
+    <string name="disable_volume_control_sound">禁用哔音</string>
+    <string name="disable_volume_control_sound_summary">禁用调节音量时发出的哔哔声</string>
     <!-- Advanced -->
     <string name="advanced">高级</string>
     <string name="extra_battery_info_summary">在电量设置中添加电池信息</string>
     <string name="extra_battery_info">附加电池信息</string>
-    <!-- Sound prefs -->
-    <string name="sound">声音</string>
-    <string name="sound_summary">声音相关设定</string>
-    <string name="disable_volume_control_sound">禁用哔音</string>
-    <string name="disable_volume_control_sound_summary">禁用调节音量时发出的哔哔声</string>
-    <string name="long_press_track_skip">使用音量键跳轨</string>
-    <string name="long_press_track_skip_summary">当屏幕关闭时，长按音量键跳轨</string>
-    <string name="swap_long_press_skip_keys">交换音量键</string>
-    <string name="swap_long_press_skip_keys_summary">交换 音量+ 和 音量-</string>
-    <string name="headset_notification_icon">隐藏耳机通知图标</string>
-    <string name="headset_notification_icon_summary">当插入耳机时是否显示耳机图标</string>
     <!-- Launcher prefs-->
     <string name="launcher">桌面 (启动器)</string>
     <string name="launcher_summary">桌面相关设定</string>
-    <string name="hide_icons_label">隐藏图标标签</string>
+     <string name="hide_icons_label">隐藏图标标签</string>
     <string name="hide_icons_label_summary">隐藏桌面图标下文字标签</string>
     <string name="hide_folders_label">文件夹标签</string>
     <string name="hide_folders_label_summary">隐藏桌面文件夹下文字标签</string>
