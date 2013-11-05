@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Búsqueda en Google Play</string>
+    <string name="module_desc">Añade la opción de elegir que tiendas usar para buscar con el cuadro de búsqueda.</string>
+    <string name="module_desc_full">Puedes elegir en los ajustes del módulo que tienda deberá ser usada para buscar en búsqueda rápida (Google PlayStore ó Xiaomi Market).\nVe a los ajustes del módulo para seleccionar una tienda.\nNo es necesario reiniciar despues de los cámbios.</string>
+    <string name="use_google_market">Usar Google Play</string>
+    <string name="xiaomi">Xiaomi Market</string>
+    <string name="google">Google Play</string>
+</resources>
