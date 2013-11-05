@@ -13,6 +13,8 @@
     <string name="graphics">Графика</string>
     <string name="check_for_updates">Проверять обновления</string>
     <string name="copyright_xposed">Основан на Xposed</string>
+    <string name="information_faq">Информация</string>
+    <string name="information_faq_summary">F.A.Q., перевод, благодарности, помощь</string>
     <string name="pref_feedback_title">Обратная связь</string>
     <string name="pref_feedback_summary">Отчет об ошибках, запрос модуля и т.д.</string>
     <string name="pref_manage_title">Управление WSM</string>
