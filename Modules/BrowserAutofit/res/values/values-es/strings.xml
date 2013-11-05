@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Autoajuste de Navegador</string>
+    <string name="module_desc">Autoajusta las páginas del navegador</string>
+    <string name="module_desc_full">Añade "Vista Móvil" a la pestaña General de ajustes del navegador. Esta característica te permite ajustar el texto en págians web para ajustar el ancho a la pantalla dependiendo del tamaño de fuente de la página.</string>
+</resources>
