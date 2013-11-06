@@ -13,8 +13,8 @@
     <string name="check_for_updates">自动检查更新</string>
     <string name="copyright">BurgerZ MD (http://burgerz.pro)\nCopyright © 2013, All Rights Reserved</string>
     <string name="copyright_xposed">基于 Xposed 框架</string>
-+   <string name="information_faq">信息</string>
- +  <string name="information_faq_summary">常见问题, 翻译人员, 开发团队, 帮助</string>
+    <string name="information_faq">信息</string>
+    <string name="information_faq_summary">常见问题, 翻译人员, 开发团队, 帮助</string>
     <string name="pref_feedback_title">反馈</string>
     <string name="pref_feedback_summary">发送错误报告、模块功能请求等信息</string>
     <string name="pref_manage_title">管理 WSM</string>
