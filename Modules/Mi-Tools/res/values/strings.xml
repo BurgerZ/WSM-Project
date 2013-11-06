@@ -258,4 +258,8 @@
     <string name="app_music">Music</string>
     <string name="launch_playback_screen">Launch playback screen</string>
     <string name="launch_playback_screen_summary">Launch playback screen in Music player on pop-up widget click. By default, the main screen opens</string>
+    <!-- Themes -->
+    <string name="app_themes">Themes</string>
+    <string name="themes_reverse_tabs_order">Reverse tabs order</string>
+    <string name="themes_reverse_tabs_order_summary">Change tabs order to Local, Categories, Popular, Featured</string>
 </resources>
