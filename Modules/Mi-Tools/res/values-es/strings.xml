@@ -85,13 +85,13 @@
         <string name="statusbar_set_background_color_summary">Permite elegir un color para la Barra de estado</string>
         <string name="statusbar_background_color">Color de fondo</string>
         <string name="statusbar_background_color_summary">Color de la barra de estado</string>
-        <string name="statusbar_text_family">Typeface family</string>
-    <string name="statusbar_text_family_summary">Set the type family of the statusbar font:\n%s</string>
+        <string name="statusbar_text_family">Familia tipográfica</string>
+    <string name="statusbar_text_family_summary">Ajusta la famlia tipográfica a la fuente:\n%s</string>
     <string name="statusbar_text_style">Typeface style</string>
     <string name="statusbar_text_style_summary">Set the style of the statusbar font:\n%s</string>
     <string name="font_size_summary">Ajusta el tamaño de los elementos de texto en la barra de estado</string>
     <string name="font_size">Tamaño de Fuente</string>
-    <string name="network_speed_exp_statusbar_summary">Muestra la Velodicad de Red en la barra de estado expandida</string>
+    <string name="network_speed_exp_statusbar_summary">Muestra la velodicad de red en la barra de estado expandida</string>
     <string name="network_speed_exp_statusbar">Velocidad de Red</string>
         <!-- Clock -->
         <string name="clock">Reloj</string>
@@ -117,15 +117,15 @@
     <string name="carrier_settings">Nombre de Operadora</string>
     <string name="hide_carrier_label">Ocultar Nombre de Operadora</string>
     <string name="hide_carrier_label_summary">Ajustes de visibilidad del Nombre de la Operadora</string>
-    <string name="custom_carrier_label">Custom carrier label</string>
-    <string name="default_carrier_label">Leave empty for default carrier label</string>
-    <string name="carrier_label_color">Carrier label color</string>
-    <string name="carrier_label_color_summary">Set carrier label color</string>
-    <string name="custom_carrier_logo">Carrier logo</string>
-    <string name="custom_carrier_logo_summary">Use image logo for carrier</string>
-    <string name="select_carrier_logo">Select logo</string>
+    <string name="custom_carrier_label">Nombre de Operadora personalizado</string>
+    <string name="default_carrier_label">Dejar vacio para volver al nombre predeterminado</string>
+    <string name="carrier_label_color">Color del Nombre de Operadora</string>
+    <string name="carrier_label_color_summary">Ajusta el color del nombre de la operadora en la barra de estado</string>
+    <string name="custom_carrier_logo">Logo de Operadora</string>
+    <string name="custom_carrier_logo_summary">Usa una imágen como logo de operadora</string>
+    <string name="select_carrier_logo">Seleccionar Logo</string>
     <string name="select_carrier_logo_summary">%s</string>
-    <string name="hide_roaming_icon">Hide roaming icon</string>
+    <string name="hide_roaming_icon">Ocultar Icono de Itinerancia</string>
     <!-- Notifications -->
     <string name="notifications">Notificaciones</string>
     <string name="hide_ongoing_ime_switcher_summary">While typing, show the ongoing notification from which you can choose the input method (keyboard)</string>
@@ -134,7 +134,7 @@
     <string name="framework">Framework</string>
     <string name="framework_summary">Framework related settings</string>
     <!-- Common -->
-    <string name="common">Common</string>
+    <string name="common">Común</string>
     <string name="international_t9_summary">Enable international T9 search in Contacts</string>
     <string name="international_t9">Add T9</string>
     <string name="local_yellowpage_database_summary">Blocks updates of the Yellow Pages database from Chinese server and adds the ability to "Mark" unknown contacts.</string>
@@ -163,8 +163,8 @@
     <string name="power_reboot_system_2">Reboot to System 2</string>
     <string name="power_cancel">Cancel</string>
     <!-- Device -->
-    <string name="device">Device</string>
-    <string name="show_navigation_bar_summary">Show navigation bar (Nexus like)</string>
+    <string name="device">Dispositivo</string>
+    <string name="show_navigation_bar_summary">Muestra una barra de navegacion (estilo Nexus)</string>
     <string name="show_navigation_bar">Show navigation bar</string>
     <string name="navigation_bar_height_summary">Height: %s</string>
     <string name="navigation_bar_height">Navigation bar height</string>
@@ -187,9 +187,9 @@
     <string name="custom_build_prop_name_value">Set a custom name value</string>
     <string name="custom_build_prop_name">Name</string>
     <!-- Buttons -->
-    <string name="buttons">Buttons</string>
-    <string name="key_menu">Menu</string>
-    <string name="key_volume">Volume</string>
+    <string name="buttons">Botones</string>
+    <string name="key_menu">Menú</string>
+    <string name="key_volume">Volumen</string>
     <string name="double_click_menu_app_summary">Select application to launch by MENU button double click</string>
     <string name="double_click_menu_app">Double MENU button click</string>
     <string name="long_press_menu_action_summary">%s</string>
@@ -198,19 +198,19 @@
     <string name="double_tap_menu_action">Double tap MENU button action</string>
     <string name="menu_action_default">Default</string>
     <string name="menu_action_previous_app">Launch previous app</string>
-    <string name="menu_action_sleep">Lock screen</string>
-    <string name="menu_action_custom_app">Launch custom app</string>
-    <string name="menu_action_torch">Torch</string>
+    <string name="menu_action_sleep">Pantalla de bloqueo</string>
+    <string name="menu_action_custom_app">Lanzar aplicación personalizada</string>
+    <string name="menu_action_torch">Linterna</string>
     <string name="vol_key_cursor">Volume keys cursor</string>
     <string name="vol_key_cursor_summary">Use volume keys as cursor control keys in text fields</string>
     <string name="vol_key_cursor_reverse">Reverse keys</string>
     <string name="vol_key_cursor_reverse_summary">Reverse volume keys</string>
     <!-- Advanced -->
-    <string name="advanced">Advanced</string>
+    <string name="advanced">Avanzado</string>
     <string name="extra_battery_info_summary">Add extra battery info to battery settings view</string>
-    <string name="extra_battery_info">Extra battery info</string>
+    <string name="extra_battery_info">Información de Batería Extra</string>
     <!-- Sound prefs -->
-    <string name="sound">Sound</string>
+    <string name="sound">Sonido</string>
     <string name="sound_summary">Sound related settings</string>
     <string name="disable_volume_control_sound">Disable BEEP sound</string>
     <string name="disable_volume_control_sound_summary">Disables ugly BEEP sound while adjusting volume by vol. keys</string>
@@ -228,11 +228,11 @@
     <string name="hide_folders_label">Hide folders label</string>
     <string name="hide_folders_label_summary">Allows you to to hide launcher folders labels</string>
     <!-- Applications prefs-->
-    <string name="applications">Applications</string>
-    <string name="applications_summary">MIUI applications settings</string>
+    <string name="applications">Aplicaciones</string>
+    <string name="applications_summary">Ajustes de aplicaciones MIUI</string>
     <!-- MMS -->
-    <string name="app_mms">Messaging</string>
-    <string name="disable_sms_to_mms_conversion">Allow Long SMS</string>
+    <string name="app_mms">Mensajes</string>
+    <string name="disable_sms_to_mms_conversion">Permitir SMSs largos</string>
     <string name="disable_sms_to_mms_conversion_summary">Disables 9 SMS\'s to MMS conversion</string>
     <string name="mms_unicode_stripping">Strip unicode</string>
     <string name="mms_unicode_stripping_summary">Converts unicode characters to normal.\nMode:%s\nDoes not work on some devices (yet)!</string>
@@ -253,11 +253,11 @@
     <string name="holidays_selector_country_slovakia">Slovakia</string>
     <string name="holidays_selector_country_czech">República Checa</string>
     <!-- QuickSearchBox -->
-    <string name="app_quicksearchbox">QuickSearchBox</string>
+    <string name="app_quicksearchbox">Cuadro de Búsqueda Rápida</string>
     <string name="quicksearchbox_marketplace">Search MarketPlace</string>
     <string name="quicksearchbox_marketplace_summary">Marketplace to search:\n%s</string>
     <!-- Browser -->
-    <string name="app_browser">Browser</string>
+    <string name="app_browser">Navegador</string>
     <string name="browser_autofit_pages">Autoajuste de Páginas</string>
     <string name="browser_autofit_pages_summary">Añade \"Vista Móvil\" a la Pestaña General de los Ajustes del Navegador.</string>
     <!-- Music -->
