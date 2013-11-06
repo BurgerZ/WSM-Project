@@ -215,7 +215,7 @@
     <string name="extra_battery_info_summary">在电量设置中添加电池信息</string>
     <string name="extra_battery_info">附加电池信息</string>
     <!-- Launcher prefs-->
-    <string name="launcher">桌面 (启动器)</string>
+    <string name="launcher">桌面</string>
     <string name="launcher_summary">桌面相关设定</string>
      <string name="hide_icons_label">隐藏图标标签</string>
     <string name="hide_icons_label_summary">隐藏桌面图标下文字标签</string>
@@ -233,7 +233,7 @@
     <string name="mms_unicode_stripping_leave_intact">保留原样</string>
     <string name="mms_unicode_stripping_non_encodable">去除无法编码字符</string>
     <string name="mms_unicode_stripping_all">去除所有 unicode 字符</string>
-    <string name="festival_update_server">节日更新服务器</string> 
+    <string name="festival_update_server">推荐短信更新服务器</string> 
     <string name="festival_update_server_summary">%s</string>
     <!-- Calendar -->
     <string name="app_calendar">日历</string>
