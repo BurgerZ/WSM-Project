@@ -136,6 +136,7 @@
     <string name="international_t9">Add T9</string>
     <string name="local_yellowpage_database_summary">Blocks updates of the Yellow Pages database from Chinese server and adds the ability to "Mark" unknown contacts.</string>
     <string name="local_yellowpage_database">Local YellowPage database</string>
+    <string name="local_yellowpage_database_dialog">Chinese yellow page database will be cleared.\nYou will need to update T9 index data from Contacts settings.\nDo you want to continue?</string>
     <string name="localized_measure_units_summary">\u2022 Status bar: network speed (K/s, m/s)\n\u2022 Task manager: freed, available memory (MB, GB)\n\u2022 Data usage (Traffic): B, KB, MB, GB</string>
     <string name="localized_measure_units">Localized measure units</string>
     <string name="units_gb">Gb</string>
@@ -262,4 +263,6 @@
     <string name="app_themes">Themes</string>
     <string name="themes_reverse_tabs_order">Reverse tabs order</string>
     <string name="themes_reverse_tabs_order_summary">Change tabs order to Local, Categories, Popular, Featured</string>
+    <string name="themes_replace_lunar_dates">Replace Lunar dates</string>
+    <string name="themes_replace_lunar_dates_summary">Try to find and replace Lunar dates with Gregorian ones in themes (lockscreens)</string>
 </resources>

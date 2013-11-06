@@ -136,6 +136,7 @@
     <string name="international_t9">Исправить поиск T9</string>
     <string name="local_yellowpage_database_summary">Отключает обновление базы Желтых страниц с китайского сервера и добавляет возможность установить метку на неизвестный контакт</string>
     <string name="local_yellowpage_database">Локальные Желтые страницы</string>
+    <string name="local_yellowpage_database_dialog">Китайская база данных желтых страниц будет очищена.\nПосле перезагрузки телефона необходимо обновить индекс Т9 из настроек телефона.\nПродолжить?</string>
     <string name="localized_measure_units_summary">\u2022 Панель состояния: скорость сети (K/с, М/с)\n\u2022 Окно очистки памяти: Мб, Гб\n\u2022 Трафик: б, Кб, Мб, Гб</string>
     <string name="localized_measure_units">Локализация ед. измерения</string>
     <string name="units_gb">Гб</string>
@@ -262,4 +263,6 @@
     <string name="app_themes">Темы</string>
     <string name="themes_reverse_tabs_order">Обратный порядок вкладок</string>
     <string name="themes_reverse_tabs_order_summary">Меняет порядок вкладок на обратный (Локальные, Категории, Популярные и Новые)</string>
+    <string name="themes_replace_lunar_dates">Заменять лунный календарь</string>
+    <string name="themes_replace_lunar_dates_summary">Пытаться найти и заменить даты лунного календаря на грегорианский (пока только для экрана блокировки)</string>
 </resources>
