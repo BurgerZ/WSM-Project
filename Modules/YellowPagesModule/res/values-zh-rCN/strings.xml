@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">YellowPage</string>
+    <string name="module_desc">本地黄页数据库</string>
+    <string name="module_desc_full">屏蔽来自中国服务器的黄页更新并增加标记未知联系人功能。</string>
+</resources>

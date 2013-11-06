@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Hide Icons Text</string>
+    <string name="module_desc">隐藏桌面图标标签</string>
+    <string name="module_desc_full">允许你隐藏桌面图标和文件夹的文本标签。</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Volume Control Mute</string>
+    <string name="module_desc">禁用调节音量时发出的哔哔声</string>
+    <string name="module_desc_full">本模块禁用 (静音) 在主屏幕调节音量时发出的哔哔声。</string>
+</resources>

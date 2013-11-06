@@ -1,0 +1,5 @@
+<resources>
+    <string name="module_name">Volume Skip Track</string>
+    <string name="module_desc">允许你在播放音乐时使用音量键跳轨</string>
+    <string name="module_desc_full">当屏幕关闭时，允许你用音量键跳轨。</string>
+</resources>

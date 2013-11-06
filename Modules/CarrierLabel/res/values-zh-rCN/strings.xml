@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Carrier Label</string>
+    <string name="module_desc">允许你自定义运营商标签</string>
+    <string name="module_desc_full">允许你自定义运营商标签。你可以在 系统设置 - 通知栏设置 中找到新增的选项。在某些设备上可能不起作用。</string>
+    <string name="info">请在此处写下你想要的运营商标签，点击保存后切换飞行模式。</string> 
+    <string name="pref_carrier_title">运营商标签</string> 
+    <string name="hint_carrier_edit">输入运营商标签</string>
+    <string name="no_sim_service">请插入你的 SIM 卡，并确认你的手机未处于飞行模式。</string> 
+    <string name="save">保存</string> 
+    <string name="airplane_on">打开飞行模式</string> 
+    <string name="airplane_off">关闭飞行模式</string> 
+</resources>

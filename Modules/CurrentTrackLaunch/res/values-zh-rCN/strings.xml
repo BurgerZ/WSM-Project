@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Current Track Launch</string>
+    <string name="module_desc">启动到播放界面</string>
+    <string name="module_desc_full">点击音乐弹出挂件（滑动音乐图标）时启动到播放界面。默认情况下，会打开音乐播放器主界面（就像点击音乐图标一样）</string>
+</resources>

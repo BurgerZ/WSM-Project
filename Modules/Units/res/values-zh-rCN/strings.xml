@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gb">Gb</string>
+    <string name="kbs">K/s</string>
+    <string name="mb">Mb</string>
+    <string name="mbs">M/s</string>
+    <string name="module_name">Units</string>
+    <string name="module_desc">本地化数量单位</string>
+    <string name="module_desc_full">允许你根据系统语言修改数量单位\n
+- 状态栏: 网速 (K/s, m/s)\n
+- 任务管理器: 已清空，可用内存量 (MB, GB)</string>
+    <string name="share_prepare">正在准备蓝牙分享</string>
+</resources>

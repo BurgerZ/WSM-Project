@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">T9 Module</string>
+    <string name="module_desc">启用通讯录国际化 T9 搜索</string>
+    <string name="module_desc_full">为拨号器添加国际化通讯录和服务号码搜索。启用后需要在通讯录应用设定中重建 T9 索引。</string>
+</resources>

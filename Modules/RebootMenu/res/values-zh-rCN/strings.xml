@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Reboot Options</string>
+	<string name="module_desc">高级重启菜单</string>
+	<string name="module_desc_full">向“重新启动”菜单添加更多选项。按住菜单键并选择“重新启动”你就会看到新增的选项。\n\n
+可用的选项:\n
+-普通重启\n
+-快速重启 (Hot Reboot)\n
+-恢复模式 (Recovery)\n
+-刷机模式 (Fastboot)\n
+-切换系统 (双系统小米手机专用)</string>
+	<string name="reboot">重启</string> 
+    <string name="reboot_options">重启菜单</string> 
+    <string name="reboot_normal">普通重启</string> 
+    <string name="reboot_recovery">重启进入恢复模式 (Recovery)</string>  
+    <string name="reboot_hot">快速重启 (Hot Reboot)</string> 
+    <string name="reboot_bootloader">重启进入刷机模式 (Fastboot)</string> 
+    <string name="reboot_system_1">重启进入系统一</string> 
+    <string name="reboot_system_2">重启进入系统二</string> 
+    <string name="cancel">取消</string> 
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Center Clock</string>
+    <string name="module_desc">允许你修改状态栏时钟布局</string>
+    <string name="module_desc_full">允许你修改状态栏时钟布局。可用的模式有：居中，居左，居右（默认）和 隐藏。</string>
+    <string name="clock_hide">隐藏</string> 
+    <string name="clock_right">居右 (默认)</string> 
+    <string name="clock_left">居左</string> 
+    <string name="clock_center">居中</string> 
+    <string name="clock_center_signal_left">居中 (信号左置)</string> 
+    <string name="clock_center_iphone">居中 (iPhone 风格)</string>
+    <string name="clock_position">时钟位置</string> 
+    <string name="apply">应用</string>
+</resources>

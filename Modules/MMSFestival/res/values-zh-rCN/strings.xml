@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">MMS Festival</string>
+    <string name="module_desc">俄罗斯推荐短信</string>
+    <string name="module_desc_full">使用俄罗斯服务器 miui.su 上的推荐短信替代中文推荐短信\n如果你找不到“推荐”标签，你必须现在短信应用设置中启用它。你可以通过轻点菜单键 - 选择“更新”来更新内容\n（我翻译这模块干啥纯属闲的……）</string>
+    <string name="update_server">更新服务器</string> 
+</resources>

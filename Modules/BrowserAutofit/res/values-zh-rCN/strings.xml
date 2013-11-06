@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Browser Autofit</string>
+    <string name="module_desc">浏览器页面自适应</string>
+    <string name="module_desc_full">向浏览器常规设置中添加 "Mobile View" 选项。这个功能可以根据页面字体大小调整页面上的文字以适应屏幕宽度。</string>
+</resources>

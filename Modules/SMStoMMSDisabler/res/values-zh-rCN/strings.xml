@@ -1,0 +1,5 @@
+<resources>
+    <string name="module_name">Allow Long SMS</string>
+    <string name="module_desc">禁用短信到彩信转换</string>
+    <string name="module_desc_full">禁止自动将长短信（通常为9条）转换为彩信</string>
+</resources>

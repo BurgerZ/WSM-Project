@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Extra Battery info</string>
+    <string name="module_desc">在设置中显示附加电池信息</string>
+    <string name="module_desc_full">在电量设置中添加电池信息</string>
+</resources>
