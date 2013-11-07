@@ -1,0 +1,5 @@
+<resources>
+    <string name="module_name">音量鍵跳過曲目</string>
+    <string name="module_desc">允許您的裝置在播放音樂時使音量鍵跳過曲目</string>
+    <string name="module_desc_full">當螢幕關閉時，允許您使用音量鍵跳過曲目。</string>
+</resources>
