@@ -37,8 +37,8 @@
     <string name="dialog_phone_will_be_rebooted">裝置即將重啟</string>
     <string name="dialog_progress_updating">升級中...</string>
     <string name="dialog_update_available">有可用的新 WSM tools 版本已經釋出.\n已安裝: %1$s\n可用: %2$s\n在安裝完成新版本後，請前往設定 - 管理 WSM 並且檢查如果需要更新二進制檔案.</string>
-    <string name="menu_select_all">選擇全部</string>
-    <string name="menu_unselect_all">清除選中項</string>
+    <string name="menu_select_all">啟動全部</string>
+    <string name="menu_unselect_all">取消啟動全部</string>
 
     <!-- InstallerActivity -->
     <string name="installer_install">安裝</string>
