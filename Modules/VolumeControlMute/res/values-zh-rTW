@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">音量控制靜音</string>
+    <string name="module_desc">停用當調節音量時難聽的音效</string>
+    <string name="module_desc_full">此模組停用 (靜音) 在主畫面時調節音量的音效 (浮動音量面板).</string>
+</resources>
