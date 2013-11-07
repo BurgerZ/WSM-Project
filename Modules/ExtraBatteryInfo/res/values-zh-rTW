@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">額外電池資訊</string>
+    <string name="module_desc">在系統設定中顯示額外的電池資訊</string>
+    <string name="module_desc_full">在系統設定-電池設定中新增額外的電池資訊</string>
+</resources>
