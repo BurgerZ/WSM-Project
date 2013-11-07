@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">T9 Module</string>
+    <string name="module_desc">啟用通訊錄國際化 T9 搜尋</string>
+    <string name="module_desc_full">為電話撥號鍵盤新增國際化通訊錄和服務號碼搜尋。啟動後需要在通訊錄套用設定中重建 T9 索引。</string>
+</resources>
