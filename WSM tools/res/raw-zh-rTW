@@ -1,0 +1,62 @@
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<h2 style="text-align: center;">
+    <strong>WSM Tools</strong></h2>
+<div>
+    <strong>開發者:</strong> BurgerZ</div>
+<div>
+    <strong>圖片製作:</strong> DriffeX</div>
+<div>
+    <strong>版本:</strong> 2.0.5</div>
+
+<h2 style="text-align: left;">
+    <strong>翻譯人員:</strong></h2>
+<ol>
+    <li>
+        捷克語: <strong>ingbrzy</strong></li>
+    <li>
+        西班牙語: <strong>rauldlnx10</strong></li>
+    <li>
+        法語: <strong>cpasmoi</strong></li>
+    <li>
+        匈牙利文: <strong>vagyula1</strong></li>
+    <li>
+        斯洛伐克語: <strong>ingbrzy</strong></li>
+    <li>
+        簡體中文 (中國): <strong>RadarNyan</strong></li>
+    <li>
+        繁體中文 (台灣): <strong>Eric850130</strong></li>
+
+</ol>
+<div>
+    <strong>程式庫:&nbsp;<a href="https://github.com/BurgerZ/WSM-Project/tree/master/WSM%20tools/res">WSM tools</a></strong></div>
+
+<h2 style="text-align: left;">
+    <strong>安裝教學:</strong></h2>
+<ol>
+    <li>
+        啟動&nbsp;<strong>WSM tools</strong></li>
+    <li>
+        前往 в&nbsp;<strong>設定</strong>&nbsp;&mdash;&nbsp;<strong>管理 WSM</strong></li>
+    <li>
+        輕觸&nbsp;<strong>安裝&nbsp;</strong>按鍵</li>
+    <li>
+        重啟裝置</li>
+</ol>
+
+<h2 style="text-align: left;">
+    <strong>當您的裝置的 ROM 進行升級後:</strong></h2>
+<ol>
+    <li>
+        任何時候，您的裝置 ROM 進行了升級，您必須重新安裝 WSM 的二進制文件, 因為 <strong>app_process</strong> 將被替換為預設文件.</li>
+</ol>
+
+<div>
+    其他項目即將到來....</div>
+<p>
+    <strong>幫助:&nbsp;<a href="mailto:wsm.tools@gmail.com?subject=WSM%20Feedback">wsm.tools@gmail.com</a></strong></p>
+</body>
+</html>
