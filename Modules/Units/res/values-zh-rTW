@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gb">Gb</string>
+    <string name="kbs">K/s</string>
+    <string name="mb">Mb</string>
+    <string name="mbs">M/s</string>
+    <string name="module_name">單位</string>
+    <string name="module_desc">本地化數量單位</string>
+    <string name="module_desc_full">允許您根據您的裝置語言修改數量單位\n
+- 狀態列: 網路速度 (K/s, m/s)\n
+- 任務管理員: 已清空，可用 RAM 總量 (MB, GB)</string>
+    <string name="share_prepare">正在準備藍牙分享</string>
+</resources>
