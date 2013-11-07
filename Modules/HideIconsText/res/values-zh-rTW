@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">隱藏圖示文字</string>
+    <string name="module_desc">隱藏啟動器上的圖示標籤</string>
+    <string name="module_desc_full">允許您隱藏桌面啟動器上的圖示與資料夾標籤.</string>
+</resources>
