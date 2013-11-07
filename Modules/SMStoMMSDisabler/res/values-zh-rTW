@@ -1,0 +1,5 @@
+<resources>
+    <string name="module_name">允許長訊息</string>
+    <string name="module_desc">停用訊息轉換多媒體訊息</string>
+    <string name="module_desc_full">禁止系統自動將長訊息（通常為9條）轉換為多媒體訊息</string>
+</resources>
