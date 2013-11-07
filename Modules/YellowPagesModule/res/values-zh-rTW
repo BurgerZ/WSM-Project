@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">黃頁</string>
+    <string name="module_desc">內建黃頁資料庫</string>
+    <string name="module_desc_full">遮蔽來自中國伺服器的黃頁更新並新增標記未知聯絡人的功能。</string>
+</resources>
