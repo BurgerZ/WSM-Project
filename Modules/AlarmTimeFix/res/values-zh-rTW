@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">鬧鐘時間修正</string>
+    <string name="module_desc">修正第三方鬧鐘</string>
+    <string name="module_desc_full">修正第三方鬧鐘四捨五入後的響應時間為五分鐘.</string>
+    <string name="alarm_white_list">選擇應用程式</string>
+    <string name="alarm_white_list_summary">輕觸選擇要加入白名單的應用程式</string>
+    <string name="alarm_white_list_packages">白名單</string>
+    <string name="apply">套用</string>
+</resources>
