@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">在 Google Play 商店中搜尋</string>
+    <string name="module_desc">允許您選擇要在桌面快捷搜尋欄中的應用程式商店</string>
+    <string name="module_desc_full">你可以在模組設定中選擇快速搜尋欄中搜尋時要搜尋的商店(Google Play 商店或小米應用商店)\n更改設定後無需重啟裝置。</string>
+    <string name="use_google_market">搜尋 Google Play 商店</string>
+    <string name="xiaomi">當前搜尋小米應用商店</string>
+    <string name="google">當前搜尋 Google Play 商店</string>
+</resources>
