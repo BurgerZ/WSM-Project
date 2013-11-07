@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Play 商店 修正</string>
+    <string name="module_desc">偽造傳送到 Google Play 商店的螢幕密度資訊</string>
+    <string name="module_desc_full">偽造傳送到 Google Play 商店的螢幕密度資訊以顯示所有應用程式。</string>
+    <string name="pref_density_summary">傳送給 Google 的螢幕密度資訊: %s</string>
+    <string name="fdensity">偽造螢幕密度</string>
+    <string name="no_res_desc">徹底解決掉 Play 商店内容是否可用的函數</string>
+    <string name="no_res_title">無限制補丁</string>
+    <string name="debug_desc">在 Play 商店選單中顯示一個額外選項以存取 DEBUG 設定</string>
+    <string name="debug_title">啟用 DEBUG 選單</string>
+</resources>
