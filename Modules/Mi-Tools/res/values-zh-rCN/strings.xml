@@ -156,8 +156,8 @@
     <string name="power_reboot_hot">快速重启 (Hot Reboot)</string> 
     <string name="power_reboot_bootloader">重启进入刷机模式 (Fastboot)</string> 
     <string name="power_reboot_switch_system">切换系统 (小米手机专用)</string> 
-    <string name="power_reboot_system_1">重启进入系统一</string> 
-    <string name="power_reboot_system_2">重启进入系统二</string> 
+    <string name="power_reboot_system_1">重启进入另一系统 (系统一)</string> 
+    <string name="power_reboot_system_2">重启进入另一系统 (系统二)</string> 
     <string name="power_cancel">取消</string> 
     <!-- Device -->
     <string name="device">设备</string>
