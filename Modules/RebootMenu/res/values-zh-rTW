@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">重啟選項</string>
+        <string name="module_desc">進階重啟選單.</string>
+        <string name="module_desc_full">在重啟選單新增額外的重啟選項. 請照常輕觸電源鍵並且選擇"重新啟動".\n\n
+可用的重啟選項:\n
+-正常\n
+-Fast\n
+-Recovery 模式\n
+-Bootloader 模式\n
+-切換系統 (適用於擁有兩個系統的小米裝置)</string>
+        <string name="reboot">重新啟動</string> 
+    <string name="reboot_options">重啟選項</string> 
+    <string name="reboot_normal">正常</string> 
+    <string name="reboot_recovery">Recovery</string>  
+    <string name="reboot_hot">熱重啟</string> 
+    <string name="reboot_bootloader">Bootloader</string> 
+    <string name="reboot_system_1">重啟至系統 1</string> 
+    <string name="reboot_system_2">重啟至系統 2</string> 
+    <string name="cancel">取消</string> 
+</resources>
