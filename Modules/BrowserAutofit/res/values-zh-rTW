@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">瀏覽器自適應</string>
+    <string name="module_desc">瀏覽器頁面自適應</string>
+    <string name="module_desc_full">在瀏覽器一般設定中新增 "Mobile View" 選項。這個功能可以根據頁面字體大小調整頁面上的文字以適應螢幕寬度。</string>
+</resources>
