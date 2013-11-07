@@ -1,8 +1,18 @@
 ﻿<html>
 	<head>
+		<script src="jquery.js"></script> 
+    	<script src="photo-resize.js"></script>
+    	<script type="text/javascript" charset="utf-8">
+    		$(document).ready(function() {
+        		$("img").photoResize({
+         	   		bottomSpacing: 15
+        		});
+    		});
+    	</script>
 		<title></title>
 	</head>
 	<body>
+		<img src="logo.png">
 		<h2 style="text-align: center;">
 			<strong>MIUI v5 minden az egyben modul</strong></h2>
 		<div>
@@ -27,7 +37,7 @@
 		</ol>
 		<ul>
 			<li>
-				Böngésző</li>
+				Böngészőlapok tördelése</li>
 			<li>
 				Szolgáltató neve</li>
 			<li>
@@ -53,7 +63,7 @@
 			<li>
 				Zene átugrása hangerőgombbal</li>
 			<li>
-				YellowPage</li>
+				Szaknévsor</li>
 		</ul>
 		<div>
 			Ez a modul tartalmazza az összes szükséges kiegészítőt és javítást a MIUI v5 ROMokhoz.</div>

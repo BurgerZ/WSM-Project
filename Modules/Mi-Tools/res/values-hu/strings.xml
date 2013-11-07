@@ -21,14 +21,13 @@
         \u2022 Zene átugrása hangerőgombbal\n
         \u2022 Szaknévsor</string>
 	<string name="mitools_copyright">A modulok NEM módosíthatóak!\n
-        BurgerZ MD, Copyright © 2013, All rights reserved</string>         
+        BurgerZ MD, Copyright © 2013, Minden jog fenntartva</string>         
     <!-- About -->
     <string name="about_module">A modulról</string>
     <!--  -->
-    <string name="menu_save">Mentés</string>
-    <string name="menu_restore">Visszaállítás</string>
-    <string name="menu_delete">Törlés</string>
-    <string name="rebooting">Újraindítás &#133;</string>
+    <string name="preference_app_picker_search">Keresés</string>
+    <string name="preference_app_picker_none">(Nincs)</string>
+
     <!-- from arrays -->
     <string name="am_pm_hide">Elrejtés</string>
     <string name="am_pm_small">Kicsi</string>
@@ -41,6 +40,7 @@
     <string name="typeface_family_condensed">Sűrű</string>
     <string name="typeface_family_thin">Vékony</string>
     <string name="clock_right">Jobbra (alapért.)</string>
+    <string name="clock_center">Középre</string>
     <string name="clock_center">Középre (iOS 7)</string>
     <string name="clock_left">Balra</string>
     <string name="text_small">Kicsi</string>
@@ -121,10 +121,13 @@
     <string name="custom_carrier_logo_summary">Logo használata a szolgáltatónév helyett</string>
     <string name="select_carrier_logo">Logo kiválasztása</string>
     <string name="select_carrier_logo_summary">%s</string>
+    <string name="hide_roaming_icon">Roamingikon elrejtése</string>
     <!-- Notifications -->
     <string name="notifications">Értesítések</string>
     <string name="hide_ongoing_ime_switcher_summary">Gépelés közben a beviteli módszer választó értesítésének kijelzése (billentyűzet)</string>
     <string name="hide_ongoing_ime_switcher">Beviteli mód választó elrejtése</string>
+    <string name="headset_notification_icon">Fülhallgató ikon elrejtése</string>
+    <string name="headset_notification_icon_summary">Fülhallgató ikon elrejtése csatlakoztatáskor</string>
     <!-- Framework prefs -->
     <string name="framework">Framework</string>
     <string name="framework_summary">A keretrendszerhez kapcsolódó beállítások</string>
@@ -134,6 +137,7 @@
     <string name="international_t9">T9 hozzáadása</string>
     <string name="local_yellowpage_database_summary">A kínai szaknévsor adatbázis frissítésének tiltása és az ismeretlen névjegyek "Megjelöl" opciójának hozzáadása.</string>
     <string name="local_yellowpage_database">Helyi szaknévsor adatbázis</string>
+    <string name="local_yellowpage_database_dialog">Kínai aranyoldal adatbázis törölve.\nYou will need to update T9 index adatok frissítése szükséges a (Névjegyzék beállítások menüpont) az újraindítás után.\nFolytatja?</string>
     <string name="localized_measure_units_summary">\u2022 Állapotsor: hálózati seb.(K/s, m/s)\n\u2022 Feladatkezelő: elérhető memória(MB,GB)\n\u2022 Adatforgalom: B, KB, MB, GB</string>
     <string name="localized_measure_units">Helyi mértékegységek</string>
     <string name="units_gb">Gb</string>
@@ -153,6 +157,7 @@
     <string name="power_reboot_recovery">Recovery</string> 
     <string name="power_reboot_hot">Gyors</string> 
     <string name="power_reboot_bootloader">Fastboot</string> 
+    <string name="power_reboot_switch_system">Rendszer váltás (XiaoMi telefonoknál)</string> 
     <string name="power_reboot_system_1">Újraindítás a System 1-en</string> 
     <string name="power_reboot_system_2">Újraindítás a System 2-n</string> 
     <string name="power_cancel">Mégsem</string> 
@@ -181,25 +186,31 @@
     <string name="custom_build_prop_name_value">Név beállítása</string>
     <string name="custom_build_prop_name">Név</string>
     <!-- Buttons -->
-    <string name="buttons">Gombok</string>
-    <string name="double_click_menu_app_summary">A MENU gomb dupla kattintási műveletének beállítása</string>
-    <string name="double_click_menu_app">A MENU gomb művelete</string>
-    <!-- Advanced -->
-    <string name="advanced">További</string>
-    <string name="extra_battery_info_summary">Extra akkumulátor információ elérése a Beállításokban</string>
-    <string name="extra_battery_info">Extra akkumulátor info</string>
-    <!-- Sound prefs -->
-    <string name="sound">Hang</string>
-    <string name="sound_summary">Hanghoz kapcsolódó beállítások</string>
-    <string name="disable_volume_control_sound">BEEP hang letiltása</string>
-    <string name="disable_volume_control_sound_summary">Ez a modul letiltja a hangerőszabályzáskor kiadó értesítési hangot.</string>
+    <string name="buttons">Gombok művelete</string>
+    <string name="key_menu">Menü gomb művelete</string>
+    <string name="key_volume">Hangerőgombok</string>
+    <string name="double_click_menu_app_summary">A MENÜ gomb dupla kattintásákor elinduló alklamazás kiválasztása</string>
+    <string name="double_click_menu_app">Duplakattintáskor</string> 
+    <string name="long_press_menu_action">Hosszanti megnyomáskor</string>
+    <string name="double_tap_menu_action">Dupla érintéskor</string>
+    <string name="menu_action_default">Alapértelmezett</string>
+    <string name="menu_action_previous_app">Előző alkalmazás indítása</string>
+    <string name="menu_action_sleep">Képernyő lezárása</string>
+    <string name="menu_action_custom_app">Saját alkalmazás indítása</string>
+    <string name="menu_action_torch">Lámpa</string>
+    <string name="vol_key_cursor">Hamgerőgombok kurzor vezérlése</string>
+    <string name="vol_key_cursor_summary">A szövegmezőkben a hangerőgombok kurzorvezérlésként működjenek</string>
+    <string name="vol_key_cursor_reverse">Gombok felcserélése</string>
+    <string name="vol_key_cursor_reverse_summary">Kurzor vezérlő gombok felcserelése</string>
     <string name="long_press_track_skip">Zene átugrása hangerőgombbal</string>
     <string name="long_press_track_skip_summary">Az előző/következő zeneszám átugrása a hangerőgombok hosszú megnyomásakor (kikapcsolt képernyő esetén)</string>
     <string name="swap_long_press_skip_keys">Hangerőgombok felcserélése</string>
     <string name="swap_long_press_skip_keys_summary">Hangerőgombok felcserélése (következő->előző és előző->következő)</string>
-    <string name="headset_notification_icon">Fülhallgató ikon elrejtése</string>
-    <string name="headset_notification_icon_summary">A fülhallgató ikon elrejtése csatlakoztatáskor</string>
-    <!-- Launcher prefs-->
+    <string name="sound">Hang</string>
+    <string name="disable_volume_control_sound">BEEP hang letiltása</string>
+    <string name="disable_volume_control_sound_summary">Ez a modul letiltja a hangerőszabályzáskor kiadó értesítési hangot.</string>    <string name="advanced">További</string>
+    <string name="extra_battery_info_summary">Extra akkumulátor információ elérése a Beállításokban</string>
+    <string name="extra_battery_info">Extra akkumulátor info</string>    <!-- Launcher prefs-->
     <string name="launcher">Launcher</string>
     <string name="launcher_summary">Launcherhez kapcsolódó beállítások</string>
     <string name="hide_icons_label">Ikon szöveg elrejtése</string>
@@ -232,9 +243,9 @@
     <string name="holidays_selector_country_slovakia">Szlovák</string>
     <string name="holidays_selector_country_czech">Cseh</string> 
     <!-- QuickSearchBox -->
-    <string name="app_quicksearchbox">QuickSearchBox</string>
+    <string name="app_quicksearchbox">Gyorskeresés</string>
     <string name="quicksearchbox_marketplace">Keresés a piactéren</string>
-    <string name="quicksearchbox_marketplace_summary">Piactér a kereséshez:\n%s</string>
+    <string name="quicksearchbox_marketplace_summary">Piactér kiválasztása kereséshez:\n%s</string>
     <!-- Browser -->
     <string name="app_browser">Böngésző</string>
     <string name="browser_autofit_pages">Lapok tördelése</string>
@@ -243,4 +254,10 @@
     <string name="app_music">Zene</string>
     <string name="launch_playback_screen">Lejátszási képernyő indítása</string>
     <string name="launch_playback_screen_summary">A zenelejátszó felugró widgetként indítsa el az alkalmazást. Alapértelmezettként a főképernyő nyílik meg</string>
+    <!-- Themes -->
+    <string name="app_themes">Témák</string>
+    <string name="themes_reverse_tabs_order">Lapok fordított sorrendben</string>
+    <string name="themes_reverse_tabs_order_summary">Lapok sorrendjének megváltoztatása: Helyi, Kategóriák, Népszerű, Kiemelt</string>
+    <string name="themes_replace_lunar_dates">Holnaptár lecserélése</string>
+    <string name="themes_replace_lunar_dates_summary">Holdnaptár dátumának lecserélése Gergelynaptár dátumára a témákban (képernyőzárak)</string>
 </resources>

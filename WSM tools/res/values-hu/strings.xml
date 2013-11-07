@@ -10,15 +10,15 @@
     <string name="author">Szerző</string>
     <string name="graphics">Grafika</string>
     <string name="check_for_updates">Frissítések ellenőrzése</string>
-    <string name="copyright">"BurgerZ MD (http://burgerz.pro)
-Copyright © 2013, All Rights Reserved"</string>
+    <string name="copyright">"BurgerZ MD (http://burgerz.pro)\nCopyright © 2013, Minden jog fenntartva!"</string>
     <string name="copyright_xposed">Xposed alapján</string>
+    <string name="information_faq">Információ</string>
+    <string name="information_faq_summary">F.A.Q., fordítások, támogatás, segítség</string>
     <string name="pref_feedback_title">Visszajelzés</string>
     <string name="pref_feedback_summary">Hibanapló modulkérés, stb. kérése</string>
     <string name="pref_manage_title">WSM kezelés</string>
     <string name="pref_manage_summary">Telepítés, Frissítés, Törlés</string>
-    <string name="pref_repositories_alert">"Néhány Xposed modul lehetséges,hogy nem működik vagy újrainduláskor bootloop-ot kap!
-Használata az Ön felelőssége!"</string>
+    <string name="pref_repositories_alert">"Néhány Xposed modul lehetséges,hogy nem működik vagy újrainduláskor bootloop-ot kap!\nHasználata az Ön felelőssége!"</string>
     <string name="pref_repositories_title">Modultároló kiválasztás</string>
     <string name="pref_show_hidden_modules_title">Rejtett modulok mutatása</string>
     <string name="pref_show_hidden_modules_summary">Rejtett modulok megjelenítése a listában</string>
@@ -27,7 +27,6 @@ Használata az Ön felelőssége!"</string>
     <string name="pref_system_toasts_title">Rendszer értesítések</string>
     <string name="pref_system_toasts_summary">WSM rendszerüzenetek kijelzése</string>
     <string name="pref_about_title">Névjegy</string>
-    <string name="none">---</string>
     <string name="bottom_bar_btn_settings">Beállítások</string>
     <string name="bottom_bar_btn_reboot">Újraindítás</string>
     <string name="bottom_bar_btn_refresh">Frissítés</string>
@@ -36,10 +35,7 @@ Használata az Ön felelőssége!"</string>
     <string name="dialog_are_you_sure">Biztos benne?</string>
     <string name="dialog_phone_will_be_rebooted">A készülék újraindul</string>
     <string name="dialog_progress_updating">Frissítés...</string>
-    <string name="dialog_update_available">"A WSM új verziója elérhető.
-Telepítve: %1$s
-Elérhető: %2$s
-Az új verzió tlepeítése után lépjen bea Beállítások - WSM kezelés és ellenőrizze,hogy bináris frissítés szükséges-e."</string>
+    <string name="dialog_update_available">"A WSM új verziója elérhető.\nTelepítve: %1$s\nElérhető: %2$s\nAz új verzió tlepeítése után lépjen bea Beállítások - WSM kezelés és ellenőrizze,hogy bináris frissítés szükséges-e."</string>
     <string name="menu_select_all">Mind kiválasztása</string>
     <string name="menu_unselect_all">Kiválasztás törlése</string>
     <string name="installer_install">Telepítés</string>
@@ -48,15 +44,13 @@ Az új verzió tlepeítése után lépjen bea Beállítások - WSM kezelés és 
     <string name="installer_versions">VERZIÓK:</string>
     <string name="installer_installed_version">TELEPÍTETT VERZIÓ</string>
     <string name="installer_bundled_version">ELÉRHETŐ VERZIÓ</string>
-    <string name="installer_app_process">app_process</string>
-    <string name="installer_wsm_framework">XposedBridge.jar</string>
     <string name="installer_phone_not_compatible">WSM nem kompatibilis (még) az  Android SDK %1$d verziójával vagy a processzor architektúrájával (%2$s).</string>
     <string name="installer_not_tested_but_compatible">WSM nincs tesztelve az Android SDK %d verzójával ,de lehetséges,hogy kompatibilis. Ha kalandra vágyik,próbálja ki:-)</string>
     <string name="installer_rom_update" />
     <string name="repo_download_failed_http">Letöltés %1$s nem sikerült: %2$d (%3$s)</string>
     <string name="repo_download_failed">Letöltés %1$s nem sikerült: %2$s</string>
-    <string name="repo_load_failed">"Nem tölthető be %1$s tárolóból:
-%2$s"</string>
+    <string name="repo_load_failed">"Nem tölthető be %1$s tárolóból:\n%2$s"</string>   
+
     <string name="changes">Változások:</string>
     <string name="branch_display">(%s branch)</string>
     <string name="download_author">by %s</string>
@@ -90,8 +84,7 @@ Az új verzió tlepeítése után lépjen bea Beállítások - WSM kezelés és 
     <string name="module_empty_description">(nem elérhető leírás)</string>
     <string name="module_no_ui">Ehhez a modulhoz nincs felhasználói felület</string>
     <string name="no_wsm_modules_found">Nincs elérhető WSM modul!</string>
-    <string name="wsm_module_list_updated">"WSM modul listája frissítve
-A változtások a az újraindítást követően lépnek érvénybe"</string>
+    <string name="wsm_module_list_updated">"WSM modul listája frissítve\nA változtások a az újraindítást követően lépnek érvénybe"</string>
     <string name="warning_wsm_min_version">Ehhez a modulhoz szükséges a WSM %s ,ezért az aktiválás nem sikerült.</string>
     <string name="no_min_version_specified">Ehhez a modulhoz nem szükséges a WSM speciális verziója.</string>
     <string name="warning_min_version_too_low">Ez a modul a %1$s WSM verziójával készült , mivel nem kompatibilis a %2$s verziójával, le lett tiltva.</string>
