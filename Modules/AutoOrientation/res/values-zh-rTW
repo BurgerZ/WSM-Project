@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">自動方向</string>
+    <string name="module_desc">在已選中的應用程式啟用自動水平方向</string>
+    <string name="module_desc_full">新增在水平方向檢視應用程式. 讓裝置正常啟用 "自動旋轉螢幕" 的選項. 
+某些裝置可能無法正常顯示.</string>
+    <string name="rotation_enabled_list">選擇應用程式</string>
+    <string name="rotation_enabled_list_summary">清楚選擇有旋轉功能的應用程式</string>
+    <string name="rotation_enabled_packages">有旋轉功能的包</string>
+    <string name="apply">套用</string>
+</resources>
