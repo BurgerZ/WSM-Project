@@ -10,6 +10,7 @@
         \u2022 Carrier Label\n
         \u2022 Center Clock\n
         \u2022 Current Track Launch\n
+        \u2022 Extra Battery Info\n
         \u2022 Hide Icons Text\n
         \u2022 Holidays\n
         \u2022 MMS Festival\n
@@ -20,7 +21,7 @@
         \u2022 Volume Control Mute\n
         \u2022 Volume Skip Track\n
         \u2022 YellowPage</string>
-	<string name="mitools_copyright">Any module modifications prohibited.\n
+    <string name="mitools_copyright">Any module modifications prohibited.\n
         BurgerZ MD, Copyright © 2013, All rights reserved</string>         
     <!-- About -->
     <string name="about_module">关于模块</string>
@@ -68,19 +69,19 @@
     <string name="backup_defaults_restored">已恢复默认设置</string>
     <string name="backup_restoring">正在还原备份</string>
     <string name="backup_restored">已还原备份设置</string>
-	<!-- ColorPicker -->
-	<string name="press_color_to_apply">轻点颜色以应用</string>
-	<string name="dialog_color_picker">取色器</string> 
-	<!-- Status Bar prefs -->
-	<!-- Statusbar -->
-	<string name="statusbar">状态栏</string>
-	<string name="statusbar_title">状态栏</string>
-	<string name="statusbar_summary">状态栏修改</string>
-	<string name="statusbar_set_background_color">修改背景色</string>
-	<string name="statusbar_set_background_color_summary">允许选择状态栏的背景色</string>
-	<string name="statusbar_background_color">背景色</string>
-	<string name="statusbar_background_color_summary">状态栏背景色</string>
-	<string name="statusbar_text_family">字体样式</string>
+    <!-- ColorPicker -->
+    <string name="press_color_to_apply">轻点颜色以应用</string>
+    <string name="dialog_color_picker">取色器</string> 
+    <!-- Status Bar prefs -->
+    <!-- Statusbar -->
+    <string name="statusbar">状态栏</string>
+    <string name="statusbar_title">状态栏</string>
+    <string name="statusbar_summary">状态栏修改</string>
+    <string name="statusbar_set_background_color">修改背景色</string>
+    <string name="statusbar_set_background_color_summary">允许选择状态栏的背景色</string>
+    <string name="statusbar_background_color">背景色</string>
+    <string name="statusbar_background_color_summary">状态栏背景色</string>
+    <string name="statusbar_text_family">字体样式</string>
     <string name="statusbar_text_family_summary">已选状态栏字体样式: %s</string>
     <string name="statusbar_text_style">字体风格</string>
     <string name="statusbar_text_style_summary">已选状态栏字体风格: %s</string>
@@ -88,7 +89,7 @@
     <string name="font_size">字体大小</string>
     <string name="network_speed_exp_statusbar_summary">在展开状态栏中显示当前网速</string>
     <string name="network_speed_exp_statusbar">当前网速</string>
-	<!-- Clock -->
+    <!-- Clock -->
     <string name="clock">时钟</string>
     <string name="clock_hide">隐藏时钟</string>
     <string name="clock_hide_summary">不在状态栏中显示时钟</string>
@@ -120,6 +121,15 @@
     <string name="custom_carrier_logo_summary">使用图片标识替代运营商标签</string>
     <string name="select_carrier_logo">选择标识</string>
     <string name="select_carrier_logo_summary">%s</string>
+    <string name="select_carrier_logo_2">选择第二标识</string>
+    <string name="use_own_carrier_logo">自定义运营商标识</string>
+    <string name="use_own_carrier_logo_summary">你可以选择自己的运营商标识</string>
+    <string name="own_carrier_logo">选择自定义标识</string>
+    <string name="own_carrier_logo_summary">%s</string>
+    <string name="signal_bars_color">信号颜色</string>
+    <string name="signal_bars_color_summary">设定移动网络信号指示条颜色</string>
+    <string name="signal_bars_color_2">第二信号颜色</string>
+    <string name="signal_bars_color_summary_2">设定移动网络信号指示条颜色 (第二张卡)</string>
     <string name="hide_roaming_icon">隐藏漫游图标</string>
     <!-- Notifications -->
     <string name="notifications">通知</string>
@@ -165,6 +175,8 @@
     <string name="show_navigation_bar">显示导航栏</string>
     <string name="navigation_bar_height_summary">高度: %s</string>
     <string name="navigation_bar_height">导航栏高度</string>
+    <string name="navigation_bar_color">导航栏颜色</string>
+    <string name="navigation_bar_color_summary">导航栏背景颜色</string>
     <string name="all_rotations_summary">允许所有旋转角度, 包括倒立</string>
     <string name="all_rotations">启用所有旋转角度</string>
     <string name="lockscreen_rotations_summary">允许锁屏旋转到横屏模式</string>
@@ -184,22 +196,23 @@
     <string name="custom_build_prop_name_value">ro.product.name</string>
     <string name="custom_build_prop_name">Name</string>
     <!-- Buttons -->
-    <string name="buttons">物理按键</string>
+    <string name="buttons">按键</string>
+    <string name="buttons_summary">按键重映射、按键动作等等</string>
     <string name="key_menu">菜单键 (MENU)</string>
     <string name="key_volume">音量键</string>
     <string name="double_click_menu_app_summary">选择双击菜单键时启动的应用</string>
     <string name="double_click_menu_app">双击菜单键</string>
     <string name="long_press_menu_action_summary">%s</string>
-    <string name="long_press_menu_action">长按菜单键</string>
+    <string name="long_press_menu_action">长按菜单键行为</string>
     <string name="double_tap_menu_action_summary">%s</string>
     <string name="double_tap_menu_action">双击菜单键行为</string>
     <string name="menu_action_default">默认</string>
     <string name="menu_action_previous_app">启动上一个应用</string>
     <string name="menu_action_sleep">锁定屏幕</string>
-    <string name="menu_action_custom_app">启动指定应用</string>
-    <string name="menu_action_torch">开启手电筒</string>
-    <string name="vol_key_cursor">音量键控制光标</string>
-    <string name="vol_key_cursor_summary">输入时使用音量键控制光标</string>
+    <string name="menu_action_custom_app">启动自定义应用</string>
+    <string name="menu_action_torch">打开手电筒</string>
+    <string name="vol_key_cursor">音量键光标控制</string>
+   <string name="vol_key_cursor_summary">输入时使用音量键控制光标</string>
     <string name="vol_key_cursor_reverse">交换按键</string>
     <string name="vol_key_cursor_reverse_summary">交换控制光标时的音量键</string>
     <string name="long_press_track_skip">音量键跳轨</string>
@@ -258,4 +271,14 @@
     <string name="app_music">音乐</string>
     <string name="launch_playback_screen">启动到播放界面</string>
     <string name="launch_playback_screen_summary">点击音乐弹出挂件时启动到播放界面。默认情况下会打开音乐播放器主界面</string>
+    <!-- Themes -->
+    <string name="app_themes">主题风格</string>
+    <string name="themes_reverse_tabs_order">反向标签顺序</string>
+    <string name="themes_reverse_tabs_order_summary">将标签顺序修改为: 我的, 分类, 排行, 精品</string>
+    <string name="themes_replace_lunar_dates">替换农历日期</string>
+    <string name="themes_replace_lunar_dates_summary">尝试寻找主题中的农历日期并替换为公历日期 (锁屏)</string>
+    <!-- Supermarket -->
+    <string name="app_supermarket">应用商店</string>
+    <string name="supermarket_reverse_tabs_order">反向标签顺序</string>
+    <string name="supermarket_reverse_tabs_order_summary">将标签顺序修改为: 管理, 分类, 排行, 精品</string>
 </resources>
