@@ -1,10 +1,17 @@
 <repository>
   <name>WSM repository</name>
-  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1383563439">
+  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1383894817">
 	<name>Mi-Tools</name> 
 	<summary>MIUI v5 all in one module</summary> 
 	<description html="true">&lt;p&gt;MIUI v5 all in one module. It handles framework, statusbar, launcher, sound, MIUI applications modifications.&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
+	<version>
+		<name>1.2</name> 
+		<code>12</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v12_88e898.apk</download> 
+		<md5sum>88e89807f9f257b6819e1954629e592f</md5sum> 
+		<changelog html="true">&lt;li&gt;Themes: added reverse tabs order&lt;/li&gt;&lt;li&gt;Themes: added option to change lockscreen (try to change) lunar dates to gregorian ones&lt;/li&gt;&lt;li&gt;Added Vodafone carrier logos&lt;/li&gt;&lt;li&gt;Fixed Reboot options menu (issues with handling reboot options with less options selectes)&lt;/li&gt;&lt;li&gt;Added carrier logo selection for Dual-SIM devices&lt;/li&gt;&lt;li&gt;Fixed statusbar color settings&lt;/li&gt;&lt;li&gt;Added mobile network signal bars color settings (both for Single and Dual-SIM devices)&lt;/li&gt;&lt;li&gt;Supermarket: added reverse tabs order&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
+	</version>
 	<version>
 		<name>1.1</name> 
 		<code>11</code> 
