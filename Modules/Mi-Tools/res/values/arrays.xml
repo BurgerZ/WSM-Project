@@ -147,6 +147,8 @@
         <item>Unity</item>
         <item>Velcom</item>
         <item>Velcom</item>
+        <item>Vodafone</item>
+        <item>Vodafone</item>
         <item>WSM</item>
     </string-array>
     <string-array name="carrier_logo_values" translatable="false">
@@ -174,6 +176,8 @@
         <item>carrier_white_unity</item>
         <item>carrier_white_velcom</item>
         <item>carrier_color_velcom</item>
+        <item>carrier_white_vodafone</item>
+        <item>carrier_color_vodafone</item>
         <item>carrier_white_wsm</item> 
     </string-array>   
     <string-array name="carrier_logo_drawables" translatable="false">
@@ -201,6 +205,8 @@
         <item>@drawable/carrier_white_unity</item>
         <item>@drawable/carrier_white_velcom</item>
         <item>@drawable/carrier_color_velcom</item>
+        <item>@drawable/carrier_white_vodafone</item>
+        <item>@drawable/carrier_color_vodafone</item>
         <item>@drawable/carrier_white_wsm</item>
     </string-array> 
     <string-array name="advanced_reboot_menu_items_defvalues">

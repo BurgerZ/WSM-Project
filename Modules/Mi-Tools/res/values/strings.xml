@@ -10,6 +10,7 @@
         \u2022 Carrier Label\n
         \u2022 Center Clock\n
         \u2022 Current Track Launch\n
+        \u2022 Extra Battery Info\n
         \u2022 Hide Icons Text\n
         \u2022 Holidays\n
         \u2022 MMS Festival\n
@@ -120,6 +121,15 @@
     <string name="custom_carrier_logo_summary">Use image logo for carrier</string>
     <string name="select_carrier_logo">Select logo</string>
     <string name="select_carrier_logo_summary">%s</string>
+    <string name="select_carrier_logo_2">Select logo 2</string>
+    <string name="use_own_carrier_logo">Own carrier logo</string>
+    <string name="use_own_carrier_logo_summary">You will be able to select your own carrier logo</string>
+    <string name="own_carrier_logo">Select your own logo</string>
+    <string name="own_carrier_logo_summary">%s</string>
+    <string name="signal_bars_color">Signal bars color</string>
+    <string name="signal_bars_color_summary">Set mobile network signal bars color</string>
+    <string name="signal_bars_color_2">Signal bars color 2</string>
+    <string name="signal_bars_color_summary_2">Set mobile network signal bars color (second SIM)</string>
     <string name="hide_roaming_icon">Hide roaming icon</string>
     <!-- Notifications -->
     <string name="notifications">Notifications</string>
@@ -166,6 +176,8 @@
     <string name="show_navigation_bar">Show navigation bar</string>
     <string name="navigation_bar_height_summary">Height: %s</string>
     <string name="navigation_bar_height">Navigation bar height</string>
+    <string name="navigation_bar_color">Navigation bar color</string>
+	<string name="navigation_bar_color_summary">Background color of the navigation bar</string>
     <string name="all_rotations_summary">Enable all rotation angles, including upside-down</string>
     <string name="all_rotations">Enable all rotation angles</string>
     <string name="lockscreen_rotations_summary">Allow lockscreen to rotate to landscape</string>
@@ -186,6 +198,7 @@
     <string name="custom_build_prop_name">Name</string>
     <!-- Buttons -->
     <string name="buttons">Buttons</string>
+    <string name="buttons_summary">Buttons mappings, actions etc.</string>
     <string name="key_menu">Menu</string>
     <string name="key_volume">Volume</string>
     <string name="double_click_menu_app_summary">Select application to launch by MENU button double click</string>
@@ -265,4 +278,8 @@
     <string name="themes_reverse_tabs_order_summary">Change tabs order to Local, Categories, Popular, Featured</string>
     <string name="themes_replace_lunar_dates">Replace Lunar dates</string>
     <string name="themes_replace_lunar_dates_summary">Try to find and replace Lunar dates with Gregorian ones in themes (lockscreens)</string>
+    <!-- Supermarket -->
+    <string name="app_supermarket">Supermarket</string>
+    <string name="supermarket_reverse_tabs_order">Reverse tabs order</string>
+    <string name="supermarket_reverse_tabs_order_summary">Change tabs order to Local, Categories, Popular, Featured</string>
 </resources>

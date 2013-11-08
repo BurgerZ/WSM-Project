@@ -10,6 +10,7 @@
         \u2022 Carrier Label\n
         \u2022 Center Clock\n
         \u2022 Current Track Launch\n
+        \u2022 Extra Battery Info\n
         \u2022 Hide Icons Text\n
         \u2022 Holidays\n
         \u2022 MMS Festival\n
@@ -120,6 +121,15 @@
     <string name="custom_carrier_logo_summary">Использовать логотип оператора</string>
     <string name="select_carrier_logo">Выбор логотипа</string>
     <string name="select_carrier_logo_summary">%s</string>
+    <string name="select_carrier_logo_2">Выбор логотипа 2</string>
+    <string name="use_own_carrier_logo">Свой логотип оператора</string>
+    <string name="use_own_carrier_logo_summary">Возможность выбрать свой логотип оператора (.png)</string>
+    <string name="own_carrier_logo">Выбор своего логотипа</string>
+    <string name="own_carrier_logo_summary">%s</string>
+    <string name="signal_bars_color">Цвет индикатора сети</string>
+    <string name="signal_bars_color_summary">Выбор цвета иконок индикатора уровня сигнала мобильной сети</string>
+    <string name="signal_bars_color_2">Цвет индикатора сети 2</string>
+    <string name="signal_bars_color_summary_2">Выбор цвета иконок индикатора уровня сигнала мобильной сети (вторая SIM)</string>
     <string name="hide_roaming_icon">Скрыть иконку роуминга</string>
     <!-- Notifications -->
     <string name="notifications">Уведомления</string>
@@ -166,6 +176,8 @@
     <string name="show_navigation_bar">Показывать меню навигации</string>
     <string name="navigation_bar_height_summary">Высота: %s</string>
     <string name="navigation_bar_height">Высота меню навигации</string>
+    <string name="navigation_bar_color">Цвет меню навигации</string>
+	<string name="navigation_bar_color_summary">Цвет фона меню навигации</string>
     <string name="all_rotations_summary">Включает все углы поворота, включая 360°</string>
     <string name="all_rotations">Все углы поворота</string>
     <string name="lockscreen_rotations_summary">Возможность вращать экран блокировки (на MIUI v5 выглядит криво)</string>
@@ -186,6 +198,7 @@
     <string name="custom_build_prop_name">Имя</string>
     <!-- Buttons -->
     <string name="buttons">Клавиши</string>
+    <string name="buttons_summary">Назначение действий на клавиши телефона</string>
     <string name="key_menu">Меню</string>
     <string name="key_volume">Громкость</string>
     <string name="double_click_menu_app_summary">Выбор приложения для запуска по нажатию на клавишу МЕНЮ</string>
@@ -265,4 +278,8 @@
     <string name="themes_reverse_tabs_order_summary">Меняет порядок вкладок на обратный (Локальные, Категории, Популярные и Новые)</string>
     <string name="themes_replace_lunar_dates">Заменять лунный календарь</string>
     <string name="themes_replace_lunar_dates_summary">Пытаться найти и заменить даты лунного календаря на грегорианский (пока только для экрана блокировки)</string>
+    <!-- Supermarket -->
+    <string name="app_supermarket">Mi-Market</string>
+    <string name="supermarket_reverse_tabs_order">Обратный порядок вкладок</string>
+    <string name="supermarket_reverse_tabs_order_summary">Меняет порядок вкладок на обратный (Локальные, Категории, Популярные и Новые)</string>
 </resources>

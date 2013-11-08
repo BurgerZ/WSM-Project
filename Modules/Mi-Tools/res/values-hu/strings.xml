@@ -41,7 +41,7 @@
     <string name="typeface_family_thin">Vékony</string>
     <string name="clock_right">Jobbra (alapért.)</string>
     <string name="clock_center">Középre</string>
-    <string name="clock_center">Középre (iOS 7)</string>
+    <string name="clock_center_ios7">Középre (iOS 7)</string>
     <string name="clock_left">Balra</string>
     <string name="text_small">Kicsi</string>
     <string name="text_medium">Közepes</string>
