@@ -9,8 +9,9 @@
         \u2022 Böngészőlapok tördelése\n
         \u2022 Szolgáltatónév\n
         \u2022 Center Clock\n
-        \u2022 Zeneszám indítása\n
-        \u2022 Ikonszöveg elrejtés\n
+	\u2022 Zeneszám indítása\n
+        \u2022 Extra akkumulátor info\n
+        \u2022 Ikonszöveg elrejtés\n      
         \u2022 Ünnepnapok\n
         \u2022 MMS Festival\n
         \u2022 Újraindítás menü\n
@@ -24,7 +25,7 @@
         BurgerZ MD, Copyright © 2013, Minden jog fenntartva</string>         
     <!-- About -->
     <string name="about_module">A modulról</string>
-    <!--  -->
+    <!-- AppPickerPreference -->
     <string name="preference_app_picker_search">Keresés</string>
     <string name="preference_app_picker_none">(Nincs)</string>
 
@@ -121,7 +122,16 @@
     <string name="custom_carrier_logo_summary">Logo használata a szolgáltatónév helyett</string>
     <string name="select_carrier_logo">Logo kiválasztása</string>
     <string name="select_carrier_logo_summary">%s</string>
-    <string name="hide_roaming_icon">Roamingikon elrejtése</string>
+    <string name="select_carrier_logo_2">2.SIM logo választás</string>
+    <string name="use_own_carrier_logo">Saját szolgáltató logo</string>
+    <string name="use_own_carrier_logo_summary">Választhat saját szolgáltató logot</string>
+    <string name="own_carrier_logo">Saját szolgáltató logo választás</string>
+    <string name="own_carrier_logo_summary">%s</string>
+    <string name="signal_bars_color">Térerő ikon színe</string>
+    <string name="signal_bars_color_summary">A mobilhálózat térerő ikon színének beállítása</string>
+    <string name="signal_bars_color_2">2.SIM térerő ikon színe</string>
+    <string name="signal_bars_color_summary_2">A mobilhálózat térerő ikon színének beállítása (2.SIM)</string>
+    <string name="hide_roaming_icon">Adatbarangolás ikon elrejtése</string>
     <!-- Notifications -->
     <string name="notifications">Értesítések</string>
     <string name="hide_ongoing_ime_switcher_summary">Gépelés közben a beviteli módszer választó értesítésének kijelzése (billentyűzet)</string>
@@ -158,8 +168,8 @@
     <string name="power_reboot_hot">Gyors</string> 
     <string name="power_reboot_bootloader">Fastboot</string> 
     <string name="power_reboot_switch_system">Rendszer váltás (XiaoMi telefonoknál)</string> 
-    <string name="power_reboot_system_1">Újraindítás a System 1-en</string> 
-    <string name="power_reboot_system_2">Újraindítás a System 2-n</string> 
+    <string name="power_reboot_system_1">System 1 újraindítása</string> 
+    <string name="power_reboot_system_2">System 2 újraindítása</string> 
     <string name="power_cancel">Mégsem</string> 
     <!-- Device -->
     <string name="device">Eszköz</string>
@@ -167,6 +177,8 @@
     <string name="show_navigation_bar">Navigációs sáv megjelenítése</string>
     <string name="navigation_bar_height_summary">Magasság: %s</string>
     <string name="navigation_bar_height">Navigációs sáv magassága</string>
+    <string name="navigation_bar_color">Navigációs sáv háttérszíne</string>
+    <string name="navigation_bar_color_summary">A Navigációs sáv háttérszínének beállítása</string>
     <string name="all_rotations_summary">Minden elforgatási szög engedélyezése, beleértve a fejjel lefelét is</string>
     <string name="all_rotations">Minden elforgatási szög</string>
     <string name="lockscreen_rotations_summary">Képernyőzár fekvő módban való elforgatásának engedélyezése</string>
@@ -187,10 +199,11 @@
     <string name="custom_build_prop_name">Név</string>
     <!-- Buttons -->
     <string name="buttons">Gombok művelete</string>
+    <string name="buttons_summary">Gombokhoz rendelt műveletek</string>
     <string name="key_menu">Menü gomb művelete</string>
     <string name="key_volume">Hangerőgombok</string>
     <string name="double_click_menu_app_summary">A MENÜ gomb dupla kattintásákor elinduló alklamazás kiválasztása</string>
-    <string name="double_click_menu_app">Duplakattintáskor</string> 
+    <string name="double_click_menu_app">Dupla kattintáskor</string> 
     <string name="long_press_menu_action">Hosszanti megnyomáskor</string>
     <string name="double_tap_menu_action">Dupla érintéskor</string>
     <string name="menu_action_default">Alapértelmezett</string>
@@ -209,8 +222,11 @@
     <string name="sound">Hang</string>
     <string name="disable_volume_control_sound">BEEP hang letiltása</string>
     <string name="disable_volume_control_sound_summary">Ez a modul letiltja a hangerőszabályzáskor kiadó értesítési hangot.</string>    <string name="advanced">További</string>
+    <!-- Advanced -->
+    <string name="advanced">További</string>
     <string name="extra_battery_info_summary">Extra akkumulátor információ elérése a Beállításokban</string>
-    <string name="extra_battery_info">Extra akkumulátor info</string>    <!-- Launcher prefs-->
+    <string name="extra_battery_info">Extra akkumulátor info</string>    
+    <!-- Launcher prefs-->
     <string name="launcher">Launcher</string>
     <string name="launcher_summary">Launcherhez kapcsolódó beállítások</string>
     <string name="hide_icons_label">Ikon szöveg elrejtése</string>
@@ -258,6 +274,10 @@
     <string name="app_themes">Témák</string>
     <string name="themes_reverse_tabs_order">Lapok fordított sorrendben</string>
     <string name="themes_reverse_tabs_order_summary">Lapok sorrendjének megváltoztatása: Helyi, Kategóriák, Népszerű, Kiemelt</string>
-    <string name="themes_replace_lunar_dates">Holnaptár lecserélése</string>
+    <string name="themes_replace_lunar_dates">Holdnaptár lecserélése</string>
     <string name="themes_replace_lunar_dates_summary">Holdnaptár dátumának lecserélése Gergelynaptár dátumára a témákban (képernyőzárak)</string>
+    <!-- Supermarket -->
+    <string name="app_supermarket">Supermarket</string>
+    <string name="supermarket_reverse_tabs_order">Lapok fordított sorrendben</string>
+    <string name="supermarket_reverse_tabs_order_summary">Lapok sorrendjének megváltoztatása: Helyi, Kategóriák, Népszerű, Kiemelt</string>
 </resources>
