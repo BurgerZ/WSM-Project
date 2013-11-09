@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="none">---</string>
+    <string name="installer_app_process">app_process</string>
+    <string name="installer_wsm_framework">XposedBridge.jar</string>
+    <string name="app_name">WSM Tools</string>
+    <string name="apply">Zastosuj</string>
+    <string name="act_title_settings">Ustawienia</string>
+    <string name="act_title_about">Informacje</string>
+    <string name="act_title_installer">Zarządzaj</string>
+    <string name="fragment_modules">Moduły</string>
+    <string name="fragment_online">W sieci</string>
+    <string name="versions_wsm_tools">Wersja WSM Tools</string>
+    <string name="author">Autor</string>
+    <string name="graphics">Wygląd</string>
+    <string name="check_for_updates">Sprawdzaj aktualizacje</string>
+    <string name="copyright">BurgerZ MD (http://burgerz.pro)\nCopyright © 2013, Wszystkie prawa zastrzeżone</string>
+    <string name="copyright_xposed">Bazuje na Xposed</string>
+    <string name="information_faq">Szczegóły</string>
+    <string name="information_faq_summary">F.A.Q., tłumaczenia, podziękowania, pomoc</string>
+    <string name="pref_feedback_title">Wsparcie</string>
+    <string name="pref_feedback_summary">Raporty, prośby o moduły, itp.</string>
+    <string name="pref_manage_title">Zarządzaj WSM</string>
+    <string name="pref_manage_summary">Zainstaluj, Aktualizuj, Usuń</string>
+    <string name="pref_repositories_alert">Niektóre moduły z magazynu Xposed mogą sprawić, że telefon przestanie działać!\nKorzystasz z nich na własną odpowiedzialność!</string>
+    <string name="pref_repositories_title">Wybierz magazyny</string>
+    <string name="pref_show_hidden_modules_title">Ukryte moduły</string>
+    <string name="pref_show_hidden_modules_summary">Pokazuj na liście ukryte moduły</string>
+    <string name="pref_show_module_info_title">Informacje o module</string>
+    <string name="pref_show_module_info_summary">Pokaż informacje klikając na ikonę modułu</string>
+    <string name="pref_system_toasts_title">Powiadomienia w dymkach</string>
+    <string name="pref_system_toasts_summary">Pokazuje wiadomości WSM w dymkach</string>
+    <string name="pref_about_title">Informacje</string>
+    <string name="bottom_bar_btn_settings">Ustawienia</string>
+    <string name="bottom_bar_btn_reboot">Restart</string>
+    <string name="bottom_bar_btn_refresh">Odśwież</string>
+    <string name="module_opt_hide_title">Ukryj moduł</string>
+    <string name="module_opt_hide_summary">Wyświetl ukryte moduły włączając opcję "Ukryte moduły" w ustawieniach</string>
+    <string name="dialog_are_you_sure">Jesteś pewny?</string>
+    <string name="dialog_phone_will_be_rebooted">Telefon zostanie ponownie uruchomiony</string>
+    <string name="dialog_progress_updating">Aktualizowanie...</string>
+    <string name="dialog_update_available">Nowa wersja WSM Tools.\nObecna to: %1$s\nNowa to: %2$s\nPo instalacji nowej wersji przejdź do ustawień - Zarządzanie WSM by sprawdzić czy zaszła potrzeba aktualizacji bibliotek.</string>
+    <string name="menu_select_all">Zaznacz wszystko</string>
+    <string name="menu_unselect_all">Odznacz wszystko</string>
+
+    <!-- InstallerActivity -->
+    <string name="installer_install">Zainstaluj</string>
+    <string name="installer_uninstall">Odinstaluj</string>
+    <string name="installer_reboot">Restart</string>
+    <string name="installer_versions">WERSJA:</string>
+    <string name="installer_installed_version">ZAINSTALOWANA WERSJA</string>
+    <string name="installer_bundled_version">ZAŁĄCZONA WERSJA</string>
+    <string name="installer_phone_not_compatible">WSM nie jest (jeszcze) kompatybilny z Android SDK w wersji %1$d lub Twoim procesorem (%2$s).</string>
+    <string name="installer_not_tested_but_compatible">WSM nie był testowany na Android SDK w wersji %d, ale wydaje się być kompatybilny. Mimo tego instalujesz go na własne ryzyko.</string>
+
+    <!-- RepoLoader -->
+    <string name="repo_download_failed_http">Pobieranie %1$s nieudane: %2$d (%3$s)</string>
+    <string name="repo_download_failed">Pobieranie %1$s nieudane: %2$s</string>
+    <string name="repo_load_failed">Nie można wczytać magazynu %1$s:\n%2$s</string>
+
+    <!-- Download tab -->
+    <string name="changes">Lista zmian:</string>
+    <string name="download_author">od %s</string>
+    <string name="download_unknown_author">autor nieznany</string>
+    <string name="download_status_version">Wersja: %1$s</string>
+    <string name="download_timestamps">Dodano %1$s \u00b7 Zaktualizowano %2$s</string>
+    <string name="download_sorting_title">Sortuj według</string>
+    <string name="download_sorting_status">Statusu</string>
+    <string name="download_sorting_updated">Ostatniej aktualizacji</string>
+    <string name="download_sorting_created">Daty utworzenia</string>
+    <string name="download_section_framework">Framework</string>
+    <string name="download_section_update_available">Aktualizacja dostępna</string>
+    <string name="download_section_installed">Zainstalowane</string>
+    <string name="download_section_not_installed">Nie zainstalowane</string>
+    <string name="download_section_24h">Ostatnie 24 godziny</string>
+    <string name="download_section_7d">Ostatnie 7 dni</string>
+    <string name="download_section_30d">Ostatnie 30 dni</string>
+    <string name="download_section_older">Starsze niż 30 dni</string>
+
+    <!-- DownloadUtils -->
+    <string name="download_md5sum_incorrect">Niepoprawna suma MD5 (pobrano: %1$s, rozmiar: %2$s)</string>
+    <string name="download_could_not_read_file">Nie można odczytać pobranego pliku: %s</string>
+    <string name="download_no_valid_apk">Poprany plik jest w złym formacie (bądź jest niekompatybilny)</string>
+    <string name="download_incorrect_package_name">Niepoprawna nazwa (pobrana: %1$s, oczekiwana: %2$s)</string>
+
+    <!--  DownloadView -->
+    <string name="download_view_download">Pobierz</string>
+    <string name="download_view_install">Zainstaluj</string>
+    <string name="download_view_cancel">Anuluj</string>
+    <string name="download_view_no_url">Brak dostępnego łącza</string>
+    <string name="download_view_running">Pobieranie (%1$,d z %2$,d kB)</string>
+    <string name="download_view_waiting">Uruchamianie pobierania</string>
+    <string name="download_view_successful">Pobrano</string>
+    <string name="download_view_failed">Błąd pobierania (%d)</string>
+
+    <string name="module_installed">Zainstalowano moduł WSM</string>
+    <string name="module_empty_description">(brak opisu)</string>
+    <string name="module_no_ui">Moduł nie oferuje oprawy graficznej</string>
+    <string name="no_wsm_modules_found">Brak zainstalowanych modułów!</string>
+    <string name="wsm_module_list_updated">Zaktualizowano listę modułów\nZmiany zostaną wprowadzone po restarcie</string>
+    <string name="warning_wsm_min_version">Moduł wymaga WSM w wersji %s, może nie działać poprawnie.</string>
+    <string name="no_min_version_specified">Moduł nie precyzuje wymaganej wersji WSM.</string>
+    <string name="warning_min_version_too_low">Moduł został stworzony pod wersję %1$s, z powodu niekompatybilności z wersją %2$s, został wyłączony.</string>
+    <string name="btnDeleteModule">Usuń moduł</string>
+
+    <!--  ModuleSettingsActivity -->
+    <string name="module_settings">Ustawienia modułu</string>
+    <string name="module_description">Opis modułu</string>
+    <string name="module_info_version">Wersja</string>
+    <string name="modules_count">Moduły: %1$d | W użyciu: %2$d</string>
+</resources>
