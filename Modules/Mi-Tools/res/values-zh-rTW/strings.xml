@@ -10,7 +10,7 @@
         \u2022 Carrier Label(電信業者標籤)\n
         \u2022 Center Clock(時鐘置中)\n
         \u2022 Current Track Launch(當前曲目啟動)\n
-        \u2022 Extra Battery Info\n
+        \u2022 Extra Battery Info(額外電池資訊)\n
         \u2022 Hide Icons Text(隱藏圖示文字)\n
         \u2022 Holidays(假日)\n
         \u2022 MMS Festival(MMS 節慶)\n
@@ -119,6 +119,15 @@
     <string name="custom_carrier_logo_summary">使用圖片 LOGO 替代電信業者標誌</string>
     <string name="select_carrier_logo">選擇標誌</string>
     <string name="select_carrier_logo_summary">%s</string>
+    <string name="select_carrier_logo_2">選擇標誌 2</string>
+    <string name="use_own_carrier_logo">自己的電信業者標誌</string>
+    <string name="use_own_carrier_logo_summary">您將能夠選擇您自己的電信業者標誌</string>
+    <string name="own_carrier_logo">選擇您的電信業者標誌</string>
+    <string name="own_carrier_logo_summary">%s</string>
+    <string name="signal_bars_color">訊號欄顏色</string>
+    <string name="signal_bars_color_summary">設定行動網路訊號欄顏色</string>
+    <string name="signal_bars_color_2">訊號欄顏色 2</string>
+    <string name="signal_bars_color_summary_2">設定訊號欄顏色(SIM 卡 2)</string>
     <string name="hide_roaming_icon">隱藏漫遊圖示</string>
     <!-- Notifications -->
     <string name="notifications">通知</string>
@@ -164,6 +173,8 @@
     <string name="show_navigation_bar">顯示海苔條</string>
     <string name="navigation_bar_height_summary">高度: %s</string>
     <string name="navigation_bar_height">海苔條高度</string>
+    <string name="navigation_bar_color">海苔條顏色</string>
+    <string name="navigation_bar_color_summary">海苔條的背景顏色</string>
     <string name="all_rotations_summary">允許所有旋轉角度, 包括倒立</string>
     <string name="all_rotations">啟用所有旋轉角度</string>
     <string name="lockscreen_rotations_summary">允許鎖定螢幕旋轉到橫向螢幕模式</string>
@@ -184,6 +195,7 @@
     <string name="custom_build_prop_name">Name</string>
     <!-- Buttons -->
     <string name="buttons">按鍵選項</string>
+    <string name="buttons_summary">按鍵映射, 操作 etc.</string>
     <string name="key_menu">選單鍵</string>
     <string name="key_volume">音量鍵</string>
     <string name="double_click_menu_app_summary">設定雙擊 MENU 鍵觸發操作</string>
@@ -241,10 +253,10 @@
     <string name="holidays_selector_country">假期國家</string>
     <string name="holidays_selector_country_summary">%s</string>
     <string name="holidays_selector_country_original">預設 (中國假期)</string> 
-    <string name="holidays_selector_country_russia">Russia</string> 
-    <string name="holidays_selector_country_ukraine">Ukraine</string> 
-    <string name="holidays_selector_country_slovakia">Slovakia</string>
-    <string name="holidays_selector_country_czech">Czech Republic</string> 
+    <string name="holidays_selector_country_russia">俄羅斯</string> 
+    <string name="holidays_selector_country_ukraine">烏克蘭</string> 
+    <string name="holidays_selector_country_slovakia">斯洛伐克</string>
+    <string name="holidays_selector_country_czech">捷克共和國</string> 
     <!-- QuickSearchBox -->
     <string name="app_quicksearchbox">快速搜尋欄</string>
     <string name="quicksearchbox_marketplace">搜尋市場</string>
@@ -257,4 +269,8 @@
     <string name="app_music">音樂</string>
     <string name="launch_playback_screen">啟動到播放界面</string>
     <string name="launch_playback_screen_summary">輕觸音樂彈出掛件時啟動到播放頁面。預設情況下會開啟音樂播放器主畫面</string>
+    <!-- Supermarket -->
+    <string name="app_supermarket">市場</string>
+    <string name="supermarket_reverse_tabs_order">反向標籤順序</string>
+    <string name="supermarket_reverse_tabs_order_summary">改變標籤，以本地，類別，熱門精選為順序</string>
 </resources>
