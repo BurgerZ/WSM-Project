@@ -3,7 +3,7 @@
 
     <string name="module_name">Mi-Tools</string>
     <string name="module_desc">MIUI 多功能模組</string>
-    <string name="module_desc_full">MIUI 多功能模組\n
+    <string name="module_desc_full">MIUI 多功能集合模組\n
         警告：\n
         如果您安装了以下模組，您必須先行停用它們:\n
         \u2022 Browser Autofit(瀏覽器自適應)\n
