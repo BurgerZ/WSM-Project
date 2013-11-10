@@ -1,0 +1,5 @@
+<resources>
+    <string name="module_name">當前曲目啟動</string>
+    <string name="module_desc">啟動到音樂播放界面</string>
+    <string name="module_desc_full">輕觸音樂彈出掛件（滑動音樂圖示）時啟動到音樂播放介面。預設情況下，會開啟音樂播放介面就像輕觸音樂圖示一樣）</string>
+</resources>
