@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">時間置中</string>
+    <string name="module_desc">允許您修改狀態列時鐘配置</string>
+    <string name="module_desc_full">允許您修改狀態列時鐘配置。可用的模式有：置中，靠左，靠右（預設）和 隱藏。</string>
+    <string name="clock_hide">隱藏</string> 
+    <string name="clock_right">靠右 (預設)</string> 
+    <string name="clock_left">靠左</string> 
+    <string name="clock_center">置中</string> 
+    <string name="clock_center_signal_left">置中 (訊號向右移)</string> 
+    <string name="clock_center_iphone">置中 (ios 7 風格)</string>
+    <string name="clock_position">時鐘位置</string> 
+    <string name="apply">套用</string>
+</resources>
