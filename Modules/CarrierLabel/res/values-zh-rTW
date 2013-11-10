@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">電信業者標籤</string>
+    <string name="module_desc">允許您自訂您的電信業者標籤</string>
+    <string name="module_desc_full">允許您自訂您的電信業者標籤。您可以在系統設定 - 通知欄設定 中找到新增選項。在某些裝置上可能無法運行。</string>
+    <string name="info">請在此處打上您想要顯示的電信業者標籤，輕觸儲存後切換"飛航模式"。</string> 
+    <string name="pref_carrier_title">電信業者標籤</string> 
+    <string name="hint_carrier_edit">输入运营商标签</string>
+    <string name="no_sim_service">請插入您的 SIM 卡，並確認您的裝置未處於"飛航模式"。</string> 
+    <string name="save">儲存</string> 
+    <string name="airplane_on">開啟飛航模式</string> 
+    <string name="airplane_off">關閉飛航模式</string> 
+</resources>
