@@ -209,12 +209,23 @@
     <string name="swap_long_press_skip_keys_summary">Zamienia vol - na + i odwrotnie</string>
     <!-- Sound -->
     <string name="sound">Dźwięk</string>
+    <string name="sound_summary">Opcje dźwięków</string>
     <string name="disable_volume_control_sound">Wyłącz odgłos BEEP</string>
     <string name="disable_volume_control_sound_summary">Wyłącza charakterystyczne BEEPanie podczas dostosowywania głośności</string>
+    <string name="volume_step">Ustaw głośność</string>
+    <string name="volume_steps_voice_call">Połączeń</string>
+    <string name="volume_steps_system">Systemu</string>
+    <string name="volume_steps_ring">Dzwonka</string>
+    <string name="volume_steps_music">Multimediów</string>
+    <string name="volume_steps_alarm">Budzika</string>
+    <string name="volume_steps_notification">Powiadomień</string>
+    <string name="volume_steps_bluetooth">Słuchawki BT</string>
     <!-- Advanced -->
     <string name="advanced">Dodatkowe</string>
     <string name="extra_battery_info_summary">Dodaje rozbudowane statystyki baterii do menu w ustawieniach</string>
     <string name="extra_battery_info">Rozszerzone informacje o baterii</string>
+    <string name="disable_scrolling_cache_summary">Poprawia płynność przewijania</string>
+    <string name="disable_scrolling_cache">Usprawnij przewijanie</string>
     <!-- Launcher prefs-->
     <string name="launcher">Program uruchamiający</string>
     <string name="launcher_summary">Opcje programu uruchamiającego MIUI</string>
@@ -265,4 +276,10 @@
     <string name="app_supermarket">Supermarket</string>
     <string name="supermarket_reverse_tabs_order">Odwróć układ kart</string>
     <string name="supermarket_reverse_tabs_order_summary">Zmienia układ na: Lokalne, Kategorie, Polularne, Polecane</string>
+    <string name="supermarket_disable_autoupdates_check">Wyłącz aktualizacje</string>
+    <string name="supermarket_disable_autoupdates_check_summary">Wyłącza sprawdzanie aktualizacji i powiadomienia o nich</string>
+    <!-- Updater -->
+    <string name="app_updater">Aktualizacje</string>
+    <string name="updater_disable_autoupdates_check">Wyłącz aktualizacje</string>
+    <string name="updater_disable_autoupdates_check_summary">Wyłącza sprawdzanie aktualizacji i powiadomienia o nich</string>
 </resources>
