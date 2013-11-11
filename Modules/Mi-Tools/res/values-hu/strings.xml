@@ -221,7 +221,7 @@
     <string name="swap_long_press_skip_keys_summary">Hangerőgombok felcserélése (következő->előző és előző->következő)</string>
     <string name="sound">Hang</string>
     <string name="disable_volume_control_sound">BEEP hang letiltása</string>
-    <string name="disable_volume_control_sound_summary">Ez a modul letiltja a hangerőszabályzáskor kiadó értesítési hangot.</string>    <string name="advanced">További</string>
+    <string name="disable_volume_control_sound_summary">Ez a modul letiltja a hangerőszabályzáskor kiadó értesítési hangot.</string>
     <!-- Advanced -->
     <string name="advanced">További</string>
     <string name="extra_battery_info_summary">Extra akkumulátor információ elérése a Beállításokban</string>
