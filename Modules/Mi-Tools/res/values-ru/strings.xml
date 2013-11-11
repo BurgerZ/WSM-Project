@@ -222,12 +222,23 @@
     <string name="swap_long_press_skip_keys_summary">Меняет местами клавиши переключения треков</string>
     <!-- Sound prefs -->
     <string name="sound">Звук</string>
+    <string name="sound_summary">Настройки звука и всего, что его касается</string>
     <string name="disable_volume_control_sound">Отключить BEEP сигнал</string>
     <string name="disable_volume_control_sound_summary">Модуль отключает раздражающий звук, который появляется при регулировке громкости клавишами регулировки</string>
+    <string name="volume_step">Шаг громкости</string>
+    <string name="volume_steps_voice_call">Разговор</string>
+    <string name="volume_steps_system">Система</string>
+    <string name="volume_steps_ring">Рингтон</string>
+    <string name="volume_steps_music">Мультимедиа</string>
+    <string name="volume_steps_alarm">Будильник</string>
+    <string name="volume_steps_notification">Уведомления</string>
+    <string name="volume_steps_bluetooth">Bluetooth</string>
     <!-- Advanced -->
     <string name="advanced">Дополнительно</string>
     <string name="extra_battery_info_summary">Добавляет пункт с дополнительной информацией в настройки батареи</string>
-    <string name="extra_battery_info">Доп. инф. о батарее</string>
+    <string name="extra_battery_info">Доп. инфо о батарее</string>
+    <string name="disable_scrolling_cache_summary">Отключает кэширование списков при прокрутке</string>
+    <string name="disable_scrolling_cache">Отключить кэш прокрутки</string>
     <!-- Launcher prefs-->
     <string name="launcher">Рабочий стол</string>
     <string name="launcher_summary">Настройки рабочего стола</string>
@@ -282,4 +293,10 @@
     <string name="app_supermarket">Mi-Market</string>
     <string name="supermarket_reverse_tabs_order">Обратный порядок вкладок</string>
     <string name="supermarket_reverse_tabs_order_summary">Меняет порядок вкладок на обратный (Локальные, Категории, Популярные и Новые)</string>
+    <string name="supermarket_disable_autoupdates_check">Отключить проверку обновлений</string>
+    <string name="supermarket_disable_autoupdates_check_summary">Отключает автоматическую проверку обновлений</string>
+    <!-- Updater -->
+    <string name="app_updater">Обновление</string>
+    <string name="updater_disable_autoupdates_check">Отключить проверку обновлений</string>
+    <string name="updater_disable_autoupdates_check_summary">Отключает автоматическую проверку обновлений</string>
 </resources>

@@ -123,6 +123,7 @@
         <item>24</item>
     </string-array>
     <string-array name="carrier_logo_entries">
+        <item>AT&amp;T</item>
         <item>Beeline</item>
         <item>Beeline</item>
         <item>Clever</item>
@@ -143,15 +144,23 @@
         <item>Skylink</item>
         <item>Snapdragon</item>
         <item>Snapdragon</item>
+        <item>Sprint</item>
+        <item>Sprint</item>   
         <item>Tele2</item>
+        <item>Tmobile</item>
+        <item>Tmobile</item>
+        <item>Tmobile</item>
         <item>Unity</item>
         <item>Velcom</item>
         <item>Velcom</item>
+        <item>Verizon</item>
+        <item>Verizon</item>
         <item>Vodafone</item>
         <item>Vodafone</item>
         <item>WSM</item>
     </string-array>
     <string-array name="carrier_logo_values" translatable="false">
+        <item>carrier_white_att</item>
         <item>carrier_color_white_beeline</item>
         <item>carrier_color_beeline</item>
         <item>carrier_white_clever</item>
@@ -171,16 +180,24 @@
         <item>carrier_color_rostelecom</item>
         <item>carrier_white_skylink</item>
         <item>carrier_white_snapdragon</item>
-        <item>carrier_color_snapdragon</item>        
+        <item>carrier_color_snapdragon</item> 
+        <item>carrier_white_sprint</item>
+        <item>carrier_color_sprint</item>          
         <item>carrier_white_tele2</item>
+        <item>carrier_white_tmobile</item>
+        <item>carrier_white_tmobile2</item>
+        <item>carrier_color_tmobile</item>
         <item>carrier_white_unity</item>
         <item>carrier_white_velcom</item>
         <item>carrier_color_velcom</item>
+        <item>carrier_white_verizon</item>
+        <item>carrier_color_verizon</item>
         <item>carrier_white_vodafone</item>
         <item>carrier_color_vodafone</item>
         <item>carrier_white_wsm</item> 
     </string-array>   
     <string-array name="carrier_logo_drawables" translatable="false">
+        <item>@drawable/carrier_white_att</item>
         <item>@drawable/carrier_color_white_beeline</item>
         <item>@drawable/carrier_color_beeline</item>
         <item>@drawable/carrier_white_clever</item>
@@ -200,11 +217,18 @@
         <item>@drawable/carrier_color_rostelecom</item>
         <item>@drawable/carrier_white_skylink</item>
         <item>@drawable/carrier_white_snapdragon</item>
-        <item>@drawable/carrier_color_snapdragon</item>        
+        <item>@drawable/carrier_color_snapdragon</item>
+        <item>@drawable/carrier_white_sprint</item>   
+        <item>@drawable/carrier_color_sprint</item>        
         <item>@drawable/carrier_white_tele2</item>
+        <item>@drawable/carrier_white_tmobile</item>
+        <item>@drawable/carrier_white_tmobile2</item>
+        <item>@drawable/carrier_color_tmobile</item>
         <item>@drawable/carrier_white_unity</item>
         <item>@drawable/carrier_white_velcom</item>
         <item>@drawable/carrier_color_velcom</item>
+        <item>@drawable/carrier_white_verizon</item>
+        <item>@drawable/carrier_color_verizon</item>
         <item>@drawable/carrier_white_vodafone</item>
         <item>@drawable/carrier_color_vodafone</item>
         <item>@drawable/carrier_white_wsm</item>
@@ -255,5 +279,23 @@
         <item>@string/menu_action_sleep</item>
         <item>@string/menu_action_custom_app</item>
         <item>@string/menu_action_torch</item>
+    </string-array>
+    <string-array name="volume_steps_values">
+        <item>5</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="volume_steps_entries">
+        <item>5</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
     </string-array>
 </resources>

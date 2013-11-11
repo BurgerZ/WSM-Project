@@ -222,12 +222,23 @@
     <string name="swap_long_press_skip_keys_summary">Reverse skip track keys</string>
     <!-- Sound -->
     <string name="sound">Sound</string>
+    <string name="sound_summary">Sound related settings</string> 
     <string name="disable_volume_control_sound">Disable BEEP sound</string>
     <string name="disable_volume_control_sound_summary">Disables ugly BEEP sound while adjusting volume by vol. keys</string>
+    <string name="volume_step">Volume step</string>
+    <string name="volume_steps_voice_call">Voice call</string>
+    <string name="volume_steps_system">System</string>
+    <string name="volume_steps_ring">Ring</string>
+    <string name="volume_steps_music">Music</string>
+    <string name="volume_steps_alarm">Alarm</string>
+    <string name="volume_steps_notification">Notification</string>
+    <string name="volume_steps_bluetooth">Bluetooth</string>
     <!-- Advanced -->
     <string name="advanced">Advanced</string>
     <string name="extra_battery_info_summary">Add extra battery info to battery settings view</string>
     <string name="extra_battery_info">Extra battery info</string>
+    <string name="disable_scrolling_cache_summary">Disables scrolling cache for ListView objects</string>
+    <string name="disable_scrolling_cache">Disable scrolling cache</string>
     <!-- Launcher prefs-->
     <string name="launcher">Launcher</string>
     <string name="launcher_summary">Launcher related settings</string>
@@ -282,4 +293,10 @@
     <string name="app_supermarket">Supermarket</string>
     <string name="supermarket_reverse_tabs_order">Reverse tabs order</string>
     <string name="supermarket_reverse_tabs_order_summary">Change tabs order to Local, Categories, Popular, Featured</string>
+    <string name="supermarket_disable_autoupdates_check">Disable updates check</string>
+    <string name="supermarket_disable_autoupdates_check_summary">Disables auto updates check</string>
+    <!-- Updater -->
+    <string name="app_updater">Updater</string>
+    <string name="updater_disable_autoupdates_check">Disable updates check</string>
+    <string name="updater_disable_autoupdates_check_summary">Disables auto updates check</string>
 </resources>
