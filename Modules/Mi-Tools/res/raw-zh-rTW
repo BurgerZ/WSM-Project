@@ -1,0 +1,75 @@
+<html>
+        <head>
+                <script src="jquery.js"></script> 
+            <script src="photo-resize.js"></script>
+            <script type="text/javascript" charset="utf-8">
+                    $(document).ready(function() {
+                        $("img").photoResize({
+                                    bottomSpacing: 15
+                        });
+                    });
+            </script>
+                <title></title>
+        </head>
+        <body>
+                <img src="logo.png">
+                <h2 style="text-align: center;">
+                        <strong>MIUI v5 多功能模組</strong></h2>
+                <div>
+                        <strong>開發者:</strong> BurgerZ</div>
+                <div>
+                        <strong>圖片製作:</strong> DriffeX</div>
+                <div>
+                        <strong>模組版本:</strong> 1.2</div>
+                <div>
+                        &nbsp;</div>
+                <div>
+                        <span style="color:#ff0000;"><strong>警告:</strong></span></div>
+                <ol>
+                        <li>
+                                Mi-Tools 無法保證能在任何裝置上正常運行，特別針對於雙卡(雙 SIM 卡)手機來說可能無法使用！</li>
+                        <li>
+                                當"系統用戶介面"(SystemUI)重啟時（系統主題或是系統用戶介面可能發生崩潰）狀態列外觀將被重置，直到下次重啟前不會恢復成原本設定之樣式。</li>
+                        <li>
+                                如果您已經安裝了下列清單中的模組，請您停用它們:</li>
+                </ol>
+                <ul>
+                        <li>
+                                Browser Autofit(瀏覽器自適應)</li>
+                        <li>
+                                Carrier Label(電信業者標籤)</li>
+                        <li>
+                                Center Clock(時間置中)</li>
+                        <li>
+                                Current Track Launch(當前曲目啟動)</li>
+                        <li>
+                                Extra Battery Info(額外電池資訊)</li>
+                        <li>
+                                Hide Icons Text(隱藏圖示文字)</li>
+                        <li>
+                                Holidays(假日)</li>
+                        <li>
+                                MMS Festival(MMS 假日)</li>
+                        <li>
+                                Reboot Options(重啟選項)</li>
+                        <li>
+                                Search in Google Play(在 Google Play 商店搜尋)</li>
+                        <li>
+                                T9 Module(T9 模組)</li>
+                        <li>
+                                Units(單位)</li>
+                        <li>
+                                Volume Control Mute(音量控制靜音)</li>
+                        <li>
+                                Volume Skip Track(音量鍵跳過曲目)</li>
+                        <li>
+                                YellowPage(黃頁)</li>
+                </ul>
+                <div>
+                        該模組幾乎包含了所有 MIUI V5 所需的工具和修復補丁。</div>
+                <div>
+                        &nbsp;</div>
+                <div>
+                        <strong>幫助:&nbsp;<a href="mailto:wsm.tools@gmail.com?subject=WSM%20Feedback">wsm.tools@gmail.com</a></strong></div>
+        </body>
+</html>
