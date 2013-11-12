@@ -212,14 +212,14 @@
     <string name="sound_summary">Opcje dźwięków</string>
     <string name="disable_volume_control_sound">Wyłącz odgłos BEEP</string>
     <string name="disable_volume_control_sound_summary">Wyłącza charakterystyczne BEEPanie podczas dostosowywania głośności</string>
-    <string name="volume_step">Ustaw głośność</string>
-    <string name="volume_steps_voice_call">Połączeń</string>
-    <string name="volume_steps_system">Systemu</string>
-    <string name="volume_steps_ring">Dzwonka</string>
-    <string name="volume_steps_music">Multimediów</string>
-    <string name="volume_steps_alarm">Budzika</string>
-    <string name="volume_steps_notification">Powiadomień</string>
-    <string name="volume_steps_bluetooth">Słuchawki BT</string>
+    <string name="volume_step">Ilość kroków głośności</string>
+    <string name="volume_steps_voice_call">Połączenia</string>
+    <string name="volume_steps_system">System</string>
+    <string name="volume_steps_ring">Dzwonek</string>
+    <string name="volume_steps_music">Multimedia</string>
+    <string name="volume_steps_alarm">Budzik</string>
+    <string name="volume_steps_notification">Powiadomienia</string>
+    <string name="volume_steps_bluetooth">Słuchawka BT</string>
     <!-- Advanced -->
     <string name="advanced">Dodatkowe</string>
     <string name="extra_battery_info_summary">Dodaje rozbudowane statystyki baterii do menu w ustawieniach</string>
