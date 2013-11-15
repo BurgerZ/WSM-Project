@@ -279,7 +279,9 @@
     <string name="supermarket_disable_autoupdates_check">Wyłącz aktualizacje</string>
     <string name="supermarket_disable_autoupdates_check_summary">Wyłącza sprawdzanie aktualizacji i powiadomienia o nich</string>
     <!-- Updater -->
-    <string name="app_updater">Aktualizacje</string>
+    <string name="app_updater">Oficjalne aktualizacje systemu</string>
     <string name="updater_disable_autoupdates_check">Wyłącz aktualizacje</string>
     <string name="updater_disable_autoupdates_check_summary">Wyłącza sprawdzanie aktualizacji i powiadomienia o nich</string>
+    <string name="updater_english_changelog">Lista zmian po angielsku</string>
+    <string name="updater_english_changelog_summary">Wyświetla listę zmian po angielsku zamiast po chińsku</string>
 </resources>
