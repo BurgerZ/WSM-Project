@@ -299,4 +299,6 @@
     <string name="app_updater">Обновление</string>
     <string name="updater_disable_autoupdates_check">Отключить проверку обновлений</string>
     <string name="updater_disable_autoupdates_check_summary">Отключает автоматическую проверку обновлений</string>
+    <string name="updater_english_changelog">Список изменений на английском</string>
+    <string name="updater_english_changelog_summary">Включает принудительное отображение списка изменений на английском языке</string>
 </resources>

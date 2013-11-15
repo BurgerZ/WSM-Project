@@ -299,4 +299,6 @@
     <string name="app_updater">Updater</string>
     <string name="updater_disable_autoupdates_check">Disable updates check</string>
     <string name="updater_disable_autoupdates_check_summary">Disables auto updates check</string>
+    <string name="updater_english_changelog">Changelog in English</string>
+    <string name="updater_english_changelog_summary">Forces ROM changelogs to be shown in English</string>
 </resources>

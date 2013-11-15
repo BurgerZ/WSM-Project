@@ -126,6 +126,7 @@
         <item>AT&amp;T</item>
         <item>Beeline</item>
         <item>Beeline</item>
+        <item>Beeline</item>
         <item>Clever</item>
         <item>Kyivstar</item>
         <item>MegaFon</item>
@@ -161,6 +162,7 @@
     </string-array>
     <string-array name="carrier_logo_values" translatable="false">
         <item>carrier_white_att</item>
+        <item>carrier_white_beeline</item>
         <item>carrier_color_white_beeline</item>
         <item>carrier_color_beeline</item>
         <item>carrier_white_clever</item>
@@ -198,6 +200,7 @@
     </string-array>   
     <string-array name="carrier_logo_drawables" translatable="false">
         <item>@drawable/carrier_white_att</item>
+        <item>@drawable/carrier_white_beeline</item>
         <item>@drawable/carrier_color_white_beeline</item>
         <item>@drawable/carrier_color_beeline</item>
         <item>@drawable/carrier_white_clever</item>
