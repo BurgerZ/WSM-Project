@@ -1,10 +1,17 @@
 <repository>
   <name>WSM repository</name>
-  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1383894817">
+  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1384505198">
 	<name>Mi-Tools</name> 
 	<summary>MIUI v5 all in one module</summary> 
 	<description html="true">&lt;p&gt;MIUI v5 all in one module. It handles framework, statusbar, launcher, sound, MIUI applications modifications.&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
+	<version>
+		<name>1.3</name> 
+		<code>13</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v13_81a4f0.apk</download> 
+		<md5sum>81a4f02e5639613c24c59e277b0e697b</md5sum> 
+		<changelog html="true">&lt;li&gt;Added volume control steps ajustment&lt;/li&gt;&lt;li&gt;Added scrolling cache disable option&lt;/li&gt;&lt;li&gt;Added option to turn off auto updates check in SuperMarket and Updater apps&lt;/li&gt;&lt;li&gt;Added option to show Updater changelogs in English (for non-English locales)&lt;/li&gt;&lt;li&gt;Added new Beeline (simple white) carrier logo&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
+	</version>
 	<version>
 		<name>1.2</name> 
 		<code>12</code> 
