@@ -219,12 +219,23 @@
     <string name="swap_long_press_skip_keys_summary">交換 音量+ 和 音量-</string>
     <!-- Sound -->
     <string name="sound">音效設定</string>
+    <string name="sound_summary">音量相關設定</string> 
     <string name="disable_volume_control_sound">停用 Beep 音效聲</string>
     <string name="disable_volume_control_sound_summary">停用調整音效時所發出的 Beep 音效聲</string>
+    <string name="volume_step">音量調節</string>
+    <string name="volume_steps_voice_call">語音通話</string>
+    <string name="volume_steps_system">系統</string>
+    <string name="volume_steps_ring">鈴聲</string>
+    <string name="volume_steps_music">音樂</string>
+    <string name="volume_steps_alarm">鬧鐘</string>
+    <string name="volume_steps_notification">通知</string>
+    <string name="volume_steps_bluetooth">藍牙</string>
     <!-- Advanced -->
     <string name="advanced">進階選項</string>
     <string name="extra_battery_info_summary">在電池設定中新增電池資訊</string>
     <string name="extra_battery_info">額外電池資訊</string>
+    <string name="disable_scrolling_cache_summary">停用滾動緩取清單檢視對象</string>
+    <string name="disable_scrolling_cache">停用滾動快取</string>
     <!-- Launcher prefs-->
     <string name="launcher">桌面 (啟動器)選項</string>
     <string name="launcher_summary">桌面相關設定</string>
@@ -273,7 +284,8 @@
     <string name="app_supermarket">市場</string>
     <string name="supermarket_reverse_tabs_order">反向標籤順序</string>
     <string name="supermarket_reverse_tabs_order_summary">改變標籤，以本地，類別，熱門精選為順序</string>
-
+    <string name="supermarket_disable_autoupdates_check">停用升級檢查</string>
+    <string name="supermarket_disable_autoupdates_check_summary">停用自動升級檢查</string>
    <!-- Updater -->
     <string name="app_updater">升級檢查</string>
     <string name="updater_disable_autoupdates_check">停用升級檢查</string>
