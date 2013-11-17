@@ -220,8 +220,16 @@
     <string name="swap_long_press_skip_keys">Hangerőgombok felcserélése</string>
     <string name="swap_long_press_skip_keys_summary">Hangerőgombok felcserélése (következő->előző és előző->következő)</string>
     <string name="sound">Hang</string>
+    <string name="sound_summary">Hangerő beállítások</string> 
     <string name="disable_volume_control_sound">BEEP hang letiltása</string>
     <string name="disable_volume_control_sound_summary">Ez a modul letiltja a hangerőszabályzáskor kiadó értesítési hangot.</string>
+    <string name="volume_step">Hangerő léptéke</string>
+    <string name="volume_steps_voice_call">Beszédhang</string>
+    <string name="volume_steps_system">Rendszer</string>
+    <string name="volume_steps_ring">Csengőhang</string>
+    <string name="volume_steps_music">Zene</string>
+    <string name="volume_steps_alarm">Riasztás</string>
+    <string name="volume_steps_notification">Értesítések</string>
     <!-- Advanced -->
     <string name="advanced">További</string>
     <string name="extra_battery_info_summary">Extra akkumulátor információ elérése a Beállításokban</string>
@@ -280,4 +288,12 @@
     <string name="app_supermarket">Supermarket</string>
     <string name="supermarket_reverse_tabs_order">Lapok fordított sorrendben</string>
     <string name="supermarket_reverse_tabs_order_summary">Lapok sorrendjének megváltoztatása: Helyi, Kategóriák, Népszerű, Kiemelt</string>
+    <string name="supermarket_disable_autoupdates_check">Frissítések ellenőrzésének kikapcsolása</string>
+    <string name="supermarket_disable_autoupdates_check_summary">Automatikus frissítések ellenőrzésének kikapcsolása</string>
+    <!-- Updater -->
+    <string name="app_updater">Frissítés</string>
+    <string name="updater_disable_autoupdates_check">Frissítések ellenőrzésének kikapcsolása</string>
+    <string name="updater_disable_autoupdates_check_summary">Automatikus frissítések ellenőrzésének kikapcsolása</string>
+    <string name="updater_english_changelog">Változások listája (angol)</string>
+    <string name="updater_english_changelog_summary">ROM változások listájának mutatásaa angol nyelven</string>
 </resources>
