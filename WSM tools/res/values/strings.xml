@@ -7,6 +7,7 @@
     <string name="act_title_installer">Manage</string>
     <string name="fragment_modules">Modules</string>
     <string name="fragment_online">Online</string>
+    <string name="fragment_logs">Logs</string>
     <string name="versions_wsm_tools">WSM tools version</string>
     <string name="author">Author</string>
     <string name="graphics">Graphics</string>
@@ -23,6 +24,8 @@
     <string name="pref_repositories_title">Select repositories</string>
     <string name="pref_show_hidden_modules_title">Show hidden modules</string>
     <string name="pref_show_hidden_modules_summary">Show hidden modules in list</string>
+    <string name="pref_show_logs_tab_title">Show logs tab</string>
+    <string name="pref_show_logs_tab_summary">Show framework logs tab</string>
     <string name="pref_show_module_info_title">Show module info</string>
     <string name="pref_show_module_info_summary">Show module info by clicking on it\'s icon</string>
     <string name="pref_system_toasts_title">System toasts</string>
@@ -108,4 +111,11 @@
     <string name="module_description">Module description</string>
     <string name="module_info_version">Version</string>
     <string name="modules_count">Modules: %1$d | Active: %2$d</string>
+
+    <!--  LogsFragment -->
+    <string name="menu_send">Send</string>
+    <string name="menu_save_to_sdcard">Save to SD card</string>
+    <string name="logs_load_failed">Could not read log:</string>
+    <string name="logs_save_failed">Could not write log to SD card:</string>
+    <string name="sdcard_not_writable">SD card not found or not writable</string>
 </resources>

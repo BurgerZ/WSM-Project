@@ -8,6 +8,7 @@
     <string name="act_title_installer">Управление</string>
     <string name="fragment_modules">Модули</string>
     <string name="fragment_online">Онлайн</string>
+    <string name="fragment_logs">Логи</string>
     <string name="versions_wsm_tools">Версия WSM tools</string>
     <string name="author">Автор проекта</string>
     <string name="graphics">Графика</string>
@@ -23,6 +24,8 @@
     <string name="pref_repositories_title">Выбор репозитория</string>
     <string name="pref_show_hidden_modules_title">Показывать скрытые</string>
     <string name="pref_show_hidden_modules_summary">Отображение скрытых модулей</string>
+    <string name="pref_show_logs_tab_title">Вкладка логов</string>
+    <string name="pref_show_logs_tab_summary">Отображать вкладку логов фреймворка</string>
     <string name="pref_show_module_info_title">Информация о модуле</string>
     <string name="pref_show_module_info_summary">Отображение информации о модуле при нажатии на иконку</string>
     <string name="pref_system_toasts_title">Уведомления WSM</string>
@@ -106,4 +109,11 @@
     <string name="module_description">Описание модуля</string>
     <string name="module_info_version">Версия</string>
     <string name="modules_count">Модулей: %1$d | Активно: %2$d</string>
+
+    <!--  LogsFragment -->
+    <string name="menu_send">Отправить</string>
+    <string name="menu_save_to_sdcard">Сохранить на SD карту</string>
+    <string name="logs_load_failed">Не могу прочитать лог:</string>
+    <string name="logs_save_failed">Не могу записать лог на SD карту:</string>
+    <string name="sdcard_not_writable">SD не найдена или только для чтения</string>
 </resources>
