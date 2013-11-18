@@ -7,6 +7,7 @@
     <string name="act_title_installer">Gérer</string>
     <string name="fragment_modules">Modules</string>
     <string name="fragment_online">En ligne</string>
+    <string name="fragment_logs">Journal</string>
     <string name="versions_wsm_tools">"Version WSM tools"</string>
     <string name="author">Auteur</string>
     <string name="graphics">Graphismes</string>
@@ -22,9 +23,11 @@
     <string name="pref_repositories_alert">Certains modules Xposed peuvent ne pas fonctionner ou empêcher votre téléphone de démarrer !\nUtilisez-les à vos propres risques!</string>
     <string name="pref_repositories_title">Sélectionner les dépôts</string>
     <string name="pref_show_hidden_modules_title">Afficher les modules cachés</string>
-    <string name="pref_show_hidden_modules_summary">Afficher les modules cachés dans la liste</string>
+    <string name="pref_show_hidden_modules_summary">Affiche les modules cachés dans la liste</string>
+    <string name="pref_show_logs_tab_title">Afficher l\'onglet Journal</string>
+    <string name="pref_show_logs_tab_summary">Affiche le journal lié au framework</string>
     <string name="pref_show_module_info_title">Afficher les infos du module</string>
-    <string name="pref_show_module_info_summary">Afficher les informations du module en appuyant sur son icône</string>
+    <string name="pref_show_module_info_summary">Affiche les informations du module en appuyant sur son icône</string>
     <string name="pref_system_toasts_title">Pop-ups système</string>
     <string name="pref_system_toasts_summary">Afficher les pop-ups de WSM</string>
     <string name="pref_about_title">À Propos</string>
@@ -108,4 +111,11 @@
     <string name="module_description">Description du module</string>
     <string name="module_info_version">Version</string>
     <string name="modules_count">Module(s) : %1$d | Actif(s): %2$d</string>
+
+    <!--  LogsFragment -->
+    <string name="menu_send">Envoyer</string>
+    <string name="menu_save_to_sdcard">Sauver sur la carte SD</string>
+    <string name="logs_load_failed">Impossible de lire le journal :</string>
+    <string name="logs_save_failed">Impossible d\'écrire le journal :</string>
+    <string name="sdcard_not_writable">Carte SD non trouvée ou en lecture seule</string>
 </resources>
