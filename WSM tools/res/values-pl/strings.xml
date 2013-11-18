@@ -10,6 +10,7 @@
     <string name="act_title_installer">Zarządzaj</string>
     <string name="fragment_modules">Moduły</string>
     <string name="fragment_online">W sieci</string>
+    <string name="fragment_logs">Logi</string>
     <string name="versions_wsm_tools">Wersja WSM Tools</string>
     <string name="author">Autor</string>
     <string name="graphics">Wygląd</string>
@@ -25,7 +26,9 @@
     <string name="pref_repositories_alert">Niektóre moduły z magazynu Xposed mogą sprawić, że telefon przestanie działać!\nKorzystasz z nich na własną odpowiedzialność!</string>
     <string name="pref_repositories_title">Wybierz magazyny</string>
     <string name="pref_show_hidden_modules_title">Ukryte moduły</string>
-    <string name="pref_show_hidden_modules_summary">Pokazuj na liście ukryte moduły</string>
+    <string name="pref_show_hidden_modules_summary">Pokazuje na liście ukryte moduły</string>
+    <string name="pref_show_logs_tab_title">Pokaż Logi</string>
+    <string name="pref_show_logs_tab_summary">Dodaje zakładkę z dziennikiem zdarzeń</string>
     <string name="pref_show_module_info_title">Informacje o module</string>
     <string name="pref_show_module_info_summary">Pokaż informacje klikając na ikonę modułu</string>
     <string name="pref_system_toasts_title">Powiadomienia w dymkach</string>
@@ -108,4 +111,11 @@
     <string name="module_description">Opis modułu</string>
     <string name="module_info_version">Wersja</string>
     <string name="modules_count">Moduły: %1$d | W użyciu: %2$d</string>
+
+    <!--  LogsFragment -->
+    <string name="menu_send">Wyślij</string>
+    <string name="menu_save_to_sdcard">Zapisz na karcie pamięci</string>
+    <string name="logs_load_failed">Nie można załadować logów:</string>
+    <string name="logs_save_failed">Błąd podczas zapisu logów na kartę:</string>
+    <string name="sdcard_not_writable">Brak karty SD lub karta uszkodzona</string>
 </resources>
