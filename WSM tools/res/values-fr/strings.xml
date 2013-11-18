@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Outils WSM</string>
+    <string name="app_name">WSM tools</string>
     <string name="apply">Appliquer</string>
     <string name="act_title_settings">Paramètres</string>
     <string name="act_title_about">À propos</string>
     <string name="act_title_installer">Gérer</string>
     <string name="fragment_modules">Modules</string>
     <string name="fragment_online">En ligne</string>
-    <string name="versions_wsm_tools">"Version d'outils WSM"</string>
+    <string name="versions_wsm_tools">"Version WSM tools"</string>
     <string name="author">Auteur</string>
     <string name="graphics">Graphismes</string>
     <string name="check_for_updates">Vérifier les mises à jours</string>
     <string name="copyright">BurgerZ MD (http://burgerz.pro)\nCopyright © 2013, Tous droits réservés"</string>
     <string name="copyright_xposed">Basé sur Xposed</string>
+    <string name="information_faq">Information</string>
+    <string name="information_faq_summary">F.A.Q., traductions, crédits, aide</string>
     <string name="pref_feedback_title">Feedback</string>
     <string name="pref_feedback_summary">Envoyer des rapports de bugs, requêtes de module, etc.</string>
     <string name="pref_manage_title">Gérer WSM</string>
     <string name="pref_manage_summary">Installer, Mettre à jour, Supprimer</string>
     <string name="pref_repositories_alert">Certains modules Xposed peuvent ne pas fonctionner ou empêcher votre téléphone de démarrer !\nUtilisez-les à vos propres risques!</string>
-    <string name="pref_repositories_title">Sélectionner les dépots</string>
+    <string name="pref_repositories_title">Sélectionner les dépôts</string>
     <string name="pref_show_hidden_modules_title">Afficher les modules cachés</string>
     <string name="pref_show_hidden_modules_summary">Afficher les modules cachés dans la liste</string>
     <string name="pref_show_module_info_title">Afficher les infos du module</string>
     <string name="pref_show_module_info_summary">Afficher les informations du module en appuyant sur son icône</string>
-    <string name="pref_system_toasts_title">Popups système</string>
-    <string name="pref_system_toasts_summary">Afficher les popups de WSM</string>
+    <string name="pref_system_toasts_title">Pop-ups système</string>
+    <string name="pref_system_toasts_summary">Afficher les pop-ups de WSM</string>
     <string name="pref_about_title">À Propos</string>
     <string name="bottom_bar_btn_settings">Paramètres</string>
     <string name="bottom_bar_btn_reboot">Redémarrer</string>
@@ -34,7 +36,7 @@
     <string name="dialog_are_you_sure">Êtes-vous sûr ?</string>
     <string name="dialog_phone_will_be_rebooted">L\'appareil sera redémarré</string>
     <string name="dialog_progress_updating">Mise à jour</string>
-    <string name="dialog_update_available">Nouvelle version d\'Outils WSM disponible.\nInstallée : %1$s\nDisponlible : %2$s\nAprès l\'installation d\'une nouvelle version, aller dans Paramètres -> Gérer WSM et vérifier si une mise à jour du binaire est nécessaire.</string>
+    <string name="dialog_update_available">Nouvelle version WSM tools disponible.\nInstallée : %1$s\nDisponlible : %2$s\nAprès l\'installation d\'une nouvelle version, aller dans Paramètres -> Gérer WSM et vérifier si une mise à jour du binaire est nécessaire.</string>
     <string name="menu_select_all">Tout sélectionner</string>
     <string name="menu_unselect_all">Effacer la sélection</string>
 
@@ -79,7 +81,7 @@
     <string name="download_md5sum_incorrect">Le checksum MD5 est incorrect (téléchargé : %1$s, attendu : %2$s)</string>
     <string name="download_could_not_read_file">Impossible de lire le fichier téléchargé : %s</string>
     <string name="download_no_valid_apk">"Le fichier téléchargé n'est pas un APK valide (ou est incompatible)"</string>
-    <string name="download_incorrect_package_name">Nom du package incorrect (téléchargé : %1$s, attendu : %2$s)</string>
+    <string name="download_incorrect_package_name">Nom du paquet incorrect (téléchargé : %1$s, attendu : %2$s)</string>
 
     <!--  DownloadView -->
     <string name="download_view_download">Télécharger</string>
@@ -90,6 +92,7 @@
     <string name="download_view_waiting">Téléchargement en attente</string>
     <string name="download_view_successful">Téléchargement effectué avec succès</string>
     <string name="download_view_failed">Téléchargement échoué (erreur %d)</string>
+
     <string name="module_installed">Module WSM installé</string>
     <string name="module_empty_description">(aucune description fournie)</string>
     <string name="module_no_ui">"Ce module ne fournit pas d'interface utilisateur"</string>
