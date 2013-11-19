@@ -83,7 +83,7 @@
     <string name="statusbar_text_family_summary">已選擇狀態列字體樣式: %s</string>
     <string name="statusbar_text_style">字體風格</string>
     <string name="statusbar_text_style_summary">已選擇狀態列字體樣式: %s</string>
-    <string name="font_size_summary">設定狀態列字體大小</string>
+    <string name="font_size_summary">設定狀態列字體大小:\n%s</string>
     <string name="font_size">字體大小</string>
     <string name="network_speed_exp_statusbar_summary">在展開狀態列中顯示當前網路速度</string>
     <string name="network_speed_exp_statusbar">當前網路速度</string>
@@ -241,8 +241,14 @@
     <string name="launcher_summary">桌面相關設定</string>
     <string name="hide_icons_label">隱藏圖示標籤</string>
     <string name="hide_icons_label_summary">隱藏桌面圖示下文字標籤</string>
+    <string name="hide_hotseats_label">隱藏捷徑導航欄標籤</string>
+    <string name="hide_hotseats_label_summary">允許您隱藏捷徑導航欄的標籤</string>
     <string name="hide_folders_label">資料夾標籤</string>
     <string name="hide_folders_label_summary">隱藏桌面資料夾下文字標籤</string>
+    <string name="config_folder_columns_count">Folder columns</string>
+    <string name="config_folder_columns_count_summary">資料夾列數: %s</string>
+    <string name="launcher_font_size_summary">設定啟動器圖示文字標籤大小:\n%s</string>
+    <string name="launcher_font_size">文字大小</string>
     <!-- Applications prefs-->
     <string name="applications">系統應用程式</string>
     <string name="applications_summary">MIUI 系統應用程式設定</string>
