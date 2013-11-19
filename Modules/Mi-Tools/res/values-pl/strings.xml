@@ -81,7 +81,7 @@
     <string name="statusbar_text_family_summary">Pozwala wybrać krój czcioniki, aktualnie:\n%s</string>
     <string name="statusbar_text_style">Styl czcionki</string>
     <string name="statusbar_text_style_summary">Pozwala wybrać styl czcionki, aktualnie:\n%s</string>
-    <string name="font_size_summary">Pozwala wybrać rozmiar czcionki</string>
+    <string name="font_size_summary">Pozwala wybrać rozmiar czcionki:\n%s</string>
     <string name="font_size">Rozmiar czcionki</string>
     <string name="network_speed_exp_statusbar_summary">Pokaż prędkość pobierania przy rozsuniętej belce</string>
     <string name="network_speed_exp_statusbar">Prędkość pobierania</string>
@@ -231,8 +231,14 @@
     <string name="launcher_summary">Opcje programu uruchamiającego MIUI</string>
     <string name="hide_icons_label">Ukryj nazwy aplikacji</string>
     <string name="hide_icons_label_summary">Pozwala ukryć nazwy aplikacji na pulpicie</string>
+    <string name="hide_hotseats_label">Ukryj nazwy w docku</string>
+    <string name="hide_hotseats_label_summary">Pozwalaukryć nazwy aplikacji w docku</string>
     <string name="hide_folders_label">Ukryj nazwy folderów</string>
     <string name="hide_folders_label_summary">Pozwala ukryć nazwy folderów na pulpicie</string>
+    <string name="config_folder_columns_count">Rzędy ikon w folderach</string>
+    <string name="config_folder_columns_count_summary">Ilość rzędów to: %s</string>
+    <string name="launcher_font_size_summary">Wybrany rozmiar tekstu pod ikonami to:\n%s</string>
+    <string name="launcher_font_size">Rozmiar czcionki</string>
     <!-- Applications prefs-->
     <string name="applications">Aplikacje</string>
     <string name="applications_summary">Opcje aplikacji MIUI</string>
@@ -279,7 +285,7 @@
     <string name="supermarket_disable_autoupdates_check">Wyłącz aktualizacje</string>
     <string name="supermarket_disable_autoupdates_check_summary">Wyłącza sprawdzanie aktualizacji i powiadomienia o nich</string>
     <!-- Updater -->
-    <string name="app_updater">Oficjalne aktualizacje systemu</string>
+    <string name="app_updater">Aktualizacje systemu</string>
     <string name="updater_disable_autoupdates_check">Wyłącz aktualizacje</string>
     <string name="updater_disable_autoupdates_check_summary">Wyłącza sprawdzanie aktualizacji i powiadomienia o nich</string>
     <string name="updater_english_changelog">Lista zmian po angielsku</string>
