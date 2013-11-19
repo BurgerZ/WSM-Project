@@ -85,7 +85,7 @@
     <string name="statusbar_text_family_summary">Set the type family of the statusbar font:\n%s</string>
     <string name="statusbar_text_style">Typeface style</string>
     <string name="statusbar_text_style_summary">Set the style of the statusbar font:\n%s</string>
-    <string name="font_size_summary">Set the statusbar text elements size</string>
+    <string name="font_size_summary">Set the statusbar text elements size:\n%s</string>
     <string name="font_size">Font size</string>
     <string name="network_speed_exp_statusbar_summary">Show network speed at expanded status bar view</string>
     <string name="network_speed_exp_statusbar">Network speed</string>
@@ -244,8 +244,14 @@
     <string name="launcher_summary">Launcher related settings</string>
     <string name="hide_icons_label">Hide icons label</string>
     <string name="hide_icons_label_summary">Allows you to to hide launcher icons labels</string>
+    <string name="hide_hotseats_label">Hide hotseats label</string>
+    <string name="hide_hotseats_label_summary">Allows you to to hide launcher hotseats labels</string>
     <string name="hide_folders_label">Hide folders label</string>
     <string name="hide_folders_label_summary">Allows you to to hide launcher folders labels</string>
+    <string name="config_folder_columns_count">Folder columns</string>
+    <string name="config_folder_columns_count_summary">Folder columns count: %s</string>
+    <string name="launcher_font_size_summary">Set the launcher icons text size:\n%s</string>
+    <string name="launcher_font_size">Font size</string>
     <!-- Applications prefs-->
     <string name="applications">Applications</string>
     <string name="applications_summary">MIUI applications settings</string>

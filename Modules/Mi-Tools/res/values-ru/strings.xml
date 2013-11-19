@@ -85,7 +85,7 @@
     <string name="statusbar_text_family_summary">Выбор семейства шрифтов панели:\n%s</string>
     <string name="statusbar_text_style">Стиль шрифтов</string>
     <string name="statusbar_text_style_summary">Выбор стиля шрифта панели:\n%s</string>
-    <string name="font_size_summary">Выбор размера шрифта текстовых элементов панели</string>
+    <string name="font_size_summary">Выбор размера шрифта текстовых элементов панели:\n%s</string>
     <string name="font_size">Размер шрифта</string>
     <string name="network_speed_exp_statusbar_summary">Показывать скорость сети в расширенной панели состояния</string>
     <string name="network_speed_exp_statusbar">Скорость сети</string>
@@ -244,8 +244,14 @@
     <string name="launcher_summary">Настройки рабочего стола</string>
     <string name="hide_icons_label">Скрыть подписи иконок</string>
     <string name="hide_icons_label_summary">Позволяет скрыть подписи иконок рабочего стола</string>
+    <string name="hide_hotseats_label">Скрыть подписи нижнего бара</string>
+    <string name="hide_hotseats_label_summary">Позволяет скрыть подписи иконок нижнего бара рабочего стола</string>
     <string name="hide_folders_label">Скрыть подписи папок</string>
     <string name="hide_folders_label_summary">Позволяет скрыть подписи папок рабочего стола</string>
+    <string name="config_folder_columns_count">Столбцов в папке</string>
+    <string name="config_folder_columns_count_summary">Количество столбцов (иконок по горизонтали) в папке: %s</string>
+    <string name="launcher_font_size_summary">Выбор размера шрифта иконок рабочего стола:\n%s</string>
+    <string name="launcher_font_size">Размер шрифта</string>
     <!-- Applications prefs-->
     <string name="applications">Приложения</string>
     <string name="applications_summary">Настройки приложений MIUI</string>

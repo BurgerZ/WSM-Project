@@ -301,4 +301,12 @@
         <item>25</item>
         <item>30</item>
     </string-array>
+    <string-array name="config_folder_columns_count_entries">
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="config_folder_columns_count_values">
+        <item>3</item>
+        <item>4</item>
+    </string-array>
 </resources>
