@@ -242,14 +242,14 @@
     <!-- Launcher prefs-->
     <string name="launcher">Launcher</string>
     <string name="launcher_summary">Launcher related settings</string>
-    <string name="hide_icons_label">Hide icons label</string>
+    <string name="hide_icons_label">Hide icons labels</string>
     <string name="hide_icons_label_summary">Allows you to to hide launcher icons labels</string>
-    <string name="hide_hotseats_label">Hide hotseats label</string>
+    <string name="hide_hotseats_label">Hide hotseats labels</string>
     <string name="hide_hotseats_label_summary">Allows you to to hide launcher hotseats labels</string>
-    <string name="hide_folders_label">Hide folders label</string>
+    <string name="hide_folders_label">Hide folders labels</string>
     <string name="hide_folders_label_summary">Allows you to to hide launcher folders labels</string>
     <string name="config_folder_columns_count">Folder columns</string>
-    <string name="config_folder_columns_count_summary">Folder columns count: %s</string>
+    <string name="config_folder_columns_count_summary">Folder columns count (in open state): %s</string>
     <string name="launcher_font_size_summary">Set the launcher icons text size:\n%s</string>
     <string name="launcher_font_size">Font size</string>
     <!-- Applications prefs-->
