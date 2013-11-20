@@ -245,7 +245,7 @@
     <string name="hide_hotseats_label_summary">允許您隱藏捷徑導航欄的標籤</string>
     <string name="hide_folders_label">資料夾標籤</string>
     <string name="hide_folders_label_summary">隱藏桌面資料夾下文字標籤</string>
-    <string name="config_folder_columns_count">Folder columns</string>
+    <string name="config_folder_columns_count">資料夾列數</string>
     <string name="config_folder_columns_count_summary">資料夾列數: %s</string>
     <string name="launcher_font_size_summary">設定啟動器圖示文字標籤大小:\n%s</string>
     <string name="launcher_font_size">文字大小</string>
