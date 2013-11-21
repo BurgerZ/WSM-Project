@@ -81,7 +81,7 @@
     <string name="statusbar_text_family_summary">Pozwala wybrać krój czcioniki, aktualnie:\n%s</string>
     <string name="statusbar_text_style">Styl czcionki</string>
     <string name="statusbar_text_style_summary">Pozwala wybrać styl czcionki, aktualnie:\n%s</string>
-    <string name="font_size_summary">Pozwala wybrać rozmiar czcionki:\n%s</string>
+    <string name="font_size_summary">Pozwala wybrać rozmiar czcionki, aktualnie:\n%s</string>
     <string name="font_size">Rozmiar czcionki</string>
     <string name="network_speed_exp_statusbar_summary">Pokaż prędkość pobierania przy rozsuniętej belce</string>
     <string name="network_speed_exp_statusbar">Prędkość pobierania</string>
@@ -232,7 +232,7 @@
     <string name="hide_icons_label">Ukryj nazwy aplikacji</string>
     <string name="hide_icons_label_summary">Pozwala ukryć nazwy aplikacji na pulpicie</string>
     <string name="hide_hotseats_label">Ukryj nazwy w docku</string>
-    <string name="hide_hotseats_label_summary">Pozwalaukryć nazwy aplikacji w docku</string>
+    <string name="hide_hotseats_label_summary">Pozwala ukryć nazwy aplikacji w docku</string>
     <string name="hide_folders_label">Ukryj nazwy folderów</string>
     <string name="hide_folders_label_summary">Pozwala ukryć nazwy folderów na pulpicie</string>
     <string name="config_folder_columns_count">Rzędy ikon w folderach</string>
@@ -272,6 +272,8 @@
     <string name="app_music">Muzyka</string>
     <string name="launch_playback_screen">Lista odtwarzania</string>
     <string name="launch_playback_screen_summary">Przenosi do listy odtwarzania po kliknięciu na widget muzyki. Domyślnie kliknięcie przenosi nas na stronę główną odtwarzacza</string>
+    <string name="disable_albumart_download">Nie pobieraj okładek</string>
+    <string name="disable_albumart_download_summary">Wyłącza automatyczne pobieranie okładek albumów</string>
     <!-- Themes -->
     <string name="app_themes">Motywy</string>
     <string name="themes_reverse_tabs_order">Odwróć układ kart</string>
