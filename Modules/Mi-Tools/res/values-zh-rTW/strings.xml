@@ -291,7 +291,7 @@
      <!-- Themes -->
     <string name="app_themes">主題</string>
     <string name="themes_reverse_tabs_order">反向標籤順序</string>
-    <string name="themes_reverse_tabs_order_summary">更改標籤為本地，類別，熱門精選</string>
+    <string name="themes_reverse_tabs_order_summary">改變標籤，以本地，類別，熱門精選為順序</string>
     <string name="themes_replace_lunar_dates">替換農曆日期</string>
     <string name="themes_replace_lunar_dates_summary">在主題中嘗試尋找並取代農曆與公曆的日期（僅限鎖定螢幕)</string>
     <!-- Supermarket -->
