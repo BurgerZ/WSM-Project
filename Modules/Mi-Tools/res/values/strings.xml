@@ -289,6 +289,8 @@
     <string name="app_music">Music</string>
     <string name="launch_playback_screen">Launch playback screen</string>
     <string name="launch_playback_screen_summary">Launch playback screen in Music player on pop-up widget click. By default, the main screen opens</string>
+    <string name="disable_albumart_download">Do not download album art</string>
+    <string name="disable_albumart_download_summary">Disable auto download album artwork</string>
     <!-- Themes -->
     <string name="app_themes">Themes</string>
     <string name="themes_reverse_tabs_order">Reverse tabs order</string>

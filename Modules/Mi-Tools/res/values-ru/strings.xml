@@ -289,6 +289,8 @@
     <string name="app_music">Музыка</string>
     <string name="launch_playback_screen">Запуск экрана воспроизведения</string>
     <string name="launch_playback_screen_summary">Позволяет запускать экран текущего трека в плеере при нажатии на всплывающий виджет (слайд по иконке Музыка на рабочем столе). По умолчанию открывается главный экран плеера</string>
+    <string name="disable_albumart_download">Не загружать обложки</string>
+    <string name="disable_albumart_download_summary">Отключить автоматическую загрузку обложек из сети</string>
     <!-- Themes -->
     <string name="app_themes">Темы</string>
     <string name="themes_reverse_tabs_order">Обратный порядок вкладок</string>
