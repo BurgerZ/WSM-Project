@@ -286,6 +286,14 @@
     <string name="app_music">音樂</string>
     <string name="launch_playback_screen">啟動到播放界面</string>
     <string name="launch_playback_screen_summary">輕觸音樂彈出掛件時啟動到播放頁面。預設情況下會開啟音樂播放器主畫面</string>
+    <string name="disable_albumart_download">不下載專輯封面</string>
+    <string name="disable_albumart_download_summary">停用自動下載專輯封面</string>
+     <!-- Themes -->
+    <string name="app_themes">主題</string>
+    <string name="themes_reverse_tabs_order">反向標籤順序</string>
+    <string name="themes_reverse_tabs_order_summary">更改標籤為本地，類別，熱門精選</string>
+    <string name="themes_replace_lunar_dates">替換農曆日期</string>
+    <string name="themes_replace_lunar_dates_summary">在主題中嘗試尋找並取代農曆與公曆的日期（僅限鎖定螢幕)</string>
     <!-- Supermarket -->
     <string name="app_supermarket">市場</string>
     <string name="supermarket_reverse_tabs_order">反向標籤順序</string>
