@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="module_name">Hangerőszabályzó hangnémítás</string>
-    <string name="module_desc">Hangerőszabályzáskor a BEEP hang tiltása</string>
-    <string name="module_desc_full">Ez a modul letiltja a hangerőszabályzáskor kiadó értesítési hangot a kezdőképernyőn (lebegő hangerő panel).</string>
-</resources>
