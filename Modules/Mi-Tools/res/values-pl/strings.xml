@@ -42,6 +42,12 @@
     <string name="text_small">Mała</string>
     <string name="text_medium">Średnia</string>
     <string name="text_large">Duża</string>
+    <string name="time_30_sec">30 sekund</string>
+    <string name="time_1_min">1 minuta (domyślnie)</string>
+    <string name="time_5_min">5 minut</string>
+    <string name="time_10_min">10 minut</string>
+    <string name="time_30_min">30 minut</string>
+    <string name="time_1_hour">1 godzina</string>
     <!-- MIUI warning -->
     <string name="miwarning_title">Niewspierany OS</string>
     <string name="miwarning_message">Ten system nie ma oficjalnego wsparcia. Nie wszystkie opcje będą działać.</string>
@@ -292,4 +298,8 @@
     <string name="updater_disable_autoupdates_check_summary">Wyłącza sprawdzanie aktualizacji i powiadomienia o nich</string>
     <string name="updater_english_changelog">Lista zmian po angielsku</string>
     <string name="updater_english_changelog_summary">Wyświetla listę zmian po angielsku zamiast po chińsku</string>
+    <!-- MiuiGallery -->
+    <string name="app_miuigallery">Galeria</string>
+    <string name="cloud_upload_delay">Czas odświeżania chmury</string>
+    <string name="cloud_upload_delay_summary">Określa co ile czasu mają być wysyłane zdjęcia do MiCloud.\nAktualnie %s</string>
 </resources>
