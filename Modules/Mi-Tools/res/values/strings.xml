@@ -46,6 +46,12 @@
     <string name="text_small">Small</string>
     <string name="text_medium">Medium</string>
     <string name="text_large">Large</string>
+    <string name="time_30_sec">30 seconds</string>
+    <string name="time_1_min">1 minute (default)</string>
+    <string name="time_5_min">5 minutes</string>
+    <string name="time_10_min">10 minutes</string>
+    <string name="time_30_min">30 minutes</string>
+    <string name="time_1_hour">1 hour</string>
     <!-- MIUI warning -->
     <string name="miwarning_title">Unsupported OS</string>
     <string name="miwarning_message">This OS is not officially supported. Some options may not work.\nDo you agree to continue?</string>
@@ -309,4 +315,8 @@
     <string name="updater_disable_autoupdates_check_summary">Disables auto updates check</string>
     <string name="updater_english_changelog">Changelog in English</string>
     <string name="updater_english_changelog_summary">Forces ROM changelogs to be shown in English</string>
+    <!-- MiuiGallery -->
+    <string name="app_miuigallery">Gallery</string>
+    <string name="cloud_upload_delay">Cloud upload delay</string>
+    <string name="cloud_upload_delay_summary">Delay time before uploading new photo to MiCloud.\n%s</string>
 </resources>

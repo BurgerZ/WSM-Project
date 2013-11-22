@@ -46,6 +46,12 @@
     <string name="text_small">Маленький</string>
     <string name="text_medium">Средний</string>
     <string name="text_large">Большой</string>
+    <string name="time_30_sec">30 секунд</string>
+    <string name="time_1_min">1 минута (по умолчанию)</string>
+    <string name="time_5_min">5 минут</string>
+    <string name="time_10_min">10 минут</string>
+    <string name="time_30_min">30 минут</string>
+    <string name="time_1_hour">1 час</string>
     <!-- MIUI warning -->
     <string name="miwarning_title">Неподдерживаемая ОС</string>
     <string name="miwarning_message">Эта ОС не поддерживается. Некоторые настройки могут не работать.\nВы согласны продолжить?</string>
@@ -309,4 +315,8 @@
     <string name="updater_disable_autoupdates_check_summary">Отключает автоматическую проверку обновлений</string>
     <string name="updater_english_changelog">Список изменений на английском</string>
     <string name="updater_english_changelog_summary">Включает принудительное отображение списка изменений на английском языке</string>
+    <!-- MiuiGallery -->
+    <string name="app_miuigallery">Галерея</string>
+    <string name="cloud_upload_delay">Задержка синхронизации</string>
+    <string name="cloud_upload_delay_summary">Задержка перез загрузкой новых фото в облако MiCloud.\n%s</string>
 </resources>
