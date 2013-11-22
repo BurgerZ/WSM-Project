@@ -28,8 +28,8 @@ Copyright © 2013, todos los derechos reservados"</string>
     <string name="pref_show_hidden_modules_summary">Muestra los módulos ocultos en la lista</string>
     <string name="pref_show_module_info_title">Mostar Información de Módulos</string>
     <string name="pref_show_module_info_summary">Muestra información del módulo clicando en su icono</string>
-    <string name="pref_system_toasts_title">System toasts</string>
-    <string name="pref_system_toasts_summary">Show WSM system toast messages</string>
+    <string name="pref_system_toasts_title">Notificaciones del Sistema</string>
+    <string name="pref_system_toasts_summary">Muestra notificaciones del sistema WMS.</string>
     <string name="pref_about_title">Acerca de</string>
     <string name="bottom_bar_btn_settings">Ajustes</string>
     <string name="bottom_bar_btn_reboot">Reiniciar</string>
