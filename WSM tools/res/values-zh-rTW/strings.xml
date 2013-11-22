@@ -7,6 +7,7 @@
     <string name="act_title_installer">管理</string>
     <string name="fragment_modules">模組</string>
     <string name="fragment_online">線上</string>
+    <string name="fragment_logs">數據</string>
     <string name="versions_wsm_tools">WSM tools 版本</string>
     <string name="author">開發者</string>
     <string name="graphics">圖片製作</string>
@@ -23,6 +24,8 @@
     <string name="pref_repositories_title">選擇資料庫</string>
     <string name="pref_show_hidden_modules_title">顯示被隱藏的模組</string>
     <string name="pref_show_hidden_modules_summary">在清單中顯示被隱藏的模組</string>
+    <string name="pref_show_logs_tab_title">顯示數據欄</string>
+    <string name="pref_show_logs_tab_summary">顯示框架數據欄</string>
     <string name="pref_show_module_info_title">顯示模組資訊</string>
     <string name="pref_show_module_info_summary">藉由輕觸模組圖示來顯示模組資訊</string>
     <string name="pref_system_toasts_title">系統浮動訊息</string>
@@ -108,4 +111,11 @@
     <string name="module_description">模組介紹</string>
     <string name="module_info_version">版本</string>
     <string name="modules_count">模組: %1$d | 啟動: %2$d</string>
+
+    <!--  LogsFragment -->
+    <string name="menu_send">傳送</string>
+    <string name="menu_save_to_sdcard">儲存至 SD 卡</string>
+    <string name="logs_load_failed">無法存取數據:</string>
+    <string name="logs_save_failed">無法寫入數據至 SD 卡:</string>
+    <string name="sdcard_not_writable">SD 卡未找到或未安裝</string>
 </resources>
