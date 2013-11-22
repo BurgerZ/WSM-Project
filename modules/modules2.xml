@@ -1,10 +1,17 @@
 <repository>
   <name>WSM repository</name>
-  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1384505198">
+  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1385125332">
 	<name>Mi-Tools</name> 
 	<summary>MIUI v5 all in one module</summary> 
 	<description html="true">&lt;p&gt;MIUI v5 all in one module. It handles framework, statusbar, launcher, sound, MIUI applications modifications.&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
+	<version>
+		<name>1.4</name> 
+		<code>14</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v14_27e41d.apk</download> 
+		<md5sum>27e41d0fcbe6583f7ed208bfd056eb4b</md5sum> 
+		<changelog html="true">&lt;li&gt;Added font size adjustment for launcher icons&lt;/li&gt;&lt;li&gt;Added launcher folders columns count settings&lt;/li&gt;&lt;li&gt;Added option to hide launcher hotseats (dock bar) labels (big thanks to Zirias from xiaomi.eu for more elegant way)&lt;/li&gt;&lt;li&gt;Fixed NavBar size in landscape mode&lt;/li&gt;&lt;li&gt;Added option to force disable album art auto download&lt;/li&gt;&lt;li&gt;Added localized measure units to FileExplorer and Kuaipan settings&lt;/li&gt;&lt;li&gt;Added carrier logos: Kyivstar (colored), MegaFon and MTS (3D), Tele2 (colored, square), life:) (colored and white), Kcell (colored and white), Smarts (colored and white)&lt;/li&gt;&lt;li&gt;Added option to change delay for uploading new photos to MiCloud (default delay is 1 minute)&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
+	</version>
 	<version>
 		<name>1.3</name> 
 		<code>13</code> 
