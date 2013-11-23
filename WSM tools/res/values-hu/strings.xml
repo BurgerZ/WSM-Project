@@ -6,7 +6,7 @@
     <string name="act_title_about">Névjegy</string>
     <string name="act_title_installer">Telepítő</string>
     <string name="fragment_modules">Modulok</string>
-    <string name="fragment_logs">Naplók</string>
+    <string name="fragment_logs">Naplózás</string>
     <string name="versions_wsm_tools">WSM verzió</string>
     <string name="author">Szerző</string>
     <string name="graphics">Grafika</string>
@@ -16,7 +16,7 @@
     <string name="information_faq">Információ</string>
     <string name="information_faq_summary">F.A.Q., fordítások, támogatás, segítség</string>
     <string name="pref_feedback_title">Visszajelzés</string>
-    <string name="pref_feedback_summary">Hibanapló modulkérés, stb. kérése</string>
+    <string name="pref_feedback_summary">Hibanapló küldése, modul kérése, stb.</string>
     <string name="pref_manage_title">WSM kezelés</string>
     <string name="pref_manage_summary">Telepítés, Frissítés, Törlés</string>
     <string name="pref_repositories_alert">"Néhány Xposed modul lehetséges,hogy nem működik vagy újrainduláskor bootloop-ot kap!\nHasználata az Ön felelőssége!"</string>
@@ -50,8 +50,8 @@
     <string name="installer_phone_not_compatible">WSM nem kompatibilis (még) az  Android SDK %1$d verziójával vagy a processzor architektúrájával (%2$s).</string>
     <string name="installer_not_tested_but_compatible">WSM nincs tesztelve az Android SDK %d verzójával ,de lehetséges,hogy kompatibilis. Ha kalandra vágyik,próbálja ki:-)</string>
     <string name="installer_rom_update" />
-    <string name="repo_download_failed_http">Letöltés %1$s nem sikerült: %2$d (%3$s)</string>
-    <string name="repo_download_failed">Letöltés %1$s nem sikerült: %2$s</string>
+    <string name="repo_download_failed_http">A letöltés %1$s nem sikerült: %2$d (%3$s)</string>
+    <string name="repo_download_failed">A letöltés %1$s nem sikerült: %2$s</string>
     <string name="repo_load_failed">"Nem tölthető be %1$s tárolóból:\n%2$s"</string>   
 
     <string name="changes">Változások:</string>
@@ -71,7 +71,7 @@
     <string name="download_section_7d">Utolsó 7 nap</string>
     <string name="download_section_30d">Utolsó 30 nap</string>
     <string name="download_section_older">Több,mint 30 nappal ezelőtt</string>
-    <string name="download_md5sum_incorrect">MD5 sum hibás (letöltve: %1$s, várt: %2$s)</string>
+    <string name="download_md5sum_incorrect">MD5 ellenőrzőfájl hibás (letöltve: %1$s, várt: %2$s)</string>
     <string name="download_could_not_read_file">Nem olvasható a letöltött fájl: %s</string>
     <string name="download_no_valid_apk">A letöltött fájl nem érvényes APK fájl(vagy nem kompatibilis)</string>
     <string name="download_incorrect_package_name">A csomagnév hibás (letöltve: %1$s, várt: %2$s)</string>
@@ -99,7 +99,7 @@
     <!--  LogsFragment -->
     <string name="menu_send">Küldés</string>
     <string name="menu_save_to_sdcard">Mentés az SD kártyára</string>
-    <string name="logs_load_failed">A napló olvasása sikertelen:</string>
-    <string name="logs_save_failed">A mentés az SD kártyára nem sikerült:</string>
+    <string name="logs_load_failed">A napló beolvasása sikertelen:</string>
+    <string name="logs_save_failed">A napló mentése az SD kártyára nem sikerült:</string>
     <string name="sdcard_not_writable">Nem található vagy írásvédett az SD kártya</string>
 </resources>
