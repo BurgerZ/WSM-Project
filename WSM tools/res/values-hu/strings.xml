@@ -6,6 +6,7 @@
     <string name="act_title_about">Névjegy</string>
     <string name="act_title_installer">Telepítő</string>
     <string name="fragment_modules">Modulok</string>
+    <string name="fragment_logs">Naplók</string>
     <string name="versions_wsm_tools">WSM verzió</string>
     <string name="author">Szerző</string>
     <string name="graphics">Grafika</string>
@@ -22,6 +23,8 @@
     <string name="pref_repositories_title">Modultároló kiválasztás</string>
     <string name="pref_show_hidden_modules_title">Rejtett modulok mutatása</string>
     <string name="pref_show_hidden_modules_summary">Rejtett modulok megjelenítése a listában</string>
+    <string name="pref_show_logs_tab_title">Naplók fül mutatása</string>
+    <string name="pref_show_logs_tab_summary">A framework naplók fül mutatása</string>
     <string name="pref_show_module_info_title">Modul info megjelenítése</string>
     <string name="pref_show_module_info_summary">"Modul info kijelzése az ikonra kattintva"</string>
     <string name="pref_system_toasts_title">Rendszer értesítések</string>
@@ -93,4 +96,10 @@
     <string name="module_description">Modul leírás</string>
     <string name="module_info_version">Verzió</string>
     <string name="modules_count">Modulok: %1$d | Akítv: %2$d</string>
+    <!--  LogsFragment -->
+    <string name="menu_send">Küldés</string>
+    <string name="menu_save_to_sdcard">Mentés az SD kártyára</string>
+    <string name="logs_load_failed">A napló olvasása sikertelen:</string>
+    <string name="logs_save_failed">A mentés az SD kártyára nem sikerült:</string>
+    <string name="sdcard_not_writable">Nem található vagy írásvédett az SD kártya</string>
 </resources>

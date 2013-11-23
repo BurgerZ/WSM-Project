@@ -47,6 +47,12 @@
     <string name="text_small">Kicsi</string>
     <string name="text_medium">Közepes</string>
     <string name="text_large">Nagy</string>
+    <string name="time_30_sec">30 másodperc</string>
+    <string name="time_1_min">1 perc (alapért.)</string>
+    <string name="time_5_min">5 perc</string>
+    <string name="time_10_min">10 perc</string>
+    <string name="time_30_min">30 perc</string>
+    <string name="time_1_hour">1 óra</string>
     <!-- MIUI warning -->
     <string name="miwarning_title">Nem támogatot Operációs rendszer</string>
     <string name="miwarning_message">Ez az operációs rendszer hivatalosan nem támogatott. Néhány beállítás nem fog megfelelően működni.\nDo you agree to continue?</string>
@@ -239,8 +245,14 @@
     <string name="launcher_summary">Launcherhez kapcsolódó beállítások</string>
     <string name="hide_icons_label">Ikon szöveg elrejtése</string>
     <string name="hide_icons_label_summary">Az ikonok alatti szövegcímke elrejtésének engedélyezése</string>
+    <string name="hide_hotseats_label">Hotseat címkék elrejtése</string>
+    <string name="hide_hotseats_label_summary">A launcher hotseat címkéinek elrejtésének engedélyezése</string>
     <string name="hide_folders_label">Mappa szöveg elrejtése</string>
     <string name="hide_folders_label_summary">A mappa alatti szövegcímke elrejtésének engedélyezése</string>
+    <string name="config_folder_columns_count">Mappa oszlopainak száma</string>
+    <string name="config_folder_columns_count_summary">A mappa oszlopainak száma (nyitott állapotban): %s</string>
+    <string name="launcher_font_size_summary">A launcher ikonok szövegének betűmérete:\n%s</string>
+    <string name="launcher_font_size">Betűméret</string>
     <!-- Applications prefs-->
     <string name="applications">Alkalmazások</string>
     <string name="applications_summary">MIUI alkalmazás beállítások</string>
@@ -296,4 +308,8 @@
     <string name="updater_disable_autoupdates_check_summary">Automatikus frissítések ellenőrzésének kikapcsolása</string>
     <string name="updater_english_changelog">Változások listája (angol)</string>
     <string name="updater_english_changelog_summary">ROM változások listájának mutatásaa angol nyelven</string>
+    <!-- MiuiGallery -->
+    <string name="app_miuigallery">Galéria</string>
+    <string name="cloud_upload_delay">Felhőbe való feltöltés késleltetés</string>
+    <string name="cloud_upload_delay_summary">A késleltetés ideje mielőtt egy új fénykép feltöltésre kerül a MiCloud-ba.\n%s</string>
 </resources>
