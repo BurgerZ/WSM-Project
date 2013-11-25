@@ -20,7 +20,7 @@
     <string name="pref_feedback_summary">Odeslat záznam chyb, žádosti o modul, atd.</string>
     <string name="pref_manage_title">Spravovat WSM</string>
     <string name="pref_manage_summary">Instalovat, Aktualizovat, Vymazat</string>
-    <string name="pref_repositories_alert">Některé moduly Xposed nemusí fungovat nebo poškodí Váš telefon! \ NPoužijte je na vlastní nebezpečí!</string>
+    <string name="pref_repositories_alert">Některé moduly Xposed nemusí fungovat nebo poškodí Váš telefon!\nPoužijte je na vlastní nebezpečí!</string>
     <string name="pref_repositories_title">Zvolit repozitář</string>
     <string name="pref_show_hidden_modules_title">Zobrazit skryté moduly</string>
     <string name="pref_show_hidden_modules_summary">Zobrazit skryté moduly v seznamu</string>

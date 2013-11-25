@@ -8,7 +8,7 @@
     <string name="fragment_modules">Modules</string>
     <string name="fragment_online">En ligne</string>
     <string name="fragment_logs">Journal</string>
-    <string name="versions_wsm_tools">"Version WSM tools"</string>
+    <string name="versions_wsm_tools">Version WSM tools</string>
     <string name="author">Auteur</string>
     <string name="graphics">Graphismes</string>
     <string name="check_for_updates">Vérifier les mises à jours</string>
@@ -78,7 +78,7 @@
     <string name="download_section_24h">Dernières 24 heures</string>
     <string name="download_section_7d">Derniers 7 jours</string>
     <string name="download_section_30d">Derniers 30 jours</string>
-    <string name="download_section_older">Il ya plus de 30 jours</string>
+    <string name="download_section_older">Il y a plus de 30 jours</string>
 
     <!-- DownloadUtils -->
     <string name="download_md5sum_incorrect">Le checksum MD5 est incorrect (téléchargé : %1$s, attendu : %2$s)</string>
@@ -110,7 +110,7 @@
     <string name="module_settings">Paramètres du module</string>
     <string name="module_description">Description du module</string>
     <string name="module_info_version">Version</string>
-    <string name="modules_count">Module(s) : %1$d | Actif(s): %2$d</string>
+    <string name="modules_count">Module(s) : %1$d | Actif(s) : %2$d</string>
 
     <!--  LogsFragment -->
     <string name="menu_send">Envoyer</string>
