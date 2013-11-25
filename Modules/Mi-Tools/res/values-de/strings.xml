@@ -54,7 +54,7 @@ Sind Sie bereit weiterzumachen?"</string>
     <string name="miwarning_continue">Weiter</string>
     <string name="miwarning_close">Schließen</string>
     <string name="notif_soft_reboot">Schneller Neustart</string>
-    <string name="notif_reboot">Reboot</string>
+    <string name="notif_reboot">Neustart</string>
     <string name="notif_reboot_required">Bitte neustarten, um die Änderungen anzuwenden.</string>
     <string name="notif_reboot_required_title">Neustart erforderlich</string>
     <string name="notif_reboot_required_message">Ein Neustart ist erforderlich um die Änderungen anzuwenden</string>
@@ -71,8 +71,8 @@ Sind Sie bereit weiterzumachen?"</string>
     <string name="backup_restored">Backup wiederhergestellt</string>
     <string name="press_color_to_apply">Tippe auf eine Farbe um sie auszuwählen</string>
     <string name="dialog_color_picker">Farbauswahl</string>
-    <string name="statusbar">Status Bar</string>
-    <string name="statusbar_title">Status Bar</string>
+    <string name="statusbar">Statusbar</string>
+    <string name="statusbar_title">Statusbar</string>
     <string name="statusbar_summary">Statusbar Einstellungen</string>
     <string name="statusbar_set_background_color">wähle eine Hintergrundfarbe</string>
     <string name="statusbar_set_background_color_summary">Erlaubt,die Farbe der Statusbar zu wählen</string>
@@ -157,8 +157,8 @@ Möchten Sie fortfahren? "</string>
     <string name="units_mbs">M/s</string>
     <string name="units_s">s</string>
     <string name="power">Power</string>
-    <string name="advanced_reboot_menu_summary">füge mehr Optionen zum Reboot Menu hinzu</string>
-    <string name="advanced_reboot_menu">Erweitertes Reboot Menu</string>
+    <string name="advanced_reboot_menu_summary">füge mehr Optionen zum Reboot Menü hinzu</string>
+    <string name="advanced_reboot_menu">Erweitertes Reboot Menü</string>
     <string name="power_reboot">Reboot</string>
     <string name="power_reboot_options">Reboot Optionen</string>
     <string name="power_reboot_normal">Normal</string>
@@ -197,12 +197,12 @@ Die Physikalische build.prop wird nicht verändert"</string>
     <string name="custom_build_prop_name">Name</string>
     <string name="buttons">Buttons</string>
     <string name="buttons_summary">Buttons Zuordnungen, Aktionen etc.</string>
-    <string name="key_menu">Menu</string>
+    <string name="key_menu">Menü</string>
     <string name="key_volume">Lautstärke</string>
-    <string name="double_click_menu_app_summary">wähle eine Aktion der Menutaste bei einem Doppelklick</string>
-    <string name="double_click_menu_app">Menutaste Doppelklick-Aktion</string>
+    <string name="double_click_menu_app_summary">wähle eine Aktion der Menütaste bei einem Doppelklick</string>
+    <string name="double_click_menu_app">Menütaste Doppelklick-Aktion</string>
     <string name="long_press_menu_action_summary">%s</string>
-    <string name="long_press_menu_action">langes drücken der Menutaste</string>
+    <string name="long_press_menu_action">langes drücken der Menütaste</string>
     <string name="double_tap_menu_action_summary">%s</string>
     <string name="double_tap_menu_action">Doppelklick Aktion</string>
     <string name="menu_action_default">Standard</string>
@@ -223,7 +223,7 @@ Die Physikalische build.prop wird nicht verändert"</string>
     <string name="disable_volume_control_sound">Deaktivieren des Pieptons</string>
     <string name="disable_volume_control_sound_summary">Deaktiviert den Piepton während des einstellens der Lautstärke</string>
     <string name="volume_step">Lautstärken Schritt</string>
-    <string name="volume_steps_voice_call">Voice Call</string>
+    <string name="volume_steps_voice_call">Sprachanruf</string>
     <string name="volume_steps_system">System</string>
     <string name="volume_steps_ring">Klingeln</string>
     <string name="volume_steps_music">Musik</string>
@@ -244,7 +244,7 @@ Die Physikalische build.prop wird nicht verändert"</string>
     <string name="hide_folders_label">Ordnertext ausblenden</string>
     <string name="hide_folders_label_summary">Die Schrift unter den Ordnern ausblenden</string>
 	<string name="config_folder_columns_count">Ordner Spalten</string>
-    <string name="config_folder_columns_count_summary">Ordner Spalten zählen (im geöffnetem Zustand): %s</string>
+    <string name="config_folder_columns_count_summary">Ordner Spalten anzeigen (im geöffnetem Zustand): %s</string>
     <string name="launcher_font_size_summary">"Launcher Symboltextgröße:
 %s"</string>
     <string name="launcher_font_size">Schriftgröße</string>	
