@@ -1,111 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">WSM tools</string>
-    <string name="apply">应用</string>
-    <string name="act_title_settings">设置</string>
-    <string name="act_title_about">关于</string>
-    <string name="act_title_installer">管理</string>
-    <string name="fragment_modules">模块</string>
-    <string name="fragment_online">下载与更新</string>
-    <string name="versions_wsm_tools">WSM tools 版本</string>
-    <string name="author">程序</string>
-    <string name="graphics">美工</string>
-    <string name="check_for_updates">自动检查更新</string>
-    <string name="copyright">BurgerZ MD (http://burgerz.pro)\nCopyright © 2013, All Rights Reserved</string>
-    <string name="copyright_xposed">基于 Xposed 框架</string>
-    <string name="information_faq">信息</string>
-    <string name="information_faq_summary">常见问题, 翻译人员, 开发团队, 帮助</string>
-    <string name="pref_feedback_title">反馈</string>
-    <string name="pref_feedback_summary">发送错误报告、模块功能请求等信息</string>
-    <string name="pref_manage_title">管理 WSM</string>
-    <string name="pref_manage_summary">安装、升级、卸载</string>
-    <string name="pref_repositories_alert">部分 Xposed 模块可能不会正常工作并导致你的手机无法启动！\n使用这些模块自行承担风险, 请谨慎使用！</string>
-    <string name="pref_repositories_title">选择软件源</string>
-    <string name="pref_show_hidden_modules_title">显示隐藏模块</string>
-    <string name="pref_show_hidden_modules_summary">在列表中显示隐藏模块</string>
-    <string name="pref_show_module_info_title">显示模块简介</string>
-    <string name="pref_show_module_info_summary">轻点模块图标显示模块简介</string>
-    <string name="pref_system_toasts_title">系统弹出信息</string>
-    <string name="pref_system_toasts_summary">显示 WSM 系统弹出信息</string>
-    <string name="pref_about_title">关于</string>
-    <string name="bottom_bar_btn_settings">设置</string>
-    <string name="bottom_bar_btn_reboot">重新启动</string>
-    <string name="bottom_bar_btn_refresh">升级</string>
-    <string name="module_opt_hide_title">隐藏模块</string>
-    <string name="module_opt_hide_summary">要显示隐藏模块, 请开启“显示隐藏模块”选项</string>
-    <string name="dialog_are_you_sure">你确定？</string>
-    <string name="dialog_phone_will_be_rebooted">您的手机将会重启</string>
-    <string name="dialog_progress_updating">升级中...</string>
-    <string name="dialog_update_available">WSM tools 有可用更新\n当前版本: %1$s\n更新版本: %2$s\n安装新版本之后, 请前往设置 - 管理 WSM 检查是否需要更新二进制文件。</string>
-    <string name="menu_select_all">全选</string>
-    <string name="menu_unselect_all">全不选</string>
-
-    <!-- InstallerActivity -->
-    <string name="installer_install">安装</string>
-    <string name="installer_uninstall">卸载</string>
-    <string name="installer_reboot">重启</string>
-    <string name="installer_versions">二进制文件版本:</string>
-    <string name="installer_installed_version">当前版本</string>
-    <string name="installer_bundled_version">内置版本</string>
-    <string name="installer_phone_not_compatible">WSM 目前（尚）不支持您系统的 Android SDK 版本 %1$d 或者您的处理器架构 (%2$s)。</string>
-    <string name="installer_not_tested_but_compatible">WSM 尚未在您系统的 Android SDK 版本 %d 上测试过, 但似乎是兼容的。如果你有足够的冒险精神可以尝试安装使用（有一定的危险性）</string>
-    <string name="installer_rom_update"></string>
-
-    <!-- RepoLoader -->
-    <string name="repo_download_failed_http">下载 %1$s 失败: %2$d (%3$s)</string>
-    <string name="repo_download_failed">下载 %1$s 失败: %2$s</string>
-    <string name="repo_load_failed">无法载入软件源: %1$s:\n%2$s</string>
-
-    <!-- Download tab -->
-    <string name="changes">新版变化:</string>
-    <string name="branch_display">(%s 分支)</string>
-    <string name="download_author">作者: %s</string>
-    <string name="download_unknown_author">未知作者</string>
-    <string name="download_status_version">版本: %1$s</string>
-    <string name="download_status_update_available">" \u2192 %1$s"</string>
-    <string name="download_timestamps">添加于 %1$s \u00b7 更新于 %2$s</string>
-    <string name="download_sorting_title">排序方式</string>
-    <string name="download_sorting_status">按状态排序</string>
-    <string name="download_sorting_updated">按更新时间排序</string>
-    <string name="download_sorting_created">按创建时间排序</string>
-    <string name="download_section_framework">框架</string>
-    <string name="download_section_update_available">有可用更新</string>
-    <string name="download_section_installed">已安装</string>
-    <string name="download_section_not_installed">未安装</string>
-    <string name="download_section_24h">24 小时内</string>
-    <string name="download_section_7d">最近 7 天</string>
-    <string name="download_section_30d">最近 30 天</string>
-    <string name="download_section_older">超过 30 天</string>
-
-    <!-- DownloadUtils -->
-    <string name="download_md5sum_incorrect">MD5 校验和不正确 (已下载: %1$s, 应为: %2$s)</string>
-    <string name="download_could_not_read_file">无法读取已下载文件: %s</string>
-    <string name="download_no_valid_apk">已下载文件不是可用的 APK 包（或不兼容）</string>
-    <string name="download_incorrect_package_name">包名不正确 (已下载: %1$s, 应为: %2$s)</string>
-
-    <!--  DownloadView -->
-    <string name="download_view_download">下载</string>
-    <string name="download_view_install">安装</string>
-    <string name="download_view_cancel">取消</string>
-    <string name="download_view_no_url">没有可用的下载链接</string>
-    <string name="download_view_running">正在下载 (%1$,d / %2$,d kB)</string>
-    <string name="download_view_waiting">等待下载</string>
-    <string name="download_view_successful">下载成功</string>
-    <string name="download_view_failed">下载失败 (错误 %d)</string>
-
-    <string name="module_installed">WSM 模块已安装</string>
-    <string name="module_empty_description">(没有提供说明)</string>
-    <string name="module_no_ui">该模块没有提供用户界面</string>
-    <string name="no_wsm_modules_found">没有找到任何 WSM 模块！</string>
-    <string name="wsm_module_list_updated">WSM 模块列表已更新\n更改将在重新启动后生效</string>
-    <string name="warning_wsm_min_version">该模块需要 WSM %s 因此它无法被激活。</string>
-    <string name="no_min_version_specified">此模块没有指定所需 WSM 版本。</string>
-    <string name="warning_min_version_too_low">该模块是为 WSM 版本 %1$s 编写的，但由于在版本 %2$s 中的修改所造成的不兼容，该模块已被停用。</string>
-    <string name="btnDeleteModule">删除模块</string>
-
-    <!--  ModuleSettingsActivity -->
-    <string name="module_settings">模块设定</string>
-    <string name="module_description">模块说明</string>
-    <string name="module_info_version">版本</string>
-    <string name="modules_count">已安装: %1$d | 已激活: %2$d</string>
+  <string name="app_name">WSM tools</string>
+  <string name="apply">应用</string>
+  <string name="act_title_settings">设置</string>
+  <string name="act_title_about">关于</string>
+  <string name="act_title_installer">管理</string>
+  <string name="act_title_whatsnew">即将更新</string>
+  <string name="fragment_modules">模块</string>
+  <string name="fragment_online">下载与更新</string>
+  <string name="fragment_logs">Logs</string>
+  <string name="versions_wsm_tools">WSM tools 版本</string>
+  <string name="author">程序</string>
+  <string name="graphics">美工</string>
+  <string name="check_for_updates">自动检查更新</string>
+  <string name="copyright">BurgerZ MD (http://burgerz.pro)\nCopyright © 2013, All Rights Reserved</string>
+  <string name="copyright_xposed">基于 Xposed 框架</string>
+  <string name="information_faq">信息</string>
+  <string name="information_faq_summary">常见问题, 翻译人员, 开发团队, 帮助</string>
+  <string name="pref_feedback_title">反馈</string>
+  <string name="pref_feedback_summary">发送错误报告、模块功能请求等信息</string>
+  <string name="pref_manage_title">管理 WSM</string>
+  <string name="pref_manage_summary">安装、升级、卸载</string>
+  <string name="pref_repositories_alert">部分 Xposed 模块可能不会正常工作并导致你的手机无法启动！\n使用这些模块自行承担风险, 请谨慎使用！</string>
+  <string name="pref_repositories_title">选择软件源</string>
+  <string name="pref_show_hidden_modules_title">显示隐藏模块</string>
+  <string name="pref_show_hidden_modules_summary">在列表中显示隐藏模块</string>
+  <string name="pref_show_logs_tab_title">显示日志标签</string>
+  <string name="pref_show_logs_tab_summary">显示框架日志标签</string>
+  <string name="pref_show_module_info_title">显示模块简介</string>
+  <string name="pref_show_module_info_summary">轻点模块图标显示模块简介</string>
+  <string name="pref_system_toasts_title">系统弹出信息</string>
+  <string name="pref_system_toasts_summary">显示 WSM 系统弹出信息</string>
+  <string name="pref_about_title">关于</string>
+  <string name="bottom_bar_btn_settings">设置</string>
+  <string name="bottom_bar_btn_reboot">重新启动</string>
+  <string name="bottom_bar_btn_refresh">升级</string>
+  <string name="bottom_bar_btn_whatsnew">更新预告</string>
+  <string name="whatsnew_changelog">发布前更新日志:</string>
+  <string name="module_opt_hide_title">隐藏模块</string>
+  <string name="module_opt_hide_summary">要显示隐藏模块, 请开启“显示隐藏模块”选项</string>
+  <string name="dialog_are_you_sure">你确定？</string>
+  <string name="dialog_phone_will_be_rebooted">您的手机将会重启</string>
+  <string name="dialog_progress_updating">升级中...</string>
+  <string name="dialog_update_available">WSM tools 有可用更新\n当前版本: %1$s\n更新版本: %2$s\n安装新版本之后, 请前往设置 - 管理 WSM 检查是否需要更新二进制文件。</string>
+  <string name="menu_select_all">全选</string>
+  <string name="menu_unselect_all">全不选</string>
+  <!-- InstallerActivity -->
+  <string name="installer_install">安装</string>
+  <string name="installer_uninstall">卸载</string>
+  <string name="installer_reboot">重启</string>
+  <string name="installer_versions">二进制文件版本:</string>
+  <string name="installer_installed_version">当前版本</string>
+  <string name="installer_bundled_version">内置版本</string>
+  <string name="installer_phone_not_compatible">WSM 目前（尚）不支持您系统的 Android SDK 版本 %1$d 或者您的处理器架构 (%2$s)。</string>
+  <string name="installer_not_tested_but_compatible">WSM 尚未在您系统的 Android SDK 版本 %d 上测试过, 但似乎是兼容的。如果你有足够的冒险精神可以尝试安装使用（有一定的危险性）</string>
+  <string name="installer_rom_update">
+  </string>
+  <!-- RepoLoader -->
+  <string name="repo_download_failed_http">下载 %1$s 失败: %2$d (%3$s)</string>
+  <string name="repo_download_failed">下载 %1$s 失败: %2$s</string>
+  <string name="repo_load_failed">无法载入软件源: %1$s:\n%2$s</string>
+  <!-- Download tab -->
+  <string name="changes">新版变化:</string>
+  <string name="branch_display">(%s 分支)</string>
+  <string name="download_author">作者: %s</string>
+  <string name="download_unknown_author">未知作者</string>
+  <string name="download_status_version">版本: %1$s</string>
+  <string name="download_status_update_available">" \u2192 %1$s"</string>
+  <string name="download_timestamps">添加于 %1$s \u00b7 更新于 %2$s</string>
+  <string name="download_sorting_title">排序方式</string>
+  <string name="download_sorting_status">按状态排序</string>
+  <string name="download_sorting_updated">按更新时间排序</string>
+  <string name="download_sorting_created">按创建时间排序</string>
+  <string name="download_section_framework">框架</string>
+  <string name="download_section_update_available">有可用更新</string>
+  <string name="download_section_installed">已安装</string>
+  <string name="download_section_not_installed">未安装</string>
+  <string name="download_section_24h">24 小时内</string>
+  <string name="download_section_7d">最近 7 天</string>
+  <string name="download_section_30d">最近 30 天</string>
+  <string name="download_section_older">超过 30 天</string>
+  <!-- DownloadUtils -->
+  <string name="download_md5sum_incorrect">MD5 校验和不正确 (已下载: %1$s, 应为: %2$s)</string>
+  <string name="download_could_not_read_file">无法读取已下载文件: %s</string>
+  <string name="download_no_valid_apk">已下载文件不是可用的 APK 包（或不兼容）</string>
+  <string name="download_incorrect_package_name">包名不正确 (已下载: %1$s, 应为: %2$s)</string>
+  <!--  DownloadView -->
+  <string name="download_view_download">下载</string>
+  <string name="download_view_install">安装</string>
+  <string name="download_view_cancel">取消</string>
+  <string name="download_view_no_url">没有可用的下载链接</string>
+  <string name="download_view_running">正在下载 (%1$,d / %2$,d kB)</string>
+  <string name="download_view_waiting">等待下载</string>
+  <string name="download_view_successful">下载成功</string>
+  <string name="download_view_failed">下载失败 (错误 %d)</string>
+  <string name="module_installed">WSM 模块已安装</string>
+  <string name="module_empty_description">(没有提供说明)</string>
+  <string name="module_no_ui">该模块没有提供用户界面</string>
+  <string name="no_wsm_modules_found">没有找到任何 WSM 模块！</string>
+  <string name="wsm_module_list_updated">WSM 模块列表已更新\n更改将在重新启动后生效</string>
+  <string name="warning_wsm_min_version">该模块需要 WSM %s 因此它无法被激活。</string>
+  <string name="no_min_version_specified">此模块没有指定所需 WSM 版本。</string>
+  <string name="warning_min_version_too_low">该模块是为 WSM 版本 %1$s 编写的，但由于在版本 %2$s 中的修改所造成的不兼容，该模块已被停用。</string>
+  <string name="btnDeleteModule">删除模块</string>
+  <!--  ModuleSettingsActivity -->
+  <string name="module_settings">模块设定</string>
+  <string name="module_description">模块说明</string>
+  <string name="module_info_version">版本</string>
+  <string name="modules_count">已安装: %1$d | 已激活: %2$d</string>
+  <!--  LogsFragment -->
+  <string name="menu_send">发送到</string>
+  <string name="menu_save_to_sdcard">保存至 SD 卡</string>
+  <string name="logs_load_failed">无法读取日志:</string>
+  <string name="logs_save_failed">无法将日志写入到 SD 卡:</string>
+  <string name="sdcard_not_writable">SD 卡无法找到或不能写入</string>
+  <!-- Donations -->
+  <string name="donate">捐助</string>
+  <string name="donations_button_close">关闭</string>
+  <string name="donations_description">觉得这个应用有用吗？\n你可以通过捐助开发者的方式来支持这个项目！</string>
+  <string name="donations_thanks_dialog">感谢捐助！\n非常感谢您的慷慨。</string>
+  <string name="donations_thanks_dialog_title">谢谢您！</string>
+  <string name="donations_paypal">PayPal</string>
+  <string name="donations_yandex">Yandex.Money</string>
+  <string name="donations_paypal_description">你可以在点击按钮之后选择捐款数额</string>
 </resources>
