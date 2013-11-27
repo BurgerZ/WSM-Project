@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="module_name">Mi-Tools</string>
-    <string name="module_desc">MIUI 集成模块</string>
-    <string name="module_desc_full">MIUI 集成模块\n
+  <string name="module_name">Mi-Tools</string>
+  <string name="module_desc">MIUI 集成模块</string>
+  <string name="module_desc_full">MIUI 集成模块\n
         警告:\n
         如果你安装了以下模块，你必须禁用它们:\n
         \u2022 Browser Autofit\n
@@ -21,264 +20,302 @@
         \u2022 Volume Control Mute\n
         \u2022 Volume Skip Track\n
         \u2022 YellowPage</string>
-    <string name="mitools_copyright">Any module modifications prohibited.\n
-        BurgerZ MD, Copyright © 2013, All rights reserved</string>         
-    <!-- About -->
-    <string name="about_module">关于模块</string>
-    <!-- AppPickerPreference -->
-    <string name="preference_app_picker_search">搜索应用</string>
-    <string name="preference_app_picker_none">(未选择应用)</string>
-    <!-- from arrays -->
-    <string name="am_pm_hide">隐藏</string>
-    <string name="am_pm_small">小号</string>
-    <string name="am_pm_large">大号</string>
-    <string name="typeface_style_italic">斜体</string>
-    <string name="typeface_style_normal">普通</string>
-    <string name="typeface_style_bold">粗体</string>
-    <string name="typeface_family_regular">通常 (Regular)</string>
-    <string name="typeface_family_light">较轻 (Light)</string>
-    <string name="typeface_family_condensed">紧凑 (Condensed)</string>
-    <string name="typeface_family_thin">较细 (Thin)</string>
-    <string name="clock_right">居右 (默认)</string>
-    <string name="clock_center">居中</string>
-    <string name="clock_center_ios7">居中 (iOS 7 风格)</string>
-    <string name="clock_left">居左</string>
-    <string name="text_small">小号</string>
-    <string name="text_medium">中号</string>
-    <string name="text_large">大号</string>
-    <!-- MIUI warning -->
-    <string name="miwarning_title">不支持的系统</string>
-    <string name="miwarning_message">该系统不被官方支持，某些选项可能不会工作。\n你想要继续吗？</string>
-    <string name="miwarning_continue">继续</string>
-    <string name="miwarning_close">关闭</string>
-    <!-- Module Notification -->
-    <string name="notif_soft_reboot">软重启</string>
-    <string name="notif_reboot">重启</string>
-    <string name="notif_reboot_required">请重启使更改生效</string>
-    <string name="notif_reboot_required_title">需要重启</string>
-    <string name="notif_reboot_required_message">需要重启以应用更改</string>
-    <!-- Backup & Restore -->
-    <string name="backup_name">备份名称</string>
-    <string name="backup_save">保存设置</string>
-    <string name="backup_save_successful">保存成功！</string>
-    <string name="backup_save_error">保存出错！</string>
-    <string name="backup_no_backups">找不到备份</string>
-    <string name="backup_restore">还原设置</string>
-    <string name="backup_delete">删除</string>
-    <string name="backup_defaults">恢复默认</string>
-    <string name="backup_defaults_restored">已恢复默认设置</string>
-    <string name="backup_restoring">正在还原备份</string>
-    <string name="backup_restored">已还原备份设置</string>
-    <!-- ColorPicker -->
-    <string name="press_color_to_apply">轻点颜色以应用</string>
-    <string name="dialog_color_picker">取色器</string> 
-    <!-- Status Bar prefs -->
-    <!-- Statusbar -->
-    <string name="statusbar">状态栏</string>
-    <string name="statusbar_title">状态栏</string>
-    <string name="statusbar_summary">状态栏修改</string>
-    <string name="statusbar_set_background_color">修改背景色</string>
-    <string name="statusbar_set_background_color_summary">允许选择状态栏的背景色</string>
-    <string name="statusbar_background_color">背景色</string>
-    <string name="statusbar_background_color_summary">状态栏背景色</string>
-    <string name="statusbar_text_family">字体样式</string>
-    <string name="statusbar_text_family_summary">已选状态栏字体样式: %s</string>
-    <string name="statusbar_text_style">字体风格</string>
-    <string name="statusbar_text_style_summary">已选状态栏字体风格: %s</string>
-    <string name="font_size_summary">设定状态栏文字尺寸</string>
-    <string name="font_size">字体大小</string>
-    <string name="network_speed_exp_statusbar_summary">在展开状态栏中显示当前网速</string>
-    <string name="network_speed_exp_statusbar">当前网速</string>
-    <!-- Clock -->
-    <string name="clock">时钟</string>
-    <string name="clock_hide">隐藏时钟</string>
-    <string name="clock_hide_summary">不在状态栏中显示时钟</string>
-    <string name="clock_color_title">时钟颜色</string>
-    <string name="clock_color_summary">设定状态栏时钟颜色</string>
-    <string name="clock_position">时钟位置</string>
-    <string name="clock_position_summary">已选时钟位置: \n%s</string>
-    <string name="am_pm_style">AM PM 风格</string>
-    <string name="am_pm_style_summary">已选 AM PM 风格: %s</string>
-    <string name="show_clock_date_summary">在状态栏时钟旁显示日期</string>
-    <string name="show_clock_date">显示状态栏日期</string>
-    <!-- Battery -->
-    <string name="battery">电池</string>
-    <string name="hide_battery_icon_summary">是否显示电池图标</string>
-    <string name="hide_battery_icon">隐藏电池图标</string>
-    <string name="show_battery_text_summary">显示电量百分比</string>
-    <string name="show_battery_text">图标旁显示文字</string>
-    <string name="battery_text_color">电池文字颜色</string>
-    <string name="battery_text_color_summary">设定电池文字颜色</string>
-    <!-- Carrier -->
-    <string name="carrier_settings">运营商标签/标识</string>
-    <string name="hide_carrier_label">隐藏运营商标签</string>
-    <string name="hide_carrier_label_summary">是否显示运营商标签</string>
-    <string name="custom_carrier_label">自定义运营商标签</string>
-    <string name="default_carrier_label">留空使用默认运营商标签</string>
-    <string name="carrier_label_color">运营商标签颜色</string>
-    <string name="carrier_label_color_summary">设定运营商标签颜色</string>
-    <string name="custom_carrier_logo">运营商标识</string>
-    <string name="custom_carrier_logo_summary">使用图片标识替代运营商标签</string>
-    <string name="select_carrier_logo">选择标识</string>
-    <string name="select_carrier_logo_summary">%s</string>
-    <string name="select_carrier_logo_2">选择第二标识</string>
-    <string name="use_own_carrier_logo">自定义运营商标识</string>
-    <string name="use_own_carrier_logo_summary">你可以选择自己的运营商标识</string>
-    <string name="own_carrier_logo">选择自定义标识</string>
-    <string name="own_carrier_logo_summary">%s</string>
-    <string name="signal_bars_color">信号颜色</string>
-    <string name="signal_bars_color_summary">设定移动网络信号指示条颜色</string>
-    <string name="signal_bars_color_2">第二信号颜色</string>
-    <string name="signal_bars_color_summary_2">设定移动网络信号指示条颜色 (第二张卡)</string>
-    <string name="hide_roaming_icon">隐藏漫游图标</string>
-    <!-- Notifications -->
-    <string name="notifications">通知</string>
-    <string name="hide_ongoing_ime_switcher_summary">是否在输入时显示切换输入法通知</string>
-    <string name="hide_ongoing_ime_switcher">隐藏输入法切换器</string>
-    <string name="headset_notification_icon">隐藏耳机通知图标</string>
-    <string name="headset_notification_icon_summary">当插入耳机时是否显示耳机图标</string>
-    <!-- Framework prefs -->
-    <string name="framework">系统框架</string>
-    <string name="framework_summary">系统框架相关设定</string>
-    <!-- Common -->
-    <string name="common">通用</string>
-    <string name="international_t9_summary">启用通讯录国际化 T9 搜索</string>
-    <string name="international_t9">添加 T9</string>
-    <string name="local_yellowpage_database_summary">屏蔽来自中国服务器的黄页更新并增加标记未知联系人功能</string>
-    <string name="local_yellowpage_database">本地黄页数据库</string>
-    <string name="localized_measure_units_summary">\u2022 状态栏: 网速 (K/s, m/s)\n\u2022 任务管理器: 已清理、可用内存 (MB, GB)\n\u2022 移动网络数据流量: B, KB, MB, GB</string>
-    <string name="localized_measure_units">本地化数量单位</string>
-    <string name="units_gb">Gb</string>
-    <string name="units_b">b</string>
-    <string name="units_kb">Kb</string>
-    <string name="units_kbs">K/s</string>
-    <string name="units_mb">Mb</string>
-    <string name="units_mbs">M/s</string>
-    <string name="units_s">s</string>
-    <!-- Power -->
-    <string name="power">电源</string>
-    <string name="advanced_reboot_menu_summary">向“重新启动”菜单添加更多选项</string>
-    <string name="advanced_reboot_menu">高级重启菜单</string>
-    <string name="power_reboot">重启</string> 
-    <string name="power_reboot_options">重启菜单</string> 
-    <string name="power_reboot_normal">普通重启</string> 
-    <string name="power_reboot_recovery">重启进入恢复模式 (Recovery)</string> 
-    <string name="power_reboot_hot">快速重启 (Hot Reboot)</string> 
-    <string name="power_reboot_bootloader">重启进入刷机模式 (Fastboot)</string> 
-    <string name="power_reboot_switch_system">切换系统 (小米手机专用)</string> 
-    <string name="power_reboot_system_1">重启进入另一系统 (系统一)</string> 
-    <string name="power_reboot_system_2">重启进入另一系统 (系统二)</string> 
-    <string name="power_cancel">取消</string> 
-    <!-- Device -->
-    <string name="device">设备</string>
-    <string name="show_navigation_bar_summary">显示屏幕内按键 (Nexus 风格)</string>
-    <string name="show_navigation_bar">显示导航栏</string>
-    <string name="navigation_bar_height_summary">高度: %s</string>
-    <string name="navigation_bar_height">导航栏高度</string>
-    <string name="navigation_bar_color">导航栏颜色</string>
-    <string name="navigation_bar_color_summary">导航栏背景颜色</string>
-    <string name="all_rotations_summary">允许所有旋转角度, 包括倒立</string>
-    <string name="all_rotations">启用所有旋转角度</string>
-    <string name="lockscreen_rotations_summary">允许锁屏旋转到横屏模式</string>
-    <string name="lockscreen_rotations">启用锁屏旋转</string>
-    <string name="custom_build_prop">设备属性</string>
-    <string name="custom_build_prop_summary">设置自定义 build.prop 参数</string>
-    <string name="enable_custom_build_prop_summary">以下参数将在启动后被修改\nbuild.prop 文件不会被改动</string>
-    <string name="enable_custom_build_prop">使用自定义属性值</string>
-    <string name="custom_build_prop_board_value">ro.product.board</string>
-    <string name="custom_build_prop_board">Board</string>
-    <string name="custom_build_prop_brand_value">ro.product.brand</string>
-    <string name="custom_build_prop_brand">Brand</string>
-    <string name="custom_build_prop_device_value">ro.product.device</string>
-    <string name="custom_build_prop_device">Device</string>
-    <string name="custom_build_prop_model_value">ro.product.model</string>
-    <string name="custom_build_prop_model">Model</string>
-    <string name="custom_build_prop_name_value">ro.product.name</string>
-    <string name="custom_build_prop_name">Name</string>
-    <!-- Buttons -->
-    <string name="buttons">按键</string>
-    <string name="buttons_summary">按键重映射、按键动作等等</string>
-    <string name="key_menu">菜单键 (MENU)</string>
-    <string name="key_volume">音量键</string>
-    <string name="double_click_menu_app_summary">选择双击菜单键时启动的应用</string>
-    <string name="double_click_menu_app">双击菜单键</string>
-    <string name="long_press_menu_action_summary">%s</string>
-    <string name="long_press_menu_action">长按菜单键行为</string>
-    <string name="double_tap_menu_action_summary">%s</string>
-    <string name="double_tap_menu_action">双击菜单键行为</string>
-    <string name="menu_action_default">默认</string>
-    <string name="menu_action_previous_app">启动上一个应用</string>
-    <string name="menu_action_sleep">锁定屏幕</string>
-    <string name="menu_action_custom_app">启动自定义应用</string>
-    <string name="menu_action_torch">打开手电筒</string>
-    <string name="vol_key_cursor">音量键光标控制</string>
-   <string name="vol_key_cursor_summary">输入时使用音量键控制光标</string>
-    <string name="vol_key_cursor_reverse">交换按键</string>
-    <string name="vol_key_cursor_reverse_summary">交换控制光标时的音量键</string>
-    <string name="long_press_track_skip">音量键跳轨</string>
-    <string name="long_press_track_skip_summary">当屏幕关闭时，长按音量键跳轨</string>
-    <string name="swap_long_press_skip_keys">交换按键</string>
-    <string name="swap_long_press_skip_keys_summary">交换跳轨时的音量键</string>
-    <!-- Sound -->
-    <string name="sound">声音</string>
-    <string name="disable_volume_control_sound">禁用哔音</string>
-    <string name="disable_volume_control_sound_summary">禁用调节音量时发出的哔哔声</string>
-    <!-- Advanced -->
-    <string name="advanced">高级</string>
-    <string name="extra_battery_info_summary">在电量设置中添加电池信息</string>
-    <string name="extra_battery_info">附加电池信息</string>
-    <!-- Launcher prefs-->
-    <string name="launcher">桌面</string>
-    <string name="launcher_summary">桌面相关设定</string>
-     <string name="hide_icons_label">隐藏图标标签</string>
-    <string name="hide_icons_label_summary">隐藏桌面图标下文字标签</string>
-    <string name="hide_folders_label">文件夹标签</string>
-    <string name="hide_folders_label_summary">隐藏桌面文件夹下文字标签</string>
-    <!-- Applications prefs-->
-    <string name="applications">系统应用</string>
-    <string name="applications_summary">MIUI 系统应用设置</string>
-    <!-- MMS -->
-    <string name="app_mms">短信</string>
-    <string name="disable_sms_to_mms_conversion">允许长短信</string>
-    <string name="disable_sms_to_mms_conversion_summary">禁用自动转换短信为彩信</string>
-    <string name="mms_unicode_stripping">规格化 unicode</string>
-    <string name="mms_unicode_stripping_summary">将 unicode 字符转换为普通字符\n模式: %s\n在部分设备上（尚）不能工作！</string>
-    <string name="mms_unicode_stripping_leave_intact">保留原样</string>
-    <string name="mms_unicode_stripping_non_encodable">去除无法编码字符</string>
-    <string name="mms_unicode_stripping_all">去除所有 unicode 字符</string>
-    <string name="festival_update_server">推荐短信更新服务器</string> 
-    <string name="festival_update_server_summary">%s</string>
-    <!-- Calendar -->
-    <string name="app_calendar">日历</string>
-    <string name="holidays_update_server">假期更新服务器</string> 
-    <string name="holidays_update_server_summary">%s</string>
-    <string name="holidays_selector_country">假期国家</string>
-    <string name="holidays_selector_country_summary">%s</string>
-    <string name="holidays_selector_country_original">默认 (中国假期)</string> 
-    <string name="holidays_selector_country_russia">Russia</string> 
-    <string name="holidays_selector_country_ukraine">Ukraine</string> 
-    <string name="holidays_selector_country_slovakia">Slovakia</string>
-    <string name="holidays_selector_country_czech">Czech Republic</string> 
-    <!-- QuickSearchBox -->
-    <string name="app_quicksearchbox">快速搜索栏</string>
-    <string name="quicksearchbox_marketplace">搜索市场</string>
-    <string name="quicksearchbox_marketplace_summary">搜索以下市场:\n%s</string>
-    <!-- Browser -->
-    <string name="app_browser">浏览器</string>
-    <string name="browser_autofit_pages">自适应页面</string>
-    <string name="browser_autofit_pages_summary">向浏览器设置添加 \"Mobile View\" 选项</string>
-    <!-- Music -->
-    <string name="app_music">音乐</string>
-    <string name="launch_playback_screen">启动到播放界面</string>
-    <string name="launch_playback_screen_summary">点击音乐弹出挂件时启动到播放界面。默认情况下会打开音乐播放器主界面</string>
-    <!-- Themes -->
-    <string name="app_themes">主题风格</string>
-    <string name="themes_reverse_tabs_order">反向标签顺序</string>
-    <string name="themes_reverse_tabs_order_summary">将标签顺序修改为: 我的, 分类, 排行, 精品</string>
-    <string name="themes_replace_lunar_dates">替换农历日期</string>
-    <string name="themes_replace_lunar_dates_summary">尝试寻找主题中的农历日期并替换为公历日期 (锁屏)</string>
-    <!-- Supermarket -->
-    <string name="app_supermarket">应用商店</string>
-    <string name="supermarket_reverse_tabs_order">反向标签顺序</string>
-    <string name="supermarket_reverse_tabs_order_summary">将标签顺序修改为: 管理, 分类, 排行, 精品</string>
+  <string name="mitools_copyright">Any module modifications prohibited.\n
+        BurgerZ MD, Copyright © 2013, All rights reserved</string>
+  <!-- About -->
+  <string name="about_module">关于模块</string>
+  <!-- AppPickerPreference -->
+  <string name="preference_app_picker_search">搜索应用</string>
+  <string name="preference_app_picker_none">(未选择应用)</string>
+  <!-- from arrays -->
+  <string name="am_pm_hide">隐藏</string>
+  <string name="am_pm_small">小号</string>
+  <string name="am_pm_large">大号</string>
+  <string name="typeface_style_italic">斜体</string>
+  <string name="typeface_style_normal">普通</string>
+  <string name="typeface_style_bold">粗体</string>
+  <string name="typeface_family_regular">通常 (Regular)</string>
+  <string name="typeface_family_light">较轻 (Light)</string>
+  <string name="typeface_family_condensed">紧凑 (Condensed)</string>
+  <string name="typeface_family_thin">较细 (Thin)</string>
+  <string name="clock_right">居右 (默认)</string>
+  <string name="clock_center">居中</string>
+  <string name="clock_center_ios7">居中 (iOS 7 风格)</string>
+  <string name="clock_left">居左</string>
+  <string name="text_small">小号</string>
+  <string name="text_medium">中号</string>
+  <string name="text_large">大号</string>
+  <string name="time_30_sec">30 秒</string>
+  <string name="time_1_min">1 分钟 (默认)</string>
+  <string name="time_5_min">5 分钟</string>
+  <string name="time_10_min">10 分钟</string>
+  <string name="time_30_min">30 分钟</string>
+  <string name="time_1_hour">1 小时</string>
+  <!-- MIUI warning -->
+  <string name="miwarning_title">不支持的系统</string>
+  <string name="miwarning_message">该系统不被官方支持，某些选项可能不会工作。\n你想要继续吗？</string>
+  <string name="miwarning_continue">继续</string>
+  <string name="miwarning_close">关闭</string>
+  <!-- Module Notification -->
+  <string name="notif_soft_reboot">软重启</string>
+  <string name="notif_reboot">重启</string>
+  <string name="notif_reboot_required">请重启使更改生效</string>
+  <string name="notif_reboot_required_title">需要重启</string>
+  <string name="notif_reboot_required_message">需要重启以应用更改</string>
+  <!-- Backup & Restore -->
+  <string name="backup_name">备份名称</string>
+  <string name="backup_save">保存设置</string>
+  <string name="backup_save_successful">保存成功！</string>
+  <string name="backup_save_error">保存出错！</string>
+  <string name="backup_no_backups">找不到备份</string>
+  <string name="backup_restore">还原设置</string>
+  <string name="backup_delete">删除</string>
+  <string name="backup_defaults">恢复默认</string>
+  <string name="backup_defaults_restored">已恢复默认设置</string>
+  <string name="backup_restoring">正在还原备份</string>
+  <string name="backup_restored">已还原备份设置</string>
+  <!-- ColorPicker -->
+  <string name="press_color_to_apply">轻点颜色以应用</string>
+  <string name="dialog_color_picker">取色器</string>
+  <!-- Status Bar prefs -->
+  <!-- Statusbar -->
+  <string name="statusbar">状态栏</string>
+  <string name="statusbar_title">状态栏</string>
+  <string name="statusbar_summary">状态栏修改</string>
+  <string name="statusbar_set_background_color">修改背景色</string>
+  <string name="statusbar_set_background_color_summary">允许选择状态栏的背景色</string>
+  <string name="statusbar_background_color">背景色</string>
+  <string name="statusbar_background_color_summary">状态栏背景色</string>
+  <string name="statusbar_text_family">字体样式</string>
+  <string name="statusbar_text_family_summary">已选状态栏字体样式: %s</string>
+  <string name="statusbar_text_style">字体风格</string>
+  <string name="statusbar_text_style_summary">已选状态栏字体风格: %s</string>
+  <string name="font_size_summary">设定状态栏文字尺寸</string>
+  <string name="font_size">字体大小</string>
+  <string name="network_speed_exp_statusbar_summary">在展开状态栏中显示当前网速</string>
+  <string name="network_speed_exp_statusbar">当前网速</string>
+  <!-- Clock -->
+  <string name="clock">时钟</string>
+  <string name="clock_hide">隐藏时钟</string>
+  <string name="clock_hide_summary">不在状态栏中显示时钟</string>
+  <string name="clock_color_title">时钟颜色</string>
+  <string name="clock_color_summary">设定状态栏时钟颜色</string>
+  <string name="clock_position">时钟位置</string>
+  <string name="clock_position_summary">已选时钟位置: \n%s</string>
+  <string name="am_pm_style">AM PM 风格</string>
+  <string name="am_pm_style_summary">已选 AM PM 风格: %s</string>
+  <string name="show_clock_date_summary">在状态栏时钟旁显示日期</string>
+  <string name="show_clock_date">显示状态栏日期</string>
+  <!-- Battery -->
+  <string name="battery">电池</string>
+  <string name="hide_battery_icon_summary">是否显示电池图标</string>
+  <string name="hide_battery_icon">隐藏电池图标</string>
+  <string name="show_battery_text_summary">显示电量百分比</string>
+  <string name="show_battery_text">图标旁显示文字</string>
+  <string name="battery_text_color">电池文字颜色</string>
+  <string name="battery_text_color_summary">设定电池文字颜色</string>
+  <!-- Carrier -->
+  <string name="carrier_settings">运营商标签/标识</string>
+  <string name="hide_carrier_label">隐藏运营商标签</string>
+  <string name="hide_carrier_label_summary">是否显示运营商标签</string>
+  <string name="custom_carrier_label">自定义运营商标签</string>
+  <string name="default_carrier_label">留空使用默认运营商标签</string>
+  <string name="carrier_label_color">运营商标签颜色</string>
+  <string name="carrier_label_color_summary">设定运营商标签颜色</string>
+  <string name="custom_carrier_logo">运营商标识</string>
+  <string name="custom_carrier_logo_summary">使用图片标识替代运营商标签</string>
+  <string name="select_carrier_logo">选择标识</string>
+  <string name="select_carrier_logo_summary">%s</string>
+  <string name="select_carrier_logo_2">选择第二标识</string>
+  <string name="use_own_carrier_logo">自定义运营商标识</string>
+  <string name="use_own_carrier_logo_summary">你可以选择自己的运营商标识</string>
+  <string name="own_carrier_logo">选择自定义标识</string>
+  <string name="own_carrier_logo_summary">%s</string>
+  <string name="signal_bars_color">信号颜色</string>
+  <string name="signal_bars_color_summary">设定移动网络信号指示条颜色</string>
+  <string name="signal_bars_color_2">第二信号颜色</string>
+  <string name="signal_bars_color_summary_2">设定移动网络信号指示条颜色 (第二张卡)</string>
+  <string name="hide_roaming_icon">隐藏漫游图标</string>
+  <!-- Notifications -->
+  <string name="notifications">通知</string>
+  <string name="hide_ongoing_ime_switcher_summary">是否在输入时显示切换输入法通知</string>
+  <string name="hide_ongoing_ime_switcher">隐藏输入法切换器</string>
+  <string name="headset_notification_icon">隐藏耳机通知图标</string>
+  <string name="headset_notification_icon_summary">当插入耳机时是否显示耳机图标</string>
+  <!-- Framework prefs -->
+  <string name="framework">系统框架</string>
+  <string name="framework_summary">系统框架相关设定</string>
+  <!-- Common -->
+  <string name="common">通用</string>
+  <string name="international_t9_summary">启用通讯录国际化 T9 搜索</string>
+  <string name="international_t9">添加 T9</string>
+  <string name="local_yellowpage_database_summary">屏蔽来自中国服务器的黄页更新并增加标记未知联系人功能</string>
+  <string name="local_yellowpage_database">本地黄页数据库</string>
+  <string name="local_yellowpage_database_dialog">中国黄页数据库将被清空。\n你需要重启后在联系人设置中更新 T9 索引数据。\n你想要继续吗？</string>
+  <string name="localized_measure_units_summary">\u2022 状态栏: 网速 (KB/s, MB/s)\n\u2022 任务管理器: 已清理、可用内存 (MB, GB)\n\u2022 移动网络数据流量: B, KB, MB, GB</string>
+  <string name="localized_measure_units">本地化数量单位</string>
+  <string name="units_gb">GB</string>
+  <string name="units_b">B</string>
+  <string name="units_kb">KB</string>
+  <string name="units_kbs">KB/s</string>
+  <string name="units_mb">MB</string>
+  <string name="units_mbs">MB/s</string>
+  <string name="units_s">s</string>
+  <!-- Power -->
+  <string name="power">电源</string>
+  <string name="advanced_reboot_menu_summary">向“重新启动”菜单添加更多选项</string>
+  <string name="advanced_reboot_menu">高级重启菜单</string>
+  <string name="power_reboot">重启</string>
+  <string name="power_reboot_options">重启菜单</string>
+  <string name="power_reboot_normal">普通重启</string>
+  <string name="power_reboot_recovery">重启进入恢复模式 (Recovery)</string>
+  <string name="power_reboot_hot">快速重启 (Hot Reboot)</string>
+  <string name="power_reboot_bootloader">重启进入刷机模式 (Fastboot)</string>
+  <string name="power_reboot_switch_system">切换系统 (小米手机专用)</string>
+  <string name="power_reboot_system_1">重启进入另一系统 (System 1)</string>
+  <string name="power_reboot_system_2">重启进入另一系统 (System 2)</string>
+  <string name="power_cancel">取消</string>
+  <!-- Device -->
+  <string name="device">设备</string>
+  <string name="show_navigation_bar_summary">显示屏幕内按键 (Nexus 风格)</string>
+  <string name="show_navigation_bar">显示导航栏</string>
+  <string name="navigation_bar_height_summary">高度: %s</string>
+  <string name="navigation_bar_height">导航栏高度</string>
+  <string name="navigation_bar_color">导航栏颜色</string>
+  <string name="navigation_bar_color_summary">导航栏背景颜色</string>
+  <string name="all_rotations_summary">允许所有旋转角度, 包括倒立</string>
+  <string name="all_rotations">启用所有旋转角度</string>
+  <string name="lockscreen_rotations_summary">允许锁屏旋转到横屏模式</string>
+  <string name="lockscreen_rotations">启用锁屏旋转</string>
+  <string name="custom_build_prop">设备属性</string>
+  <string name="custom_build_prop_summary">设置自定义 build.prop 参数</string>
+  <string name="enable_custom_build_prop_summary">以下参数将在启动后被修改\nbuild.prop 文件不会被改动</string>
+  <string name="enable_custom_build_prop">使用自定义属性值</string>
+  <string name="custom_build_prop_board_value">ro.product.board</string>
+  <string name="custom_build_prop_board">Board</string>
+  <string name="custom_build_prop_brand_value">ro.product.brand</string>
+  <string name="custom_build_prop_brand">Brand</string>
+  <string name="custom_build_prop_device_value">ro.product.device</string>
+  <string name="custom_build_prop_device">Device</string>
+  <string name="custom_build_prop_model_value">ro.product.model</string>
+  <string name="custom_build_prop_model">Model</string>
+  <string name="custom_build_prop_name_value">ro.product.name</string>
+  <string name="custom_build_prop_name">Name</string>
+  <!-- Buttons -->
+  <string name="buttons">按键</string>
+  <string name="buttons_summary">按键重映射、按键动作等等</string>
+  <string name="key_menu">菜单键 (MENU)</string>
+  <string name="key_volume">音量键</string>
+  <string name="double_click_menu_app_summary">选择双击菜单键时启动的应用</string>
+  <string name="double_click_menu_app">双击菜单键</string>
+  <string name="long_press_menu_action_summary">%s</string>
+  <string name="long_press_menu_action">长按菜单键行为</string>
+  <string name="double_tap_menu_action_summary">%s</string>
+  <string name="double_tap_menu_action">双击菜单键行为</string>
+  <string name="menu_action_default">默认</string>
+  <string name="menu_action_previous_app">启动上一个应用</string>
+  <string name="menu_action_sleep">锁定屏幕</string>
+  <string name="menu_action_custom_app">启动自定义应用</string>
+  <string name="menu_action_torch">打开手电筒</string>
+  <string name="vol_key_cursor">音量键光标控制</string>
+  <string name="vol_key_cursor_summary">输入时使用音量键控制光标</string>
+  <string name="vol_key_cursor_reverse">交换按键</string>
+  <string name="vol_key_cursor_reverse_summary">交换控制光标时的音量键</string>
+  <string name="long_press_track_skip">音量键跳轨</string>
+  <string name="long_press_track_skip_summary">当屏幕关闭时，长按音量键跳轨</string>
+  <string name="swap_long_press_skip_keys">交换按键</string>
+  <string name="swap_long_press_skip_keys_summary">交换跳轨时的音量键</string>
+  <!-- Sound -->
+  <string name="sound">声音</string>
+  <string name="sound_summary">声音相关设定</string>
+  <string name="disable_volume_control_sound">禁用哔音</string>
+  <string name="disable_volume_control_sound_summary">禁用调节音量时发出的哔哔声</string>
+  <string name="volume_step">音量步长</string>
+  <string name="volume_steps_voice_call">通话音量</string>
+  <string name="volume_steps_system">媒体音量</string>
+  <string name="volume_steps_ring">铃声音量</string>
+  <string name="volume_steps_music">音乐音量</string>
+  <string name="volume_steps_alarm">闹钟音量</string>
+  <string name="volume_steps_notification">通知音量</string>
+  <string name="volume_steps_bluetooth">蓝牙音量</string>
+  <!-- Advanced -->
+  <string name="advanced">高级</string>
+  <string name="extra_battery_info_summary">在电量设置中添加电池信息</string>
+  <string name="extra_battery_info">附加电池信息</string>
+  <string name="disable_scrolling_cache_summary">禁用对 ListView 对象的滚动缓存\n也许会提高某些列表的滚动流畅度</string>
+  <string name="disable_scrolling_cache">禁用滚动缓存 (scrolling cache)</string>
+  <!-- Launcher prefs-->
+  <string name="launcher">桌面</string>
+  <string name="launcher_summary">桌面相关设定</string>
+  <string name="hide_icons_label">隐藏图标标签</string>
+  <string name="hide_icons_label_summary">隐藏桌面图标下文字标签</string>
+  <string name="hide_hotseats_label">隐藏 DOCK 图标标签</string>
+  <string name="hide_hotseats_label_summary">隐藏 DOCK 上的图标标签</string>
+  <string name="hide_folders_label">文件夹标签</string>
+  <string name="hide_folders_label_summary">隐藏桌面文件夹下文字标签</string>
+  <string name="config_folder_columns_count">文件夹列数</string>
+  <string name="config_folder_columns_count_summary">文件夹的列数 (打开状态): %s</string>
+  <string name="launcher_font_size_summary">设置桌面图标文字尺寸:\n%s</string>
+  <string name="launcher_font_size">文字尺寸</string>
+  <!-- Applications prefs-->
+  <string name="applications">系统应用</string>
+  <string name="applications_summary">MIUI 系统应用设置</string>
+  <!-- MMS -->
+  <string name="app_mms">短信</string>
+  <string name="disable_sms_to_mms_conversion">允许长短信</string>
+  <string name="disable_sms_to_mms_conversion_summary">禁用自动转换短信为彩信</string>
+  <string name="mms_unicode_stripping">规格化 unicode</string>
+  <string name="mms_unicode_stripping_summary">将 unicode 字符转换为普通字符\n模式: %s\n在部分设备上（尚）不能工作！</string>
+  <string name="mms_unicode_stripping_leave_intact">保留原样</string>
+  <string name="mms_unicode_stripping_non_encodable">去除无法编码字符</string>
+  <string name="mms_unicode_stripping_all">去除所有 unicode 字符</string>
+  <string name="festival_update_server">推荐短信更新服务器</string>
+  <string name="festival_update_server_summary">%s</string>
+  <!-- Calendar -->
+  <string name="app_calendar">日历</string>
+  <string name="holidays_update_server">假期更新服务器</string>
+  <string name="holidays_update_server_summary">%s</string>
+  <string name="holidays_selector_country">假期国家</string>
+  <string name="holidays_selector_country_summary">%s</string>
+  <string name="holidays_selector_country_original">默认 (中国假期)</string>
+  <string name="holidays_selector_country_russia">Russia</string>
+  <string name="holidays_selector_country_ukraine">Ukraine</string>
+  <string name="holidays_selector_country_slovakia">Slovakia</string>
+  <string name="holidays_selector_country_czech">Czech Republic</string>
+  <!-- QuickSearchBox -->
+  <string name="app_quicksearchbox">快速搜索栏</string>
+  <string name="quicksearchbox_marketplace">搜索市场</string>
+  <string name="quicksearchbox_marketplace_summary">搜索以下市场:\n%s</string>
+  <!-- Browser -->
+  <string name="app_browser">浏览器</string>
+  <string name="browser_autofit_pages">自适应页面</string>
+  <string name="browser_autofit_pages_summary">向浏览器设置添加 \"Mobile View\" 选项</string>
+  <!-- Music -->
+  <string name="app_music">音乐</string>
+  <string name="launch_playback_screen">启动到播放界面</string>
+  <string name="launch_playback_screen_summary">点击音乐弹出挂件时启动到播放界面。默认情况下会打开音乐播放器主界面</string>
+  <string name="disable_albumart_download">不要下载封面</string>
+  <string name="disable_albumart_download_summary">禁止自动下载封面图片</string>
+  <!-- Themes -->
+  <string name="app_themes">主题风格</string>
+  <string name="themes_reverse_tabs_order">反向标签顺序</string>
+  <string name="themes_reverse_tabs_order_summary">将标签顺序修改为: 我的, 分类, 排行, 精品</string>
+  <string name="themes_replace_lunar_dates">替换农历日期</string>
+  <string name="themes_replace_lunar_dates_summary">尝试寻找主题中的农历日期并替换为公历日期 (锁屏)</string>
+  <!-- Supermarket -->
+  <string name="app_supermarket">应用商店</string>
+  <string name="supermarket_reverse_tabs_order">反向标签顺序</string>
+  <string name="supermarket_reverse_tabs_order_summary">将标签顺序修改为: 管理, 分类, 排行, 精品</string>
+  <string name="supermarket_disable_autoupdates_check">不要检查更新</string>
+  <string name="supermarket_disable_autoupdates_check_summary">禁用自动检查更新</string>
+  <!-- Updater -->
+  <string name="app_updater">系统更新</string>
+  <string name="updater_disable_autoupdates_check">不要检查更新</string>
+  <string name="updater_disable_autoupdates_check_summary">禁用自动检查更新</string>
+  <string name="updater_english_changelog">显示英文更新日志</string>
+  <string name="updater_english_changelog_summary">强制更新日志显示为英文</string>
+  <!-- MiuiGallery -->
+  <string name="app_miuigallery">相册</string>
+  <string name="cloud_upload_delay">云同步延迟</string>
+  <string name="cloud_upload_delay_summary">新照片同步到小米云服务前的延迟时间\n%s</string>
 </resources>
