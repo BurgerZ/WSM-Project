@@ -36,6 +36,7 @@
     <string name="bottom_bar_btn_reboot">Reboot</string>
     <string name="bottom_bar_btn_refresh">Update</string>
     <string name="bottom_bar_btn_whatsnew">WhatsNew</string>
+    <string name="whatsnew_changelog">Pre-release changelog:</string>
     <string name="module_opt_hide_title">Hide module</string>
     <string name="module_opt_hide_summary">To show hidden modules turn on "Show hidden modules" option</string>
     <string name="dialog_are_you_sure">Are you sure?</string>

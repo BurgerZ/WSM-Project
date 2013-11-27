@@ -36,6 +36,7 @@
     <string name="bottom_bar_btn_reboot">Перезагрузка</string>
     <string name="bottom_bar_btn_refresh">Обновить</string>
     <string name="bottom_bar_btn_whatsnew">WhatsNew</string>
+    <string name="whatsnew_changelog">Предварительный список изменений:</string>
     <string name="module_opt_hide_title">Скрыть модуль</string>
     <string name="module_opt_hide_summary">Для отображения скрытых модулей включите \"Показывать скрытые\" в настройках</string>
     <string name="dialog_are_you_sure">Вы уверены?</string>
@@ -77,7 +78,7 @@
     <string name="download_section_24h">Последние 24 часа</string>
     <string name="download_section_7d">Последние 7 дней</string>
     <string name="download_section_30d">Последние 30 дней</string>
-    <string name="download_section_older">Более 30 назад</string>
+    <string name="download_section_older">Более 30 дней назад</string>
 
     <!-- DownloadUtils -->
     <string name="download_md5sum_incorrect">Некорректная MD5 сумма (загружено: %1$s, ожидалось: %2$s)</string>
