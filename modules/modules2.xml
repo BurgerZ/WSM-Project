@@ -360,7 +360,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<code>211</code>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v211_8643ea.apk</download> 
 		<md5sum>8643ea751f9cf1667e31831997312dbb</md5sum> 
-		<changelog html="true">&lt;li&gt;Updated binaries: app_process to v46, XposedBridge to v40. This update supports Android 4.4 KitKat&lt;/li&gt;&lt;li&gt;Added WhatsNew button: now you can see development progress of WSM Project in realtime mode&lt;/li&gt;&lt;li&gt;Added donations button to the About screen&lt;/li&gt;&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
+		<changelog html="true">&lt;li&gt;Updated binaries: app_process to v46, XposedBridge to v40. This update supports Android 4.4 KitKat&lt;/li&gt;&lt;li&gt;Added WhatsNew button: now you can see development progress of WSM Project in realtime mode&lt;/li&gt;&lt;li&gt;Added donations button to the About screen&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
 	</version>	
     <version>
 		<name>2.1.0</name> 
