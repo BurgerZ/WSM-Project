@@ -350,11 +350,18 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<changelog html="true"></changelog> 
 	</version>	
   </module>
-  <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1385025855">
+  <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1385541301">
 	<name>WSM tools</name> 
 	<summary>This is the installer and manager for the Xposed framework, which is a requirement for all modules</summary> 
 	<description html="true">&lt;p&gt;This is the installer for the Xposed framework, which is a requirement for all modules.&lt;/p&gt;&lt;p&gt;This framework is based on rovo89\'s Xposed framework. Like an original project it is a framework for modules that can change the behavior of the system and apps without touching any APKs&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note that this only works with root access on Android 4.0.3 or later.&lt;/b&gt;&lt;/p&gt;</description> 
 	<author>BurgerZ</author>
+	<version>
+		<name>2.1.1</name> 
+		<code>211</code>
+		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v211_8643ea.apk</download> 
+		<md5sum>8643ea751f9cf1667e31831997312dbb</md5sum> 
+		<changelog html="true">&lt;li&gt;Updated binaries: app_process to v46, XposedBridge to v40. This update supports Android 4.4 KitKat&lt;/li&gt;&lt;li&gt;Added WhatsNew button: now you can see development progress of WSM Project in realtime mode&lt;/li&gt;&lt;li&gt;Added donations button to the About screen&lt;/li&gt;&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
+	</version>	
     <version>
 		<name>2.1.0</name> 
 		<code>210</code>
