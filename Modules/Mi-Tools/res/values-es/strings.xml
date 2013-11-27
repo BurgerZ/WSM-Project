@@ -222,9 +222,9 @@
     <string name="headset_notification_icon_summary">Headset notification icon visibility while plug in headset</string>
     <!-- Launcher prefs-->
     <string name="launcher">Launcher</string>
-    <string name="launcher_summary">Launcher related settings</string>
-    <string name="hide_icons_label">Hide icons label</string>
-    <string name="hide_icons_label_summary">Allows you to to hide launcher icons labels</string>
+    <string name="launcher_summary">Ajustes relacionados del Launcher</string>
+    <string name="hide_icons_label">Ocultar texto en iconos</string>
+    <string name="hide_icons_label_summary">Permite ocultar el texto de los iconos en el escritorio</string>
     <string name="hide_folders_label">Hide folders label</string>
     <string name="hide_folders_label_summary">Allows you to to hide launcher folders labels</string>
     <!-- Applications prefs-->
@@ -233,7 +233,7 @@
     <!-- MMS -->
     <string name="app_mms">Mensajes</string>
     <string name="disable_sms_to_mms_conversion">Permitir SMSs largos</string>
-    <string name="disable_sms_to_mms_conversion_summary">Disables 9 SMS\'s to MMS conversion</string>
+    <string name="disable_sms_to_mms_conversion_summary">Deshabilita la conversión 9 SMS\'s a MMS</string>
     <string name="mms_unicode_stripping">Strip unicode</string>
     <string name="mms_unicode_stripping_summary">Converts unicode characters to normal.\nMode:%s\nDoes not work on some devices (yet)!</string>
     <string name="mms_unicode_stripping_leave_intact">Leave characters intact</string>
@@ -243,9 +243,9 @@
     <string name="festival_update_server_summary">%s</string>
     <!-- Calendar -->
     <string name="app_calendar">Calendario</string>
-    <string name="holidays_update_server">Holidays update server</string>
+    <string name="holidays_update_server">Servidor de actualización de vacaciones</string>
     <string name="holidays_update_server_summary">%s</string>
-    <string name="holidays_selector_country">Holidays country</string>
+    <string name="holidays_selector_country">País de vacaciones</string>
     <string name="holidays_selector_country_summary">%s</string>
     <string name="holidays_selector_country_original">Original (Chino)</string>
     <string name="holidays_selector_country_russia">Rusia</string>
@@ -254,14 +254,14 @@
     <string name="holidays_selector_country_czech">República Checa</string>
     <!-- QuickSearchBox -->
     <string name="app_quicksearchbox">Cuadro de Búsqueda Rápida</string>
-    <string name="quicksearchbox_marketplace">Search MarketPlace</string>
-    <string name="quicksearchbox_marketplace_summary">Marketplace to search:\n%s</string>
+    <string name="quicksearchbox_marketplace">Selección de tienda para búsqueda rápida</string>
+    <string name="quicksearchbox_marketplace_summary">Cambia la tienda en la que buscar desde el cuadro de búsqueda rápida:\n%s</string>
     <!-- Browser -->
     <string name="app_browser">Navegador</string>
     <string name="browser_autofit_pages">Autoajuste de Páginas</string>
     <string name="browser_autofit_pages_summary">Añade \"Vista Móvil\" a la Pestaña General de los Ajustes del Navegador.</string>
     <!-- Music -->
     <string name="app_music">Música</string>
-    <string name="launch_playback_screen">Launch playback screen</string>
-    <string name="launch_playback_screen_summary">Launch playback screen in Music player on pop-up widget click. By default, the main screen opens</string>
+    <string name="launch_playback_screen">Inicia la pantalla de reproducción</string>
+    <string name="launch_playback_screen_summary">Inicia la pantalla de reproducción en el widget emergente de la app Música. Por defecto abre la pantalla principal</string>
 </resources>
