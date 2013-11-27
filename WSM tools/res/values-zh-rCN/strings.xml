@@ -34,14 +34,14 @@
   <string name="pref_about_title">关于</string>
   <string name="bottom_bar_btn_settings">设置</string>
   <string name="bottom_bar_btn_reboot">重新启动</string>
-  <string name="bottom_bar_btn_refresh">升级</string>
+  <string name="bottom_bar_btn_refresh">刷新列表</string>
   <string name="bottom_bar_btn_whatsnew">更新预告</string>
   <string name="whatsnew_changelog">发布前更新日志:</string>
   <string name="module_opt_hide_title">隐藏模块</string>
   <string name="module_opt_hide_summary">要显示隐藏模块, 请开启“显示隐藏模块”选项</string>
   <string name="dialog_are_you_sure">你确定？</string>
   <string name="dialog_phone_will_be_rebooted">您的手机将会重启</string>
-  <string name="dialog_progress_updating">升级中...</string>
+  <string name="dialog_progress_updating">更新中...</string>
   <string name="dialog_update_available">WSM tools 有可用更新\n当前版本: %1$s\n更新版本: %2$s\n安装新版本之后, 请前往设置 - 管理 WSM 检查是否需要更新二进制文件。</string>
   <string name="menu_select_all">全选</string>
   <string name="menu_unselect_all">全不选</string>
