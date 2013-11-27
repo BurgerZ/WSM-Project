@@ -5,6 +5,7 @@
     <string name="act_title_settings">Ustawienia</string>
     <string name="act_title_about">Informacje</string>
     <string name="act_title_installer">Zarządzaj</string>
+    <string name="act_title_whatsnew">Nowości</string>
     <string name="fragment_modules">Moduły</string>
     <string name="fragment_online">W sieci</string>
     <string name="fragment_logs">Logi</string>
@@ -16,7 +17,7 @@
     <string name="copyright_xposed">Bazuje na Xposed</string>
     <string name="information_faq">Szczegóły</string>
     <string name="information_faq_summary">F.A.Q., tłumaczenia, podziękowania, pomoc</string>
-    <string name="pref_feedback_title">Wsparcie</string>
+    <string name="pref_feedback_title">Pomoc techniczna</string>
     <string name="pref_feedback_summary">Raporty, prośby o moduły, itp.</string>
     <string name="pref_manage_title">Zarządzaj WSM</string>
     <string name="pref_manage_summary">Zainstaluj, Aktualizuj, Usuń</string>
@@ -27,13 +28,15 @@
     <string name="pref_show_logs_tab_title">Pokaż Logi</string>
     <string name="pref_show_logs_tab_summary">Dodaje zakładkę z dziennikiem zdarzeń</string>
     <string name="pref_show_module_info_title">Informacje o module</string>
-    <string name="pref_show_module_info_summary">Pokaż informacje klikając na ikonę modułu</string>
+    <string name="pref_show_module_info_summary">Pokazuje informacje klikając na ikonę modułu</string>
     <string name="pref_system_toasts_title">Powiadomienia w dymkach</string>
     <string name="pref_system_toasts_summary">Pokazuje wiadomości WSM w dymkach</string>
     <string name="pref_about_title">Informacje</string>
     <string name="bottom_bar_btn_settings">Ustawienia</string>
     <string name="bottom_bar_btn_reboot">Restart</string>
     <string name="bottom_bar_btn_refresh">Odśwież</string>
+    <string name="bottom_bar_btn_whatsnew">Nowości</string>
+    <string name="whatsnew_changelog">Lista zmian:</string>
     <string name="module_opt_hide_title">Ukryj moduł</string>
     <string name="module_opt_hide_summary">Wyświetl ukryte moduły włączając opcję "Ukryte moduły" w ustawieniach</string>
     <string name="dialog_are_you_sure">Jesteś pewny?</string>
@@ -115,4 +118,15 @@
     <string name="logs_load_failed">Nie można załadować logów:</string>
     <string name="logs_save_failed">Błąd podczas zapisu logów na kartę:</string>
     <string name="sdcard_not_writable">Brak karty SD lub karta uszkodzona</string>
+
+
+    <!-- Donations -->
+    <string name="donate">Darowizna</string>
+    <string name="donations_button_close">Anuluj</string>
+    <string name="donations_description">Podoba  Ci się WSM Tools?\nWesprzyj dewelopera darowizną!</string>
+    <string name="donations_thanks_dialog">Dziękuję za darowiznę!\nDoceniam to!</string>
+    <string name="donations_thanks_dialog_title">Dziekuję!</string>
+    <string name="donations_paypal">PayPal</string>
+    <string name="donations_yandex">Yandex.Money</string>
+    <string name="donations_paypal_description">Sumę darowizny będzie można wybrać po kliknięciu!</string>
 </resources>
