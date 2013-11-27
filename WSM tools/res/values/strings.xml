@@ -5,6 +5,7 @@
     <string name="act_title_settings">Settings</string>
     <string name="act_title_about">About</string>
     <string name="act_title_installer">Manage</string>
+    <string name="act_title_whatsnew">WhatsNew</string>
     <string name="fragment_modules">Modules</string>
     <string name="fragment_online">Online</string>
     <string name="fragment_logs">Logs</string>
@@ -17,7 +18,7 @@
     <string name="information_faq">Information</string>
     <string name="information_faq_summary">F.A.Q., translations, credits, help</string>
     <string name="pref_feedback_title">Feedback</string>
-    <string name="pref_feedback_summary">Send bugreport, module request, etc.</string>
+    <string name="pref_feedback_summary">Send bugreport, module request, etc.\n(In English or Russian only!)</string>
     <string name="pref_manage_title">Manage WSM</string>
     <string name="pref_manage_summary">Install, Update, Delete</string>
     <string name="pref_repositories_alert">Some Xposed modules may not work or make your phone not bootable!\nUse them on your own risk!</string>
@@ -34,6 +35,7 @@
     <string name="bottom_bar_btn_settings">Settings</string>
     <string name="bottom_bar_btn_reboot">Reboot</string>
     <string name="bottom_bar_btn_refresh">Update</string>
+    <string name="bottom_bar_btn_whatsnew">WhatsNew</string>
     <string name="module_opt_hide_title">Hide module</string>
     <string name="module_opt_hide_summary">To show hidden modules turn on "Show hidden modules" option</string>
     <string name="dialog_are_you_sure">Are you sure?</string>
@@ -118,4 +120,14 @@
     <string name="logs_load_failed">Could not read log:</string>
     <string name="logs_save_failed">Could not write log to SD card:</string>
     <string name="sdcard_not_writable">SD card not found or not writable</string>
+
+    <!-- Donations -->
+    <string name="donate">Donate</string>
+    <string name="donations_button_close">Close</string>
+    <string name="donations_description">Do you find this application useful?\nSupport it\'s development by sending donations to the developer!</string>
+    <string name="donations_thanks_dialog">Thanks for donating!\nI really appreciate this!</string>
+    <string name="donations_thanks_dialog_title">Thanks!</string>
+    <string name="donations_paypal">PayPal</string>
+    <string name="donations_yandex">Yandex.Money</string>
+    <string name="donations_paypal_description">You can choose how much you want to donate after clicking the button!</string>
 </resources>

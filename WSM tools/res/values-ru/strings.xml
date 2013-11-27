@@ -6,6 +6,7 @@
     <string name="act_title_settings">Настройки</string>
     <string name="act_title_about">О программе</string>
     <string name="act_title_installer">Управление</string>
+    <string name="act_title_whatsnew">WhatsNew</string>
     <string name="fragment_modules">Модули</string>
     <string name="fragment_online">Онлайн</string>
     <string name="fragment_logs">Логи</string>
@@ -17,7 +18,7 @@
     <string name="information_faq">Информация</string>
     <string name="information_faq_summary">F.A.Q., перевод, благодарности, помощь</string>
     <string name="pref_feedback_title">Обратная связь</string>
-    <string name="pref_feedback_summary">Отчет об ошибках, запрос модуля и т.д.</string>
+    <string name="pref_feedback_summary">Отчет об ошибках, запрос модуля и т.д.\n(Только по-английски или по-русски!)</string>
     <string name="pref_manage_title">Управление WSM</string>
     <string name="pref_manage_summary">Установка, Обновление, Удаление</string>
     <string name="pref_repositories_alert">Некоторые модули Xposed могут не работать или стать причиной того, что ваш телефон не сможет загрузиться!\nИспользуйте их на ваш страх и риск!</string>
@@ -34,6 +35,7 @@
     <string name="bottom_bar_btn_settings">Настройки</string>
     <string name="bottom_bar_btn_reboot">Перезагрузка</string>
     <string name="bottom_bar_btn_refresh">Обновить</string>
+    <string name="bottom_bar_btn_whatsnew">WhatsNew</string>
     <string name="module_opt_hide_title">Скрыть модуль</string>
     <string name="module_opt_hide_summary">Для отображения скрытых модулей включите \"Показывать скрытые\" в настройках</string>
     <string name="dialog_are_you_sure">Вы уверены?</string>
@@ -116,4 +118,14 @@
     <string name="logs_load_failed">Не могу прочитать лог:</string>
     <string name="logs_save_failed">Не могу записать лог на SD карту:</string>
     <string name="sdcard_not_writable">SD не найдена или только для чтения</string>
+
+    <!-- Donations -->
+    <string name="donate">Пожертвование</string>
+    <string name="donations_button_close">Закрыть</string>
+    <string name="donations_description">Считаете ли вы приложение полезным?\nПоддержите его разработку, отправив пожертвование разработчику!"</string>
+    <string name="donations_thanks_dialog">Благодарю за пожертвование!\nЯ очень это ценю!</string>
+    <string name="donations_thanks_dialog_title">Благодарю!</string>
+    <string name="donations_paypal">PayPal</string>
+    <string name="donations_yandex">Яндекс.Деньги</string>
+    <string name="donations_paypal_description">После нажатия на кнопку вы сможете выбрать сколько хотите пожертвовать!</string>
 </resources>
