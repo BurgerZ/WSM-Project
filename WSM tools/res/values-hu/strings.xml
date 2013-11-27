@@ -5,6 +5,7 @@
     <string name="act_title_settings">Beállítások</string>
     <string name="act_title_about">Névjegy</string>
     <string name="act_title_installer">Telepítő</string>
+    <string name="act_title_whatsnew">Újdonságok</string>
     <string name="fragment_modules">Modulok</string>
     <string name="fragment_logs">Naplózás</string>
     <string name="versions_wsm_tools">WSM verzió</string>
@@ -33,6 +34,8 @@
     <string name="bottom_bar_btn_settings">Beállítások</string>
     <string name="bottom_bar_btn_reboot">Újraindítás</string>
     <string name="bottom_bar_btn_refresh">Frissítés</string>
+    <string name="bottom_bar_btn_whatsnew">Újdonságok</string>
+    <string name="whatsnew_changelog">Változások:</string>
     <string name="module_opt_hide_title">Modul elrejtése</string>
     <string name="module_opt_hide_summary">A rejtett modulok megjelenítéséhez kapcsolja be a rejtett modulok mutatása opciót</string>
     <string name="dialog_are_you_sure">Biztos benne?</string>
@@ -102,4 +105,13 @@
     <string name="logs_load_failed">A napló beolvasása sikertelen:</string>
     <string name="logs_save_failed">A napló mentése az SD kártyára nem sikerült:</string>
     <string name="sdcard_not_writable">Nem található vagy írásvédett az SD kártya</string>
+    <!-- Donations -->
+    <string name="donate">Adományozás</string>
+    <string name="donations_button_close">Bezárás</string>
+    <string name="donations_description">Hasznosnak találja az alkalmazást?\nTámogassa a fejlesztő munkáját!</string>
+    <string name="donations_thanks_dialog">Köszönöm az adományt!\nIgazán hálás vagyok érte!</string>
+    <string name="donations_thanks_dialog_title">Köszönöm!</string>
+    <string name="donations_paypal">PayPal</string>
+    <string name="donations_yandex">Yandex.Money</string>
+    <string name="donations_paypal_description">A gombra kattintva kiválaszthatja az adományozás összegét!</string>
 </resources>
