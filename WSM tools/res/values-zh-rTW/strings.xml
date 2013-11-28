@@ -5,6 +5,7 @@
     <string name="act_title_settings">設定</string>
     <string name="act_title_about">關於</string>
     <string name="act_title_installer">管理</string>
+    <string name="act_title_whatsnew">更新資訊</string>
     <string name="fragment_modules">模組</string>
     <string name="fragment_online">線上</string>
     <string name="fragment_logs">數據</string>
@@ -17,7 +18,7 @@
     <string name="information_faq">資訊</string>
     <string name="information_faq_summary">F.A.Q., 翻譯人員, 製作群, 幫助</string>
     <string name="pref_feedback_title">意見反映</string>
-    <string name="pref_feedback_summary">傳送錯誤回報與模組請求,以及 etc.</string>
+    <string name="pref_feedback_summary">傳送錯誤回報與模組請求,以及錯誤警示\n(僅限使用英文以及俄羅斯文!).</string>
     <string name="pref_manage_title">管理 WSM</string>
     <string name="pref_manage_summary">安裝, 升級, 刪除</string>
     <string name="pref_repositories_alert">有些 Xposed 模組將無法運行在您的裝置上，甚至將導致您的裝置無法正常開機!\n使用它們有一定的風險，請自行斟酌!</string>
@@ -34,6 +35,8 @@
     <string name="bottom_bar_btn_settings">設定</string>
     <string name="bottom_bar_btn_reboot">重新啟動</string>
     <string name="bottom_bar_btn_refresh">升級</string>
+    <string name="bottom_bar_btn_whatsnew">更新資訊</string>
+    <string name="whatsnew_changelog">預先發行版本更新資訊:</string>
     <string name="module_opt_hide_title">隱藏模組</string>
     <string name="module_opt_hide_summary">要顯示被隱藏的模組請開啟 "顯示被隱藏的模組" 選項</string>
     <string name="dialog_are_you_sure">您確定?</string>
@@ -60,7 +63,7 @@
     <string name="repo_load_failed">無法載入資料庫從 %1$s:\n%2$s</string>
 
     <!-- Download tab -->
-    <string name="changes">變更:</string>
+    <string name="changes">更新資訊:</string>
     <string name="branch_display">(%s 分支)</string>
     <string name="download_author">藉由 %s</string>
     <string name="download_unknown_author">未知作者</string>
@@ -118,4 +121,14 @@
     <string name="logs_load_failed">無法存取數據:</string>
     <string name="logs_save_failed">無法寫入數據至 SD 卡:</string>
     <string name="sdcard_not_writable">SD 卡未找到或未安裝</string>
-</resources>
+    
+    <!-- Donations -->
+    <string name="donate">捐贈</string>
+    <string name="donations_button_close">關閉</string>
+    <string name="donations_description">您是否感受的這個應用程式十分的實用呢?\n請捐贈本程式的開發者來支援這個應用程式更多的開發!</string>
+    <string name="donations_thanks_dialog">感謝您的捐贈!\n我非常欣賞您的舉動!</string>
+    <string name="donations_thanks_dialog_title">非常感謝!</string>
+    <string name="donations_paypal">PayPal</string>
+    <string name="donations_yandex">Yandex.Money</string>
+    <string name="donations_paypal_description">您可以在輕觸按鈕後選擇您想要捐贈多少!</string>
+  </resources>
