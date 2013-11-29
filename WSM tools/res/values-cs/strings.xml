@@ -5,6 +5,7 @@
     <string name="act_title_settings">Nastavení</string>
     <string name="act_title_about">Co to je</string>
     <string name="act_title_installer">Spravovat</string>
+    <string name="act_title_whatsnew">Co je nového?</string>
     <string name="fragment_modules">Moduly</string>
     <string name="fragment_online">Online</string>
     <string name="fragment_logs">Záznamy</string>
@@ -34,6 +35,8 @@
     <string name="bottom_bar_btn_settings">Nastavení</string>
     <string name="bottom_bar_btn_reboot">Restart</string>
     <string name="bottom_bar_btn_refresh">Aktualizovat</string>
+    <string name="bottom_bar_btn_whatsnew">Co je nového?</string>
+    <string name="whatsnew_changelog">Předfinální seznam změn:</string>
     <string name="module_opt_hide_title">Skrýt modul</string>
     <string name="module_opt_hide_summary">Pro zobrazení skrytých modulů povolte v nastavení "Zobrazit skryté moduly"</string>
     <string name="dialog_are_you_sure">Jste si jistý?</string>
@@ -118,4 +121,14 @@
     <string name="logs_load_failed">Záznam nelze načíst:</string>
     <string name="logs_save_failed">Záznam nelze zapsat na SD kartu:</string>
     <string name="sdcard_not_writable">SD karta nenalezena, nebo nelze zapisovat</string>
+
+    <!-- Donations -->
+    <string name="donate">Podpořit</string>
+    <string name="donations_button_close">Zavřít</string>
+    <string name="donations_description">Je pro Vás tato aplikace užitečná?\nPodpořte ji zasláním jakékoliv částky vývojáři!</string>
+    <string name="donations_thanks_dialog">Děkuji za podpoření!\nVažím si toho!</string>
+    <string name="donations_thanks_dialog_title">Děkuji!</string>
+    <string name="donations_paypal">PayPal</string>
+    <string name="donations_yandex">Yandex.Money</string>
+    <string name="donations_paypal_description">Po stisknutí tlačítka si můžete vybrat výši darované částky!</string>
 </resources>
