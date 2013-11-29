@@ -1,10 +1,17 @@
 <repository>
   <name>WSM repository</name>
-  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1385125332">
+  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1385716890">
 	<name>Mi-Tools</name> 
 	<summary>MIUI v5 all in one module</summary> 
 	<description html="true">&lt;p&gt;MIUI v5 all in one module. It handles framework, statusbar, launcher, sound, MIUI applications modifications.&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
+	<version>
+		<name>1.5</name> 
+		<code>15</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v15_17aca0.apk</download> 
+		<md5sum>17aca00f937d92a2a9e4cbaf181442e0</md5sum> 
+		<changelog html="true">&lt;li&gt;Added Wind carrier logos (color and white)&lt;/li&gt;&lt;li&gt;Added Hex color value editor to color picker preferences&lt;/li&gt;&lt;li&gt;Fixed mobile network signal bars and wi-fi icon visibility for 2SIM phones with iOS7 clock layout&lt;/li&gt;&lt;li&gt;Fixed font adjustment for statusbar views&lt;/li&gt;&lt;li&gt;Added font style selection for system and apps settings - Bold or Normal&lt;/li&gt;&lt;li&gt;Fixed issue with statusbar layouts resetting to defaults while changing theme or system language&lt;/li&gt;&lt;li&gt;VOLUME STEPS mod temporary disabled due issues with phone volume (will be fixed soon)&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
+	</version>
 	<version>
 		<name>1.4</name> 
 		<code>14</code> 
