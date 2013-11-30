@@ -44,6 +44,12 @@
     <string name="text_small">小</string>
     <string name="text_medium">中</string>
     <string name="text_large">大</string>
+    <string name="time_30_sec">30 秒</string>
+    <string name="time_1_min">1 分鐘 (預設)</string>
+    <string name="time_5_min">5 分鐘</string>
+    <string name="time_10_min">10 分鐘</string>
+    <string name="time_30_min">30 分鐘</string>
+    <string name="time_1_hour">1 個小時</string>
     <!-- MIUI warning -->
     <string name="miwarning_title">不支援的系統</string>
     <string name="miwarning_message">該系統不被官方支援，某些選項將不會正常運行。\n您確定要繼續嗎？</string>
@@ -306,4 +312,9 @@
     <string name="updater_disable_autoupdates_check_summary">停用自動升級檢查</string>
     <string name="updater_english_changelog">更新資訊以英文顯示</string>
     <string name="updater_english_changelog_summary">強制讓 ROM 的更新資訊以英文方式顯示</string>
+    <!-- MiuiGallery -->
+    <string name="app_miuigallery">相簿</string>
+    <string name="cloud_upload_delay">雲服務上傳延時</string>
+    <string name="cloud_upload_delay_summary">上傳新照片至"小米雲服務"之前的延遲時間.\n%s</string>
+
 </resources>
