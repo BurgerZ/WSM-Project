@@ -142,6 +142,8 @@
     <string name="framework_summary">Opcje systemu</string>
     <!-- Common -->
     <string name="common">Ogólne</string>
+    <string name="bold_settings_font_summary">Używa pogrubionej czcionki w widoku ustawień</string>
+    <string name="bold_settings_font">Wytłuszczona czcionka</string>
     <string name="international_t9_summary">Włącza wyszukiwanie T9 w dialerze</string>
     <string name="international_t9">Dialer T9</string>
     <string name="local_yellowpage_database_summary">Blocks updates of the Yellow Pages database from Chinese server and adds the ability to "Mark" unknown contacts.</string>
@@ -300,6 +302,6 @@
     <string name="updater_english_changelog_summary">Wyświetla listę zmian po angielsku zamiast po chińsku</string>
     <!-- MiuiGallery -->
     <string name="app_miuigallery">Galeria</string>
-    <string name="cloud_upload_delay">Czas odświeżania chmury</string>
-    <string name="cloud_upload_delay_summary">Określa co ile czasu mają być wysyłane zdjęcia do MiCloud.\nAktualnie %s</string>
+    <string name="cloud_upload_delay">Opóźnienie odświeżania chmury</string>
+    <string name="cloud_upload_delay_summary">Określa kiedy po zrobieniu zdjęcia ma ono zostać wysyłane do MiCloud.\nAktualnie %s</string>
 </resources>
