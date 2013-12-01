@@ -2,7 +2,7 @@
 <resources>
     <string name="module_name">Auto Orientation</string>
     <string name="module_desc">在指定应用中启用横屏模式</string>
-    <string name="module_desc_full">为指定应用添加使用横屏模式的功能。要使用这个模块，你需要启动在显示设置中开启“自动旋转屏幕”。在部分设备上可能会显示错误。</string>
+    <string name="module_desc_full">为指定应用添加使用横屏模式的功能。要使用这个模块，你需要在显示设置中开启“自动旋转屏幕”。在部分设备上可能会显示错误。</string>
     <string name="rotation_enabled_list">选择应用</string>
     <string name="rotation_enabled_list_summary">轻点以选择需要启用旋转的应用</string>
     <string name="rotation_enabled_packages">已启用旋转的应用</string>
