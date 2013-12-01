@@ -8,7 +8,7 @@
   <string name="act_title_whatsnew">即将更新</string>
   <string name="fragment_modules">模块</string>
   <string name="fragment_online">下载与更新</string>
-  <string name="fragment_logs">Logs</string>
+  <string name="fragment_logs">日志</string>
   <string name="versions_wsm_tools">WSM tools 版本</string>
   <string name="author">程序</string>
   <string name="graphics">美工</string>
