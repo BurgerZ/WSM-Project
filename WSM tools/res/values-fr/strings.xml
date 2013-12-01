@@ -5,6 +5,7 @@
     <string name="act_title_settings">Paramètres</string>
     <string name="act_title_about">À propos</string>
     <string name="act_title_installer">Gérer</string>
+    <string name="act_title_whatsnew">Changelog</string>
     <string name="fragment_modules">Modules</string>
     <string name="fragment_online">En ligne</string>
     <string name="fragment_logs">Journal</string>
@@ -17,10 +18,10 @@
     <string name="information_faq">Information</string>
     <string name="information_faq_summary">F.A.Q., traductions, crédits, aide</string>
     <string name="pref_feedback_title">Feedback</string>
-    <string name="pref_feedback_summary">Envoyer des rapports de bogues, requêtes de module, etc.</string>
+    <string name="pref_feedback_summary">Envoyer des rapports de bogues, requêtes de module, etc.\n(En anglais ou russe uniquement !)</string>
     <string name="pref_manage_title">Gérer WSM</string>
     <string name="pref_manage_summary">Installer, Mettre à jour, Supprimer</string>
-    <string name="pref_repositories_alert">Certains modules Xposed peuvent ne pas fonctionner ou empêcher votre téléphone de démarrer !\nUtilisez-les à vos propres risques!</string>
+    <string name="pref_repositories_alert">Certains modules Xposed peuvent ne pas fonctionner ou empêcher votre téléphone de démarrer !\nUtilisez-les à vos propres risques !</string>
     <string name="pref_repositories_title">Sélectionner les dépôts</string>
     <string name="pref_show_hidden_modules_title">Afficher les modules cachés</string>
     <string name="pref_show_hidden_modules_summary">Affiche les modules cachés dans la liste</string>
@@ -48,16 +49,16 @@
     <string name="installer_uninstall">Désinstaller</string>
     <string name="installer_reboot">Redémarrage</string>
     <string name="installer_versions">VERSIONS :</string>
-    <string name="installer_installed_version">VERSION INSTALLÉ</string>
+    <string name="installer_installed_version">VERSION INSTALLÉE</string>
     <string name="installer_bundled_version">VERSION EMBARQUÉE</string>
     <string name="installer_phone_not_compatible">"WSM n'est (pour le moment) pas compatible avec le SDK Android version %1$d ou avec l'architecture de votre processeur (%2$s)."</string>
     <string name="installer_not_tested_but_compatible">"WSM n'a pas été testé avec le SDK Android version %d, mais il semble compatible. Vous pouvez essayer de l'installer si vous vous sentez aventureux."</string>
     
 
     <!-- RepoLoader -->
-    <string name="repo_download_failed_http">Téléchargement de %1$s à échoué : %2$d (%3$s)</string>
-    <string name="repo_download_failed">Téléchargement de %1$s à échoué : %2$s</string>
-    <string name="repo_load_failed">Impossible de charger le dépôt à partir %1$s :\n%2$s</string>
+    <string name="repo_download_failed_http">Téléchargement de %1$s a échoué : %2$d (%3$s)</string>
+    <string name="repo_download_failed">Téléchargement de %1$s a échoué : %2$s</string>
+    <string name="repo_load_failed">Impossible de charger le dépôt à partir de %1$s :\n%2$s</string>
 
     <!-- Download tab -->
     <string name="changes">Modifications :</string>
@@ -66,8 +67,8 @@
     <string name="download_unknown_author">auteur inconnu</string>
     <string name="download_status_version">Version : %1$s</string>
     <string name="download_status_update_available">" \u2192 %1$s"</string>
-    <string name="download_timestamps">Ajouté le %1$s · Mise à jour le %2$s</string>
-    <string name="download_sorting_title">Ordre de classement</string>
+    <string name="download_timestamps">Ajouté le %1$s · Mis à jour le %2$s</string>
+    <string name="download_sorting_title">Ordre de tri</string>
     <string name="download_sorting_status">Trier par statut</string>
     <string name="download_sorting_updated">Trier par date de mise à jour</string>
     <string name="download_sorting_created">Trier par date de création</string>
@@ -91,18 +92,18 @@
     <string name="download_view_install">Installer</string>
     <string name="download_view_cancel">Annuler</string>
     <string name="download_view_no_url">Aucune URL de téléchargement disponible</string>
-    <string name="download_view_running">Téléchargement en cours (%1$,d de %2$,d Ko)</string>
+    <string name="download_view_running">Téléchargement en cours (%1$,d sur %2$,d Ko)</string>
     <string name="download_view_waiting">Téléchargement en attente</string>
-    <string name="download_view_successful">Téléchargement effectué avec succès</string>
+    <string name="download_view_successful">Téléchargement réussi</string>
     <string name="download_view_failed">Téléchargement échoué (erreur %d)</string>
 
     <string name="module_installed">Module WSM installé</string>
-    <string name="module_empty_description">(aucune description fournie)</string>
+    <string name="module_empty_description">(aucune description)</string>
     <string name="module_no_ui">"Ce module ne fournit pas d'interface utilisateur"</string>
     <string name="no_wsm_modules_found">Aucun module WSM trouvé !</string>
     <string name="wsm_module_list_updated">La liste de modules WSM à été mise à jour\nLes changements seront actifs au redémarrage</string>
     <string name="warning_wsm_min_version">"Ce module requiert WSM version %s, il n'a donc pas pu être activé."</string>
-    <string name="no_min_version_specified">Ce module ne précise pas la version de WSM dont il a besoin.</string>
+    <string name="no_min_version_specified">Ce module ne spécifie pas la version de WSM dont il a besoin.</string>
     <string name="warning_min_version_too_low">Ce module a été créé pour WSM version %1$s, mais à cause de changements incompatibles dans la versions %2$s, il a été désactivé.</string>
     <string name="btnDeleteModule">Supprimer le module</string>
 
@@ -118,4 +119,14 @@
     <string name="logs_load_failed">Impossible de lire le journal :</string>
     <string name="logs_save_failed">Impossible d\'écrire le journal :</string>
     <string name="sdcard_not_writable">Carte SD non trouvée ou en lecture seule</string>
+
+    <!-- Donations -->
+    <string name="donate">Faire un don</string>
+    <string name="donations_button_close">Fermer</string>
+    <string name="donations_description">Trouvez-vous cette application utile ?\nSupportez son développement en envoyant une donation à son développeur !</string>
+    <string name="donations_thanks_dialog">Merci pour votre don !\nJ\'apprécie vraiment votre geste !</string>
+    <string name="donations_thanks_dialog_title">Merci !</string>
+    <string name="donations_paypal">PayPal</string>
+    <string name="donations_yandex">Yandex.Money</string>
+    <string name="donations_paypal_description">Vous pouvez choisir le montant de votre don après avoir appuyé sur le bouton !</string>
 </resources>
