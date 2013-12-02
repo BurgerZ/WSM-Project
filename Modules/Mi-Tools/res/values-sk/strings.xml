@@ -47,30 +47,30 @@
     <string name="text_medium">Stredný</string>
     <string name="text_large">Veľký</string>
     <string name="time_30_sec">30 sekúnd</string>
-    <string name="time_1_min">1 minute (default)</string>
-    <string name="time_5_min">5 minutes</string>
-    <string name="time_10_min">10 minutes</string>
-    <string name="time_30_min">30 minutes</string>
-    <string name="time_1_hour">1 hour</string>
+    <string name="time_1_min">1 minúta (default)</string>
+    <string name="time_5_min">5 minút</string>
+    <string name="time_10_min">10 minút</string>
+    <string name="time_30_min">30 minút</string>
+    <string name="time_1_hour">1 hodina</string>
     <!-- MIUI warning -->
-    <string name="miwarning_title">Unsupported OS</string>
-    <string name="miwarning_message">This OS is not officially supported. Some options may not work.\nDo you agree to continue?</string>
-    <string name="miwarning_continue">Continue</string>
-    <string name="miwarning_close">Close</string>
+    <string name="miwarning_title">Nepodporovaný OS</string>
+    <string name="miwarning_message">Tento OS nie je oficialne podporovaný. Niektoré voľby nemusia pracovať.\nSúhlasíte s ďalším postupom?</string>
+    <string name="miwarning_continue">Pokračovať</string>
+    <string name="miwarning_close">Ukončiť</string>
     <!-- Module Notification -->
-    <string name="notif_soft_reboot">Soft reboot</string>
+    <string name="notif_soft_reboot">Soft reštart</string>
     <string name="notif_reboot">Reboot</string>
     <string name="notif_reboot_required">Please reboot to apply changes.</string>
     <string name="notif_reboot_required_title">Reboot requested</string>
     <string name="notif_reboot_required_message">Reboot required to apply changes</string>
     <!-- Backup & Restore -->
-    <string name="backup_name">Backup Name</string>
-    <string name="backup_save">Save</string>
-    <string name="backup_save_successful">Save successful!</string>
-    <string name="backup_save_error">Save error!</string>
+    <string name="backup_name">Názov zálohy</string>
+    <string name="backup_save">Uložiť</string>
+    <string name="backup_save_successful">Uloženie úspešné!</string>
+    <string name="backup_save_error">Chyba pri uložení!</string>
     <string name="backup_no_backups">No backups</string>
-    <string name="backup_restore">Restore</string>
-    <string name="backup_delete">Delete</string>
+    <string name="backup_restore">Obnoviť</string>
+    <string name="backup_delete">Zmazať</string>
     <string name="backup_defaults">Defaults</string>
     <string name="backup_defaults_restored">Defaults restored</string>
     <string name="backup_restoring">Restoring Backup</string>
