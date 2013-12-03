@@ -88,7 +88,7 @@
     <string name="statusbar_text_style">Styl czcionki</string>
     <string name="statusbar_text_style_summary">Pozwala wybrać styl czcionki, aktualnie:\n%s</string>
     <string name="font_size_summary">Pozwala wybrać rozmiar czcionki, aktualnie:\n%s</string>
-    <string name="font_size">Rozmiar czcionki</string>f
+    <string name="font_size">Rozmiar czcionki</string>
     <string name="network_speed_exp_statusbar_summary">Pokaż prędkość pobierania przy rozsuniętej belce</string>
     <string name="network_speed_exp_statusbar">Prędkość pobierania</string>
 	<!-- Clock -->
