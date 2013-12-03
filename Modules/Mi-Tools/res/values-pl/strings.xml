@@ -77,7 +77,7 @@
 	<!-- Status Bar prefs -->
 	<!-- Statusbar -->
 	<string name="statusbar">Pasek powiadomień</string>
-	<string name="statusbar_title">Pasek powiadomień</string>
+	<string name="statusbar_common">Ogólne</string>
 	<string name="statusbar_summary">Opcje belki powiadomień</string>
 	<string name="statusbar_set_background_color">Własny kolor tła</string>
 	<string name="statusbar_set_background_color_summary">Pozwala wybrać kolor belki</string>
@@ -88,7 +88,7 @@
     <string name="statusbar_text_style">Styl czcionki</string>
     <string name="statusbar_text_style_summary">Pozwala wybrać styl czcionki, aktualnie:\n%s</string>
     <string name="font_size_summary">Pozwala wybrać rozmiar czcionki, aktualnie:\n%s</string>
-    <string name="font_size">Rozmiar czcionki</string>
+    <string name="font_size">Rozmiar czcionki</string>f
     <string name="network_speed_exp_statusbar_summary">Pokaż prędkość pobierania przy rozsuniętej belce</string>
     <string name="network_speed_exp_statusbar">Prędkość pobierania</string>
 	<!-- Clock -->
@@ -167,12 +167,6 @@
     <string name="power_cancel">Anuluj</string> 
     <!-- Device -->
     <string name="device">Urządzenie</string>
-    <string name="show_navigation_bar_summary">Pozwala włączyć belkę nawigacji</string>
-    <string name="show_navigation_bar">Klawisze ekranowe</string>
-    <string name="navigation_bar_height_summary">Wybrana wielkość: %s</string>
-    <string name="navigation_bar_height">Wielkość</string>
-    <string name="navigation_bar_color">Kolor</string>
-	<string name="navigation_bar_color_summary">Wybrany kolor belki nawigacji</string>
     <string name="all_rotations_summary">Pozwala na obrót o 90, 180, 270 oraz 360 stopni</string>
     <string name="all_rotations">Pełna rotacja</string>
     <string name="lockscreen_rotations_summary">Pozwala użytkować ekran blokady w poziomie</string>
@@ -215,6 +209,13 @@
     <string name="long_press_track_skip_summary">Pozwala przełączać pomiędzy następną/poprzednią piosenką (działa tylko przy wygaszonym ekranie)</string>
     <string name="swap_long_press_skip_keys">Odwróć działanie klawiszy</string>
     <string name="swap_long_press_skip_keys_summary">Zamienia vol - na + i odwrotnie</string>
+    <string name="navigation_bar">Klawisze ekranowe</string>
+    <string name="show_navigation_bar_summary">Pozwala włączyć belkę nawigacji</string>
+    <string name="show_navigation_bar">Pokaż klawisze ekranowe</string>
+    <string name="navigation_bar_height_summary">Wybrana wielkość: %s</string>
+    <string name="navigation_bar_height">Wielkość</string>
+    <string name="navigation_bar_color">Kolor</string>
+	<string name="navigation_bar_color_summary">Wybrany kolor belki nawigacji</string>
     <!-- Sound -->
     <string name="sound">Dźwięk</string>
     <string name="sound_summary">Opcje dźwięków</string>
@@ -247,6 +248,8 @@
     <string name="config_folder_columns_count_summary">Ilość rzędów to: %s</string>
     <string name="launcher_font_size_summary">Wybrany rozmiar tekstu pod ikonami to:\n%s</string>
     <string name="launcher_font_size">Rozmiar czcionki</string>
+    <string name="multiline_labels_summary">Przerzuca do nowej linii długie nazwy aplikacji oraz folderów</string>
+    <string name="multiline_labels">Zawijanie nazwy</string>
     <!-- Applications prefs-->
     <string name="applications">Aplikacje</string>
     <string name="applications_summary">Opcje aplikacji MIUI</string>
