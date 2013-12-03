@@ -30,8 +30,8 @@
     <string name="preference_app_picker_none">(None)</string>
     <!-- from arrays -->
     <string name="am_pm_hide">Hide</string>
-    <string name="am_pm_small">Small</string>
-    <string name="am_pm_large">Large</string>
+    <string name="am_pm_small">Lowercase</string>
+    <string name="am_pm_large">Uppercase</string>
     <string name="typeface_style_italic">Italic</string>
     <string name="typeface_style_normal">Normal</string>
     <string name="typeface_style_bold">Bold</string>
@@ -81,7 +81,7 @@
 	<!-- Status Bar prefs -->
 	<!-- Statusbar -->
 	<string name="statusbar">Status Bar</string>
-	<string name="statusbar_title">Status Bar</string>
+	<string name="statusbar_common">Common</string>
 	<string name="statusbar_summary">Status Bar modifications</string>
 	<string name="statusbar_set_background_color">Use background color</string>
 	<string name="statusbar_set_background_color_summary">Allows to choose color of the statusbar</string>
@@ -148,6 +148,8 @@
     <string name="framework_summary">Framework related settings</string>
     <!-- Common -->
     <string name="common">Common</string>
+    <string name="bold_settings_font_summary">Use bold font style for system and apps setting</string>
+    <string name="bold_settings_font">Bold setting font</string>
     <string name="international_t9_summary">Enable international T9 search in Contacts</string>
     <string name="international_t9">Add T9</string>
     <string name="local_yellowpage_database_summary">Blocks updates of the Yellow Pages database from Chinese server and adds the ability to "Mark" unknown contacts.</string>
@@ -155,11 +157,11 @@
     <string name="local_yellowpage_database_dialog">Chinese yellow page database will be cleared.\nYou will need to update T9 index data from Contacts settings after reboot.\nDo you want to continue?</string>
     <string name="localized_measure_units_summary">\u2022 Status bar: network speed (K/s, m/s)\n\u2022 Task manager: freed, available memory (MB, GB)\n\u2022 Data usage (Traffic): B, KB, MB, GB</string>
     <string name="localized_measure_units">Localized measure units</string>
-    <string name="units_gb">Gb</string>
-    <string name="units_b">b</string>
-    <string name="units_kb">Kb</string>
+    <string name="units_gb">GB</string>
+    <string name="units_b">B</string>
+    <string name="units_kb">KB</string>
     <string name="units_kbs">K/s</string>
-    <string name="units_mb">Mb</string>
+    <string name="units_mb">MB</string>
     <string name="units_mbs">M/s</string>
     <string name="units_s">s</string>
     <!-- Power -->
@@ -178,12 +180,6 @@
     <string name="power_cancel">Cancel</string> 
     <!-- Device -->
     <string name="device">Device</string>
-    <string name="show_navigation_bar_summary">Show navigation bar (Nexus like)</string>
-    <string name="show_navigation_bar">Show navigation bar</string>
-    <string name="navigation_bar_height_summary">Height: %s</string>
-    <string name="navigation_bar_height">Navigation bar height</string>
-    <string name="navigation_bar_color">Navigation bar color</string>
-	<string name="navigation_bar_color_summary">Background color of the navigation bar</string>
     <string name="all_rotations_summary">Enable all rotation angles, including upside-down</string>
     <string name="all_rotations">Enable all rotation angles</string>
     <string name="lockscreen_rotations_summary">Allow lockscreen to rotate to landscape</string>
@@ -226,11 +222,20 @@
     <string name="long_press_track_skip_summary">Skip to the next/previous track with a long press on the volume keys (only when the screen is off)</string>
     <string name="swap_long_press_skip_keys">Reverse keys</string>
     <string name="swap_long_press_skip_keys_summary">Reverse skip track keys</string>
+    <string name="navigation_bar">Navigation bar</string>
+    <string name="show_navigation_bar_summary">Show navigation bar (Nexus like)</string>
+    <string name="show_navigation_bar">Show navigation bar</string>
+    <string name="navigation_bar_height_summary">Height: %s</string>
+    <string name="navigation_bar_height">Navigation bar height</string>
+    <string name="navigation_bar_color">Navigation bar color</string>
+	<string name="navigation_bar_color_summary">Background color of the navigation bar</string>
     <!-- Sound -->
     <string name="sound">Sound</string>
     <string name="sound_summary">Sound related settings</string> 
     <string name="disable_volume_control_sound">Disable BEEP sound</string>
     <string name="disable_volume_control_sound_summary">Disables ugly BEEP sound while adjusting volume by vol. keys</string>
+    <string name="volume_ring_description">Ringtone</string>
+    <string name="volume_notification_description">Notifications</string>
     <string name="volume_step">Volume step</string>
     <string name="volume_steps_voice_call">Voice call</string>
     <string name="volume_steps_system">System</string>
@@ -258,6 +263,8 @@
     <string name="config_folder_columns_count_summary">Folder columns count (in open state): %s</string>
     <string name="launcher_font_size_summary">Set the launcher icons text size:\n%s</string>
     <string name="launcher_font_size">Font size</string>
+    <string name="multiline_labels_summary">Use multiline icons/folder labels</string>
+    <string name="multiline_labels">Multiline labels</string>
     <!-- Applications prefs-->
     <string name="applications">Applications</string>
     <string name="applications_summary">MIUI applications settings</string>

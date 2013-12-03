@@ -44,6 +44,14 @@
         <item>clock_center_ios7</item>
         <item>clock_left</item>
     </string-array>
+    <string-array name="clock_date_format">
+        <item>EE</item>
+        <item>EEE</item>
+        <item>d MMM</item>
+        <item>MMM d</item>
+        <item>d.MM</item>
+        <item>MM.d</item>
+    </string-array>
     <string-array name="text_size_entries">
         <item>@string/text_small</item>
         <item>@string/text_medium</item>
@@ -169,6 +177,10 @@
         <item>Verizon</item>
         <item>Vodafone</item>
         <item>Vodafone</item>
+        <item>Wind</item>
+        <item>Wind</item>
+        <item>Wind</item>
+        <item>Wind</item>
         <item>WSM</item>
     </string-array>
     <string-array name="carrier_logo_values" translatable="false">
@@ -218,6 +230,10 @@
         <item>carrier_color_verizon</item>
         <item>carrier_white_vodafone</item>
         <item>carrier_color_vodafone</item>
+        <item>carrier_white_wind</item>
+        <item>carrier_white_wind2</item>
+        <item>carrier_color_wind</item>
+        <item>carrier_color_wind2</item>
         <item>carrier_white_wsm</item> 
     </string-array>   
     <string-array name="carrier_logo_drawables" translatable="false">
@@ -267,6 +283,10 @@
         <item>@drawable/carrier_color_verizon</item>
         <item>@drawable/carrier_white_vodafone</item>
         <item>@drawable/carrier_color_vodafone</item>
+        <item>@drawable/carrier_white_wind</item>
+        <item>@drawable/carrier_white_wind2</item>
+        <item>@drawable/carrier_color_wind</item>
+        <item>@drawable/carrier_color_wind2</item>
         <item>@drawable/carrier_white_wsm</item>
     </string-array> 
     <string-array name="advanced_reboot_menu_items_defvalues">

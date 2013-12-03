@@ -30,8 +30,8 @@
     <string name="preference_app_picker_none">(нет)</string>
     <!-- from arrays -->
     <string name="am_pm_hide">Скрыть</string>
-    <string name="am_pm_small">Маленький</string>
-    <string name="am_pm_large">Большой</string>
+    <string name="am_pm_small">Строчные буквы</string>
+    <string name="am_pm_large">Заглавные буквы</string>
     <string name="typeface_style_italic">Курсив</string>
     <string name="typeface_style_normal">Нормальный</string>
     <string name="typeface_style_bold">Жирный</string>
@@ -81,7 +81,7 @@
 	<!-- Status Bar prefs -->
 	<!-- Statusbar -->
 	<string name="statusbar">Панель состояния</string>
-	<string name="statusbar_title">Панель состояния</string>
+	<string name="statusbar_common">Общие</string>
 	<string name="statusbar_summary">Настройки панели состояния (часы, иконки)</string>
 	<string name="statusbar_set_background_color">Использовать цвет для фона</string>
 	<string name="statusbar_set_background_color_summary">Позволяет выбрать цвет для фона панели состояния</string>
@@ -148,6 +148,8 @@
     <string name="framework_summary">Настройки системы</string>
     <!-- Common -->
     <string name="common">Общие</string>
+    <string name="bold_settings_font_summary">Использовать жирный шрифт в настройках системы и приложений</string>
+    <string name="bold_settings_font">Жирный шрифт настроек</string>
     <string name="international_t9_summary">Исправляет поиск в режиме Т9 для русских и сервисных контактов в номеронабирателе</string>
     <string name="international_t9">Исправить поиск T9</string>
     <string name="local_yellowpage_database_summary">Отключает обновление базы Желтых страниц с китайского сервера и добавляет возможность установить метку на неизвестный контакт</string>
@@ -178,12 +180,6 @@
     <string name="power_cancel">Отмена</string> 
     <!-- Device -->
     <string name="device">Устройство</string>
-    <string name="show_navigation_bar_summary">Показывать меню навигации (в стиле Nexus)</string>
-    <string name="show_navigation_bar">Показывать меню навигации</string>
-    <string name="navigation_bar_height_summary">Высота: %s</string>
-    <string name="navigation_bar_height">Высота меню навигации</string>
-    <string name="navigation_bar_color">Цвет меню навигации</string>
-	<string name="navigation_bar_color_summary">Цвет фона меню навигации</string>
     <string name="all_rotations_summary">Включает все углы поворота, включая 360°</string>
     <string name="all_rotations">Все углы поворота</string>
     <string name="lockscreen_rotations_summary">Возможность вращать экран блокировки (на MIUI v5 выглядит криво)</string>
@@ -226,11 +222,20 @@
     <string name="long_press_track_skip_summary">Позволяет переключать музыкальные треки клавишами громкости (долгим нажатием, при выключенном экране)</string>
     <string name="swap_long_press_skip_keys">Поменять клавиши</string>
     <string name="swap_long_press_skip_keys_summary">Меняет местами клавиши переключения треков</string>
+    <string name="navigation_bar">Панель навигации</string>
+    <string name="show_navigation_bar_summary">Показывать панель навигации (в стиле Nexus)</string>
+    <string name="show_navigation_bar">Показывать панель навигации</string>
+    <string name="navigation_bar_height_summary">Высота: %s</string>
+    <string name="navigation_bar_height">Высота панели навигации</string>
+    <string name="navigation_bar_color">Цвет панели навигации</string>
+	<string name="navigation_bar_color_summary">Цвет фона панели навигации</string>
     <!-- Sound prefs -->
     <string name="sound">Звук</string>
     <string name="sound_summary">Настройки звука и всего, что его касается</string>
     <string name="disable_volume_control_sound">Отключить BEEP сигнал</string>
     <string name="disable_volume_control_sound_summary">Модуль отключает раздражающий звук, который появляется при регулировке громкости клавишами регулировки</string>
+    <string name="volume_ring_description">Рингтон</string>
+    <string name="volume_notification_description">Уведомления</string>
     <string name="volume_step">Шаг громкости</string>
     <string name="volume_steps_voice_call">Разговор</string>
     <string name="volume_steps_system">Система</string>
@@ -258,6 +263,8 @@
     <string name="config_folder_columns_count_summary">Количество столбцов (иконок по горизонтали) в папке: %s</string>
     <string name="launcher_font_size_summary">Выбор размера шрифта иконок рабочего стола:\n%s</string>
     <string name="launcher_font_size">Размер шрифта</string>
+    <string name="multiline_labels_summary">Использовать многострочные подписи иконок и папок</string>
+    <string name="multiline_labels">Переносить длинные подписи</string>
     <!-- Applications prefs-->
     <string name="applications">Приложения</string>
     <string name="applications_summary">Настройки приложений MIUI</string>
