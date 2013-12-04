@@ -83,6 +83,10 @@
 	<string name="statusbar_set_background_color_summary">Pozwala wybrać kolor belki</string>
 	<string name="statusbar_background_color">Kolor tła</string>
 	<string name="statusbar_background_color_summary">Wybrany kolor belki</string>
+	<string name="one_color_for_all_icons">Globalny kolor ikon</string>
+	<string name="one_color_for_all_icons_summary">Pozwala wybrać kolor dla wszystkich ikon w pasku powiadomień</string>
+	<string name="color_for_all_icons">Kolor ikon</string>
+	<string name="color_for_all_icons_summary">Wybrano kolor ikon</string>
 	<string name="statusbar_text_family">Krój czcionki</string>
     <string name="statusbar_text_family_summary">Pozwala wybrać krój czcioniki, aktualnie:\n%s</string>
     <string name="statusbar_text_style">Styl czcionki</string>
@@ -103,10 +107,13 @@
     <string name="am_pm_style_summary">Pozwala wybrać styl am pm, aktualnie:\n%s</string>
     <string name="show_clock_date_summary">Umieszcza aktualną datę w miejscu zegara</string>
     <string name="show_clock_date">Pokaż datę</string>
+    <string name="clock_date_format">Format daty</string>
     <!-- Battery -->
     <string name="battery">Bateria</string>
     <string name="hide_battery_icon_summary">Ukrywa ikonę baterii w belce</string>
     <string name="hide_battery_icon">Ukryj ikonę baterii</string>
+    <string name="battery_icon_color">Kolor ikony baterii</string>
+    <string name="battery_icon_color_summary">Wybrany kolor ikony</string>
     <string name="show_battery_text_summary">Pokazuję % baterii w belce</string>
     <string name="show_battery_text">Pokaż % baterii</string>
     <string name="battery_text_color">Kolor wskaźnika %</string>
@@ -221,6 +228,8 @@
     <string name="sound_summary">Opcje dźwięków</string>
     <string name="disable_volume_control_sound">Wyłącz odgłos BEEP</string>
     <string name="disable_volume_control_sound_summary">Wyłącza charakterystyczne BEEPanie podczas dostosowywania głośności</string>
+    <string name="unlink_notification_volume">Rozdziel głośności</string>
+    <string name="unlink_notification_volume_summary">Oddziela głośność dzwonka od ustawień głośności innych powiadomień</string>
     <string name="volume_step">Ilość kroków głośności</string>
     <string name="volume_steps_voice_call">Połączenia</string>
     <string name="volume_steps_system">System</string>
