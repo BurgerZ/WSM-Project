@@ -87,6 +87,10 @@
 	<string name="statusbar_set_background_color_summary">Allows to choose color of the statusbar</string>
 	<string name="statusbar_background_color">Background color</string>
 	<string name="statusbar_background_color_summary">Color of the statusbar</string>
+	<string name="one_color_for_all_icons">One color for all icons</string>
+	<string name="one_color_for_all_icons_summary">Use one color for all statusbar icons</string>
+	<string name="color_for_all_icons">Icons color</string>
+	<string name="color_for_all_icons_summary">Color of the statusbar icons</string>
 	<string name="statusbar_text_family">Typeface family</string>
     <string name="statusbar_text_family_summary">Set the type family of the statusbar font:\n%s</string>
     <string name="statusbar_text_style">Typeface style</string>
@@ -107,10 +111,13 @@
     <string name="am_pm_style_summary">Choose clock am pm style:\n%s</string>
     <string name="show_clock_date_summary">Show the date with the status bar clock</string>
     <string name="show_clock_date">Show status bar date</string>
+    <string name="clock_date_format">Date format</string>
     <!-- Battery -->
     <string name="battery">Battery</string>
     <string name="hide_battery_icon_summary">Battery icon visibility settings</string>
     <string name="hide_battery_icon">Hide battery icon</string>
+    <string name="battery_icon_color">Battery icon color</string>
+    <string name="battery_icon_color_summary">Set battery icon color</string>
     <string name="show_battery_text_summary">Show battery percentage text</string>
     <string name="show_battery_text">Show battery text</string>
     <string name="battery_text_color">Battery text color</string>
@@ -234,6 +241,8 @@
     <string name="sound_summary">Sound related settings</string> 
     <string name="disable_volume_control_sound">Disable BEEP sound</string>
     <string name="disable_volume_control_sound_summary">Disables ugly BEEP sound while adjusting volume by vol. keys</string>
+    <string name="unlink_notification_volume">Unlink notif. volume</string>
+    <string name="unlink_notification_volume_summary">Separate ringtone &amp; notifications volume settings</string>
     <string name="volume_ring_description">Ringtone</string>
     <string name="volume_notification_description">Notifications</string>
     <string name="volume_step">Volume step</string>

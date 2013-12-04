@@ -87,6 +87,10 @@
 	<string name="statusbar_set_background_color_summary">Позволяет выбрать цвет для фона панели состояния</string>
 	<string name="statusbar_background_color">Цвет фона</string>
 	<string name="statusbar_background_color_summary">Цвет и прозрачность фона панели состояния</string>
+	<string name="one_color_for_all_icons">Один цвет для всех иконок</string>
+	<string name="one_color_for_all_icons_summary">Окрашивать все иконки панели состояния в один цвет</string>
+	<string name="color_for_all_icons">Цвет иконок</string>
+	<string name="color_for_all_icons_summary">Выбор цвета иконок панели состояния</string>
 	<string name="statusbar_text_family">Семейство шрифтов</string>
     <string name="statusbar_text_family_summary">Выбор семейства шрифтов панели:\n%s</string>
     <string name="statusbar_text_style">Стиль шрифтов</string>
@@ -107,10 +111,13 @@
     <string name="am_pm_style_summary">Выбор стиля отображения am/pm:\n%s</string>
     <string name="show_clock_date_summary">Показывать дату рядом с часами</string>
     <string name="show_clock_date">Показывать дату</string>
+    <string name="clock_date_format">Формат даты</string>
     <!-- Battery -->
     <string name="battery">Батарея</string>
     <string name="hide_battery_icon_summary">Настройки видимости иконки батареи</string>
     <string name="hide_battery_icon">Скрыть иконку батареи</string>
+    <string name="battery_icon_color">Цвет иконки батареи</string>
+    <string name="battery_icon_color_summary">Выбор цвета иконки батареи</string>
     <string name="show_battery_text_summary">Показывать заряд батареи в процентах рядом с иконкой</string>
     <string name="show_battery_text">Заряд в процентах</string>
     <string name="battery_text_color">Цвет текста заряда</string>
@@ -234,6 +241,8 @@
     <string name="sound_summary">Настройки звука и всего, что его касается</string>
     <string name="disable_volume_control_sound">Отключить BEEP сигнал</string>
     <string name="disable_volume_control_sound_summary">Модуль отключает раздражающий звук, который появляется при регулировке громкости клавишами регулировки</string>
+    <string name="unlink_notification_volume">Разделение громкости</string>
+    <string name="unlink_notification_volume_summary">Разделить регулировку громкости Рингтон &amp; Уведомления</string>
     <string name="volume_ring_description">Рингтон</string>
     <string name="volume_notification_description">Уведомления</string>
     <string name="volume_step">Шаг громкости</string>
