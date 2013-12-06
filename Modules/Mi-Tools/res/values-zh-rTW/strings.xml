@@ -79,12 +79,16 @@
 	<!-- Status Bar prefs -->
 	<!-- Statusbar -->
 	<string name="statusbar">狀態列</string>
-	<string name="statusbar_title">狀態列</string>
-	<string name="statusbar_summary">狀態列校正</string>
+        <string name="statusbar_common">一般選項</string>
+	<string name="statusbar_summary">狀態列調整</string>
 	<string name="statusbar_set_background_color">修改背景顏色</string>
 	<string name="statusbar_set_background_color_summary">允許修改狀態列背景顏色</string>
 	<string name="statusbar_background_color">背景顏色</string>
 	<string name="statusbar_background_color_summary">狀態列背景顏色</string>
+        <string name="one_color_for_all_icons">所有圖示套用單一顏色</string>
+        <string name="one_color_for_all_icons_summary">讓狀態列上的所有圖示僅套用單一一種顏色</string>
+        <string name="color_for_all_icons">圖示顏色</string>
+        <string name="color_for_all_icons_summary">狀態列圖示顏色</string>
 	<string name="statusbar_text_family">字體樣式</string>
     <string name="statusbar_text_family_summary">已選擇狀態列字體樣式: %s</string>
     <string name="statusbar_text_style">字體風格</string>
@@ -105,10 +109,13 @@
     <string name="am_pm_style_summary">已選擇 AM PM 風格: %s</string>
     <string name="show_clock_date_summary">在狀態列時鐘旁顯示當前日期</string>
     <string name="show_clock_date">顯示狀態列當前日期</string>
+    <string name="clock_date_format">日期格式</string>
     <!-- Battery -->
     <string name="battery">電池</string>
     <string name="hide_battery_icon_summary">是否顯示電池圖示</string>
     <string name="hide_battery_icon">隱藏電池圖示</string>
+    <string name="battery_icon_color">電池圖示顏色</string>
+    <string name="battery_icon_color_summary">設定電池圖示顏色</string>
     <string name="show_battery_text_summary">顯示電池電量百分比</string>
     <string name="show_battery_text">電池圖示旁顯示文字</string>
     <string name="battery_text_color">電池字體顏色</string>
@@ -146,17 +153,19 @@
     <string name="framework_summary">系統框架相關設定</string>
     <!-- Common -->
     <string name="common">通用選項</string>
+    <string name="bold_settings_font_summary">為系統與應用程式設定使用粗體字樣式</string>
+    <string name="bold_settings_font">粗體設定文字</string>
     <string name="international_t9_summary">啟用通訊錄國際化 T9 搜尋</string>
     <string name="international_t9">新增 T9</string>
     <string name="local_yellowpage_database_summary">遮蔽來自中國伺服器的黃頁更新並增加標記未知聯絡人的功能</string>
     <string name="local_yellowpage_database">內建黃頁資料庫</string>
     <string name="localized_measure_units_summary">\u2022 狀態列: 網速 (K/s, m/s)\n\u2022 任務管理器: 已清理、可用 RAM (MB, GB)\n\u2022 行動網路資料流量: B, KB, MB, GB</string>
     <string name="localized_measure_units">本地化數量單位</string>
-    <string name="units_gb">Gb</string>
-    <string name="units_b">b</string>
-    <string name="units_kb">Kb</string>
+    <string name="units_gb">GB</string>
+    <string name="units_b">B</string>
+    <string name="units_kb">KB</string>
     <string name="units_kbs">K/s</string>
-    <string name="units_mb">Mb</string>
+    <string name="units_mb">MB</string>
     <string name="units_mbs">M/s</string>
     <string name="units_s">s</string>
     <!-- Power -->
@@ -175,12 +184,6 @@
     <string name="power_cancel">取消</string> 
     <!-- Device -->
     <string name="device">裝置選項</string>
-    <string name="show_navigation_bar_summary">顯示海苔條 (Nexus 風格)</string>
-    <string name="show_navigation_bar">顯示海苔條</string>
-    <string name="navigation_bar_height_summary">高度: %s</string>
-    <string name="navigation_bar_height">海苔條高度</string>
-    <string name="navigation_bar_color">海苔條顏色</string>
-    <string name="navigation_bar_color_summary">海苔條的背景顏色</string>
     <string name="all_rotations_summary">允許所有旋轉角度, 包括倒立</string>
     <string name="all_rotations">啟用所有旋轉角度</string>
     <string name="lockscreen_rotations_summary">允許鎖定螢幕旋轉到橫向螢幕模式</string>
@@ -223,11 +226,22 @@
     <string name="long_press_track_skip_summary">當螢幕關閉時，長按音量鍵跳過曲目</string>
     <string name="swap_long_press_skip_keys">交換音量鍵</string>
     <string name="swap_long_press_skip_keys_summary">交換 音量+ 和 音量-</string>
+    <string name="navigation_bar">海苔條</string>
+    <string name="show_navigation_bar_summary">顯示海苔條 (Nexus 風格)</string>
+    <string name="show_navigation_bar">顯示海苔條</string>
+    <string name="navigation_bar_height_summary">高度: %s</string>
+    <string name="navigation_bar_height">海苔條高度</string>
+    <string name="navigation_bar_color">海苔條顏色</string>
+    <string name="navigation_bar_color_summary">海苔條背景顏色</string>
     <!-- Sound -->
     <string name="sound">音效設定</string>
     <string name="sound_summary">音量相關設定</string> 
     <string name="disable_volume_control_sound">停用 Beep 音效聲</string>
     <string name="disable_volume_control_sound_summary">停用調整音效時所發出的 Beep 音效聲</string>
+    <string name="volume_ring_description">鈴聲</string>
+    <string name="volume_notification_description">通知</string>
+    <string name="unlink_notification_volume">不連結通知音量</string>
+    <string name="unlink_notification_volume_summary">分開鈴聲 &amp; 通知音量設定</string>
     <string name="volume_step">音量調節</string>
     <string name="volume_steps_voice_call">語音通話</string>
     <string name="volume_steps_system">系統</string>
@@ -255,6 +269,8 @@
     <string name="config_folder_columns_count_summary">資料夾列數: %s</string>
     <string name="launcher_font_size_summary">設定啟動器圖示文字標籤大小:\n%s</string>
     <string name="launcher_font_size">文字大小</string>
+    <string name="multiline_labels_summary">使用多行圖示/資料夾標籤</string>
+    <string name="multiline_labels">多行標籤</string>
     <!-- Applications prefs-->
     <string name="applications">系統應用程式</string>
     <string name="applications_summary">MIUI 系統應用程式設定</string>
