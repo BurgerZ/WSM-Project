@@ -94,11 +94,18 @@
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.wsm_alarmtimefix" created="1381218422" updated="1381218422">
+  <module package="pro.burgerz.wsm.mods.wsm_alarmtimefix" created="1381218422" updated="1386311320">
 	<name>AlarmTime fix</name> 
 	<summary>Fix for third-party alarms</summary> 
 	<description html="true">&lt;p&gt;Fixes rounding response time to 5 minutes for third-party alarm clocks.&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
+	<version>
+		<name>2.1</name> 
+		<code>21</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.wsm_alarmtimefix_v21_7cb00d.apk</download> 
+		<md5sum>7cb00dfb18ae8e1a456e5907c5b347d5</md5sum> 
+		<changelog html="true">&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
+	</version>
 	<version>
 		<name>2.0</name> 
 		<code>20</code> 
@@ -107,11 +114,18 @@
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.wsm_playstorefix" created="1381218495" updated="1381218495">
+  <module package="pro.burgerz.wsm.mods.wsm_playstorefix" created="1381218495" updated="1386311400">
     <name>Play Store Fixes</name> 
     <summary>Fake the density for Google Play Store</summary> 
     <description html="true">&lt;p&gt;Fake the density that is submitted to Google in order to make Play Store show all apps.&lt;/p&gt;</description> 
     <author>rovo89</author> 
+    <version>
+        <name>2.1</name>
+        <code>21</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.wsm_playstorefix_v21_4c0ed5.apk</download> 
+        <md5sum>4c0ed5bd81ecf9af3da5d6bf9b31bc22</md5sum>
+        <changelog html="true">&lt;li&gt;Updated translations&lt;/li&gt;</changelog>
+    </version>
     <version>
         <name>2.0</name>
         <code>20</code>
@@ -120,11 +134,18 @@
         <changelog html="true"></changelog>
     </version>
   </module>   
-  <module package="pro.burgerz.wsm.mods.wsm_autoorientation" created="1381218519" updated="1381218519">
+  <module package="pro.burgerz.wsm.mods.wsm_autoorientation" created="1381218519" updated="1386311472">
     <name>Auto Orientation</name> 
     <summary>Landscape orientation in selected application</summary> 
     <description html="true">&lt;p&gt;Adds the ability to view applications in landscape mode. To make it work go to the device screen settings and activate "Auto-rotate screen" option.&lt;br /&gt;On some devices may not be displayed correctly.&lt;br /&gt;No need to reboot after changing settings.&lt;/p&gt;</description> 
     <author>BurgerZ</author> 
+    <version>
+        <name>2.1</name>
+        <code>21</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.wsm_autoorientation_v21_06fe1d.apk</download> 
+        <md5sum>06fe1d21f21d50b7c4a5998587bf5eb0</md5sum>
+        <changelog html="true">&lt;li&gt;Updated translations&lt;/li&gt;</changelog>
+    </version>
     <version>
         <name>2.0</name>
         <code>20</code>
@@ -250,11 +271,18 @@
         <changelog html="true"></changelog>
     </version>
   </module>  
-  <module package="pro.burgerz.wsm.mods.keyboardfix" created="1381237026" updated="1381237026">
+  <module package="pro.burgerz.wsm.mods.keyboardfix" created="1381237026" updated="1386311523">
     <name>KeyboardFix</name> 
     <summary>Fixes FC in Xperia TM keyboard</summary> 
     <description html="true">&lt;p&gt;Fixes FC in Xperia TM keyboard.&lt;/p&gt;</description> 
     <author>BurgerZ</author> 
+    <version>
+        <name>2.1</name>
+        <code>21</code>
+        <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.keyboardfix_v21_4e388f.apk</download> 
+        <md5sum>4e388f9e9f999ee61e978b98cd50cd58</md5sum>
+        <changelog html="true">&lt;li&gt;Updated translations&lt;/li&gt;</changelog>
+    </version>
     <version>
         <name>2.0</name>
         <code>20</code>
