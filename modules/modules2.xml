@@ -1,10 +1,17 @@
 <repository>
   <name>WSM repository</name>
-  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1385716890">
+  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1386310222">
 	<name>Mi-Tools</name> 
 	<summary>MIUI v5 all in one module</summary> 
 	<description html="true">&lt;p&gt;MIUI v5 all in one module. It handles framework, statusbar, launcher, sound, MIUI applications modifications.&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
+	<version>
+		<name>1.6</name> 
+		<code>16</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v16_aa4483.apk</download> 
+		<md5sum>aa44831003e892a9ef30d5293c39e1b1</md5sum> 
+		<changelog html="true">&lt;li&gt;Sound: added option to unlink Ringtone and Notifications volume controls&lt;/li&gt;&lt;li&gt;Statusbar: added battery icon color settings&lt;/li&gt;&lt;li&gt;Statusbar: added color settings for all statusbar icons (test mode)&lt;/li&gt;&lt;li&gt;Statusbar: fixed network speed view in expanded statusbar (now it shows not Rx speed, but Rx+Tx speed)&lt;/li&gt;&lt;li&gt;Statusbar: added format settings for clock date&lt;/li&gt;&lt;li&gt;Statusbar: fixed am/pm handling&lt;/li&gt;&lt;li&gt;Launcher: added multiline icons/folder labels switch&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
+	</version>
 	<version>
 		<name>1.5</name> 
 		<code>15</code> 
@@ -357,11 +364,18 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<changelog html="true"></changelog> 
 	</version>	
   </module>
-  <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1385541301">
+  <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1386309907">
 	<name>WSM tools</name> 
 	<summary>This is the installer and manager for the Xposed framework, which is a requirement for all modules</summary> 
 	<description html="true">&lt;p&gt;This is the installer for the Xposed framework, which is a requirement for all modules.&lt;/p&gt;&lt;p&gt;This framework is based on rovo89\'s Xposed framework. Like an original project it is a framework for modules that can change the behavior of the system and apps without touching any APKs&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note that this only works with root access on Android 4.0.3 or later.&lt;/b&gt;&lt;/p&gt;</description> 
 	<author>BurgerZ</author>
+	<version>
+		<name>2.1.2</name> 
+		<code>212</code>
+		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v212_bed711.apk</download> 
+		<md5sum>bed71156e7d5fdfcda4467e97958b69d</md5sum> 
+		<changelog html="true">&lt;li&gt;Updated binaries: app_process (v46), XposedBridge.jar (v42)&lt;/li&gt;&lt;li&gt;&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
+	</version>	
 	<version>
 		<name>2.1.1</name> 
 		<code>211</code>
