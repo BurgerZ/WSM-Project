@@ -154,7 +154,7 @@
         <changelog html="true"></changelog>
     </version>
   </module>  
-  <module package="pro.burgerz.wsm.mods.carrierlabel" created="1381229881" updated="1381229881">
+  <!--module package="pro.burgerz.wsm.mods.carrierlabel" created="1381229881" updated="1381229881">
     <name>Carrier Label</name> 
     <summary>Allows to edit your carrier label</summary> 
     <description html="true">&lt;p&gt;Allows to edit your carrier label. Available in Settings - Status Bar - Carrier label.&lt;/p&gt;&lt;br&gt;May NOT work on some devices!&lt;/br&gt;</description> 
@@ -166,7 +166,7 @@
         <md5sum>32dcc4c86af57024d13b7aa995fd47a8</md5sum>
         <changelog html="true"></changelog>
     </version>
-  </module>  
+  </module-->  
   <module package="pro.burgerz.wsm.mods.currenttracklaunch" created="1381232719" updated="1381232719">
     <name>Current Track Launch</name> 
     <summary>Launch the playback screen in the player</summary> 
@@ -193,7 +193,7 @@
         <changelog html="true"></changelog>
     </version>
   </module>   
-  <module package="pro.burgerz.wsm.mods.unitsmodule" created="1381232958" updated="1381232958">
+  <!--module package="pro.burgerz.wsm.mods.unitsmodule" created="1381232958" updated="1381232958">
 	<name>Units</name> 
 	<summary>Measure units for different languages (Mb, Gb etc.)</summary> 
 	<description html="true">&lt;p&gt;Allows you to change the measure units depending on the system language.&lt;/p&gt;&lt;li&gt;Status bar: network speed (K/s, m/s)&lt;/li&gt;&lt;li&gt;Task manager: freed, available memory (MB, GB)&lt;/li&gt;</description> 
@@ -205,7 +205,7 @@
 		<md5sum>79fb9818fea36cc00f43a02471a7eafc</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
-  </module>
+  </module-->
   <module package="pro.burgerz.wsm.mods.volumecontrol" created="1381232381" updated="1381232381">
     <name>Volume Control Mute</name> 
     <summary>Disables ugly BEEP sound while adjusting volume</summary> 
@@ -312,7 +312,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.centerclock" created="1381307437" updated="1381751241">
+  <!--module package="pro.burgerz.wsm.mods.centerclock" created="1381307437" updated="1381751241">
 	<name>Center Clock</name> 
 	<summary>Allows to change statusbar clock layout</summary> 
 	<description html="true">&lt;p&gt;Allows to change statusbar clock layout. All available mods you can find in module settings.&lt;br /&gt;NOTE: May not work on unofficial and 2-SIM devices!&lt;/p&gt;</description> 
@@ -352,7 +352,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<md5sum>c9a9c948948e36561580aa2b44e8292d</md5sum> 
 		<changelog html="true"></changelog> 
 	</version>
-  </module>
+  </module-->
   <module package="pro.burgerz.wsm.mods.holidaysmodule" created="1381313997" updated="1381313997">
 	<name>Holidays</name> 
 	<summary>Russian, Ukrainian holidays for calendar and alarm</summary> 
