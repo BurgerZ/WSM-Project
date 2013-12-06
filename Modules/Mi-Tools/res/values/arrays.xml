@@ -47,10 +47,13 @@
     <string-array name="clock_date_format">
         <item>EE</item>
         <item>EEE</item>
+        <item>EEEE</item>
         <item>d MMM</item>
         <item>MMM d</item>
         <item>d.MM</item>
         <item>MM.d</item>
+        <item>d/MM</item>
+        <item>MM/d</item>
     </string-array>
     <string-array name="text_size_entries">
         <item>@string/text_small</item>
