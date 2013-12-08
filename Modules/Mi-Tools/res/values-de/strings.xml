@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="module_name">Mi-Tools</string>
@@ -42,7 +43,7 @@
     <string name="text_small">Klein</string>
     <string name="text_medium">Mittel</string>
     <string name="text_large">Gross</string>
-	<string name="time_30_sec">30 Sekunden</string>
+    <string name="time_30_sec">30 Sekunden</string>
     <string name="time_1_min">1 Minute (Standard)</string>
     <string name="time_5_min">5 Minuten</string>
     <string name="time_10_min">10 Minuten</string>
@@ -71,44 +72,51 @@ Sind Sie bereit weiterzumachen?"</string>
     <string name="backup_restored">Backup wiederhergestellt</string>
     <string name="press_color_to_apply">Tippe auf eine Farbe um sie auszuwählen</string>
     <string name="dialog_color_picker">Farbauswahl</string>
-    <string name="statusbar">Statusbar</string>
-    <string name="statusbar_title">Statusbar</string>
-    <string name="statusbar_summary">Statusbar Einstellungen</string>
+    <string name="statusbar">Statusleiste</string>
+    <string name="statusbar_common">Allgemein</string>
+    <string name="statusbar_summary">Statusleiste Einstellungen</string>
     <string name="statusbar_set_background_color">wähle eine Hintergrundfarbe</string>
-    <string name="statusbar_set_background_color_summary">Erlaubt,die Farbe der Statusbar zu wählen</string>
+    <string name="statusbar_set_background_color_summary">Wähle eine Hintergrundfarbe für die Statusleiste</string>
     <string name="statusbar_background_color">Hintergrundfarbe</string>
-    <string name="statusbar_background_color_summary">Farbe der Statusbar</string>
-    <string name="statusbar_text_family">Schrift</string>
-    <string name="statusbar_text_family_summary">"Festlegen der Schrift der Statusbar:
+    <string name="statusbar_background_color_summary">Hintergrundfarbe für die Statusleiste</string>
+    <string name="one_color_for_all_icons">Eine Farbe für alle Symbole</string>
+    <string name="one_color_for_all_icons_summary">Wähle eine Farbe für die Statusleiste Symbole</string>
+    <string name="color_for_all_icons">Symbol Farbe</string>
+    <string name="color_for_all_icons_summary">Farbe für die Statusleiste Symbole</string>
+    <string name="statusbar_text_family">Schriftart</string>
+    <string name="statusbar_text_family_summary">"Schriftart der Statusleisteschrift:
 %s"</string>
-    <string name="statusbar_text_style">Schriftart</string>
-    <string name="statusbar_text_style_summary">"Festlegen der Schriftart der Statusbarschrift:
+    <string name="statusbar_text_style">Schriftstil</string>
+    <string name="statusbar_text_style_summary">"Schriftstil der Statusleisteschrift:
 %s"</string>
-    <string name="font_size_summary">"Schriftgröße der Statusbarelemente:
+    <string name="font_size_summary">"Schriftgröße der Statusleistenelemente:
 %s"</string>
     <string name="font_size">Schriftgröße</string>
     <string name="network_speed_exp_statusbar_summary">Zeige die Datengeschwindigkeit in der Benachrichtigungsleiste</string>
     <string name="network_speed_exp_statusbar">Datengeschwindigkeit</string>
     <string name="clock">Uhr</string>
     <string name="clock_hide">Uhr ausblenden</string>
-    <string name="clock_hide_summary">Uhr in der Statusbar nicht mehr anzeigen</string>
+    <string name="clock_hide_summary">Uhr in der Statusleiste nicht mehr anzeigen</string>
     <string name="clock_color_title">Uhrfarbe</string>
-    <string name="clock_color_summary">wähle die Farbe der Uhr in der Statusbar</string>
+    <string name="clock_color_summary">wähle eine Farbe für die Uhr in der Statusleiste</string>
     <string name="clock_position">Uhrposition</string>
     <string name="clock_position_summary">"Uhrposition wechseln:
 %s"</string>
     <string name="am_pm_style">AM PM Stil</string>
     <string name="am_pm_style_summary">"wähle AM oder PM für die Uhr:
 %s"</string>
-    <string name="show_clock_date_summary">Datum neben der Statusbaruhr anzeigen</string>
-    <string name="show_clock_date">Statusbardatum anzeigen</string>
-    <string name="battery">Batterie</string>
-    <string name="hide_battery_icon_summary">Batteriesichtbarkeits Einstellungen</string>
-    <string name="hide_battery_icon">Batteriesymbol ausblenden</string>
-    <string name="show_battery_text_summary">Anzeige der Batterie in Prozent</string>
-    <string name="show_battery_text">Batterietext anzeigen</string>
-    <string name="battery_text_color">Batterietext Schriftfarbe</string>
-    <string name="battery_text_color_summary">Festlegen der Batterieschrift Textfarbe</string>
+    <string name="show_clock_date_summary">Datum neben der Uhr anzeigen</string>
+    <string name="show_clock_date">Datum anzeigen</string>
+    <string name="clock_date_format">Datumsformat</string>
+    <string name="battery">Akkusymbol</string>
+    <string name="hide_battery_icon_summary">Akkuanzeige Einstellungen</string>
+    <string name="hide_battery_icon">Akkusymbol ausblenden</string>
+    <string name="battery_icon_color">Akkusymbol Farbe</string>
+    <string name="battery_icon_color_summary">wähle eine Farbe für das Akkusymbol</string>
+    <string name="show_battery_text_summary">Anzeige des Akkusymbols in Prozent</string>
+    <string name="show_battery_text">Akkuanzeige als Text anzeigen</string>
+    <string name="battery_text_color">Text Schriftfarbe</string>
+    <string name="battery_text_color_summary">Festlegen der Schrifttextfarbe</string>
     <string name="carrier_settings">Betreibername</string>
     <string name="hide_carrier_label">Betreibernamen ausblenden</string>
     <string name="hide_carrier_label_summary">Betreibername Sichtbarkeitseinstellung</string>
@@ -138,6 +146,8 @@ Sind Sie bereit weiterzumachen?"</string>
     <string name="framework">Framework</string>
     <string name="framework_summary">Framework Einstellungen</string>
     <string name="common">Allgemein</string>
+    <string name="bold_settings_font_summary">Fettgedruckte Schrift für die System und Apps Einstellung</string>
+    <string name="bold_settings_font">Schrift Einstellung</string>
     <string name="international_t9_summary">Aktivieren der internationalen T9 Suche in den Kontakten</string>
     <string name="international_t9">hinzufügen von T9</string>
     <string name="local_yellowpage_database_summary">blockiert die Updates der YellowPage Datenbank von chinesischen Server und bietet die Möglichkeit, unbekannte Kontakte zumarkieren.</string>
@@ -170,12 +180,6 @@ Möchten Sie fortfahren? "</string>
     <string name="power_reboot_system_2">Reboot to System 2</string>
     <string name="power_cancel">Beenden</string>
     <string name="device">Geräte</string>
-    <string name="show_navigation_bar_summary">Zeige Navigationsbar (Nexus like)</string>
-    <string name="show_navigation_bar">Zeige Navigationsbar</string>
-    <string name="navigation_bar_height_summary">Höhe: %s</string>
-    <string name="navigation_bar_height">Navigationsbar Höhe</string>
-    <string name="navigation_bar_color">Navigationsbar Farbe</string>
-    <string name="navigation_bar_color_summary">wähle eine Hintergrundfarbe</string>
     <string name="all_rotations_summary">Aktivieren der Rotation, einschließlich upside-down</string>
     <string name="all_rotations">Aktivieren der Rotation</string>
     <string name="lockscreen_rotations_summary">Erlaubt es dem Lockscreen sich ins Querformat zu drehen</string>
@@ -195,8 +199,8 @@ Die Physikalische build.prop wird nicht verändert"</string>
     <string name="custom_build_prop_model">Modell</string>
     <string name="custom_build_prop_name_value">eigener Name</string>
     <string name="custom_build_prop_name">Name</string>
-    <string name="buttons">Buttons</string>
-    <string name="buttons_summary">Buttons Zuordnungen, Aktionen etc.</string>
+    <string name="buttons">Tasten</string>
+    <string name="buttons_summary">Tastenzuordnung, Aktionen etc.</string>
     <string name="key_menu">Menü</string>
     <string name="key_volume">Lautstärke</string>
     <string name="double_click_menu_app_summary">wähle eine Aktion der Menütaste bei einem Doppelklick</string>
@@ -218,11 +222,22 @@ Die Physikalische build.prop wird nicht verändert"</string>
     <string name="long_press_track_skip_summary">Weiter zum nächsten / vorherigen Titel mit einem langen Druck auf die Lautstärketasten (nur wenn der Bildschirm ausgeschaltet ist)</string>
     <string name="swap_long_press_skip_keys">Tasten umkehren</string>
     <string name="swap_long_press_skip_keys_summary">Invertiert die Tasten zum Lieder skipen</string>
-    <string name="sound">Sound</string>
-    <string name="sound_summary">Sound Einstellungen</string>
+    <string name="navigation_bar">Navigationsleiste</string>
+    <string name="show_navigation_bar_summary">Zeige Navigationsleiste (Nexus like)</string>
+    <string name="show_navigation_bar">Zeige die Navigationsleiste</string>
+    <string name="navigation_bar_height_summary">Höhe: %s</string>
+    <string name="navigation_bar_height">Navigationsleisten Höhe</string>
+    <string name="navigation_bar_color">Navigationsleisten Farbe</string>
+    <string name="navigation_bar_color_summary">wähle eine Hintergrundfarbe</string>
+    <string name="sound">Ton</string>
+    <string name="sound_summary">Ton Einstellungen</string>
     <string name="disable_volume_control_sound">Deaktivieren des Pieptons</string>
-    <string name="disable_volume_control_sound_summary">Deaktiviert den Piepton während des einstellens der Lautstärke</string>
-    <string name="volume_step">Lautstärken Schritt</string>
+    <string name="disable_volume_control_sound_summary">Deaktiviere den Piepton während des einstellens der Lautstärke</string>
+    <string name="unlink_notification_volume">Unlink notif. volume</string>
+    <string name="unlink_notification_volume_summary">Separate Klingelton &amp; Benachrichtigungen Lautstärke Einstellungen</string>
+    <string name="volume_ring_description">Klingelton</string>
+    <string name="volume_notification_description">Benachrichtigungen</string>
+    <string name="volume_step">Lautstärkestufen</string>
     <string name="volume_steps_voice_call">Sprachanruf</string>
     <string name="volume_steps_system">System</string>
     <string name="volume_steps_ring">Klingeln</string>
@@ -239,15 +254,17 @@ Die Physikalische build.prop wird nicht verändert"</string>
     <string name="launcher_summary">Launcher Einstellungen</string>
     <string name="hide_icons_label">Symboltext ausblenden</string>
     <string name="hide_icons_label_summary">Die Schrift unter den Symbolen ausblenden</string>
-	<string name="hide_hotseats_label">Docksymboltext ausblenden</string>
+    <string name="hide_hotseats_label">Docksymboltext ausblenden</string>
     <string name="hide_hotseats_label_summary">Die Schrift unter den Docksymbolen ausblenden</string>
     <string name="hide_folders_label">Ordnertext ausblenden</string>
     <string name="hide_folders_label_summary">Die Schrift unter den Ordnern ausblenden</string>
-	<string name="config_folder_columns_count">Ordner Spalten</string>
+    <string name="config_folder_columns_count">Ordner Spalten</string>
     <string name="config_folder_columns_count_summary">Ordner Spalten anzeigen (im geöffnetem Zustand): %s</string>
     <string name="launcher_font_size_summary">"Launcher Symboltextgröße:
 %s"</string>
-    <string name="launcher_font_size">Schriftgröße</string>	
+    <string name="launcher_font_size">Schriftgröße</string>
+    <string name="multiline_labels_summary">Use multiline icons/folder labels</string>
+    <string name="multiline_labels">Multiline labels</string>
     <string name="applications">Anwendungen</string>
     <string name="applications_summary">MIUI Anwendungseinstellungen</string>
     <string name="app_mms">Nachrichten</string>
@@ -272,7 +289,6 @@ Arbeitet auf einigen Geräten noch nicht!"</string>
     <string name="holidays_selector_country_ukraine">Ukraine</string>
     <string name="holidays_selector_country_slovakia">Slowakei</string>
     <string name="holidays_selector_country_czech">Tschechische Republik</string>
-	<string name="holidays_selector_country_german">Deutschland</string>
     <string name="app_quicksearchbox">QuickSearchBox</string>
     <string name="quicksearchbox_marketplace">Suche im Markt</string>
     <string name="quicksearchbox_marketplace_summary">"Markt für die Suche:
@@ -283,7 +299,7 @@ Arbeitet auf einigen Geräten noch nicht!"</string>
     <string name="app_music">Musik</string>
     <string name="launch_playback_screen">Starten des Wiedergabe-Bildschirms</string>
     <string name="launch_playback_screen_summary">Starten des Wiedergabe-Bildschirms in dem Musikplayer wenn man auf das Pop-up-Widget klickt. Standardmäßig öffnet sich das Hauptfenster</string>
-	<string name="disable_albumart_download">Albumcover nicht herunterladen</string>
+    <string name="disable_albumart_download">Albumcover nicht herunterladen</string>
     <string name="disable_albumart_download_summary">Deaktivieren des automatischen Downloads von Albumcovers</string>
     <string name="app_themes">Themes</string>
     <string name="themes_reverse_tabs_order">Reihenfolge der Tabs umdrehen</string>
@@ -304,4 +320,5 @@ Arbeitet auf einigen Geräten noch nicht!"</string>
     <string name="cloud_upload_delay">Cloud Upload Verzögerung</string>
     <string name="cloud_upload_delay_summary">"Verzögerungszeit vor dem Hochladen des neuen Fotos zu MiCloud.
 %s"</string>
+    <string name="holidays_selector_country_german">Deutschland</string>
 </resources>
