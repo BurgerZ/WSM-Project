@@ -96,21 +96,21 @@
     <string name="network_speed_exp_statusbar_summary">Show network speed at expanded status bar view</string>
     <string name="network_speed_exp_statusbar">Network speed</string>
         <!-- Clock -->
-        <string name="clock">Clock</string>
-        <string name="clock_hide">Hide clock</string>
-    <string name="clock_hide_summary">Do not show clock in statusbar</string>
+        <string name="clock">Hodiny</string>
+        <string name="clock_hide">Skryť hodiny</string>
+    <string name="clock_hide_summary">Neukázať hodiny v statusbare</string>
     <string name="clock_color_title">Clock color</string>
     <string name="clock_color_summary">Set status bar clock color</string>
-    <string name="clock_position">Clock position</string>
-    <string name="clock_position_summary">Choose clock position:\n%s</string>
+    <string name="clock_position">Umiestnenie hodín:</string>
+    <string name="clock_position_summary">Zvoľte umiestnenie hodín:\n%s</string>
     <string name="am_pm_style">AM PM Style</string>
     <string name="am_pm_style_summary">Choose clock am pm style:\n%s</string>
     <string name="show_clock_date_summary">Show the date with the status bar clock</string>
     <string name="show_clock_date">Show status bar date</string>
     <!-- Battery -->
-    <string name="battery">Battery</string>
-    <string name="hide_battery_icon_summary">Battery icon visibility settings</string>
-    <string name="hide_battery_icon">Hide battery icon</string>
+    <string name="battery">Batéria</string>
+    <string name="hide_battery_icon_summary">Nastaveneie viditeľnosti batérie</string>
+    <string name="hide_battery_icon">Skryť ikonu batérie</string>
     <string name="show_battery_text_summary">Show battery percentage text</string>
     <string name="show_battery_text">Show battery text</string>
     <string name="battery_text_color">Battery text color</string>
@@ -163,21 +163,21 @@
     <string name="units_mbs">M/s</string>
     <string name="units_s">s</string>
     <!-- Power -->
-    <string name="power">Power</string>
-    <string name="advanced_reboot_menu_summary">Adds more options to reboot menu</string>
-    <string name="advanced_reboot_menu">Advanced reboot menu</string>
+    <string name="power">Napájanie</string>
+    <string name="advanced_reboot_menu_summary">Pridať viac volieb do reboot menu</string>
+    <string name="advanced_reboot_menu">Rozšírené reboot menu</string>
     <string name="power_reboot">Reboot</string> 
-    <string name="power_reboot_options">Reboot Options</string> 
+    <string name="power_reboot_options">Voľby pre Reboot</string> 
     <string name="power_reboot_normal">Normal</string> 
     <string name="power_reboot_recovery">Recovery</string> 
     <string name="power_reboot_hot">Hot Reboot</string> 
     <string name="power_reboot_bootloader">Bootloader</string> 
-    <string name="power_reboot_switch_system">Switch system (Mi phones)</string> 
+    <string name="power_reboot_switch_system">Prepnúť systém (iba pre Mi telefóny)</string> 
     <string name="power_reboot_system_1">Reboot to System 1</string> 
     <string name="power_reboot_system_2">Reboot to System 2</string> 
-    <string name="power_cancel">Cancel</string> 
+    <string name="power_cancel">Zrušiť</string> 
     <!-- Device -->
-    <string name="device">Device</string>
+    <string name="device">Zariadenie</string>
     <string name="show_navigation_bar_summary">Show navigation bar (Nexus like)</string>
     <string name="show_navigation_bar">Show navigation bar</string>
     <string name="navigation_bar_height_summary">Height: %s</string>
@@ -257,10 +257,10 @@
     <string name="config_folder_columns_count">Folder columns</string>
     <string name="config_folder_columns_count_summary">Folder columns count (in open state): %s</string>
     <string name="launcher_font_size_summary">Set the launcher icons text size:\n%s</string>
-    <string name="launcher_font_size">Font size</string>
+    <string name="launcher_font_size">veľkosť fontu</string>
     <!-- Applications prefs-->
-    <string name="applications">Applications</string>
-    <string name="applications_summary">MIUI applications settings</string>
+    <string name="applications">Aplikácie</string>
+    <string name="applications_summary">nastavenia MIUI aplikácii</string>
     <!-- MMS -->
     <string name="app_mms">Messaging</string>
     <string name="disable_sms_to_mms_conversion">Allow Long SMS</string>
@@ -273,32 +273,32 @@
     <string name="festival_update_server">Festival update server</string> 
     <string name="festival_update_server_summary">%s</string>
     <!-- Calendar -->
-    <string name="app_calendar">Calendar</string>
-    <string name="holidays_update_server">Holidays update server</string> 
+    <string name="app_calendar">Kalendár</string>
+    <string name="holidays_update_server">Server pre sviatky</string> 
     <string name="holidays_update_server_summary">%s</string>
-    <string name="holidays_selector_country">Holidays country</string>
+    <string name="holidays_selector_country">Výber krajiny </string>
     <string name="holidays_selector_country_summary">%s</string>
-    <string name="holidays_selector_country_original">Original (chinese)</string> 
-    <string name="holidays_selector_country_russia">Russia</string> 
-    <string name="holidays_selector_country_ukraine">Ukraine</string> 
-    <string name="holidays_selector_country_slovakia">Slovakia</string>
-    <string name="holidays_selector_country_czech">Czech Republic</string> 
+    <string name="holidays_selector_country_original">Originál (čínsky)</string> 
+    <string name="holidays_selector_country_russia">Rusko</string> 
+    <string name="holidays_selector_country_ukraine">Ukrajina</string> 
+    <string name="holidays_selector_country_slovakia">Slovensko/string>
+    <string name="holidays_selector_country_czech">Česká republika</string> 
     <!-- QuickSearchBox -->
     <string name="app_quicksearchbox">QuickSearchBox</string>
     <string name="quicksearchbox_marketplace">Search MarketPlace</string>
     <string name="quicksearchbox_marketplace_summary">Marketplace to search:\n%s</string>
     <!-- Browser -->
-    <string name="app_browser">Browser</string>
+    <string name="app_browser">Prehliadač</string>
     <string name="browser_autofit_pages">Pages autofit</string>
     <string name="browser_autofit_pages_summary">Adds \"Mobile View\" to the General browser settings</string>
     <!-- Music -->
-    <string name="app_music">Music</string>
+    <string name="app_music">Hudba</string>
     <string name="launch_playback_screen">Launch playback screen</string>
     <string name="launch_playback_screen_summary">Launch playback screen in Music player on pop-up widget click. By default, the main screen opens</string>
     <string name="disable_albumart_download">Do not download album art</string>
     <string name="disable_albumart_download_summary">Disable auto download album artwork</string>
     <!-- Themes -->
-    <string name="app_themes">Themes</string>
+    <string name="app_themes">Témy</string>
     <string name="themes_reverse_tabs_order">Reverse tabs order</string>
     <string name="themes_reverse_tabs_order_summary">Change tabs order to Local, Categories, Popular, Featured</string>
     <string name="themes_replace_lunar_dates">Replace Lunar dates</string>
@@ -310,13 +310,13 @@
     <string name="supermarket_disable_autoupdates_check">Disable updates check</string>
     <string name="supermarket_disable_autoupdates_check_summary">Disables auto updates check</string>
     <!-- Updater -->
-    <string name="app_updater">Updater</string>
-    <string name="updater_disable_autoupdates_check">Disable updates check</string>
+    <string name="app_updater">Aktualizácie</string>
+    <string name="updater_disable_autoupdates_check">Vypnúť kontrolu aktualizácie</string>
     <string name="updater_disable_autoupdates_check_summary">Disables auto updates check</string>
-    <string name="updater_english_changelog">Changelog in English</string>
+    <string name="updater_english_changelog">Prehľad zmien v angličtine</string>
     <string name="updater_english_changelog_summary">Forces ROM changelogs to be shown in English</string>
     <!-- MiuiGallery -->
-    <string name="app_miuigallery">Gallery</string>
+    <string name="app_miuigallery">Galéria</string>
     <string name="cloud_upload_delay">Cloud upload delay</string>
     <string name="cloud_upload_delay_summary">Delay time before uploading new photo to MiCloud.\n%s</string>
 </resources>
