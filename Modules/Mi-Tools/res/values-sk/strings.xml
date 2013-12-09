@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="module_name">Mi-Tools</string>
     <string name="module_desc">Všetko v jednom na MIUI v5</string>
     <string name="module_desc_full">Všetko v jednom na MIUI v5.\n
@@ -155,11 +154,11 @@
     <string name="local_yellowpage_database_dialog">Chinese yellow page database will be cleared.\nYou will need to update T9 index data from Contacts settings after reboot.\nDo you want to continue?</string>
     <string name="localized_measure_units_summary">\u2022 Status bar: network speed (K/s, m/s)\n\u2022 Task manager: freed, available memory (MB, GB)\n\u2022 Data usage (Traffic): B, KB, MB, GB</string>
     <string name="localized_measure_units">Localized measure units</string>
-    <string name="units_gb">Gb</string>
-    <string name="units_b">b</string>
-    <string name="units_kb">Kb</string>
+    <string name="units_gb">GB</string>
+    <string name="units_b">B</string>
+    <string name="units_kb">KB</string>
     <string name="units_kbs">K/s</string>
-    <string name="units_mb">Mb</string>
+    <string name="units_mb">MB</string>
     <string name="units_mbs">M/s</string>
     <string name="units_s">s</string>
     <!-- Power -->
@@ -281,7 +280,7 @@
     <string name="holidays_selector_country_original">Originál (čínsky)</string> 
     <string name="holidays_selector_country_russia">Rusko</string> 
     <string name="holidays_selector_country_ukraine">Ukrajina</string> 
-    <string name="holidays_selector_country_slovakia">Slovensko/string>
+    <string name="holidays_selector_country_slovakia">Slovensko</string>
     <string name="holidays_selector_country_czech">Česká republika</string> 
     <!-- QuickSearchBox -->
     <string name="app_quicksearchbox">QuickSearchBox</string>
