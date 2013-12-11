@@ -17,8 +17,8 @@
         \u2022 Search in Google Play\n
         \u2022 T9 Module\n
         \u2022 Units\n
-        \u2022 Volume Control Mute\n
-        \u2022 Volume Skip Track\n
+        \u2022 Silenciar Control de Volumen\n
+        \u2022 Salto de pista con Volumen\n
         \u2022 YellowPage</string>
         <string name="mitools_copyright">Prohibida la modificación de los módulos.\n
         BurgerZ MD, Copyright © 2013, Todos los derechos reservados.</string>
@@ -87,7 +87,7 @@
         <string name="statusbar_background_color_summary">Color de la barra de estado</string>
         <string name="statusbar_text_family">Familia tipográfica</string>
     <string name="statusbar_text_family_summary">Ajusta la famlia tipográfica a la fuente:\n%s</string>
-    <string name="statusbar_text_style">Typeface style</string>
+    <string name="statusbar_text_style">Estilo de familia Tipográfica</string>
     <string name="statusbar_text_style_summary">Set the style of the statusbar font:\n%s</string>
     <string name="font_size_summary">Ajusta el tamaño de los elementos de texto en la barra de estado</string>
     <string name="font_size">Tamaño de Fuente</string>
@@ -128,15 +128,15 @@
     <string name="hide_roaming_icon">Ocultar Icono de Itinerancia</string>
     <!-- Notifications -->
     <string name="notifications">Notificaciones</string>
-    <string name="hide_ongoing_ime_switcher_summary">While typing, show the ongoing notification from which you can choose the input method (keyboard)</string>
-    <string name="hide_ongoing_ime_switcher">Hide input method switcher</string>
+    <string name="hide_ongoing_ime_switcher_summary">Mientras escribes, se muestra la notificación en la que puedes elegir el método de entrada (teclado)</string>
+    <string name="hide_ongoing_ime_switcher">Oculta el conmutador de método de entrada</string>
     <!-- Framework prefs -->
     <string name="framework">Framework</string>
-    <string name="framework_summary">Framework related settings</string>
+    <string name="framework_summary">Ajustes relacionados con el Framework</string>
     <!-- Common -->
     <string name="common">Común</string>
     <string name="international_t9_summary">Enable international T9 search in Contacts</string>
-    <string name="international_t9">Add T9</string>
+    <string name="international_t9">Añadir T9</string>
     <string name="local_yellowpage_database_summary">Blocks updates of the Yellow Pages database from Chinese server and adds the ability to "Mark" unknown contacts.</string>
     <string name="local_yellowpage_database">Local YellowPage database</string>
     <string name="localized_measure_units_summary">\u2022 Status bar: network speed (K/s, m/s)\n\u2022 Task manager: freed, available memory (MB, GB)\n\u2022 Data usage (Traffic): B, KB, MB, GB</string>
@@ -149,72 +149,72 @@
     <string name="units_mbs">M/s</string>
     <string name="units_s">s</string>
     <!-- Power -->
-    <string name="power">Power</string>
-    <string name="advanced_reboot_menu_summary">Adds more options to reboot menu</string>
-    <string name="advanced_reboot_menu">Advanced reboot menu</string>
-    <string name="power_reboot">Reboot</string>
-    <string name="power_reboot_options">Reboot Options</string>
+    <string name="power">Boton de Encendido</string>
+    <string name="advanced_reboot_menu_summary">Añade mas opciones al menú de reinicio</string>
+    <string name="advanced_reboot_menu">Menú de reinicio avanzado</string>
+    <string name="power_reboot">Reiniciar</string>
+    <string name="power_reboot_options">Opciones de reinicio</string>
     <string name="power_reboot_normal">Normal</string>
     <string name="power_reboot_recovery">Recovery</string>
-    <string name="power_reboot_hot">Hot Reboot</string>
+    <string name="power_reboot_hot">Rápido</string>
     <string name="power_reboot_bootloader">Bootloader</string>
-    <string name="power_reboot_switch_system">Switch system (Mi phones)</string>
-    <string name="power_reboot_system_1">Reboot to System 1</string>
-    <string name="power_reboot_system_2">Reboot to System 2</string>
-    <string name="power_cancel">Cancel</string>
+    <string name="power_reboot_switch_system">Cambiar de sistema (Teléfonos Mi)</string>
+    <string name="power_reboot_system_1">Cambiar al Sistema 1</string>
+    <string name="power_reboot_system_2">Cambiar al Sistema 2</string>
+    <string name="power_cancel">Cancelar</string>
     <!-- Device -->
     <string name="device">Dispositivo</string>
     <string name="show_navigation_bar_summary">Muestra una barra de navegacion (estilo Nexus)</string>
-    <string name="show_navigation_bar">Show navigation bar</string>
-    <string name="navigation_bar_height_summary">Height: %s</string>
-    <string name="navigation_bar_height">Navigation bar height</string>
-    <string name="all_rotations_summary">Enable all rotation angles, including upside-down</string>
-    <string name="all_rotations">Enable all rotation angles</string>
-    <string name="lockscreen_rotations_summary">Allow lockscreen to rotate to landscape</string>
-    <string name="lockscreen_rotations">Enable lockscreen rotation</string>
-    <string name="custom_build_prop">Device properties</string>
-    <string name="custom_build_prop_summary">Set custom build.prop values</string>
+    <string name="show_navigation_bar">Mostrar barra de navegación</string>
+    <string name="navigation_bar_height_summary">Altura: %s</string>
+    <string name="navigation_bar_height">Altura de la barra de navegación</string>
+    <string name="all_rotations_summary">Habilitar todos los ángulos de rotación, incluyendo al revés</string>
+    <string name="all_rotations">Habilitar todos los ángulos de rotación</string>
+    <string name="lockscreen_rotations_summary">Permite que la pantalla de bloqueo gire en modo horizontal</string>
+    <string name="lockscreen_rotations">Habilitar rotación de la pantalla de bloqueo</string>
+    <string name="custom_build_prop">Propiedades del dispositivo</string>
+    <string name="custom_build_prop_summary">Ajusta valores personalizados a build.prop</string>
     <string name="enable_custom_build_prop_summary">Values are applied after boot\nPhysical build.prop is not altered</string>
     <string name="enable_custom_build_prop">Use custom property values</string>
     <string name="custom_build_prop_board_value">Set a custom board value</string>
     <string name="custom_build_prop_board">Board</string>
-    <string name="custom_build_prop_brand_value">Set a custom brand value</string>
-    <string name="custom_build_prop_brand">Brand</string>
-    <string name="custom_build_prop_device_value">Set a custom device value</string>
-    <string name="custom_build_prop_device">Device</string>
+    <string name="custom_build_prop_brand_value">Ajusta una marca personalizada</string>
+    <string name="custom_build_prop_brand">Marca</string>
+    <string name="custom_build_prop_device_value">Ajusta valores personalizados al dispositivo</string>
+    <string name="custom_build_prop_device">Dispositivo</string>
     <string name="custom_build_prop_model_value">Set a custom model value</string>
-    <string name="custom_build_prop_model">Model</string>
+    <string name="custom_build_prop_model">Modelo</string>
     <string name="custom_build_prop_name_value">Set a custom name value</string>
-    <string name="custom_build_prop_name">Name</string>
+    <string name="custom_build_prop_name">Nombre</string>
     <!-- Buttons -->
     <string name="buttons">Botones</string>
     <string name="key_menu">Menú</string>
     <string name="key_volume">Volumen</string>
-    <string name="double_click_menu_app_summary">Select application to launch by MENU button double click</string>
-    <string name="double_click_menu_app">Double MENU button click</string>
+    <string name="double_click_menu_app_summary">Selecciona una aplicación que será lanzada con doble click en el botón MENU</string>
+    <string name="double_click_menu_app">Doble click botón MENU</string>
     <string name="long_press_menu_action_summary">%s</string>
-    <string name="long_press_menu_action">Long press MENU button action</string>
+    <string name="long_press_menu_action">Pulsación prolongada botón MENU</string>
     <string name="double_tap_menu_action_summary">%s</string>
-    <string name="double_tap_menu_action">Double tap MENU button action</string>
-    <string name="menu_action_default">Default</string>
-    <string name="menu_action_previous_app">Launch previous app</string>
+    <string name="double_tap_menu_action">Doble toque botón MENU</string>
+    <string name="menu_action_default">Predeterminado</string>
+    <string name="menu_action_previous_app">Lanzar aplicación anterior</string>
     <string name="menu_action_sleep">Pantalla de bloqueo</string>
     <string name="menu_action_custom_app">Lanzar aplicación personalizada</string>
     <string name="menu_action_torch">Linterna</string>
-    <string name="vol_key_cursor">Volume keys cursor</string>
-    <string name="vol_key_cursor_summary">Use volume keys as cursor control keys in text fields</string>
-    <string name="vol_key_cursor_reverse">Reverse keys</string>
-    <string name="vol_key_cursor_reverse_summary">Reverse volume keys</string>
+    <string name="vol_key_cursor">Cursor tecla de volumen</string>
+    <string name="vol_key_cursor_summary">Utiliza las teclas de volumen como teclas de control del cursor en los campos de texto</string>
+    <string name="vol_key_cursor_reverse">Teclas inversas</string>
+    <string name="vol_key_cursor_reverse_summary">Invierte las teclas de volumen</string>
     <!-- Advanced -->
     <string name="advanced">Avanzado</string>
-    <string name="extra_battery_info_summary">Add extra battery info to battery settings view</string>
+    <string name="extra_battery_info_summary">Añade información extra en la los ajustes de batería</string>
     <string name="extra_battery_info">Información de Batería Extra</string>
     <!-- Sound prefs -->
     <string name="sound">Sonido</string>
-    <string name="sound_summary">Sound related settings</string>
-    <string name="disable_volume_control_sound">Disable BEEP sound</string>
+    <string name="sound_summary">Ajustes de sonido</string>
+    <string name="disable_volume_control_sound">Deshabilitar sonido BEEP</string>
     <string name="disable_volume_control_sound_summary">Disables ugly BEEP sound while adjusting volume by vol. keys</string>
-    <string name="long_press_track_skip">Skip tracks with volume keys</string>
+    <string name="long_press_track_skip">Saltar pista con teclas de volumen</string>
     <string name="long_press_track_skip_summary">Skip to the next/previous track with a long press on the volume keys (only when the screen is off)</string>
     <string name="swap_long_press_skip_keys">Swap volume keys</string>
     <string name="swap_long_press_skip_keys_summary">Swap volume keys (next->previous and previous->next)</string>
@@ -225,8 +225,8 @@
     <string name="launcher_summary">Ajustes relacionados del Launcher</string>
     <string name="hide_icons_label">Ocultar texto en iconos</string>
     <string name="hide_icons_label_summary">Permite ocultar el texto de los iconos en el escritorio</string>
-    <string name="hide_folders_label">Hide folders label</string>
-    <string name="hide_folders_label_summary">Allows you to to hide launcher folders labels</string>
+    <string name="hide_folders_label">Oculta etiquetas de carpetas</string>
+    <string name="hide_folders_label_summary">Permite ocultar el texto de las etiquetas de carpetas en el launcher</string>
     <!-- Applications prefs-->
     <string name="applications">Aplicaciones</string>
     <string name="applications_summary">Ajustes de aplicaciones MIUI</string>
