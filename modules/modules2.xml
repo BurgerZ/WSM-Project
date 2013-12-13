@@ -1,10 +1,17 @@
 <repository>
   <name>WSM repository</name>
-  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1386310222">
+  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1386922304">
 	<name>Mi-Tools</name> 
 	<summary>MIUI v5 all in one module</summary> 
 	<description html="true">&lt;p&gt;MIUI v5 all in one module. It handles framework, statusbar, launcher, sound, MIUI applications modifications.&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
+	<version>
+		<name>1.7</name> 
+		<code>17</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v17_25e54e.apk</download> 
+		<md5sum>25e54ef2ee86a89606eb80d3e20aba66</md5sum> 
+		<changelog html="true">&lt;li&gt;Statusbar: fixed color settings for all statusbar icons&lt;/li&gt;&lt;li&gt;Launcher: added color settings for icons/folder labels&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
+	</version>
 	<version>
 		<name>1.6</name> 
 		<code>16</code> 
