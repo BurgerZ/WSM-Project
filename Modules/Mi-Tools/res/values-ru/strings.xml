@@ -274,6 +274,10 @@
     <string name="launcher_font_size">Размер шрифта</string>
     <string name="multiline_labels_summary">Использовать многострочные подписи иконок и папок</string>
     <string name="multiline_labels">Переносить длинные подписи</string>
+    <string name="set_launcher_icons_color_summary">Использовать свой цвет текста для подписей иконок и папок</string>
+    <string name="set_launcher_icons_color">Свой цвет подписей</string>
+    <string name="launcher_icons_color_summary">Выбор цвета текста подписей иконок и папок рабочего стола</string>
+    <string name="launcher_icons_color">Цвет подписей иконок</string>
     <!-- Applications prefs-->
     <string name="applications">Приложения</string>
     <string name="applications_summary">Настройки приложений MIUI</string>

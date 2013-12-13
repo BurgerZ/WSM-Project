@@ -274,6 +274,10 @@
     <string name="launcher_font_size">Font size</string>
     <string name="multiline_labels_summary">Use multiline icons/folder labels</string>
     <string name="multiline_labels">Multiline labels</string>
+    <string name="set_launcher_icons_color_summary">Use custom icons/folder labels color</string>
+    <string name="set_launcher_icons_color">Custom icons text color</string>
+    <string name="launcher_icons_color_summary">Select launcher icons/folder labels color</string>
+    <string name="launcher_icons_color">Icons text color</string>
     <!-- Applications prefs-->
     <string name="applications">Applications</string>
     <string name="applications_summary">MIUI applications settings</string>
