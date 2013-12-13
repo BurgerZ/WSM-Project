@@ -259,6 +259,10 @@
     <string name="launcher_font_size">Rozmiar czcionki</string>
     <string name="multiline_labels_summary">Przerzuca do nowej linii długie nazwy aplikacji oraz folderów</string>
     <string name="multiline_labels">Zawijanie nazwy</string>
+    <string name="set_launcher_icons_color_summary">Pozwala wybrać dowolny kolor tekstu pod ikonami</string>
+    <string name="set_launcher_icons_color">Własny kolor tekstu</string>
+    <string name="launcher_icons_color_summary">Pozwala wybrać kolor tekstu pod ikonami</string>
+    <string name="launcher_icons_color">Kolor tekstu</string>
     <!-- Applications prefs-->
     <string name="applications">Aplikacje</string>
     <string name="applications_summary">Opcje aplikacji MIUI</string>
