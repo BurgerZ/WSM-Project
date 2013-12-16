@@ -271,6 +271,10 @@
     <string name="launcher_font_size">文字大小</string>
     <string name="multiline_labels_summary">使用多行圖示/資料夾標籤</string>
     <string name="multiline_labels">多行標籤</string>
+    <string name="set_launcher_icons_color_summary">使用自訂圖示/資料夾標籤顏色</string>
+    <string name="set_launcher_icons_color">自訂圖示文字顏色</string>
+    <string name="launcher_icons_color_summary">選擇啟動器圖示/資料夾標籤文字</string>
+    <string name="launcher_icons_color">圖示文字顏色</string>
     <!-- Applications prefs-->
     <string name="applications">系統應用程式</string>
     <string name="applications_summary">MIUI 系統應用程式設定</string>
