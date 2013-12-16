@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="module_name">鍵盤修正</string>
-    <string name="module_desc">修正 Xperia TM 鍵盤所造成的強制關閉問題</string>
-    <string name="module_desc_full">修正 Xperia TM 鍵盤所造成的強制關閉問題</string>
-</resources>
