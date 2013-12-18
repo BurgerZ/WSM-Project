@@ -399,11 +399,18 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<changelog html="true"></changelog> 
 	</version>	
   </module>
-  <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1386919665">
+  <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1387364887">
 	<name>WSM tools</name> 
 	<summary>This is the installer and manager for the Xposed framework, which is a requirement for all modules</summary> 
 	<description html="true">&lt;p&gt;This is the installer for the Xposed framework, which is a requirement for all modules.&lt;/p&gt;&lt;p&gt;This framework is based on rovo89\'s Xposed framework. Like an original project it is a framework for modules that can change the behavior of the system and apps without touching any APKs&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note that this only works with root access on Android 4.0.3 or later.&lt;/b&gt;&lt;/p&gt;</description> 
 	<author>BurgerZ</author>
+	<version>
+		<name>2.1.4</name> 
+		<code>214</code>
+		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v214_3eb2ca.apk</download> 
+		<md5sum>3eb2ca11656b430fa0ac8f9fc4a7cd06</md5sum> 
+		<changelog html="true">&lt;li&gt;Fixed bootloop for ported devices (MIUI v5 ROMs based on Android 4.2.2). Tested on Huawei Ascend P1, HTC Desire S.&lt;/li&gt;&lt;li&gt;Fixed bootloop for HTC One devices.&lt;/li&gt;</changelog> 
+	</version>
 	<version>
 		<name>2.1.3</name> 
 		<code>213</code>
