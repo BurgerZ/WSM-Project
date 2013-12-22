@@ -82,7 +82,7 @@
     <!-- Status Bar prefs -->
     <!-- Statusbar -->
     <string name="statusbar">Állapotsor</string>
-    <string name="statusbar_title">Állapotsor</string>
+    <string name="statusbar_common">Állapotsor</string>
     <string name="statusbar_summary">Állapotsor módosítások</string>
     <string name="statusbar_set_background_color">Háttérszín használata</string>
     <string name="statusbar_set_background_color_summary">Az állapotsor háttérszinének kiválasztása</string>
@@ -112,7 +112,7 @@
     <string name="am_pm_style_summary">Válassza ki az am/pm kinézetét:\n%s</string>
     <string name="show_clock_date_summary">Dátum kijelzése az állapotsoron</string>
     <string name="show_clock_date">Dátum kijelzése az állpotsoron</string>
-    <!-- Battery -->
+    <string name="clock_date_format">Dátum formátum</string>
     <string name="battery">Akkumulátor</string>
     <string name="hide_battery_icon_summary">Akkumulátorikon beállítások</string>
     <string name="hide_battery_icon">Akkumulátorikon elrejtése</string>
@@ -270,6 +270,10 @@
     <string name="launcher_font_size">Betűméret</string>
     <string name="multiline_labels_summary">Többsoros ikon/mappaszövegek használata</string>
     <string name="multiline_labels">Többsoros ikonszövegek</string>
+    <string name="set_launcher_icons_color_summary">Egyéni ikon/mappa szövegszín használata</string>
+    <string name="set_launcher_icons_color">Egyéni ikonok szövegszíner</string>
+    <string name="launcher_icons_color_summary">A launcher ikon/mappa szövegszín kiválasztása</string>
+    <string name="launcher_icons_color">Ikonok szövegének színe</string>
     <!-- Applications prefs-->
     <string name="applications">Alkalmazások</string>
     <string name="applications_summary">MIUI alkalmazás beállítások</string>
