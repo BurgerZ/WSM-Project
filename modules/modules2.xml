@@ -1,10 +1,17 @@
 <repository>
   <name>WSM repository</name>
-  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1386922304">
+  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1387882740">
 	<name>Mi-Tools</name> 
 	<summary>MIUI v5 all in one module</summary> 
 	<description html="true">&lt;p&gt;MIUI v5 all in one module. It handles framework, statusbar, launcher, sound, MIUI applications modifications.&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
+	<version>
+		<name>1.8</name> 
+		<code>18</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v18_0f4dc2.apk</download> 
+		<md5sum>0f4dc2da3c5a323a97670f18a19e96b5</md5sum> 
+		<changelog html="true">&lt;li&gt;Statusbar: added China Telecom logos&lt;/li&gt;&lt;li&gt;Sound: enabled volume steps settings for multimedia (others disabled)&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
+	</version>
 	<version>
 		<name>1.7</name> 
 		<code>17</code> 
