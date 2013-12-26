@@ -41,7 +41,7 @@
     <string name="dialog_are_you_sure">Biztos benne?</string>
     <string name="dialog_phone_will_be_rebooted">A készülék újraindul</string>
     <string name="dialog_progress_updating">Frissítés...</string>
-    <string name="dialog_update_available">"A WSM új verziója elérhető.\nTelepítve: %1$s\nElérhető: %2$s\nAz új verzió tlepeítése után lépjen bea Beállítások - WSM kezelés és ellenőrizze,hogy bináris frissítés szükséges-e."</string>
+    <string name="dialog_update_available">"Elérhető a WSM Eszközök újabb verziója.\nTelepített verzió: %1$s\nElérhető verzió: %2$s\nAz új verzió telepítése után lépjen be a Beállítások - WSM kezelés menüpontba és ellenőrizze,hogy bináris frissítés szükséges-e."</string>
     <string name="menu_select_all">Mind kiválasztása</string>
     <string name="menu_unselect_all">Kiválasztás törlése</string>
     <string name="installer_install">Telepítés</string>
