@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Auto Orientation</string>
+    <string name="module_desc">Orientace na šířku ve vybraných aplikacích.</string>
+    <string name="module_desc_full">Přidá možnost zobrazení aplikace v režimu na šířku. Pro zajištění funkčnosti je zapotřebí jít do Nastavení -> Displej a aktivovat funkci "Auto. otočení obrazovky".
+Na některých zařízeních nemusí fungovat správně.</string>
+    <string name="rotation_enabled_list">Vybrat aplikace</string>
+    <string name="rotation_enabled_list_summary">Stisknutím tlačítka vyberte ze seznamu nainstalovaných aplikací</string>
+    <string name="rotation_enabled_packages">Vybrané aplikace</string>
+    <string name="apply">Použít</string>
+</resources>

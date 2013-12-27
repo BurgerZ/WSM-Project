@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Play Store Fixes</string>
+    <string name="module_desc">Falešná hustota displeje pro obchod Google Play</string>
+    <string name="module_desc_full">Falešná hustota displeje zpřístupní v obchodě Google Play všechny aplikace.</string>
+    <string name="pref_density_summary">Hlášená hustota displeje: %s</string>
+    <string name="fdensity">Falešná hustota</string>
+    <string name="no_res_desc">Odstraní funkci, která kontroluje, zda jsou k dispozici prvky obchodu Google Play.</string>
+    <string name="no_res_title">Bez omezení</string>
+    <string name="debug_desc">Zobrazuje další nastavení v menu obchodu Google Play..</string>
+    <string name="debug_title">Povolit nabídku ladění</string>
+</resources>

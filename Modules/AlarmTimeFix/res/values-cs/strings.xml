@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">Alarm Time fix</string>
+    <string name="module_desc">Fix pro budíky třetích stran</string>
+    <string name="module_desc_full">Opravuje zaokrouhlení času po 5 minutách u aplikací třetích stran.</string>
+    <string name="alarm_white_list">Vybrat aplikace</string>
+    <string name="alarm_white_list_summary">Stiskněte pro přidání aplikací</string>
+    <string name="alarm_white_list_packages">Seznam aplikací</string>
+    <string name="apply">Použít</string>
+</resources>
