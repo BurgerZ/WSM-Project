@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="module_name">Mi-Tools</string>
-    <string name="module_desc">Všetko v jednom na MIUI v5</string>
-    <string name="module_desc_full">Všetko v jednom na MIUI v5.\n
-        UPOZORNĚNÍ:\n
-        Musíte najskôr vypnuť tieto moduly (Ak máte inštalované):\n
+    <string name="module_desc">Všetko v jednom pre MIUI v5</string>
+    <string name="module_desc_full">Všetko v jednom pre MIUI v5.\n
+        UPOZORNENIE:\n
+        Musíte najskôr vypnuť tieto moduly (Ak ich máte inštalované):\n
         \u2022 Browser Autofit\n
         \u2022 Carrier Label\n
         \u2022 Center Clock\n
@@ -20,8 +20,8 @@
         \u2022 Volume Control Mute\n
         \u2022 Volume Skip Track\n
         \u2022 YellowPage</string>
-        <string name="mitools_copyright">Moduly upravovať zakázané.\n
-        BurgerZ MD, Copyright © 2013, Všechna práva vyhrazena</string>    
+        <string name="mitools_copyright">Upravovať moduly je zakázané.\n
+        BurgerZ MD, Copyright © 2013, Všetky práva vyhradené</string>    
     <!-- About -->
     <string name="about_module">O module</string>
     <!-- AppPickerPreference -->
@@ -46,43 +46,43 @@
     <string name="text_medium">Stredný</string>
     <string name="text_large">Veľký</string>
     <string name="time_30_sec">30 sekúnd</string>
-    <string name="time_1_min">1 minúta (default)</string>
+    <string name="time_1_min">1 minúta (predvolené)</string>
     <string name="time_5_min">5 minút</string>
     <string name="time_10_min">10 minút</string>
     <string name="time_30_min">30 minút</string>
     <string name="time_1_hour">1 hodina</string>
     <!-- MIUI warning -->
     <string name="miwarning_title">Nepodporovaný OS</string>
-    <string name="miwarning_message">Tento OS nie je oficialne podporovaný. Niektoré voľby nemusia pracovať.\nSúhlasíte s ďalším postupom?</string>
+    <string name="miwarning_message">Tento OS nie je oficiálne podporovaný. Niektoré voľby nemusia pracovať správne.\nChcete pokračovať?</string>
     <string name="miwarning_continue">Pokračovať</string>
     <string name="miwarning_close">Ukončiť</string>
     <!-- Module Notification -->
-    <string name="notif_soft_reboot">Soft reštart</string>
-    <string name="notif_reboot">Restart</string>
-    <string name="notif_reboot_required">Restartovat pro aplikování změn</string>
-    <string name="notif_reboot_required_title">Nutný restart</string>
-    <string name="notif_reboot_required_message">Pro aplikování je nutný restart</string>
+    <string name="notif_soft_reboot">Ľahký reštart</string>
+    <string name="notif_reboot">Reštart</string>
+    <string name="notif_reboot_required">Reštartovať pre aplikovanie zmien</string>
+    <string name="notif_reboot_required_title">Nutný reštart</string>
+    <string name="notif_reboot_required_message">Pre aplikovanie je nutný reštart</string>
     <!-- Backup & Restore -->
     <string name="backup_name">Názov zálohy</string>
     <string name="backup_save">Uložiť</string>
     <string name="backup_save_successful">Uloženie úspešné!</string>
     <string name="backup_save_error">Chyba pri uložení!</string>
-    <string name="backup_no_backups">Žádné zálohy</string>
+    <string name="backup_no_backups">Žiadne zálohy</string>
     <string name="backup_restore">Obnoviť</string>
-    <string name="backup_delete">Zmazať</string>
-    <string name="backup_defaults">Výchozí</string>
-    <string name="backup_defaults_restored">Výchozí obnoveno</string>
-    <string name="backup_restoring">Obnovit zálohu</string>
-    <string name="backup_restored">Záloha obnovena</string>
+    <string name="backup_delete">Vymazať</string>
+    <string name="backup_defaults">Predvolené</string>
+    <string name="backup_defaults_restored">Obnovené</string>
+    <string name="backup_restoring">Obnoviť zálohu</string>
+    <string name="backup_restored">Záloha obnovená</string>
         <!-- ColorPicker -->
-	<string name="press_color_to_apply">Klepněte na barvu pro použití</string>
-	<string name="dialog_color_picker">Volba barvy</string> 
+	<string name="press_color_to_apply">Klepnite na farbu pre jej použitie</string>
+	<string name="dialog_color_picker">ˇVýber farby</string> 
         <!-- Status Bar prefs -->
         <!-- Statusbar -->
-  	<string name="statusbar">Notifikační lišta</string>
-  	<string name="statusbar_common">Obecné</string>
-  	<string name="statusbar_summary">Úprava notifikační lišty</string>
-  	<string name="statusbar_set_background_color">Použít barvu na pozadí</string>
+  	<string name="statusbar">Notifikačná lišta</string>
+  	<string name="statusbar_common">Všeobecné</string>
+  	<string name="statusbar_summary">Úprava notifikačnej lišty</string>
+  	<string name="statusbar_set_background_color">Použiť farbu na pozadí</string>
   	<string name="statusbar_set_background_color_summary">Umožňuje zvolit barvu notif. lišty</string>
   	<string name="statusbar_background_color">Barva pozadí</string>
   	<string name="statusbar_background_color_summary">Barva notif. lišty</string>
