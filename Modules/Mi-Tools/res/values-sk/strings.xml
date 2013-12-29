@@ -254,48 +254,48 @@
     <string name="volume_steps_bluetooth">Bluetooth</string>
     <!-- Advanced -->
     <string name="advanced">Pokročilé</string>
-    <string name="extra_battery_info_summary">Přidá položku s dalšími informacemi v nastavení baterie</string>
-    <string name="extra_battery_info">Další informace o baterii</string>
-    <string name="disable_scrolling_cache_summary">Zakázat ukládání do mezipaměti při procházení seznamů.</string>
-    <string name="disable_scrolling_cache">Zakázat cache skrolování</string>
+    <string name="extra_battery_info_summary">Pridá položku s ďalšími informáciami v nastavení batérie</string>
+    <string name="extra_battery_info">Ďalšie informácie o batérií</string>
+    <string name="disable_scrolling_cache_summary">Zakázať ukladanie do medzipamäti pri prechádzaní zoznamov.</string>
+    <string name="disable_scrolling_cache">Zakázať cache skrolovania</string>
     <!-- Launcher prefs-->
-    <string name="launcher">Spouštěč</string>
-    <string name="launcher_summary">Nastavení spouštěče</string>
-    <string name="hide_icons_label">Skrýt popisky ikon</string>
-    <string name="hide_icons_label_summary">Umožní skrytí popisků ikon</string>
-    <string name="hide_hotseats_label">Skrýt popisky ikon lišty</string>
-    <string name="hide_hotseats_label_summary">Umožní skrytí popisků ikon lišty</string>
-    <string name="hide_folders_label">Skrýt popisky složek</string>
-    <string name="hide_folders_label_summary">Umožní skrytí popisků složek</string>
-    <string name="config_folder_columns_count">Sloupce ikon ve složce</string>
-    <string name="config_folder_columns_count_summary">Počet sloupců ikon ve složce (po otevření): %s</string>
-    <string name="launcher_font_size_summary">Velikost popisků ikon a složek:\n%s</string>
-    <string name="launcher_font_size">Velikost popisků</string>
-    <string name="multiline_labels_summary">Umožní víceřádkový popis ikon a složek</string>
-    <string name="multiline_labels">Víceřádkové popisky</string>
-    <string name="set_launcher_icons_color_summary">Umožní použít vlastní barvu popisků</string>
-    <string name="set_launcher_icons_color">Vlastní barva popisků</string>
-    <string name="launcher_icons_color_summary">Vybrat barvu popisků</string>
-    <string name="launcher_icons_color">Barva textu</string>
+    <string name="launcher">MIUI Launcher</string>
+    <string name="launcher_summary">Nastavenie launcheru</string>
+    <string name="hide_icons_label">Skryť popis ikon</string>
+    <string name="hide_icons_label_summary">Umožní skrytie popisu ikon</string>
+    <string name="hide_hotseats_label">Skryť popis ikon v lište</string>
+    <string name="hide_hotseats_label_summary">Umožní skrytie popisu ikon lišty</string>
+    <string name="hide_folders_label">Skryť popis zložiek</string>
+    <string name="hide_folders_label_summary">Umožní skrytie popisu zložiek</string>
+    <string name="config_folder_columns_count">Stĺpce ikon v zložke</string>
+    <string name="config_folder_columns_count_summary">Počet stĺpcov ikon v zložke (po otvorení): %s</string>
+    <string name="launcher_font_size_summary">Veľkosť popisu ikon a zložiek:\n%s</string>
+    <string name="launcher_font_size">Veľkosť popisu</string>
+    <string name="multiline_labels_summary">Umožní viacriadkový popis ikon a zložiek</string>
+    <string name="multiline_labels">Viacriadkový popis</string>
+    <string name="set_launcher_icons_color_summary">Umožní použiť vlastnú farbu popisu</string>
+    <string name="set_launcher_icons_color">Vlastná farba popisu</string>
+    <string name="launcher_icons_color_summary">Vybrať farbu popisu</string>
+    <string name="launcher_icons_color">Farba textu</string>
     <!-- Applications prefs-->
     <string name="applications">Aplikácie</string>
-    <string name="applications_summary">nastavenia MIUI aplikácii</string>
+    <string name="applications_summary">Nastavenia MIUI aplikácií</string>
     <!-- MMS -->
-    <string name="app_mms">Zprávy</string>
-    <string name="disable_sms_to_mms_conversion">Povolit dlouhé SMS</string>
-    <string name="disable_sms_to_mms_conversion_summary">Deaktivuje konverzi SMS do MMS</string>
-    <string name="mms_unicode_stripping">Ořezat diakritiku</string>
-    <string name="mms_unicode_stripping_summary">Odstraňuje z textu diakritiku.\nRežim:%s\nNefunguje na všech zařízeních (zatím)!</string>
-    <string name="mms_unicode_stripping_leave_intact">Ponechat beze změny</string>
-    <string name="mms_unicode_stripping_non_encodable">Ořezat nešifrované znaky</string>
-    <string name="mms_unicode_stripping_all">Ořezat všechny znaky</string>
-    <string name="festival_update_server">Server doporučených zpráv</string> 
+    <string name="app_mms">Správy</string>
+    <string name="disable_sms_to_mms_conversion">Povoliť dlhé SMS</string>
+    <string name="disable_sms_to_mms_conversion_summary">Deaktivuje konverziu SMS do MMS</string>
+    <string name="mms_unicode_stripping">Orezať diakritiku</string>
+    <string name="mms_unicode_stripping_summary">Odstraňuje z textu diakritiku.\nRežim:%s\nNefunguje na všetkých zariadeniach (zatiaľ)!</string>
+    <string name="mms_unicode_stripping_leave_intact">Ponechať bez zmeny</string>
+    <string name="mms_unicode_stripping_non_encodable">Orezať nešifrované znaky</string>
+    <string name="mms_unicode_stripping_all">Orezať všetky znaky</string>
+    <string name="festival_update_server">Server doporučených správ</string> 
     <string name="festival_update_server_summary">%s</string>
     <!-- Calendar -->
     <string name="app_calendar">Kalendár</string>
     <string name="holidays_update_server">Server pre sviatky</string> 
     <string name="holidays_update_server_summary">%s</string>
-    <string name="holidays_selector_country">Výber krajiny </string>
+    <string name="holidays_selector_country">Výber krajiny</string>
     <string name="holidays_selector_country_summary">%s</string>
     <string name="holidays_selector_country_original">Originál (čínsky)</string> 
     <string name="holidays_selector_country_russia">Rusko</string> 
@@ -303,13 +303,13 @@
     <string name="holidays_selector_country_slovakia">Slovensko</string>
     <string name="holidays_selector_country_czech">Česká republika</string> 
     <!-- QuickSearchBox -->
-    <string name="app_quicksearchbox">Widget hledání</string>
-    <string name="quicksearchbox_marketplace">Hledání v obchodě</string>
-    <string name="quicksearchbox_marketplace_summary">Vyhledávat v aplikaci:\n%s</string>
+    <string name="app_quicksearchbox">Widget vyhľadávania</string>
+    <string name="quicksearchbox_marketplace">Vyhľadávanie v Google Play</string>
+    <string name="quicksearchbox_marketplace_summary">Vyhľadávať v aplikácií:\n%s</string>
     <!-- Browser -->
-    <string name="app_browser">Prohlížeč</string>
-    <string name="browser_autofit_pages">Přizpůsobit stránky</string>
-    <string name="browser_autofit_pages_summary">Přidá možnost zarovnání stránek do nastavení prohlížeče</string>
+    <string name="app_browser">Prehliadač</string>
+    <string name="browser_autofit_pages">Prispôsobiť stránky</string>
+    <string name="browser_autofit_pages_summary">Pridá možnosť zarovnania stránok do nastavení prehliadača</string>
     <!-- Music -->
     <string name="app_music">Hudba</string>
     <string name="launch_playback_screen">Spustit obrazovku přehrávání</string>
