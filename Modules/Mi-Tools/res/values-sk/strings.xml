@@ -188,8 +188,8 @@
     <string name="device">Zariadenie</string>
     <string name="all_rotations_summary">Povolí 360° otočenie displeja</string>
     <string name="all_rotations">Všetky uhly otočenia</string>
-    <string name="lockscreen_rotations_summary">Povolí otočenie na zamykacej obrazovke</string>
-    <string name="lockscreen_rotations">Otočenie zamyk. obrazovky</string>
+    <string name="lockscreen_rotations_summary">Povolí otočenie na uzamykacej obrazovke</string>
+    <string name="lockscreen_rotations">Otočenie uzamyk. obrazovky</string>
     <string name="custom_build_prop">Vlastnosti zariadenia</string>
     <string name="custom_build_prop_summary">Nastaviť vlastné hodnoty build.prop (pri problémoch s kompatibilitou zariadenia v Google Play)</string>
     <string name="enable_custom_build_prop_summary">Hodnoty budú použité po reštarte zariadenia. Fyzický súbor build.prop nebude ovplyvnený.</string>
@@ -312,30 +312,30 @@
     <string name="browser_autofit_pages_summary">Pridá možnosť zarovnania stránok do nastavení prehliadača</string>
     <!-- Music -->
     <string name="app_music">Hudba</string>
-    <string name="launch_playback_screen">Spustit obrazovku přehrávání</string>
-    <string name="launch_playback_screen_summary">Umožňuje spustit obrazovku aktuální skladby v přehrávači, když kliknete na widget. Ve výchozím nastavení se otevře hlavní okno přehrávače.</string>
-    <string name="disable_albumart_download">Nestahovat obrázky alb</string>
-    <string name="disable_albumart_download_summary">Zakáže automatické stahování obalu alba.</string>
+    <string name="launch_playback_screen">Spustiť obrazovku prehrávania</string>
+    <string name="launch_playback_screen_summary">Umožňuje spustiť obrazovku aktuálnej skladby v prehrávači, keď kliknete na widget. V predvolenom nastavení sa otvorí hlavné okno prehrávača.</string>
+    <string name="disable_albumart_download">Nesťahovat obrázky albumov</string>
+    <string name="disable_albumart_download_summary">Zakáže automatické sťahovanie obalu albumu.</string>
     <!-- Themes -->
-    <string name="app_themes">Témata</string>
-    <string name="themes_reverse_tabs_order">Obrácené pořadí karet</string>
-    <string name="themes_reverse_tabs_order_summary">Změny v systému: lokální, kategorie, oblíbené, Doporučené</string>
-    <string name="themes_replace_lunar_dates">Nahradit lunární kalendář</string>
-    <string name="themes_replace_lunar_dates_summary">Pokus o nalezení a nahrazení dat lunárního kalendáře za gregoriánský (pouze pro zamykací obrazovku)</string>
+    <string name="app_themes">Témy</string>
+    <string name="themes_reverse_tabs_order">Prehodené poradie kariet</string>
+    <string name="themes_reverse_tabs_order_summary">Zmeny v systéme: lokálne, kategórie, obľúbené, doporučené</string>
+    <string name="themes_replace_lunar_dates">Nahradiť lunárny kalendár</string>
+    <string name="themes_replace_lunar_dates_summary">Pokus o nájdenie a nahradenie dát lunárneho kalendára za gregoriánsky (len pre uzamykaciu obrazovku)</string>
     <!-- Supermarket -->
     <string name="app_supermarket">Mi-Market</string>
-    <string name="supermarket_reverse_tabs_order">Obrácené pořadí karet</string>
-    <string name="supermarket_reverse_tabs_order_summary">Změny v systému: lokální, kategorie, oblíbené, Doporučené</string>
-    <string name="supermarket_disable_autoupdates_check">Vypnout kontrolu aktualizací</string>
-    <string name="supermarket_disable_autoupdates_check_summary">Deaktivuje automatickou kontrolu aktualizací</string>
+    <string name="supermarket_reverse_tabs_order">Prehodené poradie kariet</string>
+    <string name="supermarket_reverse_tabs_order_summary">Zmeny v systéme: lokálne, kategórie, obľúbené, doporučené</string>
+    <string name="supermarket_disable_autoupdates_check">Vypnúť kontrolu aktualizácií</string>
+    <string name="supermarket_disable_autoupdates_check_summary">Deaktivuje automatickú kontrolu aktualizácií</string>
     <!-- Updater -->
     <string name="app_updater">Aktualizácie</string>
     <string name="updater_disable_autoupdates_check">Vypnúť kontrolu aktualizácie</string>
-    <string name="updater_disable_autoupdates_check_summary">Deaktivuje automatickou kontrolu aktualizací</string>
+    <string name="updater_disable_autoupdates_check_summary">Deaktivuje automatickú kontrolu aktualizácií</string>
     <string name="updater_english_changelog">Prehľad zmien v angličtine</string>
-    <string name="updater_english_changelog_summary">Vynutí zobrazení seznamu změn v angličtině</string>
+    <string name="updater_english_changelog_summary">Vynutí zobrazenie zoznamu zmien v angličtine</string>
     <!-- MiuiGallery -->
     <string name="app_miuigallery">Galéria</string>
-    <string name="cloud_upload_delay">Prodleva odesílání do Cloudu</string>
-    <string name="cloud_upload_delay_summary">Délka prodlevy před započetím odesílání na MiCloud.\n%s</string>
+    <string name="cloud_upload_delay">Oneskorenie odosielania do Cloudu</string>
+    <string name="cloud_upload_delay_summary">Dĺžka oneskorenia pred začiatkom odosielania na MiCloud.\n%s</string>
 </resources>
