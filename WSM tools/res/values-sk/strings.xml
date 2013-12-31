@@ -52,7 +52,7 @@
     <string name="fragment_online">Online</string>
     <string name="graphics">Grafika</string>
     <string name="installer_bundled_version">ZBALENÁ VERZIA</string>
-    <string name="installer_install">Inštalovať/Aktualizovať</string>
+    <string name="installer_install">Inštalovať</string>
     <string name="installer_installed_version">NAINŠTALOVANÁ VERZIA</string>
     <string name="installer_not_tested_but_compatible">WSM nebolo testované s verziou Android SDK %d ale vyzerá, že bude fungovať. Ak sa na to cítite môžete ho skúsiť nainštalovať.</string>
     <string name="installer_phone_not_compatible">WSM nie je (momentálne) kompatibilné s verziou Android SDK %1$d alebo Vašou architektúrou CPU (%2$s).</string>
