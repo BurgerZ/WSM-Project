@@ -285,11 +285,11 @@
     <string name="app_mms">Zprávy</string>
     <string name="disable_sms_to_mms_conversion">Povolit dlouhé SMS</string>
     <string name="disable_sms_to_mms_conversion_summary">Deaktivuje konverzi SMS do MMS</string>
-    <string name="mms_unicode_stripping">Ořezat diakritiku</string>
+    <string name="mms_unicode_stripping">Oříznout diakritiku</string>
     <string name="mms_unicode_stripping_summary">Odstraňuje z textu diakritiku.\nRežim:%s\nNefunguje na všech zařízeních (zatím)!</string>
     <string name="mms_unicode_stripping_leave_intact">Ponechat beze změny</string>
-    <string name="mms_unicode_stripping_non_encodable">Ořezat nešifrované znaky</string>
-    <string name="mms_unicode_stripping_all">Ořezat všechny znaky</string>
+    <string name="mms_unicode_stripping_non_encodable">Oříznout nekódovatelné znaky</string>
+    <string name="mms_unicode_stripping_all">Oříznout všechny znaky Unicode</string>
     <string name="festival_update_server">Server doporučených zpráv</string> 
     <string name="festival_update_server_summary">%s</string>
     <!-- Calendar -->
