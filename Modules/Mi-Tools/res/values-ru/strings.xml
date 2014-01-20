@@ -65,11 +65,11 @@
     <string name="notif_reboot_required_message">Для применения перезагрузитесь</string>
     <!-- Backup & Restore -->
     <string name="backup_name">Имя копии</string>
-    <string name="backup_save">Сохранить</string>
+    <string name="backup_save">Сохранить настройки</string>
     <string name="backup_save_successful">Копия успешно сохранена!</string>
     <string name="backup_save_error">Ошибка сохранения!</string>
     <string name="backup_no_backups">Нет резервных копий</string>
-    <string name="backup_restore">Восстановить</string>
+    <string name="backup_restore">Восстановить настройки</string>
     <string name="backup_delete">Удалить</string>
     <string name="backup_defaults">По умолчанию</string>
     <string name="backup_defaults_restored">Настройки по умолчанию восстановлены</string>
@@ -175,6 +175,7 @@
     <string name="power">Питание</string>
     <string name="advanced_reboot_menu_summary">Добавляет дополнительные пункты в меню перезагрузки</string>
     <string name="advanced_reboot_menu">Меню перезагрузки</string>
+    <string name="take_screenshot">Скриншот</string> 
     <string name="power_reboot">Перезагрузка</string> 
     <string name="power_reboot_options">Варианты перезагрузки</string> 
     <string name="power_reboot_normal">Обычная</string> 
@@ -281,6 +282,11 @@
     <!-- Applications prefs-->
     <string name="applications">Приложения</string>
     <string name="applications_summary">Настройки приложений MIUI</string>
+    <!-- Notifications -->
+    <string name="apps_notifications">Уведомления</string>
+    <string name="show_notification_bubble">Уведомления на иконке</string>
+    <string name="show_notification_bubble_summary">Показывать уведомления в виде пузырька на иконке приложения</string>
+    <string name="notification_bubble_apps">Список приложений</string>
     <!-- MMS -->
     <string name="app_mms">Сообщения</string>
     <string name="disable_sms_to_mms_conversion">Длинные СМС</string>
