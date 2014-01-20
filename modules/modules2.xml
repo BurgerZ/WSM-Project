@@ -1,10 +1,17 @@
 <repository>
   <name>WSM repository</name>
-  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1387882740">
+  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1390205817">
 	<name>Mi-Tools</name> 
 	<summary>MIUI v5 all in one module</summary> 
 	<description html="true">&lt;p&gt;MIUI v5 all in one module. It handles framework, statusbar, launcher, sound, MIUI applications modifications.&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
+	<version>
+		<name>1.9.0</name> 
+		<code>190</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v190_184b21.apk</download> 
+		<md5sum>184b2179f51cacf2033e0a432469124b</md5sum> 
+		<changelog html="true">&lt;li&gt;System (framework): added Screenshot option to power menu&lt;/li&gt;&lt;li&gt;Applications: added notification bubbles (on the app icon) option&lt;/li&gt;&lt;li&gt;Statusbar: added Axis carrier logos&lt;/li&gt;&lt;li&gt;Statusbar: added Telecom Italia Mobile (TIM) carrier logos&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
+	</version>
 	<version>
 		<name>1.8</name> 
 		<code>18</code> 
