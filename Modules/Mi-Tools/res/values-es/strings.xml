@@ -88,7 +88,7 @@
         <string name="statusbar_text_family">Familia tipográfica</string>
     <string name="statusbar_text_family_summary">Ajusta la famlia tipográfica a la fuente:\n%s</string>
     <string name="statusbar_text_style">Estilo de familia Tipográfica</string>
-    <string name="statusbar_text_style_summary">Set the style of the statusbar font:\n%s</string>
+    <string name="statusbar_text_style_summary">Ajusta el estilo de la fuente en la barra de estado:\n%s</string>
     <string name="font_size_summary">Ajusta el tamaño de los elementos de texto en la barra de estado</string>
     <string name="font_size">Tamaño de Fuente</string>
     <string name="network_speed_exp_statusbar_summary">Muestra la velodicad de red en la barra de estado expandida</string>
@@ -215,11 +215,11 @@
     <string name="disable_volume_control_sound">Deshabilitar sonido BEEP</string>
     <string name="disable_volume_control_sound_summary">Disables ugly BEEP sound while adjusting volume by vol. keys</string>
     <string name="long_press_track_skip">Saltar pista con teclas de volumen</string>
-    <string name="long_press_track_skip_summary">Skip to the next/previous track with a long press on the volume keys (only when the screen is off)</string>
-    <string name="swap_long_press_skip_keys">Swap volume keys</string>
-    <string name="swap_long_press_skip_keys_summary">Swap volume keys (next->previous and previous->next)</string>
-    <string name="headset_notification_icon">Hide headset notification icon</string>
-    <string name="headset_notification_icon_summary">Headset notification icon visibility while plug in headset</string>
+    <string name="long_press_track_skip_summary">Salta a la cancion siguiente/anterior pulsando prolongadamente las teclas de volumen (solo cuando la pantalla esta apagada)</string>
+    <string name="swap_long_press_skip_keys">Invertir teclas de volumen</string>
+    <string name="swap_long_press_skip_keys_summary">Invierte las teclas de volumen (siguiente->anterior a anterior->siguiente)</string>
+    <string name="headset_notification_icon">Ocultar icono de auriculares</string>
+    <string name="headset_notification_icon_summary">Oculta el icono de auriculares que aparece cuando se enchufan al móvil</string>
     <!-- Launcher prefs-->
     <string name="launcher">Launcher</string>
     <string name="launcher_summary">Ajustes relacionados del Launcher</string>
