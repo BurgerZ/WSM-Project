@@ -63,11 +63,11 @@
     <string name="notif_reboot_required_message">需要重新啟動裝置套用更改過的選項</string>
     <!-- Backup & Restore -->
     <string name="backup_name">備份名稱</string>
-    <string name="backup_save">儲存</string>
+    <string name="backup_save">儲存設定</string>
     <string name="backup_save_successful">成功儲存！</string>
     <string name="backup_save_error">儲存發生錯誤！</string>
     <string name="backup_no_backups">没有備份檔案</string>
-    <string name="backup_restore">還原</string>
+    <string name="backup_restore">還原設定</string>
     <string name="backup_delete">刪除</string>
     <string name="backup_defaults">預設</string>
     <string name="backup_defaults_restored">已還原預設值</string>
@@ -174,6 +174,7 @@
     <string name="advanced_reboot_menu">進階重啟選單</string>
     <string name="power_reboot">重新啟動</string> 
     <string name="power_reboot_options">重啟選單</string> 
+    <string name="take_screenshot">螢幕截圖</string> 
     <string name="power_reboot_normal">重新啟動</string> 
     <string name="power_reboot_recovery">重啟進入 Recovery</string> 
     <string name="power_reboot_hot">熱重啟</string> 
@@ -204,7 +205,7 @@
     <string name="custom_build_prop_name">Name</string>
     <!-- Buttons -->
     <string name="buttons">按鍵選項</string>
-    <string name="buttons_summary">按鍵映射, 操作 etc.</string>
+    <string name="buttons_summary">按鍵對應，動作等.</string>
     <string name="key_menu">選單鍵</string>
     <string name="key_volume">音量鍵</string>
     <string name="double_click_menu_app_summary">設定雙擊 MENU 鍵觸發操作</string>
@@ -278,6 +279,11 @@
     <!-- Applications prefs-->
     <string name="applications">系統應用程式</string>
     <string name="applications_summary">MIUI 系統應用程式設定</string>
+    <!-- Notifications -->
+    <string name="apps_notifications">通知</string>
+    <string name="show_notification_bubble">顯示氣泡通知</string>
+    <string name="show_notification_bubble_summary">在應用程式的圖示上顯示氣泡通知</string>
+    <string name="notification_bubble_apps">應用程式清單</string>
     <!-- MMS -->
     <string name="app_mms">訊息</string>
     <string name="disable_sms_to_mms_conversion">允許長訊息</string>
