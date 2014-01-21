@@ -162,6 +162,7 @@
     <string name="power">Menu wyłączania</string>
     <string name="advanced_reboot_menu_summary">Pozwala dodadć dodatkowe opcje do menu wyłączania telefonu</string>
     <string name="advanced_reboot_menu">Zaawansowane menu wyłączania</string>
+    <string name="take_screenshot">Zrób screen</string>
     <string name="power_reboot">Uruchom ponownie</string> 
     <string name="power_reboot_options">Opcje ponownego uruchamiania</string> 
     <string name="power_reboot_normal">Normalnie</string> 
@@ -266,6 +267,11 @@
     <!-- Applications prefs-->
     <string name="applications">Aplikacje</string>
     <string name="applications_summary">Opcje aplikacji MIUI</string>
+    <!-- Notifications -->
+    <string name="apps_notifications">Powiadomienia</string>
+    <string name="show_notification_bubble">Pokaż bąbelki</string>
+    <string name="show_notification_bubble_summary">Pokazuje powiadomenia na ikonach aplikacji</string>
+    <string name="notification_bubble_apps">Lista aplikacji</string>
     <!-- MMS -->
     <string name="app_mms">Wiadomości</string>
     <string name="disable_sms_to_mms_conversion">Zezwól na długie SMSy</string>
