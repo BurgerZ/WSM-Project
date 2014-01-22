@@ -5,8 +5,10 @@
     <string name="act_title_settings">Ajustes</string>
     <string name="act_title_about">Acerca de</string>
     <string name="act_title_installer">Gestionar</string>
+    <string name="act_title_whatsnew">Novedades</string>
     <string name="fragment_modules">Módulos</string>
     <string name="fragment_online">En Linea</string>
+    <string name="fragment_logs">Registros</string>
     <string name="versions_wsm_tools">Versión WSM tools</string>
     <string name="author">Autor</string>
     <string name="graphics">Gráficos</string>
@@ -14,6 +16,8 @@
     <string name="copyright">"BurgerZ MD (http://burgerz.pro)
 Copyright © 2013, todos los derechos reservados"</string>
     <string name="copyright_xposed">Basado en Xposed</string>
+    <string name="information_faq">Información</string>
+    <string name="information_faq_summary">F.A.Q., traducciones, creditos, ayuda</string>
     <string name="pref_feedback_title">Comentarios</string>
     <string name="pref_feedback_summary">Enviar informe de error, solicitud de módulos, etc.</string>
     <string name="pref_manage_title">Gestionar WSM</string>
@@ -22,6 +26,7 @@ Copyright © 2013, todos los derechos reservados"</string>
 Úsalos bajo tu propia responsabilidad!"</string>
     <string name="pref_repositories_title">Seleccionar repósitorios</string>
     <string name="pref_show_hidden_modules_title">Mostrar módulos ocultos</string>
+    <string name="pref_show_logs_tab_title">Mostrar pestaña de registros</string>
     <string name="pref_show_hidden_modules_summary">Muestra los módulos ocultos en la lista</string>
     <string name="pref_show_module_info_title">Mostar Información de Módulos</string>
     <string name="pref_show_module_info_summary">Muestra información del módulo clicando en su icono</string>
