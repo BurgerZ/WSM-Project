@@ -64,33 +64,33 @@
     <string name="notif_reboot_required_message">Pre aplikovanie je nutný reštart</string>
     <!-- Backup & Restore -->
     <string name="backup_name">Názov zálohy</string>
-    <string name="backup_save">Uložiť</string>
+    <string name="backup_save">Uložiť nastavenia</string>
     <string name="backup_save_successful">Uloženie úspešné!</string>
     <string name="backup_save_error">Chyba pri uložení!</string>
     <string name="backup_no_backups">Žiadne zálohy</string>
-    <string name="backup_restore">Obnoviť</string>
+    <string name="backup_restore">Obnoviť nastavenia</string>
     <string name="backup_delete">Vymazať</string>
     <string name="backup_defaults">Predvolené</string>
     <string name="backup_defaults_restored">Obnovené</string>
     <string name="backup_restoring">Obnoviť zálohu</string>
     <string name="backup_restored">Záloha obnovená</string>
         <!-- ColorPicker -->
-	<string name="press_color_to_apply">Klepnite na farbu pre jej použitie</string>
-	<string name="dialog_color_picker">ˇVýber farby</string> 
+    <string name="press_color_to_apply">Klepnite na farbu pre jej použitie</string>
+    <string name="dialog_color_picker">ˇVýber farby</string> 
         <!-- Status Bar prefs -->
         <!-- Statusbar -->
-  	<string name="statusbar">Notifikačná lišta</string>
-  	<string name="statusbar_common">Všeobecné</string>
-  	<string name="statusbar_summary">Úprava notifikačnej lišty</string>
-  	<string name="statusbar_set_background_color">Použiť farbu na pozadí</string>
-  	<string name="statusbar_set_background_color_summary">Umožňuje zvoliť farbu notif. lišty</string>
-  	<string name="statusbar_background_color">Farba pozadia</string>
-  	<string name="statusbar_background_color_summary">Farba notif. lišty</string>
-  	<string name="one_color_for_all_icons">Ikony v rovnakej farbe</string>
-  	<string name="one_color_for_all_icons_summary">Použiť rovnakú farbu pre všetky ikony</string>
-  	<string name="color_for_all_icons">Farba ikon</string>
-  	<string name="color_for_all_icons_summary">Farba ikon notif. lišty</string>
-  	<string name="statusbar_text_family">Typ písma</string>
+    <string name="statusbar">Notifikačná lišta</string>
+    <string name="statusbar_common">Všeobecné</string>
+    <string name="statusbar_summary">Úprava notifikačnej lišty</string>
+    <string name="statusbar_set_background_color">Použiť farbu na pozadí</string>
+    <string name="statusbar_set_background_color_summary">Umožňuje zvoliť farbu notif. lišty</string>
+    <string name="statusbar_background_color">Farba pozadia</string>
+    <string name="statusbar_background_color_summary">Farba notif. lišty</string>
+    <string name="one_color_for_all_icons">Ikony v rovnakej farbe</string>
+    <string name="one_color_for_all_icons_summary">Použiť rovnakú farbu pre všetky ikony</string>
+    <string name="color_for_all_icons">Farba ikon</string>
+    <string name="color_for_all_icons_summary">Farba ikon notif. lišty</string>
+    <string name="statusbar_text_family">Typ písma</string>
     <string name="statusbar_text_family_summary">Nastavte štýl písma:\n%s</string>
     <string name="statusbar_text_style">Štýl písma</string>
     <string name="statusbar_text_style_summary">Nastavte štyl písma:\n%s</string>
@@ -175,6 +175,7 @@
     <string name="advanced_reboot_menu_summary">Pridať viac volieb do výberu pri vypínaní telefónu</string>
     <string name="advanced_reboot_menu">Rozšírená ponuka vypínania</string>
     <string name="power_reboot">Reštart</string> 
+    <string name="take_screenshot">Screenshot</string> 
     <string name="power_reboot_options">Voľby pri reštarte</string> 
     <string name="power_reboot_normal">Normálny</string> 
     <string name="power_reboot_recovery">Recovery</string> 
@@ -280,6 +281,11 @@
     <!-- Applications prefs-->
     <string name="applications">Aplikácie</string>
     <string name="applications_summary">Nastavenia MIUI aplikácií</string>
+    <!-- Notifications -->
+    <string name="apps_notifications">Upozornenia</string>
+    <string name="show_notification_bubble">Zobraziť upozornenia</string>
+    <string name="show_notification_bubble_summary">Zobraziť upozornenia na ikone aplikácie</string>
+    <string name="notification_bubble_apps">Zoznam aplikácií</string>
     <!-- MMS -->
     <string name="app_mms">Správy</string>
     <string name="disable_sms_to_mms_conversion">Povoliť dlhé SMS</string>
