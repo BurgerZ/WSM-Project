@@ -135,12 +135,12 @@
     <string name="framework_summary">Ajustes relacionados con el Framework</string>
     <!-- Common -->
     <string name="common">Común</string>
-    <string name="international_t9_summary">Enable international T9 search in Contacts</string>
+    <string name="international_t9_summary">Habilitar Busqueda T9 internacional en Contactos</string>
     <string name="international_t9">Añadir T9</string>
-    <string name="local_yellowpage_database_summary">Blocks updates of the Yellow Pages database from Chinese server and adds the ability to "Mark" unknown contacts.</string>
+    <string name="local_yellowpage_database_summary">Bloquea actualizaciones en la base de datos de páginas amarillas del servidor chino y añade la posibilidad de "Marcar" contactos desconocidos.</string>
     <string name="local_yellowpage_database">Local YellowPage database</string>
-    <string name="localized_measure_units_summary">\u2022 Status bar: network speed (K/s, m/s)\n\u2022 Task manager: freed, available memory (MB, GB)\n\u2022 Data usage (Traffic): B, KB, MB, GB</string>
-    <string name="localized_measure_units">Localized measure units</string>
+    <string name="localized_measure_units_summary">\u2022 Barra de estado: velocidad de red (K/s, m/s)\n\u2022 Gestor de tareas: liberado, memoria disponible (MB, GB)\n\u2022 Uso de datos (Trafico): B, KB, MB, GB</string>
+    <string name="localized_measure_units">Unidades de medida</string>
     <string name="units_gb">Gb</string>
     <string name="units_b">b</string>
     <string name="units_kb">Kb</string>
@@ -174,17 +174,17 @@
     <string name="lockscreen_rotations">Habilitar rotación de la pantalla de bloqueo</string>
     <string name="custom_build_prop">Propiedades del dispositivo</string>
     <string name="custom_build_prop_summary">Ajusta valores personalizados a build.prop</string>
-    <string name="enable_custom_build_prop_summary">Values are applied after boot\nPhysical build.prop is not altered</string>
-    <string name="enable_custom_build_prop">Use custom property values</string>
+    <string name="enable_custom_build_prop_summary">Los valores seran aplicados despues de reiniciar\nEl archivo build.prop no sera alterado.</string>
+    <string name="enable_custom_build_prop">Usa los valores de propiedades personalizados</string>
     <string name="custom_build_prop_board_value">Set a custom board value</string>
-    <string name="custom_build_prop_board">Board</string>
+    <string name="custom_build_prop_board">Cuadro</string>
     <string name="custom_build_prop_brand_value">Ajusta una marca personalizada</string>
     <string name="custom_build_prop_brand">Marca</string>
     <string name="custom_build_prop_device_value">Ajusta valores personalizados al dispositivo</string>
     <string name="custom_build_prop_device">Dispositivo</string>
-    <string name="custom_build_prop_model_value">Set a custom model value</string>
+    <string name="custom_build_prop_model_value">Ajusta un valor de modelo personalizado</string>
     <string name="custom_build_prop_model">Modelo</string>
-    <string name="custom_build_prop_name_value">Set a custom name value</string>
+    <string name="custom_build_prop_name_value">Ajusta un nombre personalizado</string>
     <string name="custom_build_prop_name">Nombre</string>
     <!-- Buttons -->
     <string name="buttons">Botones</string>
