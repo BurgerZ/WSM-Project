@@ -135,11 +135,27 @@
     </string-array>
     <string-array name="carrier_logo_entries">
         <item>@string/preference_app_picker_none</item>
+        <item>3mob</item>
+        <item>3mob</item>
+        <item>Airtel</item>
+        <item>Airtel</item>
+        <item>Apple</item>
         <item>AT&amp;T</item>
+        <item>Axis</item>
+        <item>Axis</item>
+        <item>Batman</item>
+        <item>BeatsAudio</item>
+        <item>BeatsAudio</item>
         <item>Beeline</item>
         <item>Beeline</item>
         <item>Beeline</item>
+        <item>Cellcom</item>
+        <item>China Mobile</item>
+        <item>China Mobile</item>
         <item>Clever</item>
+        <item>Golan Telecom</item>
+        <item>HOT Mobile</item>
+        <item>HOT Mobile</item>
         <item>Kcell</item>
         <item>Kcell</item>
         <item>Kyivstar</item>
@@ -152,6 +168,7 @@
         <item>MIUI</item>
         <item>MIUI</item>
         <item>Mi-Tools</item>
+        <item>Mi-Tools</item>
         <item>Motiv</item>
         <item>Motiv</item>
         <item>MTS</item>
@@ -159,8 +176,15 @@
         <item>MTS</item>
         <item>MTS</item>
         <item>MTS</item>
+        <item>O12 mobile</item>
+        <item>O2</item>
+        <item>O2</item>
+        <item>Orange</item>
+        <item>Pelephone</item>
         <item>Rostelecom</item>
         <item>Rostelecom</item>
+        <item>Skullcandy</item>
+        <item>Skullcandy</item>
         <item>Skylink</item>
         <item>Smarts</item>
         <item>Smarts</item>
@@ -168,8 +192,18 @@
         <item>Snapdragon</item>
         <item>Sprint</item>
         <item>Sprint</item>   
+        <item>Tata DOCOMO</item>
+        <item>Tata DOCOMO</item>    
         <item>Tele2</item>
         <item>Tele2</item>
+        <item>Telecom Italia Mobile (TIM)</item>
+        <item>Telecom Italia Mobile (TIM)</item>
+        <item>Telenor</item>
+        <item>Telenor</item>
+        <item>Telfort</item>
+        <item>Telfort</item>
+        <item>TM CELL</item>
+        <item>TM CELL</item>
         <item>T-mobile</item>
         <item>T-mobile</item>
         <item>T-mobile</item>
@@ -185,14 +219,32 @@
         <item>Wind</item>
         <item>Wind</item>
         <item>WSM</item>
+        <item>Wu-Tang</item>
+        <item>YouPhone</item>
     </string-array>
     <string-array name="carrier_logo_values" translatable="false">
         <item>0</item>
+        <item>carrier_white_3mob</item>
+        <item>carrier_color_3mob</item>
+        <item>carrier_white_airtel</item>
+        <item>carrier_color_airtel</item>
+        <item>carrier_white_apple</item>
         <item>carrier_white_att</item>
+        <item>carrier_white_axis</item>
+        <item>carrier_color_white_axis</item>
+        <item>carrier_white_batman</item>
+        <item>carrier_white_beatsaudio</item>
+        <item>carrier_color_beatsaudio</item>
         <item>carrier_white_beeline</item>
         <item>carrier_color_white_beeline</item>
         <item>carrier_color_beeline</item>
+        <item>carrier_color_cellcom</item>
+        <item>carrier_white_china_mobile</item>
+        <item>carrier_color_china_mobile</item>
         <item>carrier_white_clever</item>
+        <item>carrier_color_golantelecom</item>
+        <item>carrier_color_hotmobile_white</item>
+        <item>carrier_color_hotmobile</item>
         <item>carrier_white_kcell</item>
         <item>carrier_color_kcell</item>
         <item>carrier_white_kievstar</item>
@@ -205,6 +257,7 @@
         <item>carrier_white_mi</item>
         <item>carrier_color_mi</item> 
         <item>carrier_white_mitools</item>  
+        <item>carrier_white_mitools2</item> 
         <item>carrier_white_motiv</item>
         <item>carrier_color_motiv</item>     
         <item>carrier_white_mts</item>
@@ -212,17 +265,34 @@
         <item>carrier_white_mts3</item>
         <item>carrier_color_mts</item>
         <item>carrier_color_mts2</item>
+        <item>carrier_color_012mobile</item>
+        <item>carrier_white_o2</item>
+        <item>carrier_color_o2</item>
+        <item>carrier_color_orange</item>
+        <item>carrier_color_pelephone</item>
         <item>carrier_white_rostelecom</item>
         <item>carrier_color_rostelecom</item>
+        <item>carrier_white_skullcandy</item>
+        <item>carrier_white_skullcandy2</item>
         <item>carrier_white_skylink</item>
         <item>carrier_white_smarts</item>
         <item>carrier_color_smarts</item>
         <item>carrier_white_snapdragon</item>
         <item>carrier_color_snapdragon</item> 
         <item>carrier_white_sprint</item>
-        <item>carrier_color_sprint</item>          
+        <item>carrier_color_sprint</item>
+        <item>carrier_white_tata_docomo</item>
+        <item>carrier_color_tata_docomo</item>        
         <item>carrier_white_tele2</item>
         <item>carrier_color_tele2</item>
+        <item>carrier_white_tim</item>
+        <item>carrier_color_tim</item>
+        <item>carrier_white_telenor</item>
+        <item>carrier_color_telenor</item>
+        <item>carrier_white_telfort</item>
+        <item>carrier_color_telfort</item>
+        <item>carrier_white_tmcell</item>
+        <item>carrier_color_tmcell</item>
         <item>carrier_white_tmobile</item>
         <item>carrier_white_tmobile2</item>
         <item>carrier_color_tmobile</item>
@@ -238,14 +308,32 @@
         <item>carrier_color_wind</item>
         <item>carrier_color_wind2</item>
         <item>carrier_white_wsm</item> 
+        <item>carrier_white_wutang</item> 
+        <item>carrier_color_youphone</item>
     </string-array>   
     <string-array name="carrier_logo_drawables" translatable="false">
         <item>0</item>
+        <item>@drawable/carrier_white_3mob</item>
+        <item>@drawable/carrier_color_3mob</item>
+        <item>@drawable/carrier_white_airtel</item>
+        <item>@drawable/carrier_color_airtel</item>
+        <item>@drawable/carrier_white_apple</item>
         <item>@drawable/carrier_white_att</item>
+        <item>@drawable/carrier_white_axis</item>
+        <item>@drawable/carrier_color_white_axis</item>
+        <item>@drawable/carrier_white_batman</item>
+        <item>@drawable/carrier_white_beatsaudio</item>
+        <item>@drawable/carrier_color_beatsaudio</item>
         <item>@drawable/carrier_white_beeline</item>
         <item>@drawable/carrier_color_white_beeline</item>
         <item>@drawable/carrier_color_beeline</item>
+        <item>@drawable/carrier_color_cellcom</item>
+        <item>@drawable/carrier_white_china_mobile</item>
+        <item>@drawable/carrier_color_china_mobile</item>
         <item>@drawable/carrier_white_clever</item>
+        <item>@drawable/carrier_color_golantelecom</item>
+        <item>@drawable/carrier_color_hotmobile_white</item>
+        <item>@drawable/carrier_color_hotmobile</item>
         <item>@drawable/carrier_white_kcell</item>
         <item>@drawable/carrier_color_kcell</item>
         <item>@drawable/carrier_white_kievstar</item>
@@ -258,6 +346,7 @@
         <item>@drawable/carrier_white_mi</item>
         <item>@drawable/carrier_color_mi</item>
         <item>@drawable/carrier_white_mitools</item>
+        <item>@drawable/carrier_white_mitools2</item>
         <item>@drawable/carrier_white_motiv</item>
         <item>@drawable/carrier_color_motiv</item> 
         <item>@drawable/carrier_white_mts</item>
@@ -265,17 +354,34 @@
         <item>@drawable/carrier_white_mts3</item>
         <item>@drawable/carrier_color_mts</item>
         <item>@drawable/carrier_color_mts2</item>
+        <item>@drawable/carrier_color_012mobile</item>
+        <item>@drawable/carrier_white_o2</item>
+        <item>@drawable/carrier_color_o2</item>
+        <item>@drawable/carrier_color_orange</item>
+        <item>@drawable/carrier_color_pelephone</item>
         <item>@drawable/carrier_white_rostelecom</item>
         <item>@drawable/carrier_color_rostelecom</item>
+        <item>@drawable/carrier_white_skullcandy</item>
+        <item>@drawable/carrier_white_skullcandy2</item>
         <item>@drawable/carrier_white_skylink</item>
         <item>@drawable/carrier_white_smarts</item>
         <item>@drawable/carrier_color_smarts</item>
         <item>@drawable/carrier_white_snapdragon</item>
         <item>@drawable/carrier_color_snapdragon</item>
         <item>@drawable/carrier_white_sprint</item>   
-        <item>@drawable/carrier_color_sprint</item>        
+        <item>@drawable/carrier_color_sprint</item>   
+        <item>@drawable/carrier_white_tata_docomo</item>
+        <item>@drawable/carrier_color_tata_docomo</item>       
         <item>@drawable/carrier_white_tele2</item>
         <item>@drawable/carrier_color_tele2</item>
+        <item>@drawable/carrier_white_tim</item>
+        <item>@drawable/carrier_color_tim</item>
+        <item>@drawable/carrier_white_telenor</item>
+        <item>@drawable/carrier_color_telenor</item>
+        <item>@drawable/carrier_white_telfort</item>
+        <item>@drawable/carrier_color_telfort</item>
+        <item>@drawable/carrier_white_tmcell</item>
+        <item>@drawable/carrier_color_tmcell</item>
         <item>@drawable/carrier_white_tmobile</item>
         <item>@drawable/carrier_white_tmobile2</item>
         <item>@drawable/carrier_color_tmobile</item>
@@ -291,6 +397,8 @@
         <item>@drawable/carrier_color_wind</item>
         <item>@drawable/carrier_color_wind2</item>
         <item>@drawable/carrier_white_wsm</item>
+        <item>@drawable/carrier_white_wutang</item>
+        <item>@drawable/carrier_color_youphone</item>
     </string-array> 
     <string-array name="advanced_reboot_menu_items_defvalues">
         <item>reboot_normal</item>

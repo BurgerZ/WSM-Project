@@ -175,6 +175,8 @@
     <string name="power">Питание</string>
     <string name="advanced_reboot_menu_summary">Добавляет дополнительные пункты в меню перезагрузки</string>
     <string name="advanced_reboot_menu">Меню перезагрузки</string>
+    <string name="add_screenshot">Добавить \"Скриншот\"</string> 
+    <string name="add_screenshot_summary">Добавляет пункт \"Скриншот\" в меню выключения телефона</string>
     <string name="take_screenshot">Скриншот</string> 
     <string name="power_reboot">Перезагрузка</string> 
     <string name="power_reboot_options">Варианты перезагрузки</string> 

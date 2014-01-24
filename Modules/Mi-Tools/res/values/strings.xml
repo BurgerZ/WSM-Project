@@ -175,6 +175,8 @@
     <string name="power">Power</string>
     <string name="advanced_reboot_menu_summary">Adds more options to reboot menu</string>
     <string name="advanced_reboot_menu">Advanced reboot menu</string>
+    <string name="add_screenshot">Add \"Screenshot\" option</string> 
+    <string name="add_screenshot_summary">Adds \"Screenshot\" option to power menu</string>
     <string name="take_screenshot">Screenshot</string> 
     <string name="power_reboot">Reboot</string> 
     <string name="power_reboot_options">Reboot Options</string> 
