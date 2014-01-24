@@ -433,7 +433,6 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<changelog html="true">&lt;li&gt;Minor update. Version bump. If WSM Tools 2.1.6 works good, no need to update.&lt;/li&gt;</changelog> 
 	</version>
 	<version>
-	<version>
 		<name>2.1.6</name> 
 		<code>216</code>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v216_3e3deb.apk</download> 
