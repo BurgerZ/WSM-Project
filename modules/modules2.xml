@@ -1,10 +1,17 @@
 <repository>
   <name>WSM repository</name>
-  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1390205817">
+  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1390563032">
 	<name>Mi-Tools</name> 
 	<summary>MIUI v5 all in one module</summary> 
 	<description html="true">&lt;p&gt;MIUI v5 all in one module. It handles framework, statusbar, launcher, sound, MIUI applications modifications.&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
+	<version>
+		<name>1.9.1</name> 
+		<code>191</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v191_13c4e2.apk</download> 
+		<md5sum>13c4e23d0a519f8b0815f80193de715f</md5sum> 
+		<changelog html="true">&lt;li&gt;Fixed bugs&lt;/li&gt;&lt;li&gt;System (framework): added Screenshot option switch&lt;/li&gt;&lt;li&gt;Statusbar: added O2, Tata DOCOMO, Airtel, new Mi-Tools logo, Telfort, Apple, BeatsAudio, TM CELL, Telenor, Wu-Tang, Batman, Skullcandy, O12, Cellcom, Golan Telecom, HOT Mobile, Orange, Pelephone, YouPhone, 3mob  logos&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
+	</version>
 	<version>
 		<name>1.9.0</name> 
 		<code>190</code> 
