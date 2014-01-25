@@ -8,7 +8,7 @@
     <string name="act_title_whatsnew">更新資訊</string>
     <string name="fragment_modules">模組</string>
     <string name="fragment_online">線上</string>
-    <string name="fragment_logs">數據</string>
+    <string name="fragment_logs">紀錄</string>
     <string name="versions_wsm_tools">WSM tools 版本</string>
     <string name="author">開發者</string>
     <string name="graphics">圖片製作</string>
@@ -25,8 +25,8 @@
     <string name="pref_repositories_title">選擇資料庫</string>
     <string name="pref_show_hidden_modules_title">顯示被隱藏的模組</string>
     <string name="pref_show_hidden_modules_summary">在清單中顯示被隱藏的模組</string>
-    <string name="pref_show_logs_tab_title">顯示數據欄</string>
-    <string name="pref_show_logs_tab_summary">顯示框架數據欄</string>
+    <string name="pref_show_logs_tab_title">顯示"紀錄"欄</string>
+    <string name="pref_show_logs_tab_summary">顯示框架"紀錄"欄</string>
     <string name="pref_show_module_info_title">顯示模組資訊</string>
     <string name="pref_show_module_info_summary">藉由輕觸模組圖示來顯示模組資訊</string>
     <string name="pref_system_toasts_title">系統浮動訊息</string>
