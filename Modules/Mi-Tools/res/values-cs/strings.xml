@@ -160,7 +160,7 @@
     <string name="international_t9_summary">Povolit mezinárodní hledání T9 v kontaktech.</string>
     <string name="international_t9">Přidat T9</string>
     <string name="local_yellowpage_database_summary">Zakáže aktualizaci "Yellow Pages" čínského serveru a přidává možnost označit kontakt jako Neznámý.</string>
-    <string name="local_yellowpage_database">Místní "Yellow Pages".</string>
+    <string name="local_yellowpage_database">Místní \"Yellow Pages\"</string>
     <string name="local_yellowpage_database_dialog">Čínské "Yellow Pages" databáze budou vymazány.\nPo restartu telefonu musíte aktualizovat index T9.\nPokračovat?</string>
     <string name="localized_measure_units_summary">\u2022 Notif. lišta: rychlost sítě (K/s, M/s)\n\u2022 Správce úloh: uvolněno, dostupná (MB, GB)\n\u2022 Využitá data (provoz): B, KB, MB, GB</string>
     <string name="localized_measure_units">Lokální měrné jednotky</string>
@@ -175,6 +175,9 @@
     <string name="power">Napájení</string>
     <string name="advanced_reboot_menu_summary">Přidání dalších možností do menu vypnutí</string>
     <string name="advanced_reboot_menu">Vlastní menu vypnutí</string>
+    <string name="add_screenshot">Přidat možnost \"Screenshot\"</string> 
+    <string name="add_screenshot_summary">Přidá možnost vytvoření screenshotu do menu vypnutí</string>
+    <string name="take_screenshot">Screenshot</string> 
     <string name="power_reboot">Restart</string> 
     <string name="power_reboot_options">Nastavení menu</string> 
     <string name="power_reboot_normal">Normální</string> 
@@ -281,6 +284,11 @@
     <!-- Applications prefs-->
     <string name="applications">Aplikace</string>
     <string name="applications_summary">Nastavení aplikací MIUI</string>
+    <!-- Notifications -->
+    <string name="apps_notifications">Notifikace</string>
+    <string name="show_notification_bubble">Zobrazit bubliny u ikon</string>
+    <string name="show_notification_bubble_summary">Zobrazí notifikační bubliny u vybraných aplikací</string>
+    <string name="notification_bubble_apps">Seznam aplikací</string>
     <!-- MMS -->
     <string name="app_mms">Zprávy</string>
     <string name="disable_sms_to_mms_conversion">Povolit dlouhé SMS</string>
