@@ -173,8 +173,11 @@
     <string name="units_s">s</string>
     <!-- Power -->
     <string name="power">Kikapcsolás</string>
-    <string name="advanced_reboot_menu_summary">Bővített menüpont a készülék újraindításakor.</string>
+    <string name="advanced_reboot_menu_summary">Bővített menü a készülék újraindításakor.</string>
     <string name="advanced_reboot_menu">Bővített újraindítás menü</string>
+    <string name="add_screenshot">\"Képernyőkép\" menüpont</string> 
+    <string name="add_screenshot_summary">\"Képernyőkép\" készítés menüpont hozzáadása a bővített újraindítás menühöz</string>
+    <string name="take_screenshot">Képernyőkép</string> 
     <string name="power_reboot">Újraindítás</string> 
     <string name="power_reboot_options">Újraindítás menü</string> 
     <string name="power_reboot_normal">Normál</string> 
@@ -277,6 +280,11 @@
     <!-- Applications prefs-->
     <string name="applications">Alkalmazások</string>
     <string name="applications_summary">MIUI alkalmazás beállítások</string>
+    <!-- Notifications -->
+    <string name="apps_notifications">Értesítések</string>
+    <string name="show_notification_bubble">Buborék értesítések</string>
+    <string name="show_notification_bubble_summary">Buborék értesítés megjelenítése az alkalmazások ikonján</string>
+    <string name="notification_bubble_apps">Alkalmazások listája</string>
     <!-- MMS -->
     <string name="app_mms">Üzenetek</string>
     <string name="disable_sms_to_mms_conversion">Hosszú SMS-ek engedélyezése</string>
