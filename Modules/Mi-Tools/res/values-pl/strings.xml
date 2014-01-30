@@ -274,6 +274,10 @@
     <string name="show_notification_bubble">Pokaż bąbelki</string>
     <string name="show_notification_bubble_summary">Pokazuje powiadomenia na ikonach aplikacji</string>
     <string name="notification_bubble_apps">Lista aplikacji</string>
+    <!-- Phone -->
+    <string name="app_phone">Telefon</string>
+    <string name="national_roaming">Krajowy roaming</string>
+    <string name="national_roaming_summary">Podłącza do usług transmisji danych w roamingu krajowym</string
     <!-- MMS -->
     <string name="app_mms">Wiadomości</string>
     <string name="disable_sms_to_mms_conversion">Zezwól na długie SMSy</string>

@@ -47,6 +47,7 @@
     <string name="menu_unselect_all">Odznacz wszystko</string>
 
     <!-- InstallerActivity -->
+    <string name="installer_log">Dziennik zdarzeń</string>
     <string name="installer_install">Zainstaluj</string>
     <string name="installer_uninstall">Odinstaluj</string>
     <string name="installer_reboot">Restart</string>
@@ -55,6 +56,27 @@
     <string name="installer_bundled_version">ZAŁĄCZONA WERSJA</string>
     <string name="installer_phone_not_compatible">WSM nie jest (jeszcze) kompatybilny z Android SDK w wersji %1$d lub Twoim procesorem (%2$s).</string>
     <string name="installer_not_tested_but_compatible">WSM nie był testowany na Android SDK w wersji %d, ale wydaje się być kompatybilny. Mimo tego instalujesz go na własne ryzyko.</string>
+    <string name="reboot_failed">Nie można zrestartować urządzenia, zrób to manualnie.</string>
+
+    <!--  File operations -->
+    <string name="root_failed">Brak uprawnień root.\n\nUpewnij się czy urzędzenie jest prawidłowo zrootowane oraz czy uprawnienia root są włączone.</string>
+    <string name="file_extract_failed">Nie można wypakować %s</string>
+    <string name="file_mounting_writable">Montowanie %s jako R/W&#8230;</string>
+    <string name="file_mount_writable_failed">Nie mozna zamontować %s jako R/W</string>
+    <string name="file_trying_to_continue">Trying to continue anyway&#8230;</string>
+    <string name="file_backup_already_exists">Kopia już istnieje w %s</string>
+    <string name="file_backup_not_found">Nie znaleziono kopii w %s</string>
+    <string name="file_backup_failed">Bład podczas tworzenia kopii %s</string>
+    <string name="file_backup_successful">Utworzono kopię w %s</string>
+    <string name="file_backup_restoring">Przywracanie kopii z %s</string>
+    <string name="file_copying">Kopiowanie %s&#8230;</string>
+    <string name="file_copy_failed">Nie można skopiować %1$s do %2$s</string>
+    <string name="file_move_failed">Nie można przenieść %1$s do %2$s</string>
+    <string name="file_set_perms_failed">Nie można ustawić uprawnień dla %s</string>
+    <string name="file_set_owner_failed">Nie można ustawić właściciela dla %s</string>
+    <string name="file_removing">Usuwanie %s&#8230;</string>
+    <string name="file_remove_failed">Nie można usunąć %s</string>
+    <string name="file_done">Gotowe! Uruchom ponownie aby zobaczyć zmiany.</string>
 
     <!-- RepoLoader -->
     <string name="repo_download_failed_http">Pobieranie %1$s nieudane: %2$d (%3$s)</string>
