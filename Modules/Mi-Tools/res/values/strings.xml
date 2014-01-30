@@ -289,6 +289,10 @@
     <string name="show_notification_bubble">Show bubble notifications</string>
     <string name="show_notification_bubble_summary">Show bubble notifications on application\'s icon</string>
     <string name="notification_bubble_apps">Applications list</string>
+    <!-- Phone -->
+    <string name="app_phone">Phone</string>
+    <string name="national_roaming">National data roaming</string>
+    <string name="national_roaming_summary">Connect to data services when nationally roaming</string>
     <!-- MMS -->
     <string name="app_mms">Messaging</string>
     <string name="disable_sms_to_mms_conversion">Allow Long SMS</string>

@@ -47,6 +47,7 @@
     <string name="menu_unselect_all">Clear selection</string>
 
     <!-- InstallerActivity -->
+    <string name="installer_log">LOG</string>
     <string name="installer_install">Install</string>
     <string name="installer_uninstall">Uninstall</string>
     <string name="installer_reboot">Reboot</string>
@@ -56,6 +57,27 @@
     <string name="installer_phone_not_compatible">WSM is not (yet) compatible with Android SDK version %1$d or your processor architecture (%2$s).</string>
     <string name="installer_not_tested_but_compatible">WSM has not been tested with Android SDK version %d, but it seems to be compatible. You can try installing it if you feel adventurous.</string>
     <string name="installer_rom_update"></string>
+    <string name="reboot_failed">Reboot failed. Please use the device\'s normal reboot function.</string>
+
+    <!--  File operations -->
+    <string name="root_failed">Failed to get root access.\n\nMake sure your device is rooted properly and you have not blocked shell commands.</string>
+    <string name="file_extract_failed">Could not extract %s</string>
+    <string name="file_mounting_writable">Mounting %s writable&#8230;</string>
+    <string name="file_mount_writable_failed">Could not mount %s writable</string>
+    <string name="file_trying_to_continue">Trying to continue anyway&#8230;</string>
+    <string name="file_backup_already_exists">Backup already exists at %s</string>
+    <string name="file_backup_not_found">No backup found at %s</string>
+    <string name="file_backup_failed">Failed to create a backup of %s</string>
+    <string name="file_backup_successful">Created backup at %s</string>
+    <string name="file_backup_restoring">Restoring backup from %s</string>
+    <string name="file_copying">Copying %s&#8230;</string>
+    <string name="file_copy_failed">Could not copy %1$s to %2$s</string>
+    <string name="file_move_failed">Could not move %1$s to %2$s</string>
+    <string name="file_set_perms_failed">Could not set permissions for %s</string>
+    <string name="file_set_owner_failed">Could not set owner for %s</string>
+    <string name="file_removing">Removing %s&#8230;</string>
+    <string name="file_remove_failed">Could not remove %s</string>
+    <string name="file_done">Done! Changes will become active on reboot.</string>
 
     <!-- RepoLoader -->
     <string name="repo_download_failed_http">Downloading %1$s failed: %2$d (%3$s)</string>

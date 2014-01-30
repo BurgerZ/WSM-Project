@@ -45,7 +45,9 @@
     <string name="dialog_update_available">Доступна новая версия WSM tools.\nУстановлена: %1$s\nДоступна: %2$s\nПосле установки новой версии перейдите в Настройки - Управление WSM и проверьте, не требуется ли обновление системных файлов.</string>
     <string name="menu_select_all">Включить все</string>
     <string name="menu_unselect_all">Выключить все</string>
+
     <!-- InstallerActivity -->
+    <string name="installer_log">ЛОГ</string>
     <string name="installer_install">Установить</string>
     <string name="installer_uninstall">Удалить</string>
     <string name="installer_reboot">Перезагрузка</string>
@@ -54,6 +56,28 @@
     <string name="installer_bundled_version">ДОСТУПНАЯ ВЕРСИЯ</string>
     <string name="installer_phone_not_compatible">WSM (пока) не совместим с версией Android SDK %1$d или архитектурой процессора (%2$s)</string>
     <string name="installer_not_tested_but_compatible">WSM не был протестирован с Android SDK версии %d, но может быть совместим. Вы можете попробовать его установить, если вы хотите приключений</string>
+    <string name="reboot_failed">Произошла ошибка. Пожалуйста, воспользуйтесь перезагрузкой из меню выключения телефона.</string>
+
+    <!--  File operations -->
+    <string name="root_failed">Ошибка получения root-доступа.\n\nУбедитесь, что ваше устройство имеет root доступ.</string>
+    <string name="file_extract_failed">Невозможно распаковать %s</string>
+    <string name="file_mounting_writable">Монтирование %s для записи&#8230;</string>
+    <string name="file_mount_writable_failed">Невозможно монтировать %s для записи</string>
+    <string name="file_trying_to_continue">Пропуск ошибок, продолжаем&#8230;</string>
+    <string name="file_backup_already_exists">Резервная копия уже существует %s</string>
+    <string name="file_backup_not_found">Резервная копия не найдена %s</string>
+    <string name="file_backup_failed">Ошибка создания бэкапа %s</string>
+    <string name="file_backup_successful">Создана резервная копия %s</string>
+    <string name="file_backup_restoring">Восстановление из %s</string>
+    <string name="file_copying">Копирование %s&#8230;</string>
+    <string name="file_copy_failed">Невозможно скопировать %1$s в %2$s</string>
+    <string name="file_move_failed">Невозможно переместить %1$s в %2$s</string>
+    <string name="file_set_perms_failed">Невозможно установить разрешения для %s</string>
+    <string name="file_set_owner_failed">Невозможно установить владельца для %s</string>
+    <string name="file_removing">Удаление %s&#8230;</string>
+    <string name="file_remove_failed">Невозможно удалить %s</string>
+    <string name="file_done">Готово! Изменения будут доступны после перезагрузки.</string>
+
     <!-- RepoLoader -->
     <string name="repo_download_failed_http">Ошибка загрузки %1$s: %2$d (%3$s)</string>
     <string name="repo_download_failed">Ошибка загрузки %1$s: %2$s</string>
@@ -61,7 +85,7 @@
 
     <!-- Download tab -->
     <string name="changes">Список изменений:</string>
-    <string name="branch_display">(%s ветка)</string>
+    <string name="branch_display">(%s ветвь)</string>
     <string name="download_author">Автор: %s</string>
     <string name="download_unknown_author">Неизвестный автор</string>
     <string name="download_status_version">Версия: %1$s</string>

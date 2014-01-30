@@ -289,6 +289,10 @@
     <string name="show_notification_bubble">Уведомления на иконке</string>
     <string name="show_notification_bubble_summary">Показывать уведомления в виде пузырька на иконке приложения</string>
     <string name="notification_bubble_apps">Список приложений</string>
+    <!-- Phone -->
+    <string name="app_phone">Телефон</string>
+    <string name="national_roaming">Национальный роуминг</string>
+    <string name="national_roaming_summary">Подключаться к службам передачи данных в национальном роуминге</string>
     <!-- MMS -->
     <string name="app_mms">Сообщения</string>
     <string name="disable_sms_to_mms_conversion">Длинные СМС</string>
