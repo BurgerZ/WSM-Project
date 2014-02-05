@@ -1,267 +1,354 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="module_name">Mi-Tools</string>
-    <string name="module_desc">Módulo todo en uno para MIUI</string>
+    <string name="module_desc">Módulo MIUI todo en uno</string>
     <string name="module_desc_full">Módulo todo en uno para MIUI.\n
-        IMPORTANTE:\n
-        Debes deshabilitar los siguientes módulos (si están instalados):\n
-        \u2022 Auto-ajustar Navegador\n
-        \u2022 Nombre de Operadora\n
-        \u2022 Centrar Reloj\n
+        ATENCIÓN:\n
+        Debes dehabilitar los siguientes módulos (si tienes alguno isntalado):\n
+        \u2022 Autocentrar Navegador\n
+        \u2022 Etiqueta de Operadora\n
+        \u2022 Reloj Centrado\n
         \u2022 Current Track Launch\n
-        \u2022 Ocultar Texto en Iconos\n
+        \u2022 Información de Batería Extra\n
+        \u2022 Hide Icons Text\n
         \u2022 Holidays\n
         \u2022 MMS Festival\n
-        \u2022 Opciones de Reinicio\n
+        \u2022 Reboot Options\n
         \u2022 Search in Google Play\n
-        \u2022 T9 Module\n
+        \u2022 Módulo T9\n
         \u2022 Units\n
-        \u2022 Silenciar Control de Volumen\n
-        \u2022 Salto de pista con Volumen\n
+        \u2022 Silenciar Contro de Volumen\n
+        \u2022 Volume Skip Track\n
         \u2022 YellowPage</string>
-        <string name="mitools_copyright">Prohibida la modificación de los módulos.\n
-        BurgerZ MD, Copyright © 2013, Todos los derechos reservados.</string>
+        <string name="mitools_copyright">Prohibidas las modificaciones del módulo.\n
+        BurgerZ MD, Copyright © 2013, todos los derechos reservados</string>
+
     <!-- About -->
     <string name="about_module">Acerca del módulo</string>
-    <!-- -->
-    <string name="menu_save">Guardar</string>
-    <string name="menu_restore">Restaurar</string>
-    <string name="menu_delete">Eliminar</string>
-    <string name="rebooting">Reiniciando ahora &#133;</string>
     <!-- AppPickerPreference -->
-    <string name="preference_app_picker_search">Búsqueda</string>
+    <string name="preference_app_picker_search">Buscar</string>
     <string name="preference_app_picker_none">(Nada)</string>
+
     <!-- from arrays -->
-    <string name="am_pm_hide">Oculto</string>
-    <string name="am_pm_small">Pequeño</string>
-    <string name="am_pm_large">Grande</string>
+    <string name="am_pm_hide">Ocultar</string>
+    <string name="am_pm_small">Minúsculas</string>
+    <string name="am_pm_large">Mayúsculas</string>
     <string name="typeface_style_italic">Italic</string>
     <string name="typeface_style_normal">Normal</string>
     <string name="typeface_style_bold">Negrita</string>
     <string name="typeface_family_regular">Regular</string>
     <string name="typeface_family_light">Light</string>
-    <string name="typeface_family_condensed">Condensada</string>
-    <string name="typeface_family_thin">Mini</string>
-    <string name="clock_right">A la Derecha (predeterminado)</string>
+    <string name="typeface_family_condensed">Condensed</string>
+    <string name="typeface_family_thin">Ligero</string>
+    <string name="clock_right">Derecha (Predeterminado)</string>
     <string name="clock_center">Centrado</string>
-    <string name="clock_center_ios7">Centrado (Estilo Iphone)</string>
-    <string name="clock_left">A la Izquierda</string>
-    <string name="text_small">Pequeña</string>
-    <string name="text_medium">Mediana</string>
+    <string name="clock_center_ios7">Centrado (iOS 7)</string>
+    <string name="clock_left">Izquierda</string>
+    <string name="text_small">Pequeño</string>
+    <string name="text_medium">Medio</string>
     <string name="text_large">Grande</string>
+    <string name="time_30_sec">30 segundos</string>
+    <string name="time_1_min">1 minuto (predeterminado)</string>
+    <string name="time_5_min">5 minutos</string>
+    <string name="time_10_min">10 minutos</string>
+    <string name="time_30_min">30 minutos</string>
+    <string name="time_1_hour">1 hora</string>
+
     <!-- MIUI warning -->
     <string name="miwarning_title">OS no soportado</string>
-    <string name="miwarning_message">Este sistema operativo no esta oficialmente soportado. Algunas opciones quizás no funcionen.\nDesea continuar?</string>
+    <string name="miwarning_message">Este OS no está oficialmente soportado. Algunas opciones quizás no funcionen.\nEstá de acuerdo con continuar?</string>
     <string name="miwarning_continue">Continuar</string>
     <string name="miwarning_close">Cerrar</string>
+
     <!-- Module Notification -->
-    <string name="notif_soft_reboot">Reinicio por Software</string>
+    <string name="notif_soft_reboot">Reinicio por software</string>
     <string name="notif_reboot">Reiniciar</string>
-    <string name="notif_reboot_required">Por favor reinicie para que los cambios tengan efecto.</string>
-    <string name="notif_reboot_required_title">Petición de Reinicio</string>
-    <string name="notif_reboot_required_message">Reinicio requerido para aplicar cámbios</string>
+    <string name="notif_reboot_required">Por favor reinicie para aplicar los cambios.</string>
+    <string name="notif_reboot_required_title">Petición de reinicio</string>
+    <string name="notif_reboot_required_message">Reinicio requerido para aplicar los cambios</string>
+
     <!-- Backup & Restore -->
     <string name="backup_name">Nombre del Backup</string>
-    <string name="backup_save">Guardar</string>
+    <string name="backup_save">Guardar ajustes</string>
     <string name="backup_save_successful">Guardado correctamente!</string>
     <string name="backup_save_error">Error al guardar!</string>
-    <string name="backup_no_backups">No hay copias</string>
-    <string name="backup_restore">Restaurar</string>
+    <string name="backup_no_backups">No hay backups</string>
+    <string name="backup_restore">Restaurar ajustes</string>
     <string name="backup_delete">Eliminar</string>
     <string name="backup_defaults">Predeterminados</string>
-    <string name="backup_defaults_restored">Restaurados predeterminados</string>
+    <string name="backup_defaults_restored">Restaurados ajustes predeterminados</string>
     <string name="backup_restoring">Restaurando Backup</string>
     <string name="backup_restored">Backup restaurado</string>
         <!-- ColorPicker -->
         <string name="press_color_to_apply">Presione un color para aplicar</string>
-        <string name="dialog_color_picker">Selector de colores</string>
+        <string name="dialog_color_picker">Selector de color</string>
         <!-- Status Bar prefs -->
         <!-- Statusbar -->
         <string name="statusbar">Barra de estado</string>
-        <string name="statusbar_title">Barra de estado</string>
-        <string name="statusbar_summary">Modificaciones de la barra de estado.</string>
+        <string name="statusbar_common">Común</string>
+        <string name="statusbar_summary">Modificaciones de la barra de estado</string>
         <string name="statusbar_set_background_color">Usar color de fondo</string>
-        <string name="statusbar_set_background_color_summary">Permite elegir un color para la Barra de estado</string>
+        <string name="statusbar_set_background_color_summary">Permite elegir un color de fondo de la barra de estado</string>
         <string name="statusbar_background_color">Color de fondo</string>
         <string name="statusbar_background_color_summary">Color de la barra de estado</string>
-        <string name="statusbar_text_family">Familia tipográfica</string>
-    <string name="statusbar_text_family_summary">Ajusta la famlia tipográfica a la fuente:\n%s</string>
-    <string name="statusbar_text_style">Estilo de familia Tipográfica</string>
-    <string name="statusbar_text_style_summary">Ajusta el estilo de la fuente en la barra de estado:\n%s</string>
-    <string name="font_size_summary">Ajusta el tamaño de los elementos de texto en la barra de estado</string>
-    <string name="font_size">Tamaño de Fuente</string>
-    <string name="network_speed_exp_statusbar_summary">Muestra la velodicad de red en la barra de estado expandida</string>
-    <string name="network_speed_exp_statusbar">Velocidad de Red</string>
+        <string name="one_color_for_all_icons">Un color para todos los iconos</string>
+        <string name="one_color_for_all_icons_summary">Usa un color para todos los iconos</string>
+        <string name="color_for_all_icons">Color de Iconos</string>
+        <string name="color_for_all_icons_summary">Color de los iconos de la barra de estado</string>
+        <string name="statusbar_text_family">Tipografía</string>
+    <string name="statusbar_text_family_summary">Ajusta el tipo de fuente:\n%s</string>
+    <string name="statusbar_text_style">Estilo tipográfico</string>
+    <string name="statusbar_text_style_summary">Ajusta el estilo de fuente de la barra de estado:\n%s</string>
+    <string name="font_size_summary">Ajusta el tamaño de texto de los elementos de la barra de estado:\n%s</string>
+    <string name="font_size">Tamaño de fuente</string>
+    <string name="network_speed_exp_statusbar_summary">Muestra la velocidad de red en la barra de estado</string>
+    <string name="network_speed_exp_statusbar">Velocidad de red</string>
         <!-- Clock -->
         <string name="clock">Reloj</string>
-        <string name="clock_hide">Ocultar Reloj</string>
-    <string name="clock_hide_summary">No muestra el reloj en la barra de estado</string>
-    <string name="clock_color_title">Color del Reloj</string>
-    <string name="clock_color_summary">Ajusta un color al reloj de la barra de estado</string>
-    <string name="clock_position">Posición del Reloj</string>
-    <string name="clock_position_summary">Elige una posición para el Reloj:\n%s</string>
+        <string name="clock_hide">Ocultar</string>
+    <string name="clock_hide_summary">Oculta el reloj de la barra de estado</string>
+    <string name="clock_color_title">Color</string>
+    <string name="clock_color_summary">Ajusta el color del reloj</string>
+    <string name="clock_position">Posición</string>
+    <string name="clock_position_summary">Elige la posición del reloj:\n%s</string>
     <string name="am_pm_style">Estilo AM PM</string>
-    <string name="am_pm_style_summary">Elige el Estilo de Reloj am pm:\n%s</string>
-    <string name="show_clock_date_summary">Muestra la fecha con el reloj de la barra de estado</string>
+    <string name="am_pm_style_summary">Elige el estilo am o pm:\n%s</string>
+    <string name="show_clock_date_summary">Muestra la fecha con el reloj en la barra de estado</string>
     <string name="show_clock_date">Mostrar fecha en la barra de estado</string>
+    <string name="clock_date_format">Formato de fecha</string>
     <!-- Battery -->
     <string name="battery">Batería</string>
-    <string name="hide_battery_icon_summary">Ajustes de visibilidad del icono de la batería</string>
-    <string name="hide_battery_icon">Ocultar icono de batería</string>
-    <string name="show_battery_text_summary">Mostrar porcentaje de batería en formato texto</string>
-    <string name="show_battery_text">Mostrar batería en formato texto</string>
-    <string name="battery_text_color">Color del texto de la batería</string>
-    <string name="battery_text_color_summary">Ajusta el color del texto de la batería</string>
+    <string name="hide_battery_icon_summary">Ajustes de visibilidad del icono de batería</string>
+    <string name="hide_battery_icon">Ocultar</string>
+    <string name="battery_icon_color">Color</string>
+    <string name="battery_icon_color_summary">Ajusta el color del icono</string>
+    <string name="show_battery_text_summary">Mostrar porcentaje en formato texto</string>
+    <string name="show_battery_text">Mostrar texto de batería</string>
+    <string name="battery_text_color">Color del texto</string>
+    <string name="battery_text_color_summary">Ajusta el color del texto</string>
     <!-- Carrier -->
-    <string name="carrier_settings">Nombre de Operadora</string>
-    <string name="hide_carrier_label">Ocultar Nombre de Operadora</string>
-    <string name="hide_carrier_label_summary">Ajustes de visibilidad del Nombre de la Operadora</string>
-    <string name="custom_carrier_label">Nombre de Operadora personalizado</string>
-    <string name="default_carrier_label">Dejar vacio para volver al nombre predeterminado</string>
-    <string name="carrier_label_color">Color del Nombre de Operadora</string>
-    <string name="carrier_label_color_summary">Ajusta el color del nombre de la operadora en la barra de estado</string>
-    <string name="custom_carrier_logo">Logo de Operadora</string>
-    <string name="custom_carrier_logo_summary">Usa una imágen como logo de operadora</string>
-    <string name="select_carrier_logo">Seleccionar Logo</string>
+    <string name="carrier_settings">Compañía telefónica</string>
+    <string name="hide_carrier_label">Ocultar etiqueta de compañía</string>
+    <string name="hide_carrier_label_summary">Ajustes de visilidad del texto de compañía telefónica</string>
+    <string name="custom_carrier_label">Etiqueta personalizada</string>
+    <string name="default_carrier_label">Dejar vacío para usar la etiqueta predeterminada</string>
+    <string name="carrier_label_color">Color de la etiqueta</string>
+    <string name="carrier_label_color_summary">Ajusta el color de la etiqueta</string>
+    <string name="custom_carrier_logo">Logo de compañía</string>
+    <string name="custom_carrier_logo_summary">Usar imágen como logo</string>
+    <string name="select_carrier_logo">Seleccionar logo</string>
     <string name="select_carrier_logo_summary">%s</string>
-    <string name="hide_roaming_icon">Ocultar Icono de Itinerancia</string>
+    <string name="select_carrier_logo_2">Seleccionar logo 2</string>
+    <string name="use_own_carrier_logo">Propio logo</string>
+    <string name="use_own_carrier_logo_summary">Podrás seleccionar tu propio logo</string>
+    <string name="own_carrier_logo">Seleccionar logo propio</string>
+    <string name="own_carrier_logo_summary">%s</string>
+    <string name="signal_bars_color">Color de barras de señal</string>
+    <string name="signal_bars_color_summary">Ajusta el color de las barras de señal</string>
+    <string name="signal_bars_color_2">Color de barras de señal 2</string>
+    <string name="signal_bars_color_summary_2">Ajusta el color de las barras de señal (SIM secundaria)</string>
+    <string name="hide_roaming_icon">Ocultar icono roaming</string>
     <!-- Notifications -->
     <string name="notifications">Notificaciones</string>
-    <string name="hide_ongoing_ime_switcher_summary">Mientras escribes, se muestra la notificación en la que puedes elegir el método de entrada (teclado)</string>
-    <string name="hide_ongoing_ime_switcher">Oculta el conmutador de método de entrada</string>
+    <string name="hide_ongoing_ime_switcher_summary">Mientras escribes, se muestra la notificación en la cual usted puedes el método de entrada (Teclado)</string>
+    <string name="hide_ongoing_ime_switcher">Ocultar metodo de entrada</string>
+    <string name="headset_notification_icon">Ocultar icono de auriculares</string>
+    <string name="headset_notification_icon_summary">Oculta el icono de auriculares que aparece cuando los enchufas</string>
     <!-- Framework prefs -->
     <string name="framework">Framework</string>
-    <string name="framework_summary">Ajustes relacionados con el Framework</string>
+    <string name="framework_summary">Ajustes relacionados con framework</string>
     <!-- Common -->
-    <string name="common">Común</string>
-    <string name="international_t9_summary">Habilitar Busqueda T9 internacional en Contactos</string>
+    <string name="common">Comun</string>
+    <string name="bold_settings_font_summary">Usa negrita para el sistema y aplicaciones de ajustes</string>
+    <string name="bold_settings_font">Ajustes de negrita</string>
+    <string name="international_t9_summary">Añade búsqueda T9 internacional a Contactos</string>
     <string name="international_t9">Añadir T9</string>
-    <string name="local_yellowpage_database_summary">Bloquea actualizaciones en la base de datos de páginas amarillas del servidor chino y añade la posibilidad de "Marcar" contactos desconocidos.</string>
-    <string name="local_yellowpage_database">Local YellowPage database</string>
-    <string name="localized_measure_units_summary">\u2022 Barra de estado: velocidad de red (K/s, m/s)\n\u2022 Gestor de tareas: liberado, memoria disponible (MB, GB)\n\u2022 Uso de datos (Trafico): B, KB, MB, GB</string>
-    <string name="localized_measure_units">Unidades de medida</string>
-    <string name="units_gb">Gb</string>
-    <string name="units_b">b</string>
-    <string name="units_kb">Kb</string>
+    <string name="local_yellowpage_database_summary">Blocks updates of the Yellow Pages database from Chinese server and adds the ability to "Mark" unknown contacts.</string>
+    <string name="local_yellowpage_database">Base de datos de páginas amarillas locales</string>
+    <string name="local_yellowpage_database_dialog">Chinese yellow page database will be cleared.\nYou will need to update T9 index data from Contacts settings after reboot.\nDo you want to continue?</string>
+    <string name="localized_measure_units_summary">\u2022 Status bar: network speed (K/s, m/s)\n\u2022 Task manager: freed, available memory (MB, GB)\n\u2022 Data usage (Traffic): B, KB, MB, GB</string>
+    <string name="localized_measure_units">Localized measure units</string>
+    <string name="units_gb">GB</string>
+    <string name="units_b">B</string>
+    <string name="units_kb">KB</string>
     <string name="units_kbs">K/s</string>
-    <string name="units_mb">Mb</string>
+    <string name="units_mb">MB</string>
     <string name="units_mbs">M/s</string>
     <string name="units_s">s</string>
     <!-- Power -->
-    <string name="power">Boton de Encendido</string>
-    <string name="advanced_reboot_menu_summary">Añade mas opciones al menú de reinicio</string>
+    <string name="power">Energía</string>
+    <string name="advanced_reboot_menu_summary">Añade más opciones al menú de reinicio</string>
     <string name="advanced_reboot_menu">Menú de reinicio avanzado</string>
-    <string name="power_reboot">Reiniciar</string>
-    <string name="power_reboot_options">Opciones de reinicio</string>
+    <string name="add_screenshot">Añadir \"Capturar Pantalla\"</string>
+    <string name="add_screenshot_summary">Añade la opcion \"Capturar Pantalla\" a las opciones del menú de reinicio</string>
+    <string name="take_screenshot">Capturar Pantalla</string>
+    <string name="power_reboot">Reinciar</string>
+    <string name="power_reboot_options">Opciones de Reinicio</string>
     <string name="power_reboot_normal">Normal</string>
-    <string name="power_reboot_recovery">Recovery</string>
-    <string name="power_reboot_hot">Rápido</string>
+    <string name="power_reboot_recovery">Módo Recuperación</string>
+    <string name="power_reboot_hot">Reinicio Rápido</string>
     <string name="power_reboot_bootloader">Bootloader</string>
-    <string name="power_reboot_switch_system">Cambiar de sistema (Teléfonos Mi)</string>
+    <string name="power_reboot_switch_system">Cambiar de sistemas(Móviles Mi)</string>
     <string name="power_reboot_system_1">Cambiar al Sistema 1</string>
     <string name="power_reboot_system_2">Cambiar al Sistema 2</string>
     <string name="power_cancel">Cancelar</string>
     <!-- Device -->
     <string name="device">Dispositivo</string>
-    <string name="show_navigation_bar_summary">Muestra una barra de navegacion (estilo Nexus)</string>
-    <string name="show_navigation_bar">Mostrar barra de navegación</string>
-    <string name="navigation_bar_height_summary">Altura: %s</string>
-    <string name="navigation_bar_height">Altura de la barra de navegación</string>
-    <string name="all_rotations_summary">Habilitar todos los ángulos de rotación, incluyendo al revés</string>
-    <string name="all_rotations">Habilitar todos los ángulos de rotación</string>
-    <string name="lockscreen_rotations_summary">Permite que la pantalla de bloqueo gire en modo horizontal</string>
-    <string name="lockscreen_rotations">Habilitar rotación de la pantalla de bloqueo</string>
+    <string name="all_rotations_summary">Habilita todos los ángulos de rotación, incluyendo arriba y abajo</string>
+    <string name="all_rotations">Habilitar todos los ángulos</string>
+    <string name="lockscreen_rotations_summary">Permite al bloqueo de pantalla rotar en modo horizontal</string>
+    <string name="lockscreen_rotations">Habilitar rotación de bloqueo de pantalla</string>
     <string name="custom_build_prop">Propiedades del dispositivo</string>
-    <string name="custom_build_prop_summary">Ajusta valores personalizados a build.prop</string>
-    <string name="enable_custom_build_prop_summary">Los valores seran aplicados despues de reiniciar\nEl archivo build.prop no sera alterado.</string>
-    <string name="enable_custom_build_prop">Usa los valores de propiedades personalizados</string>
-    <string name="custom_build_prop_board_value">Set a custom board value</string>
-    <string name="custom_build_prop_board">Cuadro</string>
-    <string name="custom_build_prop_brand_value">Ajusta una marca personalizada</string>
-    <string name="custom_build_prop_brand">Marca</string>
-    <string name="custom_build_prop_device_value">Ajusta valores personalizados al dispositivo</string>
+    <string name="custom_build_prop_summary">Valores personalizados en build.prop</string>
+    <string name="enable_custom_build_prop_summary">Los valores serán aplicacos despues de reiniciar\nEl archivo build.prop no será alterado.</string>
+    <string name="enable_custom_build_prop">Valores de Propietario personalizados</string>
+    <string name="custom_build_prop_board_value">Cambia el nombre de la placa por uno personalizado</string>
+    <string name="custom_build_prop_board">Placa</string>
+    <string name="custom_build_prop_brand_value">Cambia el nombre de la compañía por uno personalizado</string>
+    <string name="custom_build_prop_brand">Compañía</string>
+    <string name="custom_build_prop_device_value">Cambia el nombre del dispositivo</string>
     <string name="custom_build_prop_device">Dispositivo</string>
-    <string name="custom_build_prop_model_value">Ajusta un valor de modelo personalizado</string>
+    <string name="custom_build_prop_model_value">Cambia el modelo del dispositivo</string>
     <string name="custom_build_prop_model">Modelo</string>
-    <string name="custom_build_prop_name_value">Ajusta un nombre personalizado</string>
+    <string name="custom_build_prop_name_value">Ajusta nombre personalizado</string>
     <string name="custom_build_prop_name">Nombre</string>
     <!-- Buttons -->
     <string name="buttons">Botones</string>
-    <string name="key_menu">Menú</string>
+    <string name="buttons_summary">Mapeado de botones, acciones etc.</string>
+    <string name="key_menu">Menu</string>
     <string name="key_volume">Volumen</string>
-    <string name="double_click_menu_app_summary">Selecciona una aplicación que será lanzada con doble click en el botón MENU</string>
-    <string name="double_click_menu_app">Doble click botón MENU</string>
+    <string name="double_click_menu_app_summary">Selecciona aplicacíón que será lanzada haciendo doble click en el botón MENU</string>
+    <string name="double_click_menu_app">Doble pulsación botón MENU</string>
     <string name="long_press_menu_action_summary">%s</string>
     <string name="long_press_menu_action">Pulsación prolongada botón MENU</string>
     <string name="double_tap_menu_action_summary">%s</string>
     <string name="double_tap_menu_action">Doble toque botón MENU</string>
     <string name="menu_action_default">Predeterminado</string>
     <string name="menu_action_previous_app">Lanzar aplicación anterior</string>
-    <string name="menu_action_sleep">Pantalla de bloqueo</string>
+    <string name="menu_action_sleep">Bloquear pantalla</string>
     <string name="menu_action_custom_app">Lanzar aplicación personalizada</string>
     <string name="menu_action_torch">Linterna</string>
-    <string name="vol_key_cursor">Cursor tecla de volumen</string>
-    <string name="vol_key_cursor_summary">Utiliza las teclas de volumen como teclas de control del cursor en los campos de texto</string>
-    <string name="vol_key_cursor_reverse">Teclas inversas</string>
-    <string name="vol_key_cursor_reverse_summary">Invierte las teclas de volumen</string>
+    <string name="vol_key_cursor">Teclas de volumen como cursor</string>
+    <string name="vol_key_cursor_summary">Usa las teclas de control de volumen como cursor en campos de texto</string>
+    <string name="vol_key_cursor_reverse">Invertir teclas</string>
+    <string name="vol_key_cursor_reverse_summary">Invierte las teclas de control de volumen</string>
+    <string name="long_press_track_skip">Saltar pista con teclas de volumen</string>
+    <string name="long_press_track_skip_summary">Salta a la siguiente/anterior cancion presionando prolongadamente las teclas de volumen (solo cuando la pantalla está apagada)</string>
+    <string name="swap_long_press_skip_keys">Invertir teclas</string>
+    <string name="swap_long_press_skip_keys_summary">Invertir teclas de salto de pista</string>
+    <string name="navigation_bar">Barra de navegación</string>
+    <string name="show_navigation_bar_summary">Muestra una barra de navegación(como en el Nexus)</string>
+    <string name="show_navigation_bar">Mostrar barra de navegación</string>
+    <string name="navigation_bar_height_summary">Altura: %s</string>
+    <string name="navigation_bar_height">Altura de la barra de navegación</string>
+    <string name="navigation_bar_color">Color de la barra de navegación</string>
+        <string name="navigation_bar_color_summary">Color de fondo de la barra de navegación</string>
+    <!-- Sound -->
+    <string name="sound">Sonido</string>
+    <string name="sound_summary">Ajustes relacionados con el Volumen.</string>
+    <string name="disable_volume_control_sound">Deshabilitar sonido BEEP</string>
+    <string name="disable_volume_control_sound_summary">Deshabilita el sonido BEEP mientras presionas las teclas de volumen.</string>
+    <string name="unlink_notification_volume">Desenlazar volumen notificaciones</string>
+    <string name="unlink_notification_volume_summary">Separa el tono de notificaciones de los ajustes del volumen.</string>
+    <string name="volume_ring_description">Tono</string>
+    <string name="volume_notification_description">Notificaciones</string>
+    <string name="volume_step">Pasos de Volumen</string>
+    <string name="volume_steps_voice_call">Llamadas</string>
+    <string name="volume_steps_system">Sistema</string>
+    <string name="volume_steps_ring">Tono</string>
+    <string name="volume_steps_music">Música</string>
+    <string name="volume_steps_alarm">Alarma</string>
+    <string name="volume_steps_notification">Notificaciones</string>
+    <string name="volume_steps_bluetooth">Bluetooth</string>
     <!-- Advanced -->
     <string name="advanced">Avanzado</string>
-    <string name="extra_battery_info_summary">Añade información extra en la los ajustes de batería</string>
-    <string name="extra_battery_info">Información de Batería Extra</string>
-    <!-- Sound prefs -->
-    <string name="sound">Sonido</string>
-    <string name="sound_summary">Ajustes de sonido</string>
-    <string name="disable_volume_control_sound">Deshabilitar sonido BEEP</string>
-    <string name="disable_volume_control_sound_summary">Disables ugly BEEP sound while adjusting volume by vol. keys</string>
-    <string name="long_press_track_skip">Saltar pista con teclas de volumen</string>
-    <string name="long_press_track_skip_summary">Salta a la cancion siguiente/anterior pulsando prolongadamente las teclas de volumen (solo cuando la pantalla esta apagada)</string>
-    <string name="swap_long_press_skip_keys">Invertir teclas de volumen</string>
-    <string name="swap_long_press_skip_keys_summary">Invierte las teclas de volumen (siguiente->anterior a anterior->siguiente)</string>
-    <string name="headset_notification_icon">Ocultar icono de auriculares</string>
-    <string name="headset_notification_icon_summary">Oculta el icono de auriculares que aparece cuando se enchufan al móvil</string>
+    <string name="extra_battery_info_summary">Añade información extra de batería a la vista de ajustes de batería</string>
+    <string name="extra_battery_info">Información Extra de Batería</string>
+    <string name="disable_scrolling_cache_summary">Deshabilita caché en el desplazamiento en la lista de objetos</string>
+    <string name="disable_scrolling_cache">Deshabilitar caché de desplazamiento</string>
     <!-- Launcher prefs-->
     <string name="launcher">Launcher</string>
-    <string name="launcher_summary">Ajustes relacionados del Launcher</string>
-    <string name="hide_icons_label">Ocultar texto en iconos</string>
-    <string name="hide_icons_label_summary">Permite ocultar el texto de los iconos en el escritorio</string>
-    <string name="hide_folders_label">Oculta etiquetas de carpetas</string>
-    <string name="hide_folders_label_summary">Permite ocultar el texto de las etiquetas de carpetas en el launcher</string>
+    <string name="launcher_summary">Ajustes del Launcher</string>
+    <string name="hide_icons_label">Ocultar etiquetas de iconos</string>
+    <string name="hide_icons_label_summary">Permite ocultar las etiquetas de los iconos</string>
+    <string name="hide_hotseats_label">Hide hotseats labels</string>
+    <string name="hide_hotseats_label_summary">Allows you to to hide launcher hotseats labels</string>
+    <string name="hide_folders_label">Ocultar etiquetas de carpetas</string>
+    <string name="hide_folders_label_summary">Permite ocultar las etiquetas de las carpetas</string>
+    <string name="config_folder_columns_count">Columnas de carpeta</string>
+    <string name="config_folder_columns_count_summary">Número de columnas para carpetas(cuando están abiertas): %s</string>
+    <string name="launcher_font_size_summary">Ajustar el tamaño de texto de los iconos:\n%s</string>
+    <string name="launcher_font_size">Tamaño de fuente</string>
+    <string name="multiline_labels_summary">Usar etiquetas múltiples para iconos/carpetas</string>
+    <string name="multiline_labels">Etiquetas multilinea</string>
+    <string name="set_launcher_icons_color_summary">Usa colores personalzados para las etiquetas de iconos y carpetas</string>
+    <string name="set_launcher_icons_color">Color de texto personalizado para iconos</string>
+    <string name="launcher_icons_color_summary">Selecciona un color para las etiquetas de iconos y carpetas</string>
+    <string name="launcher_icons_color">Color de texto para iconos</string>
     <!-- Applications prefs-->
     <string name="applications">Aplicaciones</string>
-    <string name="applications_summary">Ajustes de aplicaciones MIUI</string>
+    <string name="applications_summary">Ajustes de Aplicaciones MIUI</string>
+    <!-- Notifications -->
+    <string name="apps_notifications">Notificaciones</string>
+    <string name="show_notification_bubble">Mostrar burbujas en notificaciones</string>
+    <string name="show_notification_bubble_summary">Muestra burbujas en los iconos de las aplicaciones</string>
+    <string name="notification_bubble_apps">Lista de aplicaciones</string>
     <!-- MMS -->
     <string name="app_mms">Mensajes</string>
-    <string name="disable_sms_to_mms_conversion">Permitir SMSs largos</string>
-    <string name="disable_sms_to_mms_conversion_summary">Deshabilita la conversión 9 SMS\'s a MMS</string>
+    <string name="disable_sms_to_mms_conversion">Permite SMS largos</string>
+    <string name="disable_sms_to_mms_conversion_summary">Deshabilita la conversión de 9SMS a MMS</string>
     <string name="mms_unicode_stripping">Strip unicode</string>
-    <string name="mms_unicode_stripping_summary">Converts unicode characters to normal.\nMode:%s\nDoes not work on some devices (yet)!</string>
-    <string name="mms_unicode_stripping_leave_intact">Leave characters intact</string>
-    <string name="mms_unicode_stripping_non_encodable">Strip non-encodable characters</string>
-    <string name="mms_unicode_stripping_all">Strip all unicode characters</string>
-    <string name="festival_update_server">Festival update server</string>
+    <string name="mms_unicode_stripping_summary">Convierte caracteres unicode en caracteres normales.\nModo:%s\nNo funciona en algunos dispositivos (todavía)!</string>
+    <string name="mms_unicode_stripping_leave_intact">Mantener caracteres intactos</string>
+    <string name="mms_unicode_stripping_non_encodable">Convertir caracteres no codificables</string>
+    <string name="mms_unicode_stripping_all">Convertir todos los caracteres</string>
+    <string name="festival_update_server">Servidor de actualizaciones de Festivos</string>
     <string name="festival_update_server_summary">%s</string>
     <!-- Calendar -->
     <string name="app_calendar">Calendario</string>
-    <string name="holidays_update_server">Servidor de actualización de vacaciones</string>
+    <string name="holidays_update_server">Holidays update server</string>
     <string name="holidays_update_server_summary">%s</string>
-    <string name="holidays_selector_country">País de vacaciones</string>
+    <string name="holidays_selector_country">Holidays country</string>
     <string name="holidays_selector_country_summary">%s</string>
-    <string name="holidays_selector_country_original">Original (Chino)</string>
+    <string name="holidays_selector_country_original">Original (chino)</string>
     <string name="holidays_selector_country_russia">Rusia</string>
     <string name="holidays_selector_country_ukraine">Ucrania</string>
     <string name="holidays_selector_country_slovakia">Slovakia</string>
     <string name="holidays_selector_country_czech">República Checa</string>
     <!-- QuickSearchBox -->
-    <string name="app_quicksearchbox">Cuadro de Búsqueda Rápida</string>
-    <string name="quicksearchbox_marketplace">Selección de tienda para búsqueda rápida</string>
-    <string name="quicksearchbox_marketplace_summary">Cambia la tienda en la que buscar desde el cuadro de búsqueda rápida:\n%s</string>
+    <string name="app_quicksearchbox">Cuadro de búsqueda rápida</string>
+    <string name="quicksearchbox_marketplace">Búsqueda en tienda</string>
+    <string name="quicksearchbox_marketplace_summary">Tienda para buscar:\n%s</string>
     <!-- Browser -->
     <string name="app_browser">Navegador</string>
-    <string name="browser_autofit_pages">Autoajuste de Páginas</string>
-    <string name="browser_autofit_pages_summary">Añade \"Vista Móvil\" a la Pestaña General de los Ajustes del Navegador.</string>
+    <string name="browser_autofit_pages">Auto-ajuste de páginas</string>
+    <string name="browser_autofit_pages_summary">Añade \"Vista Móvil\" a los ajustes generales del navegador.</string>
     <!-- Music -->
     <string name="app_music">Música</string>
-    <string name="launch_playback_screen">Inicia la pantalla de reproducción</string>
-    <string name="launch_playback_screen_summary">Inicia la pantalla de reproducción en el widget emergente de la app Música. Por defecto abre la pantalla principal</string>
+    <string name="launch_playback_screen">Lanzar pantalla de repreducción</string>
+    <string name="launch_playback_screen_summary">Salta a la pantalla de reproduccion de la pista actual en la app Música al clickear en el widget emergente. Por defecto se lanza la pantalla de inicial.</string>
+    <string name="disable_albumart_download">No descargar carátulas</string>
+    <string name="disable_albumart_download_summary">Deshabilita la descarga automatica de carátulas</string>
+    <!-- Themes -->
+    <string name="app_themes">Temas</string>
+    <string name="themes_reverse_tabs_order">Revertir orden de pestañas</string>
+    <string name="themes_reverse_tabs_order_summary">Cambia el orden de las pestañas a Local, Categorias, Popular, Destacado</string>
+    <string name="themes_replace_lunar_dates">Reemplaza fechas lunares</string>
+    <string name="themes_replace_lunar_dates_summary">Intenta encontrar y reemplazar fechas lunares con fechas gregorianas en Temas (Bloqueo de pantalla)</string>
+    <!-- Supermarket -->
+    <string name="app_supermarket">Supermarket</string>
+    <string name="supermarket_reverse_tabs_order">Invertir orden de pestañas</string>
+    <string name="supermarket_reverse_tabs_order_summary">Cambia el orden de las pestañas a Local, Categorias, Popular, Destacado</string>
+    <string name="supermarket_disable_autoupdates_check">Deshabilitar comprobación de actualizaciones</string>
+    <string name="supermarket_disable_autoupdates_check_summary">Deshabilita la auto comprobación de actualizaciones</string>
+    <!-- Updater -->
+    <string name="app_updater">Updater</string>
+    <string name="updater_disable_autoupdates_check">Deshabilitar comprobación de actualizaciones</string>
+    <string name="updater_disable_autoupdates_check_summary">Deshabilita la auto comprobación de actualizaciones</string>
+    <string name="updater_english_changelog">Changelog en Inglés</string>
+    <string name="updater_english_changelog_summary">Fuerza a la aplicación Updater a mostrar el registro de cámbios de nuevas ROMs en Inglés.</string>
+    <!-- MiuiGallery -->
+    <string name="app_miuigallery">Galería</string>
+    <string name="cloud_upload_delay">Retraso de subida</string>
+    <string name="cloud_upload_delay_summary">Retraso de tiempo antes de subir una nueva foto a Micloud.\n%s</string>
 </resources>
