@@ -8,17 +8,17 @@
         \u2022 Autocentrar Navegador\n
         \u2022 Etiqueta de Operadora\n
         \u2022 Reloj Centrado\n
-        \u2022 Current Track Launch\n
+        \u2022 Lanzar pista actual\n
         \u2022 Información de Batería Extra\n
-        \u2022 Hide Icons Text\n
+        \u2022 Ocultar texto en iconos\n
         \u2022 Holidays\n
         \u2022 MMS Festival\n
-        \u2022 Reboot Options\n
+        \u2022 Opciones de reinicio\n
         \u2022 Search in Google Play\n
         \u2022 Módulo T9\n
         \u2022 Units\n
         \u2022 Silenciar Contro de Volumen\n
-        \u2022 Volume Skip Track\n
+        \u2022 Salto de pista con volumen\n
         \u2022 YellowPage</string>
         <string name="mitools_copyright">Prohibidas las modificaciones del módulo.\n
         BurgerZ MD, Copyright © 2013, todos los derechos reservados</string>
@@ -158,16 +158,16 @@
     <string name="framework">Framework</string>
     <string name="framework_summary">Ajustes relacionados con framework</string>
     <!-- Common -->
-    <string name="common">Comun</string>
+    <string name="common">Común</string>
     <string name="bold_settings_font_summary">Usa negrita para el sistema y aplicaciones de ajustes</string>
     <string name="bold_settings_font">Ajustes de negrita</string>
     <string name="international_t9_summary">Añade búsqueda T9 internacional a Contactos</string>
     <string name="international_t9">Añadir T9</string>
-    <string name="local_yellowpage_database_summary">Blocks updates of the Yellow Pages database from Chinese server and adds the ability to "Mark" unknown contacts.</string>
+    <string name="local_yellowpage_database_summary">Bloquea actualizaciones del servidor Chino de base de datos de Páginas Amarillas y añade la opcion de "Marcar" contactos desconocidos.</string>
     <string name="local_yellowpage_database">Base de datos de páginas amarillas locales</string>
-    <string name="local_yellowpage_database_dialog">Chinese yellow page database will be cleared.\nYou will need to update T9 index data from Contacts settings after reboot.\nDo you want to continue?</string>
-    <string name="localized_measure_units_summary">\u2022 Status bar: network speed (K/s, m/s)\n\u2022 Task manager: freed, available memory (MB, GB)\n\u2022 Data usage (Traffic): B, KB, MB, GB</string>
-    <string name="localized_measure_units">Localized measure units</string>
+    <string name="local_yellowpage_database_dialog">La base de datos China de páginas amarillas se limpiará.\nNecesitarás actualizar el índice de datos T9 desde los Ajustes de Contacots después de reiniciar.\nDesea continuar?</string>
+    <string name="localized_measure_units_summary">\u2022 Barra de estado: velocidad de red (K/s, m/s)\n\u2022 Gestor de tareas: liberado, memoria disponible (MB, GB)\n\u2022 Datos usados (Trafico): B, KB, MB, GB</string>
+    <string name="localized_measure_units">Unidades de medida locales</string>
     <string name="units_gb">GB</string>
     <string name="units_b">B</string>
     <string name="units_kb">KB</string>
@@ -215,9 +215,9 @@
     <!-- Buttons -->
     <string name="buttons">Botones</string>
     <string name="buttons_summary">Mapeado de botones, acciones etc.</string>
-    <string name="key_menu">Menu</string>
+    <string name="key_menu">Menú</string>
     <string name="key_volume">Volumen</string>
-    <string name="double_click_menu_app_summary">Selecciona aplicacíón que será lanzada haciendo doble click en el botón MENU</string>
+    <string name="double_click_menu_app_summary">Selecciona la aplicacíón que será lanzada haciendo doble click en el botón MENU</string>
     <string name="double_click_menu_app">Doble pulsación botón MENU</string>
     <string name="long_press_menu_action_summary">%s</string>
     <string name="long_press_menu_action">Pulsación prolongada botón MENU</string>
@@ -248,11 +248,11 @@
     <string name="sound_summary">Ajustes relacionados con el Volumen.</string>
     <string name="disable_volume_control_sound">Deshabilitar sonido BEEP</string>
     <string name="disable_volume_control_sound_summary">Deshabilita el sonido BEEP mientras presionas las teclas de volumen.</string>
-    <string name="unlink_notification_volume">Desenlazar volumen notificaciones</string>
+    <string name="unlink_notification_volume">Desenlazar volumen de notificaciones</string>
     <string name="unlink_notification_volume_summary">Separa el tono de notificaciones de los ajustes del volumen.</string>
     <string name="volume_ring_description">Tono</string>
     <string name="volume_notification_description">Notificaciones</string>
-    <string name="volume_step">Pasos de Volumen</string>
+    <string name="volume_step">Pasos de volumen</string>
     <string name="volume_steps_voice_call">Llamadas</string>
     <string name="volume_steps_system">Sistema</string>
     <string name="volume_steps_ring">Tono</string>
@@ -308,7 +308,7 @@
     <string name="app_calendar">Calendario</string>
     <string name="holidays_update_server">Holidays update server</string>
     <string name="holidays_update_server_summary">%s</string>
-    <string name="holidays_selector_country">Holidays country</string>
+    <string name="holidays_selector_country">País de vacaciones</string>
     <string name="holidays_selector_country_summary">%s</string>
     <string name="holidays_selector_country_original">Original (chino)</string>
     <string name="holidays_selector_country_russia">Rusia</string>
@@ -342,7 +342,7 @@
     <string name="supermarket_disable_autoupdates_check">Deshabilitar comprobación de actualizaciones</string>
     <string name="supermarket_disable_autoupdates_check_summary">Deshabilita la auto comprobación de actualizaciones</string>
     <!-- Updater -->
-    <string name="app_updater">Updater</string>
+    <string name="app_updater">Modificación de la app Update</string>
     <string name="updater_disable_autoupdates_check">Deshabilitar comprobación de actualizaciones</string>
     <string name="updater_disable_autoupdates_check_summary">Deshabilita la auto comprobación de actualizaciones</string>
     <string name="updater_english_changelog">Changelog en Inglés</string>
