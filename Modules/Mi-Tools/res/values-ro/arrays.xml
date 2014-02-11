@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="quicksearchbox_marketplace_entries">
+        <item>Magazin Xiaomi</item> 
+        <item>Magazin Play</item> 
+    </string-array>
+</resources>
