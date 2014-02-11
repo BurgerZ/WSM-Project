@@ -5,7 +5,7 @@
     <string name="act_title_settings">Setări</string>
     <string name="act_title_about">Despre</string>
     <string name="act_title_installer">Gestionaţi</string>
-    <string name="act_title_whatsnew">WhatsNew</string>
+    <string name="act_title_whatsnew">Ce este nou</string>
     <string name="fragment_modules">Module</string>
     <string name="fragment_online">On-line</string>
     <string name="fragment_logs">Jurnal</string>
@@ -21,21 +21,21 @@
     <string name="pref_feedback_summary">Raportaţi despre probleme, solicitaţi un modul, etc.\n(Doar în Engleză sau Rusă!)</string>
     <string name="pref_manage_title">Gestionare WSM</string>
     <string name="pref_manage_summary">Instalaţi, Actualizaţi, Eliminaţi</string>
-    <string name="pref_repositories_alert">Unele module Xposed ar putea să nu funcţioneze sau să facă telefonul ne-boot-abil!\Utilizaţi-le pe propria răsundere!</string>
+    <string name="pref_repositories_alert">Unele module Xposed ar putea să nu funcţioneze sau să facă telefonul neboot-abil!\Utilizaţi-le pe propria răspundere!</string>
     <string name="pref_repositories_title">Selectaţi repozitoriile</string>
     <string name="pref_show_hidden_modules_title">Afişare module ascunse</string>
     <string name="pref_show_hidden_modules_summary">Afişaţi modulele ascunse în listă</string>
-    <string name="pref_show_logs_tab_title">Afişaţi fila jurnalului</string>
-    <string name="pref_show_logs_tab_summary">Afişaţi fila framework-ului</string>
-    <string name="pref_show_module_info_title">Afişaţi informaţia despre modul</string>
-    <string name="pref_show_module_info_summary">Afişaţi informaţia despre modul la atingerea pictogramei lui</string>
+    <string name="pref_show_logs_tab_title">Afişare filă jurnal</string>
+    <string name="pref_show_logs_tab_summary">Afişare filă framework</string>
+    <string name="pref_show_module_info_title">Afişare informaţie despre modul</string>
+    <string name="pref_show_module_info_summary">Afişarea informaţiei despre modul la atingerea pictogramei lui</string>
     <string name="pref_system_toasts_title">Notificări</string>
-    <string name="pref_system_toasts_summary">Afişaţi notificările pop-up</string>
+    <string name="pref_system_toasts_summary">Afişare notificări pop-up</string>
     <string name="pref_about_title">Despre</string>
     <string name="bottom_bar_btn_settings">Setări</string>
     <string name="bottom_bar_btn_reboot">Reporniţi</string>
     <string name="bottom_bar_btn_refresh">Actualizaţi</string>
-    <string name="bottom_bar_btn_whatsnew">WhatsNew</string>
+    <string name="bottom_bar_btn_whatsnew">Ce este nou</string>
     <string name="whatsnew_changelog">Lista preliminară a modificărilor:</string>
     <string name="module_opt_hide_title">Ascundeţi modulul</string>
     <string name="module_opt_hide_summary">Pentru a afişa modulele ascunse activaţi opţiunea "Afişare module ascunse"</string>
@@ -48,13 +48,13 @@
 
     <!-- InstallerActivity -->
     <string name="installer_log">JURNAL</string>
-    <string name="installer_install">Instalaţi</string>
-    <string name="installer_uninstall">Dezinstalaţi</string>
-    <string name="installer_reboot">Reporniţi</string>
+    <string name="installer_install">Instalare</string>
+    <string name="installer_uninstall">Dezinstalare</string>
+    <string name="installer_reboot">Repornire</string>
     <string name="installer_versions">VERSIUNI:</string>
     <string name="installer_installed_version">VERSIUNE INSTALATĂ</string>
     <string name="installer_bundled_version">VERSIUNE CUPLATĂ</string>
-    <string name="installer_phone_not_compatible">WSM nu este (încă) compatibil cu Android SDK versiunea %1$d sau cu arhitectura procesorului (%2$s).</string>
+    <string name="installer_phone_not_compatible">WSM nu este (încă) compatibil cu Android SDK versiunea %1$d, sau cu arhitectura procesorului (%2$s).</string>
     <string name="installer_not_tested_but_compatible">WSM nu a fost testat cu Android SDK versiunea %d, dar pare a fi compatibil. Puteți încerca să-l instalați, dacă vă plac aventurile.</string>
     <string name="installer_rom_update"></string>
     <string name="reboot_failed">Repornire eşuată. Utilizaţi meniul de repornire al dispozitivului.</string>
