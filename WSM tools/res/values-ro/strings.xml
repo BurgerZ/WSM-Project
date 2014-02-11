@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WSM tools</string>
+    <string name="apply">Aplicaţi</string>
+    <string name="act_title_settings">Setări</string>
+    <string name="act_title_about">Despre</string>
+    <string name="act_title_installer">Gestionaţi</string>
+    <string name="act_title_whatsnew">WhatsNew</string>
+    <string name="fragment_modules">Module</string>
+    <string name="fragment_online">On-line</string>
+    <string name="fragment_logs">Jurnal</string>
+    <string name="versions_wsm_tools">Versiune</string>
+    <string name="author">Autor</string>
+    <string name="graphics">Grafică</string>
+    <string name="check_for_updates">Verificaţi pt. actualizări</string>
+    <string name="copyright">BurgerZ MD (http://burgerz.pro)\nCopyright © 2013, All Rights Reserved</string>
+    <string name="copyright_xposed">Pe baza de Xposed</string>
+    <string name="information_faq">Informaţie</string>
+    <string name="information_faq_summary">F.A.Q., traduceri, mulţumiri, ajutor</string>
+    <string name="pref_feedback_title">Feedback</string>
+    <string name="pref_feedback_summary">Raportaţi despre probleme, solicitaţi un modul, etc.\n(Doar în Engleză sau Rusă!)</string>
+    <string name="pref_manage_title">Gestionare WSM</string>
+    <string name="pref_manage_summary">Instalaţi, Actualizaţi, Eliminaţi</string>
+    <string name="pref_repositories_alert">Unele module Xposed ar putea să nu funcţioneze sau să facă telefonul ne-boot-abil!\Utilizaţi-le pe propria răsundere!</string>
+    <string name="pref_repositories_title">Selectaţi repozitoriile</string>
+    <string name="pref_show_hidden_modules_title">Afişare module ascunse</string>
+    <string name="pref_show_hidden_modules_summary">Afişaţi modulele ascunse în listă</string>
+    <string name="pref_show_logs_tab_title">Afişaţi fila jurnalului</string>
+    <string name="pref_show_logs_tab_summary">Afişaţi fila framework-ului</string>
+    <string name="pref_show_module_info_title">Afişaţi informaţia despre modul</string>
+    <string name="pref_show_module_info_summary">Afişaţi informaţia despre modul la atingerea pictogramei lui</string>
+    <string name="pref_system_toasts_title">Notificări</string>
+    <string name="pref_system_toasts_summary">Afişaţi notificările pop-up</string>
+    <string name="pref_about_title">Despre</string>
+    <string name="bottom_bar_btn_settings">Setări</string>
+    <string name="bottom_bar_btn_reboot">Reporniţi</string>
+    <string name="bottom_bar_btn_refresh">Actualizaţi</string>
+    <string name="bottom_bar_btn_whatsnew">WhatsNew</string>
+    <string name="whatsnew_changelog">Lista preliminară a modificărilor:</string>
+    <string name="module_opt_hide_title">Ascundeţi modulul</string>
+    <string name="module_opt_hide_summary">Pentru a afişa modulele ascunse activaţi opţiunea "Afişare module ascunse"</string>
+    <string name="dialog_are_you_sure">Sunteţi sigur?</string>
+    <string name="dialog_phone_will_be_rebooted">Telefonul va reporni</string>
+    <string name="dialog_progress_updating">Actualizare...</string>
+    <string name="dialog_update_available">O nouă versiune WSM tools este disponibilă.\nInstalată: %1$s\nDisponibilă: %2$s\nDupă instalarea versiunii noi accesaţi Setări - Gestionare WSM și verificați dacă este necesar de a actualiza fișierele de sistem.</string>
+    <string name="menu_select_all">Selectaţi tot</string>
+    <string name="menu_unselect_all">Deselectaţi tot</string>
+
+    <!-- InstallerActivity -->
+    <string name="installer_log">JURNAL</string>
+    <string name="installer_install">Instalaţi</string>
+    <string name="installer_uninstall">Dezinstalaţi</string>
+    <string name="installer_reboot">Reporniţi</string>
+    <string name="installer_versions">VERSIUNI:</string>
+    <string name="installer_installed_version">VERSIUNE INSTALATĂ</string>
+    <string name="installer_bundled_version">VERSIUNE CUPLATĂ</string>
+    <string name="installer_phone_not_compatible">WSM nu este (încă) compatibil cu Android SDK versiunea %1$d sau cu arhitectura procesorului (%2$s).</string>
+    <string name="installer_not_tested_but_compatible">WSM nu a fost testat cu Android SDK versiunea %d, dar pare a fi compatibil. Puteți încerca să-l instalați, dacă vă plac aventurile.</string>
+    <string name="installer_rom_update"></string>
+    <string name="reboot_failed">Repornire eşuată. Utilizaţi meniul de repornire al dispozitivului.</string>
+
+    <!--  File operations -->
+    <string name="root_failed">Nu s-a putut obţine accesul root.\n\nAsigurați-vă că dispozitivul dvs. are acces root.</string>
+    <string name="file_extract_failed">Nu s-a putut extrage %s</string>
+    <string name="file_mounting_writable">Montare %s pentru scriere&#8230;</string>
+    <string name="file_mount_writable_failed">Nu s-a putut monta %s pentru scriere</string>
+    <string name="file_trying_to_continue">Se încearcă de a continua oricum&#8230;</string>
+    <string name="file_backup_already_exists">O copie de rezervă există în %s</string>
+    <string name="file_backup_not_found">Nu s-a găsit nicio copie de rezervă în %s</string>
+    <string name="file_backup_failed">Crearea unei copii de rezervă pentru %s a eşuat</string>
+    <string name="file_backup_successful">Copie de rezervă creată în %s</string>
+    <string name="file_backup_restoring">Restabilirea copiei de rezervă din %s</string>
+    <string name="file_copying">Copiere %s&#8230;</string>
+    <string name="file_copy_failed">Imposibil de copiat %1$s în %2$s</string>
+    <string name="file_move_failed">Imposibil de mutat %1$s în %2$s</string>
+    <string name="file_set_perms_failed">Imposibil de setat permisiunile pentru %s</string>
+    <string name="file_set_owner_failed">Imposibil de setat proprietarul pentru %s</string>
+    <string name="file_removing">Eliminare %s&#8230;</string>
+    <string name="file_remove_failed">Imposibil de eliminat %s</string>
+    <string name="file_done">OK! Modificările vor deveni active după repornire.</string>
+
+    <!-- RepoLoader -->
+    <string name="repo_download_failed_http">Descărcarea %1$s a eşuat: %2$d (%3$s)</string>
+    <string name="repo_download_failed">Descărcarea %1$s a eşuat: %2$s</string>
+    <string name="repo_load_failed">Imposibil de încărcat repozitoriul din %1$s:\n%2$s</string>
+
+    <!-- Download tab -->
+    <string name="changes">Modificări:</string>
+    <string name="branch_display">(ramură %s)</string>
+    <string name="download_author">de către %s</string>
+    <string name="download_unknown_author">autor necunoscut</string>
+    <string name="download_status_version">Versiune: %1$s</string>
+    <string name="download_status_update_available">" \u2192 %1$s"</string>
+    <string name="download_timestamps">Adăugat la %1$s \u00b7 Actualizat la %2$s</string>
+    <string name="download_sorting_title">Ordine de sortare</string>
+    <string name="download_sorting_status">Sortaţi după stare</string>
+    <string name="download_sorting_updated">Sortaţi după ultima actualizare</string>
+    <string name="download_sorting_created">Sortaţi după data creării</string>
+    <string name="download_section_framework">Framework</string>
+    <string name="download_section_update_available">Actualizare disponibilă</string>
+    <string name="download_section_installed">Instalate</string>
+    <string name="download_section_not_installed">Nu sunt instalate</string>
+    <string name="download_section_24h">Ultimele 24 de ore</string>
+    <string name="download_section_7d">Ultimele 7 zile</string>
+    <string name="download_section_30d">Ultimele 30 de zile</string>
+    <string name="download_section_older">Mai mult de 30 de zile în urmă</string>
+
+    <!-- DownloadUtils -->
+    <string name="download_md5sum_incorrect">Suma MD5 este incorectă (descărcat: %1$s, aşteptat: %2$s)</string>
+    <string name="download_could_not_read_file">Imposibil de citit fişierul descărcat: %s</string>
+    <string name="download_no_valid_apk">Fişierul descărcat nu este un fişier APK valid (sau este incompatibil)</string>
+    <string name="download_incorrect_package_name">Numele pachetului este incorect (descărcat: %1$s, aşteptat: %2$s)</string>
+
+    <!--  DownloadView -->
+    <string name="download_view_download">Descărcaţi</string>
+    <string name="download_view_install">Instalaţi</string>
+    <string name="download_view_cancel">Anulaţi</string>
+    <string name="download_view_no_url">URL inaccesibil</string>
+    <string name="download_view_running">Descărcare (%1$,d din %2$,d kO)</string>
+    <string name="download_view_waiting">Descărcare în aşteptare</string>
+    <string name="download_view_successful">Descărcare reuşită</string>
+    <string name="download_view_failed">Descărcare eşuată (eroare %d)</string>
+
+    <string name="module_installed">Modul WSM instalat</string>
+    <string name="module_empty_description">(nicio descriere)</string>
+    <string name="module_no_ui">Acest modul nu oferă o interfață de utilizator</string>
+    <string name="no_wsm_modules_found">Niciun modul WSM</string>
+    <string name="wsm_module_list_updated">Lista modulelor WSM a fost actualizată\nModificările vor deveni active după repornire</string>
+    <string name="warning_wsm_min_version">Acest modul necesită WSM %s şi din această cauză nu poate fi activat.</string>
+    <string name="no_min_version_specified">Acest modul nu specifică versiunea WSM necesară.</string>
+    <string name="warning_min_version_too_low">Acest modul a fost creat pentru WSM versiunea %1$s, dar datorită modificărilor incompatibile în versiunea %2$s, a fost dezactivat.</string>
+    <string name="btnDeleteModule">Eliminaţi modulul</string>
+
+    <!--  ModuleSettingsActivity -->
+    <string name="module_settings">Setări modul</string>
+    <string name="module_description">Descriere modul</string>
+    <string name="module_info_version">Versiune</string>
+    <string name="modules_count">Module: %1$d | Active: %2$d</string>
+
+    <!--  LogsFragment -->
+    <string name="menu_send">Trimiteţi</string>
+    <string name="menu_save_to_sdcard">Salvaţi pe cardul SD</string>
+    <string name="logs_load_failed">Imposibil de citit jurnalul:</string>
+    <string name="logs_save_failed">Imposibil de scris jurnalul pe cardul SD:</string>
+    <string name="sdcard_not_writable">Cardul SD nu a fost găsit sau nu se poate scrie pe el</string>
+
+    <!-- Donations -->
+    <string name="donate">Donaţi</string>
+    <string name="donations_button_close">Închideţi</string>
+    <string name="donations_description">Găsiţi această aplicație utilă?\nSusţineţi dezvoltarea ei prin trimiterea donațiilor către dezvoltator!</string>
+    <string name="donations_thanks_dialog">Mulţumesc pentru donaţie!\nApreciez foarte mult aceasta!</string>
+    <string name="donations_thanks_dialog_title">Mulţumesc!</string>
+    <string name="donations_paypal">PayPal</string>
+    <string name="donations_yandex">Yandex.Money</string>
+    <string name="donations_paypal_description">Puteți alege cât de mult doriți să donaţi după ce apăsaţi butonul!</string>
+</resources>
