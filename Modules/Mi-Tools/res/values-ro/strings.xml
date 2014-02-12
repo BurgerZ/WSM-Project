@@ -53,8 +53,8 @@
     <string name="time_30_min">30 de minute</string>
     <string name="time_1_hour">1 oră</string>
     <!-- MIUI warning -->
-    <string name="miwarning_title">SO neacceptat</string>
-    <string name="miwarning_message">Acest SO nu este acceptat oficial. Unele opțiuni ar putea să nu funcționeze.\nContinuaţi?</string>
+    <string name="miwarning_title">Sistem de operare neacceptat</string>
+    <string name="miwarning_message">Acest sistem de operare nu este acceptat oficial. Unele opțiuni ar putea să nu funcționeze.\nContinuaţi?</string>
     <string name="miwarning_continue">Continuaţi</string>
     <string name="miwarning_close">Închideţi</string>
     <!-- Module Notification -->
@@ -64,7 +64,7 @@
     <string name="notif_reboot_required_title">Repornire necesară</string>
     <string name="notif_reboot_required_message">Repornirea este necesară pentru a aplica modificările</string>
     <!-- Backup & Restore -->
-    <string name="backup_name">Nume copie de rezervă</string>
+    <string name="backup_name">Numele copiei de rezervă</string>
     <string name="backup_save">Salvaţi setările</string>
     <string name="backup_save_successful">Salvare reuşită</string>
     <string name="backup_save_error">Eroare</string>
@@ -75,23 +75,23 @@
     <string name="backup_defaults_restored">Valorile prestabilite au fost restabilite</string>
     <string name="backup_restoring">Restabilirea copiei de rezervă</string>
     <string name="backup_restored">Copie de rezervă restabilită</string>
-	<!-- ColorPicker -->
-	<string name="press_color_to_apply">Apăsaţi orice Culoare pentru a aplica</string>
-	<string name="dialog_color_picker">Selector culoare</string> 
-	<!-- Status Bar prefs -->
-	<!-- Statusbar -->
-	<string name="statusbar">Bara de stare</string>
-	<string name="statusbar_common">General</string>
-	<string name="statusbar_summary">Modificările barei de stare</string>
-	<string name="statusbar_set_background_color">Utilizarea culorii de fundal</string>
-	<string name="statusbar_set_background_color_summary">Permite selectarea culorii pentru bara de stare</string>
-	<string name="statusbar_background_color">Culoare fundal</string>
-	<string name="statusbar_background_color_summary">Culoarea barei de stare</string>
-	<string name="one_color_for_all_icons">O culoare pentru toate pictogramele</string>
-	<string name="one_color_for_all_icons_summary">Utilizarea unei singure culori pentru toate pictogramele din bara de stare</string>
-	<string name="color_for_all_icons">Culoare pictograme</string>
-	<string name="color_for_all_icons_summary">Culoarea pictogramelor din bara de stare</string>
-	<string name="statusbar_text_family">Familie font</string>
+    <!-- ColorPicker -->
+    <string name="press_color_to_apply">Apăsaţi orice Culoare pentru a aplica</string>
+    <string name="dialog_color_picker">Selector culoare</string> 
+    <!-- Status Bar prefs -->
+    <!-- Statusbar -->
+    <string name="statusbar">Bara de stare</string>
+    <string name="statusbar_common">General</string>
+    <string name="statusbar_summary">Modificările barei de stare</string>
+    <string name="statusbar_set_background_color">Utilizare culoare de fundal</string>
+    <string name="statusbar_set_background_color_summary">Permite selectarea culorii pentru bara de stare</string>
+    <string name="statusbar_background_color">Culoare fundal</string>
+    <string name="statusbar_background_color_summary">Culoarea barei de stare</string>
+    <string name="one_color_for_all_icons">O culoare pentru toate pictogramele</string>
+    <string name="one_color_for_all_icons_summary">Utilizarea unei singure culori pentru toate pictogramele din bara de stare</string>
+    <string name="color_for_all_icons">Culoare pictograme</string>
+    <string name="color_for_all_icons_summary">Culoarea pictogramelor din bara de stare</string>
+    <string name="statusbar_text_family">Familie font</string>
     <string name="statusbar_text_family_summary">Setaţi familia fontului pentru bara de stare:\n%s</string>
     <string name="statusbar_text_style">Stil font</string>
     <string name="statusbar_text_style_summary">Setaţi stilul fontului pentru bara de stare:\n%s</string>
@@ -99,19 +99,19 @@
     <string name="font_size">Dimensiune font</string>
     <string name="network_speed_exp_statusbar_summary">Afişarea vitezei de rețea în bara de stare extinsă</string>
     <string name="network_speed_exp_statusbar">Viteză reţea</string>
-	<!-- Clock -->
-	<string name="clock">Ceas</string>
-	<string name="clock_hide">Ascundeţi ceasul</string>
+    <!-- Clock -->
+    <string name="clock">Ceas</string>
+    <string name="clock_hide">Ascundeţi ceasul</string>
     <string name="clock_hide_summary">Nu afişaţi ceasul în bara de stare</string>
     <string name="clock_color_title">Culoare ceas</string>
     <string name="clock_color_summary">Setaţi culoarea ceasului în bara de stare</string>
     <string name="clock_position">Poziţie ceas</string>
     <string name="clock_position_summary">Selectaţi poziţia ceasului:\n%s</string>
     <string name="am_pm_style">Stil AM PM</string>
-    <string name="am_pm_style_summary">Selectaţi stilui am pm:\n%s</string>
-    <string name="show_clock_date_summary">Afişaţi data lângă ceas în bara de stare</string>
+    <string name="am_pm_style_summary">Selectaţi stilul am pm:\n%s</string>
+    <string name="show_clock_date_summary">Afişaţi data lângă ceas</string>
     <string name="show_clock_date">Afişaţi data în bara de stare</string>
-    <string name="clock_date_format">Format dată</string>
+    <string name="clock_date_format">Formatul datei</string>
     <!-- Battery -->
     <string name="battery">Acumulator</string>
     <string name="hide_battery_icon_summary">Setări vizibilitate pictogramă acumulator</string>
@@ -143,13 +143,13 @@
     <string name="signal_bars_color_summary">Setaţi culoarea barelor semnalului reţelei mobile</string>
     <string name="signal_bars_color_2">Culoare bare de semnal 2</string>
     <string name="signal_bars_color_summary_2">Setaţi culoarea barelor semnalului reţelei mobile (al doilea SIM)</string>
-    <string name="hide_roaming_icon">Ascundeţi pictograma roaming</string>
+    <string name="hide_roaming_icon">Ascundeţi pictograma pt. roaming</string>
     <!-- Notifications -->
     <string name="notifications">Notificări</string>
     <string name="hide_ongoing_ime_switcher_summary">În timp ce tastați, se afişează notificarea din care puteți selecta metoda de introducere (tastatura)</string>
     <string name="hide_ongoing_ime_switcher">Ascundeţi notificarea selectării metodei de introducere</string>
     <string name="headset_notification_icon">Ascundeţi pictograma setului cu cască</string>
-    <string name="headset_notification_icon_summary">Vizibilitatea pictogramei setului cu cască la conectare</string>
+    <string name="headset_notification_icon_summary">Vizibilitatea pictogramei setului cu cască la conectarea lui</string>
     <!-- Framework prefs -->
     <string name="framework">Framework</string>
     <string name="framework_summary">Setări asociate framework-ului</string>
@@ -173,136 +173,136 @@
     <string name="units_s">s</string>
     <!-- Power -->
     <string name="power">Buton pornire</string>
-    <string name="advanced_reboot_menu_summary">Adaugă mai multe opțiuni în meniul de repornire</string>
+    <string name="advanced_reboot_menu_summary">Adăugaţi mai multe opțiuni în meniul de repornire</string>
     <string name="advanced_reboot_menu">Meniu avansat pentru repornire</string>
     <string name="add_screenshot">Adăugaţi \"Captură de ecran\"</string> 
     <string name="add_screenshot_summary">Adăugaţi opţiunea \"Captură de ecran\" în meniu</string>
     <string name="take_screenshot">Captură de ecran</string> 
     <string name="power_reboot">Reporniţi</string> 
     <string name="power_reboot_options">Opţiuni repornire</string> 
-    <string name="power_reboot_normal">Normal</string> 
+    <string name="power_reboot_normal">Normală</string> 
     <string name="power_reboot_recovery">Recuperare</string> 
     <string name="power_reboot_hot">Repornire rapidă</string> 
     <string name="power_reboot_bootloader">Bootloader</string> 
     <string name="power_reboot_switch_system">Comutare sistem (telefoanele Mi)</string> 
-    <string name="power_reboot_system_1">Repornire în Sistem 1</string> 
-    <string name="power_reboot_system_2">Repornire în Sistem 2</string> 
+    <string name="power_reboot_system_1">Repornire în Sistemul 1</string> 
+    <string name="power_reboot_system_2">Repornire în Sistemul 2</string> 
     <string name="power_cancel">Anulaţi</string> 
     <!-- Device -->
     <string name="device">Dispozitiv</string>
     <string name="all_rotations_summary">Activaţi toate unghiurile de rotire, inclusiv cu susul în jos</string>
-    <string name="all_rotations">Activaţi toate unghiurile de rotire</string>
+    <string name="all_rotations">Activarea tuturor unghiurilor de rotire</string>
     <string name="lockscreen_rotations_summary">Permite blocării ecranului să se rotească în modul peisaj</string>
     <string name="lockscreen_rotations">Activaţi rotirea blocării ecranului</string>
     <string name="custom_build_prop">Proprietăţi dispozitiv</string>
     <string name="custom_build_prop_summary">Setaţi valori personalizate în build.prop</string>
-    <string name="enable_custom_build_prop_summary">Valorile se aplică după pornire\nFişierul fizic build.prop nu este modificat</string>
+    <string name="enable_custom_build_prop_summary">Valorile se aplică după repornire\nFişierul fizic build.prop nu se modifică</string>
     <string name="enable_custom_build_prop">Utilizaţi valori personalizate</string>
-    <string name="custom_build_prop_board_value">Setaţi o valoare personalizată pentru board</string>
+    <string name="custom_build_prop_board_value">Setaţi o valoare personalizată pentru \"board\"</string>
     <string name="custom_build_prop_board">Board</string>
-    <string name="custom_build_prop_brand_value">Setați o valoare personalizată pentru brand</string>
-    <string name="custom_build_prop_brand">Brand</string>
-    <string name="custom_build_prop_device_value">Setaţi o valoare personalizată pentru device</string>
+    <string name="custom_build_prop_brand_value">Setați o valoare personalizată pentru \"brand\"</string>
+    <string name="custom_build_prop_brand">Marcă</string>
+    <string name="custom_build_prop_device_value">Setaţi o valoare personalizată pentru \"device\"</string>
     <string name="custom_build_prop_device">Dispozitiv</string>
-    <string name="custom_build_prop_model_value">Setaţi o valoare personalizată pentru model</string>
+    <string name="custom_build_prop_model_value">Setaţi o valoare personalizată pentru \"model\"</string>
     <string name="custom_build_prop_model">Model</string>
-    <string name="custom_build_prop_name_value">Setaţi o valoare personalizată pentru name</string>
+    <string name="custom_build_prop_name_value">Setaţi o valoare personalizată pentru \"name\"</string>
     <string name="custom_build_prop_name">Nume</string>
     <!-- Buttons -->
     <string name="buttons">Butoane</string>
-    <string name="buttons_summary">Maparea butoanelor, acţiuni etc.</string>
+    <string name="buttons_summary">Mapare butoane, acţiuni etc.</string>
     <string name="key_menu">Meniu</string>
     <string name="key_volume">Volum</string>
-    <string name="double_click_menu_app_summary">Selectaţi aplicaţia care se lansează la apăsarea dublă a butonului MENU</string>
+    <string name="double_click_menu_app_summary">Selectaţi aplicaţia care se lansează la apăsarea dublă a butonului MENIU</string>
     <string name="double_click_menu_app">Apăsarea dublă a butonului MENU</string>
     <string name="long_press_menu_action_summary">%s</string>
-    <string name="long_press_menu_action">Acţiunea la apăsarea lungă a butonului MENU</string>
+    <string name="long_press_menu_action">Acţiunea la apăsarea lungă a butonului MENIU</string>
     <string name="double_tap_menu_action_summary">%s</string>
-    <string name="double_tap_menu_action">Acţiune la apăsarea dublă a butonului MENU</string>
+    <string name="double_tap_menu_action">Acţiunea la apăsarea dublă a butonului MENIU</string>
     <string name="menu_action_default">Prestabilită</string>
-    <string name="menu_action_previous_app">Lansare aplicaţie precedentă</string>
+    <string name="menu_action_previous_app">Lansarea aplicaţie precedente</string>
     <string name="menu_action_sleep">Ecran blocare</string>
-    <string name="menu_action_custom_app">Lansare aplicaţie personalizată</string>
+    <string name="menu_action_custom_app">Lansarea aplicaţie personalizate</string>
     <string name="menu_action_torch">Lanternă</string>
     <string name="vol_key_cursor">Controlul cursorului cu butoanele de volum</string>
-    <string name="vol_key_cursor_summary">Utilizați butoanele de volum ca taste de control a cursorului în câmpurile de text</string>
-    <string name="vol_key_cursor_reverse">Inversaţi tastele</string>
-    <string name="vol_key_cursor_reverse_summary">Inversaţi tastele de control</string>
-    <string name="long_press_track_skip">Volume keys skip tracks</string>
-    <string name="long_press_track_skip_summary">Skip to the next/previous track with a long press on the volume keys (only when the screen is off)</string>
-    <string name="swap_long_press_skip_keys">Reverse keys</string>
-    <string name="swap_long_press_skip_keys_summary">Reverse skip track keys</string>
+    <string name="vol_key_cursor_summary">Utilizați butoanele de volum ca taste de control ale cursorului în câmpurile de text</string>
+    <string name="vol_key_cursor_reverse">Inversaţi butoanele</string>
+    <string name="vol_key_cursor_reverse_summary">Inversaţi butoanele de control</string>
+    <string name="long_press_track_skip">Trecerea între melodii cu butoanele de volum</string>
+    <string name="long_press_track_skip_summary">Trecerea la următoarea/precedenta melodie cu o apăsare lungă a butoanelor de volum (doar atunci când ecranul este deconectat)</string>
+    <string name="swap_long_press_skip_keys">Inversaţi butoanele</string>
+    <string name="swap_long_press_skip_keys_summary">Inversaţi butoanele de trecere între melodii</string>
     <string name="navigation_bar">Bara de navigare</string>
-    <string name="show_navigation_bar_summary">Show navigation bar (Nexus like)</string>
-    <string name="show_navigation_bar">Show navigation bar</string>
-    <string name="navigation_bar_height_summary">Height: %s</string>
-    <string name="navigation_bar_height">Navigation bar height</string>
-    <string name="navigation_bar_color">Navigation bar color</string>
-	<string name="navigation_bar_color_summary">Background color of the navigation bar</string>
+    <string name="show_navigation_bar_summary">Afişaţi bara de navigare (ca la Nexus)</string>
+    <string name="show_navigation_bar">Afişaţi bara de navigare</string>
+    <string name="navigation_bar_height_summary">Înălţimea: %s</string>
+    <string name="navigation_bar_height">Înălţimea barei de navigare</string>
+    <string name="navigation_bar_color">Culoarea barei de navigare</string>
+    <string name="navigation_bar_color_summary">Culoarea fundalului barei de navigare</string>
     <!-- Sound -->
     <string name="sound">Sunet</string>
     <string name="sound_summary">Setări asociate sunetului</string> 
-    <string name="disable_volume_control_sound">Disable BEEP sound</string>
-    <string name="disable_volume_control_sound_summary">Disables ugly BEEP sound while adjusting volume by vol. keys</string>
-    <string name="unlink_notification_volume">Unlink notif. volume</string>
-    <string name="unlink_notification_volume_summary">Separate ringtone &amp; notifications volume settings</string>
-    <string name="volume_ring_description">Ringtone</string>
-    <string name="volume_notification_description">Notifications</string>
-    <string name="volume_step">Volume step</string>
-    <string name="volume_steps_voice_call">Voice call</string>
-    <string name="volume_steps_system">System</string>
-    <string name="volume_steps_ring">Ring</string>
-    <string name="volume_steps_music">Music</string>
-    <string name="volume_steps_alarm">Alarm</string>
-    <string name="volume_steps_notification">Notification</string>
+    <string name="disable_volume_control_sound">Dezactivare sunet \"BEEP\"</string>
+    <string name="disable_volume_control_sound_summary">Dezactivaţi sunetul deranjant \"BEEP\" în timpul ajustării volumului cu ajutorul butoanelor de volum</string>
+    <string name="unlink_notification_volume">Separare volum</string>
+    <string name="unlink_notification_volume_summary">Separaţi setările de volum pentru tonul de apel şi notificări</string>
+    <string name="volume_ring_description">Ton de apel</string>
+    <string name="volume_notification_description">Notificări</string>
+    <string name="volume_step">Pasul volumului</string>
+    <string name="volume_steps_voice_call">Apel vocal</string>
+    <string name="volume_steps_system">Sistem</string>
+    <string name="volume_steps_ring">Sonerie</string>
+    <string name="volume_steps_music">Muzică</string>
+    <string name="volume_steps_alarm">Alarmă</string>
+    <string name="volume_steps_notification">Notificare</string>
     <string name="volume_steps_bluetooth">Bluetooth</string>
     <!-- Advanced -->
-    <string name="advanced">Advanced</string>
-    <string name="extra_battery_info_summary">Add extra battery info to battery settings view</string>
-    <string name="extra_battery_info">Extra battery info</string>
-    <string name="disable_scrolling_cache_summary">Disables scrolling cache for ListView objects</string>
-    <string name="disable_scrolling_cache">Disable scrolling cache</string>
+    <string name="advanced">Avansat</string>
+    <string name="extra_battery_info_summary">Adăugaţi informaţie suplimentară despre acumulator în setări</string>
+    <string name="extra_battery_info">Informaţie suplimentară acumulator</string>
+    <string name="disable_scrolling_cache_summary">Dezactivaţi cache-ul la defilarea listelor</string>
+    <string name="disable_scrolling_cache">Dezactivare cache la defilare</string>
     <!-- Launcher prefs-->
-    <string name="launcher">Launcher</string>
-    <string name="launcher_summary">Launcher related settings</string>
-    <string name="hide_icons_label">Hide icons labels</string>
-    <string name="hide_icons_label_summary">Allows you to to hide launcher icons labels</string>
-    <string name="hide_hotseats_label">Hide hotseats labels</string>
-    <string name="hide_hotseats_label_summary">Allows you to to hide launcher hotseats labels</string>
-    <string name="hide_folders_label">Hide folders labels</string>
-    <string name="hide_folders_label_summary">Allows you to to hide launcher folders labels</string>
-    <string name="config_folder_columns_count">Folder columns</string>
-    <string name="config_folder_columns_count_summary">Folder columns count (in open state): %s</string>
-    <string name="launcher_font_size_summary">Set the launcher icons text size:\n%s</string>
-    <string name="launcher_font_size">Font size</string>
-    <string name="multiline_labels_summary">Use multiline icons/folder labels</string>
-    <string name="multiline_labels">Multiline labels</string>
-    <string name="set_launcher_icons_color_summary">Use custom icons/folder labels color</string>
-    <string name="set_launcher_icons_color">Custom icons text color</string>
-    <string name="launcher_icons_color_summary">Select launcher icons/folder labels color</string>
-    <string name="launcher_icons_color">Icons text color</string>
+    <string name="launcher">Lansator</string>
+    <string name="launcher_summary">Setări asociate lansatorului</string>
+    <string name="hide_icons_label">Ascundeţi etichetele pictogramelor</string>
+    <string name="hide_icons_label_summary">Permite ascunderea etichetelor pictogramelor</string>
+    <string name="hide_hotseats_label">Ascundeţi etichetele barei de jos</string>
+    <string name="hide_hotseats_label_summary">Permite ascunderea etichetelor barei de jos</string>
+    <string name="hide_folders_label">Ascundeţi etichetele dosarelor</string>
+    <string name="hide_folders_label_summary">Permite ascunderea etichetelor dosarelor</string>
+    <string name="config_folder_columns_count">Coloane dosar</string>
+    <string name="config_folder_columns_count_summary">Cantitatea coloanelor în dosar (în stare deschisă): %s</string>
+    <string name="launcher_font_size_summary">Setaţi dimensiunea textului pictogramelor:\n%s</string>
+    <string name="launcher_font_size">Dimensiune font</string>
+    <string name="multiline_labels_summary">Utilizarea etichetelor în linii multiple pentru pictograme/dosare</string>
+    <string name="multiline_labels">Etichete în linii multiple</string>
+    <string name="set_launcher_icons_color_summary">Utilizaţi o culoare personalizată pentru etichetele pictogramelor/dosarelor</string>
+    <string name="set_launcher_icons_color">Culoare personalizată pt. textul pictogramelor</string>
+    <string name="launcher_icons_color_summary">Selectaţi culoarea etichetelor pictogramelor/dosarelor</string>
+    <string name="launcher_icons_color">Culoarea textului pictogramelor</string>
     <!-- Applications prefs-->
-    <string name="applications">Applications</string>
-    <string name="applications_summary">MIUI applications settings</string>
+    <string name="applications">Aplicaţii</string>
+    <string name="applications_summary">Setările aplicaţiilor MIUI</string>
     <!-- Notifications -->
-    <string name="apps_notifications">Notifications</string>
-    <string name="show_notification_bubble">Show bubble notifications</string>
-    <string name="show_notification_bubble_summary">Show bubble notifications on application\'s icon</string>
-    <string name="notification_bubble_apps">Applications list</string>
+    <string name="apps_notifications">Notificări</string>
+    <string name="show_notification_bubble">Notificări pe pictogramă</string>
+    <string name="show_notification_bubble_summary">Afişează notificări în formă de balon pe pictograma aplicației</string>
+    <string name="notification_bubble_apps">Listă aplicaţii</string>
     <!-- Phone -->
-    <string name="app_phone">Phone</string>
-    <string name="national_roaming">National data roaming</string>
-    <string name="national_roaming_summary">Connect to data services when nationally roaming</string>
+    <string name="app_phone">Telefon</string>
+    <string name="national_roaming">Roaming de date naţional</string>
+    <string name="national_roaming_summary">Conectare la serviciile de date în roaming naţional</string>
     <!-- MMS -->
-    <string name="app_mms">Messaging</string>
-    <string name="disable_sms_to_mms_conversion">Allow Long SMS</string>
-    <string name="disable_sms_to_mms_conversion_summary">Disables 9 SMS\'s to MMS conversion</string>
-    <string name="mms_unicode_stripping">Strip unicode</string>
-    <string name="mms_unicode_stripping_summary">Converts unicode characters to normal.\nMode:%s\nDoes not work on some devices (yet)!</string>
-    <string name="mms_unicode_stripping_leave_intact">Leave characters intact</string>
-    <string name="mms_unicode_stripping_non_encodable">Strip non-encodable characters</string>
-    <string name="mms_unicode_stripping_all">Strip all unicode characters</string>
-    <string name="festival_update_server">Festival update server</string> 
+    <string name="app_mms">Mesagerie</string>
+    <string name="disable_sms_to_mms_conversion">Permite SMS-uri lungi</string>
+    <string name="disable_sms_to_mms_conversion_summary">Dezactivaţi transformarea a 9 SMS în MMS</string>
+    <string name="mms_unicode_stripping">Modificare unicode</string>
+    <string name="mms_unicode_stripping_summary">Transformaţi carcacterele unicode în caractere normale.\nMod: %s\nNu funcţionează pe unele dispozitive (încă)!</string>
+    <string name="mms_unicode_stripping_leave_intact">Caracterele nu se modifică</string>
+    <string name="mms_unicode_stripping_non_encodable">Modificarea caracterelor necodificate</string>
+    <string name="mms_unicode_stripping_all">Modificarea tuturor caracterelor unicode</string>
+    <string name="festival_update_server">Server actualizare felicitări</string> 
     <string name="festival_update_server_summary">%s</string>
     <!-- Calendar -->
     <string name="app_calendar">Calendar</string>
@@ -316,35 +316,35 @@
     <string name="holidays_selector_country_slovakia">Slovacia</string>
     <string name="holidays_selector_country_czech">Cehia</string> 
     <!-- QuickSearchBox -->
-    <string name="app_quicksearchbox">QuickSearchBox</string>
+    <string name="app_quicksearchbox">Căutare</string>
     <string name="quicksearchbox_marketplace">Magazin căutare</string>
     <string name="quicksearchbox_marketplace_summary">Magazin pentru căutare:\n%s</string>
     <!-- Browser -->
     <string name="app_browser">Browser</string>
     <string name="browser_autofit_pages">Potrivire automată pagini</string>
-    <string name="browser_autofit_pages_summary">Adaugă \"Vizualizare mobilă\" în setările generale din browser</string>
+    <string name="browser_autofit_pages_summary">Adăugaţi \"Vizualizare mobilă\" în setările generale din Browser</string>
     <!-- Music -->
     <string name="app_music">Muzică</string>
-    <string name="launch_playback_screen">Launch playback screen</string>
-    <string name="launch_playback_screen_summary">Launch playback screen in Music player on pop-up widget click. By default, the main screen opens</string>
-    <string name="disable_albumart_download">Do not download album art</string>
-    <string name="disable_albumart_download_summary">Disable auto download album artwork</string>
+    <string name="launch_playback_screen">Lansarea ecranului de redare</string>
+    <string name="launch_playback_screen_summary">Lansarea ecranului de redare în Muzică la apăsarea pe obiectul widget pop-up. În mod prestabilit, se deschide ecranul principal.</string>
+    <string name="disable_albumart_download">Nu se descarcă copertele pentru albume</string>
+    <string name="disable_albumart_download_summary">Dezactivaţi descărcarea automată a copertelor pentru albume</string>
     <!-- Themes -->
     <string name="app_themes">Teme</string>
-    <string name="themes_reverse_tabs_order">Reverse tabs order</string>
-    <string name="themes_reverse_tabs_order_summary">Change tabs order to Local, Categories, Popular, Featured</string>
-    <string name="themes_replace_lunar_dates">Replace Lunar dates</string>
-    <string name="themes_replace_lunar_dates_summary">Try to find and replace Lunar dates with Gregorian ones in themes (lockscreens)</string>
+    <string name="themes_reverse_tabs_order">Inversaţi ordinea filelor</string>
+    <string name="themes_reverse_tabs_order_summary">Inversaţi ordinea filelor în Locale, Categorii, Populare, Recomandate</string>
+    <string name="themes_replace_lunar_dates">Înlocuirea datelor Lunare</string>
+    <string name="themes_replace_lunar_dates_summary">Încearcă să găsească şi să înlocuiască, în teme, datele Lunare cu date Gregoriene (blocarea ecranului)</string>
     <!-- Supermarket -->
     <string name="app_supermarket">Supermarket</string>
-    <string name="supermarket_reverse_tabs_order">Reverse tabs order</string>
-    <string name="supermarket_reverse_tabs_order_summary">Change tabs order to Local, Categories, Popular, Featured</string>
-    <string name="supermarket_disable_autoupdates_check">Disable updates check</string>
-    <string name="supermarket_disable_autoupdates_check_summary">Disables auto updates check</string>
+    <string name="supermarket_reverse_tabs_order">Inversaţi ordinea filelor</string>
+    <string name="supermarket_reverse_tabs_order_summary">Inverseaţi ordinea filelor în Locale, Categorii, Populare, Recomandate</string>
+    <string name="supermarket_disable_autoupdates_check">Dezactivaţi verificarea actualizărilor</string>
+    <string name="supermarket_disable_autoupdates_check_summary">Dezactivaţi verificarea automată a actualizărilor</string>
     <!-- Updater -->
     <string name="app_updater">Actualizări</string>
     <string name="updater_disable_autoupdates_check">Dezactivaţi verificarea actualizărilor</string>
-    <string name="updater_disable_autoupdates_check_summary">Dezactivează verificarea automată a actualizărilor</string>
+    <string name="updater_disable_autoupdates_check_summary">Dezactivaţi verificarea automată a actualizărilor</string>
     <string name="updater_english_changelog">Jurnal modificări în engleză</string>
     <string name="updater_english_changelog_summary">Jurnalul modificărilor va fi afişat în engleză</string>
     <!-- MiuiGallery -->
