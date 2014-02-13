@@ -174,11 +174,13 @@
     <string name="advanced_reboot_menu">進階重啟選單</string>
     <string name="power_reboot">重新啟動</string> 
     <string name="power_reboot_options">重啟選單</string> 
+    <string name="add_screenshot">新增 "螢幕截圖" 選項</string> 
+    <string name="add_screenshot_summary">新增 "螢幕截圖" 選項至電源選單</string>
     <string name="take_screenshot">螢幕截圖</string> 
     <string name="power_reboot_normal">重新啟動</string> 
-    <string name="power_reboot_recovery">重啟進入 Recovery</string> 
+    <string name="power_reboot_recovery">重啟進入 Recovery 模式</string> 
     <string name="power_reboot_hot">熱重啟</string> 
-    <string name="power_reboot_bootloader">重啟進入 Bootloader</string> 
+    <string name="power_reboot_bootloader">重啟進入 Bootloader 模式</string> 
     <string name="power_reboot_switch_system">切換系統 (小米手機裝置)</string> 
     <string name="power_reboot_system_1">重啟到 系統 1</string> 
     <string name="power_reboot_system_2">重啟到 系統 2</string> 
@@ -284,6 +286,10 @@
     <string name="show_notification_bubble">顯示氣泡通知</string>
     <string name="show_notification_bubble_summary">在應用程式的圖示上顯示氣泡通知</string>
     <string name="notification_bubble_apps">應用程式清單</string>
+    <!-- Phone -->
+    <string name="app_phone">電話</string>
+    <string name="national_roaming">國內數據漫遊</string>
+    <string name="national_roaming_summary">當國內漫遊時開啟數據服務</string>
     <!-- MMS -->
     <string name="app_mms">訊息</string>
     <string name="disable_sms_to_mms_conversion">允許長訊息</string>
