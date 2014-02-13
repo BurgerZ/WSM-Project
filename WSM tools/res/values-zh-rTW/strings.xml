@@ -34,7 +34,7 @@
     <string name="pref_about_title">關於</string>
     <string name="bottom_bar_btn_settings">設定</string>
     <string name="bottom_bar_btn_reboot">重新啟動</string>
-    <string name="bottom_bar_btn_refresh">升級</string>
+    <string name="bottom_bar_btn_refresh">刷新</string>
     <string name="bottom_bar_btn_whatsnew">更新資訊</string>
     <string name="whatsnew_changelog">預先發行版本更新資訊:</string>
     <string name="module_opt_hide_title">隱藏模組</string>
@@ -47,6 +47,7 @@
     <string name="menu_unselect_all">取消啟動全部</string>
 
     <!-- InstallerActivity -->
+    <string name="installer_log">紀錄</string>
     <string name="installer_install">安裝</string>
     <string name="installer_uninstall">解除安裝</string>
     <string name="installer_reboot">重新啟動</string>
@@ -56,6 +57,27 @@
     <string name="installer_phone_not_compatible">WSM 目前尚未相容於 Android SDK 版本 %1$d 或是您的裝置的處理器架構 (%2$s).</string>
     <string name="installer_not_tested_but_compatible">WSM 尚未在 Android SDK 版本 %d 上進行測試, 但目前看來是可以相容的. 如果您喜歡冒險，您可以嘗試安裝並運行它.</string>
     <string name="installer_rom_update"></string>
+    <string name="reboot_failed">重啟失敗. 請使用正常方式重啟.</string>
+ 
+    <!--  File operations -->
+    <string name="root_failed">無法取得 root 權限.\n\n請確認您的裝置以正確取得 root 權限，並且沒有封鎖 shell 指令.</string>
+    <string name="file_extract_failed">無法提取 %s</string>
+    <string name="file_mounting_writable">安裝中 %s 寫入&#8230;</string>
+    <string name="file_mount_writable_failed">無法安裝 %s 寫入</string>
+    <string name="file_trying_to_continue">嘗試其他方式&#8230;</string>
+    <string name="file_backup_already_exists">備份已經存在於 %s</string>
+    <string name="file_backup_not_found">在 %s未找到備份</string>
+    <string name="file_backup_failed">建立備份失敗 %s</string>
+    <string name="file_backup_successful">備已建立在 %s</string>
+    <string name="file_backup_restoring">正在自 %s還原</string>
+    <string name="file_copying">複製中 %s&#8230;</string>
+    <string name="file_copy_failed">無法複製 %1$s 到 %2$s</string>
+    <string name="file_move_failed">無法移動 %1$s 到 %2$s</string>
+    <string name="file_set_perms_failed">無法為 %s 設定權限</string>
+    <string name="file_set_owner_failed">無法為 %s 設定擁有者</string>
+    <string name="file_removing">正在移除 %s&#8230;</string>
+    <string name="file_remove_failed">無法移除 %s</string>
+    <string name="file_done">完成! 變更啟用將在您重新啟動裝置後.</string>
 
     <!-- RepoLoader -->
     <string name="repo_download_failed_http">下載中 %1$s 失敗: %2$d (%3$s)</string>
