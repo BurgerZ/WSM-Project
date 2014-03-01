@@ -47,6 +47,7 @@
     <string name="menu_unselect_all">Odznačit</string>
 
     <!-- InstallerActivity -->
+    <string name="installer_log">LOG</string>
     <string name="installer_install">Instalovat/Aktualizovat</string>
     <string name="installer_uninstall">Odinstalovat (obnovit app_process)</string>
     <string name="installer_reboot">Restartovat</string>
@@ -56,6 +57,27 @@
     <string name="installer_phone_not_compatible">WSM není (momentálně) kompatibilní s verzí Android SDK %1$d nebo Vaší architekturou CPU (%2$s).</string>
     <string name="installer_not_tested_but_compatible">WSM nebylo testované s verzí Android SDK %d ale vypadá to, že bude funkční. Pokud chcete, můžete ho zkusit nainstalovat.</string>
     <string name="installer_rom_update"></string>
+    <string name="reboot_failed">Restart selhal. Prosím, restarujte telefon pomocí vypínacího tlačítka.</string>
+
+    <!--  File operations -->
+    <string name="root_failed">Nelze získat ROOT přístup.\n\nPovolte prosím ROOT.</string>
+    <string name="file_extract_failed">Nelze extrahovat %s</string>
+    <string name="file_mounting_writable">Připojování %s pro zápis&#8230;</string>
+    <string name="file_mount_writable_failed">Nelze připojit %s pro zápis</string>
+    <string name="file_trying_to_continue">Pokus o pokračování&#8230;</string>
+    <string name="file_backup_already_exists">Záloha %s již existuje</string>
+    <string name="file_backup_not_found">Záloha %s nenalezena</string>
+    <string name="file_backup_failed">Nelze vytvořit zálohu %s</string>
+    <string name="file_backup_successful">Vytváření zálohy %s</string>
+    <string name="file_backup_restoring">Obnovování zálohy z %s</string>
+    <string name="file_copying">Kopírování %s&#8230;</string>
+    <string name="file_copy_failed">Nelze zkopírovat %1$s do %2$s</string>
+    <string name="file_move_failed">Nelze přesunout %1$s do %2$s</string>
+    <string name="file_set_perms_failed">Nelze získat oprávnění pro %s</string>
+    <string name="file_set_owner_failed">Nelze získat práva pro %s</string>
+    <string name="file_removing">Odstraňování %s&#8230;</string>
+    <string name="file_remove_failed">Nelze odstranit %s</string>
+    <string name="file_done">Hotovo! Změny se projeví po restartu.</string>
 
     <!-- RepoLoader -->
     <string name="repo_download_failed_http">Stahování %1$s selhalo: %2$d (%3$s)</string>

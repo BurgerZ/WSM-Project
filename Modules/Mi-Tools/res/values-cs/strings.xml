@@ -289,6 +289,10 @@
     <string name="show_notification_bubble">Zobrazit bubliny u ikon</string>
     <string name="show_notification_bubble_summary">Zobrazí notifikační bubliny u vybraných aplikací</string>
     <string name="notification_bubble_apps">Seznam aplikací</string>
+    <!-- Phone -->
+    <string name="app_phone">Telefon</string>
+    <string name="national_roaming">Národní datový roaming</string>
+    <string name="national_roaming_summary">Povolit data v národním roamingu</string>
     <!-- MMS -->
     <string name="app_mms">Zprávy</string>
     <string name="disable_sms_to_mms_conversion">Povolit dlouhé SMS</string>
