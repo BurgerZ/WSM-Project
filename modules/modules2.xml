@@ -433,6 +433,13 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<description html="true">&lt;p&gt;This is the installer for the Xposed framework, which is a requirement for all modules.&lt;/p&gt;&lt;p&gt;This framework is based on rovo89\'s Xposed framework. Like an original project it is a framework for modules that can change the behavior of the system and apps without touching any APKs&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note that this only works with root access on Android 4.0.3 or later.&lt;/b&gt;&lt;/p&gt;</description> 
 	<author>BurgerZ</author>
 	<version>
+		<name>2.2.0</name> 
+		<code>220</code>
+		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v220_57b1c8.apk</download> 
+		<md5sum>57b1c89b230125312415651815b1ebc9</md5sum> 
+		<changelog html="true">&lt;li&gt;Updated binaries.&lt;/li&gt;&lt;li&gt;Added recovery installation modes (auto and manually).&lt;/li&gt;</changelog> 
+	</version>
+	<version>
 		<name>2.1.8</name> 
 		<code>218</code>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v218_5055bf.apk</download> 
