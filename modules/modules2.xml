@@ -1,5 +1,18 @@
 <repository>
   <name>WSM repository</name>
+  <module package="pro.burgerz.wsm.mods.mithemes" created="1397804709" updated="1397804709">
+	<name>MiThemes</name> 
+	<summary>Allows you to apply third-party themes without authorization, download premium themes from the Chinese Market without any payments, do not delete .mtz theme file after downloading (placed at /sdcard/MIUI/theme/mtz folder)</summary> 
+	<description html="true">&lt;p&gt;Initial release at online repository&lt;/li&gt;</description> 
+	<author>BurgerZ</author> 
+	<version>
+		<name>2.2</name> 
+		<code>22</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mithemes_v22_978035.apk</download> 
+		<md5sum>978035212da62367d5c6c890008e3b0b</md5sum> 
+		<changelog html="true"></changelog> 
+	</version>
+  </module>
   <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1391170047">
 	<name>Mi-Tools</name> 
 	<summary>MIUI v5 all in one module</summary> 
