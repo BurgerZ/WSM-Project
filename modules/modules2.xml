@@ -21,7 +21,7 @@
 	<version>
 		<name>2.0.0</name> 
 		<code>200</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v192_1780bb.apk</download> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v200_a18c10.apk</download> 
 		<md5sum>a18c1026d0d5cebf93bef2d3c28e495a</md5sum> 
 		<changelog html="true">&lt;li&gt;Applications: added notification bubbles config file to /sdcard/MIUI/MiTools/bubbleapps.json&lt;/li&gt;&lt;li&gt;Buttons: fixed cursor control via volume keys in text fields&lt;/li&gt;&lt;li&gt;Buttons: fixed double click on MENU functionality for MIUI 4.4.4&lt;/li&gt;&lt;li&gt;Statusbar: now you can choose your own logos from SD card&lt;/li&gt;</changelog> 
 	</version>	
