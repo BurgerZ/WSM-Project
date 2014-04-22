@@ -13,11 +13,18 @@
 		<changelog html="true">&lt;p&gt;Initial release at online repository&lt;/li&gt;</changelog> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1397803303">
+  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1398147654">
 	<name>Mi-Tools</name> 
 	<summary>MIUI v5 all in one module</summary> 
 	<description html="true">&lt;p&gt;MIUI v5 all in one module. It handles framework, statusbar, launcher, sound, MIUI applications modifications.&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
+	<version>
+		<name>2.0.1</name> 
+		<code>201</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v201_781255.apk</download> 
+		<md5sum>781255cb18bc61f8805530041fe457c7</md5sum> 
+		<changelog html="true">&lt;li&gt;Applications: fixed notification bubbles FC. Now you can load the list of all installed (and system) apps and select your own set of applications to show bubbles on their icons.&lt;/li&gt;</changelog> 
+	</version>	
 	<version>
 		<name>2.0.0</name> 
 		<code>200</code> 
