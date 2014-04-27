@@ -23,6 +23,7 @@
     <string name="pref_manage_summary">Zainstaluj, Aktualizuj, Usuń</string>
     <string name="pref_repositories_alert">Niektóre moduły z magazynu Xposed mogą sprawić, że telefon przestanie działać!\nKorzystasz z nich na własną odpowiedzialność!</string>
     <string name="pref_repositories_title">Wybierz magazyny</string>
+    <string name="pref_install_mode">Typ instalacji</string>
     <string name="pref_show_hidden_modules_title">Ukryte moduły</string>
     <string name="pref_show_hidden_modules_summary">Pokazuje na liście ukryte moduły</string>
     <string name="pref_show_logs_tab_title">Pokaż Logi</string>
@@ -57,8 +58,21 @@
     <string name="installer_phone_not_compatible">WSM nie jest (jeszcze) kompatybilny z Android SDK w wersji %1$d lub Twoim procesorem (%2$s).</string>
     <string name="installer_not_tested_but_compatible">WSM nie był testowany na Android SDK w wersji %d, ale wydaje się być kompatybilny. Mimo tego instalujesz go na własne ryzyko.</string>
     <string name="reboot_failed">Nie można zrestartować urządzenia, zrób to manualnie.</string>
+    <string name="reboot">Restart</string>
+    <string name="auto_flash_note">%s zostanie wgrany automatycznie po kliknięciu OK.</string>
+    <string name="manual_flash_note">Wgraj przez recovery %s aby ukończyć operację.</string>
+    <string name="reboot_confirmation">Uruchomić ponownie?</string>
+    <string name="reboot_recovery_confirmation">Uruchomić w trybie recovery?</string>
+    <string name="file_creating_directory">Tworzenie folderu %s…</string>
+    <string name="file_create_directory_failed">Nie można utworzyć %s</string>
+    <string name="file_writing_recovery_command">Writing recovery command…</string>
+    <string name="file_writing_recovery_command_failed">Writing recovery command failed. Please use a different installation method.</string>
+    <string name="install_warning">"W niektórych przypadkach instalacja Xposed ubija telefon.\nJeżeli nie miałeś do czynienia z \"soft brick\" lub \"bootloop\" i nie wiesz jak przywarca się po nich telefon do życia, <b>zrezygnuj</b> z instalacji Xposed!\nPrzed instalacją zaleca się zrobić pełen backup systemu. "</string>
 
     <!--  File operations -->
+    <string name="install_mode_normal">Standardowy (z poziomu telefonu)</string>
+    <string name="install_mode_recovery_auto">W Recovery (automatycznie)</string>
+    <string name="install_mode_recovery_manual">W Recovery (manualnie)</string>
     <string name="root_failed">Brak uprawnień root.\n\nUpewnij się czy urzędzenie jest prawidłowo zrootowane oraz czy uprawnienia root są włączone.</string>
     <string name="file_extract_failed">Nie można wypakować %s</string>
     <string name="file_mounting_writable">Montowanie %s jako R/W&#8230;</string>
