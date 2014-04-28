@@ -464,7 +464,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<code>224</code>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v224_99fb15.apk</download> 
 		<md5sum>99fb15e3f3586964439e75fcdbd50e13</md5sum> 
-		<changelog html="true">&lt;li&gt;Improved boot time for Mi3W&lt;/li&gt;&lt;li&gt;Fixed FC in Cleaner (Security)&lt;/li&gt;</changelog> 
+		<changelog html="true">&lt;li&gt;YOU NEED TO REINSTALL BINARIES&lt;/li&gt;&lt;li&gt;Improved boot time for Mi3W&lt;/li&gt;&lt;li&gt;Fixed FC in Cleaner (Security)&lt;/li&gt;</changelog> 
 	</version>		
 	<version>
 		<name>2.2.3</name> 
