@@ -65,8 +65,8 @@
     <string name="reboot_recovery_confirmation">Uruchomić w trybie recovery?</string>
     <string name="file_creating_directory">Tworzenie folderu %s…</string>
     <string name="file_create_directory_failed">Nie można utworzyć %s</string>
-    <string name="file_writing_recovery_command">Writing recovery command…</string>
-    <string name="file_writing_recovery_command_failed">Writing recovery command failed. Please use a different installation method.</string>
+    <string name="file_writing_recovery_command">Tworzenie komend dla recovery…</string>
+    <string name="file_writing_recovery_command_failed">Wystapił błąd podczas tworzenia komend pod Twoje recovery, spróbuj innej metody.</string>
     <string name="install_warning">"W niektórych przypadkach instalacja Xposed ubija telefon.\nJeżeli nie miałeś do czynienia z \"soft brick\" lub \"bootloop\" i nie wiesz jak przywarca się po nich telefon do życia, <b>zrezygnuj</b> z instalacji Xposed!\nPrzed instalacją zaleca się zrobić pełen backup systemu. "</string>
 
     <!--  File operations -->
