@@ -3,7 +3,9 @@
   <module package="pro.burgerz.wsm.mods.mithemes" created="1397804709" updated="1397804709">
 	<name>MiThemes</name> 
 	<summary>MIUI v5 themes app control module</summary> 
+	<summary_ru>Модуль управления менеджером тем MIUI v5</summary_ru> 
 	<description html="true">&lt;p&gt;Allows you to apply third-party themes without authorization, download premium themes from the Chinese Market without any payments, do not delete .mtz theme file after downloading (placed at /sdcard/MIUI/theme/mtz folder)&lt;/li&gt;</description> 
+	<description_ru html="true">&lt;p&gt;Позволяет применять любые темы без прохождения авторизации, загружать премиум (платные) темы бесплатно, а также не удалять .mtz файл темы после загрузки (тема останется в папке /sdcard/MIUI/theme/mtz)&lt;/li&gt;</description_ru> 
 	<author>BurgerZ</author> 
 	<version>
 		<name>2.2</name> 
@@ -11,11 +13,14 @@
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mithemes_v22_978035.apk</download> 
 		<md5sum>978035212da62367d5c6c890008e3b0b</md5sum> 
 		<changelog html="true">&lt;p&gt;Initial release at online repository&lt;/li&gt;</changelog> 
+		<changelog_ru html="true">&lt;p&gt;Релиз&lt;/li&gt;</changelog_ru> 
 	</version>
   </module>
   <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1398147654">
 	<name>Mi-Tools</name> 
+	<summary_ru>Все в одном для MIUI v5</summary_ru> 
 	<summary>MIUI v5 all in one module</summary> 
+	<description_ru html="true">&lt;p&gt;Все в одном для MIUI v5. Модуль включает в себя настройки системы, панели состояния, рабочего стола, звука, приложений и многого другого.&lt;/p&gt;</description_ru> 
 	<description html="true">&lt;p&gt;MIUI v5 all in one module. It handles framework, statusbar, launcher, sound, MIUI applications modifications.&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
 	<version>
@@ -120,6 +125,8 @@
   <module package="pro.burgerz.wsm.mods.advancedrebootmenu" created="1381218737" updated="1381218737">
 	<name>Reboot Options</name> 
 	<summary>Adds reboot options to power menu</summary> 
+	<summary_ru>Расширенное меню перезагрузки</summary_ru> 
+	<description_ru html="true">&lt;p&gt;Добавляет расширенное меню перезагрузки в меню выключения телефона.&lt;/p&gt;&lt;li&gt;Обычная перезагрузка&lt;/li&gt;&lt;li&gt;Быстрая перезагрузка&lt;/li&gt;&lt;li&gt;Загрузка в Recovery&lt;/li&gt;&lt;li&gt;Загрузка в Bootloader&lt;/li&gt;&lt;li&gt;Переключение систем (телефоны Xiaomi)&lt;/li&gt;</description_ru> 
 	<description html="true">&lt;p&gt;Adds reboot options to power menu.&lt;/p&gt;&lt;li&gt;Common reboot&lt;/li&gt;&lt;li&gt;Hot reboot&lt;/li&gt;&lt;li&gt;Reboot to Recovery&lt;/li&gt;&lt;li&gt;Reboot to Bootloader&lt;/li&gt;&lt;li&gt;Switch system (Mi-phones)&lt;/li&gt;</description> 
 	<author>BurgerZ</author> 
 	<version>
@@ -133,7 +140,9 @@
   <module package="pro.burgerz.wsm.mods.wsm_t9" created="1381218665" updated="1381218665">
 	<name>T9 Module</name> 
 	<summary>Adds international contacts search to dialer.</summary> 
+	<summary_ru>Интернациональный поиск контактов в телефоне.</summary_ru> 
 	<description html="true">&lt;p&gt;Adds international contacts (and service numbers) search to dialer. After activating rebuild T9 index in Contacts application settings&lt;/p&gt;</description> 
+	<description_ru html="true">&lt;p&gt;Исправляет поиск в режиме Т9 для русских и сервисных контактов в номеронабирателе. После включения модуля необходимо войти в настройки телефона и обновить индекс т9.&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author> 
 	<version>
 		<name>2.0</name> 
@@ -146,7 +155,9 @@
   <module package="pro.burgerz.wsm.mods.wsm_browserautofit" created="1381218579" updated="1381218579">
 	<name>Browser Autofit</name> 
 	<summary>Browser pages autofit</summary> 
+	<summary_ru>Мобильный вид в браузере</summary_ru> 
 	<description html="true">&lt;p&gt;Adds "Mobile View" to the General browser settings. This feature allows you to adjust the text on Web pages to fit the width of the screen depending on the page font size.&lt;/p&gt;</description> 
+	<description_ru html="true">&lt;p&gt;Добавляет пункт "Мобильный вид" в основные настройки браузера. Данная функция позволяет подстраивать текст на веб-страницах под ширину экрана в зависимости от размера шрифта.&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author> 
 	<version>
 		<name>2.0</name> 
@@ -216,19 +227,6 @@
         <changelog html="true"></changelog>
     </version>
   </module>  
-  <!--module package="pro.burgerz.wsm.mods.carrierlabel" created="1381229881" updated="1381229881">
-    <name>Carrier Label</name> 
-    <summary>Allows to edit your carrier label</summary> 
-    <description html="true">&lt;p&gt;Allows to edit your carrier label. Available in Settings - Status Bar - Carrier label.&lt;/p&gt;&lt;br&gt;May NOT work on some devices!&lt;/br&gt;</description> 
-    <author>BurgerZ</author>
-    <version>
-        <name>2.0</name>
-        <code>20</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.carrierlabel_v20_32dcc4.apk</download> 
-        <md5sum>32dcc4c86af57024d13b7aa995fd47a8</md5sum>
-        <changelog html="true"></changelog>
-    </version>
-  </module-->  
   <module package="pro.burgerz.wsm.mods.currenttracklaunch" created="1381232719" updated="1381232719">
     <name>Current Track Launch</name> 
     <summary>Launch the playback screen in the player</summary> 
@@ -255,19 +253,6 @@
         <changelog html="true"></changelog>
     </version>
   </module>   
-  <!--module package="pro.burgerz.wsm.mods.unitsmodule" created="1381232958" updated="1381232958">
-	<name>Units</name> 
-	<summary>Measure units for different languages (Mb, Gb etc.)</summary> 
-	<description html="true">&lt;p&gt;Allows you to change the measure units depending on the system language.&lt;/p&gt;&lt;li&gt;Status bar: network speed (K/s, m/s)&lt;/li&gt;&lt;li&gt;Task manager: freed, available memory (MB, GB)&lt;/li&gt;</description> 
-	<author>BurgerZ</author> 
-	<version>
-		<name>2.0</name> 
-		<code>20</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.unitsmodule_v20_79fb98.apk</download> 
-		<md5sum>79fb9818fea36cc00f43a02471a7eafc</md5sum> 
-		<changelog html="true"></changelog> 
-	</version>
-  </module-->
   <module package="pro.burgerz.wsm.mods.volumecontrol" created="1381232381" updated="1381232381">
     <name>Volume Control Mute</name> 
     <summary>Disables ugly BEEP sound while adjusting volume</summary> 
@@ -336,7 +321,9 @@
   <module package="pro.burgerz.wsm.mods.keyboardfix" created="1381237026" updated="1386311523">
     <name>KeyboardFix</name> 
     <summary>Fixes FC in Xperia TM keyboard</summary> 
+	<summary_ru>Исправляет FC в Xperia TM клавиатуре</summary_ru> 
     <description html="true">&lt;p&gt;Fixes FC in Xperia TM keyboard.&lt;/p&gt;</description> 
+	<description_ru html="true">&lt;p&gt;Исправляет FC в Xperia TM клавиатуре&lt;/p&gt;</description_ru> 
     <author>BurgerZ</author> 
     <version>
         <name>2.1</name>
@@ -356,8 +343,11 @@
   <module package="pro.burgerz.wsm.mods.mmsfestival" created="1381236997" updated="1381236997">
 	<name>MMS Festival</name> 
 	<summary>Russian SMS festival</summary> 
+	<summary_ru>Русские SMS-поздравления</summary_ru> 
 	<description html="true">&lt;p&gt;Replaces the Chinese online database of SMS-congratulations to Russian server miui.su.&lt;br /&gt;
 If the tab "Pre-written" is missing, it must be enabled in MMS application settings, you can update content by pressing "Menu" - "Update"&lt;/p&gt;</description> 
+	<description_ru html="true">&lt;p&gt;Заменяет китайскую онлайн базу SMS-поздравлений на русскую с сервера miui.su.&lt;br /&gt;
+Если вкладка "Поздравления" отсутствует, ее необходимо включить в дополнительных настройках сообщений, а также обновить базу, выбрав во вкладке "Поздравления" кнопку "Меню"-"Обновить".&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author> 
 	<version>
 		<name>2.1</name> 
@@ -374,51 +364,12 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<changelog html="true"></changelog> 
 	</version>
   </module>
-  <!--module package="pro.burgerz.wsm.mods.centerclock" created="1381307437" updated="1381751241">
-	<name>Center Clock</name> 
-	<summary>Allows to change statusbar clock layout</summary> 
-	<description html="true">&lt;p&gt;Allows to change statusbar clock layout. All available mods you can find in module settings.&lt;br /&gt;NOTE: May not work on unofficial and 2-SIM devices!&lt;/p&gt;</description> 
-	<author>BurgerZ</author> 
-        <version>
-        <name>1.4</name>
-        <code>14</code>
-        <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.centerclock_v14_c607b1.apk</download> 
-        <md5sum>c607b1141482d16a8c4d11dfe9339798</md5sum>
-        <changelog html="false">&lt;li&gt;Fix MiuiSystemUI FC on all layouts&lt;/li&gt;</changelog>
-    </version>
-	<version>
-		<name>1.3</name> 
-		<code>13</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.centerclock_v13_f2592f.apk</download> 
-		<md5sum>f2592f4a77211bd0b039cd609f5ad425</md5sum> 
-		<changelog html="true">&lt;li&gt;Added iOS7 layout with percentage battery&lt;/li&gt;&lt;li&gt;Small fixes&lt;/li&gt;</changelog> 
-	</version>
-	<version>
-		<name>1.2</name> 
-		<code>12</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.centerclock_v12_e692bc.apk</download> 
-		<md5sum>e692bced4bd6911096af9f636a1064d4</md5sum> 
-		<changelog html="true">&lt;li&gt;Added screenshots for layouts&lt;/li&gt;&lt;li&gt;Small fixes&lt;/li&gt;</changelog> 
-	</version>
-	<version>
-		<name>1.1</name> 
-		<code>11</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.centerclock_v11_9fe250.apk</download> 
-		<md5sum>9fe250c316740082790218049e32ac16</md5sum> 
-		<changelog html="true">&lt;li&gt;Fixed layouts&lt;/li&gt;</changelog> 
-	</version>
-	<version>
-		<name>1.0</name> 
-		<code>10</code> 
-		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.centerclock_v10_c9a9c9.apk</download> 
-		<md5sum>c9a9c948948e36561580aa2b44e8292d</md5sum> 
-		<changelog html="true"></changelog> 
-	</version>
-  </module-->
   <module package="pro.burgerz.wsm.mods.holidaysmodule" created="1381313997" updated="1381313997">
 	<name>Holidays</name> 
-	<summary>Russian, Ukrainian holidays for calendar and alarm</summary> 
+	<summary>Holidays for calendar and alarm</summary> 
+	<summary_ru>Выбор праздников для календаря и будильника</summary_ru> 
 	<description html="true">&lt;p&gt;Adds the ability to select the settings of holidays in calendar.&lt;/p&gt;&lt;br&gt;In module settings available servers are: miui.com, romz.bz and miui.su.&lt;/br&gt;&lt;br&gt;Available holidays:&lt;/br&gt;&lt;br /&gt;&lt;li&gt;Original (Chinese)&lt;/li&gt;&lt;li&gt;Russian&lt;/li&gt;&lt;li&gt;Ukrainian&lt;/li&gt;</description> 
+	<description_ru html="true">&lt;p&gt;Добавляет возможность выбирать праздники в основных настройках календаря.&lt;/p&gt;&lt;br&gt;Пока доступны сервера: miui.com, romz.bz и miui.su.&lt;/br&gt;&lt;br&gt;Праздники:&lt;/br&gt;&lt;br /&gt;&lt;li&gt;Оригинальные (Китай)&lt;/li&gt;&lt;li&gt;Россия&lt;/li&gt;&lt;li&gt;Украина&lt;/li&gt;</description_ru> 
 	<author>BurgerZ</author> 
 	<version>
 		<name>1.2</name> 
@@ -431,7 +382,9 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
   <module package="pro.burgerz.wsm.mods.networklocationfix" created="1381753545" updated="1381753545">
 	<name>NetworkLocation fix</name> 
 	<summary>NetworkLocation update time fix</summary> 
+	<summary_ru>Исправление времени обновления координат устройства</summary_ru> 
 	<description html="true">&lt;p&gt;Changes wakelock minimum update interval from 20 seconds to much more value.&lt;br /&gt;This mod reduces battery drain.&lt;/p&gt;</description> 
+	<description_ru html="true">&lt;p&gt;Изменяет минимальный интервал пробуждения устройства для определения координат (расписание NetworkLocation) с 20 секунд на более высокое значение.&lt;br /&gt;Этот мод уменьшает потребление батареи сервисами геолокации.&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author> 
 	<version>
 		<name>1.0</name> 
@@ -444,7 +397,9 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
   <module package="pro.burgerz.wsm.mods.updaterreplacement" created="1381830478" updated="1381830478">
 	<name>Updater Replacement</name> 
 	<summary>Choose the app to start from "About phone" screen</summary> 
+	<summary_ru>Приложение, запускаемое нажатием на "Обновление системы" в меню "О телефоне"</summary_ru> 
 	<description html="true">&lt;p&gt;Choose the application to start from "About phone" screen by clicking on "System updates" button.&lt;/p&gt;</description> 
+	<description_ru html="true">&lt;p&gt;Позволяет выбрать свое приложение, запускаемое нажатием на "Обновление системы" в меню "Настройки" - "О телефоне". Модуль для некоторых покажется бесполезным, я его делал по просьбе одного из пользователей&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author> 
 	<version>
 		<name>1.0</name> 
@@ -457,7 +412,9 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
   <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1398668777">
 	<name>WSM tools</name> 
 	<summary>This is the installer and manager for the Xposed framework, which is a requirement for all modules</summary> 
-	<description html="true">&lt;p&gt;This is the installer for the Xposed framework, which is a requirement for all modules.&lt;/p&gt;&lt;p&gt;This framework is based on rovo89\'s Xposed framework. Like an original project it is a framework for modules that can change the behavior of the system and apps without touching any APKs&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note that this only works with root access on Android 4.0.3 or later.&lt;/b&gt;&lt;/p&gt;</description> 
+	<summary_ru>Установщик и менеджер фреймворка Xposed, который нужен для работы всех модулей</summary_ru> 
+	<description html="true">&lt;p&gt;This is the installer for the Xposed framework, which is a requirement for all modules.&lt;/p&gt;&lt;p&gt;This framework is based on rovo89's Xposed framework. Like an original project it is a framework for modules that can change the behavior of the system and apps without touching any APKs&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note that this only works with root access on Android 4.0.3 or later.&lt;/b&gt;&lt;/p&gt;</description> 
+	<description_ru html="true">&lt;p&gt;Установщик и менеджер фреймворка Xposed, который нужен для работы всех модулей&lt;/p&gt;&lt;p&gt;Автором оригинального Xposed фреймворка является rovo89. Данный фреймворк нужен для работы так называемых модулей, приложений, которые позволяют изменять системные и пользовательские приложения без прямого вмешательства в сами приложения (apk и jar файлы)&lt;/p&gt;&lt;p&gt;&lt;b&gt;Внимание: работает только на Android 4.0.3 или выше. Для работы необходимы root права.&lt;/b&gt;&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author>
 	<version>
 		<name>2.2.4</name> 
@@ -465,6 +422,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v224_99fb15.apk</download> 
 		<md5sum>99fb15e3f3586964439e75fcdbd50e13</md5sum> 
 		<changelog html="true">&lt;li&gt;YOU NEED TO REINSTALL BINARIES&lt;/li&gt;&lt;li&gt;Improved boot time for Mi3W&lt;/li&gt;&lt;li&gt;Fixed FC in Cleaner (Security)&lt;/li&gt;</changelog> 
+		<changelog_ru html="true">&lt;li&gt;НЕОБХОДИМО ПЕРЕУСТАНОВИТЬ БИНАРНИКИ!&lt;/li&gt;&lt;li&gt;Увеличена скорость загрузки для Mi3W&lt;/li&gt;&lt;li&gt;Исправлен FC в Очистке (Безопасность)&lt;/li&gt;</changelog_ru> 
 	</version>		
 	<version>
 		<name>2.2.3</name> 
