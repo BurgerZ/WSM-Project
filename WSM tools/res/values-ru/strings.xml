@@ -23,6 +23,7 @@
     <string name="pref_manage_summary">Установка, Обновление, Удаление</string>
     <string name="pref_repositories_alert">Некоторые модули Xposed могут не работать или стать причиной того, что ваш телефон не сможет загрузиться!\nИспользуйте их на ваш страх и риск!</string>
     <string name="pref_repositories_title">Выбор репозитория</string>
+    <string name="pref_install_mode">Режим установки</string>
     <string name="pref_show_hidden_modules_title">Показывать скрытые</string>
     <string name="pref_show_hidden_modules_summary">Отображение скрытых модулей</string>
     <string name="pref_show_logs_tab_title">Вкладка логов</string>
@@ -57,6 +58,23 @@
     <string name="installer_phone_not_compatible">WSM (пока) не совместим с версией Android SDK %1$d или архитектурой процессора (%2$s)</string>
     <string name="installer_not_tested_but_compatible">WSM не был протестирован с Android SDK версии %d, но может быть совместим. Вы можете попробовать его установить, если вы хотите приключений</string>
     <string name="reboot_failed">Произошла ошибка. Пожалуйста, воспользуйтесь перезагрузкой из меню выключения телефона.</string>
+    <string name="reboot">Перезагрузка</string>
+    <string name="auto_flash_note">%s будет установлен автоматически после нажатия кнопки "OK".</string>
+    <string name="manual_flash_note">Пожалуйста, установите %s с SD карты для завершения операции.</string>
+    <string name="reboot_confirmation">Перезагрузить устройство сейчас?</string>
+    <string name="reboot_recovery_confirmation">Загрузить режим Recovery сейчас?</string>
+    <string name="file_creating_directory">Создание директории %s…</string>
+    <string name="file_create_directory_failed">Невозможно создать директорию %s</string>
+    <string name="file_writing_recovery_command">Запись команды Recovery…</string>
+    <string name="file_writing_recovery_command_failed">Запись команды Recovery завершена с ошибками. Пожалуйста, используйте другой способ установки.</string>
+    <string name="install_warning">
+    В некоторых случаях ваше устройство может не загрузиться после установки WSM (Xposed).\n\nЕсли вы не сталкивались с \"окирпичиванием\" и \"бутлупом\" до этого или вы не знаете, как вывести ваше устройство из таких состояний, то
+    <b>НЕ</b>
+    устанавливайте WSM (Xposed)!\n\nВ любом случае, наличие резервной копии будет не лишним.
+    </string>
+    <string name="install_mode_normal">Обычный (запись в /system)</string>
+    <string name="install_mode_recovery_auto">Recovery (автоматический)</string>
+    <string name="install_mode_recovery_manual">Recovery (выбор zip вручную)</string>
 
     <!--  File operations -->
     <string name="root_failed">Ошибка получения root-доступа.\n\nУбедитесь, что ваше устройство имеет root доступ.</string>

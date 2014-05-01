@@ -152,7 +152,11 @@
         <item>Cellcom</item>
         <item>China Mobile</item>
         <item>China Mobile</item>
+        <item>Chunghwa Telecom</item>
+        <item>Chunghwa Telecom</item>
         <item>Clever</item>
+        <item>FETNet</item>
+        <item>FETNet</item>
         <item>Golan Telecom</item>
         <item>HOT Mobile</item>
         <item>HOT Mobile</item>
@@ -192,6 +196,7 @@
         <item>Snapdragon</item>
         <item>Sprint</item>
         <item>Sprint</item>   
+        <item>Taiwan Mobile</item>
         <item>Tata DOCOMO</item>
         <item>Tata DOCOMO</item>    
         <item>Tele2</item>
@@ -241,7 +246,11 @@
         <item>carrier_color_cellcom</item>
         <item>carrier_white_china_mobile</item>
         <item>carrier_color_china_mobile</item>
+        <item>carrier_white_chunghwatelecom</item>
+        <item>carrier_color_chunghwatelecom</item>
         <item>carrier_white_clever</item>
+        <item>carrier_white_fetnet</item>
+        <item>carrier_color_white_fetnet</item>
         <item>carrier_color_golantelecom</item>
         <item>carrier_color_hotmobile_white</item>
         <item>carrier_color_hotmobile</item>
@@ -281,6 +290,7 @@
         <item>carrier_color_snapdragon</item> 
         <item>carrier_white_sprint</item>
         <item>carrier_color_sprint</item>
+        <item>carrier_color_taiwanmobile</item>
         <item>carrier_white_tata_docomo</item>
         <item>carrier_color_tata_docomo</item>        
         <item>carrier_white_tele2</item>
@@ -330,7 +340,11 @@
         <item>@drawable/carrier_color_cellcom</item>
         <item>@drawable/carrier_white_china_mobile</item>
         <item>@drawable/carrier_color_china_mobile</item>
+        <item>@drawable/carrier_white_chunghwatelecom</item>
+        <item>@drawable/carrier_color_chunghwatelecom</item>
         <item>@drawable/carrier_white_clever</item>
+        <item>@drawable/carrier_white_fetnet</item>
+        <item>@drawable/carrier_color_white_fetnet</item>
         <item>@drawable/carrier_color_golantelecom</item>
         <item>@drawable/carrier_color_hotmobile_white</item>
         <item>@drawable/carrier_color_hotmobile</item>
@@ -369,7 +383,8 @@
         <item>@drawable/carrier_white_snapdragon</item>
         <item>@drawable/carrier_color_snapdragon</item>
         <item>@drawable/carrier_white_sprint</item>   
-        <item>@drawable/carrier_color_sprint</item>   
+        <item>@drawable/carrier_color_sprint</item>
+        <item>@drawable/carrier_color_taiwanmobile</item>
         <item>@drawable/carrier_white_tata_docomo</item>
         <item>@drawable/carrier_color_tata_docomo</item>       
         <item>@drawable/carrier_white_tele2</item>

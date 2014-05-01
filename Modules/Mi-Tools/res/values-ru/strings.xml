@@ -139,6 +139,7 @@
     <string name="use_own_carrier_logo_summary">Возможность выбрать свой логотип оператора (.png)</string>
     <string name="own_carrier_logo">Выбор своего логотипа</string>
     <string name="own_carrier_logo_summary">%s</string>
+    <string name="own_carrier_logo_2">Выбор своего логотипа 2</string>
     <string name="signal_bars_color">Цвет индикатора сети</string>
     <string name="signal_bars_color_summary">Выбор цвета иконок индикатора уровня сигнала мобильной сети</string>
     <string name="signal_bars_color_2">Цвет индикатора сети 2</string>
@@ -351,4 +352,6 @@
     <string name="app_miuigallery">Галерея</string>
     <string name="cloud_upload_delay">Задержка синхронизации</string>
     <string name="cloud_upload_delay_summary">Задержка перез загрузкой новых фото в облако MiCloud.\n%s</string>
+    <string name="gallery_old_videoplayer">Использовать MiuiVideoPlayer для видео</string>
+    <string name="gallery_old_videoplayer_summary">MiuiVideoPlayer.apk должен быть в папке /system/app</string>
 </resources>

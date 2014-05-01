@@ -277,7 +277,7 @@
     <!-- Phone -->
     <string name="app_phone">Telefon</string>
     <string name="national_roaming">Krajowy roaming</string>
-    <string name="national_roaming_summary">Podłącza do usług transmisji danych w roamingu krajowym</string
+    <string name="national_roaming_summary">Podłącza do usług transmisji danych w roamingu krajowym</string>
     <!-- MMS -->
     <string name="app_mms">Wiadomości</string>
     <string name="disable_sms_to_mms_conversion">Zezwól na długie SMSy</string>

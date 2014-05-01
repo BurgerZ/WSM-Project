@@ -139,6 +139,7 @@
     <string name="use_own_carrier_logo_summary">You will be able to select your own carrier logo</string>
     <string name="own_carrier_logo">Select your own logo</string>
     <string name="own_carrier_logo_summary">%s</string>
+    <string name="own_carrier_logo_2">Select your own logo 2</string>
     <string name="signal_bars_color">Signal bars color</string>
     <string name="signal_bars_color_summary">Set mobile network signal bars color</string>
     <string name="signal_bars_color_2">Signal bars color 2</string>
@@ -351,4 +352,6 @@
     <string name="app_miuigallery">Gallery</string>
     <string name="cloud_upload_delay">Cloud upload delay</string>
     <string name="cloud_upload_delay_summary">Delay time before uploading new photo to MiCloud.\n%s</string>
+    <string name="gallery_old_videoplayer">Use MiuiVideoPlayer for video</string>
+    <string name="gallery_old_videoplayer_summary">MiuiVideoPlayer.apk must be in the /system/app folder</string>
 </resources>

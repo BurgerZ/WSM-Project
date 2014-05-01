@@ -23,6 +23,7 @@
     <string name="pref_manage_summary">Install, Update, Delete</string>
     <string name="pref_repositories_alert">Some Xposed modules may not work or make your phone not bootable!\nUse them on your own risk!</string>
     <string name="pref_repositories_title">Select repositories</string>
+    <string name="pref_install_mode">Installation mode</string>
     <string name="pref_show_hidden_modules_title">Show hidden modules</string>
     <string name="pref_show_hidden_modules_summary">Show hidden modules in list</string>
     <string name="pref_show_logs_tab_title">Show logs tab</string>
@@ -58,6 +59,23 @@
     <string name="installer_not_tested_but_compatible">WSM has not been tested with Android SDK version %d, but it seems to be compatible. You can try installing it if you feel adventurous.</string>
     <string name="installer_rom_update"></string>
     <string name="reboot_failed">Reboot failed. Please use the device\'s normal reboot function.</string>
+    <string name="reboot">Reboot</string>
+    <string name="auto_flash_note">%s should be flashed automatically once you press "OK".</string>
+    <string name="manual_flash_note">Please flash %s from the SD card to complete the operation.</string>
+    <string name="reboot_confirmation">Do you want to reboot now?</string>
+    <string name="reboot_recovery_confirmation">Do you want to reboot to recovery now?</string>
+    <string name="file_creating_directory">Creating directory %s…</string>
+    <string name="file_create_directory_failed">Could not create directory %s</string>
+    <string name="file_writing_recovery_command">Writing recovery command…</string>
+    <string name="file_writing_recovery_command_failed">Writing recovery command failed. Please use a different installation method.</string>
+    <string name="install_warning">
+    In some cases, your device might no longer boot after installing Xposed.\n\nIf you never heard about \"soft brick\" and \"bootloop\" before or if you don\'t know how to recover from such a situation, do
+    <b>NOT</b>
+    install Xposed!\n\nIn any case, having a recent backup is highly recommended.
+    </string>
+    <string name="install_mode_normal">Normal (write to /system directly)</string>
+    <string name="install_mode_recovery_auto">Recovery (flash zip automatically)</string>
+    <string name="install_mode_recovery_manual">Recovery (write zip to SD card, flash manually)</string>
 
     <!--  File operations -->
     <string name="root_failed">Failed to get root access.\n\nMake sure your device is rooted properly and you have not blocked shell commands.</string>
