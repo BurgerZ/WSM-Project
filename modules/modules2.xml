@@ -1,12 +1,12 @@
 <repository>
   <name>WSM repository</name>
   <module package="net.temna.extc.miui.ru" created="1399019862" updated="1399019862">
-	<name>MIUI Russian Translation</name> 
+	<name>EXTC Project</name> 
 	<summary>Russian translations of MIUI Android ROM</summary> 
 	<summary_ru>Перевод MIUI Android ROM на Русский</summary_ru> 
 	<description html="true">&lt;p&gt;Russian translations of MIUI Android ROM (public test version).&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Перевод MIUI Android ROM на Русский (публичная тестовая версия).&lt;br /&gt;Все вопросы задавайте через обратную связь на http://miui.ru/extc.php&lt;/p&gt;</description_ru> 
-	<author>miui.ru</author> 
+	<author>Xenon007</author> 
     <moreinfo label="Support" role="support">http://miui.ru/extc.php</moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>
