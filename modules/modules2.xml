@@ -1,5 +1,24 @@
 <repository>
   <name>WSM repository</name>
+  <module package="net.temna.extc.miui.ru" created="1399019862" updated="1399019862">
+	<name>MIUI Russian Translation</name> 
+	<summary>Russian translations of MIUI Android ROM</summary> 
+	<summary_ru>Перевод MIUI Android ROM на Русский</summary_ru> 
+	<description html="true">&lt;p&gt;Russian translations of MIUI Android ROM (public test version).&lt;/p&gt;</description> 
+	<description_ru html="true">&lt;p&gt;Перевод MIUI Android ROM на Русский (публичная тестовая версия).&lt;br /&gt;Все вопросы задавайте через обратную связь на http://miui.ru/extc.php&lt;/p&gt;</description_ru> 
+	<author>miui.ru</author> 
+    <moreinfo label="Support" role="support">http://miui.ru/extc.php</moreinfo>
+    <moreinfo label="Source"></moreinfo>
+    <moreinfo label="Repository"></moreinfo>
+	<version>
+		<name>1.4.4.18.777f</name> 
+		<code>14418777</code> 
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/net.temna.extc.miui.ru_v14418777_0e9449.apk</download> 
+		<md5sum>0e9449171fb838743f932388b9437b2c</md5sum> 
+		<changelog html="true">&lt;p&gt;Initial release at online repository&lt;/p&gt;</changelog> 
+		<changelog_ru html="true">&lt;p&gt;Релиз&lt;/p&gt;</changelog_ru> 
+	</version>
+  </module>
   <module package="pro.burgerz.wsm.mods.mithemes" created="1397804709" updated="1397804709">
 	<name>MiThemes</name> 
 	<summary>MIUI v5 themes app control module</summary> 
