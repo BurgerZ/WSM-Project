@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="act_title_about">Čo to je</string>
+    <string name="act_title_about">O aplikácií</string>
     <string name="act_title_installer">Spravovať</string>
     <string name="act_title_settings">Nastavenia</string>
+    <string name="act_title_whatsnew">Čo je nové</string>
     <string name="app_name">WSM tools</string>
     <string name="apply">Použiť</string>
     <string name="author">Autor</string>
+    <string name="auto_flash_note">%s by malo byť nainštalované automaticky po potvrdení "OK".</string>
     <string name="bottom_bar_btn_reboot">Reštart</string>
     <string name="bottom_bar_btn_refresh">Aktualizovať</string>
     <string name="bottom_bar_btn_settings">Nastavenia</string>
+    <string name="bottom_bar_btn_whatsnew">Čo je nové</string>
     <string name="branch_display">(%s vetva)</string>
     <string name="btnDeleteModule">Vymazať</string>
     <string name="changes">Zmeny:</string>
@@ -18,7 +21,17 @@
     <string name="dialog_are_you_sure">Ste si istý?</string>
     <string name="dialog_phone_will_be_rebooted">Telefón sa reštartuje</string>
     <string name="dialog_progress_updating">Aktualizácia...</string>
-    <string name="dialog_update_available">Je dostupná nová verzia WSM tools.\nNainštalovaná: %1$s\nDostupná: %2$s\nPo nainštalovaní novej verzie choďte do Nastavenia - Spravovať WSM a skontrolujte či je potrebné aktualizovať "binary".</string>
+
+    <string name="dialog_update_available">Je dostupná nová verzia WSM tools.\nNainštalovaná: %1$s\nDostupná: %2$s\nPo nainštalovaní novej verzie choďte do Nastavenia - Spravovať WSM a skontrolujte či je potrebné aktualizovať binárne súbory.</string>
+    <string name="donate">Príspevok</string>
+    <string name="donations_button_close">Zatvoriť</string>
+
+    <string name="donations_description">Je pre vás táto aplikácia užitočná?\nPodporte jej vývoj odoslaním malého príspevku vývojárom!</string>
+    <string name="donations_paypal">PayPal</string>
+    <string name="donations_paypal_description">Môžete si zvoliť koľko chcete prispieť po stlačení tlačidla!</string>
+    <string name="donations_thanks_dialog">Ďakujeme za príspevok!\nVážime si vašej podpory!</string>
+    <string name="donations_thanks_dialog_title">Ďakujeme!</string>
+
     <string name="download_author">od %s</string>
     <string name="download_could_not_read_file">Nie je možné načítať stiahnutý súbor: %s</string>
     <string name="download_incorrect_package_name">Názov balíčka nie je správny (stiahnuté: %1$s, očakávané: %2$s)</string>
@@ -48,19 +61,57 @@
     <string name="download_view_running">Prebieha sťahovanie (%1$,d z %2$,d kB)</string>
     <string name="download_view_successful">Sťahovanie dokončené</string>
     <string name="download_view_waiting">Čaká na stiahnutie</string>
+    <string name="file_backup_already_exists">Záloha už exituje v %s</string>
+    <string name="file_backup_failed">Vytváranie zálohy %s zlyhalo</string>
+    <string name="file_backup_not_found">Žiadna záloha v %s</string>
+    <string name="file_backup_restoring">Obnovovanie zálohy z %s</string>
+    <string name="file_backup_successful">Záloha v %s je hotová</string>
+    <string name="file_copy_failed">Nie je možné skopírovať %1$s do %2$s</string>
+    <string name="file_copying">Kopírovanie %s&#8230;</string>
+    <string name="file_create_directory_failed">Nie je možné vytvoriť zložku %s</string>
+    <string name="file_creating_directory">Vytváranie zložky %s…</string>
+    <string name="file_done">Hotovo! Zmeny sa prejavia po reštarte zariadenia.</string>
+    <string name="file_extract_failed">Nie je možné rozbaliť %s</string>
+    <string name="file_mount_writable_failed">Nie je možné zapisovať na %s</string>
+    <string name="file_mounting_writable">Zapisovanie do %s&#8230;</string>
+    <string name="file_move_failed">Nie je možné presunúť %1$s do %2$s</string>
+    <string name="file_remove_failed">Nie je možné odstrániť %s</string>
+    <string name="file_removing">Odstraňovanie %s&#8230;</string>
+    <string name="file_set_owner_failed">Nie je možné nastaviť správcu pre %s</string>
+    <string name="file_set_perms_failed">Nie je možné nastaviť práva pre %s</string>
+    <string name="file_trying_to_continue">Pokus o pokračovanie&#8230;</string>
+    <string name="file_writing_recovery_command">Zapisovanie príkazov pre recovery…</string>
+    <string name="file_writing_recovery_command_failed">Zapisovanie príkazov pre recovery zlyhalo. Použite iný spôsob inštalácie.</string>
+    <string name="fragment_logs">Záznamy</string>
     <string name="fragment_modules">Moduly</string>
     <string name="fragment_online">Online</string>
     <string name="graphics">Grafika</string>
+    <string name="information_faq">Informácia</string>
+    <string name="information_faq_summary">F.A.Q., preklady, zásluhy, pomoc</string>
+    <string name="install_mode_normal">Normálne (zapísať priamo do /system)</string>
+    <string name="install_mode_recovery_auto">Recovery (nainštalovať zip automaticky)</string>
+    <string name="install_mode_recovery_manual">Recovery (zapísať zip na SD kartu, nainštalovať manuálne)</string>
+    <string name="install_warning">
+    V niektorých prípadoch, vaše zariadenie už nemusí nabehnúť po inštalácií Xposed.\n\nAk ste nikdy nepočuli o \"soft brick\" a \"bootloop\" alebo neviete ako oživiť váše zariadenie,
+    <b>NEINŠTALUJTE</b>
+    Xposed!\n\nV každom prípade záloha vášho zariadenia je nutná.
+    </string>
     <string name="installer_bundled_version">ZBALENÁ VERZIA</string>
     <string name="installer_install">Inštalovať</string>
     <string name="installer_installed_version">NAINŠTALOVANÁ VERZIA</string>
+    <string name="installer_log">ZÁZNAM</string>
     <string name="installer_not_tested_but_compatible">WSM nebolo testované s verziou Android SDK %d ale vyzerá, že bude fungovať. Ak sa na to cítite môžete ho skúsiť nainštalovať.</string>
     <string name="installer_phone_not_compatible">WSM nie je (momentálne) kompatibilné s verziou Android SDK %1$d alebo Vašou architektúrou CPU (%2$s).</string>
     <string name="installer_reboot">Reštart</string>
     <string name="installer_rom_update"/>
     <string name="installer_uninstall">Odinštalovať</string>
     <string name="installer_versions">VERZIE:</string>
+    <string name="logs_load_failed">Nie je možné načítať záznam:</string>
+    <string name="logs_save_failed">Nie je možné zapísať záznam na SD kartu:</string>
+    <string name="manual_flash_note">Nainštalujte zip %s z SD karty pre dokončenie inštalácie.</string>
+    <string name="menu_save_to_sdcard">Uložiť na SD kartu</string>
     <string name="menu_select_all">Vybrať všetko</string>
+    <string name="menu_send">Odoslať</string>
     <string name="menu_unselect_all">Odznačiť</string>
     <string name="module_description">Popis modulu</string>
     <string name="module_empty_description">(popis nie je dostupný)</string>
@@ -76,21 +127,31 @@
     <string name="pref_about_title">Čo to je</string>
     <string name="pref_feedback_summary">Odoslať odozvu, návrh na modul, atď...</string>
     <string name="pref_feedback_title">Odozva</string>
+    <string name="pref_install_mode">Režim inštalácie</string>
     <string name="pref_manage_summary">Inštalovať, Aktualizovať, Vymazať</string>
     <string name="pref_manage_title">Spravovať WSM</string>
     <string name="pref_repositories_alert">Niektoré Xposed moduly nemusia fungovať správne a môžu spôsobiť nefunkčnosť systému!\nIch použitie je na vlastné riziko!</string>
     <string name="pref_repositories_title">Vybrať repozitár</string>
     <string name="pref_show_hidden_modules_summary">Zobraziť skryté moduly v zozname</string>
     <string name="pref_show_hidden_modules_title">Zobraziť skryté moduly</string>
+    <string name="pref_show_logs_tab_summary">Zobraziť kartu záznamov framework</string>
+    <string name="pref_show_logs_tab_title">Zobraziť kartu záznamov</string>
     <string name="pref_show_module_info_summary">Zobraziť info o module pri dotyku na ikonu</string>
     <string name="pref_show_module_info_title">Zobraziť info o module</string>
     <string name="pref_system_toasts_summary">Zobraziť systémové upozornenia WSM</string>
     <string name="pref_system_toasts_title">Systémové upozornenia</string>
+    <string name="reboot">Reštart</string>
+    <string name="reboot_confirmation">Chcete reštartovať?</string>
+    <string name="reboot_failed">Reštart zlyhal. Použite bežný spôsob pre reštartovanie zariadenia.</string>
+    <string name="reboot_recovery_confirmation">Chcete reštartovať do Recovery?</string>
     <string name="repo_download_failed">Sťahovanie %1$s zlyhalo: %2$s</string>
     <string name="repo_download_failed_http">Sťahovanie %1$s zlyhalo: %2$d (%3$s)</string>
     <string name="repo_load_failed">Nie je možné načítať repozitár od %1$s:\n%2$s</string>
+    <string name="root_failed">Získanie práv ROOT zlyhalo.\n\nUistite sa, že máte povolený ROOT v nastaveniach.</string>
+    <string name="sdcard_not_writable">SD karta sa nenašla alebo nie je možné na ňu zapisovať</string>
     <string name="versions_wsm_tools">Verzia WSM tools</string>
     <string name="warning_min_version_too_low">Tento modul bol vytvorený pre verziu WSM %1$s, ale kvôli zmenám vo verzii %2$s je nekompatibilný a bol deaktivovaný.</string>
     <string name="warning_wsm_min_version">Tento modul vyžaduje WSM %s, takže ho nie je možné aktivovať.</string>
+	<string name="whatsnew_changelog">Zoznam zmien:</string>
     <string name="wsm_module_list_updated">Zoznam WSM modulov bol aktualizovaný\nZmeny sa prejavia až po reštarte telefónu</string>
 </resources>
