@@ -13,6 +13,7 @@
 	<version>
 		<name>1.4.4.18.777f</name> 
 		<code>14418777</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/net.temna.extc.miui.ru_v14418777_0e9449.apk</download> 
 		<md5sum>0e9449171fb838743f932388b9437b2c</md5sum> 
 		<changelog html="true">&lt;p&gt;Initial release at online repository&lt;/p&gt;</changelog> 
@@ -26,9 +27,13 @@
 	<description html="true">&lt;p&gt;Allows you to apply third-party themes without authorization, download premium themes from the Chinese Market without any payments, do not delete .mtz theme file after downloading (placed at /sdcard/MIUI/theme/mtz folder)&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Позволяет применять любые темы без прохождения авторизации, загружать премиум (платные) темы бесплатно, а также не удалять .mtz файл темы после загрузки (тема останется в папке /sdcard/MIUI/theme/mtz)&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author> 
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+    <moreinfo label="Source"></moreinfo>
+    <moreinfo label="Repository"></moreinfo>
 	<version>
 		<name>2.2</name> 
-		<code>22</code> 
+		<code>22</code>  
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mithemes_v22_978035.apk</download> 
 		<md5sum>978035212da62367d5c6c890008e3b0b</md5sum> 
 		<changelog html="true">&lt;p&gt;Initial release at online repository&lt;/p&gt;</changelog> 
@@ -42,9 +47,13 @@
 	<description_ru html="true">&lt;p&gt;Все в одном для MIUI v5. Модуль включает в себя настройки системы, панели состояния, рабочего стола, звука, приложений и многого другого.&lt;/p&gt;</description_ru> 
 	<description html="true">&lt;p&gt;MIUI v5 all in one module. It handles framework, statusbar, launcher, sound, MIUI applications modifications.&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+    <moreinfo label="Source"></moreinfo>
+    <moreinfo label="Repository"></moreinfo>
 	<version>
 		<name>2.0.1</name> 
 		<code>201</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v201_781255.apk</download> 
 		<md5sum>781255cb18bc61f8805530041fe457c7</md5sum> 
 		<changelog html="true">&lt;li&gt;Applications: fixed notification bubbles FC. Now you can load the list of all installed (and system) apps and select your own set of applications to show bubbles on their icons.&lt;/li&gt;</changelog> 
@@ -52,6 +61,7 @@
 	<version>
 		<name>2.0.0</name> 
 		<code>200</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v200_a18c10.apk</download> 
 		<md5sum>a18c1026d0d5cebf93bef2d3c28e495a</md5sum> 
 		<changelog html="true">&lt;li&gt;Applications: added notification bubbles config file to /sdcard/MIUI/MiTools/bubbleapps.json&lt;/li&gt;&lt;li&gt;Buttons: fixed cursor control via volume keys in text fields&lt;/li&gt;&lt;li&gt;Buttons: fixed double click on MENU functionality for MIUI 4.4.4&lt;/li&gt;&lt;li&gt;Statusbar: now you can choose your own logos from SD card&lt;/li&gt;</changelog> 
@@ -59,6 +69,7 @@
 	<version>
 		<name>1.9.2</name> 
 		<code>192</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v192_1780bb.apk</download> 
 		<md5sum>1780bba8b5c40be1648394a582d3aaf7</md5sum> 
 		<changelog html="true">&lt;li&gt;Applications: added notification bubbles for Robird, Gmail, Facebook, Google Play Market, imo.im, WhatsApp, VKontakte, Twitter&lt;/li&gt;&lt;li&gt;Applications: added national roaming&lt;/li&gt;&lt;li&gt;Statusbar: added Taiwan Mobile, Chunghwa Telecom and FETnet  logos&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
@@ -66,6 +77,7 @@
 	<version>
 		<name>1.9.1</name> 
 		<code>191</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v191_13c4e2.apk</download> 
 		<md5sum>13c4e23d0a519f8b0815f80193de715f</md5sum> 
 		<changelog html="true">&lt;li&gt;Fixed bugs&lt;/li&gt;&lt;li&gt;System (framework): added Screenshot option switch&lt;/li&gt;&lt;li&gt;Statusbar: added O2, Tata DOCOMO, Airtel, new Mi-Tools logo, Telfort, Apple, BeatsAudio, TM CELL, Telenor, Wu-Tang, Batman, Skullcandy, O12, Cellcom, Golan Telecom, HOT Mobile, Orange, Pelephone, YouPhone, 3mob  logos&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
@@ -73,6 +85,7 @@
 	<version>
 		<name>1.9.0</name> 
 		<code>190</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v190_184b21.apk</download> 
 		<md5sum>184b2179f51cacf2033e0a432469124b</md5sum> 
 		<changelog html="true">&lt;li&gt;System (framework): added Screenshot option to power menu&lt;/li&gt;&lt;li&gt;Applications: added notification bubbles (on the app icon) option&lt;/li&gt;&lt;li&gt;Statusbar: added Axis carrier logos&lt;/li&gt;&lt;li&gt;Statusbar: added Telecom Italia Mobile (TIM) carrier logos&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
@@ -80,6 +93,7 @@
 	<version>
 		<name>1.8</name> 
 		<code>18</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v18_0f4dc2.apk</download> 
 		<md5sum>0f4dc2da3c5a323a97670f18a19e96b5</md5sum> 
 		<changelog html="true">&lt;li&gt;Statusbar: added China Telecom logos&lt;/li&gt;&lt;li&gt;Sound: enabled volume steps settings for multimedia (others disabled)&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
@@ -87,6 +101,7 @@
 	<version>
 		<name>1.7</name> 
 		<code>17</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v17_25e54e.apk</download> 
 		<md5sum>25e54ef2ee86a89606eb80d3e20aba66</md5sum> 
 		<changelog html="true">&lt;li&gt;Statusbar: fixed color settings for all statusbar icons&lt;/li&gt;&lt;li&gt;Launcher: added color settings for icons/folder labels&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
@@ -94,6 +109,7 @@
 	<version>
 		<name>1.6</name> 
 		<code>16</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v16_aa4483.apk</download> 
 		<md5sum>aa44831003e892a9ef30d5293c39e1b1</md5sum> 
 		<changelog html="true">&lt;li&gt;Sound: added option to unlink Ringtone and Notifications volume controls&lt;/li&gt;&lt;li&gt;Statusbar: added battery icon color settings&lt;/li&gt;&lt;li&gt;Statusbar: added color settings for all statusbar icons (test mode)&lt;/li&gt;&lt;li&gt;Statusbar: fixed network speed view in expanded statusbar (now it shows not Rx speed, but Rx+Tx speed)&lt;/li&gt;&lt;li&gt;Statusbar: added format settings for clock date&lt;/li&gt;&lt;li&gt;Statusbar: fixed am/pm handling&lt;/li&gt;&lt;li&gt;Launcher: added multiline icons/folder labels switch&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
@@ -101,6 +117,7 @@
 	<version>
 		<name>1.5</name> 
 		<code>15</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v15_17aca0.apk</download> 
 		<md5sum>17aca00f937d92a2a9e4cbaf181442e0</md5sum> 
 		<changelog html="true">&lt;li&gt;Added Wind carrier logos (color and white)&lt;/li&gt;&lt;li&gt;Added Hex color value editor to color picker preferences&lt;/li&gt;&lt;li&gt;Fixed mobile network signal bars and wi-fi icon visibility for 2SIM phones with iOS7 clock layout&lt;/li&gt;&lt;li&gt;Fixed font adjustment for statusbar views&lt;/li&gt;&lt;li&gt;Added font style selection for system and apps settings - Bold or Normal&lt;/li&gt;&lt;li&gt;Fixed issue with statusbar layouts resetting to defaults while changing theme or system language&lt;/li&gt;&lt;li&gt;VOLUME STEPS mod temporary disabled due issues with phone volume (will be fixed soon)&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
@@ -108,6 +125,7 @@
 	<version>
 		<name>1.4</name> 
 		<code>14</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v14_27e41d.apk</download> 
 		<md5sum>27e41d0fcbe6583f7ed208bfd056eb4b</md5sum> 
 		<changelog html="true">&lt;li&gt;Added font size adjustment for launcher icons&lt;/li&gt;&lt;li&gt;Added launcher folders columns count settings&lt;/li&gt;&lt;li&gt;Added option to hide launcher hotseats (dock bar) labels (big thanks to Zirias from xiaomi.eu for more elegant way)&lt;/li&gt;&lt;li&gt;Fixed NavBar size in landscape mode&lt;/li&gt;&lt;li&gt;Added option to force disable album art auto download&lt;/li&gt;&lt;li&gt;Added localized measure units to FileExplorer and Kuaipan settings&lt;/li&gt;&lt;li&gt;Added carrier logos: Kyivstar (colored), MegaFon and MTS (3D), Tele2 (colored, square), life:) (colored and white), Kcell (colored and white), Smarts (colored and white)&lt;/li&gt;&lt;li&gt;Added option to change delay for uploading new photos to MiCloud (default delay is 1 minute)&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
@@ -115,6 +133,7 @@
 	<version>
 		<name>1.3</name> 
 		<code>13</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v13_148e7f.apk</download> 
 		<md5sum>148e7f7e7b3ec5e2a141fa59825595ef</md5sum> 
 		<changelog html="true">&lt;li&gt;Added volume control steps ajustment&lt;/li&gt;&lt;li&gt;Added scrolling cache disable option&lt;/li&gt;&lt;li&gt;Added option to turn off auto updates check in SuperMarket and Updater apps&lt;/li&gt;&lt;li&gt;Added option to show Updater changelogs in English (for non-English locales)&lt;/li&gt;&lt;li&gt;Added new Beeline (simple white) carrier logo&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
@@ -122,6 +141,7 @@
 	<version>
 		<name>1.2</name> 
 		<code>12</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v12_88e898.apk</download> 
 		<md5sum>88e89807f9f257b6819e1954629e592f</md5sum> 
 		<changelog html="true">&lt;li&gt;Themes: added reverse tabs order&lt;/li&gt;&lt;li&gt;Themes: added option to change lockscreen (try to change) lunar dates to gregorian ones&lt;/li&gt;&lt;li&gt;Added Vodafone carrier logos&lt;/li&gt;&lt;li&gt;Fixed Reboot options menu (issues with handling reboot options with less options selectes)&lt;/li&gt;&lt;li&gt;Added carrier logo selection for Dual-SIM devices&lt;/li&gt;&lt;li&gt;Fixed statusbar color settings&lt;/li&gt;&lt;li&gt;Added mobile network signal bars color settings (both for Single and Dual-SIM devices)&lt;/li&gt;&lt;li&gt;Supermarket: added reverse tabs order&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
@@ -129,6 +149,7 @@
 	<version>
 		<name>1.1</name> 
 		<code>11</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v11_257bdc.apk</download> 
 		<md5sum>257bdcce37e4a6f579fad930540b1955</md5sum> 
 		<changelog html="true">&lt;li&gt;Added simple center clock option (with wi-fi and signal right)&lt;/li&gt;&lt;li&gt;Added MENU button double tap and long press events&lt;/li&gt;&lt;li&gt;Added more carrier logos&lt;/li&gt;&lt;li&gt;Added VOL keys text cursor control&lt;/li&gt;&lt;li&gt;Added Reboot menu entries selection&lt;/li&gt;&lt;li&gt;Small fixes&lt;/li&gt;&lt;li&gt;Added Hungarian translation (thanks to vagyula1)&lt;/li&gt;&lt;li&gt;Added Spain translation (thanks to rauldlnx10)&lt;/li&gt;&lt;li&gt;Added Chinese (Traditional) translation (thanks to RadarNyan)&lt;/li&gt;&lt;li&gt;Added Chinese (Taiwan) translation (thanks to Eric850130)&lt;/li&gt;</changelog> 
@@ -136,6 +157,7 @@
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v10_3bbbe4.apk</download> 
 		<md5sum>3bbbe45808d0e71531100f36ddba5341</md5sum> 
 		<changelog html="true"></changelog> 
@@ -148,9 +170,13 @@
 	<description_ru html="true">&lt;p&gt;Добавляет расширенное меню перезагрузки в меню выключения телефона.&lt;/p&gt;&lt;li&gt;Обычная перезагрузка&lt;/li&gt;&lt;li&gt;Быстрая перезагрузка&lt;/li&gt;&lt;li&gt;Загрузка в Recovery&lt;/li&gt;&lt;li&gt;Загрузка в Bootloader&lt;/li&gt;&lt;li&gt;Переключение систем (телефоны Xiaomi)&lt;/li&gt;</description_ru> 
 	<description html="true">&lt;p&gt;Adds reboot options to power menu.&lt;/p&gt;&lt;li&gt;Common reboot&lt;/li&gt;&lt;li&gt;Hot reboot&lt;/li&gt;&lt;li&gt;Reboot to Recovery&lt;/li&gt;&lt;li&gt;Reboot to Bootloader&lt;/li&gt;&lt;li&gt;Switch system (Mi-phones)&lt;/li&gt;</description> 
 	<author>BurgerZ</author> 
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+    <moreinfo label="Source"></moreinfo>
+    <moreinfo label="Repository"></moreinfo>
 	<version>
 		<name>2.1</name> 
 		<code>21</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.advancedrebootmenu_v21_065a30.apk</download> 
 		<md5sum>065a309e808e7f8dfee5d271f8da4420</md5sum> 
 		<changelog html="true"></changelog> 
@@ -162,10 +188,14 @@
 	<summary_ru>Интернациональный поиск контактов в телефоне.</summary_ru> 
 	<description html="true">&lt;p&gt;Adds international contacts (and service numbers) search to dialer. After activating rebuild T9 index in Contacts application settings&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Исправляет поиск в режиме Т9 для русских и сервисных контактов в номеронабирателе. После включения модуля необходимо войти в настройки телефона и обновить индекс т9.&lt;/p&gt;</description_ru> 
-	<author>BurgerZ</author> 
+	<author>BurgerZ</author>
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+    <moreinfo label="Source"></moreinfo>
+    <moreinfo label="Repository"></moreinfo>	
 	<version>
 		<name>2.0</name> 
 		<code>20</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.wsm_t9_v20_a6014c.apk</download> 
 		<md5sum>a6014cac69775baa50c2c276feb46485</md5sum> 
 		<changelog html="true"></changelog> 
@@ -178,9 +208,13 @@
 	<description html="true">&lt;p&gt;Adds "Mobile View" to the General browser settings. This feature allows you to adjust the text on Web pages to fit the width of the screen depending on the page font size.&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Добавляет пункт "Мобильный вид" в основные настройки браузера. Данная функция позволяет подстраивать текст на веб-страницах под ширину экрана в зависимости от размера шрифта.&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author> 
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+    <moreinfo label="Source"></moreinfo>
+    <moreinfo label="Repository"></moreinfo>
 	<version>
 		<name>2.0</name> 
 		<code>20</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.wsm_browserautofit_v20_20332d.apk</download> 
 		<md5sum>20332d48864150f6e89d327a22e547b2</md5sum> 
 		<changelog html="true"></changelog> 
@@ -193,9 +227,13 @@
 	<description html="true">&lt;p&gt;Fixes rounding response time to 5 minutes for third-party alarm clocks.&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Исправляет округление времени срабатывания до 5 минут для сторонних будильников.&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author> 
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+    <moreinfo label="Source"></moreinfo>
+    <moreinfo label="Repository"></moreinfo>
 	<version>
 		<name>2.1</name> 
 		<code>21</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.wsm_alarmtimefix_v21_7cb00d.apk</download> 
 		<md5sum>7cb00dfb18ae8e1a456e5907c5b347d5</md5sum> 
 		<changelog html="true">&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
@@ -203,6 +241,7 @@
 	<version>
 		<name>2.0</name> 
 		<code>20</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.wsm_alarmtimefix_v20_925054.apk</download> 
 		<md5sum>9250544ce028a2a1f07c74b0d7296a54</md5sum> 
 		<changelog html="true"></changelog> 
@@ -215,9 +254,13 @@
     <description html="true">&lt;p&gt;Fake the density that is submitted to Google in order to make Play Store show all apps.&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Отсылает указанную вами плотность пикселей в Play Store, чтобы маркет показывал все приложения.&lt;/p&gt;</description_ru> 
     <author>rovo89</author> 
+	<moreinfo label="Support" role="support"></moreinfo>
+    <moreinfo label="Source"></moreinfo>
+    <moreinfo label="Repository"></moreinfo>
     <version>
         <name>2.1</name>
         <code>21</code>
+		<reltype></reltype>
         <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.wsm_playstorefix_v21_4c0ed5.apk</download> 
         <md5sum>4c0ed5bd81ecf9af3da5d6bf9b31bc22</md5sum>
         <changelog html="true">&lt;li&gt;Updated translations&lt;/li&gt;</changelog>
@@ -225,6 +268,7 @@
     <version>
         <name>2.0</name>
         <code>20</code>
+		<reltype></reltype>
         <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.wsm_playstorefix_v20_618800.apk</download> 
         <md5sum>618800e077403722a0a1bc7e4c94da43</md5sum>
         <changelog html="true"></changelog>
@@ -237,9 +281,13 @@
     <description html="true">&lt;p&gt;Adds the ability to view applications in landscape mode. To make it work go to the device screen settings and activate "Auto-rotate screen" option.&lt;br /&gt;On some devices may not be displayed correctly.&lt;br /&gt;No need to reboot after changing settings.&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Добавляет возможность отображать выбранные приложения в альбомном режиме. Для работы необходимо в настройках экрана включить функцию "Автоповорот экрана".&lt;br /&gt;На некоторых устройствах возможно некорректное отображение графических элементов.&lt;br /&gt;Настройки применяются без перезагрузки.&lt;/p&gt;</description_ru> 
     <author>BurgerZ</author> 
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+    <moreinfo label="Source"></moreinfo>
+    <moreinfo label="Repository"></moreinfo>
     <version>
         <name>2.1</name>
         <code>21</code>
+		<reltype></reltype>
         <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.wsm_autoorientation_v21_06fe1d.apk</download> 
         <md5sum>06fe1d21f21d50b7c4a5998587bf5eb0</md5sum>
         <changelog html="true">&lt;li&gt;Updated translations&lt;/li&gt;</changelog>
@@ -247,6 +295,7 @@
     <version>
         <name>2.0</name>
         <code>20</code>
+		<reltype></reltype>
         <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.wsm_autoorientation_v20_a1e241.apk</download> 
         <md5sum>a1e241371d13dcc7de5fefb90e2fbbed</md5sum>
         <changelog html="true"></changelog>
@@ -259,9 +308,13 @@
     <description html="true">&lt;p&gt;Allows you to launch playback screen of the current track in Music player when you click on a pop-up widget (opens by slide on the icon on home screen). By default, the main screen opens, like with a simple click on the player icon.&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Позволяет сразу запускать экран текущего трека в плеере при нажатии на всплывающий виджет, который открывается слайдом по иконке на рабочем столе. По умолчанию открывается главный экран плеера, как и при простом нажатии на иконку плеера.&lt;/p&gt;</description_ru> 
     <author>BurgerZ</author> 
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+    <moreinfo label="Source"></moreinfo>
+    <moreinfo label="Repository"></moreinfo>
     <version>
         <name>2.0</name>
         <code>20</code>
+		<reltype></reltype>
         <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.currenttracklaunch_v20_bab0cb.apk</download> 
         <md5sum>bab0cbd0470fbb7e684c329a37d5ca0d</md5sum>
         <changelog html="true"></changelog>
@@ -274,9 +327,13 @@
     <description html="true">&lt;p&gt;You can choose in module settings what marketplace should be used for searching in QuickSearchBox (Google PlayStore or Xiaomi Market).&lt;br /&gt;Go to the module settings to select marketplace.&lt;br /&gt;No need to reboot after changing settings.&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Возможность выбрать маркет для использования в виджете рабочего стола "Поиск" (Google Play или Xiaomi Market).&lt;br /&gt;Для выбора перейдите в настройки модуля.&lt;br /&gt;После изменения настроек поиска перезагружаться не нужно.&lt;/p&gt;</description_ru> 
     <author>BurgerZ</author> 
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+    <moreinfo label="Source"></moreinfo>
+    <moreinfo label="Repository"></moreinfo>
     <version>
         <name>2.0</name>
         <code>20</code>
+		<reltype></reltype>
         <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.searchplaystore_v20_b3b6b0.apk</download> 
         <md5sum>b3b6b09fa9648719206d3b1c811bd424</md5sum>
         <changelog html="true"></changelog>
@@ -289,9 +346,13 @@
     <description html="true">&lt;p&gt;This module disables (mutes) the beeper while adjusting volume at home screen (floating volume panel).&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Модуль отключает раздражающий звук, который появляется при регулировке громкости на рабочем столе (при появлении круглой панели регулировки громкости).&lt;/p&gt;</description_ru> 
     <author>BurgerZ</author> 
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+    <moreinfo label="Source"></moreinfo>
+    <moreinfo label="Repository"></moreinfo>
     <version>
         <name>2.0</name>
         <code>20</code>
+		<reltype></reltype>
         <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.volumecontrol_v20_2ddf20.apk</download> 
         <md5sum>2ddf206f2fb10ac5d36a52e5c5c59b89</md5sum>
         <changelog html="true"></changelog>
@@ -304,9 +365,13 @@
 	<description html="true">&lt;p&gt;Blocks updates of the Yellow Pages database from Chinese server and adds the ability to "Mark" unknown contacts.&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Отключает обновление базы Желтых страниц с китайского сервера и добавляет возможность установить метку на неизвестный контакт.&lt;br /&gt;Примечание:&lt;br /&gt;Если вы заметили, что, например, экстренный вызов (112) у вас отображается по китайски, это значит, что база на телефоне уже обновилась с китайского сервера. В этом случае необходимо удалить папку data/data/com.miui.yellowpage/, перезагрузиться, зайти в Телефон и подождать, пока кэшируется локальная база, занять это может пару минут. После этого обновить индексацию Т9 в дополнительных настройках телефона.&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author>
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+    <moreinfo label="Source"></moreinfo>
+    <moreinfo label="Repository"></moreinfo>
     <version>
         <name>2.0</name>
         <code>20</code>
+		<reltype></reltype>
         <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.yellowpagesmodule_v20_69bb51.apk</download>
         <md5sum>69bb5171fd4c772f09fccb1900a5d573</md5sum>
         <changelog html="false"/>
@@ -319,9 +384,13 @@
     <description html="true">&lt;p&gt;Allows to skip tracks in Music player by volume keys (while phone screen is off).&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Позволяет переключать музыкальные треки клавишами громкости (при выключенном экране телефона)&lt;/p&gt;</description_ru> 
     <author>BurgerZ</author> 
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+    <moreinfo label="Source"></moreinfo>
+    <moreinfo label="Repository"></moreinfo>
     <version>
         <name>2.0</name>
         <code>20</code>
+		<reltype></reltype>
         <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.volumekeysskiptrack_v20_d35b02.apk</download> 
         <md5sum>d35b02ccc6975305a70f9126911f9594</md5sum>
         <changelog html="true"></changelog>
@@ -334,9 +403,13 @@
 	<description html="true">&lt;p&gt;Adds extra battery info to battery settings&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Добавляет пункт "Информация о батарее" в Настройки - Батарея.&lt;br /&gt;Отображаемые данные:&lt;br /&gt;&lt;li&gt;Состояние батареи&lt;/li&gt;&lt;li&gt;Тип питания (USB, сеть или батарея)&lt;/li&gt;&lt;li&gt;Уровень заряда&lt;/li&gt;&lt;li&gt;Напряжение&lt;/li&gt;&lt;li&gt;Температуру батареи&lt;/li&gt;&lt;li&gt;Технологию изготовления батареи&lt;/li&gt;&lt;li&gt;Время, прошедшее после загрузки&lt;/li&gt;&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author> 
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+    <moreinfo label="Source"></moreinfo>
+    <moreinfo label="Repository"></moreinfo>
     <version>
         <name>1.1</name> 
         <code>11</code> 
+		<reltype></reltype>
         <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.extrabatteryinfo_v11_4e4b39.apk</download> 
         <md5sum>4e4b394cf1ea454ac7d54118366a1a47</md5sum> 
         <changelog html="true"></changelog> 
@@ -349,9 +422,13 @@
     <description html="true">&lt;p&gt;Allows you to to hide launcher icon and folder labels.&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Позволяет скрыть подписи иконок и папок рабочего стола.&lt;/p&gt;</description_ru>
     <author>BurgerZ</author> 
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+    <moreinfo label="Source"></moreinfo>
+    <moreinfo label="Repository"></moreinfo>
     <version>
         <name>2.0</name>
         <code>20</code>
+		<reltype></reltype>
         <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.hideiconstext_v20_365f87.apk</download> 
         <md5sum>365f87cde6f6e8b9c9fcd5453b509721</md5sum>
         <changelog html="true"></changelog>
@@ -364,9 +441,13 @@
     <description html="true">&lt;p&gt;Fixes FC in Xperia TM keyboard.&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Исправляет FC в Xperia TM клавиатуре&lt;/p&gt;</description_ru> 
     <author>BurgerZ</author> 
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+    <moreinfo label="Source"></moreinfo>
+    <moreinfo label="Repository"></moreinfo>
     <version>
         <name>2.1</name>
         <code>21</code>
+		<reltype></reltype>
         <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.keyboardfix_v21_4e388f.apk</download> 
         <md5sum>4e388f9e9f999ee61e978b98cd50cd58</md5sum>
         <changelog html="true">&lt;li&gt;Updated translations&lt;/li&gt;</changelog>
@@ -374,6 +455,7 @@
     <version>
         <name>2.0</name>
         <code>20</code>
+		<reltype></reltype>
         <download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.keyboardfix_v20_773d2d.apk</download> 
         <md5sum>773d2dcac0f09b76167ab3ecd03edaec</md5sum>
         <changelog html="true"></changelog>
@@ -388,9 +470,13 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<description_ru html="true">&lt;p&gt;Заменяет китайскую онлайн базу SMS-поздравлений на русскую с сервера miui.su.&lt;br /&gt;
 Если вкладка "Поздравления" отсутствует, ее необходимо включить в дополнительных настройках сообщений, а также обновить базу, выбрав во вкладке "Поздравления" кнопку "Меню"-"Обновить".&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author> 
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+    <moreinfo label="Source"></moreinfo>
+    <moreinfo label="Repository"></moreinfo>
 	<version>
 		<name>2.1</name> 
 		<code>21</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mmsfestival_v21_1c0afc.apk</download> 
 		<md5sum>1c0afcc161c4f09537bfec618d57b08c</md5sum> 
 		<changelog html="true">&lt;li&gt;Added update server settings (romz.bz, miui.su, miui.com)&lt;/li&gt;</changelog> 
@@ -398,6 +484,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>2.0</name> 
 		<code>20</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mmsfestival_v20_afe41a.apk</download> 
 		<md5sum>afe41aadb79843f84a397d991c4081e6</md5sum> 
 		<changelog html="true"></changelog> 
@@ -410,9 +497,13 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<description html="true">&lt;p&gt;Adds the ability to select the settings of holidays in calendar.&lt;/p&gt;&lt;br&gt;In module settings available servers are: miui.com, romz.bz and miui.su.&lt;/br&gt;&lt;br&gt;Available holidays:&lt;/br&gt;&lt;br /&gt;&lt;li&gt;Original (Chinese)&lt;/li&gt;&lt;li&gt;Russian&lt;/li&gt;&lt;li&gt;Ukrainian&lt;/li&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Добавляет возможность выбирать праздники в основных настройках календаря.&lt;/p&gt;&lt;br&gt;Пока доступны сервера: miui.com, romz.bz и miui.su.&lt;/br&gt;&lt;br&gt;Праздники:&lt;/br&gt;&lt;br /&gt;&lt;li&gt;Оригинальные (Китай)&lt;/li&gt;&lt;li&gt;Россия&lt;/li&gt;&lt;li&gt;Украина&lt;/li&gt;</description_ru> 
 	<author>BurgerZ</author> 
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+    <moreinfo label="Source"></moreinfo>
+    <moreinfo label="Repository"></moreinfo>
 	<version>
 		<name>1.2</name> 
 		<code>12</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.holidaysmodule_v12_58ddf0.apk</download> 
 		<md5sum>58ddf0502038c039a2dc696c24352d39</md5sum> 
 		<changelog html="true"></changelog> 
@@ -425,9 +516,13 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<description html="true">&lt;p&gt;Changes wakelock minimum update interval from 20 seconds to much more value.&lt;br /&gt;This mod reduces battery drain.&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Изменяет минимальный интервал пробуждения устройства для определения координат (расписание NetworkLocation) с 20 секунд на более высокое значение.&lt;br /&gt;Этот мод уменьшает потребление батареи сервисами геолокации.&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author> 
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+    <moreinfo label="Source"></moreinfo>
+    <moreinfo label="Repository"></moreinfo>
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.networklocationfix_v10_7e8759.apk</download> 
 		<md5sum>7e8759cd203d54b9c828b93c1405cfc0</md5sum> 
 		<changelog html="true"></changelog> 
@@ -440,9 +535,13 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<description html="true">&lt;p&gt;Choose the application to start from "About phone" screen by clicking on "System updates" button.&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Позволяет выбрать свое приложение, запускаемое нажатием на "Обновление системы" в меню "Настройки" - "О телефоне". Модуль для некоторых покажется бесполезным, я его делал по просьбе одного из пользователей&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author> 
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+    <moreinfo label="Source"></moreinfo>
+    <moreinfo label="Repository"></moreinfo>
 	<version>
 		<name>1.0</name> 
 		<code>10</code> 
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.updaterreplacement_v10_8abffb.apk</download> 
 		<md5sum>8abffb1e55ad47e2531567a5b4550df3</md5sum> 
 		<changelog html="true"></changelog> 
@@ -455,9 +554,13 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<description html="true">&lt;p&gt;This is the installer for the Xposed framework, which is a requirement for all modules.&lt;/p&gt;&lt;p&gt;This framework is based on rovo89's Xposed framework. Like an original project it is a framework for modules that can change the behavior of the system and apps without touching any APKs&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note that this only works with root access on Android 4.0.3 or later.&lt;/b&gt;&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Установщик и менеджер фреймворка Xposed, который нужен для работы всех модулей&lt;/p&gt;&lt;p&gt;Автором оригинального Xposed фреймворка является rovo89. Данный фреймворк нужен для работы так называемых модулей, приложений, которые позволяют изменять системные и пользовательские приложения без прямого вмешательства в сами приложения (apk и jar файлы)&lt;/p&gt;&lt;p&gt;&lt;b&gt;Внимание: работает только на Android 4.0.3 или выше. Для работы необходимы root права.&lt;/b&gt;&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author>
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+    <moreinfo label="Source"></moreinfo>
+    <moreinfo label="Repository"></moreinfo>
 	<version>
 		<name>2.2.4</name> 
 		<code>224</code>
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v224_99fb15.apk</download> 
 		<md5sum>99fb15e3f3586964439e75fcdbd50e13</md5sum> 
 		<changelog html="true">&lt;li&gt;YOU NEED TO REINSTALL BINARIES&lt;/li&gt;&lt;li&gt;Improved boot time for Mi3W&lt;/li&gt;&lt;li&gt;Fixed FC in Cleaner (Security)&lt;/li&gt;</changelog> 
@@ -466,6 +569,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>2.2.3</name> 
 		<code>223</code>
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v223_5ea267.apk</download> 
 		<md5sum>5ea267b58d21abb8f5178f95b33d6be8</md5sum> 
 		<changelog html="true">&lt;li&gt;Added DEXSPY support. Thanks slowargo (xda) for help.&lt;/li&gt;</changelog> 
@@ -473,6 +577,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>2.2.2</name> 
 		<code>222</code>
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v222_94a61d.apk</download> 
 		<md5sum>94a61d161d0509f03a17100c33c8b0ac</md5sum> 
 		<changelog html="true">&lt;li&gt;Updated binaries to v54 (app_process) and v49 (XposedBridge.jar).&lt;/li&gt;</changelog> 
@@ -480,6 +585,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>2.2.1</name> 
 		<code>221</code>
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v221_8193c8.apk</download> 
 		<md5sum>8193c8c992ef5c4ce509b9af911c8466</md5sum> 
 		<changelog html="true">&lt;li&gt;Updated binaries to fix m7 bootloop.&lt;/li&gt;&lt;li&gt;Fixed fake update notification for framework when any module has updates.&lt;/li&gt;</changelog> 
@@ -487,6 +593,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>2.2.0</name> 
 		<code>220</code>
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v220_57b1c8.apk</download> 
 		<md5sum>57b1c89b230125312415651815b1ebc9</md5sum> 
 		<changelog html="true">&lt;li&gt;Updated binaries.&lt;/li&gt;&lt;li&gt;Added recovery installation modes (auto and manually).&lt;/li&gt;</changelog> 
@@ -494,6 +601,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>2.1.8</name> 
 		<code>218</code>
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v218_5055bf.apk</download> 
 		<md5sum>5055bf33d1354a58ace64583384de776</md5sum> 
 		<changelog html="true">&lt;li&gt;Fixed bootloop for some devices.&lt;/li&gt;</changelog> 
@@ -501,6 +609,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>2.1.7</name> 
 		<code>217</code>
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v217_74290d.apk</download> 
 		<md5sum>74290dced4d236b095bc457fed1ab937</md5sum> 
 		<changelog html="true">&lt;li&gt;Minor update. Version bump. If WSM Tools 2.1.6 works good, no need to update.&lt;/li&gt;</changelog> 
@@ -508,6 +617,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>2.1.6</name> 
 		<code>216</code>
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v216_3e3deb.apk</download> 
 		<md5sum>3e3debd47ea6de8af1ad0c4a8518f197</md5sum> 
 		<changelog html="true">&lt;li&gt;Fixed some issues in binaries&lt;/li&gt;</changelog> 
@@ -515,6 +625,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>2.1.5</name> 
 		<code>215</code>
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v215_c368bd.apk</download> 
 		<md5sum>c368bd95e291115f67ccd18dda3ae9dd</md5sum> 
 		<changelog html="true">&lt;li&gt;Fixes. Fixes. Fixes.&lt;/li&gt;</changelog> 
@@ -522,6 +633,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>2.1.4</name> 
 		<code>214</code>
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v214_3eb2ca.apk</download> 
 		<md5sum>3eb2ca11656b430fa0ac8f9fc4a7cd06</md5sum> 
 		<changelog html="true">&lt;li&gt;Fixed bootloop for ported devices (MIUI v5 ROMs based on Android 4.2.2). Tested on Huawei Ascend P1, HTC Desire S.&lt;/li&gt;&lt;li&gt;Fixed bootloop for HTC One devices.&lt;/li&gt;</changelog> 
@@ -529,6 +641,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>2.1.3</name> 
 		<code>213</code>
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v213_34ef24.apk</download> 
 		<md5sum>34ef24d17af69f974f82b99e9c9832f1</md5sum> 
 		<changelog html="true">&lt;li&gt;Fixed non-scrollable settings page&lt;/li&gt;&lt;li&gt;Added Thai translation (thanks to gooagolf GitHub user)&lt;/li&gt;</changelog> 
@@ -536,6 +649,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>2.1.2</name> 
 		<code>212</code>
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v212_bed711.apk</download> 
 		<md5sum>bed71156e7d5fdfcda4467e97958b69d</md5sum> 
 		<changelog html="true">&lt;li&gt;Updated binaries: app_process (v46), XposedBridge.jar (v42)&lt;/li&gt;&lt;li&gt;&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
@@ -543,6 +657,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>2.1.1</name> 
 		<code>211</code>
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v211_8643ea.apk</download> 
 		<md5sum>8643ea751f9cf1667e31831997312dbb</md5sum> 
 		<changelog html="true">&lt;li&gt;Updated binaries: app_process to v46, XposedBridge to v40. This update supports Android 4.4 KitKat&lt;/li&gt;&lt;li&gt;Added WhatsNew button: now you can see development progress of WSM Project in realtime mode&lt;/li&gt;&lt;li&gt;Added donations button to the About screen&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
@@ -550,6 +665,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
     <version>
 		<name>2.1.0</name> 
 		<code>210</code>
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v210_dfac98.apk</download> 
 		<md5sum>dfac984b8ca5e4532a1a16b9d0ca8561</md5sum> 
 		<changelog html="true">&lt;li&gt;Updated binaries&lt;/li&gt;&lt;li&gt;Many fixes, additions and improvements&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
@@ -557,6 +673,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
     <version>
 		<name>2.0.5</name> 
 		<code>205</code>
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v205_3ca921.apk</download> 
 		<md5sum>3ca9210c183af2169d7171dcdcdd3fb3</md5sum> 
 		<changelog html="true">&lt;li&gt;Fixed modules list overscroll issues&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
@@ -564,6 +681,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
     <version>
 		<name>2.0.4</name> 
 		<code>204</code>
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v204_a16d7e.apk</download> 
 		<md5sum>a16d7e8085e201d8ad48e929e86f4e48</md5sum> 
 		<changelog html="true">&lt;li&gt;Added Chinese (zh-rTW) translation&lt;/li&gt;&lt;li&gt;Fixed translations to avoid WSM tools FC on some languages (with old translation versions)&lt;/li&gt;</changelog> 
@@ -571,6 +689,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
     <version>
 		<name>2.0.3</name> 
 		<code>203</code>
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v203_4cbc6c.apk</download> 
 		<md5sum>4cbc6ccc8ab80a62334ee01e8f8899e7</md5sum> 
 		<changelog html="true">&lt;li&gt;Fixed updates version check&lt;/li&gt;&lt;li&gt;Fixed installer prompt after ROM update.&lt;/li&gt;&lt;li&gt;Small cosmetics fixes.&lt;/li&gt;</changelog> 
@@ -578,6 +697,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
     <version>
 		<name>2.0.2</name> 
 		<code>202</code>
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v202_2c4bdf.apk</download> 
 		<md5sum>2c4bdf65c1e6630b9a86f25fa445d756</md5sum> 
 		<changelog html="true">&lt;li&gt;Added Xposed repository (available in settings). Both repositories will be shown in the same list, WSM modules will have "MI" image at the bottom right corner.&lt;/li&gt;&lt;li&gt;Alert dialog will popup when WSM tools update available.&lt;/li&gt;&lt;li&gt;Added Feedback to settings.&lt;/li&gt;&lt;li&gt;Reworked About screen.&lt;/li&gt;&lt;li&gt;Reworked Manage screen.&lt;/li&gt;&lt;li&gt;Small fixes.&lt;/li&gt;</changelog> 
@@ -585,6 +705,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>2.0.1</name> 
 		<code>201</code>
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v201_55f430.apk</download> 
 		<md5sum>55f43043c3577872a1f9d2364b7d88d2</md5sum> 
 		<changelog html="true">&lt;li&gt;Since v2.0.0 WSM can handle MIUI resources&lt;/li&gt;&lt;li&gt;Check for updates moved from About to Settings&lt;/li&gt;&lt;li&gt;Updated framework&lt;/li&gt;</changelog> 
@@ -592,6 +713,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<version>
 		<name>2.0.0</name> 
 		<code>200</code>
+		<reltype></reltype>
 		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v200_f2947f.apk</download> 
 		<md5sum>f2947f092568061824a0eb59b2aae6a4</md5sum> 
 		<changelog html="true">&lt;li&gt;Since v2.0.0 WSM can handle MIUI resources&lt;/li&gt;</changelog> 
