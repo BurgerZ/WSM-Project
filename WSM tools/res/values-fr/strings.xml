@@ -12,17 +12,18 @@
     <string name="versions_wsm_tools">Version WSM tools</string>
     <string name="author">Auteur</string>
     <string name="graphics">Graphismes</string>
-    <string name="check_for_updates">Vérifier les mises à jours</string>
+    <string name="check_for_updates">Vérifier les mises à jour</string>
     <string name="copyright">BurgerZ MD (http://burgerz.pro)\nCopyright © 2013, Tous droits réservés"</string>
     <string name="copyright_xposed">Basé sur Xposed</string>
     <string name="information_faq">Information</string>
     <string name="information_faq_summary">F.A.Q., traductions, crédits, aide</string>
-    <string name="pref_feedback_title">Feedback</string>
+    <string name="pref_feedback_title">Retour d\'expérience</string>
     <string name="pref_feedback_summary">Envoyer des rapports de bogues, requêtes de module, etc.\n(En anglais ou russe uniquement !)</string>
     <string name="pref_manage_title">Gérer WSM</string>
     <string name="pref_manage_summary">Installer, Mettre à jour, Supprimer</string>
     <string name="pref_repositories_alert">Certains modules Xposed peuvent ne pas fonctionner ou empêcher votre téléphone de démarrer !\nUtilisez-les à vos propres risques !</string>
     <string name="pref_repositories_title">Sélectionner les dépôts</string>
+    <string name="pref_install_mode">Mode d\'installation</string>
     <string name="pref_show_hidden_modules_title">Afficher les modules cachés</string>
     <string name="pref_show_hidden_modules_summary">Affiche les modules cachés dans la liste</string>
     <string name="pref_show_logs_tab_title">Afficher l\'onglet Journal</string>
@@ -40,22 +41,58 @@
     <string name="module_opt_hide_title">Cacher le module</string>
     <string name="module_opt_hide_summary">Pour afficher les modules cachés activez l\'option \"Afficher les modules cachés\"</string>
     <string name="dialog_are_you_sure">Êtes-vous sûr ?</string>
-    <string name="dialog_phone_will_be_rebooted">L\'appareil sera redémarré</string>
+    <string name="dialog_phone_will_be_rebooted">Voulez-vous redémarrer maintenant ?</string>
     <string name="dialog_progress_updating">Mise à jour</string>
     <string name="dialog_update_available">Nouvelle version de WSM tools disponible.\nInstallée : %1$s\nDisponlible : %2$s\nAprès l\'installation d\'une nouvelle version, aller dans Paramètres -> Gérer WSM et vérifier si une mise à jour du binaire est nécessaire.</string>
     <string name="menu_select_all">Tout sélectionner</string>
     <string name="menu_unselect_all">Effacer la sélection</string>
 
     <!-- InstallerActivity -->
-    <string name="installer_install">Installation</string>
+    <string name="installer_log">LOG</string>
+    <string name="installer_install">Installer</string>
     <string name="installer_uninstall">Désinstaller</string>
-    <string name="installer_reboot">Redémarrage</string>
+    <string name="installer_reboot">Confirmer</string>
     <string name="installer_versions">VERSIONS :</string>
     <string name="installer_installed_version">VERSION INSTALLÉE</string>
     <string name="installer_bundled_version">VERSION EMBARQUÉE</string>
     <string name="installer_phone_not_compatible">"WSM n'est (pour le moment) pas compatible avec le SDK Android version %1$d ou avec l'architecture de votre processeur (%2$s)."</string>
     <string name="installer_not_tested_but_compatible">"WSM n'a pas été testé avec le SDK Android version %d, mais il semble compatible. Vous pouvez essayer de l'installer si vous vous sentez aventureux."</string>
-    
+    <string name="reboot_failed">Échec du redémarrage. Veuillez utiliser la fonction de redémarrage du téléphone.</string>
+    <string name="reboot">Redémarrage requis</string>
+    <string name="auto_flash_note">Appuyez sur "OK" pour flasher %s automatiquement.</string>
+    <string name="manual_flash_note">Veuillez flasher %s depuis la carte SD pour finaliser l\'opération.</string>
+    <string name="reboot_confirmation">Voulez-vous redémarrer maintenant ?</string>
+    <string name="reboot_recovery_confirmation">Voulez-vous redémarrer en mode recovery maintenant ?</string>
+    <string name="file_creating_directory">Création du répertoire %sc</string>
+    <string name="file_create_directory_failed">Impossible de créer le répertoire %s</string>
+    <string name="file_writing_recovery_command">Écriture de la commande du recovery…</string>
+    <string name="file_writing_recovery_command_failed">Échec de l\'écriture de la commande du recovery. Veuillez sélectionner une méthode d\'installation différente.</string>
+    <string name="install_warning">Dans certains cas, après avoir installer Xposed ,votre appareil peut ne plus démarrer.\n\nSi vous n\'avez jamais entendu parler de \"soft brick\" et de \"bootloop\" ou
+    si vous ne savez pas comment régler ce genre de problèmes, n\'installez <u>PAS</u> Xposed !\n\nDans tous les cas, avoir une sauvegarde récente est hautement recommandé.</string>
+    <string name="install_mode_normal">Normal (écrire dans /system)</string>
+    <string name="install_mode_recovery_auto">Recovery (flasher .zip automatiquement)</string>
+    <string name="install_mode_recovery_manual">Recovery (écrire .zip sur la carte SD, flasher manuellement)</string>
+
+    <!--  File operations -->
+    <string name="root_failed">Impossible d\'obtenir l\'accès root.\n\nAssurez-vous que votre appareil est rooté correctement et que vous n\'avez pas bloqué les commandes shell.</string>
+    <string name="file_extract_failed">Impossible d\'extraire %s</string>
+    <string name="file_mounting_writable">Montage de %s en lecture écriture (rw)…</string>
+    <string name="file_mount_writable_failed">Impossible de monter %s en lecture écriture (rw)</string>
+    <string name="file_trying_to_continue">Essaye de continuer malgré tout…</string>
+    <string name="file_backup_already_exists">Sauvegarde déjà existante dans %s</string>
+    <string name="file_backup_not_found">Aucune sauvegarde trouvée dans %s</string>
+    <string name="file_backup_failed">Impossible de créer une sauvegarde de %s</string>
+    <string name="file_backup_successful">Sauvegarde crée dans %s</string>
+    <string name="file_backup_restoring">Restauration de la sauvegarde depuis %s</string>
+    <string name="file_copying">Copie de %s…</string>
+    <string name="file_copy_failed">Impossible de copier %1$s vers %2$s</string>
+    <string name="file_move_failed">Impossible de déplacer %1$s vers %2$s</string>
+    <string name="file_set_perms_failed">Impossible de définir des autorisations pour %s</string>
+    <!-- "file_set_owner_failed" traduction à revoir ? owner = propriétaire ?... -->
+    <string name="file_set_owner_failed">Impossible de définir le propriétaire pour %s</string>
+    <string name="file_removing">Suppression de %s…</string>
+    <string name="file_remove_failed">Impossible de supprimer %s</string>
+    <string name="file_done">Fini ! Les modifications deviendront actives après un redémarrage.</string>
 
     <!-- RepoLoader -->
     <string name="repo_download_failed_http">Téléchargement de %1$s a échoué : %2$d (%3$s)</string>
@@ -103,7 +140,7 @@
     <string name="module_empty_description">(aucune description)</string>
     <string name="module_no_ui">"Ce module ne fournit pas d'interface utilisateur"</string>
     <string name="no_wsm_modules_found">Aucun module WSM trouvé !</string>
-    <string name="wsm_module_list_updated">La liste de modules WSM à été mise à jour\nLes changements seront actifs au redémarrage</string>
+    <string name="wsm_module_list_updated">La liste de modules WSM a été mise à jour\nLes changements seront actifs au redémarrage</string>
     <string name="warning_wsm_min_version">"Ce module requiert WSM version %s, il n'a donc pas pu être activé."</string>
     <string name="no_min_version_specified">Ce module ne spécifie pas la version de WSM dont il a besoin.</string>
     <string name="warning_min_version_too_low">Ce module a été créé pour WSM version %1$s, mais à cause de changements incompatibles dans la versions %2$s, il a été désactivé.</string>
