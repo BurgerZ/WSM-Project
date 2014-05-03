@@ -40,7 +40,7 @@
 		<changelog_ru html="true">&lt;p&gt;Релиз&lt;/p&gt;</changelog_ru> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1399036449">
+  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1399099590">
 	<name>Mi-Tools</name> 
 	<summary_ru>Все в одном для MIUI v5</summary_ru> 
 	<summary>MIUI v5 all in one module</summary> 
@@ -50,6 +50,15 @@
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>
+	<version>
+		<name>2.0.3</name> 
+		<code>203</code> 
+		<reltype>beta</reltype>
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v203_39043a.apk</download> 
+		<md5sum>39043ad7578f423285c7dde7217f52d7</md5sum> 
+		<changelog html="true">&lt;li&gt;Fixes holidays selector&lt;/li&gt;&lt;li&gt;Fixed torch notification (Menu button click action)&lt;/li&gt;</changelog> 
+		<changelog_ru html="true">&lt;li&gt;Исправлены настройки праздников (теперь Россию снова можно выбрать)&lt;/li&gt;&lt;li&gt;Исправлено уведомление для фонарика (действие по нажатию на Меню)&lt;/li&gt;</changelog_ru> 
+	</version>	
 	<version>
 		<name>2.0.2</name> 
 		<code>202</code> 
