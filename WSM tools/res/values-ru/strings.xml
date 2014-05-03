@@ -67,8 +67,7 @@
     <string name="file_create_directory_failed">Невозможно создать директорию %s</string>
     <string name="file_writing_recovery_command">Запись команды Recovery…</string>
     <string name="file_writing_recovery_command_failed">Запись команды Recovery завершена с ошибками. Пожалуйста, используйте другой способ установки.</string>
-    <string name="install_warning">
-    В некоторых случаях ваше устройство может не загрузиться после установки WSM (Xposed).\n\nЕсли вы не сталкивались с \"окирпичиванием\" и \"бутлупом\" до этого или вы не знаете, как вывести ваше устройство из таких состояний, то
+    <string name="install_warning">В некоторых случаях ваше устройство может не загрузиться после установки WSM (Xposed).\n\nЕсли вы не сталкивались с \"окирпичиванием\" и \"бутлупом\" до этого или вы не знаете, как вывести ваше устройство из таких состояний, то
     <b>НЕ</b>
     устанавливайте WSM (Xposed)!\n\nВ любом случае, наличие резервной копии будет не лишним.
     </string>
@@ -103,7 +102,12 @@
 
     <!-- Download tab -->
     <string name="changes">Список изменений:</string>
-    <string name="branch_display">(%s ветвь)</string>
+    <string name="release_type_stable">Стабильная</string>
+    <string name="release_type_stable_summary">Стабильная (низкий риск багов)</string>
+    <string name="release_type_beta">Бета</string>
+    <string name="release_type_beta_summary">Бета (могут присутствовать баги)</string>
+    <string name="release_type_experimental">Экспериментальная</string>
+    <string name="release_type_experimental_summary">Экспериментальная (высокий риск багов)</string>
     <string name="download_author">Автор: %s</string>
     <string name="download_unknown_author">Неизвестный автор</string>
     <string name="download_status_version">Версия: %1$s</string>
