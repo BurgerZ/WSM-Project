@@ -101,7 +101,12 @@
 
     <!-- Download tab -->
     <string name="changes">Modifications :</string>
-    <string name="branch_display">(branche %s)</string>
+    <string name="release_type_stable">Stable</string>
+    <string name="release_type_stable_summary">Stable (recommandé)</string>
+    <string name="release_type_beta">Beta</string>
+    <string name="release_type_beta_summary">Beta (quelques bugs possibles)</string>
+    <string name="release_type_experimental">Expérimental</string>
+    <string name="release_type_experimental_summary">Expérimental (risque élevé de rencontrer des bugs)</string>
     <string name="download_author">par %s</string>
     <string name="download_unknown_author">auteur inconnu</string>
     <string name="download_status_version">Version : %1$s</string>
