@@ -114,7 +114,7 @@
     <string name="show_clock_date">Dátum kijelzése az állpotsoron</string>
     <string name="clock_date_format">Dátum formátum</string>
     <string name="battery">Akkumulátor</string>
-    <string name="hide_battery_icon_summary">Akkumulátorikon beállítások</string>
+    <string name="hide_battery_icon_summary">Akkumulátor ikon kijelzése/elrejtése</string>
     <string name="hide_battery_icon">Akkumulátorikon elrejtése</string>
     <string name="battery_icon_color">Akkumulátor ikon színe</string>
     <string name="battery_icon_color_summary">Akkumulátor ikon színének beállítása</string>
@@ -157,7 +157,7 @@
     <string name="common">Közösségi</string>
     <string name="bold_settings_font_summary">Félkövér betűtípus használata a rendszerbeállításoknál</string>
     <string name="bold_settings_font">Félkövér betűtípus alkalmazása</string>
-    <string name="international_t9_summary">T9 kereés engedélyezése a névjegyzékben</string>
+    <string name="international_t9_summary">T9 keresés engedélyezése a névjegyzékben</string>
     <string name="international_t9">T9 hozzáadása</string>
     <string name="local_yellowpage_database_summary">A kínai szaknévsor adatbázis frissítésének tiltása és az ismeretlen névjegyek "Megjelöl" opciójának hozzáadása.</string>
     <string name="local_yellowpage_database">Helyi szaknévsor adatbázis</string>
@@ -177,7 +177,8 @@
     <string name="advanced_reboot_menu">Bővített újraindítás menü</string>
     <string name="add_screenshot">\"Képernyőkép\" menüpont</string> 
     <string name="add_screenshot_summary">\"Képernyőkép\" készítés menüpont hozzáadása a bővített újraindítás menühöz</string>
-    <string name="take_screenshot">Képernyőkép</string> 
+    <string name="take_screenshot">Képernyőkép</string>
+    <string name="screenshot_delay">Képernyőkép késleltetés (mpben)</string>
     <string name="power_reboot">Újraindítás</string> 
     <string name="power_reboot_options">Újraindítás menü</string> 
     <string name="power_reboot_normal">Normál</string> 
@@ -285,6 +286,10 @@
     <string name="show_notification_bubble">Buborék értesítések</string>
     <string name="show_notification_bubble_summary">Buborék értesítés megjelenítése az alkalmazások ikonján</string>
     <string name="notification_bubble_apps">Alkalmazások listája</string>
+    <!-- Phone -->
+    <string name="app_phone">Telefon</string>
+    <string name="national_roaming">Adatbarangolás</string>
+    <string name="national_roaming_summary">Csatlakozás az adatszolgáltatóhoz barangolás esetén</string>
     <!-- MMS -->
     <string name="app_mms">Üzenetek</string>
     <string name="disable_sms_to_mms_conversion">Hosszú SMS-ek engedélyezése</string>
@@ -294,13 +299,13 @@
     <string name="mms_unicode_stripping_leave_intact">A normál karakterek meghagyása</string>
     <string name="mms_unicode_stripping_non_encodable">Nem átalakítható karakterek eltávolítása</string>
     <string name="mms_unicode_stripping_all">Unicode karakterek eltávolítása</string>
-    <string name="festival_update_server">Festival update server</string> 
+    <string name="festival_update_server">Ünnepnap frissítő szerver</string> 
     <string name="festival_update_server_summary">%s</string>
     <!-- Calendar -->
     <string name="app_calendar">Naptár</string>
-    <string name="holidays_update_server">Ünnepnap frissítő szerver</string> 
+    <string name="holidays_update_server">Munkaszüneti nap frissítő szerver</string> 
     <string name="holidays_update_server_summary">%s</string>
-    <string name="holidays_selector_country">Ország ünnepnapjai</string>
+    <string name="holidays_selector_country">Országmunkaszüneti napjai</string>
     <string name="holidays_selector_country_summary">%s</string>
     <string name="holidays_selector_country_original">Eredeti (kínai)</string> 
     <string name="holidays_selector_country_russia">Orosz</string> 
@@ -341,6 +346,8 @@
     <string name="updater_english_changelog_summary">ROM változások listájának mutatásaa angol nyelven</string>
     <!-- MiuiGallery -->
     <string name="app_miuigallery">Galéria</string>
+    <string name="gallery_old_videoplayer">MiuiVideoPlayer alkalmazásao</string>
+    <string name="gallery_old_videoplayer_summary">MiuiVideoPlayer.apk-nak a /system/app mappában kell lennie</string>
     <string name="cloud_upload_delay">Felhőbe való feltöltés késleltetés</string>
     <string name="cloud_upload_delay_summary">A késleltetés ideje mielőtt egy új fénykép feltöltésre kerül a MiCloud-ba.\n%s</string>
 </resources>

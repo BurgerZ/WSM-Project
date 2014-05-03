@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="donations_paypal_currency_code">USD</string>
+    <string name="donations_paypal_item_name">WSM Project Adományozás</string>
     <string name="app_name">WSM eszközök</string>
     <string name="apply">Alkalmaz</string>
     <string name="act_title_settings">Beállítások</string>
@@ -44,6 +46,7 @@
     <string name="dialog_update_available">"Elérhető a WSM Eszközök újabb verziója.\nTelepített verzió: %1$s\nElérhető verzió: %2$s\nAz új verzió telepítése után lépjen be a Beállítások - WSM kezelés menüpontba és ellenőrizze,hogy bináris frissítés szükséges-e."</string>
     <string name="menu_select_all">Mind kiválasztása</string>
     <string name="menu_unselect_all">Kiválasztás törlése</string>
+    <string name="installer_log">NAPLÓ</string>
     <string name="installer_install">Telepítés</string>
     <string name="installer_uninstall">Eltávolítás</string>
     <string name="installer_reboot">Újraindítás</string>
@@ -53,6 +56,43 @@
     <string name="installer_phone_not_compatible">WSM nem kompatibilis (még) az  Android SDK %1$d verziójával vagy a processzor architektúrájával (%2$s).</string>
     <string name="installer_not_tested_but_compatible">WSM nincs tesztelve az Android SDK %d verzójával ,de lehetséges,hogy kompatibilis. Ha kalandra vágyik,próbálja ki:-)</string>
     <string name="installer_rom_update" />
+    <string name="reboot_failed">Az újraindítás nem sikerült. Próbálja a hagyományos módon újraindítani a készüléket.</string> 
+    <string name="reboot">Újraindítás</string>
+    <string name="auto_flash_note">%s automatikus telepítéséhez nyomja meg az OK gombot.</string>
+    <string name="manual_flash_note">A befejezéshez telepítse a %s fájlt az SD kártyáról.</string>
+    <string name="reboot_confirmation">Újraindítja a rendszert?</string>
+    <string name="reboot_recovery_confirmation">Újraindítja recovery módban?</string>
+    <string name="file_creating_directory">%s mappa létrehozása…</string>
+    <string name="file_create_directory_failed">%s mappa létrehozása nem sikrült</string>
+    <string name="file_writing_recovery_command">Recovery parancs írása…</string>
+    <string name="file_writing_recovery_command_failed">Recovery parancs írása nem sikerült. Használjon másik telepítési formát.</string>
+    <string name="install_warning">" Néhány esetben az Xposed telepítés után nem indul újra a rendszer.
+Ha még nem hallott a \"soft brick\"-ről és a \"bootloop\"-ról vagy ez esetben nem tudja hogyan állíthatja vissza a rendszert, "<b>NE TELEPÍTSE</b>" a WSM Eszközök alkalmazást!
+
+Mindenesetre készítsen mentés a rendszerről és adatairól. "</string>
+    <string name="install_mode_normal">Normál (másolás közvetlenül a /system mappába)</string>
+    <string name="install_mode_recovery_auto">Recovery (A zip fájl automatikus telepítése)</string>
+    <string name="install_mode_recovery_manual">Recovery (A zip fájl SD kártyára másolása, telepítés manuálisan)</string>
+    <string name="pref_install_mode">Telepítési mód</string>
+    <string name="root_failed">"Az alkalmazásnak nem sikerült root jogosultságot kapni.
+Ellenőrizze a root jogosultságot valamint a shell parancsok blokkolását.</string>
+    <string name="file_extract_failed">%s kicsomaogálsa nem sikerült</string>
+    <string name="file_mounting_writable">%s felcsatolása írásra&#8230;</string>
+    <string name="file_mount_writable_failed">%s felcsatolása írásra nem sikerült</string>
+    <string name="file_trying_to_continue">Folytatás&#8230;</string>
+    <string name="file_backup_already_exists">%s biztonsági mentés már van</string>
+    <string name="file_backup_not_found">%s biztonsági mentés nem található</string>
+    <string name="file_backup_failed">%s biztonsági mentés létrehozása nem sikerült</string>
+    <string name="file_backup_successful">%s biztonsági mentés létrehozva</string>
+    <string name="file_backup_restoring">%s mentés visszaállítása</string>
+    <string name="file_copying">Másolás %s&#8230;</string>
+    <string name="file_copy_failed">%1$s másolása %2$s nem sikerült</string>
+    <string name="file_move_failed">%1$s áthelyezése %2$s nem sikerült</string>
+    <string name="file_set_perms_failed">%s engedély beállítása nem sikerült</string>
+    <string name="file_set_owner_failed">%s tulajdonosi engedély beállítása nem sikerült</string>
+    <string name="file_removing">Eltávoltás %s&#8230;</string>
+    <string name="file_remove_failed">%s eltávolítása nem sikerült</string>
+    <string name="file_done">Sikerült! A változások a következő újraindításkor lépnek érvénybe.</string>
     <string name="repo_download_failed_http">A letöltés %1$s nem sikerült: %2$d (%3$s)</string>
     <string name="repo_download_failed">A letöltés %1$s nem sikerült: %2$s</string>
     <string name="repo_load_failed">"Nem tölthető be %1$s tárolóból:\n%2$s"</string>   
@@ -60,7 +100,7 @@
     <string name="changes">Változások:</string>
     <string name="branch_display">(%s branch)</string>
     <string name="download_author">by %s</string>
-    <string name="download_unknown_author">ismeretlen szerző</string>
+    <string name="download_unknown_author">ismeretlen készítő</string>
     <string name="download_status_version">Verzió: %1$s</string>
     <string name="download_timestamps">Hozzáadva %1$s · Frissítve %2$s</string>
     <string name="download_sorting_title">Rendezés</string>
