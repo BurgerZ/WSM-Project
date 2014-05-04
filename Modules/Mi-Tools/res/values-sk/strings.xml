@@ -138,6 +138,7 @@
     <string name="use_own_carrier_logo_summary">Môžete si vybrať svoje vlastné logo</string>
     <string name="own_carrier_logo">Vybrať vlastné logo</string>
     <string name="own_carrier_logo_summary">%s</string>
+    <string name="own_carrier_logo_2">Vybrať vlastné logo 2</string>
     <string name="signal_bars_color">Farba ikony signálu</string>
     <string name="signal_bars_color_summary">Nastaviť vlastnú farbu ikony signálu</string>
     <string name="signal_bars_color_2">Farba ikony signálu 2</string>
@@ -174,8 +175,10 @@
     <string name="power">Napájanie</string>
     <string name="advanced_reboot_menu_summary">Pridať viac volieb do výberu pri vypínaní telefónu</string>
     <string name="advanced_reboot_menu">Rozšírená ponuka vypínania</string>
-    <string name="power_reboot">Reštart</string> 
+    <string name="add_screenshot">Pridať možnosť \"Screenshot\"</string> 
+    <string name="add_screenshot_summary">Pridá skratku pre \"Screenshot\" do menu vypínania</string>
     <string name="take_screenshot">Screenshot</string> 
+    <string name="power_reboot">Reštart</string> 
     <string name="power_reboot_options">Voľby pri reštarte</string> 
     <string name="power_reboot_normal">Normálny</string> 
     <string name="power_reboot_recovery">Recovery</string> 
@@ -286,6 +289,10 @@
     <string name="show_notification_bubble">Zobraziť upozornenia</string>
     <string name="show_notification_bubble_summary">Zobraziť upozornenia na ikone aplikácie</string>
     <string name="notification_bubble_apps">Zoznam aplikácií</string>
+    <!-- Phone -->
+    <string name="app_phone">Telefón</string>
+    <string name="national_roaming">Dáta v národnom roamingu</string>
+    <string name="national_roaming_summary">Pripojiť mobilné dáta ak je dostupný národný roaming</string>
     <!-- MMS -->
     <string name="app_mms">Správy</string>
     <string name="disable_sms_to_mms_conversion">Povoliť dlhé SMS</string>
@@ -344,4 +351,6 @@
     <string name="app_miuigallery">Galéria</string>
     <string name="cloud_upload_delay">Oneskorenie odosielania do Cloudu</string>
     <string name="cloud_upload_delay_summary">Dĺžka oneskorenia pred začiatkom odosielania na MiCloud.\n%s</string>
+    <string name="gallery_old_videoplayer">Použiť MiuiVideoPlayer pre video</string>
+    <string name="gallery_old_videoplayer_summary">MiuiVideoPlayer.apk musí byť v zložke /system/app</string>
 </resources>
