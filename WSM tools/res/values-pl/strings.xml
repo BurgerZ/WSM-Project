@@ -67,7 +67,7 @@
     <string name="file_create_directory_failed">Nie można utworzyć %s</string>
     <string name="file_writing_recovery_command">Tworzenie komend dla recovery…</string>
     <string name="file_writing_recovery_command_failed">Wystapił błąd podczas tworzenia komend pod Twoje recovery, spróbuj innej metody.</string>
-    <string name="install_warning">"W niektórych przypadkach instalacja Xposed ubija telefon.\nJeżeli nie miałeś do czynienia z \"soft brick\" lub \"bootloop\" i nie wiesz jak przywarca się po nich telefon do życia, <b>zrezygnuj</b> z instalacji Xposed!\nPrzed instalacją zaleca się zrobić pełen backup systemu. "</string>
+    <string name="install_warning">W niektórych przypadkach instalacja Xposed ubija telefon.\n\nJeżeli nie miałeś do czynienia z \"soft brick\" lub \"bootloop\" i nie wiesz jak przywarca się po nich telefon do życia, <b>zrezygnuj</b> z instalacji Xposed!\n\nPrzed instalacją zaleca się zrobić pełen backup systemu.</string>
 
     <!--  File operations -->
     <string name="install_mode_normal">Standardowy (z poziomu telefonu)</string>
@@ -99,6 +99,12 @@
 
     <!-- Download tab -->
     <string name="changes">Lista zmian:</string>
+    <string name="release_type_stable">Wersja stabilna</string>
+    <string name="release_type_stable_summary">Stabilna (wolna od bugów)</string>
+    <string name="release_type_beta">Wersja beta</string>
+    <string name="release_type_beta_summary">Beta (może zawierać bugi)</string>
+    <string name="release_type_experimental">Wersja eksperymantalna</string>
+    <string name="release_type_experimental_summary">Eksperymantalna (zawiera bugi)</string>
     <string name="download_author">od %s</string>
     <string name="download_unknown_author">autor nieznany</string>
     <string name="download_status_version">Wersja: %1$s</string>

@@ -133,6 +133,7 @@
     <string name="use_own_carrier_logo">Własne logo</string>
     <string name="use_own_carrier_logo_summary">Umożliwia ustawienie własnego logo</string>
     <string name="own_carrier_logo">Wybierz swoje logo</string>
+    <string name="own_carrier_logo_2">Wybierz swoje drugie logo</string>
     <string name="signal_bars_color">Kolor kresek zasięgu</string>
     <string name="signal_bars_color_summary">Wybrany kolor kresek zasięgu</string>
     <string name="signal_bars_color_2">Kolor kresek 2go zasięgu</string>
@@ -332,4 +333,6 @@
     <string name="app_miuigallery">Galeria</string>
     <string name="cloud_upload_delay">Opóźnienie odświeżania chmury</string>
     <string name="cloud_upload_delay_summary">Określa kiedy po zrobieniu zdjęcia ma ono zostać wysyłane do MiCloud.\nAktualnie %s</string>
+    <string name="gallery_old_videoplayer">Użyj MiuiVideoPlayer do wideo</string>
+    <string name="gallery_old_videoplayer_summary">MiuiVideoPlayer.apk musi znajdować się w /system/app</string>
 </resources>
