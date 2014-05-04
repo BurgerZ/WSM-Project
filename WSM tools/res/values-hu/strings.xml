@@ -42,7 +42,7 @@
     <string name="module_opt_hide_summary">A rejtett modulok megjelenítéséhez kapcsolja be a rejtett modulok mutatása opciót</string>
     <string name="dialog_are_you_sure">Biztos benne?</string>
     <string name="dialog_phone_will_be_rebooted">A készülék újraindul</string>
-    <string name="dialog_progress_updating">Frissítés...</string>
+    <string name="dialog_progress_updating">Frissítés…</string>
     <string name="dialog_update_available">"Elérhető a WSM Eszközök újabb verziója.\nTelepített verzió: %1$s\nElérhető verzió: %2$s\nAz új verzió telepítése után lépjen be a Beállítások - WSM kezelés menüpontba és ellenőrizze,hogy bináris frissítés szükséges-e."</string>
     <string name="menu_select_all">Mind kiválasztása</string>
     <string name="menu_unselect_all">Kiválasztás törlése</string>
@@ -66,10 +66,11 @@
     <string name="file_create_directory_failed">%s mappa létrehozása nem sikrült</string>
     <string name="file_writing_recovery_command">Recovery parancs írása…</string>
     <string name="file_writing_recovery_command_failed">Recovery parancs írása nem sikerült. Használjon másik telepítési formát.</string>
-    <string name="install_warning">" Néhány esetben az Xposed telepítés után nem indul újra a rendszer.
+    <string name="install_warning">"Néhány esetben az Xposed telepítés után nem indul újra a rendszer.
+
 Ha még nem hallott a \"soft brick\"-ről és a \"bootloop\"-ról vagy ez esetben nem tudja hogyan állíthatja vissza a rendszert, "<b>NE TELEPÍTSE</b>" a WSM Eszközök alkalmazást!
 
-Mindenesetre készítsen mentés a rendszerről és adatairól. "</string>
+Mindenesetre készítsen mentés a rendszerről és adatairól."</string>
     <string name="install_mode_normal">Normál (másolás közvetlenül a /system mappába)</string>
     <string name="install_mode_recovery_auto">Recovery (A zip fájl automatikus telepítése)</string>
     <string name="install_mode_recovery_manual">Recovery (A zip fájl SD kártyára másolása, telepítés manuálisan)</string>
