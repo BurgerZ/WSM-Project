@@ -137,6 +137,7 @@
     <string name="use_own_carrier_logo_summary">您將能夠選擇您自己的電信業者標誌</string>
     <string name="own_carrier_logo">選擇您的電信業者標誌</string>
     <string name="own_carrier_logo_summary">%s</string>
+    <string name="own_carrier_logo_2">選擇您的電信業者 2 標籤</string>
     <string name="signal_bars_color">訊號欄顏色</string>
     <string name="signal_bars_color_summary">設定行動網路訊號欄顏色</string>
     <string name="signal_bars_color_2">訊號欄顏色 2</string>
@@ -348,5 +349,7 @@
     <string name="app_miuigallery">相簿</string>
     <string name="cloud_upload_delay">雲服務上傳延時</string>
     <string name="cloud_upload_delay_summary">上傳新照片至"小米雲服務"之前的延遲時間.\n%s</string>
+    <string name="gallery_old_videoplayer">使用 MiuiVideoPlayer 來播放視訊</string>
+    <string name="gallery_old_videoplayer_summary">MiuiVideoPlayer.apk 必須要安裝在 /system/app 資料夾中</string>
 
 </resources>
