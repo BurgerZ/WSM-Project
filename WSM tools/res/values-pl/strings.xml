@@ -33,7 +33,7 @@
     <string name="pref_system_toasts_title">Powiadomienia w dymkach</string>
     <string name="pref_system_toasts_summary">Pokazuje wiadomości WSM w dymkach</string>
     <string name="pref_about_title">Informacje</string>
-    <string name="bottom_bar_btn_manage">Framework</string>
+    <string name="bottom_bar_btn_manage">Zarządzaj</string>
     <string name="bottom_bar_btn_settings">Ustawienia</string>
     <string name="bottom_bar_btn_reboot">Restart</string>
     <string name="bottom_bar_btn_refresh">Odśwież</string>
