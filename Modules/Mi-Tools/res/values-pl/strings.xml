@@ -301,6 +301,8 @@
     <!-- QuickSearchBox -->
     <string name="app_quicksearchbox">Wyszukiwarka</string>
     <string name="quicksearchbox_marketplace">Szukaj aplikacji przez</string>
+    <string name="quicksearchbox_marketplace_summary">Wyszukuję w:\n%s</string>
+    <string name="screenshot_delay">Zrzut ekranu (opóźnienie)</string>
     <!-- Browser -->
     <string name="app_browser">Przeglądarka</string>
     <string name="browser_autofit_pages">Auto-dopasowanie stron</string>
