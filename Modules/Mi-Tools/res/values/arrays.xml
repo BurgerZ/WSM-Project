@@ -68,30 +68,40 @@
     <string-array name="holidays_server_entries">
         <item>MIUI.com</item> 
         <item>Romz.bz</item> 
-        <item>Miui.su</item>
-        <item>Miui.cz (SK)</item> 
-        <item>Miui.cz (CZ)</item>
+        <item>MIUI.su (RU)</item>
+        <item>MIUI.su (BY)</item>
+        <item>MIUI.su (UK)</item>
+        <item>MIUI.cz (SK)</item>
+        <item>MIUI.cz (CZ)</item>
+        <item>MIUI Polska</item>
     </string-array>
     <string-array name="holidays_server_values" translatable="false">
         <item>holidays_server_original</item> 
         <item>holidays_server_romz</item> 
         <item>holidays_server_miuisu</item>
+        <item>holidays_server_miuisu_by</item>
+        <item>holidays_server_miuisu_uk</item>
         <item>holidays_server_cz_slovak</item> 
         <item>holidays_server_cz_czech</item>
+        <item>holidays_server_pl</item>
     </string-array>
     <string-array name="holidays_selector_country_entries">
         <item>@string/holidays_selector_country_original</item> 
-        <item>@string/holidays_selector_country_russia</item> 
+        <item>@string/holidays_selector_country_russia</item>
+        <item>@string/holidays_selector_country_belarus</item>
         <item>@string/holidays_selector_country_ukraine</item> 
         <item>@string/holidays_selector_country_slovakia</item>
-        <item>@string/holidays_selector_country_czech</item> 
+        <item>@string/holidays_selector_country_czech</item>
+        <item>@string/holidays_selector_country_poland</item>
     </string-array>
     <string-array name="holidays_selector_country_values" translatable="false">
         <item>holidays_selector_country_original</item> 
-        <item>holidays_selector_country_russia</item> 
+        <item>holidays_selector_country_russia</item>
+        <item>holidays_selector_country_belarus</item>
         <item>holidays_selector_country_ukraine</item> 
         <item>holidays_selector_country_slovakia</item>
-        <item>holidays_selector_country_czech</item> 
+        <item>holidays_selector_country_czech</item>
+        <item>holidays_selector_country_poland</item>
     </string-array>
     <string-array name="festival_server_entries">
         <item>MIUI.com</item> 
@@ -503,5 +513,12 @@
         <item>600</item>
         <item>1800</item>
         <item>3600</item>
+    </string-array>
+    <string-array name="screenshot_delay_values">
+        <item>0</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
     </string-array>
 </resources>

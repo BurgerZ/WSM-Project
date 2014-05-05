@@ -63,6 +63,7 @@
     <string name="notif_reboot_required">Please reboot to apply changes.</string>
     <string name="notif_reboot_required_title">Reboot requested</string>
     <string name="notif_reboot_required_message">Reboot required to apply changes</string>
+    <string name="notif_torch_on">Torch on</string>
     <!-- Backup & Restore -->
     <string name="backup_name">Backup Name</string>
     <string name="backup_save">Save settings</string>
@@ -191,6 +192,7 @@
     <string name="power_cancel">Cancel</string> 
     <!-- Device -->
     <string name="device">Device</string>
+    <string name="screenshot_delay">Screenshot delay (in ms)</string>
     <string name="all_rotations_summary">Enable all rotation angles, including upside-down</string>
     <string name="all_rotations">Enable all rotation angles</string>
     <string name="lockscreen_rotations_summary">Allow lockscreen to rotate to landscape</string>
@@ -282,6 +284,9 @@
     <string name="set_launcher_icons_color">Custom icons text color</string>
     <string name="launcher_icons_color_summary">Select launcher icons/folder labels color</string>
     <string name="launcher_icons_color">Icons text color</string>
+    <string name="hide_launcher_apps_title">Hide selected icons</string>
+    <string name="hide_launcher_apps_summary">You can hide icons for selected applications from home screen</string>
+    <string name="hide_launcher_apps_list">Applications list</string>
     <!-- Applications prefs-->
     <string name="applications">Applications</string>
     <string name="applications_summary">MIUI applications settings</string>
@@ -312,10 +317,12 @@
     <string name="holidays_selector_country">Holidays country</string>
     <string name="holidays_selector_country_summary">%s</string>
     <string name="holidays_selector_country_original">Original (chinese)</string> 
-    <string name="holidays_selector_country_russia">Russia</string> 
+    <string name="holidays_selector_country_russia">Russia</string>
+    <string name="holidays_selector_country_belarus">Belarus</string>
     <string name="holidays_selector_country_ukraine">Ukraine</string> 
     <string name="holidays_selector_country_slovakia">Slovakia</string>
-    <string name="holidays_selector_country_czech">Czech Republic</string> 
+    <string name="holidays_selector_country_czech">Czech Republic</string>
+    <string name="holidays_selector_country_poland">Poland</string>
     <!-- QuickSearchBox -->
     <string name="app_quicksearchbox">QuickSearchBox</string>
     <string name="quicksearchbox_marketplace">Search MarketPlace</string>

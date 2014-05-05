@@ -63,6 +63,7 @@
     <string name="notif_reboot_required">Перезагрузитесь для применения изменений</string>
     <string name="notif_reboot_required_title">Запрос перезагрузки</string>
     <string name="notif_reboot_required_message">Для применения перезагрузитесь</string>
+    <string name="notif_torch_on">Фонарик включен</string>
     <!-- Backup & Restore -->
     <string name="backup_name">Имя копии</string>
     <string name="backup_save">Сохранить настройки</string>
@@ -191,6 +192,7 @@
     <string name="power_cancel">Отмена</string> 
     <!-- Device -->
     <string name="device">Устройство</string>
+    <string name="screenshot_delay">Задержка скриншота (мс)</string>
     <string name="all_rotations_summary">Включает все углы поворота, включая 360°</string>
     <string name="all_rotations">Все углы поворота</string>
     <string name="lockscreen_rotations_summary">Возможность вращать экран блокировки (на MIUI v5 выглядит криво)</string>
@@ -282,6 +284,9 @@
     <string name="set_launcher_icons_color">Свой цвет подписей</string>
     <string name="launcher_icons_color_summary">Выбор цвета текста подписей иконок и папок рабочего стола</string>
     <string name="launcher_icons_color">Цвет подписей иконок</string>
+    <string name="hide_launcher_apps_title">Скрыть выбранные иконки</string>
+    <string name="hide_launcher_apps_summary">Позволяет скрыть с рабочего стола иконки выбранных приложений</string>
+    <string name="hide_launcher_apps_list">Список приложений</string>
     <!-- Applications prefs-->
     <string name="applications">Приложения</string>
     <string name="applications_summary">Настройки приложений MIUI</string>
@@ -312,10 +317,12 @@
     <string name="holidays_selector_country">Праздники (страна)</string>
     <string name="holidays_selector_country_summary">%s</string>
     <string name="holidays_selector_country_original">Оригинальные (Китай)</string> 
-    <string name="holidays_selector_country_russia">Россия</string> 
+    <string name="holidays_selector_country_russia">Россия</string>
+    <string name="holidays_selector_country_belarus">Беларусь</string>
     <string name="holidays_selector_country_ukraine">Украина</string> 
     <string name="holidays_selector_country_slovakia">Словакия</string>
-    <string name="holidays_selector_country_czech">Чешская Республика</string> 
+    <string name="holidays_selector_country_czech">Чешская Республика</string>
+    <string name="holidays_selector_country_poland">Польша</string>
     <!-- QuickSearchBox -->
     <string name="app_quicksearchbox">Виджет поиска</string>
     <string name="quicksearchbox_marketplace">Выбор маркета</string>
