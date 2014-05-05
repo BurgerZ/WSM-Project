@@ -23,6 +23,7 @@
     <string name="pref_manage_summary">安裝, 升級, 刪除</string>
     <string name="pref_repositories_alert">有些 Xposed 模組將無法運行在您的裝置上，甚至將導致您的裝置無法正常開機!\n使用它們有一定的風險，請自行斟酌!</string>
     <string name="pref_repositories_title">選擇資料庫</string>
+    <string name="pref_install_mode">安裝模式</string>
     <string name="pref_show_hidden_modules_title">顯示被隱藏的模組</string>
     <string name="pref_show_hidden_modules_summary">在清單中顯示被隱藏的模組</string>
     <string name="pref_show_logs_tab_title">顯示"紀錄"欄</string>
@@ -58,6 +59,23 @@
     <string name="installer_not_tested_but_compatible">WSM 尚未在 Android SDK 版本 %d 上進行測試, 但目前看來是可以相容的. 如果您喜歡冒險，您可以嘗試安裝並運行它.</string>
     <string name="installer_rom_update"></string>
     <string name="reboot_failed">重啟失敗. 請使用正常方式重啟.</string>
+    <string name="reboot">重啟</string>
+    <string name="auto_flash_note">%s 一旦您按下"確定"，應該將會自動刷入.</string>
+    <string name="manual_flash_note">請從 SD 卡刷入 %s 來完成任務.</string>
+    <string name="reboot_confirmation">您是否要現在重啟?</string>
+    <string name="reboot_recovery_confirmation">您是否要現在重啟至 recovery 模式?</string>
+    <string name="file_creating_directory">正在建立目錄 %s…</string>
+    <string name="file_create_directory_failed">無法建立目錄 %s</string>
+    <string name="file_writing_recovery_command">正在寫入 recovery 指令…</string>
+    <string name="file_writing_recovery_command_failed">寫入 recovery 指令失敗. 請用不同的安裝模組.</string>
+    <string name="install_warning">
+    在某些情況下，您的裝置可能會在安裝後 Xposed 框架後無法啟動裝置。\ n \ n如果您在先前從來沒有聽說過\“軟磚\”和\“bootloop\”，或者如果您不知道如何從這種情況中將裝置恢復正常，並 
+    <b>不會</ B> 
+    安裝 Xposed 框架！\ n\ n在任何情況下，強烈推薦，您有執行過備份操作並保留最近的備份。
+    </string>
+    <string name="install_mode_normal">正常 (直接寫入 /system )</string>
+    <string name="install_mode_recovery_auto">Recovery 模式 (自動刷入 zip )</string>
+    <string name="install_mode_recovery_manual">Recovery 模式 (手動至 SD 卡中刷入 zip 安裝包)</string>
  
     <!--  File operations -->
     <string name="root_failed">無法取得 root 權限.\n\n請確認您的裝置以正確取得 root 權限，並且沒有封鎖 shell 指令.</string>
@@ -86,6 +104,12 @@
 
     <!-- Download tab -->
     <string name="changes">更新資訊:</string>
+    <string name="release_type_stable">穩定版本</string>
+    <string name="release_type_stable_summary">穩定版本 (有較低風險的程式錯誤)</string>
+    <string name="release_type_beta">測試版本</string>
+    <string name="release_type_beta_summary">測試版本 (有可預料的程式錯誤)</string>
+    <string name="release_type_experimental">實驗版本</string>
+    <string name="release_type_experimental_summary">實驗版本 (有較高風險的程式錯誤)</string>
     <string name="download_author">藉由 %s</string>
     <string name="download_unknown_author">未知作者</string>
     <string name="download_status_version">版本: %1$s</string>
