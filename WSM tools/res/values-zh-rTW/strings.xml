@@ -13,7 +13,7 @@
     <string name="author">開發者</string>
     <string name="graphics">圖片製作</string>
     <string name="check_for_updates">檢測升級</string>
-    <string name="copyright">BurgerZ MD (http://burgerz.pro)\nCopyright © 2013, 版權所有</string>
+    <string name="copyright">BurgerZ MD (http://burgerz.pro)\nCopyright © 2013-2014, 版權所有</string>
     <string name="copyright_xposed">基於 Xposed 框架開發</string>
     <string name="information_faq">資訊</string>
     <string name="information_faq_summary">F.A.Q., 翻譯人員, 製作群, 幫助</string>
@@ -86,7 +86,6 @@
 
     <!-- Download tab -->
     <string name="changes">更新資訊:</string>
-    <string name="branch_display">(%s 分支)</string>
     <string name="download_author">藉由 %s</string>
     <string name="download_unknown_author">未知作者</string>
     <string name="download_status_version">版本: %1$s</string>

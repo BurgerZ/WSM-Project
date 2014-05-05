@@ -13,7 +13,7 @@
     <string name="author">Autor</string>
     <string name="graphics">Gráficos</string>
     <string name="check_for_updates">Buscar actualizaciones</string>
-    <string name="copyright">BurgerZ MD (http://burgerz.pro)\nCopyright © 2013, Todos los derechos reservados.</string>
+    <string name="copyright">BurgerZ MD (http://burgerz.pro)\nCopyright © 2013-2014, Todos los derechos reservados.</string>
     <string name="copyright_xposed">Basado en Xposed</string>
     <string name="information_faq">Información</string>
     <string name="information_faq_summary">F.A.Q., traducciones, creditos, ayuda</string>
@@ -64,7 +64,6 @@
 
     <!-- Download tab -->
     <string name="changes">Cambios:</string>
-    <string name="branch_display">(%s branch)</string>
     <string name="download_author">por %s</string>
     <string name="download_unknown_author">autor desconocido</string>
     <string name="download_status_version">Versión: %1$s</string>

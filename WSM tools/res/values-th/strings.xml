@@ -13,7 +13,7 @@
     <string name="author">ผู้เขียน</string>
     <string name="graphics">กราฟฟิก</string>
     <string name="check_for_updates">ตรวจสอบการอัปเดต</string>
-    <string name="copyright">BurgerZ MD (http://burgerz.pro)\nCopyright © 2013, All Rights Reserved</string>
+    <string name="copyright">BurgerZ MD (http://burgerz.pro)\nCopyright © 2013-2014, All Rights Reserved</string>
     <string name="copyright_xposed">ทำงานบน Xposed</string>
     <string name="information_faq">ข้อมูล</string>
     <string name="information_faq_summary">ถามตอบ แปลภาษา เครดิต ช่วยเหลือ</string>
@@ -64,7 +64,6 @@
 
     <!-- Download tab -->
     <string name="changes">การเปลี่ยนแปลง:</string>
-    <string name="branch_display">(%s สาขา)</string>
     <string name="download_author">โดย %s</string>
     <string name="download_unknown_author">ผู้เขียนไม่รู้จัก</string>
     <string name="download_status_version">เวอร์ชัน: %1$s</string>

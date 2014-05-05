@@ -13,7 +13,7 @@
   <string name="author">程序</string>
   <string name="graphics">美工</string>
   <string name="check_for_updates">自动检查更新</string>
-  <string name="copyright">BurgerZ MD (http://burgerz.pro)\nCopyright © 2013, All Rights Reserved</string>
+  <string name="copyright">BurgerZ MD (http://burgerz.pro)\nCopyright © 2013-2014, All Rights Reserved</string>
   <string name="copyright_xposed">基于 Xposed 框架</string>
   <string name="information_faq">信息</string>
   <string name="information_faq_summary">常见问题, 翻译人员, 开发团队, 帮助</string>
@@ -62,7 +62,6 @@
   <string name="repo_load_failed">无法载入软件源: %1$s:\n%2$s</string>
   <!-- Download tab -->
   <string name="changes">新版变化:</string>
-  <string name="branch_display">(%s 分支)</string>
   <string name="download_author">作者: %s</string>
   <string name="download_unknown_author">未知作者</string>
   <string name="download_status_version">版本: %1$s</string>

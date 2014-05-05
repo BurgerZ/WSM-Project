@@ -16,7 +16,7 @@
     <string name="btnDeleteModule">Vymazať</string>
     <string name="changes">Zmeny:</string>
     <string name="check_for_updates">Skontrolovať aktualizácie</string>
-    <string name="copyright">BurgerZ MD (http://burgerz.pro)\nCopyright © 2013, Všetky práva vyhradené.</string>
+    <string name="copyright">BurgerZ MD (http://burgerz.pro)\nCopyright © 2013-2014, Všetky práva vyhradené.</string>
     <string name="copyright_xposed">Založené na Xposed</string>
     <string name="dialog_are_you_sure">Ste si istý?</string>
     <string name="dialog_phone_will_be_rebooted">Telefón sa reštartuje</string>
