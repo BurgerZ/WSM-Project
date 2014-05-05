@@ -59,6 +59,7 @@
     <string name="notif_reboot_required">Uruchom ponownie by zapisać zmiany.</string>
     <string name="notif_reboot_required_title">Wymagane jest ponowne uruchomienie</string>
     <string name="notif_reboot_required_message">Do zapisania zmian wymagane jest ponowne uruchomienie</string>
+    <string name="notif_torch_on">Włączona latarka</string>
     <!-- Backup & Restore -->
     <string name="backup_name">Nazwa kopii zapasowej</string>
     <string name="backup_save">Zapisz kopię</string>
@@ -267,6 +268,9 @@
     <string name="set_launcher_icons_color">Własny kolor tekstu</string>
     <string name="launcher_icons_color_summary">Wybrany kolor tekstu</string>
     <string name="launcher_icons_color">Kolor tekstu</string>
+    <string name="hide_launcher_apps_title">Ukryj ikony</string>
+    <string name="hide_launcher_apps_summary">Ukrywa wybrane ikony</string>
+    <string name="hide_launcher_apps_list">Lista aplikacji</string>
     <!-- Applications prefs-->
     <string name="applications">Aplikacje</string>
     <string name="applications_summary">Opcje aplikacji MIUI</string>
@@ -291,13 +295,15 @@
     <string name="festival_update_server">Festival update server</string> 
     <!-- Calendar -->
     <string name="app_calendar">Kalendarz</string>
-    <string name="holidays_update_server">Serwer do aktualizacji świąt</string> 
+    <string name="holidays_update_server">Serwer do aktualizacji świąt</string>
     <string name="holidays_selector_country">Wybierz kraj</string>
-    <string name="holidays_selector_country_original">Chiny</string> 
-    <string name="holidays_selector_country_russia">Rosja</string> 
-    <string name="holidays_selector_country_ukraine">Ukraina</string> 
+    <string name="holidays_selector_country_original">Chiny</string>
+    <string name="holidays_selector_country_russia">Rosja</string>
+    <string name="holidays_selector_country_belarus">Białoruś</string>
+    <string name="holidays_selector_country_ukraine">Ukraina</string>
     <string name="holidays_selector_country_slovakia">Słowacja</string>
-    <string name="holidays_selector_country_czech">Czechy</string> 
+    <string name="holidays_selector_country_czech">Czechy</string>
+    <string name="holidays_selector_country_poland">Polska</string>
     <!-- QuickSearchBox -->
     <string name="app_quicksearchbox">Wyszukiwarka</string>
     <string name="quicksearchbox_marketplace">Szukaj aplikacji przez</string>
