@@ -48,6 +48,7 @@
     <string name="time_10_min">10 minut</string>
     <string name="time_30_min">30 minut</string>
     <string name="time_1_hour">1 godzina</string>
+    <string name="none">(Zostaw puste)</string>
     <!-- MIUI warning -->
     <string name="miwarning_title">Niewspierany OS</string>
     <string name="miwarning_message">Ten system nie ma oficjalnego wsparcia. Nie wszystkie opcje będą działać.</string>
@@ -109,6 +110,7 @@
     <string name="show_clock_date_summary">Umieszcza aktualną datę w miejscu zegara</string>
     <string name="show_clock_date">Pokaż datę</string>
     <string name="clock_date_format">Format daty</string>
+    <!--string name="hide_alarm_icon">Ukryj ikonę budzika</string-->
     <!-- Battery -->
     <string name="battery">Bateria</string>
     <string name="hide_battery_icon_summary">Ukrywa ikonę baterii w belce</string>
@@ -233,6 +235,8 @@
     <string name="sound_summary">Opcje dźwięków</string>
     <string name="disable_safe_volume_warning">Ostrzeżenie o ochronie słuchu</string>
     <string name="disable_safe_volume_warning_summary">Wyłącza komunikat o głośności niebezpiecznej dla słuchu.</string>
+    <string name="disable_numberpicker_sound">Dźwięk wybierania daty/godziny</string>
+    <string name="disable_numberpicker_sound_summary">Wyłącza charakterystyczny dźwięk odtwarzany w Kalendarzu czy Zegarze podczas ustawiania przypomnień/alarmów.</string>
     <string name="disable_volume_control_sound">Wyłącz odgłos BEEP</string>
     <string name="disable_volume_control_sound_summary">Wyłącza charakterystyczne BEEPanie podczas dostosowywania głośności</string>
     <string name="unlink_notification_volume">Rozdziel głośności</string>
