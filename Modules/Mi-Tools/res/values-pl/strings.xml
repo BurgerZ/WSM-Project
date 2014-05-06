@@ -232,7 +232,7 @@
     <string name="sound">Dźwięk</string>
     <string name="sound_summary">Opcje dźwięków</string>
     <string name="disable_safe_volume_warning">Ostrzeżenie o ochronie słuchu</string>
-    <string name="disable_safe_volume_warning_summary">Wyłącza komunikat o głośności niebezpiecznej dla suchu.</string>
+    <string name="disable_safe_volume_warning_summary">Wyłącza komunikat o głośności niebezpiecznej dla słuchu.</string>
     <string name="disable_volume_control_sound">Wyłącz odgłos BEEP</string>
     <string name="disable_volume_control_sound_summary">Wyłącza charakterystyczne BEEPanie podczas dostosowywania głośności</string>
     <string name="unlink_notification_volume">Rozdziel głośności</string>
