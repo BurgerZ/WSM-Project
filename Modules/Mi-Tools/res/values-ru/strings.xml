@@ -27,7 +27,6 @@
     <string name="about_module">О модуле</string>
     <!-- AppPickerPreference -->
     <string name="preference_app_picker_search">Поиск</string>
-    <string name="preference_app_picker_none">(нет)</string>
     <!-- from arrays -->
     <string name="am_pm_hide">Скрыть</string>
     <string name="am_pm_small">Строчные буквы</string>
@@ -52,6 +51,7 @@
     <string name="time_10_min">10 минут</string>
     <string name="time_30_min">30 минут</string>
     <string name="time_1_hour">1 час</string>
+    <string name="none">(Нет)</string>
     <!-- MIUI warning -->
     <string name="miwarning_title">Неподдерживаемая ОС</string>
     <string name="miwarning_message">Эта ОС не поддерживается. Некоторые настройки могут не работать.\nВы согласны продолжить?</string>
@@ -113,6 +113,7 @@
     <string name="show_clock_date_summary">Показывать дату рядом с часами</string>
     <string name="show_clock_date">Показывать дату</string>
     <string name="clock_date_format">Формат даты</string>
+    <!--string name="hide_alarm_icon">Скрыть иконку будильника</string-->
     <!-- Battery -->
     <string name="battery">Батарея</string>
     <string name="hide_battery_icon_summary">Настройки видимости иконки батареи</string>
@@ -247,6 +248,8 @@
     <string name="sound_summary">Настройки звука и всего, что его касается</string>
     <string name="disable_safe_volume_warning">Отключить \"Безопасную громкость\"</string>
     <string name="disable_safe_volume_warning_summary">Отключить предупреждение о безопасной громкости при прослушивании музыки через наушники</string>
+    <string name="disable_numberpicker_sound">Отключить звук выбора даты/времени</string>
+    <string name="disable_numberpicker_sound_summary">Отключить звук при выборе даты/времени (Календарь, Будильник и т.д.)</string>
     <string name="disable_volume_control_sound">Отключить BEEP сигнал</string>
     <string name="disable_volume_control_sound_summary">Модуль отключает раздражающий звук, который появляется при регулировке громкости клавишами регулировки</string>
     <string name="unlink_notification_volume">Разделение громкости</string>

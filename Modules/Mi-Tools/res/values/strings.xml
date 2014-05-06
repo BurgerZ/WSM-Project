@@ -27,7 +27,6 @@
     <string name="about_module">About module</string>
     <!-- AppPickerPreference -->
     <string name="preference_app_picker_search">Search</string>
-    <string name="preference_app_picker_none">(None)</string>
     <!-- from arrays -->
     <string name="am_pm_hide">Hide</string>
     <string name="am_pm_small">Lowercase</string>
@@ -52,6 +51,7 @@
     <string name="time_10_min">10 minutes</string>
     <string name="time_30_min">30 minutes</string>
     <string name="time_1_hour">1 hour</string>
+    <string name="none">(None)</string>
     <!-- MIUI warning -->
     <string name="miwarning_title">Unsupported OS</string>
     <string name="miwarning_message">This OS is not officially supported. Some options may not work.\nDo you agree to continue?</string>
@@ -113,6 +113,7 @@
     <string name="show_clock_date_summary">Show the date with the status bar clock</string>
     <string name="show_clock_date">Show status bar date</string>
     <string name="clock_date_format">Date format</string>
+    <!--string name="hide_alarm_icon">Hide alarm icon</string-->
     <!-- Battery -->
     <string name="battery">Battery</string>
     <string name="hide_battery_icon_summary">Battery icon visibility settings</string>
@@ -247,6 +248,8 @@
     <string name="sound_summary">Sound related settings</string>
     <string name="disable_safe_volume_warning">Disable safe volume warning</string>
     <string name="disable_safe_volume_warning_summary">Disables safe volume warning dialog while listening music with headphones</string>
+    <string name="disable_numberpicker_sound">Disable number picker sound</string>
+    <string name="disable_numberpicker_sound_summary">Disables number picker sounds (in Calendar, Alarm etc.)</string>
     <string name="disable_volume_control_sound">Disable BEEP sound</string>
     <string name="disable_volume_control_sound_summary">Disables ugly BEEP sound while adjusting volume by vol. keys</string>
     <string name="unlink_notification_volume">Unlink notif. volume</string>

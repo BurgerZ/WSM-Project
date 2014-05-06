@@ -66,7 +66,8 @@
         <item>text_large</item>
     </string-array>
     <string-array name="holidays_server_entries">
-        <item>MIUI.com</item> 
+        <item>@string/none</item>
+        <item>MIUI.com</item>
         <item>Romz.bz</item> 
         <item>MIUI.su (RU)</item>
         <item>MIUI.su (BY)</item>
@@ -76,7 +77,8 @@
         <item>MIUI Polska</item>
     </string-array>
     <string-array name="holidays_server_values" translatable="false">
-        <item>holidays_server_original</item> 
+        <item>holidays_server_none</item>
+        <item>holidays_server_original</item>
         <item>holidays_server_romz</item> 
         <item>holidays_server_miuisu</item>
         <item>holidays_server_miuisu_by</item>
@@ -86,6 +88,7 @@
         <item>holidays_server_pl</item>
     </string-array>
     <string-array name="holidays_selector_country_entries">
+        <item>@string/none</item>
         <item>@string/holidays_selector_country_original</item> 
         <item>@string/holidays_selector_country_russia</item>
         <item>@string/holidays_selector_country_belarus</item>
@@ -95,7 +98,8 @@
         <item>@string/holidays_selector_country_poland</item>
     </string-array>
     <string-array name="holidays_selector_country_values" translatable="false">
-        <item>holidays_selector_country_original</item> 
+        <item>holidays_selector_country_none</item>
+        <item>holidays_selector_country_original</item>
         <item>holidays_selector_country_russia</item>
         <item>holidays_selector_country_belarus</item>
         <item>holidays_selector_country_ukraine</item> 
