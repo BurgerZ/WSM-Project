@@ -245,6 +245,8 @@
     <!-- Sound prefs -->
     <string name="sound">Звук</string>
     <string name="sound_summary">Настройки звука и всего, что его касается</string>
+    <string name="disable_safe_volume_warning">Отключить \"Безопасную громкость\"</string>
+    <string name="disable_safe_volume_warning_summary">Отключить предупреждение о безопасной громкости при прослушивании музыки через наушники</string>
     <string name="disable_volume_control_sound">Отключить BEEP сигнал</string>
     <string name="disable_volume_control_sound_summary">Модуль отключает раздражающий звук, который появляется при регулировке громкости клавишами регулировки</string>
     <string name="unlink_notification_volume">Разделение громкости</string>

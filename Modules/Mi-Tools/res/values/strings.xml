@@ -244,7 +244,9 @@
 	<string name="navigation_bar_color_summary">Background color of the navigation bar</string>
     <!-- Sound -->
     <string name="sound">Sound</string>
-    <string name="sound_summary">Sound related settings</string> 
+    <string name="sound_summary">Sound related settings</string>
+    <string name="disable_safe_volume_warning">Disable safe volume warning</string>
+    <string name="disable_safe_volume_warning_summary">Disables safe volume warning dialog while listening music with headphones</string>
     <string name="disable_volume_control_sound">Disable BEEP sound</string>
     <string name="disable_volume_control_sound_summary">Disables ugly BEEP sound while adjusting volume by vol. keys</string>
     <string name="unlink_notification_volume">Unlink notif. volume</string>
