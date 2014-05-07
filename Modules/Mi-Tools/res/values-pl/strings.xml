@@ -110,7 +110,7 @@
     <string name="show_clock_date_summary">Umieszcza aktualną datę w miejscu zegara</string>
     <string name="show_clock_date">Pokaż datę</string>
     <string name="clock_date_format">Format daty</string>
-    <!--string name="hide_alarm_icon">Ukryj ikonę budzika</string-->
+    <string name="hide_alarm_icon">Ukryj ikonę budzika</string>
     <!-- Battery -->
     <string name="battery">Bateria</string>
     <string name="hide_battery_icon_summary">Ukrywa ikonę baterii w belce</string>

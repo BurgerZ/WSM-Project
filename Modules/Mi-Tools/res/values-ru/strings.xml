@@ -22,7 +22,7 @@
         \u2022 Volume Skip Track\n
         \u2022 YellowPage</string> 
 	<string name="mitools_copyright">Любые модификации модуля запрещены.\n
-        BurgerZ MD, Copyright © 2013, Все права защищены</string>    
+        BurgerZ, Copyright © 2013-2014, Все права защищены</string>
     <!-- About -->
     <string name="about_module">О модуле</string>
     <!-- AppPickerPreference -->
@@ -113,7 +113,7 @@
     <string name="show_clock_date_summary">Показывать дату рядом с часами</string>
     <string name="show_clock_date">Показывать дату</string>
     <string name="clock_date_format">Формат даты</string>
-    <!--string name="hide_alarm_icon">Скрыть иконку будильника</string-->
+    <string name="hide_alarm_icon">Скрыть иконку будильника</string>
     <!-- Battery -->
     <string name="battery">Батарея</string>
     <string name="hide_battery_icon_summary">Настройки видимости иконки батареи</string>

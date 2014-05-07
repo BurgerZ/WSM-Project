@@ -22,7 +22,7 @@
         \u2022 Volume Skip Track\n
         \u2022 YellowPage</string>
 	<string name="mitools_copyright">Any module modifications prohibited.\n
-        BurgerZ MD, Copyright © 2013, All rights reserved</string>         
+        BurgerZ, Copyright © 2013-2014, All rights reserved</string>
     <!-- About -->
     <string name="about_module">About module</string>
     <!-- AppPickerPreference -->
@@ -113,7 +113,7 @@
     <string name="show_clock_date_summary">Show the date with the status bar clock</string>
     <string name="show_clock_date">Show status bar date</string>
     <string name="clock_date_format">Date format</string>
-    <!--string name="hide_alarm_icon">Hide alarm icon</string-->
+    <string name="hide_alarm_icon">Hide alarm icon</string>
     <!-- Battery -->
     <string name="battery">Battery</string>
     <string name="hide_battery_icon_summary">Battery icon visibility settings</string>
