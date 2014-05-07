@@ -37,7 +37,7 @@
     <string name="bottom_bar_btn_settings">Ustawienia</string>
     <string name="bottom_bar_btn_reboot">Restart</string>
     <string name="bottom_bar_btn_refresh">Odśwież</string>
-    <string name="bottom_bar_btn_repo">Repo</string>
+    <string name="bottom_bar_btn_repo">Magazyn</string>
     <string name="bottom_bar_btn_save">Zapisz</string>
     <string name="bottom_bar_btn_send">Wyślij</string>
     <string name="bottom_bar_btn_sort">Sortuj</string>
