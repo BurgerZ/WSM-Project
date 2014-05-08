@@ -579,8 +579,8 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<name>2.3.1</name> 
 		<code>231</code>
 		<reltype></reltype>
-		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v231_621102.apk</download> 
-		<md5sum>621102383528c2f5c24c949eb02635c0</md5sum> 
+		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v231_663d33.apk</download> 
+		<md5sum>663d334fa8af5bdd555b378d943f53fe</md5sum> 
 		<changelog html="true">&lt;li&gt;Fixed dexspy autodetect&lt;/li&gt;&lt;li&gt;Update Polish translation&lt;/li&gt;</changelog> 
 		<changelog_ru html="true">&lt;li&gt;Исправлено автоматическое обнаружение наличия в прошивках dexspy&lt;/li&gt;&lt;li&gt;Обновлен Польский перевод&lt;/li&gt;</changelog_ru> 
 	</version>		
