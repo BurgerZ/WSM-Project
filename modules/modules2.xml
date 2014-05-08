@@ -565,7 +565,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<changelog html="true"></changelog> 
 	</version>	
   </module>
-  <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1399036567">
+  <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1399535149">
 	<name>WSM tools</name> 
 	<summary>This is the installer and manager for the Xposed framework, which is a requirement for all modules</summary> 
 	<summary_ru>Установщик и менеджер фреймворка Xposed, который нужен для работы всех модулей</summary_ru> 
@@ -575,6 +575,15 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>
+	<version uploaded="1399535149">
+		<name>2.3.0</name> 
+		<code>230</code>
+		<reltype></reltype>
+		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v230_5d5e83.apk</download> 
+		<md5sum>5d5e83ade1bf0e9b77e8c86cdfb959be</md5sum> 
+		<changelog html="true">&lt;li&gt;Added dexspy autodetect to automatically select binaries to install (dexspy-compatible or common)&lt;/li&gt;&lt;li&gt;Added upload date data for modules in the repository&lt;/li&gt;&lt;li&gt;Updated WSM Tools UI&lt;/li&gt;</changelog> 
+		<changelog_ru html="true">&lt;li&gt;Добавлено автоматическое обнаружение наличия в прошивках dexspy для возможности автоматически выбрать тип бинарных файлов для установки в систему (dexspy-совместимые или обычные)&lt;/li&gt;&lt;li&gt;Добавлено поле даты обновления (загрузки в репозиторий) для каждой из версий модулей в репозитории&lt;/li&gt;&lt;li&gt;Обновлен интерфейс пользователя программы&lt;/li&gt;</changelog_ru> 
+	</version>		
 	<version uploaded="1399036567">
 		<name>2.2.5</name> 
 		<code>225</code>
