@@ -10,7 +10,7 @@
     <moreinfo label="Support" role="support">http://miui.ru/extc.php</moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>
-	<version>
+	<version uploaded="1399019862">
 		<name>1.4.4.18.777f</name> 
 		<code>14418777</code> 
 		<reltype></reltype>
@@ -30,7 +30,7 @@
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>
-	<version>
+	<version uploaded="1397804709">
 		<name>2.2</name> 
 		<code>22</code>  
 		<reltype></reltype>
@@ -50,7 +50,7 @@
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>
-	<version>
+	<version uploaded="1399099590">
 		<name>2.0.3</name> 
 		<code>203</code> 
 		<reltype>beta</reltype>
@@ -59,7 +59,7 @@
 		<changelog html="true">&lt;li&gt;Fixes holidays selector&lt;/li&gt;&lt;li&gt;Fixed torch notification (Menu button click action)&lt;/li&gt;</changelog> 
 		<changelog_ru html="true">&lt;li&gt;Исправлены настройки праздников (теперь Россию снова можно выбрать)&lt;/li&gt;&lt;li&gt;Исправлено уведомление для фонарика (действие по нажатию на Меню)&lt;/li&gt;</changelog_ru> 
 	</version>	
-	<version>
+	<version uploaded="">
 		<name>2.0.2</name> 
 		<code>202</code> 
 		<reltype>beta</reltype>
@@ -68,7 +68,7 @@
 		<changelog html="true">&lt;li&gt;Added Poland and Belarus to holidays selector&lt;/li&gt;&lt;li&gt;Fixed file chooser for own carrier logo. Now you can select logos not only from FileManager, but from the Gallery too.&lt;/li&gt;&lt;li&gt;Added "Screenshot delay" option (Framework settings -> Device)&lt;/li&gt;&lt;li&gt;Fixed some issues in double click menu option&lt;/li&gt;&lt;li&gt;Added xxhdpi graphics&lt;/li&gt;</changelog> 
 		<changelog_ru html="true">&lt;li&gt;Добавлены Польша и Беларусь в настройки праздников&lt;/li&gt;&lt;li&gt;Исправлен выбор собственного изображения в качестве логотипа оператора, теперь его можно выбрать и из Галереи (раньше только с помощью приложения Файлы).&lt;/li&gt;&lt;li&gt;Добавлена настройка "Задержка скриншота" (Система -> Устройство)&lt;/li&gt;&lt;li&gt;Исправлены мелкие, но неприятные баги при двойном клике на Меню&lt;/li&gt;&lt;li&gt;Добавлена xxhdpi графика&lt;/li&gt;</changelog_ru> 
 	</version>	
-	<version>
+	<version uploaded="">
 		<name>2.0.1</name> 
 		<code>201</code> 
 		<reltype>beta</reltype>
@@ -76,7 +76,7 @@
 		<md5sum>781255cb18bc61f8805530041fe457c7</md5sum> 
 		<changelog html="true">&lt;li&gt;Applications: fixed notification bubbles FC. Now you can load the list of all installed (and system) apps and select your own set of applications to show bubbles on their icons.&lt;/li&gt;</changelog> 
 	</version>	
-	<version>
+	<version uploaded="">
 		<name>2.0.0</name> 
 		<code>200</code> 
 		<reltype>beta</reltype>
@@ -84,7 +84,7 @@
 		<md5sum>a18c1026d0d5cebf93bef2d3c28e495a</md5sum> 
 		<changelog html="true">&lt;li&gt;Applications: added notification bubbles config file to /sdcard/MIUI/MiTools/bubbleapps.json&lt;/li&gt;&lt;li&gt;Buttons: fixed cursor control via volume keys in text fields&lt;/li&gt;&lt;li&gt;Buttons: fixed double click on MENU functionality for MIUI 4.4.4&lt;/li&gt;&lt;li&gt;Statusbar: now you can choose your own logos from SD card&lt;/li&gt;</changelog> 
 	</version>	
-	<version>
+	<version uploaded="">
 		<name>1.9.2</name> 
 		<code>192</code> 
 		<reltype></reltype>
@@ -92,7 +92,7 @@
 		<md5sum>1780bba8b5c40be1648394a582d3aaf7</md5sum> 
 		<changelog html="true">&lt;li&gt;Applications: added notification bubbles for Robird, Gmail, Facebook, Google Play Market, imo.im, WhatsApp, VKontakte, Twitter&lt;/li&gt;&lt;li&gt;Applications: added national roaming&lt;/li&gt;&lt;li&gt;Statusbar: added Taiwan Mobile, Chunghwa Telecom and FETnet  logos&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
 	</version>
-	<version>
+	<version uploaded="">
 		<name>1.9.1</name> 
 		<code>191</code> 
 		<reltype></reltype>
@@ -100,7 +100,7 @@
 		<md5sum>13c4e23d0a519f8b0815f80193de715f</md5sum> 
 		<changelog html="true">&lt;li&gt;Fixed bugs&lt;/li&gt;&lt;li&gt;System (framework): added Screenshot option switch&lt;/li&gt;&lt;li&gt;Statusbar: added O2, Tata DOCOMO, Airtel, new Mi-Tools logo, Telfort, Apple, BeatsAudio, TM CELL, Telenor, Wu-Tang, Batman, Skullcandy, O12, Cellcom, Golan Telecom, HOT Mobile, Orange, Pelephone, YouPhone, 3mob  logos&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
 	</version>
-	<version>
+	<version uploaded="">
 		<name>1.9.0</name> 
 		<code>190</code> 
 		<reltype></reltype>
@@ -108,7 +108,7 @@
 		<md5sum>184b2179f51cacf2033e0a432469124b</md5sum> 
 		<changelog html="true">&lt;li&gt;System (framework): added Screenshot option to power menu&lt;/li&gt;&lt;li&gt;Applications: added notification bubbles (on the app icon) option&lt;/li&gt;&lt;li&gt;Statusbar: added Axis carrier logos&lt;/li&gt;&lt;li&gt;Statusbar: added Telecom Italia Mobile (TIM) carrier logos&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
 	</version>
-	<version>
+	<version uploaded="">
 		<name>1.8</name> 
 		<code>18</code> 
 		<reltype></reltype>
@@ -116,7 +116,7 @@
 		<md5sum>0f4dc2da3c5a323a97670f18a19e96b5</md5sum> 
 		<changelog html="true">&lt;li&gt;Statusbar: added China Telecom logos&lt;/li&gt;&lt;li&gt;Sound: enabled volume steps settings for multimedia (others disabled)&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
 	</version>
-	<version>
+	<version uploaded="">
 		<name>1.7</name> 
 		<code>17</code> 
 		<reltype></reltype>
@@ -124,7 +124,7 @@
 		<md5sum>25e54ef2ee86a89606eb80d3e20aba66</md5sum> 
 		<changelog html="true">&lt;li&gt;Statusbar: fixed color settings for all statusbar icons&lt;/li&gt;&lt;li&gt;Launcher: added color settings for icons/folder labels&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
 	</version>
-	<version>
+	<version uploaded="">
 		<name>1.6</name> 
 		<code>16</code> 
 		<reltype></reltype>
@@ -132,7 +132,7 @@
 		<md5sum>aa44831003e892a9ef30d5293c39e1b1</md5sum> 
 		<changelog html="true">&lt;li&gt;Sound: added option to unlink Ringtone and Notifications volume controls&lt;/li&gt;&lt;li&gt;Statusbar: added battery icon color settings&lt;/li&gt;&lt;li&gt;Statusbar: added color settings for all statusbar icons (test mode)&lt;/li&gt;&lt;li&gt;Statusbar: fixed network speed view in expanded statusbar (now it shows not Rx speed, but Rx+Tx speed)&lt;/li&gt;&lt;li&gt;Statusbar: added format settings for clock date&lt;/li&gt;&lt;li&gt;Statusbar: fixed am/pm handling&lt;/li&gt;&lt;li&gt;Launcher: added multiline icons/folder labels switch&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
 	</version>
-	<version>
+	<version uploaded="">
 		<name>1.5</name> 
 		<code>15</code> 
 		<reltype></reltype>
@@ -140,7 +140,7 @@
 		<md5sum>17aca00f937d92a2a9e4cbaf181442e0</md5sum> 
 		<changelog html="true">&lt;li&gt;Added Wind carrier logos (color and white)&lt;/li&gt;&lt;li&gt;Added Hex color value editor to color picker preferences&lt;/li&gt;&lt;li&gt;Fixed mobile network signal bars and wi-fi icon visibility for 2SIM phones with iOS7 clock layout&lt;/li&gt;&lt;li&gt;Fixed font adjustment for statusbar views&lt;/li&gt;&lt;li&gt;Added font style selection for system and apps settings - Bold or Normal&lt;/li&gt;&lt;li&gt;Fixed issue with statusbar layouts resetting to defaults while changing theme or system language&lt;/li&gt;&lt;li&gt;VOLUME STEPS mod temporary disabled due issues with phone volume (will be fixed soon)&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
 	</version>
-	<version>
+	<version uploaded="">
 		<name>1.4</name> 
 		<code>14</code> 
 		<reltype></reltype>
@@ -148,7 +148,7 @@
 		<md5sum>27e41d0fcbe6583f7ed208bfd056eb4b</md5sum> 
 		<changelog html="true">&lt;li&gt;Added font size adjustment for launcher icons&lt;/li&gt;&lt;li&gt;Added launcher folders columns count settings&lt;/li&gt;&lt;li&gt;Added option to hide launcher hotseats (dock bar) labels (big thanks to Zirias from xiaomi.eu for more elegant way)&lt;/li&gt;&lt;li&gt;Fixed NavBar size in landscape mode&lt;/li&gt;&lt;li&gt;Added option to force disable album art auto download&lt;/li&gt;&lt;li&gt;Added localized measure units to FileExplorer and Kuaipan settings&lt;/li&gt;&lt;li&gt;Added carrier logos: Kyivstar (colored), MegaFon and MTS (3D), Tele2 (colored, square), life:) (colored and white), Kcell (colored and white), Smarts (colored and white)&lt;/li&gt;&lt;li&gt;Added option to change delay for uploading new photos to MiCloud (default delay is 1 minute)&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
 	</version>
-	<version>
+	<version uploaded="">
 		<name>1.3</name> 
 		<code>13</code> 
 		<reltype></reltype>
@@ -156,7 +156,7 @@
 		<md5sum>148e7f7e7b3ec5e2a141fa59825595ef</md5sum> 
 		<changelog html="true">&lt;li&gt;Added volume control steps ajustment&lt;/li&gt;&lt;li&gt;Added scrolling cache disable option&lt;/li&gt;&lt;li&gt;Added option to turn off auto updates check in SuperMarket and Updater apps&lt;/li&gt;&lt;li&gt;Added option to show Updater changelogs in English (for non-English locales)&lt;/li&gt;&lt;li&gt;Added new Beeline (simple white) carrier logo&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
 	</version>
-	<version>
+	<version uploaded="">
 		<name>1.2</name> 
 		<code>12</code> 
 		<reltype></reltype>
@@ -164,7 +164,7 @@
 		<md5sum>88e89807f9f257b6819e1954629e592f</md5sum> 
 		<changelog html="true">&lt;li&gt;Themes: added reverse tabs order&lt;/li&gt;&lt;li&gt;Themes: added option to change lockscreen (try to change) lunar dates to gregorian ones&lt;/li&gt;&lt;li&gt;Added Vodafone carrier logos&lt;/li&gt;&lt;li&gt;Fixed Reboot options menu (issues with handling reboot options with less options selectes)&lt;/li&gt;&lt;li&gt;Added carrier logo selection for Dual-SIM devices&lt;/li&gt;&lt;li&gt;Fixed statusbar color settings&lt;/li&gt;&lt;li&gt;Added mobile network signal bars color settings (both for Single and Dual-SIM devices)&lt;/li&gt;&lt;li&gt;Supermarket: added reverse tabs order&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
 	</version>
-	<version>
+	<version uploaded="">
 		<name>1.1</name> 
 		<code>11</code> 
 		<reltype></reltype>
@@ -172,7 +172,7 @@
 		<md5sum>257bdcce37e4a6f579fad930540b1955</md5sum> 
 		<changelog html="true">&lt;li&gt;Added simple center clock option (with wi-fi and signal right)&lt;/li&gt;&lt;li&gt;Added MENU button double tap and long press events&lt;/li&gt;&lt;li&gt;Added more carrier logos&lt;/li&gt;&lt;li&gt;Added VOL keys text cursor control&lt;/li&gt;&lt;li&gt;Added Reboot menu entries selection&lt;/li&gt;&lt;li&gt;Small fixes&lt;/li&gt;&lt;li&gt;Added Hungarian translation (thanks to vagyula1)&lt;/li&gt;&lt;li&gt;Added Spain translation (thanks to rauldlnx10)&lt;/li&gt;&lt;li&gt;Added Chinese (Traditional) translation (thanks to RadarNyan)&lt;/li&gt;&lt;li&gt;Added Chinese (Taiwan) translation (thanks to Eric850130)&lt;/li&gt;</changelog> 
 	</version>
-	<version>
+	<version uploaded="">
 		<name>1.0</name> 
 		<code>10</code> 
 		<reltype></reltype>
@@ -191,7 +191,7 @@
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>
-	<version>
+	<version uploaded="1381218737">
 		<name>2.1</name> 
 		<code>21</code> 
 		<reltype></reltype>
@@ -210,7 +210,7 @@
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>	
-	<version>
+	<version uploaded="1381218665">
 		<name>2.0</name> 
 		<code>20</code> 
 		<reltype></reltype>
@@ -229,7 +229,7 @@
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>
-	<version>
+	<version uploaded="1381218579">
 		<name>2.0</name> 
 		<code>20</code> 
 		<reltype></reltype>
@@ -248,7 +248,7 @@
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>
-	<version>
+	<version uploaded="1386311320">
 		<name>2.1</name> 
 		<code>21</code> 
 		<reltype></reltype>
@@ -256,7 +256,7 @@
 		<md5sum>7cb00dfb18ae8e1a456e5907c5b347d5</md5sum> 
 		<changelog html="true">&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
 	</version>
-	<version>
+	<version uploaded="">
 		<name>2.0</name> 
 		<code>20</code> 
 		<reltype></reltype>
@@ -275,7 +275,7 @@
 	<moreinfo label="Support" role="support"></moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>
-    <version>
+    <version uploaded="1386311400">
         <name>2.1</name>
         <code>21</code>
 		<reltype></reltype>
@@ -283,7 +283,7 @@
         <md5sum>4c0ed5bd81ecf9af3da5d6bf9b31bc22</md5sum>
         <changelog html="true">&lt;li&gt;Updated translations&lt;/li&gt;</changelog>
     </version>
-    <version>
+    <version uploaded="">
         <name>2.0</name>
         <code>20</code>
 		<reltype></reltype>
@@ -302,7 +302,7 @@
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>
-    <version>
+    <version uploaded="1386311472">
         <name>2.1</name>
         <code>21</code>
 		<reltype></reltype>
@@ -310,7 +310,7 @@
         <md5sum>06fe1d21f21d50b7c4a5998587bf5eb0</md5sum>
         <changelog html="true">&lt;li&gt;Updated translations&lt;/li&gt;</changelog>
     </version>
-    <version>
+    <version uploaded="">
         <name>2.0</name>
         <code>20</code>
 		<reltype></reltype>
@@ -329,7 +329,7 @@
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>
-    <version>
+    <version uploaded="1381232719">
         <name>2.0</name>
         <code>20</code>
 		<reltype></reltype>
@@ -348,7 +348,7 @@
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>
-    <version>
+    <version uploaded="1381232612">
         <name>2.0</name>
         <code>20</code>
 		<reltype></reltype>
@@ -367,7 +367,7 @@
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>
-    <version>
+    <version uploaded="1381232381">
         <name>2.0</name>
         <code>20</code>
 		<reltype></reltype>
@@ -386,7 +386,7 @@
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>
-    <version>
+    <version uploaded="1381230004">
         <name>2.0</name>
         <code>20</code>
 		<reltype></reltype>
@@ -405,7 +405,7 @@
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>
-    <version>
+    <version uploaded="1381232914">
         <name>2.0</name>
         <code>20</code>
 		<reltype></reltype>
@@ -424,7 +424,7 @@
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>
-    <version>
+    <version uploaded="1381237099">
         <name>1.1</name> 
         <code>11</code> 
 		<reltype></reltype>
@@ -443,7 +443,7 @@
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>
-    <version>
+    <version uploaded="1381237061">
         <name>2.0</name>
         <code>20</code>
 		<reltype></reltype>
@@ -462,7 +462,7 @@
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>
-    <version>
+    <version uploaded="1386311523">
         <name>2.1</name>
         <code>21</code>
 		<reltype></reltype>
@@ -470,7 +470,7 @@
         <md5sum>4e388f9e9f999ee61e978b98cd50cd58</md5sum>
         <changelog html="true">&lt;li&gt;Updated translations&lt;/li&gt;</changelog>
     </version>
-    <version>
+    <version uploaded="">
         <name>2.0</name>
         <code>20</code>
 		<reltype></reltype>
@@ -491,7 +491,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>
-	<version>
+	<version uploaded="1381236997">
 		<name>2.1</name> 
 		<code>21</code> 
 		<reltype></reltype>
@@ -499,7 +499,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<md5sum>1c0afcc161c4f09537bfec618d57b08c</md5sum> 
 		<changelog html="true">&lt;li&gt;Added update server settings (romz.bz, miui.su, miui.com)&lt;/li&gt;</changelog> 
 	</version>
-	<version>
+	<version uploaded="">
 		<name>2.0</name> 
 		<code>20</code> 
 		<reltype></reltype>
@@ -518,7 +518,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>
-	<version>
+	<version uploaded="1381313997">
 		<name>1.2</name> 
 		<code>12</code> 
 		<reltype></reltype>
@@ -537,7 +537,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>
-	<version>
+	<version uploaded="1381753545">
 		<name>1.0</name> 
 		<code>10</code> 
 		<reltype></reltype>
@@ -556,7 +556,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>
-	<version>
+	<version uploaded="1381830478">
 		<name>1.0</name> 
 		<code>10</code> 
 		<reltype></reltype>
@@ -575,7 +575,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
     <moreinfo label="Repository"></moreinfo>
-	<version>
+	<version uploaded="1399036567">
 		<name>2.2.5</name> 
 		<code>225</code>
 		<reltype></reltype>
@@ -584,7 +584,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<changelog html="true">&lt;li&gt;Fixes for HTC One bootloop (this is the last time I fix it, no more M7 support with endless bootloop in its ported rom)&lt;/li&gt;&lt;li&gt;Added Russian translation for module descriptions in repository&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
 		<changelog_ru html="true">&lt;li&gt;Исправление бутлупа на HTC One (M7) (в последний раз! Больше этот телефон поддерживаться не будет из-за криво портированной прошивки)&lt;/li&gt;&lt;li&gt;Добавлен русский перевод для описаний модулей в репозитории (Онлайн)&lt;/li&gt;&lt;li&gt;Обновлен перевод&lt;/li&gt;</changelog_ru> 
 	</version>	
-	<version>
+	<version uploaded="">
 		<name>2.2.4</name> 
 		<code>224</code>
 		<reltype></reltype>
@@ -593,7 +593,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<changelog html="true">&lt;li&gt;YOU NEED TO REINSTALL BINARIES&lt;/li&gt;&lt;li&gt;Improved boot time for Mi3W&lt;/li&gt;&lt;li&gt;Fixed FC in Cleaner (Security)&lt;/li&gt;</changelog> 
 		<changelog_ru html="true">&lt;li&gt;НЕОБХОДИМО ПЕРЕУСТАНОВИТЬ БИНАРНИКИ!&lt;/li&gt;&lt;li&gt;Увеличена скорость загрузки для Mi3W&lt;/li&gt;&lt;li&gt;Исправлен FC в Очистке (Безопасность)&lt;/li&gt;</changelog_ru> 
 	</version>		
-	<version>
+	<version uploaded="">
 		<name>2.2.3</name> 
 		<code>223</code>
 		<reltype></reltype>
@@ -601,7 +601,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<md5sum>5ea267b58d21abb8f5178f95b33d6be8</md5sum> 
 		<changelog html="true">&lt;li&gt;Added DEXSPY support. Thanks slowargo (xda) for help.&lt;/li&gt;</changelog> 
 	</version>	
-	<version>
+	<version uploaded="">
 		<name>2.2.2</name> 
 		<code>222</code>
 		<reltype></reltype>
@@ -609,7 +609,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<md5sum>94a61d161d0509f03a17100c33c8b0ac</md5sum> 
 		<changelog html="true">&lt;li&gt;Updated binaries to v54 (app_process) and v49 (XposedBridge.jar).&lt;/li&gt;</changelog> 
 	</version>		
-	<version>
+	<version uploaded="">
 		<name>2.2.1</name> 
 		<code>221</code>
 		<reltype></reltype>
@@ -617,7 +617,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<md5sum>8193c8c992ef5c4ce509b9af911c8466</md5sum> 
 		<changelog html="true">&lt;li&gt;Updated binaries to fix m7 bootloop.&lt;/li&gt;&lt;li&gt;Fixed fake update notification for framework when any module has updates.&lt;/li&gt;</changelog> 
 	</version>	
-	<version>
+	<version uploaded="">
 		<name>2.2.0</name> 
 		<code>220</code>
 		<reltype></reltype>
@@ -625,7 +625,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<md5sum>57b1c89b230125312415651815b1ebc9</md5sum> 
 		<changelog html="true">&lt;li&gt;Updated binaries.&lt;/li&gt;&lt;li&gt;Added recovery installation modes (auto and manually).&lt;/li&gt;</changelog> 
 	</version>
-	<version>
+	<version uploaded="">
 		<name>2.1.8</name> 
 		<code>218</code>
 		<reltype></reltype>
@@ -633,7 +633,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<md5sum>5055bf33d1354a58ace64583384de776</md5sum> 
 		<changelog html="true">&lt;li&gt;Fixed bootloop for some devices.&lt;/li&gt;</changelog> 
 	</version>
-	<version>
+	<version uploaded="">
 		<name>2.1.7</name> 
 		<code>217</code>
 		<reltype></reltype>
@@ -641,7 +641,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<md5sum>74290dced4d236b095bc457fed1ab937</md5sum> 
 		<changelog html="true">&lt;li&gt;Minor update. Version bump. If WSM Tools 2.1.6 works good, no need to update.&lt;/li&gt;</changelog> 
 	</version>
-	<version>
+	<version uploaded="">
 		<name>2.1.6</name> 
 		<code>216</code>
 		<reltype></reltype>
@@ -649,7 +649,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<md5sum>3e3debd47ea6de8af1ad0c4a8518f197</md5sum> 
 		<changelog html="true">&lt;li&gt;Fixed some issues in binaries&lt;/li&gt;</changelog> 
 	</version>
-	<version>
+	<version uploaded="">
 		<name>2.1.5</name> 
 		<code>215</code>
 		<reltype></reltype>
@@ -657,7 +657,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<md5sum>c368bd95e291115f67ccd18dda3ae9dd</md5sum> 
 		<changelog html="true">&lt;li&gt;Fixes. Fixes. Fixes.&lt;/li&gt;</changelog> 
 	</version>
-	<version>
+	<version uploaded="">
 		<name>2.1.4</name> 
 		<code>214</code>
 		<reltype></reltype>
@@ -665,7 +665,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<md5sum>3eb2ca11656b430fa0ac8f9fc4a7cd06</md5sum> 
 		<changelog html="true">&lt;li&gt;Fixed bootloop for ported devices (MIUI v5 ROMs based on Android 4.2.2). Tested on Huawei Ascend P1, HTC Desire S.&lt;/li&gt;&lt;li&gt;Fixed bootloop for HTC One devices.&lt;/li&gt;</changelog> 
 	</version>
-	<version>
+	<version uploaded="">
 		<name>2.1.3</name> 
 		<code>213</code>
 		<reltype></reltype>
@@ -673,7 +673,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<md5sum>34ef24d17af69f974f82b99e9c9832f1</md5sum> 
 		<changelog html="true">&lt;li&gt;Fixed non-scrollable settings page&lt;/li&gt;&lt;li&gt;Added Thai translation (thanks to gooagolf GitHub user)&lt;/li&gt;</changelog> 
 	</version>
-	<version>
+	<version uploaded="">
 		<name>2.1.2</name> 
 		<code>212</code>
 		<reltype></reltype>
@@ -681,7 +681,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<md5sum>bed71156e7d5fdfcda4467e97958b69d</md5sum> 
 		<changelog html="true">&lt;li&gt;Updated binaries: app_process (v46), XposedBridge.jar (v42)&lt;/li&gt;&lt;li&gt;&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
 	</version>	
-	<version>
+	<version uploaded="">
 		<name>2.1.1</name> 
 		<code>211</code>
 		<reltype></reltype>
@@ -689,7 +689,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<md5sum>8643ea751f9cf1667e31831997312dbb</md5sum> 
 		<changelog html="true">&lt;li&gt;Updated binaries: app_process to v46, XposedBridge to v40. This update supports Android 4.4 KitKat&lt;/li&gt;&lt;li&gt;Added WhatsNew button: now you can see development progress of WSM Project in realtime mode&lt;/li&gt;&lt;li&gt;Added donations button to the About screen&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
 	</version>	
-    <version>
+    <version uploaded="">
 		<name>2.1.0</name> 
 		<code>210</code>
 		<reltype></reltype>
@@ -697,7 +697,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<md5sum>dfac984b8ca5e4532a1a16b9d0ca8561</md5sum> 
 		<changelog html="true">&lt;li&gt;Updated binaries&lt;/li&gt;&lt;li&gt;Many fixes, additions and improvements&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
 	</version>	
-    <version>
+    <version uploaded="">
 		<name>2.0.5</name> 
 		<code>205</code>
 		<reltype></reltype>
@@ -705,7 +705,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<md5sum>3ca9210c183af2169d7171dcdcdd3fb3</md5sum> 
 		<changelog html="true">&lt;li&gt;Fixed modules list overscroll issues&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
 	</version>	
-    <version>
+    <version uploaded="">
 		<name>2.0.4</name> 
 		<code>204</code>
 		<reltype></reltype>
@@ -713,7 +713,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<md5sum>a16d7e8085e201d8ad48e929e86f4e48</md5sum> 
 		<changelog html="true">&lt;li&gt;Added Chinese (zh-rTW) translation&lt;/li&gt;&lt;li&gt;Fixed translations to avoid WSM tools FC on some languages (with old translation versions)&lt;/li&gt;</changelog> 
 	</version>	
-    <version>
+    <version uploaded="">
 		<name>2.0.3</name> 
 		<code>203</code>
 		<reltype></reltype>
@@ -721,7 +721,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<md5sum>4cbc6ccc8ab80a62334ee01e8f8899e7</md5sum> 
 		<changelog html="true">&lt;li&gt;Fixed updates version check&lt;/li&gt;&lt;li&gt;Fixed installer prompt after ROM update.&lt;/li&gt;&lt;li&gt;Small cosmetics fixes.&lt;/li&gt;</changelog> 
 	</version>	
-    <version>
+    <version uploaded="">
 		<name>2.0.2</name> 
 		<code>202</code>
 		<reltype></reltype>
@@ -729,7 +729,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<md5sum>2c4bdf65c1e6630b9a86f25fa445d756</md5sum> 
 		<changelog html="true">&lt;li&gt;Added Xposed repository (available in settings). Both repositories will be shown in the same list, WSM modules will have "MI" image at the bottom right corner.&lt;/li&gt;&lt;li&gt;Alert dialog will popup when WSM tools update available.&lt;/li&gt;&lt;li&gt;Added Feedback to settings.&lt;/li&gt;&lt;li&gt;Reworked About screen.&lt;/li&gt;&lt;li&gt;Reworked Manage screen.&lt;/li&gt;&lt;li&gt;Small fixes.&lt;/li&gt;</changelog> 
 	</version>	
-	<version>
+	<version uploaded="">
 		<name>2.0.1</name> 
 		<code>201</code>
 		<reltype></reltype>
@@ -737,7 +737,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<md5sum>55f43043c3577872a1f9d2364b7d88d2</md5sum> 
 		<changelog html="true">&lt;li&gt;Since v2.0.0 WSM can handle MIUI resources&lt;/li&gt;&lt;li&gt;Check for updates moved from About to Settings&lt;/li&gt;&lt;li&gt;Updated framework&lt;/li&gt;</changelog> 
 	</version>	
-	<version>
+	<version uploaded="">
 		<name>2.0.0</name> 
 		<code>200</code>
 		<reltype></reltype>
