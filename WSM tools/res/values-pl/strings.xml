@@ -62,6 +62,8 @@
     <string name="installer_bundled_version">ZAŁĄCZONA WERSJA</string>
     <string name="installer_phone_not_compatible">WSM nie jest (jeszcze) kompatybilny z Android SDK w wersji %1$d lub Twoim procesorem (%2$s).</string>
     <string name="installer_not_tested_but_compatible">WSM nie był testowany na Android SDK w wersji %d, ale wydaje się być kompatybilny. Mimo tego instalujesz go na własne ryzyko.</string>
+    <string name="installer_active_dexspy_found">Wykryto Dexspy. WSM użyje kompatybilnych bibliotek.</string>
+    <string name="installer_inactive_dexspy_found">Wykryto nieaktywne Dexspy. WSM użyje normalnych bibliotek.</string>
     <string name="reboot_failed">Nie można zrestartować urządzenia, zrób to manualnie.</string>
     <string name="reboot">Restart</string>
     <string name="auto_flash_note">%s zostanie wgrany automatycznie po kliknięciu OK.</string>
