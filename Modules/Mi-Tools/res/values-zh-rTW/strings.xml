@@ -21,7 +21,7 @@
         \u2022 Volume Control Mute(音量控制靜音)\n
         \u2022 Volume Skip Track(音量鍵跳過曲目)\n
         \u2022 YellowPage(黃頁)</string>
-	<string name="mitools_copyright">禁止對任何模組進行修改\n
+	<string name="mitools_copyright">禁止對任何模組進行非法修改\n
         BurgerZ MD, Copyright © 2013, 版權所有</string>         
     <!-- About -->
     <string name="about_module">關於模組</string>
@@ -50,6 +50,7 @@
     <string name="time_10_min">10 分鐘</string>
     <string name="time_30_min">30 分鐘</string>
     <string name="time_1_hour">1 個小時</string>
+    <string name="none">(無)</string>
     <!-- MIUI warning -->
     <string name="miwarning_title">不支援的系統</string>
     <string name="miwarning_message">該系統不被官方支援，某些選項將不會正常運行。\n您確定要繼續嗎？</string>
@@ -61,6 +62,7 @@
     <string name="notif_reboot_required">請重新啟動裝置讓更改後的選項生效</string>
     <string name="notif_reboot_required_title">要求重新啟動</string>
     <string name="notif_reboot_required_message">需要重新啟動裝置套用更改過的選項</string>
+    <string name="notif_torch_on">手電筒開啟</string>
     <!-- Backup & Restore -->
     <string name="backup_name">備份名稱</string>
     <string name="backup_save">儲存設定</string>
@@ -73,33 +75,33 @@
     <string name="backup_defaults_restored">已還原預設值</string>
     <string name="backup_restoring">正在還原備份資料</string>
     <string name="backup_restored">已還原備份資料</string>
-	<!-- ColorPicker -->
-	<string name="press_color_to_apply">輕觸顏色以套用</string>
-	<string name="dialog_color_picker">顏色選擇</string> 
-	<!-- Status Bar prefs -->
-	<!-- Statusbar -->
-	<string name="statusbar">狀態列</string>
-        <string name="statusbar_common">一般選項</string>
-	<string name="statusbar_summary">狀態列調整</string>
-	<string name="statusbar_set_background_color">修改背景顏色</string>
-	<string name="statusbar_set_background_color_summary">允許修改狀態列背景顏色</string>
-	<string name="statusbar_background_color">背景顏色</string>
-	<string name="statusbar_background_color_summary">狀態列背景顏色</string>
-        <string name="one_color_for_all_icons">所有圖示套用單一顏色</string>
-        <string name="one_color_for_all_icons_summary">讓狀態列上的所有圖示僅套用單一一種顏色</string>
-        <string name="color_for_all_icons">圖示顏色</string>
-        <string name="color_for_all_icons_summary">狀態列圖示顏色</string>
-	<string name="statusbar_text_family">字體樣式</string>
+    <!-- ColorPicker -->
+    <string name="press_color_to_apply">輕觸顏色以套用</string>
+    <string name="dialog_color_picker">顏色選擇</string> 
+    <!-- Status Bar prefs -->
+    <!-- Statusbar -->
+    <string name="statusbar">狀態列</string>
+    <string name="statusbar_common">一般選項</string>
+    <string name="statusbar_summary">狀態列調整</string>
+    <string name="statusbar_set_background_color">修改背景顏色</string>
+    <string name="statusbar_set_background_color_summary">允許修改狀態列背景顏色</string>
+    <string name="statusbar_background_color">背景顏色</string>
+    <string name="statusbar_background_color_summary">狀態列背景顏色</string>
+    <string name="one_color_for_all_icons">所有圖示套用單一顏色</string>
+    <string name="one_color_for_all_icons_summary">讓狀態列上的所有圖示僅套用單一一種顏色</string>
+    <string name="color_for_all_icons">圖示顏色</string>
+    <string name="color_for_all_icons_summary">狀態列圖示顏色</string>
+    <string name="statusbar_text_family">字體樣式</string>
     <string name="statusbar_text_family_summary">已選擇狀態列字體樣式: %s</string>
-    <string name="statusbar_text_style">字體風格</string>
+    <string name="statusbar_text_style">字體樣式</string>
     <string name="statusbar_text_style_summary">已選擇狀態列字體樣式: %s</string>
     <string name="font_size_summary">設定狀態列字體大小:\n%s</string>
     <string name="font_size">字體大小</string>
     <string name="network_speed_exp_statusbar_summary">在展開狀態列中顯示當前網路速度</string>
     <string name="network_speed_exp_statusbar">當前網路速度</string>
-	<!-- Clock -->
-	<string name="clock">時鐘</string>
-	<string name="clock_hide">隱藏時鐘</string>
+    <!-- Clock -->
+    <string name="clock">時鐘</string>
+    <string name="clock_hide">隱藏時鐘</string>
     <string name="clock_hide_summary">不在狀態列中顯示時鐘</string>
     <string name="clock_color_title">時鐘顏色</string>
     <string name="clock_color_summary">設定狀態列時鐘顏色</string>
@@ -110,6 +112,7 @@
     <string name="show_clock_date_summary">在狀態列時鐘旁顯示當前日期</string>
     <string name="show_clock_date">顯示狀態列當前日期</string>
     <string name="clock_date_format">日期格式</string>
+    <string name="hide_alarm_icon">隱藏鬧鐘圖示</string>
     <!-- Battery -->
     <string name="battery">電池</string>
     <string name="hide_battery_icon_summary">是否顯示電池圖示</string>
@@ -188,6 +191,7 @@
     <string name="power_cancel">取消</string> 
     <!-- Device -->
     <string name="device">裝置選項</string>
+    <string name="screenshot_delay">螢幕截圖延遲 (秒數)</string>
     <string name="all_rotations_summary">允許所有旋轉角度, 包括倒立</string>
     <string name="all_rotations">啟用所有旋轉角度</string>
     <string name="lockscreen_rotations_summary">允許鎖定螢幕旋轉到橫向螢幕模式</string>
@@ -240,8 +244,12 @@
     <!-- Sound -->
     <string name="sound">音效設定</string>
     <string name="sound_summary">音量相關設定</string> 
+    <string name="disable_safe_volume_warning">停用安全的音量警告</string>
+    <string name="disable_safe_volume_warning_summary">當使用耳機聆聽音樂時，停用安全的音量警告對話框</string>
     <string name="disable_volume_control_sound">停用 Beep 音效聲</string>
     <string name="disable_volume_control_sound_summary">停用調整音效時所發出的 Beep 音效聲</string>
+    <string name="disable_numberpicker_sound">停用數字/號碼選擇器音效</string>
+    <string name="disable_numberpicker_sound_summary">停用號碼/數字選擇器的音效 (計算機, 鬧鐘等提示音.)</string>
     <string name="volume_ring_description">鈴聲</string>
     <string name="volume_notification_description">通知</string>
     <string name="unlink_notification_volume">不連結通知音量</string>
@@ -279,6 +287,9 @@
     <string name="set_launcher_icons_color">自訂圖示文字顏色</string>
     <string name="launcher_icons_color_summary">選擇啟動器圖示/資料夾標籤文字</string>
     <string name="launcher_icons_color">圖示文字顏色</string>
+    <string name="hide_launcher_apps_title">隱藏已選擇圖示</string>
+    <string name="hide_launcher_apps_summary">您可以選擇要在首頁畫面中想要隱藏的應用程式</string>
+    <string name="hide_launcher_apps_list">應用程式清單</string>
     <!-- Applications prefs-->
     <string name="applications">系統應用程式</string>
     <string name="applications_summary">MIUI 系統應用程式設定</string>
@@ -308,11 +319,13 @@
     <string name="holidays_update_server_summary">%s</string>
     <string name="holidays_selector_country">假期國家</string>
     <string name="holidays_selector_country_summary">%s</string>
-    <string name="holidays_selector_country_original">預設 (中國假期)</string> 
-    <string name="holidays_selector_country_russia">俄羅斯</string> 
+    <string name="holidays_selector_country_original">預設 (中國)</string> 
+    <string name="holidays_selector_country_russia">俄羅斯</string>
+    <string name="holidays_selector_country_belarus">白俄羅斯</string>
     <string name="holidays_selector_country_ukraine">烏克蘭</string> 
     <string name="holidays_selector_country_slovakia">斯洛伐克</string>
     <string name="holidays_selector_country_czech">捷克共和國</string> 
+    <string name="holidays_selector_country_poland">波蘭</string>
     <!-- QuickSearchBox -->
     <string name="app_quicksearchbox">快速搜尋欄</string>
     <string name="quicksearchbox_marketplace">搜尋市場</string>
@@ -320,7 +333,7 @@
     <!-- Browser -->
     <string name="app_browser">瀏覽器</string>
     <string name="browser_autofit_pages">自適應頁面</string>
-    <string name="browser_autofit_pages_summary">向瀏覽器設定新增 \"Mobile View\" 選項</string>
+    <string name="browser_autofit_pages_summary">在瀏覽器設定中新增 \"Mobile View\" 選項</string>
     <!-- Music -->
     <string name="app_music">音樂</string>
     <string name="launch_playback_screen">啟動到播放界面</string>
