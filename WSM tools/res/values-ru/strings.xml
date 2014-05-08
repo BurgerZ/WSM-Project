@@ -62,6 +62,8 @@
     <string name="installer_bundled_version">ДОСТУПНАЯ ВЕРСИЯ</string>
     <string name="installer_phone_not_compatible">WSM (пока) не совместим с версией Android SDK %1$d или архитектурой процессора (%2$s)</string>
     <string name="installer_not_tested_but_compatible">WSM не был протестирован с Android SDK версии %d, но может быть совместим. Вы можете попробовать его установить, если вы хотите приключений</string>
+    <string name="installer_active_dexspy_found">Обнаружен активный Dexspy. Будут использоваться совместимые с Dexspy версии бинарных файлов.</string>
+    <string name="installer_inactive_dexspy_found">Обнаружен Dexspy, но он неактивен. Будут использоваться обычные версии бинарных файлов.</string>
     <string name="reboot_failed">Произошла ошибка. Пожалуйста, воспользуйтесь перезагрузкой из меню выключения телефона.</string>
     <string name="reboot">Перезагрузка</string>
     <string name="auto_flash_note">%s будет установлен автоматически после нажатия кнопки "OK".</string>
