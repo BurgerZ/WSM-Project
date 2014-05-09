@@ -27,7 +27,7 @@
     <string name="about_module">A modulról</string>
     <!-- AppPickerPreference -->
     <string name="preference_app_picker_search">Keresés</string>
-    <string name="preference_app_picker_none">(Nincs)</string>
+
 
     <!-- from arrays -->
     <string name="am_pm_hide">Elrejtés</string>
@@ -217,7 +217,9 @@
     <string name="double_click_menu_app_summary">A MENÜ gomb dupla kattintásákor elinduló alklamazás kiválasztása</string>
     <string name="double_click_menu_app">Dupla kattintáskor</string> 
     <string name="long_press_menu_action">Hosszanti megnyomáskor</string>
+    <string name="long_press_menu_action">MENÜ gomb hosszanti megnyomásának művelete</string>
     <string name="double_tap_menu_action">Dupla érintéskor</string>
+    <string name="double_tap_menu_action">MENÜ gomb dupla érintésének művelete</string>
     <string name="menu_action_default">Alapértelmezett</string>
     <string name="menu_action_previous_app">Előző alkalmazás indítása</string>
     <string name="menu_action_sleep">Képernyő lezárása</string>
@@ -240,6 +242,10 @@
     <string name="navigation_bar_color_summary">A Navigációs sáv háttérszínének beállítása</string>
     <string name="sound">Hang</string>
     <string name="sound_summary">Hangerő beállítások</string> 
+    <string name="disable_safe_volume_warning">Nagy hangerő figyelmeztetés letiltása</string>
+    <string name="disable_safe_volume_warning_summary">Fülhallgatón keresztüli hangos zenehallgatáskor a figyelmeztetés ablak letiltása</string>
+    <string name="disable_numberpicker_sound">Számválasztó hangjának letiltása</string>
+    <string name="disable_numberpicker_sound_summary">A számválasztó hangjának letiltása (pl.a naptárban, ébresztőnél.)</string>
     <string name="disable_volume_control_sound">BEEP hang letiltása</string>
     <string name="disable_volume_control_sound_summary">Ez a modul letiltja a hangerőszabályzáskor kiadó értesítési hangot.</string>
     <string name="unlink_notification_volume">Értesítések hangerejének szétválasztása</string>
@@ -278,6 +284,9 @@
     <string name="set_launcher_icons_color">Egyéni ikonok szövegszíner</string>
     <string name="launcher_icons_color_summary">A launcher ikon/mappa szövegszín kiválasztása</string>
     <string name="launcher_icons_color">Ikonok szövegének színe</string>
+    <string name="hide_launcher_apps_title">Ikonok elrejtése</string>
+    <string name="hide_launcher_apps_summary">A kiválasztott alkalmazások elrejtése a főképernyőről</string>
+    <string name="hide_launcher_apps_list">Alkalmazások</string>
     <!-- Applications prefs-->
     <string name="applications">Alkalmazások</string>
     <string name="applications_summary">MIUI alkalmazás beállítások</string>
@@ -309,9 +318,11 @@
     <string name="holidays_selector_country_summary">%s</string>
     <string name="holidays_selector_country_original">Eredeti (kínai)</string> 
     <string name="holidays_selector_country_russia">Orosz</string> 
+    <string name="holidays_selector_country_belarus">Belorusz</string>
     <string name="holidays_selector_country_ukraine">Ukrán</string> 
     <string name="holidays_selector_country_slovakia">Szlovák</string>
     <string name="holidays_selector_country_czech">Cseh</string> 
+    <string name="holidays_selector_country_poland">Lengyel</string>
     <!-- QuickSearchBox -->
     <string name="app_quicksearchbox">Gyorskeresés</string>
     <string name="quicksearchbox_marketplace">Keresés a piactéren</string>

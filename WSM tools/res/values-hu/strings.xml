@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="donations_paypal_currency_code">USD</string>
-    <string name="donations_paypal_item_name">WSM Project Adományozás</string>
-    <string name="app_name">WSM eszközök</string>
+    <string name="app_name">WSM kezelő</string>
     <string name="apply">Alkalmaz</string>
     <string name="act_title_settings">Beállítások</string>
     <string name="act_title_about">Névjegy</string>
@@ -24,6 +22,7 @@
     <string name="pref_manage_summary">Telepítés, Frissítés, Törlés</string>
     <string name="pref_repositories_alert">"Néhány Xposed modul lehetséges,hogy nem működik vagy újrainduláskor bootloop-ot kap!\nHasználata az Ön felelőssége!"</string>
     <string name="pref_repositories_title">Modultároló kiválasztás</string>
+    <string name="pref_install_mode">Telepítés módja</string>
     <string name="pref_show_hidden_modules_title">Rejtett modulok mutatása</string>
     <string name="pref_show_hidden_modules_summary">Rejtett modulok megjelenítése a listában</string>
     <string name="pref_show_logs_tab_title">Naplók fül mutatása</string>
@@ -36,7 +35,11 @@
     <string name="bottom_bar_btn_settings">Beállítások</string>
     <string name="bottom_bar_btn_reboot">Újraindítás</string>
     <string name="bottom_bar_btn_refresh">Frissítés</string>
+    <string name="bottom_bar_btn_repo">Forrás</string>
+    <string name="bottom_bar_btn_save">Mentés</string>
     <string name="bottom_bar_btn_whatsnew">Újdonságok</string>
+    <string name="bottom_bar_btn_send">Küldés</string>
+    <string name="bottom_bar_btn_sort">Rendezés</string>
     <string name="whatsnew_changelog">Változások:</string>
     <string name="module_opt_hide_title">Modul elrejtése</string>
     <string name="module_opt_hide_summary">A rejtett modulok megjelenítéséhez kapcsolja be a rejtett modulok mutatása opciót</string>
@@ -55,7 +58,8 @@
     <string name="installer_bundled_version">ELÉRHETŐ VERZIÓ</string>
     <string name="installer_phone_not_compatible">WSM nem kompatibilis (még) az  Android SDK %1$d verziójával vagy a processzor architektúrájával (%2$s).</string>
     <string name="installer_not_tested_but_compatible">WSM nincs tesztelve az Android SDK %d verzójával ,de lehetséges,hogy kompatibilis. Ha kalandra vágyik,próbálja ki:-)</string>
-    <string name="installer_rom_update" />
+    <string name="installer_active_dexspy_found">Aktív Dexspy található,ezért a kompatibilis bináris lesz használatban.</string>
+    <string name="installer_inactive_dexspy_found">Inaktív Dexspy található, ezért az egységes bináris lesz használatban.</string>
     <string name="reboot_failed">Az újraindítás nem sikerült. Próbálja a hagyományos módon újraindítani a készüléket.</string> 
     <string name="reboot">Újraindítás</string>
     <string name="auto_flash_note">%s automatikus telepítéséhez nyomja meg az OK gombot.</string>
@@ -66,17 +70,14 @@
     <string name="file_create_directory_failed">%s mappa létrehozása nem sikrült</string>
     <string name="file_writing_recovery_command">Recovery parancs írása…</string>
     <string name="file_writing_recovery_command_failed">Recovery parancs írása nem sikerült. Használjon másik telepítési formát.</string>
-    <string name="install_warning">"Néhány esetben az Xposed telepítés után nem indul újra a rendszer.
-
-Ha még nem hallott a \"soft brick\"-ről és a \"bootloop\"-ról vagy ez esetben nem tudja hogyan állíthatja vissza a rendszert, "<b>NE TELEPÍTSE</b>" a WSM Eszközök alkalmazást!
-
-Mindenesetre készítsen mentés a rendszerről és adatairól."</string>
+    <string name="install_warning">Néhány esetben az Xposed telepítés után nem indul újra a rendszer.\n\nHa még nem hallott a \"soft brick\"-ről és a \"bootloop\"-ról vagy ez esetben nem tudja hogyan állíthatja vissza a rendszert,
+    <b>NE TELEPÍTSE</b>
+    a WSM Kezelő alkalmazást! Mindenesetre készítsen mentés a rendszerről és adatairól.
+    </string>
     <string name="install_mode_normal">Normál (másolás közvetlenül a /system mappába)</string>
     <string name="install_mode_recovery_auto">Recovery (A zip fájl automatikus telepítése)</string>
     <string name="install_mode_recovery_manual">Recovery (A zip fájl SD kártyára másolása, telepítés manuálisan)</string>
-    <string name="pref_install_mode">Telepítési mód</string>
-    <string name="root_failed">"Az alkalmazásnak nem sikerült root jogosultságot kapni.
-Ellenőrizze a root jogosultságot valamint a shell parancsok blokkolását.</string>
+    <string name="root_failed">"Az alkalmazásnak nem sikerült root jogosultságot kapni.\n\nEllenőrizze a root jogosultságot valamint a shell parancsok blokkolását.</string>
     <string name="file_extract_failed">%s kicsomaogálsa nem sikerült</string>
     <string name="file_mounting_writable">%s felcsatolása írásra&#8230;</string>
     <string name="file_mount_writable_failed">%s felcsatolása írásra nem sikerült</string>
@@ -99,7 +100,12 @@ Ellenőrizze a root jogosultságot valamint a shell parancsok blokkolását.</st
     <string name="repo_load_failed">"Nem tölthető be %1$s tárolóból:\n%2$s"</string>   
 
     <string name="changes">Változások:</string>
-    <string name="branch_display">(%s branch)</string>
+    <string name="release_type_stable">Stabil</string>
+    <string name="release_type_stable_summary">Stabil (kevés az esély a hibákra)</string>
+    <string name="release_type_beta">Béta</string>
+    <string name="release_type_beta_summary">Béta (néhány hiba előfordulhat)</string>
+    <string name="release_type_experimental">Kísérleti</string>
+    <string name="release_type_experimental_summary">Kísérleti (sok hiba előfordulhat)</string>
     <string name="download_author">by %s</string>
     <string name="download_unknown_author">ismeretlen készítő</string>
     <string name="download_status_version">Verzió: %1$s</string>
