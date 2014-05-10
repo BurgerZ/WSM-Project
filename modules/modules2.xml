@@ -1,6 +1,6 @@
 <repository>
   <name>WSM repository</name>
-  <module package="net.temna.extc.miui.ru" created="1399019862" updated="1399019862">
+  <!--module package="net.temna.extc.miui.ru" created="1399019862" updated="1399019862">
 	<name>EXTC Project</name> 
 	<summary>Russian translations of MIUI Android ROM</summary> 
 	<summary_ru>Перевод MIUI Android ROM на Русский</summary_ru> 
@@ -19,7 +19,7 @@
 		<changelog html="true">&lt;p&gt;Initial release at online repository&lt;/p&gt;</changelog> 
 		<changelog_ru html="true">&lt;p&gt;Релиз&lt;/p&gt;</changelog_ru> 
 	</version>
-  </module>
+  </module-->
   <module package="pro.burgerz.wsm.mods.mithemes" created="1397804709" updated="1397804709">
 	<name>MiThemes</name> 
 	<summary>MIUI v5 themes app control module</summary> 
