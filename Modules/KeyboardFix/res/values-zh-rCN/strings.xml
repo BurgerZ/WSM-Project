@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="module_name">KeyboardFix</string>
-    <string name="module_desc">修复 Xperia TM 键盘的异常退出 (FC)</string>
-    <string name="module_desc_full">修复 Xperia TM 键盘的异常退出 (FC)</string>
+    <string name="module_desc">修复 Xperia TM 键盘的异常退出（FC）。</string>
+    <string name="module_desc_full">修复 Xperia TM 键盘的异常退出（FC）。</string>
 </resources>
