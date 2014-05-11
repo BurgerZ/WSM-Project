@@ -2,9 +2,9 @@
 <resources>
     <string name="module_name">Alarm Time fix</string>
     <string name="module_desc">修复第三方闹钟应用</string>
-    <string name="module_desc_full">修复第三方闹钟应用只能整5分钟响起的问题（手动添加 MIUI 对齐唤醒白名单）</string>
+    <string name="module_desc_full">修复第三方闹钟应用只能整 5 分钟响起的问题（手动添加 MIUI 对齐唤醒白名单）。</string>
     <string name="alarm_white_list">选择应用</string>
-    <string name="alarm_white_list_summary">轻点以选择需要添加到白名单的应用</string>
+    <string name="alarm_white_list_summary">轻点以选择白名单应用。</string>
     <string name="alarm_white_list_packages">白名单</string>
-    <string name="apply">应用</string>
+    <string name="apply">确认</string>
 </resources>
