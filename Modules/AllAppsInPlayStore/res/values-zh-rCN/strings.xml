@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="module_name">Play Store Fixes</string>
-    <string name="module_desc">伪造发送到 Google Play 商店的屏幕密度信息</string>
-    <string name="module_desc_full">伪造发送到 Google Play 商店的屏幕密度信息以显示所有应用。</string>
-    <string name="pref_density_summary">发送给 Google 的屏幕密度: %s</string>
+    <string name="module_desc">伪造发送到 Google Play 的屏幕密度。</string>
+    <string name="module_desc_full">伪造发送到 Google Play 的屏幕密度以显示所有应用。</string>
+    <string name="pref_density_summary">发送给 Google Play 的屏幕密度：%s</string>
     <string name="fdensity">伪造屏幕密度</string>
-    <string name="no_res_desc">彻底干掉检测 Play 商店内容是否可用的函数</string>
+    <string name="no_res_desc">彻底干掉检测 Google Play 内容是否可用的函数。</string>
     <string name="no_res_title">无限制补丁</string>
-    <string name="debug_desc">在 Play 商店菜单中显示一个额外的项目以访问 DEBUG 设置</string>
-    <string name="debug_title">启用 DEBUG 菜单</string>
+    <string name="debug_desc">在 Google Play 菜单中显示一个额外的项目以访问 Debug 设置。</string>
+    <string name="debug_title">启用 Debug 菜单</string>
 </resources>
