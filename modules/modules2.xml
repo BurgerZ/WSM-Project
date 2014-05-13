@@ -565,7 +565,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<changelog html="true"></changelog> 
 	</version>	
   </module>
-  <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1399549900">
+  <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1399967147">
 	<name>WSM tools</name> 
 	<summary>This is the installer and manager for the Xposed framework, which is a requirement for all modules</summary> 
 	<summary_ru>Установщик и менеджер фреймворка Xposed, который нужен для работы всех модулей</summary_ru> 
@@ -574,7 +574,16 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<author>BurgerZ</author>
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository"></moreinfo>
+    <moreinfo label="Repository">http://goo.gl/wjvXQT</moreinfo>
+	<version uploaded="1399967147">
+		<name>2.3.2</name> 
+		<code>232</code>
+		<reltype></reltype>
+		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v232_e66d06.apk</download> 
+		<md5sum>e66d064d5ee1f9c5ace42a5a2c72b3ee</md5sum> 
+		<changelog html="true">&lt;li&gt;Added Xposed framework settings&lt;/li&gt;&lt;li&gt;Added "Clear" option to the Logs tab. This option helps to prevent log file from rising in size&lt;/li&gt;&lt;li&gt;Updated binaries&lt;/li&gt;</changelog> 
+		<changelog_ru html="true">&lt;li&gt;Добавлены настройки фреймворка Xposed.&lt;/li&gt;&lt;li&gt;Добавлена возможность очистки лога программы как автоматически, так и нажатием кнопки очистки. Это позволит избежать разрастания файла лога и сэкономить место на устройстве.&lt;/li&gt;&lt;li&gt;Обновлены бинарные файлы&lt;/li&gt;</changelog_ru> 
+	</version>	
 	<version uploaded="1399549900">
 		<name>2.3.1</name> 
 		<code>231</code>
