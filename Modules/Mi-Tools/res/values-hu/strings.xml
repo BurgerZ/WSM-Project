@@ -217,9 +217,7 @@
     <string name="double_click_menu_app_summary">A MENÜ gomb dupla kattintásákor elinduló alklamazás kiválasztása</string>
     <string name="double_click_menu_app">Dupla kattintáskor</string> 
     <string name="long_press_menu_action">Hosszanti megnyomáskor</string>
-    <string name="long_press_menu_action">MENÜ gomb hosszanti megnyomásának művelete</string>
     <string name="double_tap_menu_action">Dupla érintéskor</string>
-    <string name="double_tap_menu_action">MENÜ gomb dupla érintésének művelete</string>
     <string name="menu_action_default">Alapértelmezett</string>
     <string name="menu_action_previous_app">Előző alkalmazás indítása</string>
     <string name="menu_action_sleep">Képernyő lezárása</string>
