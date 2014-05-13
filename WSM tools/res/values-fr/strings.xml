@@ -21,7 +21,7 @@
     <!-- SettingsActivity -->
     <string name="information_faq_summary">F.A.Q., traductions, crédits, aide</string>
     <string name="pref_feedback_title">Retour d\'expérience</string>
-    <string name="pref_feedback_summary">Envoyer des rapports de bogues, requêtes de module, etc.\n(En anglais ou russe uniquement !)</string>
+    <string name="pref_feedback_summary">Envoyer des rapports de bogues, suggestions, etc.\n(en anglais ou russe uniquement !)</string>
     <string name="pref_manage_title">Gérer WSM</string>
     <string name="pref_manage_summary">Installer, Mettre à jour, Supprimer</string>
     <string name="pref_repositories_alert">Certains modules Xposed peuvent ne pas fonctionner ou empêcher votre téléphone de démarrer !\nUtilisez-les à vos propres risques !</string>
@@ -55,13 +55,17 @@
     <string name="bottom_bar_btn_settings">Paramètres</string>
     <string name="bottom_bar_btn_reboot">Redémarrer</string>
     <string name="bottom_bar_btn_refresh">Mettre à jour</string>
+    <string name="bottom_bar_btn_repo">Dépôt</string>
+    <string name="bottom_bar_btn_save">Enregistrer</string>
+    <string name="bottom_bar_btn_send">Envoyer</string>
+    <string name="bottom_bar_btn_sort">Trier</string>
     <string name="bottom_bar_btn_whatsnew">Changelog</string>
     <string name="whatsnew_changelog">Changelog pre-release :</string>
     <string name="module_opt_hide_title">Cacher le module</string>
     <string name="module_opt_hide_summary">Pour afficher les modules cachés activez l\'option \"Afficher les modules cachés\"</string>
     <string name="dialog_are_you_sure">Êtes-vous sûr ?</string>
     <string name="dialog_phone_will_be_rebooted">Voulez-vous redémarrer maintenant ?</string>
-    <string name="dialog_progress_updating">Mise à jour</string>
+    <string name="dialog_progress_updating">Mise à jour…</string>
     <string name="dialog_update_available">Nouvelle version de WSM tools disponible.\nInstallée : %1$s\nDisponlible : %2$s\nAprès l\'installation d\'une nouvelle version, aller dans Paramètres -> Gérer WSM et vérifier si une mise à jour du binaire est nécessaire.</string>
     <string name="menu_select_all">Tout sélectionner</string>
     <string name="menu_unselect_all">Effacer la sélection</string>
