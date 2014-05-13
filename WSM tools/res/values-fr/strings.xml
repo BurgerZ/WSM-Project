@@ -3,6 +3,7 @@
     <string name="app_name">WSM tools</string>
     <string name="apply">Appliquer</string>
     <string name="act_title_settings">Paramètres</string>
+    <string name="act_title_xposed_settings">Paramètres Xposed</string>
     <string name="act_title_about">À propos</string>
     <string name="act_title_installer">Gérer</string>
     <string name="act_title_whatsnew">Changelog</string>
@@ -16,6 +17,8 @@
     <string name="copyright">BurgerZ MD (http://burgerz.pro)\nCopyright © 2013-2014, Tous droits réservés"</string>
     <string name="copyright_xposed">Basé sur Xposed</string>
     <string name="information_faq">Information</string>
+    
+    <!-- SettingsActivity -->
     <string name="information_faq_summary">F.A.Q., traductions, crédits, aide</string>
     <string name="pref_feedback_title">Retour d\'expérience</string>
     <string name="pref_feedback_summary">Envoyer des rapports de bogues, requêtes de module, etc.\n(En anglais ou russe uniquement !)</string>
@@ -33,6 +36,22 @@
     <string name="pref_system_toasts_title">Pop-ups système</string>
     <string name="pref_system_toasts_summary">Afficher les pop-ups de WSM</string>
     <string name="pref_about_title">À Propos</string>
+<!-- to be translated : 
+    <string name="pref_xposed_settings_title">Xposed Framework settings</string>
+    <string name="pref_xposed_settings_summary">Different Xposed framework settings</string>
+
+    <string name="pref_disable_xposed_title">Disable Xposed</string>
+    <string name="pref_disable_xposed_summary">Disable loading Xposed during boot.\n(\"conf/disabled\")</string>
+    <string name="pref_xposed_safemode_title">Xposed safemode</string>
+    <string name="pref_xposed_safemode_summary">Detects input combinations for recovering from bootloops. Upon startup, one of the physical keys must be pressed during the first 2 seconds (or already held down upfront). After that, the same key must be pressed again within 5 seconds, until 5 total presses are reached.\n(\"conf/safemode_disable\")</string>
+    <string name="pref_xposed_safemode_nodelay_title">Disable safemode delay</string>
+    <string name="pref_xposed_safemode_nodelay_summary">The initial 2-second delay can be disabled through configuration; in that case, one of the keys must already be pressed when the detection starts, otherwise the detection fails and no delays are introduced.\n(\"conf/safemode_nodelay\")</string>
+    <string name="pref_enable_for_tools_title">Enable for tools</string>
+    <string name="pref_enable_for_tools_summary">Load Xposed for commandline tools.\n(\"conf/enable_for_tools\")</string>
+    <string name="pref_disable_resources_title">Disable resource hooks</string>
+    <string name="pref_disable_resources_summary">Workaround for conflicts with theming engines\n<b>WARNING:</b> Modules which try to change resources will not work when this is enabled.\n(\"conf/disable_resources\")</string>
+-->
+    <string name="bottom_bar_btn_manage">Framework</string>
     <string name="bottom_bar_btn_settings">Paramètres</string>
     <string name="bottom_bar_btn_reboot">Redémarrer</string>
     <string name="bottom_bar_btn_refresh">Mettre à jour</string>
@@ -72,6 +91,7 @@
     <string name="install_mode_normal">Normal (écrire dans /system)</string>
     <string name="install_mode_recovery_auto">Recovery (flasher .zip automatiquement)</string>
     <string name="install_mode_recovery_manual">Recovery (écrire .zip sur la carte SD, flasher manuellement)</string>
+    <string name="files_dir_location">Fichiers : %s</string>
 
     <!--  File operations -->
     <string name="root_failed">Impossible d\'obtenir l\'accès root.\n\nAssurez-vous que votre appareil est rooté correctement et que vous n\'avez pas bloqué les commandes shell.</string>
@@ -163,6 +183,11 @@
     <string name="logs_load_failed">Impossible de lire le journal :</string>
     <string name="logs_save_failed">Impossible d\'écrire le journal :</string>
     <string name="sdcard_not_writable">Carte SD non trouvée ou en lecture seule</string>
+    <string name="log_too_large">La taille du journal dépasse %1$,d Ko, les premiers %2$,d Ko ne sont pas affichés</string>
+    <string name="bottom_bar_btn_clear">Vider</string>
+    <string name="logs_cleared">Journal vidé avec succès</string>
+    <string name="logs_clear_failed">Impossible de vider le journal :</string>
+    <string name="log_is_empty">Journal vide</string>
 
     <!-- Donations -->
     <string name="donate">Faire un don</string>
