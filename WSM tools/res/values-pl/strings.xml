@@ -3,6 +3,7 @@
     <string name="app_name">WSM Tools</string>
     <string name="apply">Zastosuj</string>
     <string name="act_title_settings">Ustawienia</string>
+    <string name="act_title_xposed_settings">Ustawienia Xposed</string>
     <string name="act_title_about">Informacje</string>
     <string name="act_title_installer">Zarządzaj</string>
     <string name="act_title_whatsnew">Nowości</string>
@@ -17,6 +18,8 @@
     <string name="copyright_xposed">Bazuje na Xposed</string>
     <string name="information_faq">Szczegóły</string>
     <string name="information_faq_summary">F.A.Q., tłumaczenia, podziękowania, pomoc</string>
+
+    <!-- SettingsActivity -->
     <string name="pref_feedback_title">Pomoc techniczna</string>
     <string name="pref_feedback_summary">Raporty, prośby o moduły, itp.</string>
     <string name="pref_manage_title">Zarządzaj WSM</string>
@@ -33,6 +36,16 @@
     <string name="pref_system_toasts_title">Powiadomienia w dymkach</string>
     <string name="pref_system_toasts_summary">Pokazuje wiadomości WSM w dymkach</string>
     <string name="pref_about_title">Informacje</string>
+    <string name="pref_xposed_settings_title">Ustawienia silnika Xposed</string>
+    <string name="pref_xposed_settings_summary">Dodatkowa konfiguracja</string>
+
+    <!-- XposedSettingsActivity -->
+    <string name="pref_disable_xposed_title">Dezaktywuj</string>
+    <string name="pref_disable_xposed_summary">Wyłącza uruchamianie Xposed wraz ze startem systemu</string>
+    <string name="pref_xposed_safemode_title">Tryb bezpieczny</string>
+    <string name="pref_xposed_safemode_summary">Podczas uruchamiania systemu jeden z klawiszy fizycznych (tych pod ekranem) musi zostać wciśnięty (w przeciągu 2 pierwszych sekund) lub być trzymany od początku uruchamiania systemu. Następnie ten sam klawisz musi zostać wciśnięty jeszcze raz w przeciągu następnych 5 sekund, czynność powtarzamy 5 razy (chodzi o 5 kliknięć)</string>
+    <string name="pref_xposed_safemode_nodelay_title">Wyłącz opóźnienie</string>
+    <string name="pref_xposed_safemode_nodelay_summary">Wyłącza używane w trybie bezpiecznym dwu sekundowe opóźnienie; wymagane jest trzymanie klawisza od początku uruchamiania systemu, w przeciwnym wypadku procedura nie da żadnego efektu</string>
     <string name="bottom_bar_btn_manage">Zarządzaj</string>
     <string name="bottom_bar_btn_settings">Ustawienia</string>
     <string name="bottom_bar_btn_reboot">Restart</string>
@@ -80,6 +93,7 @@
     <string name="install_mode_normal">Standardowy (z poziomu telefonu)</string>
     <string name="install_mode_recovery_auto">W Recovery (automatycznie)</string>
     <string name="install_mode_recovery_manual">W Recovery (manualnie)</string>
+    <string name="files_dir_location">Pliki: %s</string>
     <string name="root_failed">Brak uprawnień root.\n\nUpewnij się czy urzędzenie jest prawidłowo zrootowane oraz czy uprawnienia root są włączone.</string>
     <string name="file_extract_failed">Nie można wypakować %s</string>
     <string name="file_mounting_writable">Montowanie %s jako R/W&#8230;</string>
@@ -167,6 +181,11 @@
     <string name="logs_load_failed">Nie można załadować logów:</string>
     <string name="logs_save_failed">Błąd podczas zapisu logów na kartę:</string>
     <string name="sdcard_not_writable">Brak karty SD lub karta uszkodzona</string>
+    <string name="log_too_large">Log przekracza %1$,d kB, pominięto początkowe %2$,d kB</string>
+    <string name="bottom_bar_btn_clear">Wyczyść</string>
+    <string name="logs_cleared">Pomyślnie wyczyszczono logi</string>
+    <string name="logs_clear_failed">Nie można wyczyścić:</string>
+    <string name="log_is_empty">Log jest pusty</string>
 
 
     <!-- Donations -->
