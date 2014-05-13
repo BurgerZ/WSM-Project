@@ -4,6 +4,7 @@
     <string name="app_name">WSM tools</string>
     <string name="apply">Применить</string>
     <string name="act_title_settings">Настройки</string>
+    <string name="act_title_xposed_settings">Настройки Xposed</string>
     <string name="act_title_about">О программе</string>
     <string name="act_title_installer">Управление</string>
     <string name="act_title_whatsnew">WhatsNew</string>
@@ -33,6 +34,21 @@
     <string name="pref_system_toasts_title">Уведомления WSM</string>
     <string name="pref_system_toasts_summary">Показывать всплывающие уведомления WSM (например, при активации модулей)</string>
     <string name="pref_about_title">О программе</string>
+    <string name="pref_xposed_settings_title">Настройки Xposed</string>
+    <string name="pref_xposed_settings_summary">Настройки поведения фреймворка Xposed</string>
+
+    <!-- XposedSettingsActivity -->
+    <string name="pref_disable_xposed_title">Отключить Xposed</string>
+    <string name="pref_disable_xposed_summary">Xposed не будет использоваться во время загрузки телефона.\n(\"conf/disabled\")</string>
+    <string name="pref_xposed_safemode_title">Безопасный режим</string>
+    <string name="pref_xposed_safemode_summary">Определяет нажатия клавиш для исключения бутлупов. Во время загрузки в течение первых 2 секунд должна быть нажата одна из аппаратных клавиш. После этого ее нужно нажать еще 5 раз в течение последующих 5 секунд, после чего xposed выключается. При выключении этого пункта безопасный режим выключается.\n(\"conf/safemode_disable\")</string>
+    <string name="pref_xposed_safemode_nodelay_title">Отключить задержку</string>
+    <string name="pref_xposed_safemode_nodelay_summary">Изначальная  2-х секундная задержка безопасного режима (ожидание нажатий) может быть выключена; в этом случае одна из клавиш уже должна быть нажата во время загрузки, в противном случае определение клавиш не сработает.\n(\"conf/safemode_nodelay\")</string>
+    <string name="pref_enable_for_tools_title">Включен для утилит</string>
+    <string name="pref_enable_for_tools_summary">Использование Xposed для утилит командной строки (таких как, например, \"am\", \"pm\" и др.).\n(\"conf/enable_for_tools\")</string>
+    <string name="pref_disable_resources_title">Отключить хуки ресурсов</string>
+    <string name="pref_disable_resources_summary">Исключение конфликтов с инструментами оформления разных прошивок\n<b>ВНИМАНИЕ:</b> Модули, которые изменяют ресурсы, не будут работать при включении этой опции.\n(\"conf/disable_resources\")</string>
+
     <string name="bottom_bar_btn_manage">Фреймворк</string>
     <string name="bottom_bar_btn_settings">Настройки</string>
     <string name="bottom_bar_btn_reboot">Перезагрузка</string>
@@ -81,6 +97,7 @@
     <string name="install_mode_normal">Обычный (запись в /system)</string>
     <string name="install_mode_recovery_auto">Recovery (автоматический)</string>
     <string name="install_mode_recovery_manual">Recovery (выбор zip вручную)</string>
+    <string name="files_dir_location">Файлы: %s</string>
 
     <!--  File operations -->
     <string name="root_failed">Ошибка получения root-доступа.\n\nУбедитесь, что ваше устройство имеет root доступ.</string>
@@ -172,6 +189,11 @@
     <string name="logs_load_failed">Не могу прочитать лог:</string>
     <string name="logs_save_failed">Не могу записать лог на SD карту:</string>
     <string name="sdcard_not_writable">SD не найдена или только для чтения</string>
+    <string name="log_too_large">Лог файл больше, чем %1$,d кБ, пропуск первых %2$,d кБ</string>
+    <string name="bottom_bar_btn_clear">Очистить</string>
+    <string name="logs_cleared">Лог очищен</string>
+    <string name="logs_clear_failed">Ошибка очистки лога:</string>
+    <string name="log_is_empty">Лог файл пустой</string>
 
     <!-- Donations -->
     <string name="donate">Пожертвование</string>

@@ -3,6 +3,7 @@
     <string name="app_name">WSM tools</string>
     <string name="apply">Apply</string>
     <string name="act_title_settings">Settings</string>
+    <string name="act_title_xposed_settings">Xposed settings</string>
     <string name="act_title_about">About</string>
     <string name="act_title_installer">Manage</string>
     <string name="act_title_whatsnew">WhatsNew</string>
@@ -17,6 +18,8 @@
     <string name="copyright_xposed">Based on Xposed</string>
     <string name="information_faq">Information</string>
     <string name="information_faq_summary">F.A.Q., translations, credits, help</string>
+
+    <!-- SettingsActivity -->
     <string name="pref_feedback_title">Feedback</string>
     <string name="pref_feedback_summary">Send bugreport, module request, etc.\n(In English or Russian only!)</string>
     <string name="pref_manage_title">Manage WSM</string>
@@ -33,6 +36,21 @@
     <string name="pref_system_toasts_title">System toasts</string>
     <string name="pref_system_toasts_summary">Show WSM system toast messages</string>
     <string name="pref_about_title">About</string>
+    <string name="pref_xposed_settings_title">Xposed Framework settings</string>
+    <string name="pref_xposed_settings_summary">Different Xposed framework settings</string>
+
+    <!-- XposedSettingsActivity -->
+    <string name="pref_disable_xposed_title">Disable Xposed</string>
+    <string name="pref_disable_xposed_summary">Disable loading Xposed during boot.\n(\"conf/disabled\")</string>
+    <string name="pref_xposed_safemode_title">Xposed safemode</string>
+    <string name="pref_xposed_safemode_summary">Detects input combinations for recovering from bootloops. Upon startup, one of the physical keys must be pressed during the first 2 seconds (or already held down upfront). After that, the same key must be pressed again within 5 seconds, until 5 total presses are reached.\n(\"conf/safemode_disable\")</string>
+    <string name="pref_xposed_safemode_nodelay_title">Disable safemode delay</string>
+    <string name="pref_xposed_safemode_nodelay_summary">The initial 2-second delay can be disabled through configuration; in that case, one of the keys must already be pressed when the detection starts, otherwise the detection fails and no delays are introduced.\n(\"conf/safemode_nodelay\")</string>
+    <string name="pref_enable_for_tools_title">Enable for tools</string>
+    <string name="pref_enable_for_tools_summary">Load Xposed for commandline tools.\n(\"conf/enable_for_tools\")</string>
+    <string name="pref_disable_resources_title">Disable resource hooks</string>
+    <string name="pref_disable_resources_summary">Workaround for conflicts with theming engines\n<b>WARNING:</b> Modules which try to change resources will not work when this is enabled.\n(\"conf/disable_resources\")</string>
+
     <string name="bottom_bar_btn_manage">Framework</string>
     <string name="bottom_bar_btn_settings">Settings</string>
     <string name="bottom_bar_btn_reboot">Reboot</string>
@@ -81,6 +99,7 @@
     <string name="install_mode_normal">Normal (write to /system directly)</string>
     <string name="install_mode_recovery_auto">Recovery (flash zip automatically)</string>
     <string name="install_mode_recovery_manual">Recovery (write zip to SD card, flash manually)</string>
+    <string name="files_dir_location">Files: %s</string>
 
     <!--  File operations -->
     <string name="root_failed">Failed to get root access.\n\nMake sure your device is rooted properly and you have not blocked shell commands.</string>
@@ -171,6 +190,11 @@
     <string name="logs_load_failed">Could not read log:</string>
     <string name="logs_save_failed">Could not write log to SD card:</string>
     <string name="sdcard_not_writable">SD card not found or not writable</string>
+    <string name="log_too_large">Log file is larger than %1$,d kB, skipped first %2$,d kB</string>
+    <string name="bottom_bar_btn_clear">Clear</string>
+    <string name="logs_cleared">Log successfully cleared</string>
+    <string name="logs_clear_failed">Could not clear the log:</string>
+    <string name="log_is_empty">Log is empty</string>
 
     <!-- Donations -->
     <string name="donate">Donate</string>
