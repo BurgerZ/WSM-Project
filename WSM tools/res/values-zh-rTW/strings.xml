@@ -3,6 +3,7 @@
     <string name="app_name">WSM tools</string>
     <string name="apply">套用</string>
     <string name="act_title_settings">設定</string>
+    <string name="act_title_xposed_settings">Xposed 框架設定</string>
     <string name="act_title_about">關於</string>
     <string name="act_title_installer">管理</string>
     <string name="act_title_whatsnew">更新資訊</string>
@@ -17,6 +18,8 @@
     <string name="copyright_xposed">基於 Xposed 框架開發</string>
     <string name="information_faq">資訊</string>
     <string name="information_faq_summary">F.A.Q., 翻譯人員, 製作群, 幫助</string>
+    
+    <!-- SettingsActivity -->
     <string name="pref_feedback_title">意見反映</string>
     <string name="pref_feedback_summary">傳送錯誤回報與模組請求,以及錯誤警示\n(僅限使用英文以及俄羅斯文!).</string>
     <string name="pref_manage_title">管理 WSM</string>
@@ -33,6 +36,21 @@
     <string name="pref_system_toasts_title">系統浮動訊息</string>
     <string name="pref_system_toasts_summary">顯示 WSM 系統浮動訊息</string>
     <string name="pref_about_title">關於</string>
+    <string name="pref_xposed_settings_title">Xposed Framework settings</string>
+    <string name="pref_xposed_settings_summary">Different Xposed framework settings</string>
+
+    <!-- XposedSettingsActivity -->
+    <string name="pref_disable_xposed_title">禁止 Xposed 框架</string>
+    <string name="pref_disable_xposed_summary">開機時禁止載入 Xposed 框架.\n(\"conf/disabled\")</string>
+    <string name="pref_xposed_safemode_title">Xposed 安全模式</string>
+    <string name="pref_xposed_safemode_summary">從 bootloops 還原檢測按鍵點擊組合。在啟動時，需在前兩秒時按下其中一個實體按鍵（或已經按住音量鍵[上]）。此後，相同的按鍵，需再次在五秒內按下，直到5次按下都完成.\n(\"conf/safemode_disable\")</string>
+    <string name="pref_xposed_safemode_nodelay_title">停用安全模式延遲</string>
+    <string name="pref_xposed_safemode_nodelay_summary">最初的2秒延遲可以透過配置被停用;在這種情況下，其中一個按鍵，必須已在檢測開始時按下，否則該檢測失敗，沒有延遲被納入.\n(\"conf/safemode_nodelay\")</string>
+    <string name="pref_enable_for_tools_title">啟用工具</string>
+    <string name="pref_enable_for_tools_summary">載入 Xposed 框架的命令行工具.\n(\"conf/enable_for_tools\")</string>
+    <string name="pref_disable_resources_title">停用資源聯動</string>
+    <string name="pref_disable_resources_summary">解決主題化引擎衝突的方案\n<b>警告:</b> 當啟用該模組時，模組將試圖更改資源而無法正常運行.\n(\"conf/disable_resources\")</string>
+
     <string name="bottom_bar_btn_manage">框架</string>
     <string name="bottom_bar_btn_settings">設定</string>
     <string name="bottom_bar_btn_reboot">重新啟動</string>
@@ -83,6 +101,7 @@
     <string name="install_mode_normal">正常 (直接寫入 /system )</string>
     <string name="install_mode_recovery_auto">Recovery 模式 (自動刷入 zip )</string>
     <string name="install_mode_recovery_manual">Recovery 模式 (手動至 SD 卡中刷入 zip 安裝包)</string>
+    <string name="files_dir_location">檔案: %s</string>
  
     <!--  File operations -->
     <string name="root_failed">無法取得 root 權限.\n\n請確認您的裝置以正確取得 root 權限，並且沒有封鎖 shell 指令.</string>
@@ -173,6 +192,11 @@
     <string name="logs_load_failed">無法存取數據:</string>
     <string name="logs_save_failed">無法寫入數據至 SD 卡:</string>
     <string name="sdcard_not_writable">SD 卡未找到或未安裝</string>
+    <string name="log_too_large">即將載入的文件已大於 %1$,d kB, 已經跳過首先的 %2$,d kB</string>
+    <string name="bottom_bar_btn_clear">清除</string>
+    <string name="logs_cleared">紀錄已成功被清除</string>
+    <string name="logs_clear_failed">無法清除紀錄:</string>
+    <string name="log_is_empty">記錄欄圍空</string>
     
     <!-- Donations -->
     <string name="donate">捐贈</string>
