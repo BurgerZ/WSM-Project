@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Power -->
+    <string name="take_screenshot">Capture d\'écran</string> 
+    <string name="power_reboot">Redémarrer</string> 
+    <string name="power_reboot_options">Options de redémarrage</string> 
+    <string name="power_reboot_normal">Normal</string> 
+    <string name="power_reboot_recovery">Recovery</string> 
+    <string name="power_reboot_hot">Redémarrage rapide</string> 
+    <string name="power_reboot_bootloader">Bootloader</string> 
+    <string name="power_reboot_switch_system">Changer de système (tél. Xiaomi)</string> 
+    <string name="power_reboot_system_1">Redémarrer sur la 1re partition</string> 
+    <string name="power_reboot_system_2">Redémarrer sur la 2e partition</string> 
+    <string name="power_cancel">Annuler</string>
+</resources>
