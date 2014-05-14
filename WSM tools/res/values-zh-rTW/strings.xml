@@ -36,8 +36,8 @@
     <string name="pref_system_toasts_title">系統浮動訊息</string>
     <string name="pref_system_toasts_summary">顯示 WSM 系統浮動訊息</string>
     <string name="pref_about_title">關於</string>
-    <string name="pref_xposed_settings_title">Xposed Framework settings</string>
-    <string name="pref_xposed_settings_summary">Different Xposed framework settings</string>
+    <string name="pref_xposed_settings_title">Xposed 框架設定</string>
+    <string name="pref_xposed_settings_summary">不同的 Xposed 框架設定</string>
 
     <!-- XposedSettingsActivity -->
     <string name="pref_disable_xposed_title">禁止 Xposed 框架</string>
