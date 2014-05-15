@@ -180,6 +180,8 @@
     <string name="advanced_reboot_menu">Меню перезагрузки</string>
     <string name="add_screenshot">Добавить \"Скриншот\"</string> 
     <string name="add_screenshot_summary">Добавляет пункт \"Скриншот\" в меню выключения телефона</string>
+    <string name="fix_screenshot_position">Исправить положение \"Скриншота\"</string>
+    <string name="fix_screenshot_position_summary">Эта опция для тех, у кого меню скриншота смещено относительно других пунктов меню выключения.<b>НЕ</b> включайте этот пункт, если у вас все нормально отображается.</string>
     <string name="take_screenshot">Скриншот</string> 
     <string name="power_reboot">Перезагрузка</string> 
     <string name="power_reboot_options">Варианты перезагрузки</string> 
@@ -324,6 +326,8 @@
     <string name="holidays_selector_country_original">Оригинальные (Китай)</string> 
     <string name="holidays_selector_country_russia">Россия</string>
     <string name="holidays_selector_country_belarus">Беларусь</string>
+    <string name="holidays_selector_country_kazakhstan">Казахстан</string>
+    <string name="holidays_selector_country_turkmenistan">Туркменистан</string>
     <string name="holidays_selector_country_ukraine">Украина</string> 
     <string name="holidays_selector_country_slovakia">Словакия</string>
     <string name="holidays_selector_country_czech">Чешская Республика</string>

@@ -71,6 +71,7 @@
         <item>Romz.bz</item> 
         <item>MIUI.su (RU)</item>
         <item>MIUI.su (BY)</item>
+        <item>MIUI.su (KZ)</item>
         <item>MIUI.su (UK)</item>
         <item>MIUI.cz (SK)</item>
         <item>MIUI.cz (CZ)</item>
@@ -82,6 +83,7 @@
         <item>holidays_server_romz</item> 
         <item>holidays_server_miuisu</item>
         <item>holidays_server_miuisu_by</item>
+        <item>holidays_server_miuisu_kz</item>
         <item>holidays_server_miuisu_uk</item>
         <item>holidays_server_cz_slovak</item> 
         <item>holidays_server_cz_czech</item>
@@ -92,6 +94,7 @@
         <item>@string/holidays_selector_country_original</item> 
         <item>@string/holidays_selector_country_russia</item>
         <item>@string/holidays_selector_country_belarus</item>
+        <item>@string/holidays_selector_country_kazakhstan</item>
         <item>@string/holidays_selector_country_ukraine</item> 
         <item>@string/holidays_selector_country_slovakia</item>
         <item>@string/holidays_selector_country_czech</item>
