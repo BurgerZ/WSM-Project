@@ -166,8 +166,10 @@
     <string name="power">Menu wyłączania</string>
     <string name="advanced_reboot_menu_summary">Pozwala dodadć dodatkowe opcje do menu wyłączania telefonu</string>
     <string name="advanced_reboot_menu">Zaawansowane menu wyłączania</string>
-    <string name="add_screenshot">Dodaj przycisk \"Zrób screen\"</string> 
+    <string name="add_screenshot">Dodaj przycisk \"Zrób screen\"</string>
     <string name="add_screenshot_summary">Dodaje opcję zrzutów do powermenu</string>
+    <string name="fix_screenshot_position">Popraw pozycję ikony</string>
+    <string name="fix_screenshot_position_summary">Opcja naprawia wyśrodkowaną ikonę opcji \"Zrób screen\", jeżeli nie masz tego problemu <b>nie</b> włączaj tej opcji.</string>
     <string name="take_screenshot">Zrób screen</string>
     <string name="power_reboot">Uruchom ponownie</string> 
     <string name="power_reboot_options">Opcje ponownego uruchamiania</string> 
