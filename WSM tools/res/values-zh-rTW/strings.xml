@@ -80,7 +80,6 @@
     <string name="installer_bundled_version">內置版本</string>
     <string name="installer_phone_not_compatible">WSM 目前尚未相容於 Android SDK 版本 %1$d 或是您的裝置的處理器架構 (%2$s).</string>
     <string name="installer_not_tested_but_compatible">WSM 尚未在 Android SDK 版本 %d 上進行測試, 但目前看來是可以相容的. 如果您喜歡冒險，您可以嘗試安裝並運行它.</string>
-    <string name="installer_rom_update"></string>
     <string name="installer_active_dexspy_found">已找到啟動 Dexspy。兼容的二進制文件將被使用.</string>
     <string name="installer_inactive_dexspy_found">已找到 Dexspy, 但它似乎是無效的。常見的二進制文件將被使用.</string>
     <string name="reboot_failed">重啟失敗. 請使用正常方式重啟.</string>
@@ -93,10 +92,9 @@
     <string name="file_create_directory_failed">無法建立目錄 %s</string>
     <string name="file_writing_recovery_command">正在寫入 recovery 指令…</string>
     <string name="file_writing_recovery_command_failed">寫入 recovery 指令失敗. 請用不同的安裝模組.</string>
-    <string name="install_warning">
-    在某些情況下，您的裝置可能會在安裝後 Xposed 框架後無法啟動裝置。\ n \ n如果您在先前從來沒有聽說過\“軟磚\”和\“bootloop\”，或者如果您不知道如何從這種情況中將裝置恢復正常，並 
-    <b>不會</ B> 
-    安裝 Xposed 框架！\ n\ n在任何情況下，強烈推薦，您有執行過備份操作並保留最近的備份。
+    <string name="install_warning">在某些情況下，您的裝置可能會在安裝後 Xposed 框架後無法啟動裝置。\n\n如果您在先前從來沒有聽說過\“軟磚\”和\“bootloop\”，或者如果您不知道如何從這種情況中將裝置恢復正常，並
+    <b>不會</b>
+    安裝 Xposed 框架！\n\n在任何情況下，強烈推薦，您有執行過備份操作並保留最近的備份。
     </string>
     <string name="install_mode_normal">正常 (直接寫入 /system )</string>
     <string name="install_mode_recovery_auto">Recovery 模式 (自動刷入 zip )</string>
