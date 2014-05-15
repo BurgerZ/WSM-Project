@@ -40,7 +40,7 @@
 		<changelog_ru html="true">&lt;p&gt;Релиз&lt;/p&gt;</changelog_ru> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1399099590">
+  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1400137387">
 	<name>Mi-Tools</name> 
 	<summary_ru>Все в одном для MIUI v5</summary_ru> 
 	<summary>MIUI v5 all in one module</summary> 
@@ -49,7 +49,16 @@
 	<author>BurgerZ</author> 
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository"></moreinfo>
+    <moreinfo label="Repository">http://goo.gl/zWKSau</moreinfo>
+	<version uploaded="1400137387">
+		<name>2.0.4</name> 
+		<code>204</code> 
+		<reltype>beta</reltype>
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v204_1fc67e.apk</download> 
+		<md5sum>1fc67ee6f2cd5f1230e5e6de89356008</md5sum> 
+		<changelog html="true">&lt;li&gt;StatusBar: added option to hide alarm icon&lt;/li&gt;&lt;li&gt;Sound: added option to turn off safe volume warning&lt;/li&gt;&lt;li&gt;Sound: added option to turn off number picker click-sound (Calendar, Alarm, Clock etc.)&lt;/li&gt;&lt;li&gt;Applications: added option to turn off holidays (choose "none" in both countries and server lists)&lt;/li&gt;&lt;li&gt;Applications: added holidays data for Turkmenistan (will not be added to MiTools) and Kazakhstan (servers to choose are miui.su (tk) and (kz) accordinly).&lt;/li&gt;&lt;li&gt;Launcher: added option to hide icons from app drawer for selected applications&lt;/li&gt;&lt;li&gt;Many other small (and not) fixes&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
+		<changelog_ru html="true">&lt;li&gt;Панель состояния: добавлена опция скрывать иконку будильника&lt;/li&gt;&lt;li&gt;Звук: добавлена опция отключить звук в диалоге выбора даты и времени (щелчки)&lt;/li&gt;&lt;li&gt;Звук: добавлена опция убирать предупреждение о безопасной громкости при прослушивании музыки через наушники&lt;/li&gt;&lt;li&gt;Приложения: добавлена опция отключения праздников в календаре (в списках стран и серверов выбрать "Нет")&lt;/li&gt;&lt;li&gt;Приложения: добавлены праздники для Туркменистана (не будет добавлен в MiTools), Казахстана (сервера обновления выбирать miui.su (tk) и (kz) соответственно)&lt;/li&gt;&lt;li&gt;Рабочий стол: добавлена опция скрывать иконки выбранных приложений с рабочего стола&lt;/li&gt;&lt;li&gt;Много других небольших (и не только) исправлений&lt;/li&gt;&lt;li&gt;Обновлен перевод&lt;/li&gt;</changelog_ru> 
+	</version>	
 	<version uploaded="1399099590">
 		<name>2.0.3</name> 
 		<code>203</code> 
@@ -565,7 +574,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<changelog html="true"></changelog> 
 	</version>	
   </module>
-  <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1399967147">
+  <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1400139412">
 	<name>WSM tools</name> 
 	<summary>This is the installer and manager for the Xposed framework, which is a requirement for all modules</summary> 
 	<summary_ru>Установщик и менеджер фреймворка Xposed, который нужен для работы всех модулей</summary_ru> 
@@ -574,7 +583,16 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<author>BurgerZ</author>
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository">http://goo.gl/wjvXQT</moreinfo>
+    <moreinfo label="Repository">http://goo.gl/BhsH0E</moreinfo>
+	<version uploaded="1400139412">
+		<name>2.3.3</name> 
+		<code>233</code>
+		<reltype></reltype>
+		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v233_919202.apk</download> 
+		<md5sum>91920277c85e0cd1fba47200793ba9e1</md5sum> 
+		<changelog html="true">&lt;li&gt;Small fixes in API&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
+		<changelog_ru html="true">&lt;li&gt;Небольшие исправления и дополнения в API&lt;/li&gt;&lt;li&gt;Обновлен перевод&lt;/li&gt;</changelog_ru> 
+	</version>	
 	<version uploaded="1399967147">
 		<name>2.3.2</name> 
 		<code>232</code>
