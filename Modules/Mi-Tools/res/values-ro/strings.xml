@@ -29,9 +29,9 @@
     <string name="preference_app_picker_search">Căutare</string>
     <string name="preference_app_picker_none">(Niciunul)</string>
     <!-- from arrays -->
-    <string name="am_pm_hide">Ascundeţi</string>
-    <string name="am_pm_small">Minuscule</string>
-    <string name="am_pm_large">Majuscule</string>
+    <string name="clock_style_hide">Ascundeţi</string>
+    <string name="clock_style_small">Minuscule</string>
+    <string name="clock_style_large">Majuscule</string>
     <string name="typeface_style_italic">Cursiv</string>
     <string name="typeface_style_normal">Normal</string>
     <string name="typeface_style_bold">Aldin</string>

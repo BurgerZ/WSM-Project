@@ -28,9 +28,9 @@
   <string name="preference_app_picker_search">搜索应用</string>
   <string name="preference_app_picker_none">(未选择应用)</string>
   <!-- from arrays -->
-  <string name="am_pm_hide">隐藏</string>
-  <string name="am_pm_small">小号</string>
-  <string name="am_pm_large">大号</string>
+  <string name="clock_style_hide">隐藏</string>
+  <string name="clock_style_small">小号</string>
+  <string name="clock_style_large">大号</string>
   <string name="typeface_style_italic">斜体</string>
   <string name="typeface_style_normal">普通</string>
   <string name="typeface_style_bold">粗体</string>

@@ -30,9 +30,9 @@
 
 
     <!-- from arrays -->
-    <string name="am_pm_hide">Elrejtés</string>
-    <string name="am_pm_small">Kicsi</string>
-    <string name="am_pm_large">Nagy</string>
+    <string name="clock_style_hide">Elrejtés</string>
+    <string name="clock_style_small">Kicsi</string>
+    <string name="clock_style_large">Nagy</string>
     <string name="typeface_style_italic">Dőltbetűs</string>
     <string name="typeface_style_normal">Normál</string>
     <string name="typeface_style_bold">Vastagbetűs</string>

@@ -28,9 +28,9 @@
     <!-- AppPickerPreference -->
     <string name="preference_app_picker_search">Поиск</string>
     <!-- from arrays -->
-    <string name="am_pm_hide">Скрыть</string>
-    <string name="am_pm_small">Строчные буквы</string>
-    <string name="am_pm_large">Заглавные буквы</string>
+    <string name="clock_style_hide">Скрыть</string>
+    <string name="clock_style_small">Строчные буквы</string>
+    <string name="clock_style_large">Заглавные буквы</string>
     <string name="typeface_style_italic">Курсив</string>
     <string name="typeface_style_normal">Нормальный</string>
     <string name="typeface_style_bold">Жирный</string>
@@ -110,8 +110,8 @@
     <string name="clock_position_summary">Выбор позиции часов:\n%s</string>
     <string name="am_pm_style">Стиль AM/PM</string>
     <string name="am_pm_style_summary">Выбор стиля отображения am/pm:\n%s</string>
-    <string name="show_clock_date_summary">Показывать дату рядом с часами</string>
-    <string name="show_clock_date">Показывать дату</string>
+    <string name="clock_date_style">Стиль даты</string>
+    <string name="clock_date_style_summary">Выбор стиля отображения даты:\n%s</string>
     <string name="clock_date_format">Формат даты</string>
     <string name="hide_alarm_icon">Скрыть иконку будильника</string>
     <!-- Battery -->
@@ -279,6 +279,8 @@
     <string name="hide_icons_label_summary">Позволяет скрыть подписи иконок рабочего стола</string>
     <string name="hide_hotseats_label">Скрыть подписи нижнего бара</string>
     <string name="hide_hotseats_label_summary">Позволяет скрыть подписи иконок нижнего бара рабочего стола</string>
+    <string name="hide_hotseats_bar">Скрыть нижний бар</string>
+    <string name="hide_hotseats_bar_summary">Позволяет скрыть нижний бар и получить больше свободного места для иконок приложений</string>
     <string name="hide_folders_label">Скрыть подписи папок</string>
     <string name="hide_folders_label_summary">Позволяет скрыть подписи папок рабочего стола</string>
     <string name="config_folder_columns_count">Столбцов в папке</string>

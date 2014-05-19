@@ -28,9 +28,9 @@
     <string name="preference_app_picker_search">Hľadanie</string>
     <string name="preference_app_picker_none">(Nie je)</string>
     <!-- from arrays -->
-    <string name="am_pm_hide">Skryť</string>
-    <string name="am_pm_small">Malý</string>
-    <string name="am_pm_large">Veľký</string>
+    <string name="clock_style_hide">Skryť</string>
+    <string name="clock_style_small">Malý</string>
+    <string name="clock_style_large">Veľký</string>
     <string name="typeface_style_italic">Kurzíva</string>
     <string name="typeface_style_normal">Normálny</string>
     <string name="typeface_style_bold">Tučný</string>

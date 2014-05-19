@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="am_pm_entries">
-        <item>@string/am_pm_hide</item>
-        <item>@string/am_pm_small</item>
-        <item>@string/am_pm_large</item>
+    <string-array name="clock_style_entries">
+        <item>@string/clock_style_hide</item>
+        <item>@string/clock_style_small</item>
+        <item>@string/clock_style_large</item>
     </string-array>
-    <string-array name="am_pm_values">
-        <item>am_pm_hide</item>
-        <item>am_pm_small</item>
-        <item>am_pm_large</item>
+    <string-array name="clock_style_values">
+        <item>clock_style_hide</item>
+        <item>clock_style_small</item>
+        <item>clock_style_large</item>
     </string-array>
     <string-array name="typeface_style_entries">
         <item>@string/typeface_style_italic</item>

@@ -25,9 +25,9 @@
     <string name="about_module">Über das Modul</string>
     <string name="preference_app_picker_search">Suche</string>
     <string name="preference_app_picker_none">(Keine)</string>
-    <string name="am_pm_hide">Ausblenden</string>
-    <string name="am_pm_small">Klein</string>
-    <string name="am_pm_large">Gross</string>
+    <string name="clock_style_hide">Ausblenden</string>
+    <string name="clock_style_small">Klein</string>
+    <string name="clock_style_large">Gross</string>
     <string name="typeface_style_italic">Kursiv</string>
     <string name="typeface_style_normal">Normal</string>
     <string name="typeface_style_bold">Fett</string>

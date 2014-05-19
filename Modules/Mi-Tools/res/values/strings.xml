@@ -28,9 +28,9 @@
     <!-- AppPickerPreference -->
     <string name="preference_app_picker_search">Search</string>
     <!-- from arrays -->
-    <string name="am_pm_hide">Hide</string>
-    <string name="am_pm_small">Lowercase</string>
-    <string name="am_pm_large">Uppercase</string>
+    <string name="clock_style_hide">Hide</string>
+    <string name="clock_style_small">Lowercase</string>
+    <string name="clock_style_large">Uppercase</string>
     <string name="typeface_style_italic">Italic</string>
     <string name="typeface_style_normal">Normal</string>
     <string name="typeface_style_bold">Bold</string>
@@ -110,8 +110,8 @@
     <string name="clock_position_summary">Choose clock position:\n%s</string>
     <string name="am_pm_style">AM PM Style</string>
     <string name="am_pm_style_summary">Choose clock am pm style:\n%s</string>
-    <string name="show_clock_date_summary">Show the date with the status bar clock</string>
-    <string name="show_clock_date">Show status bar date</string>
+    <string name="clock_date_style">Date Style</string>
+    <string name="clock_date_style_summary">Choose clock date style:\n%s</string>
     <string name="clock_date_format">Date format</string>
     <string name="hide_alarm_icon">Hide alarm icon</string>
     <!-- Battery -->
@@ -279,6 +279,8 @@
     <string name="hide_icons_label_summary">Allows you to to hide launcher icons labels</string>
     <string name="hide_hotseats_label">Hide hotseats labels</string>
     <string name="hide_hotseats_label_summary">Allows you to to hide launcher hotseats labels</string>
+    <string name="hide_hotseats_bar">Hide hotseats (dock)</string>
+    <string name="hide_hotseats_bar_summary">Allows you to to hide launcher hotseats (bottom dock) to get more space for app icons</string>
     <string name="hide_folders_label">Hide folders labels</string>
     <string name="hide_folders_label_summary">Allows you to to hide launcher folders labels</string>
     <string name="config_folder_columns_count">Folder columns</string>

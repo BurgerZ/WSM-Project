@@ -29,9 +29,9 @@
     <string name="preference_app_picker_search">Szukaj</string>
     <string name="preference_app_picker_none">(Zostaw puste)</string>
     <!-- from arrays -->
-    <string name="am_pm_hide">Ukryj</string>
-    <string name="am_pm_small">Małe litery</string>
-    <string name="am_pm_large">Duże litery</string>
+    <string name="clock_style_hide">Ukryj</string>
+    <string name="clock_style_small">Małe litery</string>
+    <string name="clock_style_large">Duże litery</string>
     <string name="typeface_style_italic">Pochylony</string>
     <string name="typeface_style_normal">Normalny</string>
     <string name="typeface_style_bold">Pogrubiony</string>
@@ -166,7 +166,7 @@
     <string name="power">Menu wyłączania</string>
     <string name="advanced_reboot_menu_summary">Pozwala dodadć dodatkowe opcje do menu wyłączania telefonu</string>
     <string name="advanced_reboot_menu">Zaawansowane menu wyłączania</string>
-    <string name="add_screenshot">Dodaj przycisk \"Zrób screen\"</string>
+    <string name="add_screenshot">Dodaj przycisk \"Zrób screen\"</string> 
     <string name="add_screenshot_summary">Dodaje opcję zrzutów do powermenu</string>
     <string name="fix_screenshot_position">Popraw pozycję ikony</string>
     <string name="fix_screenshot_position_summary">Naprawia wyśrodkowaną ikonę opcji \"Zrób screen\", jeżeli nie masz tego problemu <b>nie</b> włączaj tej opcji.</string>
