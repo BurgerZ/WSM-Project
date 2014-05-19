@@ -107,8 +107,8 @@
     <string name="clock_position_summary">Pozwala wybrać pozycję zegara, aktualnie:\n%s</string>
     <string name="am_pm_style">Styl AM PM</string>
     <string name="am_pm_style_summary">Pozwala wybrać styl am pm, aktualnie:\n%s</string>
-    <string name="show_clock_date_summary">Umieszcza aktualną datę w miejscu zegara</string>
-    <string name="show_clock_date">Pokaż datę</string>
+    <string name="show_clock_date_summary">Pozwala wybrać styl daty, aktualnie:\n%s</string>
+    <string name="show_clock_date">Styl daty</string>
     <string name="clock_date_format">Format daty</string>
     <string name="hide_alarm_icon">Ukryj ikonę budzika</string>
     <!-- Battery -->
@@ -264,6 +264,8 @@
     <string name="hide_icons_label_summary">Pozwala ukryć nazwy aplikacji na pulpicie</string>
     <string name="hide_hotseats_label">Ukryj nazwy w docku</string>
     <string name="hide_hotseats_label_summary">Pozwala ukryć nazwy aplikacji w docku</string>
+    <string name="hide_hotseats_bar">Ukryj dock</string>
+    <string name="hide_hotseats_bar_summary">Pozwala ukryć cały docka w celu uzyskania większej przestrzeni roboczej</string>
     <string name="hide_folders_label">Ukryj nazwy folderów</string>
     <string name="hide_folders_label_summary">Pozwala ukryć nazwy folderów na pulpicie</string>
     <string name="config_folder_columns_count">Rzędy ikon w folderach</string>
