@@ -107,8 +107,8 @@
     <string name="clock_position_summary">Pozwala wybrać pozycję zegara, aktualnie:\n%s</string>
     <string name="am_pm_style">Styl AM PM</string>
     <string name="am_pm_style_summary">Pozwala wybrać styl am pm, aktualnie:\n%s</string>
-    <string name="show_clock_date_summary">Pozwala wybrać styl daty, aktualnie:\n%s</string>
-    <string name="show_clock_date">Styl daty</string>
+    <string name="clock_date_style_summary">Pozwala wybrać styl daty, aktualnie:\n%s</string>
+    <string name="clock_date_style">Styl daty</string>
     <string name="clock_date_format">Format daty</string>
     <string name="hide_alarm_icon">Ukryj ikonę budzika</string>
     <!-- Battery -->
