@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="cell_layout_size_entries">
+        <item>4x4</item>
+        <item>4x5</item>
+        <item>4x6</item>
+    </string-array>
+    <string-array name="cell_layout_size_values">
+        <item>4x4</item>
+        <item>4x5</item>
+        <item>4x6</item>
+    </string-array>
     <string-array name="clock_style_entries">
         <item>@string/clock_style_hide</item>
         <item>@string/clock_style_small</item>
@@ -68,7 +78,7 @@
     <string-array name="holidays_server_entries">
         <item>@string/none</item>
         <item>MIUI.com</item>
-        <item>Romz.bz</item> 
+        <item>Romz.bz</item>
         <item>MIUI.su (RU)</item>
         <item>MIUI.su (BY)</item>
         <item>MIUI.su (KZ)</item>
@@ -80,22 +90,22 @@
     <string-array name="holidays_server_values" translatable="false">
         <item>holidays_server_none</item>
         <item>holidays_server_original</item>
-        <item>holidays_server_romz</item> 
+        <item>holidays_server_romz</item>
         <item>holidays_server_miuisu</item>
         <item>holidays_server_miuisu_by</item>
         <item>holidays_server_miuisu_kz</item>
         <item>holidays_server_miuisu_uk</item>
-        <item>holidays_server_cz_slovak</item> 
+        <item>holidays_server_cz_slovak</item>
         <item>holidays_server_cz_czech</item>
         <item>holidays_server_pl</item>
     </string-array>
     <string-array name="holidays_selector_country_entries">
         <item>@string/none</item>
-        <item>@string/holidays_selector_country_original</item> 
+        <item>@string/holidays_selector_country_original</item>
         <item>@string/holidays_selector_country_russia</item>
         <item>@string/holidays_selector_country_belarus</item>
         <item>@string/holidays_selector_country_kazakhstan</item>
-        <item>@string/holidays_selector_country_ukraine</item> 
+        <item>@string/holidays_selector_country_ukraine</item>
         <item>@string/holidays_selector_country_slovakia</item>
         <item>@string/holidays_selector_country_czech</item>
         <item>@string/holidays_selector_country_poland</item>
@@ -105,28 +115,28 @@
         <item>holidays_selector_country_original</item>
         <item>holidays_selector_country_russia</item>
         <item>holidays_selector_country_belarus</item>
-        <item>holidays_selector_country_ukraine</item> 
+        <item>holidays_selector_country_ukraine</item>
         <item>holidays_selector_country_slovakia</item>
         <item>holidays_selector_country_czech</item>
         <item>holidays_selector_country_poland</item>
     </string-array>
     <string-array name="festival_server_entries">
-        <item>MIUI.com</item> 
-        <item>Romz.bz</item> 
+        <item>MIUI.com</item>
+        <item>Romz.bz</item>
         <item>Miui.su</item>
     </string-array>
     <string-array name="festival_server_values" translatable="false">
-        <item>festival_server_original</item> 
-        <item>festival_server_romz</item> 
+        <item>festival_server_original</item>
+        <item>festival_server_romz</item>
         <item>festival_server_miuisu</item>
     </string-array>
     <string-array name="quicksearchbox_marketplace_entries">
-        <item>Xiaomi Market</item> 
-        <item>Google Play Market</item> 
+        <item>Xiaomi Market</item>
+        <item>Google Play Market</item>
     </string-array>
     <string-array name="quicksearchbox_marketplace_values" translatable="false">
-        <item>quicksearchbox_marketplace_xiaomi</item> 
-        <item>quicksearchbox_marketplace_google</item> 
+        <item>quicksearchbox_marketplace_xiaomi</item>
+        <item>quicksearchbox_marketplace_google</item>
     </string-array>
     <string-array name="mms_unicode_stripping_entries" translatable="false">
         <item>@string/mms_unicode_stripping_leave_intact</item>
@@ -212,10 +222,10 @@
         <item>Snapdragon</item>
         <item>Snapdragon</item>
         <item>Sprint</item>
-        <item>Sprint</item>   
+        <item>Sprint</item>
         <item>Taiwan Mobile</item>
         <item>Tata DOCOMO</item>
-        <item>Tata DOCOMO</item>    
+        <item>Tata DOCOMO</item>
         <item>Tele2</item>
         <item>Tele2</item>
         <item>Telecom Italia Mobile (TIM)</item>
@@ -281,11 +291,11 @@
         <item>carrier_color_megafon</item>
         <item>carrier_color_megafon2</item>
         <item>carrier_white_mi</item>
-        <item>carrier_color_mi</item> 
-        <item>carrier_white_mitools</item>  
-        <item>carrier_white_mitools2</item> 
+        <item>carrier_color_mi</item>
+        <item>carrier_white_mitools</item>
+        <item>carrier_white_mitools2</item>
         <item>carrier_white_motiv</item>
-        <item>carrier_color_motiv</item>     
+        <item>carrier_color_motiv</item>
         <item>carrier_white_mts</item>
         <item>carrier_white_mts2</item>
         <item>carrier_white_mts3</item>
@@ -304,12 +314,12 @@
         <item>carrier_white_smarts</item>
         <item>carrier_color_smarts</item>
         <item>carrier_white_snapdragon</item>
-        <item>carrier_color_snapdragon</item> 
+        <item>carrier_color_snapdragon</item>
         <item>carrier_white_sprint</item>
         <item>carrier_color_sprint</item>
         <item>carrier_color_taiwanmobile</item>
         <item>carrier_white_tata_docomo</item>
-        <item>carrier_color_tata_docomo</item>        
+        <item>carrier_color_tata_docomo</item>
         <item>carrier_white_tele2</item>
         <item>carrier_color_tele2</item>
         <item>carrier_white_tim</item>
@@ -334,10 +344,10 @@
         <item>carrier_white_wind2</item>
         <item>carrier_color_wind</item>
         <item>carrier_color_wind2</item>
-        <item>carrier_white_wsm</item> 
-        <item>carrier_white_wutang</item> 
+        <item>carrier_white_wsm</item>
+        <item>carrier_white_wutang</item>
         <item>carrier_color_youphone</item>
-    </string-array>   
+    </string-array>
     <string-array name="carrier_logo_drawables" translatable="false">
         <item>0</item>
         <item>@drawable/carrier_white_3mob</item>
@@ -379,7 +389,7 @@
         <item>@drawable/carrier_white_mitools</item>
         <item>@drawable/carrier_white_mitools2</item>
         <item>@drawable/carrier_white_motiv</item>
-        <item>@drawable/carrier_color_motiv</item> 
+        <item>@drawable/carrier_color_motiv</item>
         <item>@drawable/carrier_white_mts</item>
         <item>@drawable/carrier_white_mts2</item>
         <item>@drawable/carrier_white_mts3</item>
@@ -399,11 +409,11 @@
         <item>@drawable/carrier_color_smarts</item>
         <item>@drawable/carrier_white_snapdragon</item>
         <item>@drawable/carrier_color_snapdragon</item>
-        <item>@drawable/carrier_white_sprint</item>   
+        <item>@drawable/carrier_white_sprint</item>
         <item>@drawable/carrier_color_sprint</item>
         <item>@drawable/carrier_color_taiwanmobile</item>
         <item>@drawable/carrier_white_tata_docomo</item>
-        <item>@drawable/carrier_color_tata_docomo</item>       
+        <item>@drawable/carrier_color_tata_docomo</item>
         <item>@drawable/carrier_white_tele2</item>
         <item>@drawable/carrier_color_tele2</item>
         <item>@drawable/carrier_white_tim</item>
@@ -431,7 +441,7 @@
         <item>@drawable/carrier_white_wsm</item>
         <item>@drawable/carrier_white_wutang</item>
         <item>@drawable/carrier_color_youphone</item>
-    </string-array> 
+    </string-array>
     <string-array name="advanced_reboot_menu_items_defvalues">
         <item>reboot_normal</item>
         <item>reboot_hot</item>
@@ -465,7 +475,7 @@
         <item>@string/menu_action_custom_app</item>
         <item>@string/menu_action_torch</item>
     </string-array>
-        <string-array name="long_press_menu_action_values">
+    <string-array name="long_press_menu_action_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -505,7 +515,7 @@
         <item>3</item>
         <item>4</item>
     </string-array>
-     <string-array name="gallery_cloud_upload_delay_entries">
+    <string-array name="gallery_cloud_upload_delay_entries">
         <item>@string/time_30_sec</item>
         <item>@string/time_1_min</item>
         <item>@string/time_5_min</item>
