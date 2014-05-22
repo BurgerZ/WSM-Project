@@ -285,6 +285,8 @@
     <string name="hide_folders_label_summary">Allows you to to hide launcher folders labels</string>
     <string name="config_folder_columns_count">Folder columns</string>
     <string name="config_folder_columns_count_summary">Folder columns count (in open state): %s</string>
+    <string name="config_launcher_icons_size">Launcher icons size</string>
+    <string name="config_launcher_icons_size_summary">Launcher icons size (experimental): %s</string>
     <string name="launcher_font_size_summary">Set the launcher icons text size:\n%s</string>
     <string name="launcher_font_size">Font size</string>
     <string name="multiline_labels_summary">Use multiline icons/folder labels</string>

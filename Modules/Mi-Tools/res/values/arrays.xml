@@ -4,11 +4,57 @@
         <item>4x4</item>
         <item>4x5</item>
         <item>4x6</item>
+        <item>4x7</item>
+        <item>4x8</item>
+        <item>4x9</item>
+        <item>5x6</item>
+        <item>5x7</item>
+        <item>5x8</item>
+        <item>5x9</item>
+        <item>6x6</item>
+        <item>6x7</item>
+        <item>6x8</item>
+        <item>6x9</item>
+        <item>7x6</item>
+        <item>7x7</item>
+        <item>7x8</item>
+        <item>7x9</item>
+        <item>8x6</item>
+        <item>8x7</item>
+        <item>8x8</item>
+        <item>8x9</item>
+        <item>9x6</item>
+        <item>9x7</item>
+        <item>9x8</item>
+        <item>9x9</item>
     </string-array>
     <string-array name="cell_layout_size_values">
         <item>4x4</item>
         <item>4x5</item>
         <item>4x6</item>
+        <item>4x7</item>
+        <item>4x8</item>
+        <item>4x9</item>
+        <item>5x6</item>
+        <item>5x7</item>
+        <item>5x8</item>
+        <item>5x9</item>
+        <item>6x6</item>
+        <item>6x7</item>
+        <item>6x8</item>
+        <item>6x9</item>
+        <item>7x6</item>
+        <item>7x7</item>
+        <item>7x8</item>
+        <item>7x9</item>
+        <item>8x6</item>
+        <item>8x7</item>
+        <item>8x8</item>
+        <item>8x9</item>
+        <item>9x6</item>
+        <item>9x7</item>
+        <item>9x8</item>
+        <item>9x9</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>@string/clock_style_hide</item>
@@ -182,6 +228,7 @@
         <item>Chunghwa Telecom</item>
         <item>Chunghwa Telecom</item>
         <item>Clever</item>
+        <item>E-Plus</item>
         <item>FETNet</item>
         <item>FETNet</item>
         <item>Golan Telecom</item>
@@ -276,6 +323,7 @@
         <item>carrier_white_chunghwatelecom</item>
         <item>carrier_color_chunghwatelecom</item>
         <item>carrier_white_clever</item>
+        <item>carrier_white_e_plus</item>
         <item>carrier_white_fetnet</item>
         <item>carrier_color_white_fetnet</item>
         <item>carrier_color_golantelecom</item>
@@ -370,6 +418,7 @@
         <item>@drawable/carrier_white_chunghwatelecom</item>
         <item>@drawable/carrier_color_chunghwatelecom</item>
         <item>@drawable/carrier_white_clever</item>
+        <item>@drawable/carrier_white_e_plus</item>
         <item>@drawable/carrier_white_fetnet</item>
         <item>@drawable/carrier_color_white_fetnet</item>
         <item>@drawable/carrier_color_golantelecom</item>
@@ -514,6 +563,16 @@
     <string-array name="config_folder_columns_count_values">
         <item>3</item>
         <item>4</item>
+    </string-array>
+    <string-array name="config_launcher_icons_size_entries">
+        <item>100%</item>
+        <item>90%</item>
+        <item>80%</item>
+    </string-array>
+    <string-array name="config_launcher_icons_size_values">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
     </string-array>
     <string-array name="gallery_cloud_upload_delay_entries">
         <item>@string/time_30_sec</item>

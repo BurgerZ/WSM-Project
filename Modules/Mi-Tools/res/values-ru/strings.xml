@@ -285,6 +285,8 @@
     <string name="hide_folders_label_summary">Позволяет скрыть подписи папок рабочего стола</string>
     <string name="config_folder_columns_count">Столбцов в папке</string>
     <string name="config_folder_columns_count_summary">Количество столбцов (иконок по горизонтали) в папке: %s</string>
+    <string name="config_launcher_icons_size">Размер иконок</string>
+    <string name="config_launcher_icons_size_summary">Размер иконок рабочего стола (экспериментальная настройка): %s</string>
     <string name="launcher_font_size_summary">Выбор размера шрифта иконок рабочего стола:\n%s</string>
     <string name="launcher_font_size">Размер шрифта</string>
     <string name="multiline_labels_summary">Использовать многострочные подписи иконок и папок</string>
