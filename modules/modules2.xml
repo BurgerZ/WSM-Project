@@ -9,7 +9,7 @@
 	<author>Xenon007</author> 
     <moreinfo label="Support" role="support">http://miui.ru/extc.php</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository"></moreinfo>
+    <moreinfo label="Link"></moreinfo>
 	<version uploaded="1399019862">
 		<name>1.4.4.18.777f</name> 
 		<code>14418777</code> 
@@ -27,9 +27,9 @@
 	<description html="true">&lt;p&gt;Allows you to apply third-party themes without authorization, download premium themes from the Chinese Market without any payments, do not delete .mtz theme file after downloading (placed at /sdcard/MIUI/theme/mtz folder)&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Позволяет применять любые темы без прохождения авторизации, загружать премиум (платные) темы бесплатно, а также не удалять .mtz файл темы после загрузки (тема останется в папке /sdcard/MIUI/theme/mtz)&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author> 
-	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project or http://forum.xda-developers.com/showthread.php?t=2481178</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository"></moreinfo>
+    <moreinfo label="Link"></moreinfo>
 	<version uploaded="1397804709">
 		<name>2.2</name> 
 		<code>22</code>  
@@ -40,16 +40,25 @@
 		<changelog_ru html="true">&lt;p&gt;Релиз&lt;/p&gt;</changelog_ru> 
 	</version>
   </module>
-  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1400137387">
+  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1400766146">
 	<name>Mi-Tools</name> 
 	<summary_ru>Все в одном для MIUI v5</summary_ru> 
 	<summary>MIUI v5 all in one module</summary> 
 	<description_ru html="true">&lt;p&gt;Все в одном для MIUI v5. Модуль включает в себя настройки системы, панели состояния, рабочего стола, звука, приложений и многого другого.&lt;/p&gt;</description_ru> 
 	<description html="true">&lt;p&gt;MIUI v5 all in one module. It handles framework, statusbar, launcher, sound, MIUI applications modifications.&lt;/p&gt;</description> 
 	<author>BurgerZ</author> 
-	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project or http://forum.xda-developers.com/showthread.php?t=2481178</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository">http://goo.gl/zWKSau</moreinfo>
+    <moreinfo label="Link">http://goo.gl/4xm0FB</moreinfo>
+	<version uploaded="1400766146">
+		<name>2.0.5</name> 
+		<code>205</code> 
+		<reltype>beta</reltype>
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v205_e63d17.apk</download> 
+		<md5sum>e63d17e4087e04663089fa7bad92beb3</md5sum> 
+		<changelog html="true">&lt;li&gt;&lt;b&gt;StatusBar:&lt;/b&gt; fixed option to hide alarm icon (icon could appear again)&lt;/li&gt;&lt;li&gt;&lt;b&gt;StatusBar:&lt;/b&gt; fixed statusbar icons settings for the second SIM of Dual-SIM phones&lt;/li&gt;&lt;li&gt;&lt;b&gt;StatusBar:&lt;/b&gt; added option to leave the date at statusbar with clock hidden&lt;/li&gt;&lt;li&gt;&lt;b&gt;Launcher:&lt;/b&gt; added option to hide hotseats (bottom bar icons)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Launcher:&lt;/b&gt; added (4x6 - 9x9) layouts to the launcher grid settings (the system ones, not Mi-Tools)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Framework:&lt;/b&gt; activated option to fix &lt;b&gt;SCREENSHOT&lt;/b&gt; menu position (for devices with &lt;b&gt;SCREENSHOT&lt;/b&gt; shifted to the left). Experimental.&lt;/li&gt;&lt;li&gt;&lt;b&gt;StatusBar:&lt;/b&gt; added E-Plus carrier logo&lt;/li&gt;&lt;li&gt;&lt;b&gt;Applications:&lt;/b&gt; fixed tap on "Search on web" in QuickSearchBox&lt;/li&gt;&lt;li&gt;&lt;b&gt;Launcher:&lt;/b&gt; added launcher icons size option (experimental)&lt;/li&gt;</changelog> 
+		<changelog_ru html="true">&lt;li&gt;&lt;b&gt;Панель состояния:&lt;/b&gt; исправлена опция скрывать иконку будильника (иногда иконка могла снова появляться)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Панель состояния:&lt;/b&gt; исправлены проблемы с двухсимочными аппаратами и настройками иконок второй сим-карты&lt;/li&gt;&lt;li&gt;&lt;b&gt;Панель состояния:&lt;/b&gt; добавлена возможность оставить дату в статусбаре при скрытии часов&lt;/li&gt;&lt;li&gt;&lt;b&gt;Рабочий стол:&lt;/b&gt; добавлена опция скрытия нижнего бара иконок&lt;/li&gt;&lt;li&gt;&lt;b&gt;Рабочий стол:&lt;/b&gt; добавлены конфигурации (4х6 - 9x9) в настройки сетки рабочего стола (системные настройки телефона, не в Mi-Tools)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Система:&lt;/b&gt; активирована опция исправления положения меню &lt;b&gt;СКРИНШОТ&lt;/b&gt; в меню выключения телефона для тех, у кого эта позиция смещена влево (для других смещений пока работать не будет). Экспериментальная настройка.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Панель состояния:&lt;/b&gt; добавлен логотип оператора &lt;b&gt;E-Plus&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Приложения:&lt;/b&gt; исправлен запуск браузера по нажатию на "Поиск в интернете" в виджете поиска (QuickSearchBox)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Рабочий стол:&lt;/b&gt; добавлена &lt;b&gt;экспериментальная&lt;/b&gt; настройка размера иконок рабочего стола&lt;/li&gt;</changelog_ru> 
+	</version>	
 	<version uploaded="1400137387">
 		<name>2.0.4</name> 
 		<code>204</code> 
@@ -197,9 +206,9 @@
 	<description_ru html="true">&lt;p&gt;Добавляет расширенное меню перезагрузки в меню выключения телефона.&lt;/p&gt;&lt;li&gt;Обычная перезагрузка&lt;/li&gt;&lt;li&gt;Быстрая перезагрузка&lt;/li&gt;&lt;li&gt;Загрузка в Recovery&lt;/li&gt;&lt;li&gt;Загрузка в Bootloader&lt;/li&gt;&lt;li&gt;Переключение систем (телефоны Xiaomi)&lt;/li&gt;</description_ru> 
 	<description html="true">&lt;p&gt;Adds reboot options to power menu.&lt;/p&gt;&lt;li&gt;Common reboot&lt;/li&gt;&lt;li&gt;Hot reboot&lt;/li&gt;&lt;li&gt;Reboot to Recovery&lt;/li&gt;&lt;li&gt;Reboot to Bootloader&lt;/li&gt;&lt;li&gt;Switch system (Mi-phones)&lt;/li&gt;</description> 
 	<author>BurgerZ</author> 
-	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project or http://forum.xda-developers.com/showthread.php?t=2481178</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository"></moreinfo>
+    <moreinfo label="Link"></moreinfo>
 	<version uploaded="1381218737">
 		<name>2.1</name> 
 		<code>21</code> 
@@ -216,9 +225,9 @@
 	<description html="true">&lt;p&gt;Adds international contacts (and service numbers) search to dialer. After activating rebuild T9 index in Contacts application settings&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Исправляет поиск в режиме Т9 для русских и сервисных контактов в номеронабирателе. После включения модуля необходимо войти в настройки телефона и обновить индекс т9.&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author>
-	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project or http://forum.xda-developers.com/showthread.php?t=2481178</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository"></moreinfo>	
+    <moreinfo label="Link"></moreinfo>	
 	<version uploaded="1381218665">
 		<name>2.0</name> 
 		<code>20</code> 
@@ -235,9 +244,9 @@
 	<description html="true">&lt;p&gt;Adds "Mobile View" to the General browser settings. This feature allows you to adjust the text on Web pages to fit the width of the screen depending on the page font size.&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Добавляет пункт "Мобильный вид" в основные настройки браузера. Данная функция позволяет подстраивать текст на веб-страницах под ширину экрана в зависимости от размера шрифта.&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author> 
-	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project or http://forum.xda-developers.com/showthread.php?t=2481178</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository"></moreinfo>
+    <moreinfo label="Link"></moreinfo>
 	<version uploaded="1381218579">
 		<name>2.0</name> 
 		<code>20</code> 
@@ -254,9 +263,9 @@
 	<description html="true">&lt;p&gt;Fixes rounding response time to 5 minutes for third-party alarm clocks.&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Исправляет округление времени срабатывания до 5 минут для сторонних будильников.&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author> 
-	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project or http://forum.xda-developers.com/showthread.php?t=2481178</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository"></moreinfo>
+    <moreinfo label="Link"></moreinfo>
 	<version uploaded="1386311320">
 		<name>2.1</name> 
 		<code>21</code> 
@@ -283,7 +292,7 @@
     <author>rovo89</author> 
 	<moreinfo label="Support" role="support"></moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository"></moreinfo>
+    <moreinfo label="Link"></moreinfo>
     <version uploaded="1386311400">
         <name>2.1</name>
         <code>21</code>
@@ -308,9 +317,9 @@
     <description html="true">&lt;p&gt;Adds the ability to view applications in landscape mode. To make it work go to the device screen settings and activate "Auto-rotate screen" option.&lt;br /&gt;On some devices may not be displayed correctly.&lt;br /&gt;No need to reboot after changing settings.&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Добавляет возможность отображать выбранные приложения в альбомном режиме. Для работы необходимо в настройках экрана включить функцию "Автоповорот экрана".&lt;br /&gt;На некоторых устройствах возможно некорректное отображение графических элементов.&lt;br /&gt;Настройки применяются без перезагрузки.&lt;/p&gt;</description_ru> 
     <author>BurgerZ</author> 
-	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project or http://forum.xda-developers.com/showthread.php?t=2481178</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository"></moreinfo>
+    <moreinfo label="Link"></moreinfo>
     <version uploaded="1386311472">
         <name>2.1</name>
         <code>21</code>
@@ -335,9 +344,9 @@
     <description html="true">&lt;p&gt;Allows you to launch playback screen of the current track in Music player when you click on a pop-up widget (opens by slide on the icon on home screen). By default, the main screen opens, like with a simple click on the player icon.&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Позволяет сразу запускать экран текущего трека в плеере при нажатии на всплывающий виджет, который открывается слайдом по иконке на рабочем столе. По умолчанию открывается главный экран плеера, как и при простом нажатии на иконку плеера.&lt;/p&gt;</description_ru> 
     <author>BurgerZ</author> 
-	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project or http://forum.xda-developers.com/showthread.php?t=2481178</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository"></moreinfo>
+    <moreinfo label="Link"></moreinfo>
     <version uploaded="1381232719">
         <name>2.0</name>
         <code>20</code>
@@ -354,9 +363,9 @@
     <description html="true">&lt;p&gt;You can choose in module settings what marketplace should be used for searching in QuickSearchBox (Google PlayStore or Xiaomi Market).&lt;br /&gt;Go to the module settings to select marketplace.&lt;br /&gt;No need to reboot after changing settings.&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Возможность выбрать маркет для использования в виджете рабочего стола "Поиск" (Google Play или Xiaomi Market).&lt;br /&gt;Для выбора перейдите в настройки модуля.&lt;br /&gt;После изменения настроек поиска перезагружаться не нужно.&lt;/p&gt;</description_ru> 
     <author>BurgerZ</author> 
-	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project or http://forum.xda-developers.com/showthread.php?t=2481178</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository"></moreinfo>
+    <moreinfo label="Link"></moreinfo>
     <version uploaded="1381232612">
         <name>2.0</name>
         <code>20</code>
@@ -373,9 +382,9 @@
     <description html="true">&lt;p&gt;This module disables (mutes) the beeper while adjusting volume at home screen (floating volume panel).&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Модуль отключает раздражающий звук, который появляется при регулировке громкости на рабочем столе (при появлении круглой панели регулировки громкости).&lt;/p&gt;</description_ru> 
     <author>BurgerZ</author> 
-	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project or http://forum.xda-developers.com/showthread.php?t=2481178</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository"></moreinfo>
+    <moreinfo label="Link"></moreinfo>
     <version uploaded="1381232381">
         <name>2.0</name>
         <code>20</code>
@@ -392,9 +401,9 @@
 	<description html="true">&lt;p&gt;Blocks updates of the Yellow Pages database from Chinese server and adds the ability to "Mark" unknown contacts.&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Отключает обновление базы Желтых страниц с китайского сервера и добавляет возможность установить метку на неизвестный контакт.&lt;br /&gt;Примечание:&lt;br /&gt;Если вы заметили, что, например, экстренный вызов (112) у вас отображается по китайски, это значит, что база на телефоне уже обновилась с китайского сервера. В этом случае необходимо удалить папку data/data/com.miui.yellowpage/, перезагрузиться, зайти в Телефон и подождать, пока кэшируется локальная база, занять это может пару минут. После этого обновить индексацию Т9 в дополнительных настройках телефона.&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author>
-	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project or http://forum.xda-developers.com/showthread.php?t=2481178</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository"></moreinfo>
+    <moreinfo label="Link"></moreinfo>
     <version uploaded="1381230004">
         <name>2.0</name>
         <code>20</code>
@@ -411,9 +420,9 @@
     <description html="true">&lt;p&gt;Allows to skip tracks in Music player by volume keys (while phone screen is off).&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Позволяет переключать музыкальные треки клавишами громкости (при выключенном экране телефона)&lt;/p&gt;</description_ru> 
     <author>BurgerZ</author> 
-	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project or http://forum.xda-developers.com/showthread.php?t=2481178</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository"></moreinfo>
+    <moreinfo label="Link"></moreinfo>
     <version uploaded="1381232914">
         <name>2.0</name>
         <code>20</code>
@@ -430,9 +439,9 @@
 	<description html="true">&lt;p&gt;Adds extra battery info to battery settings&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Добавляет пункт "Информация о батарее" в Настройки - Батарея.&lt;br /&gt;Отображаемые данные:&lt;br /&gt;&lt;li&gt;Состояние батареи&lt;/li&gt;&lt;li&gt;Тип питания (USB, сеть или батарея)&lt;/li&gt;&lt;li&gt;Уровень заряда&lt;/li&gt;&lt;li&gt;Напряжение&lt;/li&gt;&lt;li&gt;Температуру батареи&lt;/li&gt;&lt;li&gt;Технологию изготовления батареи&lt;/li&gt;&lt;li&gt;Время, прошедшее после загрузки&lt;/li&gt;&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author> 
-	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project or http://forum.xda-developers.com/showthread.php?t=2481178</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository"></moreinfo>
+    <moreinfo label="Link"></moreinfo>
     <version uploaded="1381237099">
         <name>1.1</name> 
         <code>11</code> 
@@ -449,9 +458,9 @@
     <description html="true">&lt;p&gt;Allows you to to hide launcher icon and folder labels.&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Позволяет скрыть подписи иконок и папок рабочего стола.&lt;/p&gt;</description_ru>
     <author>BurgerZ</author> 
-	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project or http://forum.xda-developers.com/showthread.php?t=2481178</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository"></moreinfo>
+    <moreinfo label="Link"></moreinfo>
     <version uploaded="1381237061">
         <name>2.0</name>
         <code>20</code>
@@ -468,9 +477,9 @@
     <description html="true">&lt;p&gt;Fixes FC in Xperia TM keyboard.&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Исправляет FC в Xperia TM клавиатуре&lt;/p&gt;</description_ru> 
     <author>BurgerZ</author> 
-	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project or http://forum.xda-developers.com/showthread.php?t=2481178</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository"></moreinfo>
+    <moreinfo label="Link"></moreinfo>
     <version uploaded="1386311523">
         <name>2.1</name>
         <code>21</code>
@@ -497,9 +506,9 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<description_ru html="true">&lt;p&gt;Заменяет китайскую онлайн базу SMS-поздравлений на русскую с сервера miui.su.&lt;br /&gt;
 Если вкладка "Поздравления" отсутствует, ее необходимо включить в дополнительных настройках сообщений, а также обновить базу, выбрав во вкладке "Поздравления" кнопку "Меню"-"Обновить".&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author> 
-	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project or http://forum.xda-developers.com/showthread.php?t=2481178</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository"></moreinfo>
+    <moreinfo label="Link"></moreinfo>
 	<version uploaded="1381236997">
 		<name>2.1</name> 
 		<code>21</code> 
@@ -524,9 +533,9 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<description html="true">&lt;p&gt;Adds the ability to select the settings of holidays in calendar.&lt;/p&gt;&lt;br&gt;In module settings available servers are: miui.com, romz.bz and miui.su.&lt;/br&gt;&lt;br&gt;Available holidays:&lt;/br&gt;&lt;br /&gt;&lt;li&gt;Original (Chinese)&lt;/li&gt;&lt;li&gt;Russian&lt;/li&gt;&lt;li&gt;Ukrainian&lt;/li&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Добавляет возможность выбирать праздники в основных настройках календаря.&lt;/p&gt;&lt;br&gt;Пока доступны сервера: miui.com, romz.bz и miui.su.&lt;/br&gt;&lt;br&gt;Праздники:&lt;/br&gt;&lt;br /&gt;&lt;li&gt;Оригинальные (Китай)&lt;/li&gt;&lt;li&gt;Россия&lt;/li&gt;&lt;li&gt;Украина&lt;/li&gt;</description_ru> 
 	<author>BurgerZ</author> 
-	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project or http://forum.xda-developers.com/showthread.php?t=2481178</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository"></moreinfo>
+    <moreinfo label="Link"></moreinfo>
 	<version uploaded="1381313997">
 		<name>1.2</name> 
 		<code>12</code> 
@@ -543,9 +552,9 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<description html="true">&lt;p&gt;Changes wakelock minimum update interval from 20 seconds to much more value.&lt;br /&gt;This mod reduces battery drain.&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Изменяет минимальный интервал пробуждения устройства для определения координат (расписание NetworkLocation) с 20 секунд на более высокое значение.&lt;br /&gt;Этот мод уменьшает потребление батареи сервисами геолокации.&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author> 
-	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project or http://forum.xda-developers.com/showthread.php?t=2481178</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository"></moreinfo>
+    <moreinfo label="Link"></moreinfo>
 	<version uploaded="1381753545">
 		<name>1.0</name> 
 		<code>10</code> 
@@ -562,9 +571,9 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<description html="true">&lt;p&gt;Choose the application to start from "About phone" screen by clicking on "System updates" button.&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Позволяет выбрать свое приложение, запускаемое нажатием на "Обновление системы" в меню "Настройки" - "О телефоне". Модуль для некоторых покажется бесполезным, я его делал по просьбе одного из пользователей&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author> 
-	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project or http://forum.xda-developers.com/showthread.php?t=2481178</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository"></moreinfo>
+    <moreinfo label="Link"></moreinfo>
 	<version uploaded="1381830478">
 		<name>1.0</name> 
 		<code>10</code> 
@@ -581,9 +590,9 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<description html="true">&lt;p&gt;This is the installer for the Xposed framework, which is a requirement for all modules.&lt;/p&gt;&lt;p&gt;This framework is based on rovo89's Xposed framework. Like an original project it is a framework for modules that can change the behavior of the system and apps without touching any APKs&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note that this only works with root access on Android 4.0.3 or later.&lt;/b&gt;&lt;/p&gt;</description> 
 	<description_ru html="true">&lt;p&gt;Установщик и менеджер фреймворка Xposed, который нужен для работы всех модулей&lt;/p&gt;&lt;p&gt;Автором оригинального Xposed фреймворка является rovo89. Данный фреймворк нужен для работы так называемых модулей, приложений, которые позволяют изменять системные и пользовательские приложения без прямого вмешательства в сами приложения (apk и jar файлы)&lt;/p&gt;&lt;p&gt;&lt;b&gt;Внимание: работает только на Android 4.0.3 или выше. Для работы необходимы root права.&lt;/b&gt;&lt;/p&gt;</description_ru> 
 	<author>BurgerZ</author>
-	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project</moreinfo>
+	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project or http://forum.xda-developers.com/showthread.php?t=2481178</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Repository">http://goo.gl/BhsH0E</moreinfo>
+    <moreinfo label="Link">http://goo.gl/BhsH0E</moreinfo>
 	<version uploaded="1400139412">
 		<name>2.3.3</name> 
 		<code>233</code>
