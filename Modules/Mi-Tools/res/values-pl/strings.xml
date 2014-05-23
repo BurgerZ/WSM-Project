@@ -270,8 +270,8 @@
     <string name="hide_folders_label_summary">Pozwala ukryć nazwy folderów na pulpicie</string>
     <string name="config_folder_columns_count">Rzędy ikon w folderach</string>
     <string name="config_folder_columns_count_summary">Ilość rzędów to: %s</string>
-    <string name="config_launcher_icons_size">Rozmiar siatki</string>
-    <string name="config_launcher_icons_size_summary">Wybrany rozmiar siatki to: %s</string>
+    <string name="config_launcher_icons_size">Wielkość ikon</string>
+    <string name="config_launcher_icons_size_summary">Wybranya wielkość ikon to: %s</string>
     <string name="launcher_font_size_summary">Wybrany rozmiar tekstu pod ikonami to:\n%s</string>
     <string name="launcher_font_size">Rozmiar czcionki</string>
     <string name="multiline_labels_summary">Przerzuca do nowej linii długie nazwy aplikacji oraz folderów</string>
