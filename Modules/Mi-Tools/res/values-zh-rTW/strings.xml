@@ -180,6 +180,8 @@
     <string name="power_reboot_options">重啟選單</string> 
     <string name="add_screenshot">新增 "螢幕截圖" 選項</string> 
     <string name="add_screenshot_summary">新增 "螢幕截圖" 選項至電源選單</string>
+    <string name="fix_screenshot_position">修正 \"螢幕截圖\" 位置</string>
+    <string name="fix_screenshot_position_summary">修正有些裝置的"螢幕截圖"選項發生位移的狀況. 如果您的"螢幕截圖"選項顯示位置是正常的，請 <b>不要</b> 開啟此選項</string>
     <string name="take_screenshot">螢幕截圖</string> 
     <string name="power_reboot_normal">重新啟動</string> 
     <string name="power_reboot_recovery">重啟進入 Recovery 模式</string> 
@@ -266,7 +268,7 @@
     <string name="advanced">進階選項</string>
     <string name="extra_battery_info_summary">在電池設定中新增電池資訊</string>
     <string name="extra_battery_info">額外電池資訊</string>
-    <string name="disable_scrolling_cache_summary">停用滾動緩取清單檢視對象</string>
+    <string name="disable_scrolling_cache_summary">停用滾動快取清單檢視對象</string>
     <string name="disable_scrolling_cache">停用滾動快取</string>
     <!-- Launcher prefs-->
     <string name="launcher">桌面 (啟動器)選項</string>
@@ -279,6 +281,8 @@
     <string name="hide_folders_label_summary">隱藏桌面資料夾下文字標籤</string>
     <string name="config_folder_columns_count">資料夾列數</string>
     <string name="config_folder_columns_count_summary">資料夾列數: %s</string>
+    <string name="config_launcher_icons_size">啟動器圖示大小size</string>
+    <string name="config_launcher_icons_size_summary">啟動器圖示大小 (實驗性功能): %s</string>
     <string name="launcher_font_size_summary">設定啟動器圖示文字標籤大小:\n%s</string>
     <string name="launcher_font_size">文字大小</string>
     <string name="multiline_labels_summary">使用多行圖示/資料夾標籤</string>
