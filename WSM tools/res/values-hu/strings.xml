@@ -3,6 +3,7 @@
     <string name="app_name">WSM kezelő</string>
     <string name="apply">Alkalmaz</string>
     <string name="act_title_settings">Beállítások</string>
+    <string name="act_title_xposed_settings">Xposed beállítások</string>
     <string name="act_title_about">Névjegy</string>
     <string name="act_title_installer">Telepítő</string>
     <string name="act_title_whatsnew">Újdonságok</string>
@@ -25,13 +26,26 @@
     <string name="pref_install_mode">Telepítés módja</string>
     <string name="pref_show_hidden_modules_title">Rejtett modulok mutatása</string>
     <string name="pref_show_hidden_modules_summary">Rejtett modulok megjelenítése a listában</string>
-    <string name="pref_show_logs_tab_title">Naplók fül mutatása</string>
-    <string name="pref_show_logs_tab_summary">A framework naplók fül mutatása</string>
+    <string name="pref_show_logs_tab_title">Naplózás fül kijelzése</string>
+    <string name="pref_show_logs_tab_summary">A Modulok, Online mellett a Naplózás fül megjelenítése</string>
     <string name="pref_show_module_info_title">Modul info megjelenítése</string>
     <string name="pref_show_module_info_summary">"Modul info kijelzése az ikonra kattintva"</string>
     <string name="pref_system_toasts_title">Rendszer értesítések</string>
     <string name="pref_system_toasts_summary">WSM rendszerüzenetek kijelzése</string>
     <string name="pref_about_title">Névjegy</string>
+    <string name="pref_xposed_settings_title">Xposed keretrendszer beállítások</string>
+    <string name="pref_xposed_settings_summary">Different Xposed keretrendszer különböő beállításai</string>
+    <!-- XposedSettingsActivity -->
+    <string name="pref_disable_xposed_title">Xposed letiltása</string>
+    <string name="pref_disable_xposed_summary">Xposed betöltésének letiltása indításkor.\n(\"conf/disabled\")</string>
+    <string name="pref_xposed_safemode_title">Xposed csökkentett üzemmód</string>
+    <string name="pref_xposed_safemode_summary">Detects input combinations for recovering from bootloops. Az indítást követően az egyik fizikai gombnak lenyomva kell lennie az első 2mp.ben (vagy már előre nyomva tartani). Ezután ugyanazt a gombot nyomni kell újra 5 mp.-en belül, amíg az 5 megnyomást el nem éri.\n(\"conf/safemode_disable\")</string>
+    <string name="pref_xposed_safemode_nodelay_title">Csökkentett üzemmód késleltetés letiltása</string>
+    <string name="pref_xposed_safemode_nodelay_summary">A kezdeti 2mp-es késleltetés letiltható a beállítások menüpontban; ha a felismerés elindul egy gombnak lenyomva kell lennie, különben késleltetés nélkül fog elindulni.\n(\"conf/safemode_nodelay\")</string>
+    <string name="pref_enable_for_tools_title">Engedélyezés az eszközökhöz</string>
+    <string name="pref_enable_for_tools_summary">Xposed betöltés a parancssori eszközökhöz.\n(\"conf/enable_for_tools\")</string>
+    <string name="pref_disable_resources_title">Téma erőforrások letiltása</string>
+    <string name="pref_disable_resources_summary">A témakezelés módjának kikerülése\n<b>FIGYELEM:</b> Azok a modulok, amelyek megpróbálják megváltoztatni a témákat ennek engedélyezése után nem fognak működni.\n(\"conf/disable_resources\")</string>
     <string name="bottom_bar_btn_settings">Beállítások</string>
     <string name="bottom_bar_btn_reboot">Újraindítás</string>
     <string name="bottom_bar_btn_refresh">Frissítés</string>
@@ -49,7 +63,7 @@
     <string name="dialog_update_available">"Elérhető a WSM Eszközök újabb verziója.\nTelepített verzió: %1$s\nElérhető verzió: %2$s\nAz új verzió telepítése után lépjen be a Beállítások - WSM kezelés menüpontba és ellenőrizze,hogy bináris frissítés szükséges-e."</string>
     <string name="menu_select_all">Mind kiválasztása</string>
     <string name="menu_unselect_all">Kiválasztás törlése</string>
-    <string name="installer_log">NAPLÓ</string>
+    <string name="installer_log">NAPLÓZÁS</string>
     <string name="installer_install">Telepítés</string>
     <string name="installer_uninstall">Eltávolítás</string>
     <string name="installer_reboot">Újraindítás</string>
@@ -152,6 +166,11 @@
     <string name="logs_load_failed">A napló beolvasása sikertelen:</string>
     <string name="logs_save_failed">A napló mentése az SD kártyára nem sikerült:</string>
     <string name="sdcard_not_writable">Nem található vagy írásvédett az SD kártya</string>
+    <string name="log_too_large">A naplófájl mérete nagyobb, mint %1$,d kB, kimarad az első %2$,d kB</string>
+    <string name="bottom_bar_btn_clear">Törlés</string>
+    <string name="logs_cleared">A naplózás törölve</string>
+    <string name="logs_clear_failed">A napló nem törölhető:</string>
+    <string name="log_is_empty">A napló üres</string>
     <!-- Donations -->
     <string name="donate">Adományozás</string>
     <string name="donations_button_close">Bezárás</string>

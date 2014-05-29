@@ -53,6 +53,7 @@
     <string name="time_10_min">10 perc</string>
     <string name="time_30_min">30 perc</string>
     <string name="time_1_hour">1 óra</string>
+    <string name="none">(Nincs)</string>
     <!-- MIUI warning -->
     <string name="miwarning_title">Nem támogatot Operációs rendszer</string>
     <string name="miwarning_message">Ez az operációs rendszer hivatalosan nem támogatott. Néhány beállítás nem fog megfelelően működni.\nDo you agree to continue?</string>
@@ -113,6 +114,7 @@
     <string name="show_clock_date_summary">Dátum kijelzése az állapotsoron</string>
     <string name="show_clock_date">Dátum kijelzése az állpotsoron</string>
     <string name="clock_date_format">Dátum formátum</string>
+    <string name="hide_alarm_icon">Ébresztőóra ikon elrejtése</string>
     <string name="battery">Akkumulátor</string>
     <string name="hide_battery_icon_summary">Akkumulátor ikon kijelzése/elrejtése</string>
     <string name="hide_battery_icon">Akkumulátorikon elrejtése</string>
@@ -246,8 +248,8 @@
     <string name="disable_numberpicker_sound_summary">A számválasztó hangjának letiltása (pl.a naptárban, ébresztőnél.)</string>
     <string name="disable_volume_control_sound">BEEP hang letiltása</string>
     <string name="disable_volume_control_sound_summary">Ez a modul letiltja a hangerőszabályzáskor kiadó értesítési hangot.</string>
-    <string name="unlink_notification_volume">Értesítések hangerejének szétválasztása</string>
-    <string name="unlink_notification_volume_summary">Csengőhang &amp; értesítések hangerejének külön beállítása</string>
+    <string name="unlink_notification_volume">Hangerők szétválasztása</string>
+    <string name="unlink_notification_volume_summary">A csengőhang és értesítések hangerejének külön beállítása</string>
     <string name="volume_ring_description">Csengőhang</string>
     <string name="volume_notification_description">Értesítések</string>
     <string name="volume_step">Hangerő léptéke</string>
@@ -268,18 +270,22 @@
     <string name="launcher_summary">Launcherhez kapcsolódó beállítások</string>
     <string name="hide_icons_label">Ikon szöveg elrejtése</string>
     <string name="hide_icons_label_summary">Az ikonok alatti szövegcímke elrejtésének engedélyezése</string>
-    <string name="hide_hotseats_label">Hotseat címkék elrejtése</string>
-    <string name="hide_hotseats_label_summary">A launcher hotseat címkéinek elrejtésének engedélyezése</string>
+    <string name="hide_hotseats_label">A dock ikoncímkék elrejtése</string>
+    <string name="hide_hotseats_label_summary">A launcher dock ikonok címkéinek elrejtése</string>
+    <string name="hide_hotseats_bar">Dock ikonjainak elrejtése</string>
+    <string name="hide_hotseats_bar_summary">Launcher dock ikonjainak elrejtésének engedélyezése (dock alja) , hogy nagyobb területet kapjanak az alkalmazás ikonok</string>
     <string name="hide_folders_label">Mappa szöveg elrejtése</string>
     <string name="hide_folders_label_summary">A mappa alatti szövegcímke elrejtésének engedélyezése</string>
     <string name="config_folder_columns_count">Mappa oszlopainak száma</string>
     <string name="config_folder_columns_count_summary">A mappa oszlopainak száma (nyitott állapotban): %s</string>
+    <string name="config_launcher_icons_size">Launcher ikonok mérete</string>
+    <string name="config_launcher_icons_size_summary">Launcher ikonok mérete (kísérleti): %s</string>
     <string name="launcher_font_size_summary">A launcher ikonok szövegének betűmérete:\n%s</string>
     <string name="launcher_font_size">Betűméret</string>
     <string name="multiline_labels_summary">Többsoros ikon/mappaszövegek használata</string>
     <string name="multiline_labels">Többsoros ikonszövegek</string>
     <string name="set_launcher_icons_color_summary">Egyéni ikon/mappa szövegszín használata</string>
-    <string name="set_launcher_icons_color">Egyéni ikonok szövegszíner</string>
+    <string name="set_launcher_icons_color">Saját ikonok szövegszíne</string>
     <string name="launcher_icons_color_summary">A launcher ikon/mappa szövegszín kiválasztása</string>
     <string name="launcher_icons_color">Ikonok szövegének színe</string>
     <string name="hide_launcher_apps_title">Ikonok elrejtése</string>
@@ -345,17 +351,17 @@
     <string name="app_supermarket">Supermarket</string>
     <string name="supermarket_reverse_tabs_order">Lapok fordított sorrendben</string>
     <string name="supermarket_reverse_tabs_order_summary">Lapok sorrendjének megváltoztatása: Helyi, Kategóriák, Népszerű, Kiemelt</string>
-    <string name="supermarket_disable_autoupdates_check">Frissítések ellenőrzésének kikapcsolása</string>
+    <string name="supermarket_disable_autoupdates_check">Frissítés ellenőrzés kikapcsolása</string>
     <string name="supermarket_disable_autoupdates_check_summary">Automatikus frissítések ellenőrzésének kikapcsolása</string>
     <!-- Updater -->
     <string name="app_updater">Frissítés</string>
-    <string name="updater_disable_autoupdates_check">Frissítések ellenőrzésének kikapcsolása</string>
+    <string name="updater_disable_autoupdates_check">Frissítés ellenőrzés kikapcsolása</string>
     <string name="updater_disable_autoupdates_check_summary">Automatikus frissítések ellenőrzésének kikapcsolása</string>
     <string name="updater_english_changelog">Változások listája (angol)</string>
     <string name="updater_english_changelog_summary">ROM változások listájának mutatásaa angol nyelven</string>
     <!-- MiuiGallery -->
     <string name="app_miuigallery">Galéria</string>
-    <string name="gallery_old_videoplayer">MiuiVideoPlayer alkalmazásao</string>
+    <string name="gallery_old_videoplayer">MiuiVideoPlayer alkalmazása</string>
     <string name="gallery_old_videoplayer_summary">MiuiVideoPlayer.apk-nak a /system/app mappában kell lennie</string>
     <string name="cloud_upload_delay">Felhőbe való feltöltés késleltetés</string>
     <string name="cloud_upload_delay_summary">A késleltetés ideje mielőtt egy új fénykép feltöltésre kerül a MiCloud-ba.\n%s</string>
