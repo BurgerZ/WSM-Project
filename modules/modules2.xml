@@ -1,6 +1,6 @@
 <repository>
   <name>WSM repository</name>
-  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1400766146">
+  <module package="pro.burgerz.wsm.mods.mitools" created="1383028048" updated="1401458242">
 	<name>Mi-Tools</name> 
 	<summary_ru>Все в одном для MIUI v5</summary_ru> 
 	<summary>MIUI v5 all in one module</summary> 
@@ -9,7 +9,16 @@
 	<author>BurgerZ</author> 
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project or http://forum.xda-developers.com/showthread.php?t=2481178</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Link">http://goo.gl/4xm0FB</moreinfo>
+    <moreinfo label="Link">http://goo.gl/8igfjJ</moreinfo>
+	<version uploaded="1401458242">
+		<name>2.0.6</name> 
+		<code>206</code> 
+		<reltype>beta</reltype>
+		<download>http://burgerz.github.io/WSM-Project/modules/v2/pro.burgerz.wsm.mods.mitools_v206_0bb93a.apk</download> 
+		<md5sum>0bb93aa193b0f85e3b7348236e5d11ff</md5sum> 
+		<changelog html="true">&lt;li&gt;&lt;b&gt;Launcher:&lt;/b&gt; added icons size options 110% and 120%&lt;/li&gt;&lt;li&gt;&lt;b&gt;Launcher:&lt;/b&gt; fixed icons/folders text size and color settings&lt;/li&gt;</changelog> 
+		<changelog_ru html="true">&lt;li&gt;&lt;b&gt;Рабочий стол:&lt;/b&gt; добавлены 110% и 120% к настройкам размера иконок рабочего стола&lt;/li&gt;&lt;li&gt;&lt;b&gt;Рабочий стол:&lt;/b&gt; исправлены настройки размера и цвета текста подписей папок и иконок рабочего стола&lt;/li&gt;</changelog_ru> 
+	</version>		
 	<version uploaded="1400766146">
 		<name>2.0.5</name> 
 		<code>205</code> 
@@ -543,7 +552,7 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 		<changelog html="true"></changelog> 
 	</version>	
   </module>
-  <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1400139412">
+  <module package="pro.burgerz.wsm.manager" created="1379674445" updated="1401514066">
 	<name>WSM tools</name> 
 	<summary>This is the installer and manager for the Xposed framework, which is a requirement for all modules</summary> 
 	<summary_ru>Установщик и менеджер фреймворка Xposed, который нужен для работы всех модулей</summary_ru> 
@@ -552,7 +561,16 @@ If the tab "Pre-written" is missing, it must be enabled in MMS application setti
 	<author>BurgerZ</author>
 	<moreinfo label="Support" role="support">http://burgerz.pro/wsm-project or http://forum.xda-developers.com/showthread.php?t=2481178</moreinfo>
     <moreinfo label="Source"></moreinfo>
-    <moreinfo label="Link">http://goo.gl/BhsH0E</moreinfo>
+    <moreinfo label="Link">http://goo.gl/gshRLn</moreinfo>
+	<version uploaded="1401514066">
+		<name>2.3.4</name> 
+		<code>234</code>
+		<reltype></reltype>
+		<download>http://burgerz.github.io/WSM-Project/modules/framework/pro.burgerz.wsm.manager_v234_de90d0.apk</download> 
+		<md5sum>de90d01b03b0cf28576c4a9cef7a91d3</md5sum> 
+		<changelog html="true">&lt;li&gt;Small fixes in API&lt;/li&gt;&lt;li&gt;Updated translations&lt;/li&gt;</changelog> 
+		<changelog_ru html="true">&lt;li&gt;Небольшие исправления и дополнения в API&lt;/li&gt;&lt;li&gt;Обновлен перевод&lt;/li&gt;</changelog_ru> 
+	</version>	
 	<version uploaded="1400139412">
 		<name>2.3.3</name> 
 		<code>233</code>
