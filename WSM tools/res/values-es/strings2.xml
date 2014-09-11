@@ -22,12 +22,12 @@
     <!-- SettingsActivity -->
     <string name="pref_feedback_title">Valoraciones</string>
     <string name="pref_feedback_summary">Notificar error, solicitar módulo, etc.\n(Solo en Ingles o Ruso!)</string>
-    <string name="pref_manage_title">Manage WSM</string>
-    <string name="pref_manage_summary">Install, Update, Delete</string>
-    <string name="pref_repositories_alert">Some Xposed modules may not work or make your phone not bootable!\nUse them on your own risk!</string>
-    <string name="pref_repositories_title">Select repositories</string>
-    <string name="pref_install_mode">Installation mode</string>
-    <string name="pref_show_hidden_modules_title">Show hidden modules</string>
+    <string name="pref_manage_title">Gestión WSM</string>
+    <string name="pref_manage_summary">Instalar, Actualizar, Eliminar</string>
+    <string name="pref_repositories_alert">Algunos módulos Xposed quizás no funcionen o hagan que tu dispositivo no inicie correctamente!\nÚsalos bajo tu responsabilidad!</string>
+    <string name="pref_repositories_title">Seleccionar repósitos</string>
+    <string name="pref_install_mode">Modo de instalación</string>
+    <string name="pref_show_hidden_modules_title">Mostrar módulos ocultos</string>
     <string name="pref_show_hidden_modules_summary">Show hidden modules in list</string>
     <string name="pref_show_logs_tab_title">Show logs tab</string>
     <string name="pref_show_logs_tab_summary">Show framework logs tab</string>
@@ -185,7 +185,7 @@
     <string name="modules_count">Modules: %1$d | Active: %2$d</string>
 
     <!--  LogsFragment -->
-    <string name="menu_send">Send</string>
+    <string name="menu_send">Enviar</string>
     <string name="menu_save_to_sdcard">Save to SD card</string>
     <string name="logs_load_failed">Could not read log:</string>
     <string name="logs_save_failed">Could not write log to SD card:</string>
@@ -197,12 +197,12 @@
     <string name="log_is_empty">Log is empty</string>
 
     <!-- Donations -->
-    <string name="donate">Donate</string>
-    <string name="donations_button_close">Close</string>
-    <string name="donations_description">Do you find this application useful?\nSupport it\'s development by sending donations to the developer!</string>
-    <string name="donations_thanks_dialog">Thanks for donating!\nI really appreciate this!</string>
-    <string name="donations_thanks_dialog_title">Thanks!</string>
+    <string name="donate">Donar</string>
+    <string name="donations_button_close">Cerrar</string>
+    <string name="donations_description">¿Te parece buena esta aplicación?\nAyuda al desrrollador a dar soporte donando!</string>
+    <string name="donations_thanks_dialog">Gracias por tú donación!\nLo aprecio mucho!</string>
+    <string name="donations_thanks_dialog_title">Gracias!</string>
     <string name="donations_paypal">PayPal</string>
     <string name="donations_yandex">Yandex.Money</string>
-    <string name="donations_paypal_description">You can choose how much you want to donate after clicking the button!</string>
+    <string name="donations_paypal_description">Puedes elegir la cantidad a donar después de pulsar el botón!</string>
 </resources>
