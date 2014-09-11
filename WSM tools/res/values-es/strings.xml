@@ -28,16 +28,16 @@
     <string name="pref_repositories_title">Seleccionar repósitos</string>
     <string name="pref_install_mode">Modo de instalación</string>
     <string name="pref_show_hidden_modules_title">Mostrar módulos ocultos</string>
-    <string name="pref_show_hidden_modules_summary">Show hidden modules in list</string>
-    <string name="pref_show_logs_tab_title">Show logs tab</string>
-    <string name="pref_show_logs_tab_summary">Show framework logs tab</string>
-    <string name="pref_show_module_info_title">Show module info</string>
-    <string name="pref_show_module_info_summary">Show module info by clicking on it\'s icon</string>
-    <string name="pref_system_toasts_title">System toasts</string>
-    <string name="pref_system_toasts_summary">Show WSM system toast messages</string>
-    <string name="pref_about_title">About</string>
-    <string name="pref_xposed_settings_title">Xposed Framework settings</string>
-    <string name="pref_xposed_settings_summary">Different Xposed framework settings</string>
+    <string name="pref_show_hidden_modules_summary">Muestra módulos ocultos en la lista</string>
+    <string name="pref_show_logs_tab_title">Mostrar pestaña registros</string>
+    <string name="pref_show_logs_tab_summary">Muestra la pestaña para consultar registros</string>
+    <string name="pref_show_module_info_title">Mostrar información del módulo</string>
+    <string name="pref_show_module_info_summary">Muestra información del módulo clicando su icono</string>
+    <string name="pref_system_toasts_title">Notificaciones del sistema</string>
+    <string name="pref_system_toasts_summary">Muestra notificaciones WMS del sistema</string>
+    <string name="pref_about_title">Acerca</string>
+    <string name="pref_xposed_settings_title">Ajustes Xposed framework</string>
+    <string name="pref_xposed_settings_summary">Diferentes ajustes relacionados con Xposed framework</string>
 
     <!-- XposedSettingsActivity -->
     <string name="pref_disable_xposed_title">Disable Xposed</string>
