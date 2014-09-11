@@ -40,10 +40,10 @@
     <string name="pref_xposed_settings_summary">Diferentes ajustes relacionados con Xposed framework</string>
 
     <!-- XposedSettingsActivity -->
-    <string name="pref_disable_xposed_title">Disable Xposed</string>
-    <string name="pref_disable_xposed_summary">Disable loading Xposed during boot.\n(\"conf/disabled\")</string>
-    <string name="pref_xposed_safemode_title">Xposed safemode</string>
-    <string name="pref_xposed_safemode_summary">Detects input combinations for recovering from bootloops. Upon startup, one of the physical keys must be pressed during the first 2 seconds (or already held down upfront). After that, the same key must be pressed again within 5 seconds, until 5 total presses are reached.\n(\"conf/safemode_disable\")</string>
+    <string name="pref_disable_xposed_title">Deshabilitar Xposed</string>
+    <string name="pref_disable_xposed_summary">Deshabilita la carga de Xposed durante el inicio.\n(\"conf/disabled\")</string>
+    <string name="pref_xposed_safemode_title">Modo seguro Xposed</string>
+    <string name="pref_xposed_safemode_summary">Detecta combinaciones para recuperacion tras un bootloop. Upon startup, one of the physical keys must be pressed during the first 2 seconds (or already held down upfront). After that, the same key must be pressed again within 5 seconds, until 5 total presses are reached.\n(\"conf/safemode_disable\")</string>
     <string name="pref_xposed_safemode_nodelay_title">Disable safemode delay</string>
     <string name="pref_xposed_safemode_nodelay_summary">The initial 2-second delay can be disabled through configuration; in that case, one of the keys must already be pressed when the detection starts, otherwise the detection fails and no delays are introduced.\n(\"conf/safemode_nodelay\")</string>
     <string name="pref_enable_for_tools_title">Enable for tools</string>
