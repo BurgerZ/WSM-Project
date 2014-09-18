@@ -127,74 +127,74 @@
     <string name="repo_load_failed">Cannot load repository from %1$s:\n%2$s</string>
 
     <!-- Download tab -->
-    <string name="changes">Changes:</string>
-    <string name="release_type_stable">Stable</string>
-    <string name="release_type_stable_summary">Stable (low risk of bugs)</string>
+    <string name="changes">Cámbios:</string>
+    <string name="release_type_stable">Estable</string>
+    <string name="release_type_stable_summary">Estable (bajo riesgo de errores)</string>
     <string name="release_type_beta">Beta</string>
-    <string name="release_type_beta_summary">Beta (some bugs to be expected)</string>
+    <string name="release_type_beta_summary">Beta (se esperan algunos errores)</string>
     <string name="release_type_experimental">Experimental</string>
-    <string name="release_type_experimental_summary">Experimental (high risk of bugs)</string>
-    <string name="download_author">by %s</string>
-    <string name="download_unknown_author">unknown author</string>
-    <string name="download_status_version">Version: %1$s</string>
+    <string name="release_type_experimental_summary">Experimental (alto riesgo de errores)</string>
+    <string name="download_author">por %s</string>
+    <string name="download_unknown_author">Autor desconocido</string>
+    <string name="download_status_version">Versión: %1$s</string>
     <string name="download_status_update_available">" \u2192 %1$s"</string>
-    <string name="download_timestamps">Added on %1$s \u00b7 Updated on %2$s</string>
-    <string name="download_sorting_title">Sorting order</string>
-    <string name="download_sorting_status">Sort by status</string>
-    <string name="download_sorting_updated">Sort by last update</string>
-    <string name="download_sorting_created">Sort by creation date</string>
+    <string name="download_timestamps">Añadido el %1$s \u00b7 Actualizado el %2$s</string>
+    <string name="download_sorting_title">Ordenar por</string>
+    <string name="download_sorting_status">Ordenar por estado</string>
+    <string name="download_sorting_updated">Ordenar por última actualización</string>
+    <string name="download_sorting_created">Ordenar por fecha de creación</string>
     <string name="download_section_framework">Framework</string>
-    <string name="download_section_update_available">Update available</string>
-    <string name="download_section_installed">Installed</string>
-    <string name="download_section_not_installed">Not installed</string>
-    <string name="download_section_24h">Last 24 hours</string>
-    <string name="download_section_7d">Last 7 days</string>
-    <string name="download_section_30d">Last 30 days</string>
-    <string name="download_section_older">More than 30 days ago</string>
+    <string name="download_section_update_available">Actualización disponible</string>
+    <string name="download_section_installed">Instalado</string>
+    <string name="download_section_not_installed">No instalado</string>
+    <string name="download_section_24h">Últimas 24 horas</string>
+    <string name="download_section_7d">Últimos 7 días</string>
+    <string name="download_section_30d">Últimos 30 días</string>
+    <string name="download_section_older">Hace más de 30 días</string>
 
     <!-- DownloadUtils -->
-    <string name="download_md5sum_incorrect">MD5 sum is incorrect (downloaded: %1$s, expected: %2$s)</string>
-    <string name="download_could_not_read_file">Could not read downloaded file: %s</string>
-    <string name="download_no_valid_apk">Downloaded file is not a valid APK (or incompatible)</string>
-    <string name="download_incorrect_package_name">Package name is incorrect (downloaded: %1$s, expected: %2$s)</string>
+    <string name="download_md5sum_incorrect">MD5 sum incorrecto (descargado: %1$s, esperado: %2$s)</string>
+    <string name="download_could_not_read_file">No se puede leer el archivo descargado: %s</string>
+    <string name="download_no_valid_apk">El archivo descargado no es un APK válido (o es incompatible)</string>
+    <string name="download_incorrect_package_name">Nombre del paquete incorrecto (descargado: %1$s, esperado: %2$s)</string>
 
     <!--  DownloadView -->
-    <string name="download_view_download">Download</string>
-    <string name="download_view_install">Install</string>
-    <string name="download_view_cancel">Cancel</string>
-    <string name="download_view_no_url">No download URL available</string>
-    <string name="download_view_running">Download is running (%1$,d of %2$,d kB)</string>
-    <string name="download_view_waiting">Download is waiting</string>
-    <string name="download_view_successful">Download successful</string>
-    <string name="download_view_failed">Download failed (error %d)</string>
+    <string name="download_view_download">Descargar</string>
+    <string name="download_view_install">Instalar</string>
+    <string name="download_view_cancel">Cancelar</string>
+    <string name="download_view_no_url">No hay URL de descarga disponible</string>
+    <string name="download_view_running">Descarga en proceso (%1$,d de %2$,d kB)</string>
+    <string name="download_view_waiting">Descarga en espera</string>
+    <string name="download_view_successful">Descargado correctamente</string>
+    <string name="download_view_failed">Error en la descarga (error %d)</string>
 
-    <string name="module_installed">WSM module installed</string>
-    <string name="module_empty_description">(no description provided)</string>
-    <string name="module_no_ui">This module does not provide a user interface</string>
-    <string name="no_wsm_modules_found">No WSM modules were found!</string>
-    <string name="wsm_module_list_updated">WSM module list was updated\nChanges will become active on reboot</string>
-    <string name="warning_wsm_min_version">This module needs WSM %s so it could not be activated.</string>
-    <string name="no_min_version_specified">This module does not specify the WSM version it needs.</string>
-    <string name="warning_min_version_too_low">This module was created for WSM version %1$s, but due to incompatible changes in version %2$s, it has been disabled.</string>
-    <string name="btnDeleteModule">Delete module</string>
+    <string name="module_installed">Módulo WMS instalado</string>
+    <string name="module_empty_description">(sin descripción)</string>
+    <string name="module_no_ui">Este módulo no proporciona interfaz de usuario</string>
+    <string name="no_wsm_modules_found">Ningún módulo WSM fue encontrado!</string>
+    <string name="wsm_module_list_updated">Lista de módulos WMS actualizada\nLos cámbios se aplicarán despues del reinicio</string>
+    <string name="warning_wsm_min_version">Este módulo necesita WSM %s por tanto no puede ser activado.</string>
+    <string name="no_min_version_specified">Este módulo no especifica que versión WSM necesita.</string>
+    <string name="warning_min_version_too_low">Este módulo fue creado para la versión %1$s de WMS, debido a cámbios incompatibles en la versión %2$s, ha sido deshabilitado.</string>
+    <string name="btnDeleteModule">Eliminar módulo</string>
 
     <!--  ModuleSettingsActivity -->
-    <string name="module_settings">Module settings</string>
-    <string name="module_description">Module description</string>
-    <string name="module_info_version">Version</string>
-    <string name="modules_count">Modules: %1$d | Active: %2$d</string>
+    <string name="module_settings">Ajustes de módulos</string>
+    <string name="module_description">Descripción del módulo</string>
+    <string name="module_info_version">Versión</string>
+    <string name="modules_count">Módulos: %1$d | Activos: %2$d</string>
 
     <!--  LogsFragment -->
     <string name="menu_send">Enviar</string>
-    <string name="menu_save_to_sdcard">Save to SD card</string>
-    <string name="logs_load_failed">Could not read log:</string>
-    <string name="logs_save_failed">Could not write log to SD card:</string>
-    <string name="sdcard_not_writable">SD card not found or not writable</string>
-    <string name="log_too_large">Log file is larger than %1$,d kB, skipped first %2$,d kB</string>
-    <string name="bottom_bar_btn_clear">Clear</string>
-    <string name="logs_cleared">Log successfully cleared</string>
-    <string name="logs_clear_failed">Could not clear the log:</string>
-    <string name="log_is_empty">Log is empty</string>
+    <string name="menu_save_to_sdcard">Guardar en Tarjeta SD</string>
+    <string name="logs_load_failed">No se pudo leer el registro:</string>
+    <string name="logs_save_failed">No se pudo escribir el registro en la tarjeta SD:</string>
+    <string name="sdcard_not_writable">Tarjeta SD no encontrada o sin acceso a escritura</string>
+    <string name="log_too_large">El archivo registro es mas superior a %1$,d kB, omitir primeros %2$,d kB</string>
+    <string name="bottom_bar_btn_clear">Limpiar</string>
+    <string name="logs_cleared">Registro limpiado correctamente</string>
+    <string name="logs_clear_failed">No se pudo limpiar el registro:</string>
+    <string name="log_is_empty">Registro vacio</string>
 
     <!-- Donations -->
     <string name="donate">Donar</string>
