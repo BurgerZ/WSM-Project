@@ -1,377 +1,210 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="none">---</string>
+    <string name="installer_app_process">app_process</string>
+    <string name="installer_wsm_framework">XposedBridge.jar</string>
+    <string name="donations_paypal_user">az.burgerz@gmail.com</string>
+    <string name="donations_paypal_currency_code">USD</string>
+    <string name="donations_paypal_item_name">WSM Project Donation</string>
+    <string name="app_name">WSM tools</string>
+    <string name="apply">Apply</string>
+    <string name="act_title_settings">Settings</string>
+    <string name="act_title_xposed_settings">Xposed settings</string>
+    <string name="act_title_about">About</string>
+    <string name="act_title_installer">Manage</string>
+    <string name="act_title_whatsnew">WhatsNew</string>
+    <string name="fragment_modules">Modules</string>
+    <string name="fragment_online">Online</string>
+    <string name="fragment_logs">Logs</string>
+    <string name="versions_wsm_tools">WSM tools version</string>
+    <string name="author">Author</string>
+    <string name="graphics">Graphics</string>
+    <string name="check_for_updates">Check for updates</string>
+    <string name="copyright">"BurgerZ MD (http://burgerz.pro)
+Copyright © 2013-2014, All Rights Reserved"</string>
+    <string name="copyright_xposed">Based on Xposed</string>
+    <string name="information_faq">Information</string>
+    <string name="information_faq_summary">F.A.Q., translations, credits, help</string>
+    <string name="pref_feedback_title">Feedback</string>
+    <string name="pref_feedback_summary">"Send bugreport, module request, etc.
+(In English or Russian only!)"</string>
+    <string name="pref_manage_title">Manage WSM</string>
+    <string name="pref_manage_summary">Install, Update, Delete</string>
+    <string name="pref_repositories_alert">"Some Xposed modules may not work or make your phone not bootable!
+Use them on your own risk!"</string>
+    <string name="pref_repositories_title">Select repositories</string>
+    <string name="pref_install_mode">Installation mode</string>
+    <string name="pref_show_hidden_modules_title">Show hidden modules</string>
+    <string name="pref_show_hidden_modules_summary">Show hidden modules in list</string>
+    <string name="pref_show_logs_tab_title">Show logs tab</string>
+    <string name="pref_show_logs_tab_summary">Show framework logs tab</string>
+    <string name="pref_show_module_info_title">Show module info</string>
+    <string name="pref_show_module_info_summary">"Show module info by clicking on it's icon"</string>
+    <string name="pref_system_toasts_title">System toasts</string>
+    <string name="pref_system_toasts_summary">Show WSM system toast messages</string>
+    <string name="pref_about_title">About</string>
+    <string name="pref_xposed_settings_title">Xposed Framework settings</string>
+    <string name="pref_xposed_settings_summary">Different Xposed framework settings</string>
+    <string name="pref_disable_xposed_title">Disable Xposed</string>
+    <string name="pref_disable_xposed_summary">"Disable loading Xposed during boot.
+(\"conf/disabled\")"</string>
+    <string name="pref_xposed_safemode_title">Xposed safemode</string>
+    <string name="pref_xposed_safemode_summary">"Detects input combinations for recovering from bootloops. Upon startup, one of the physical keys must be pressed during the first 2 seconds (or already held down upfront). After that, the same key must be pressed again within 5 seconds, until 5 total presses are reached.
+(\"conf/safemode_disable\")"</string>
+    <string name="pref_xposed_safemode_nodelay_title">Disable safemode delay</string>
+    <string name="pref_xposed_safemode_nodelay_summary">"The initial 2-second delay can be disabled through configuration; in that case, one of the keys must already be pressed when the detection starts, otherwise the detection fails and no delays are introduced.
+(\"conf/safemode_nodelay\")"</string>
+    <string name="pref_enable_for_tools_title">Enable for tools</string>
+    <string name="pref_enable_for_tools_summary">"Load Xposed for commandline tools.
+(\"conf/enable_for_tools\")"</string>
+    <string name="pref_disable_resources_title">Disable resource hooks</string>
+    <string name="pref_disable_resources_summary">"Workaround for conflicts with theming engines
+"<b>WARNING:</b>" Modules which try to change resources will not work when this is enabled.
+(\"conf/disable_resources\")"</string>
+    <string name="bottom_bar_btn_manage">Framework</string>
+    <string name="bottom_bar_btn_settings">Settings</string>
+    <string name="bottom_bar_btn_reboot">Reboot</string>
+    <string name="bottom_bar_btn_refresh">Update</string>
+    <string name="bottom_bar_btn_repo">Repository</string>
+    <string name="bottom_bar_btn_save">Save</string>
+    <string name="bottom_bar_btn_send">Send</string>
+    <string name="bottom_bar_btn_sort">Sort</string>
+    <string name="bottom_bar_btn_whatsnew">WhatsNew</string>
+    <string name="whatsnew_changelog">Pre-release changelog:</string>
+    <string name="module_opt_hide_title">Hide module</string>
+    <string name="module_opt_hide_summary">To show hidden modules turn on Show hidden modules option</string>
+    <string name="dialog_are_you_sure">Are you sure?</string>
+    <string name="dialog_phone_will_be_rebooted">Phone will be rebooted</string>
+    <string name="dialog_progress_updating">Updating…</string>
+    <string name="dialog_update_available" formatted="false">"New version of WSM tools available.
+Installed: %1$s
+Available: %2$s
+After installing new version go to the Settings - Manage WSM and check if binary update needed."</string>
+    <string name="menu_select_all">Select All</string>
+    <string name="menu_unselect_all">Clear selection</string>
+    <string name="installer_log">LOG</string>
+    <string name="installer_install">Install</string>
+    <string name="installer_uninstall">Uninstall</string>
+    <string name="installer_reboot">Reboot</string>
+    <string name="installer_versions">VERSIONS:</string>
+    <string name="installer_installed_version">INSTALLED VERSION</string>
+    <string name="installer_bundled_version">BUNDLED VERSION</string>
+    <string name="installer_phone_not_compatible" formatted="false">WSM is not (yet) compatible with Android SDK version %1$d or your processor architecture (%2$s).</string>
+    <string name="installer_not_tested_but_compatible">WSM has not been tested with Android SDK version %d, but it seems to be compatible. You can try installing it if you feel adventurous.</string>
+    <string name="installer_active_dexspy_found">Active Dexspy found. Compatible binaries will be used.</string>
+    <string name="installer_inactive_dexspy_found">Dexspy found, but it seems to be inactive. Common binaries will be used.</string>
+    <string name="reboot_failed">"Reboot failed. Please use the device's normal reboot function."</string>
+    <string name="reboot">Reboot</string>
+    <string name="auto_flash_note">%s should be flashed automatically once you press OK.</string>
+    <string name="manual_flash_note">Please flash %s from the SD card to complete the operation.</string>
+    <string name="reboot_confirmation">Do you want to reboot now?</string>
+    <string name="reboot_recovery_confirmation">Do you want to reboot to recovery now?</string>
+    <string name="file_creating_directory">Creating directory %s…</string>
+    <string name="file_create_directory_failed">Could not create directory %s</string>
+    <string name="file_writing_recovery_command">Writing recovery command…</string>
+    <string name="file_writing_recovery_command_failed">Writing recovery command failed. Please use a different installation method.</string>
+    <string name="install_warning">"In some cases, your device might no longer boot after installing Xposed.
 
-    <string name="module_name">Mi Araçlar</string>
-    <string name="module_desc">Tüm MIUI Tek modül</string>
-    <string name="module_desc_full">Tüm MIUI Tek modül.\n
-        UYARI:\n
-        Eğer aşağıdaki modüllerden herngi biri kurulu ise devre dışı bırakın:\n
-        \u2022 Browser Autofit\n
-        \u2022 Carrier Label\n
-        \u2022 Center Clock\n
-        \u2022 Current Track Launch\n
-        \u2022 Extra Battery Info\n
-        \u2022 Hide Icons Text\n
-        \u2022 Holidays\n
-        \u2022 MMS Festival\n
-        \u2022 Reboot Options\n
-        \u2022 Search in Google Play\n
-        \u2022 T9 Module\n
-        \u2022 Units\n
-        \u2022 Volume Control Mute\n
-        \u2022 Volume Skip Track\n
-        \u2022 YellowPage</string>
-	<string name="mitools_copyright">Any module modifications prohibited.\n
-        BurgerZ, Copyright © 2013-2014, Tüm Hakları Saklıdır\nTürkçe Çeviri Hasan ÖZKAN</string>
-    <!-- About -->
-    <string name="about_module">Modül Hakkında</string>
-    <!-- AppPickerPreference -->
-    <string name="preference_app_picker_search">Ara</string>
-    <!-- from arrays -->
-    <string name="clock_style_hide">Gizle</string>
-    <string name="clock_style_small">Küçük harf</string>
-    <string name="clock_style_large">Büyük Harf</string>
-    <string name="typeface_style_italic">Italik</string>
-    <string name="typeface_style_normal">Normal</string>
-    <string name="typeface_style_bold">Kalın</string>
-    <string name="typeface_family_regular">Düzenli</string>
-    <string name="typeface_family_light">Hafif</string>
-    <string name="typeface_family_condensed">Yoğun</string>
-    <string name="typeface_family_thin">İnce</string>
-    <string name="clock_right">Sağ (varsayılan)</string>
-    <string name="clock_center">Merkez</string>
-    <string name="clock_center_ios7">Merkez (iOS 7)</string>
-    <string name="clock_left">Sol</string>
-    <string name="text_small">Küçük</string>
-    <string name="text_medium">Orta</string>
-    <string name="text_large">Büyük</string>
-    <string name="time_30_sec">30 saniye</string>
-    <string name="time_1_min">1 dakika (varsayılan)</string>
-    <string name="time_5_min">5 dakika</string>
-    <string name="time_10_min">10 dakika</string>
-    <string name="time_30_min">30 dakika</string>
-    <string name="time_1_hour">1 saat</string>
-    <string name="none">(Hiçbiri)</string>
-    <!-- MIUI warning -->
-    <string name="miwarning_title">Desteklenmeyen OS</string>
-    <string name="miwarning_message">Bu OS resmi olarak desteklenmiyor. Bazı seçenekler çalışmayabilir.\nOnaylıyor musun?</string>
-    <string name="miwarning_continue">Devam</string>
-    <string name="miwarning_close">Kapat</string>
-    <!-- Module Notification -->
-    <string name="notif_soft_reboot">Hızlı Yeniden Başlat</string>
-    <string name="notif_reboot">Yeniden Başlat</string>
-    <string name="notif_reboot_required">Değişiklikleri uygulamak için yeniden başlat.</string>
-    <string name="notif_reboot_required_title">Yeniden başlatma gerektirir</string>
-    <string name="notif_reboot_required_message">Değişiklikleri uygulamak için yeniden başlatma gereklidir</string>
-    <string name="notif_torch_on">Elfeneri açık</string>
-    <!-- Backup & Restore -->
-    <string name="backup_name">Yedek ismi</string>
-    <string name="backup_save">Ayarları kaydet</string>
-    <string name="backup_save_successful">Kaydedildi!</string>
-    <string name="backup_save_error">Kaydedilmedi!</string>
-    <string name="backup_no_backups">Yedek yok</string>
-    <string name="backup_restore">Ayarları geri yükle</string>
-    <string name="backup_delete">Sil</string>
-    <string name="backup_defaults">Varsayılanlar</string>
-    <string name="backup_defaults_restored">Varsayılan geri yüklendi</string>
-    <string name="backup_restoring">Yedek yükleniyor</string>
-    <string name="backup_restored">Yedek yüklendi</string>
-	<!-- ColorPicker -->
-	<string name="press_color_to_apply">Uygulamak için renge bas</string>
-	<string name="dialog_color_picker">Renk seçici</string> 
-	<!-- Status Bar prefs -->
-	<!-- Statusbar -->
-	<string name="statusbar">Durum Çubuğu</string>
-	<string name="statusbar_common">Genel</string>
-	<string name="statusbar_summary">Durum Çubuğu modifikasyonları</string>
-	<string name="statusbar_set_background_color">Arkaplan rengi kullan</string>
-	<string name="statusbar_set_background_color_summary">Durum çubuğu rengini seçmenize izin verir</string>
-	<string name="statusbar_background_color">Arkaplan rengi</string>
-	<string name="statusbar_background_color_summary">Durum Çubuğunun rengi</string>
-	<string name="one_color_for_all_icons">Tüm simgeler için tek renk</string>
-	<string name="one_color_for_all_icons_summary">Tüm durum çubuğu simgeleri için tek bir renk kullanın</string>
-	<string name="color_for_all_icons">Simgelerin renkleri</string>
-	<string name="color_for_all_icons_summary">Durum çubuğu simgelerinin renkgi</string>
-	<string name="statusbar_text_family">Yazı karakteri ailes</string>
-    <string name="statusbar_text_family_summary">Durum çubuğu fontunu belirle:\n%s</string>
-    <string name="statusbar_text_style">Yazı karakter stili</string>
-    <string name="statusbar_text_style_summary">Durum çubuğu için stil belirle:\n%s</string>
-    <string name="font_size_summary">Durum çubuğu için yazı boyutu belirle:\n%s</string>
-    <string name="font_size">Yazı Tipi Boyutu</string>
-    <string name="network_speed_exp_statusbar_summary">Genişletilmiş durum çubuğu görünümünde ağ hızını göster</string>
-    <string name="network_speed_exp_statusbar">Ağ Hızı</string>
-	<!-- Clock -->
-	<string name="clock">Saat</string>
-	<string name="clock_hide">Saati gizle</string>
-    <string name="clock_hide_summary">Durum çubuğunda saat gizlenecek</string>
-    <string name="clock_color_title">Saat rengi</string>
-    <string name="clock_color_summary">Durum çubuğu saat rengi belirle</string>
-    <string name="clock_position">Saat pozisyonu</string>
-    <string name="clock_position_summary">Saat pozisyonu seç:\n%s</string>
-    <string name="am_pm_style">AM PM stili</string>
-    <string name="am_pm_style_summary">Saat am pm stili seç:\n%s</string>
-    <string name="clock_date_style">Tarih stili</string>
-    <string name="clock_date_style_summary">Tarih stili seç:\n%s</string>
-    <string name="clock_date_format">Tarih formatı</string>
-    <string name="hide_alarm_icon">Alarm simgesini gizle</string>
-    <!-- Battery -->
-    <string name="battery">Batarya</string>
-    <string name="hide_battery_icon_summary">Pil simgesi görünüm ayarları</string>
-    <string name="hide_battery_icon">Batarya simgesini gizle</string>
-    <string name="battery_icon_color">Batarya simge rengi</string>
-    <string name="battery_icon_color_summary">Batarya simge rengi belirle</string>
-    <string name="show_battery_text_summary">Batarya yüzdesini göster</string>
-    <string name="show_battery_text">Pil metnini göster</string>
-    <string name="battery_text_color">Pil metin rengi</string>
-    <string name="battery_text_color_summary">Pil metin rengi belirle</string>
-    <!-- Carrier -->
-    <string name="carrier_settings">Taşıyıcı</string>
-    <string name="hide_carrier_label">Taşıyıcı etiketini gizle</string>
-    <string name="hide_carrier_label_summary">Taşıyıcı görünüm ayarları</string>
-    <string name="custom_carrier_label">Özel taşıyıcı etiketi</string>
-    <string name="default_carrier_label">Varsayılan taşıyıcı için boş bırak</string>
-    <string name="carrier_label_color">Taşıyıcı etiket rengi</string>
-    <string name="carrier_label_color_summary">Taşıyıcı etiket rengi belirle</string>
-    <string name="custom_carrier_logo">Taşıyıcı logosu</string>
-    <string name="custom_carrier_logo_summary">Taşıyıcı için logo resmi kullan</string>
-    <string name="select_carrier_logo">Logo seç</string>
-    <string name="select_carrier_logo_summary">%s</string>
-    <string name="select_carrier_logo_2">Logo 2 seç</string>
-    <string name="use_own_carrier_logo">Bizim taşıyıcı logosu</string>
-    <string name="use_own_carrier_logo_summary">Kendi taşıyıcı logonuzu seçebileceksiniz.</string>
-    <string name="own_carrier_logo">Taşıyıcı logonuzu seçin</string>
-    <string name="own_carrier_logo_summary">%s</string>
-    <string name="own_carrier_logo_2">Taşıyıcı logonuzu seçin 2</string>
-    <string name="signal_bars_color">Sinyal çubuğu rengi</string>
-    <string name="signal_bars_color_summary">Sinyal çubuğu rengi belirle</string>
-    <string name="signal_bars_color_2">Sinyal çubuğu rengi 2</string>
-    <string name="signal_bars_color_summary_2">Sinyal çubuğu rengi belirle (ikinci SIM)</string>
-    <string name="hide_roaming_icon">Dolaşım simgesini gizle</string>
-    <!-- Notifications -->
-    <string name="notifications">Bildirimler</string>
-    <string name="hide_ongoing_ime_switcher_summary">Yazı yazarken, bildirim panelinde hangi giriş yöntemini kullanacağını seçebilirsin (klavye)</string>
-    <string name="hide_ongoing_ime_switcher">Giriş yöntemi seçiçiyi gizle</string>
-    <string name="headset_notification_icon">Kulaklık bildirim ikonunu gizle</string>
-    <string name="headset_notification_icon_summary">Kulaklık takılıyken görüntülenen bildirim çuğundaki kulaklık ikonu</string>
-    <!-- Framework prefs -->
-    <string name="framework">Framework</string>
-    <string name="framework_summary">Framework ile ilgili ayarlar</string>
-    <!-- Common -->
-    <string name="common">Genel</string>
-    <string name="bold_settings_font_summary">Sistem ve uygulamalar için kalın yazı stili kullan</string>
-    <string name="bold_settings_font">Kalın Yazı</string>
-    <string name="international_t9_summary">Rehberde uluslararası T9 aramayı etkinleştir</string>
-    <string name="international_t9">T9 Ekle</string>
-    <string name="local_yellowpage_database_summary">Çin sunucularından Sarı Sayfa güncellemelerini engelle ve bilinneyen kişileri "İşaretle" yeteneğini ekle.</string>
-    <string name="local_yellowpage_database">Yerel Satı Sayfalar Veritabanı</string>
-    <string name="local_yellowpage_database_dialog">Çin sarı sayfaları veritabanı temizlenmiş olacak.\nYeniden başlattıktan sonra Rehberden T9 endeksi verilerini güncellemeniz gerekir.\nDevam etmek istiyor musunuz?</string>
-    <string name="localized_measure_units_summary">\u2022 Durum çubuğu: Ağ hızı (K/s, m/s)\n\u2022 Görev yönetici: serbest, boş hafza (MB, GB)\n\u2022 Veri kullanımı (Trafik): B, KB, MB, GB</string>
-    <string name="localized_measure_units">Yerel ölçü bilirimleri</string>
-    <string name="units_gb">GB</string>
-    <string name="units_b">B</string>
-    <string name="units_kb">KB</string>
-    <string name="units_kbs">K/s</string>
-    <string name="units_mb">MB</string>
-    <string name="units_mbs">M/s</string>
-    <string name="units_s">s</string>
-    <!-- Power -->
-    <string name="power">Güç</string>
-    <string name="advanced_reboot_menu_summary">Yeniden başlat menüsüne daha fazla seçenek ekle</string>
-    <string name="advanced_reboot_menu">Gelişmiş yeniden başlat menüsü</string>
-    <string name="add_screenshot">Ekle \"Ekran Görüntüsü\" seçeneği</string>
-    <string name="add_screenshot_summary">Güç menüsüne \"Ekran Görüntüsü\" seçeneği ekler</string>
-    <string name="fix_screenshot_position">Pozisyon \"Ekran Görüntüsü\" Düzelt</string>
-    <string name="fix_screenshot_position_summary">Bazı cihazlarda güç düğmesine eklenen özelliklerden dolayı kayma yaşanır. Bu seçenek ile bu sorunu giderebilirsiniz. Eğer güç seçenelerinde bir sorun yoksa bu seçeneği <b>açmayınız</b>.</string>
-    <string name="take_screenshot">Ekran Görüntüsü</string> 
-    <string name="power_reboot">Yeniden Başlat</string> 
-    <string name="power_reboot_options">Yeniden Başlatma Seçenekleri</string> 
-    <string name="power_reboot_normal">Normal</string> 
-    <string name="power_reboot_recovery">Recovery</string> 
-    <string name="power_reboot_hot">Hızlı Reboot</string> 
-    <string name="power_reboot_bootloader">Bootloader</string> 
-    <string name="power_reboot_switch_system">Switch system (Mi telefonlar)</string> 
-    <string name="power_reboot_system_1">Reboot to System 1</string> 
-    <string name="power_reboot_system_2">Reboot to System 2</string> 
-    <string name="power_cancel">İptal</string> 
-    <!-- Device -->
-    <string name="device">Cihaz</string>
-    <string name="screenshot_delay">Ekran Görüntüsü Gecikmesi (ms)</string>
-    <string name="all_rotations_summary">Baş aşağı da dahil olmak üzere tüm açıları etkinleştir</string>
-    <string name="all_rotations">Tüm dönme açılarını etkinleştir</string>
-    <string name="lockscreen_rotations_summary">Kilit ekranında yatay olarak dönmeye izin verir</string>
-    <string name="lockscreen_rotations">Kilit Ekranında Döndür</string>
-    <string name="custom_build_prop">Cihaz Özellikleri</string>
-    <string name="custom_build_prop_summary">Özel build.prop değerleri belirle</string>
-    <string name="enable_custom_build_prop_summary">Değerler yeniden başlatmadan sonra etkinleşir.\nFiziksel build.prop değişmez</string>
-    <string name="enable_custom_build_prop">Özelleştirilmiş Değerleri Kullan</string>
-    <string name="custom_build_prop_board_value">Özel bir board değeri ayarlayın</string>
-    <string name="custom_build_prop_board">Board</string>
-    <string name="custom_build_prop_brand_value">Özel bir marka değeri ayarlayın</string>
-    <string name="custom_build_prop_brand">Marka</string>
-    <string name="custom_build_prop_device_value">Özel bir cihaz değeri ayarlayın</string>
-    <string name="custom_build_prop_device">Cihaz</string>
-    <string name="custom_build_prop_model_value">Özel bir model değeri ayarlayın</string>
-    <string name="custom_build_prop_model">Model</string>
-    <string name="custom_build_prop_name_value">Özel bir isim değeri ayarlayın</string>
-    <string name="custom_build_prop_name">İsim</string>
-    <!-- Buttons -->
-    <string name="buttons">Düğmeler</string>
-    <string name="buttons_summary">Düğme eşleştirmeleri, eylemler vb.</string>
-    <string name="key_menu">Menü</string>
-    <string name="key_volume">Ses</string>
-    <string name="double_click_menu_app_summary">Çift dokunmada MENU düğmesi eylemi</string>
-    <string name="double_click_menu_app">Menü düğmesine çift dokunuş</string>
-    <string name="long_press_menu_action_summary">%s</string>
-    <string name="long_press_menu_action">Menü düğmesine uzun basma eylemi</string>
-    <string name="double_tap_menu_action_summary">%s</string>
-    <string name="double_tap_menu_action">MENÜ tuşuna çift tıklama ile başlatmak için uygulama seçin</string>
-    <string name="menu_action_default">Varsayılan</string>
-    <string name="menu_action_previous_app">Önceki uygulamayı başlat</string>
-    <string name="menu_action_sleep">Ekranı kilitle</string>
-    <string name="menu_action_custom_app">Özel uygulama başlat</string>
-    <string name="menu_action_torch">El feneri</string>
-    <string name="vol_key_cursor">Ses tuşları ile imleç kontrolü</string>
-    <string name="vol_key_cursor_summary">Metin alanındaki imleç kontolü için ses tuşları kullanımına olanak verir</string>
-    <string name="vol_key_cursor_reverse">Ters tuşlar</string>
-    <string name="vol_key_cursor_reverse_summary">İmleç kontrolün de tuşları ters kullan</string>
-    <string name="long_press_track_skip">Ses tuşları ile şarkı atla</string>
-    <string name="long_press_track_skip_summary">Ses tuşları üzerinde uzun basarak önceki/sonraki parçaya atlar (Sadece ekran kapalı olduğunda)</string>
-    <string name="swap_long_press_skip_keys">Ters tuşlar</string>
-    <string name="swap_long_press_skip_keys_summary">Şarkı atlamada tuşları ters kullan</string>
-    <string name="navigation_bar">Gezin Çubuğu</string>
-    <string name="show_navigation_bar_summary">Gezinti çubuğunu göster (Nexus gibi)</string>
-    <string name="show_navigation_bar">Gezinti çubuğunu göster</string>
-    <string name="navigation_bar_height_summary">Yükseklik: %s</string>
-    <string name="navigation_bar_height">Gezinti Çubuğu Yüksekliği</string>
-    <string name="navigation_bar_color">Gezinti çubuğu rengi</string>
-	<string name="navigation_bar_color_summary">Gezinti çubuğunun arkaplan rengi</string>
-    <!-- Sound -->
-    <string name="sound">Ses</string>
-    <string name="sound_summary">Ses ile ilgili ayarlar</string>
-    <string name="disable_safe_volume_warning">Güvenlik ses uyarı devre dışı</string>
-    <string name="disable_safe_volume_warning_summary">Kualklık ile müzik dinleme esnasında güvenlik ses uyarını devre dışı bırakır</string>
-    <string name="disable_numberpicker_sound">Numara seçim sesleri devredışı</string>
-    <string name="disable_numberpicker_sound_summary">Takvim, Alarm vb gibi uygulamalarda numara seçim seslerini devre dışı bırakır</string>
-    <string name="disable_volume_control_sound">Bip sesi devre dışı</string>
-    <string name="disable_volume_control_sound_summary">Ses tuşları ile ses düzeyi ayarlama esnasında ki çirkin sesi devre dışı bırakır</string>
-    <string name="unlink_notification_volume">Unlink notif. volume</string>
-    <string name="unlink_notification_volume_summary">Separate ringtone &amp; notifications volume settings</string>
-    <string name="volume_ring_description">Zilses</string>
-    <string name="volume_notification_description">Bildirimler</string>
-    <string name="volume_step">Ses seviyesi</string>
-    <string name="volume_steps_voice_call">Arama sesi</string>
-    <string name="volume_steps_system">Sistem</string>
-    <string name="volume_steps_ring">Ring</string>
-    <string name="volume_steps_music">Müzik</string>
-    <string name="volume_steps_alarm">Alarm</string>
-    <string name="volume_steps_notification">Bildirim</string>
-    <string name="volume_steps_bluetooth">Bluetooth</string>
-    <!-- Advanced -->
-    <string name="advanced">Gelişmiş</string>
-    <string name="extra_battery_info_summary">Pil ayarları görünümüne ekstra pil bilgisi ekler</string>
-    <string name="extra_battery_info">Ekstra pil bilgisi</string>
-    <string name="disable_scrolling_cache_summary">Liste görünüm nesneleri için önbelleği devre dışı bırakır</string>
-    <string name="disable_scrolling_cache">Kaydırma Önbelleği</string>
-    <!-- Launcher prefs-->
-    <string name="launcher">Launcher</string>
-    <string name="launcher_summary">Launcher ile iligili ayarlar</string>
-    <string name="hide_icons_label">Simge etiketlerini gizle</string>
-    <string name="hide_icons_label_summary">Başlatıcı etiketlerini gizlemenizi sağlar</string>
-    <string name="hide_hotseats_label">Hotseats etiketlerini gizle</string>
-    <string name="hide_hotseats_label_summary">Hotseats etiketlerini gizlemenizi sağlar</string>
-    <string name="hide_hotseats_bar">Hide hotseats (dock)</string>
-    <string name="hide_hotseats_bar_summary">Allows you to to hide launcher hotseats (bottom dock) to get more space for app icons</string>
-    <string name="hide_folders_label">Klasör etiketlerini gizle</string>
-    <string name="hide_folders_label_summary">Klasör etiketlerini gizlemenizi sağlar</string>
-    <string name="config_folder_columns_count">Klasör sütunları</string>
-    <string name="config_folder_columns_count_summary">Klasör sütunları (açık durumda): %s</string>
-    <string name="config_launcher_icons_size">Launcher simge boyutları</string>
-    <string name="config_launcher_icons_size_summary">Launcher simge boyutu(beta): %s</string>
-    <string name="launcher_font_size_summary">Başlatıcı simgelerinin metin boyutu:\n%s</string>
-    <string name="launcher_font_size">Yazı tipi boyutu</string>
-    <string name="multiline_labels_summary">çok satırlı simge/klasör etiketleri kullan</string>
-    <string name="multiline_labels">Çok satırlı etiketler</string>
-    <string name="set_launcher_icons_color_summary">Özel simge/klasör etiketleri rengi kullan</string>
-    <string name="set_launcher_icons_color">Özel simge metin rengi</string>
-    <string name="launcher_icons_color_summary">Başlatıcı simge/klasör  etiket rengi seç</string>
-    <string name="launcher_icons_color">Simgelerin metin rengi</string>
-    <string name="hide_launcher_apps_title">Seçilen simgeleri gizle</string>
-    <string name="hide_launcher_apps_summary">Seçilen uygulamaları ana ekrandan gizleyebilirsiniz.</string>
-    <string name="hide_launcher_apps_list">Uygulama listesi</string>
-    <!-- Applications prefs-->
-    <string name="applications">Uygulamalar</string>
-    <string name="applications_summary">MIUI Uygulama ayarları</string>
-    <!-- Notifications -->
-    <string name="apps_notifications">Bildirimler</string>
-    <string name="show_notification_bubble">Kabarcık bildirimleri göster</string>
-    <string name="show_notification_bubble_summary">Uygulamaların simgelerinde kabarcık bildirimlerini gösterir</string>
-    <string name="notification_bubble_apps">Uygulamalar listesi</string>
-    <!-- Phone -->
-    <string name="app_phone">Telefon</string>
-    <string name="national_roaming">Ulusal Veri Dolaşımı</string>
-    <string name="national_roaming_summary">Ulasal dolaşım sırasında veri hizmetlerine bağanın</string>
-    <!-- MMS -->
-    <string name="app_mms">Mesajlaşma</string>
-    <string name="disable_sms_to_mms_conversion">Uzun mesajlara izin ver</string>
-    <string name="disable_sms_to_mms_conversion_summary">9 sayfa SMSden sonra MMS dönüşmeyi devredışı bırakır</string>
-    <string name="mms_unicode_stripping">Strip unicode</string>
-    <string name="mms_unicode_stripping_summary">Converts unicode characters to normal.\nMode:%s\nBazı cihazlarda (henüz) çalışmıyor!</string>
-    <string name="mms_unicode_stripping_leave_intact">Leave characters intact</string>
-    <string name="mms_unicode_stripping_non_encodable">Strip non-encodable characters</string>
-    <string name="mms_unicode_stripping_all">Strip all unicode characters</string>
-    <string name="festival_update_server">Festival update server</string> 
-    <string name="festival_update_server_summary">%s</string>
-    <!-- Calendar -->
-    <string name="app_calendar">Takvim</string>
-    <string name="holidays_update_server">Tatil Güncelleme Sunucusu</string> 
-    <string name="holidays_update_server_summary">%s</string>
-    <string name="holidays_selector_country">Tatil Ülkesi</string>
-    <string name="holidays_selector_country_summary">%s</string>
-    <string name="holidays_selector_country_original">Original (chinese)</string> 
-    <string name="holidays_selector_country_russia">Rusya</string>
-    <string name="holidays_selector_country_belarus">Belarus</string>
-    <string name="holidays_selector_country_kazakhstan">Kazakistan</string>
-    <string name="holidays_selector_country_turkmenistan">Turkmenistan</string>
-    <string name="holidays_selector_country_ukraine">Ukrayna</string> 
-    <string name="holidays_selector_country_slovakia">Slovakya</string>
-    <string name="holidays_selector_country_czech">Çek Cumhuriyeti</string>
-    <string name="holidays_selector_country_poland">Polanya</string>
-    <!-- QuickSearchBox -->
-    <string name="app_quicksearchbox">Hızlı Arama Kutusu</string>
-    <string name="quicksearchbox_marketplace">MarketPlace de ara</string>
-    <string name="quicksearchbox_marketplace_summary">Marketplace to search:\n%s</string>
-    <!-- Browser -->
-    <string name="app_browser">Tarayıcı</string>
-    <string name="browser_autofit_pages">Sayfaya Sığdırma</string>
-    <string name="browser_autofit_pages_summary">Genel tarayıcı ayarlarına \"Mobil Görünüm\" seçeneği ekler</string>
-    <!-- Music -->
-    <string name="app_music">Müzik</string>
-    <string name="launch_playback_screen">Launch playback screen</string>
-    <string name="launch_playback_screen_summary">Launch playback screen in Music player on pop-up widget click. By default, the main screen opens</string>
-    <string name="disable_albumart_download">Albüm bilgilerini indirme</string>
-    <string name="disable_albumart_download_summary">Otomatik albüm bilgilerini indirmeyi devre dışı bırakır</string>
-    <!-- Themes -->
-    <string name="app_themes">Temalar</string>
-    <string name="themes_reverse_tabs_order">Ters sekmeler düzeni</string>
-    <string name="themes_reverse_tabs_order_summary">Yerel için sekme düzenini değiştir, Kategoriler, Populer, Öne Çıkan</string>
-    <string name="themes_replace_lunar_dates">Replace Lunar dates</string>
-    <string name="themes_replace_lunar_dates_summary">Try to find and replace Lunar dates with Gregorian ones in themes (lockscreens)</string>
-    <!-- Supermarket -->
-    <string name="app_supermarket">Supermarket</string>
-    <string name="supermarket_reverse_tabs_order">Ters sekmeler düzeni</string>
-    <string name="supermarket_reverse_tabs_order_summary">Yerel için sekme düzenini değiştir, Kategoriler, Populer, Öne Çıkan</string>
-    <string name="supermarket_disable_autoupdates_check">Güncelleme kontrolü devre dışı</string>
-    <string name="supermarket_disable_autoupdates_check_summary">Otomatik güncelleme kontrollerini devre dışı bırakır.</string>
-    <!-- Updater -->
-    <string name="app_updater">Updater</string>
-    <string name="updater_disable_autoupdates_check">Güncelleme kontrolü devre dışı</string>
-    <string name="updater_disable_autoupdates_check_summary">Otomatik güncelleme kontrollerini devre dışı bırakır.</string>
-    <string name="updater_english_changelog">İngilizce Değişiklikler</string>
-    <string name="updater_english_changelog_summary">ROM değişikliklerini ingilizce göstermeye zorla</string>
-    <!-- MiuiGallery -->
-    <string name="app_miuigallery">Galari</string>
-    <string name="cloud_upload_delay">Bulut yükleme geçikmesi</string>
-    <string name="cloud_upload_delay_summary">MiCloud yeni fotoğraf yüklemeden önce gecikme süresi.\n%s</string>
-    <string name="gallery_old_videoplayer">MiuiVideoPlayer Kullan</string>
-    <string name="gallery_old_videoplayer_summary">MiuiVideoPlayer.apk dosyasının /system/app klasöründe olması gerekir.</string>
+If you never heard about \"soft brick\" and \"bootloop\" before or if you don't know how to recover from such a situation, do "<b>NOT</b>" install Xposed!
+
+In any case, having a recent backup is highly recommended. "</string>
+    <string name="install_mode_normal">Normal (write to /system directly)</string>
+    <string name="install_mode_recovery_auto">Recovery (flash zip automatically)</string>
+    <string name="install_mode_recovery_manual">Recovery (write zip to SD card, flash manually)</string>
+    <string name="files_dir_location">Files: %s</string>
+    <string name="root_failed">"Failed to get root access.
+
+Make sure your device is rooted properly and you have not blocked shell commands."</string>
+    <string name="file_extract_failed">Could not extract %s</string>
+    <string name="file_mounting_writable">Mounting %s writable…</string>
+    <string name="file_mount_writable_failed">Could not mount %s writable</string>
+    <string name="file_trying_to_continue">Trying to continue anyway…</string>
+    <string name="file_backup_already_exists">Backup already exists at %s</string>
+    <string name="file_backup_not_found">No backup found at %s</string>
+    <string name="file_backup_failed">Failed to create a backup of %s</string>
+    <string name="file_backup_successful">Created backup at %s</string>
+    <string name="file_backup_restoring">Restoring backup from %s</string>
+    <string name="file_copying">Copying %s…</string>
+    <string name="file_copy_failed" formatted="false">Could not copy %1$s to %2$s</string>
+    <string name="file_move_failed" formatted="false">Could not move %1$s to %2$s</string>
+    <string name="file_set_perms_failed">Could not set permissions for %s</string>
+    <string name="file_set_owner_failed">Could not set owner for %s</string>
+    <string name="file_removing">Removing %s…</string>
+    <string name="file_remove_failed">Could not remove %s</string>
+    <string name="file_done">Done! Changes will become active on reboot.</string>
+    <string name="repo_download_failed_http" formatted="false">Downloading %1$s failed: %2$d (%3$s)</string>
+    <string name="repo_download_failed" formatted="false">Downloading %1$s failed: %2$s</string>
+    <string name="repo_load_failed" formatted="false">"Cannot load repository from %1$s:
+%2$s"</string>
+    <string name="changes">Changes:</string>
+    <string name="release_type_stable">Stable</string>
+    <string name="release_type_stable_summary">Stable (low risk of bugs)</string>
+    <string name="release_type_beta">Beta</string>
+    <string name="release_type_beta_summary">Beta (some bugs to be expected)</string>
+    <string name="release_type_experimental">Experimental</string>
+    <string name="release_type_experimental_summary">Experimental (high risk of bugs)</string>
+    <string name="download_author">by %s</string>
+    <string name="download_unknown_author">unknown author</string>
+    <string name="download_status_version">Version: %1$s</string>
+    <string name="download_status_update_available">" → %1$s"</string>
+    <string name="download_timestamps" formatted="false">Added on %1$s · Updated on %2$s</string>
+    <string name="download_sorting_title">Sorting order</string>
+    <string name="download_sorting_status">Sort by status</string>
+    <string name="download_sorting_updated">Sort by last update</string>
+    <string name="download_sorting_created">Sort by creation date</string>
+    <string name="download_section_framework">Framework</string>
+    <string name="download_section_update_available">Update available</string>
+    <string name="download_section_installed">Installed</string>
+    <string name="download_section_not_installed">Not installed</string>
+    <string name="download_section_24h">Last 24 hours</string>
+    <string name="download_section_7d">Last 7 days</string>
+    <string name="download_section_30d">Last 30 days</string>
+    <string name="download_section_older">More than 30 days ago</string>
+    <string name="modules_search_hint">Search</string>
+    <string name="download_md5sum_incorrect" formatted="false">MD5 sum is incorrect (downloaded: %1$s, expected: %2$s)</string>
+    <string name="download_could_not_read_file">Could not read downloaded file: %s</string>
+    <string name="download_no_valid_apk">Downloaded file is not a valid APK (or incompatible)</string>
+    <string name="download_incorrect_package_name" formatted="false">Package name is incorrect (downloaded: %1$s, expected: %2$s)</string>
+    <string name="download_view_download">Download</string>
+    <string name="download_view_install">Install</string>
+    <string name="download_view_cancel">Cancel</string>
+    <string name="download_view_no_url">No download URL available</string>
+    <string name="download_view_running" formatted="false">Download is running (%1$,d of %2$,d kB)</string>
+    <string name="download_view_waiting">Download is waiting</string>
+    <string name="download_view_successful">Download successful</string>
+    <string name="download_view_failed">Download failed (error %d)</string>
+    <string name="module_installed">WSM module installed</string>
+    <string name="module_empty_description">(no description provided)</string>
+    <string name="module_no_ui">This module does not provide a user interface</string>
+    <string name="no_wsm_modules_found">No WSM modules were found!</string>
+    <string name="wsm_module_list_updated">"WSM module list was updated
+Changes will become active on reboot"</string>
+    <string name="warning_wsm_min_version">This module needs WSM %s so it could not be activated.</string>
+    <string name="no_min_version_specified">This module does not specify the WSM version it needs.</string>
+    <string name="warning_min_version_too_low" formatted="false">This module was created for WSM version %1$s, but due to incompatible changes in version %2$s, it has been disabled.</string>
+    <string name="btnDeleteModule">Delete module</string>
+    <string name="module_settings">Module settings</string>
+    <string name="module_description">Module description</string>
+    <string name="module_info_version">Version</string>
+    <string name="modules_count" formatted="false">Modules: %1$d | Active: %2$d</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_save_to_sdcard">Save to SD card</string>
+    <string name="logs_load_failed">Could not read log:</string>
+    <string name="logs_save_failed">Could not write log to SD card:</string>
+    <string name="sdcard_not_writable">SD card not found or not writable</string>
+    <string name="log_too_large" formatted="false">Log file is larger than %1$,d kB, skipped first %2$,d kB</string>
+    <string name="bottom_bar_btn_clear">Clear</string>
+    <string name="logs_cleared">Log successfully cleared</string>
+    <string name="logs_clear_failed">Could not clear the log:</string>
+    <string name="log_is_empty">Log is empty</string>
+    <string name="donate">Donate</string>
+    <string name="donations_button_close">Close</string>
+    <string name="donations_description">"Do you find this application useful?
+Support it's development by sending donations to the developer!"</string>
+    <string name="donations_thanks_dialog">"Thanks for donating!
+I really appreciate this!"</string>
+    <string name="donations_thanks_dialog_title">Thanks!</string>
+    <string name="donations_paypal">PayPal</string>
+    <string name="donations_yandex">Yandex.Money</string>
+    <string name="donations_paypal_description">You can choose how much you want to donate after clicking the button!</string>
 </resources>
