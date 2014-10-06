@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Herramienta WMS</string>
+    <string name="apply">Aplicar</string>
+    <string name="act_title_settings">Ajustes</string>
+    <string name="act_title_xposed_settings">Ajustes Xposed</string>
+    <string name="act_title_about">Acerca de</string>
+    <string name="act_title_installer">Gestionar</string>
+    <string name="act_title_whatsnew">Novedades</string>
+    <string name="fragment_modules">Módulos</string>
+    <string name="fragment_online">Online</string>
+    <string name="fragment_logs">Registro</string>
+    <string name="versions_wsm_tools">Versión WSM tools</string>
+    <string name="author">Autor</string>
+    <string name="graphics">Gráficos</string>
+    <string name="check_for_updates">Buscar actualizaciones</string>
+    <string name="copyright">BurgerZ MD (http://burgerz.pro)\nCopyright © 2013-2014, All Rights Reserved</string>
+    <string name="copyright_xposed">Basado en Xposed</string>
+    <string name="information_faq">Información</string>
+    <string name="information_faq_summary">F.A.Q., traducciones, creditos, ayuda</string>
+
+    <!-- SettingsActivity -->
+    <string name="pref_feedback_title">Valoraciones</string>
+    <string name="pref_feedback_summary">Notificar error, solicitar módulo, etc.\n(Solo en Ingles o Ruso!)</string>
+    <string name="pref_manage_title">Gestión WSM</string>
+    <string name="pref_manage_summary">Instalar, Actualizar, Eliminar</string>
+    <string name="pref_repositories_alert">Algunos módulos Xposed quizás no funcionen o hagan que tu dispositivo no inicie correctamente!\nÚsalos bajo tu responsabilidad!</string>
+    <string name="pref_repositories_title">Seleccionar repósitos</string>
+    <string name="pref_install_mode">Modo de instalación</string>
+    <string name="pref_show_hidden_modules_title">Mostrar módulos ocultos</string>
+    <string name="pref_show_hidden_modules_summary">Muestra módulos ocultos en la lista</string>
+    <string name="pref_show_logs_tab_title">Mostrar pestaña registros</string>
+    <string name="pref_show_logs_tab_summary">Muestra la pestaña para consultar registros</string>
+    <string name="pref_show_module_info_title">Mostrar información del módulo</string>
+    <string name="pref_show_module_info_summary">Muestra información del módulo clicando su icono</string>
+    <string name="pref_system_toasts_title">Notificaciones del sistema</string>
+    <string name="pref_system_toasts_summary">Muestra notificaciones WMS del sistema</string>
+    <string name="pref_about_title">Acerca</string>
+    <string name="pref_xposed_settings_title">Ajustes Xposed framework</string>
+    <string name="pref_xposed_settings_summary">Diferentes ajustes relacionados con Xposed framework</string>
+
+    <!-- XposedSettingsActivity -->
+    <string name="pref_disable_xposed_title">Deshabilitar Xposed</string>
+    <string name="pref_disable_xposed_summary">Deshabilita la carga de Xposed durante el inicio.\n(\"conf/disabled\")</string>
+    <string name="pref_xposed_safemode_title">Modo seguro Xposed</string>
+    <string name="pref_xposed_safemode_summary">Detecta combinaciones para recuperacion tras un bootloop. Upon startup, una de las teclas físicas debe ser pulsada durante los 2 primeros segundos (o todavia presionadas already held down upfront). Después de esto, la misma tecla debe ser presionada within 5 seconds, hasta un total de 5 pulsaciones.\n(\"conf/safemode_disable\")</string>
+    <string name="pref_xposed_safemode_nodelay_title">Desactivar retardo en modo seguro</string>
+    <string name="pref_xposed_safemode_nodelay_summary">Los 2 segundos iniciales pueden ser deshabilitados desde configuración, en ese caso, una de las teclas debe estar pulsado cuando la detección se inicie, sinó la detección fallará y no se introducirán retardos.\n(\"conf/safemode_nodelay\")</string>
+    <string name="pref_enable_for_tools_title">Habilitar para Herramientas</string>
+    <string name="pref_enable_for_tools_summary">Carga la herramienta de linea de comandos Xposed.\n(\"conf/enable_for_tools\")</string>
+    <string name="pref_disable_resources_title">Deshabilitar enlaces de recursos</string>
+    <string name="pref_disable_resources_summary">Solución para los conflictos con motores de temas\n<b>ALERTA:</b> Los módulos que traten de cambiar los recursos no funcionarán cuando esto esté habilitado.\n(\"conf/disable_resources\")</string>
+
+    <string name="bottom_bar_btn_manage">Framework</string>
+    <string name="bottom_bar_btn_settings">Ajustes</string>
+    <string name="bottom_bar_btn_reboot">Reinicio</string>
+    <string name="bottom_bar_btn_refresh">Update</string>
+    <string name="bottom_bar_btn_repo">Repositos</string>
+    <string name="bottom_bar_btn_save">Guardar</string>
+    <string name="bottom_bar_btn_send">Enviar</string>
+    <string name="bottom_bar_btn_sort">Ordenar</string>
+    <string name="bottom_bar_btn_whatsnew">Novedades</string>
+    <string name="whatsnew_changelog">Cámbios Pre-lanzamiento:</string>
+    <string name="module_opt_hide_title">Ocultar módulo</string>
+    <string name="module_opt_hide_summary">Para mostrar módulos ocultos active la opción "Mostrar módulos ocultos"</string>
+    <string name="dialog_are_you_sure">¿Está seguro?</string>
+    <string name="dialog_phone_will_be_rebooted">El teléfono se reiniciará</string>
+    <string name="dialog_progress_updating">Actualizando&#8230;</string>
+    <string name="dialog_update_available">Nueva versión de WSM tools disponible.\nInstalada: %1$s\nDisponible: %2$s\nDespués de instalar una nueva versión ir a Ajustes - Gestionar WMS y compruebe si se necesita actualizar binary.</string>
+    <string name="menu_select_all">Seleccionar todo</string>
+    <string name="menu_unselect_all">Limpiar selección</string>
+
+    <!-- InstallerActivity -->
+    <string name="installer_log">REGISTRO</string>
+    <string name="installer_install">Instalar</string>
+    <string name="installer_uninstall">Desinstalar</string>
+    <string name="installer_reboot">Reiniciar</string>
+    <string name="installer_versions">VERSIONES:</string>
+    <string name="installer_installed_version">VERSIÓN INSTALADA</string>
+    <string name="installer_bundled_version">VERSIÓN INCLUIDA</string>
+    <string name="installer_phone_not_compatible">WSM no es (todavía) compatible con la versión Android SDK %1$d o la arquitectura de tú procesador (%2$s).</string>
+    <string name="installer_not_tested_but_compatible">WSM no ha sido probado con la versión Android SDK %d, pero parece compatible. Puede probar a instalarlo si se siente aventurero.</string>
+    <string name="installer_active_dexspy_found">Active Dexspy encontrado. Archivos binarios compatibles serán usados.</string>
+    <string name="installer_inactive_dexspy_found">Dexspy encontrado, pero parece no estar activo. Archivos binarios comunes seran usados.</string>
+    <string name="reboot_failed">Fallo al reiniciar. Por favor use la función de reinicio normal del dispositivo.</string>
+    <string name="reboot">Reiniciar</string>
+    <string name="auto_flash_note">%s debería ser flasheado automáticamente cuando pulse "OK".</string>
+    <string name="manual_flash_note">Por favor, flasehar %s desde la tarjeta SD para completar la operación.</string>
+    <string name="reboot_confirmation">¿Desea reiniciar ahora?</string>
+    <string name="reboot_recovery_confirmation">¿Desea reiniciar en Modo Recovery ahora?</string>
+    <string name="file_creating_directory">Creando directorio %s…</string>
+    <string name="file_create_directory_failed">No se pudo crear el directorio %s</string>
+    <string name="file_writing_recovery_command">Escribiendo comonados recovery…</string>
+    <string name="file_writing_recovery_command_failed">Fallo al escribir comandos recovery. Por favor, use otro método de instalación.</string>
+    <string name="install_warning">En algunos casos, el dispositivo podría no arrancar después de instalar Xposed.\n\nSi nunca ha oído antes hablar sobre \"soft brick\" y \"bootloop\" o si no sabe como recuperarse de esa situación, por favor,
+    <b>NO</b>
+    instale Xposed!\n\nEn cualquier caso, tener una copia de seguridad reciente es altamente recomendado.
+    </string>
+    <string name="install_mode_normal">Normal (escribe en la carpeta /system)</string>
+    <string name="install_mode_recovery_auto">Recovery (flashea zip automáticamente)</string>
+    <string name="install_mode_recovery_manual">Recovery (escribe zip en la SD card, flasheo manual)</string>
+    <string name="files_dir_location">Archivos: %s</string>
+
+    <!--  File operations -->
+    <string name="root_failed">Fallo al obtener acceso root.\n\nAsegúrese de que su dispositivo esta rooteado correctamente y no tiene bloqueados los comandos shell.</string>
+    <string name="file_extract_failed">No se pudo extraer %s</string>
+    <string name="file_mounting_writable">Montando %s como escritura&#8230;</string>
+    <string name="file_mount_writable_failed">No se pudo montar %s para escritura</string>
+    <string name="file_trying_to_continue">Intentando continuar de cualquier forma&#8230;</string>
+    <string name="file_backup_already_exists">El backup todavía existe en %s</string>
+    <string name="file_backup_not_found">No se encontraron backups en %s</string>
+    <string name="file_backup_failed">Fallo al crear backup de %s</string>
+    <string name="file_backup_successful">Creado backup en %s</string>
+    <string name="file_backup_restoring">Restaurando backup desde %s</string>
+    <string name="file_copying">Copiando %s&#8230;</string>
+    <string name="file_copy_failed">No se pudo copiar %1$s a %2$s</string>
+    <string name="file_move_failed">No se pudo mover %1$s a %2$s</string>
+    <string name="file_set_perms_failed">No se pudieron establecer permisos para %s</string>
+    <string name="file_set_owner_failed">No se pudo ajustar propietario para %s</string>
+    <string name="file_removing">Eliminando %s&#8230;</string>
+    <string name="file_remove_failed">No se pudo eliminar %s</string>
+    <string name="file_done">Hecho! Los cambios se aplicarán después de reiniciar.</string>
+
+    <!-- RepoLoader -->
+    <string name="repo_download_failed_http">Descargando %1$s fallido: %2$d (%3$s)</string>
+    <string name="repo_download_failed">Descargando %1$s fallido: %2$s</string>
+    <string name="repo_load_failed">No se pudo cargar repósitos desde %1$s:\n%2$s</string>
+
+    <!-- Download tab -->
+    <string name="changes">Cámbios:</string>
+    <string name="release_type_stable">Estable</string>
+    <string name="release_type_stable_summary">Estable (bajo riesgo de errores)</string>
+    <string name="release_type_beta">Beta</string>
+    <string name="release_type_beta_summary">Beta (se esperan algunos errores)</string>
+    <string name="release_type_experimental">Experimental</string>
+    <string name="release_type_experimental_summary">Experimental (alto riesgo de errores)</string>
+    <string name="download_author">por %s</string>
+    <string name="download_unknown_author">Autor desconocido</string>
+    <string name="download_status_version">Versión: %1$s</string>
+    <string name="download_status_update_available">" \u2192 %1$s"</string>
+    <string name="download_timestamps">Añadido el %1$s \u00b7 Actualizado el %2$s</string>
+    <string name="download_sorting_title">Ordenar por</string>
+    <string name="download_sorting_status">Ordenar por estado</string>
+    <string name="download_sorting_updated">Ordenar por última actualización</string>
+    <string name="download_sorting_created">Ordenar por fecha de creación</string>
+    <string name="download_section_framework">Framework</string>
+    <string name="download_section_update_available">Actualización disponible</string>
+    <string name="download_section_installed">Instalado</string>
+    <string name="download_section_not_installed">No instalado</string>
+    <string name="download_section_24h">Últimas 24 horas</string>
+    <string name="download_section_7d">Últimos 7 días</string>
+    <string name="download_section_30d">Últimos 30 días</string>
+    <string name="download_section_older">Hace más de 30 días</string>
+
+    <!-- DownloadUtils -->
+    <string name="download_md5sum_incorrect">MD5 sum incorrecto (descargado: %1$s, esperado: %2$s)</string>
+    <string name="download_could_not_read_file">No se puede leer el archivo descargado: %s</string>
+    <string name="download_no_valid_apk">El archivo descargado no es un APK válido (o es incompatible)</string>
+    <string name="download_incorrect_package_name">Nombre del paquete incorrecto (descargado: %1$s, esperado: %2$s)</string>
+
+    <!--  DownloadView -->
+    <string name="download_view_download">Descargar</string>
+    <string name="download_view_install">Instalar</string>
+    <string name="download_view_cancel">Cancelar</string>
+    <string name="download_view_no_url">No hay URL de descarga disponible</string>
+    <string name="download_view_running">Descarga en proceso (%1$,d de %2$,d kB)</string>
+    <string name="download_view_waiting">Descarga en espera</string>
+    <string name="download_view_successful">Descargado correctamente</string>
+    <string name="download_view_failed">Error en la descarga (error %d)</string>
+
+    <string name="module_installed">Módulo WMS instalado</string>
+    <string name="module_empty_description">(sin descripción)</string>
+    <string name="module_no_ui">Este módulo no proporciona interfaz de usuario</string>
+    <string name="no_wsm_modules_found">Ningún módulo WSM fue encontrado!</string>
+    <string name="wsm_module_list_updated">Lista de módulos WMS actualizada\nLos cámbios se aplicarán despues del reinicio</string>
+    <string name="warning_wsm_min_version">Este módulo necesita WSM %s por tanto no puede ser activado.</string>
+    <string name="no_min_version_specified">Este módulo no especifica que versión WSM necesita.</string>
+    <string name="warning_min_version_too_low">Este módulo fue creado para la versión %1$s de WMS, debido a cámbios incompatibles en la versión %2$s, ha sido deshabilitado.</string>
+    <string name="btnDeleteModule">Eliminar módulo</string>
+
+    <!--  ModuleSettingsActivity -->
+    <string name="module_settings">Ajustes de módulos</string>
+    <string name="module_description">Descripción del módulo</string>
+    <string name="module_info_version">Versión</string>
+    <string name="modules_count">Módulos: %1$d | Activos: %2$d</string>
+
+    <!--  LogsFragment -->
+    <string name="menu_send">Enviar</string>
+    <string name="menu_save_to_sdcard">Guardar en Tarjeta SD</string>
+    <string name="logs_load_failed">No se pudo leer el registro:</string>
+    <string name="logs_save_failed">No se pudo escribir el registro en la tarjeta SD:</string>
+    <string name="sdcard_not_writable">Tarjeta SD no encontrada o sin acceso a escritura</string>
+    <string name="log_too_large">El archivo registro es mas superior a %1$,d kB, omitir primeros %2$,d kB</string>
+    <string name="bottom_bar_btn_clear">Limpiar</string>
+    <string name="logs_cleared">Registro limpiado correctamente</string>
+    <string name="logs_clear_failed">No se pudo limpiar el registro:</string>
+    <string name="log_is_empty">Registro vacio</string>
+
+    <!-- Donations -->
+    <string name="donate">Donar</string>
+    <string name="donations_button_close">Cerrar</string>
+    <string name="donations_description">¿Te parece buena esta aplicación?\nAyuda al desrrollador a dar soporte donando!</string>
+    <string name="donations_thanks_dialog">Gracias por tú donación!\nLo aprecio mucho!</string>
+    <string name="donations_thanks_dialog_title">Gracias!</string>
+    <string name="donations_paypal">PayPal</string>
+    <string name="donations_yandex">Yandex.Money</string>
+    <string name="donations_paypal_description">Puedes elegir la cantidad a donar después de pulsar el botón!</string>
+</resources>
