@@ -49,7 +49,7 @@
     <string name="pref_enable_for_tools_title">Habilitar para Herramientas</string>
     <string name="pref_enable_for_tools_summary">Carga la herramienta de linea de comandos Xposed.\n(\"conf/enable_for_tools\")</string>
     <string name="pref_disable_resources_title">Deshabilitar enlaces de recursos</string>
-    <string name="pref_disable_resources_summary">Workaround for conflicts with theming engines\n<b>WARNING:</b> Modules which try to change resources will not work when this is enabled.\n(\"conf/disable_resources\")</string>
+    <string name="pref_disable_resources_summary">Solución para los conflictos con motores de temas\n<b>ALERTA:</b> Los módulos que traten de cambiar los recursos no funcionarán cuando esto esté habilitado.\n(\"conf/disable_resources\")</string>
 
     <string name="bottom_bar_btn_manage">Framework</string>
     <string name="bottom_bar_btn_settings">Ajustes</string>
@@ -78,53 +78,53 @@
     <string name="installer_versions">VERSIONES:</string>
     <string name="installer_installed_version">VERSIÓN INSTALADA</string>
     <string name="installer_bundled_version">VERSIÓN INCLUIDA</string>
-    <string name="installer_phone_not_compatible">WSM is not (yet) compatible with Android SDK version %1$d or your processor architecture (%2$s).</string>
-    <string name="installer_not_tested_but_compatible">WSM has not been tested with Android SDK version %d, but it seems to be compatible. You can try installing it if you feel adventurous.</string>
-    <string name="installer_active_dexspy_found">Active Dexspy found. Compatible binaries will be used.</string>
-    <string name="installer_inactive_dexspy_found">Dexspy found, but it seems to be inactive. Common binaries will be used.</string>
-    <string name="reboot_failed">Reboot failed. Please use the device\'s normal reboot function.</string>
+    <string name="installer_phone_not_compatible">WSM no es (todavía) compatible con la versión Android SDK %1$d o la arquitectura de tú procesador (%2$s).</string>
+    <string name="installer_not_tested_but_compatible">WSM no ha sido probado con la versión Android SDK %d, pero parece compatible. Puede probar a instalarlo si se siente aventurero.</string>
+    <string name="installer_active_dexspy_found">Active Dexspy encontrado. Archivos binarios compatibles serán usados.</string>
+    <string name="installer_inactive_dexspy_found">Dexspy encontrado, pero parece no estar activo. Archivos binarios comunes seran usados.</string>
+    <string name="reboot_failed">Fallo al reiniciar. Por favor use la función de reinicio normal del dispositivo.</string>
     <string name="reboot">Reiniciar</string>
-    <string name="auto_flash_note">%s should be flashed automatically once you press "OK".</string>
-    <string name="manual_flash_note">Please flash %s from the SD card to complete the operation.</string>
-    <string name="reboot_confirmation">Do you want to reboot now?</string>
-    <string name="reboot_recovery_confirmation">Do you want to reboot to recovery now?</string>
-    <string name="file_creating_directory">Creating directory %s…</string>
-    <string name="file_create_directory_failed">Could not create directory %s</string>
-    <string name="file_writing_recovery_command">Writing recovery command…</string>
-    <string name="file_writing_recovery_command_failed">Writing recovery command failed. Please use a different installation method.</string>
-    <string name="install_warning">In some cases, your device might no longer boot after installing Xposed.\n\nIf you never heard about \"soft brick\" and \"bootloop\" before or if you don\'t know how to recover from such a situation, do
-    <b>NOT</b>
-    install Xposed!\n\nIn any case, having a recent backup is highly recommended.
+    <string name="auto_flash_note">%s debería ser flasheado automáticamente cuando pulse "OK".</string>
+    <string name="manual_flash_note">Por favor, flasehar %s desde la tarjeta SD para completar la operación.</string>
+    <string name="reboot_confirmation">¿Desea reiniciar ahora?</string>
+    <string name="reboot_recovery_confirmation">¿Desea reiniciar en Modo Recovery ahora?</string>
+    <string name="file_creating_directory">Creando directorio %s…</string>
+    <string name="file_create_directory_failed">No se pudo crear el directorio %s</string>
+    <string name="file_writing_recovery_command">Escribiendo comonados recovery…</string>
+    <string name="file_writing_recovery_command_failed">Fallo al escribir comandos recovery. Por favor, use otro método de instalación.</string>
+    <string name="install_warning">En algunos casos, el dispositivo podría no arrancar después de instalar Xposed.\n\nSi nunca ha oído antes hablar sobre \"soft brick\" y \"bootloop\" o si no sabe como recuperarse de esa situación, por favor,
+    <b>NO</b>
+    instale Xposed!\n\nEn cualquier caso, tener una copia de seguridad reciente es altamente recomendado.
     </string>
-    <string name="install_mode_normal">Normal (write to /system directly)</string>
-    <string name="install_mode_recovery_auto">Recovery (flash zip automatically)</string>
-    <string name="install_mode_recovery_manual">Recovery (write zip to SD card, flash manually)</string>
+    <string name="install_mode_normal">Normal (escribe en la carpeta /system)</string>
+    <string name="install_mode_recovery_auto">Recovery (flashea zip automáticamente)</string>
+    <string name="install_mode_recovery_manual">Recovery (escribe zip en la SD card, flasheo manual)</string>
     <string name="files_dir_location">Archivos: %s</string>
 
     <!--  File operations -->
-    <string name="root_failed">Failed to get root access.\n\nMake sure your device is rooted properly and you have not blocked shell commands.</string>
-    <string name="file_extract_failed">Could not extract %s</string>
-    <string name="file_mounting_writable">Mounting %s writable&#8230;</string>
-    <string name="file_mount_writable_failed">Could not mount %s writable</string>
-    <string name="file_trying_to_continue">Trying to continue anyway&#8230;</string>
-    <string name="file_backup_already_exists">Backup already exists at %s</string>
-    <string name="file_backup_not_found">No backup found at %s</string>
-    <string name="file_backup_failed">Failed to create a backup of %s</string>
-    <string name="file_backup_successful">Created backup at %s</string>
-    <string name="file_backup_restoring">Restoring backup from %s</string>
-    <string name="file_copying">Copying %s&#8230;</string>
-    <string name="file_copy_failed">Could not copy %1$s to %2$s</string>
-    <string name="file_move_failed">Could not move %1$s to %2$s</string>
-    <string name="file_set_perms_failed">Could not set permissions for %s</string>
-    <string name="file_set_owner_failed">Could not set owner for %s</string>
-    <string name="file_removing">Removing %s&#8230;</string>
-    <string name="file_remove_failed">Could not remove %s</string>
-    <string name="file_done">Done! Changes will become active on reboot.</string>
+    <string name="root_failed">Fallo al obtener acceso root.\n\nAsegúrese de que su dispositivo esta rooteado correctamente y no tiene bloqueados los comandos shell.</string>
+    <string name="file_extract_failed">No se pudo extraer %s</string>
+    <string name="file_mounting_writable">Montando %s como escritura&#8230;</string>
+    <string name="file_mount_writable_failed">No se pudo montar %s para escritura</string>
+    <string name="file_trying_to_continue">Intentando continuar de cualquier forma&#8230;</string>
+    <string name="file_backup_already_exists">El backup todavía existe en %s</string>
+    <string name="file_backup_not_found">No se encontraron backups en %s</string>
+    <string name="file_backup_failed">Fallo al crear backup de %s</string>
+    <string name="file_backup_successful">Creado backup en %s</string>
+    <string name="file_backup_restoring">Restaurando backup desde %s</string>
+    <string name="file_copying">Copiando %s&#8230;</string>
+    <string name="file_copy_failed">No se pudo copiar %1$s a %2$s</string>
+    <string name="file_move_failed">No se pudo mover %1$s a %2$s</string>
+    <string name="file_set_perms_failed">No se pudieron establecer permisos para %s</string>
+    <string name="file_set_owner_failed">No se pudo ajustar propietario para %s</string>
+    <string name="file_removing">Eliminando %s&#8230;</string>
+    <string name="file_remove_failed">No se pudo eliminar %s</string>
+    <string name="file_done">Hecho! Los cambios se aplicarán después de reiniciar.</string>
 
     <!-- RepoLoader -->
-    <string name="repo_download_failed_http">Downloading %1$s failed: %2$d (%3$s)</string>
-    <string name="repo_download_failed">Downloading %1$s failed: %2$s</string>
-    <string name="repo_load_failed">Cannot load repository from %1$s:\n%2$s</string>
+    <string name="repo_download_failed_http">Descargando %1$s fallido: %2$d (%3$s)</string>
+    <string name="repo_download_failed">Descargando %1$s fallido: %2$s</string>
+    <string name="repo_load_failed">No se pudo cargar repósitos desde %1$s:\n%2$s</string>
 
     <!-- Download tab -->
     <string name="changes">Cámbios:</string>
