@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_name">MiThemes</string>
+    <string name="module_desc">Download paid Themes without MiCredits</string>
+    <string name="module_desc_full">Allows you to download premium (paid) themes from the Chinese Market without any MiCredit payments.</string>
+</resources>

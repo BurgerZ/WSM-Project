@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="pro.burgerz.wsm.mods.mithemes"
+          android:installLocation="internalOnly"
+          android:versionCode="22"
+          android:versionName="2.2" >
+
+    <uses-sdk android:minSdkVersion="15" />
+
+    <application android:label="@string/module_name" android:icon="@drawable/icon">
+        <meta-data android:name="xposedmodule" android:value="true"/>
+        <meta-data android:name="xposedminversion" android:value="46+" />
+        <meta-data android:name="xposeddescription" android:value="@string/module_desc" />
+        <meta-data android:name="xposeddetails" android:value="@string/module_desc_full" />
+    </application>
+
+</manifest>
